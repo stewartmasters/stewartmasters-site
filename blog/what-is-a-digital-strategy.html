@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What is a Digital Strategy — and Why Most Companies Don't Actually Have One</title>
+  <meta name="description" content="Most organisations think they have a digital strategy. What they actually have is a list of technology projects. Here's what a real digital strategy looks like — and how to build one.">
+  <link rel="canonical" href="https://stewartmasters.netlify.app/blog/what-is-a-digital-strategy.html">
+  <meta property="og:title" content="What is a Digital Strategy — and Why Most Companies Don't Actually Have One">
+  <meta property="og:description" content="Most organisations think they have a digital strategy. What they actually have is a list of technology projects. Here's what a real digital strategy looks like.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://stewartmasters.netlify.app/blog/what-is-a-digital-strategy.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="What is a Digital Strategy — and Why Most Companies Don't Actually Have One">
+  <meta name="twitter:description" content="Most organisations think they have a digital strategy. What they actually have is a list of technology projects.">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "What is a Digital Strategy — and Why Most Companies Don't Actually Have One",
+    "description": "Most organisations think they have a digital strategy. What they actually have is a list of technology projects. Here's what a real digital strategy looks like — and how to build one.",
+    "author": {
+      "@type": "Person",
+      "name": "Stewart Masters",
+      "url": "https://stewartmasters.netlify.app"
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Stewart Masters",
+      "url": "https://stewartmasters.netlify.app"
+    },
+    "datePublished": "2026-03-18",
+    "dateModified": "2026-03-18",
+    "url": "https://stewartmasters.netlify.app/blog/what-is-a-digital-strategy.html",
+    "keywords": "digital strategy, what is a digital strategy, digital strategy framework, digital transformation strategy"
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { background-color: #0D0D0D; color: #fff; font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
+    ::-webkit-scrollbar { width: 5px; }
+    ::-webkit-scrollbar-track { background: #0D0D0D; }
+    ::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: #00D4FF; }
+    .font-heading { font-family: 'Space Grotesk', sans-serif; }
+    .max-container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      backdrop-filter: blur(24px);
+      background: rgba(13,13,13,0.85);
+      border-bottom: 1px solid #1c1c1c;
+    }
+    .nav-link { font-size: 14px; color: #666; text-decoration: none; transition: color 0.2s; }
+    .nav-link:hover { color: #fff; }
+    .btn-primary {
+      display: inline-block; background: #00D4FF; color: #0D0D0D;
+      font-family: 'Space Grotesk', sans-serif; font-weight: 600;
+      padding: 10px 22px; border-radius: 4px; text-decoration: none; font-size: 14px;
+      transition: background 0.2s;
+    }
+    .btn-primary:hover { background: #fff; }
+
+    /* Article prose */
+    .prose { max-width: 720px; margin: 0 auto; }
+    .prose h2 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.6rem; font-weight: 700;
+      color: #fff; margin-top: 3rem; margin-bottom: 1rem; line-height: 1.3;
+    }
+    .prose h3 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.15rem; font-weight: 600;
+      color: #ddd; margin-top: 2rem; margin-bottom: 0.6rem;
+    }
+    .prose p { color: #888; font-size: 17px; line-height: 1.85; margin-bottom: 1.5rem; }
+    .prose a { color: #00D4FF; text-decoration: underline; text-decoration-color: #00D4FF44; }
+    .prose a:hover { text-decoration-color: #00D4FF; }
+    .prose blockquote {
+      border-left: 3px solid #00D4FF; margin: 2rem 0;
+      padding: 1.25rem 1.5rem; background: #121212; border-radius: 0 6px 6px 0;
+    }
+    .prose blockquote p { color: #ccc; font-style: italic; margin: 0; font-size: 18px; line-height: 1.7; }
+    .prose ul { color: #888; font-size: 17px; line-height: 1.85; padding-left: 1.5rem; margin-bottom: 1.5rem; }
+    .prose li { margin-bottom: 0.6rem; }
+    .prose strong { color: #ddd; font-weight: 600; }
+    .prose hr { border: none; border-top: 1px solid #1e1e1e; margin: 3rem 0; }
+
+    .post-tag {
+      display: inline-block; font-size: 10px; font-weight: 500;
+      letter-spacing: 2px; text-transform: uppercase; color: #00D4FF;
+      border: 1px solid #00D4FF33; padding: 5px 12px; border-radius: 20px;
+    }
+    .author-box {
+      background: #121212; border: 1px solid #1e1e1e; border-radius: 10px;
+      padding: 28px; display: flex; gap: 20px; align-items: flex-start;
+    }
+    .author-avatar {
+      width: 56px; height: 56px; border-radius: 50%; background: #1e1e1e;
+      flex-shrink: 0; display: flex; align-items: center; justify-content: center;
+      font-size: 11px; color: #333;
+    }
+    .related-card {
+      background: #121212; border: 1px solid #1e1e1e; border-radius: 8px;
+      padding: 24px; text-decoration: none; display: block; transition: border-color 0.3s;
+    }
+    .related-card:hover { border-color: #2a2a2a; }
+
+    .cta-box {
+      background: #121212; border: 1px solid #1e1e1e; border-radius: 10px;
+      padding: 36px; text-align: center; margin: 3rem 0;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- Nav -->
+<nav>
+  <div class="max-container py-4 flex items-center justify-between">
+    <a href="../index.html" class="font-heading font-semibold text-white text-lg tracking-tight">Stewart Masters</a>
+    <div class="hidden md:flex items-center gap-8">
+      <a href="../index.html#about" class="nav-link">About</a>
+      <a href="../index.html#services" class="nav-link">Services</a>
+      <a href="index.html" class="nav-link" style="color:#fff;">Thinking</a>
+      <a href="../index.html#speaking" class="nav-link">Speaking</a>
+    </div>
+    <a href="../index.html#contact" class="btn-primary">Work With Me</a>
+  </div>
+</nav>
+
+
+<!-- Article header -->
+<header class="pt-40 pb-12 px-6">
+  <div class="prose">
+    <nav style="font-size: 12px; color: #333; margin-bottom: 24px;">
+      <a href="../index.html" style="color:#444; text-decoration:none;">Home</a>
+      <span style="margin: 0 8px;">·</span>
+      <a href="index.html" style="color:#444; text-decoration:none;">Thinking</a>
+      <span style="margin: 0 8px;">·</span>
+      <span style="color:#555;">What is a digital strategy</span>
+    </nav>
+
+    <span class="post-tag">Digital Strategy</span>
+
+    <h1 class="font-heading text-4xl md:text-5xl font-bold leading-tight mt-5 mb-6">
+      What is a digital strategy — and why most companies don't actually have one
+    </h1>
+
+    <p style="color:#aaa; font-size: 19px; line-height: 1.7; margin-bottom: 2rem;">
+      Most organisations think they have a digital strategy. What they actually have is a list of technology projects. The difference matters more than most leaders realise.
+    </p>
+
+    <div style="display:flex; align-items:center; gap:16px; font-size:13px; color:#444; padding-bottom:24px; border-bottom:1px solid #1e1e1e;">
+      <span>Stewart Masters</span>
+      <span>·</span>
+      <span>18 March 2026</span>
+      <span>·</span>
+      <span>7 min read</span>
+    </div>
+  </div>
+</header>
+
+
+<!-- Cover image -->
+<div class="px-6 mb-12">
+  <div class="prose">
+    <div style="height:360px; background:linear-gradient(135deg,#161616,#0f0f0f); border:1px solid #1e1e1e; border-radius:10px; display:flex; align-items:center; justify-content:center;">
+      <span style="color:#222; font-size:13px;">[ Cover image ]</span>
+    </div>
+  </div>
+</div>
+
+
+<!-- Article body -->
+<article class="px-6 pb-20">
+  <div class="prose">
+
+    <p>
+      A <strong>digital strategy</strong> is a plan for how technology will help your organisation achieve its business objectives. That sounds simple. And yet, in twenty years of working across organisations in Europe and beyond, I've rarely seen one done well.
+    </p>
+
+    <p>
+      What I see instead: a slide deck listing the tools the IT team wants to buy. A roadmap of software migrations. A set of KPIs that measure activity — logins, downloads, uptime — rather than outcomes. These things have their place. But they are not a digital strategy. And confusing them for one is one of the most expensive mistakes a leadership team can make.
+    </p>
+
+    <h2>What a digital strategy actually is</h2>
+
+    <p>
+      A digital strategy sits above technology. It starts with a question that has nothing to do with software: <em>what are we trying to achieve as a business?</em>
+    </p>
+
+    <p>
+      Only once you have a clear answer to that question does technology enter the room. The strategy then defines how digital capabilities — data, automation, customer experience, AI, platforms — will specifically help you get there. It connects technology decisions to business outcomes, not to their own internal logic.
+    </p>
+
+    <p>
+      A real digital strategy typically covers four things:
+    </p>
+
+    <ul>
+      <li><strong>Customer experience:</strong> how technology changes the way customers find, buy from, and remain loyal to you</li>
+      <li><strong>Operations:</strong> where automation and data eliminate friction, reduce cost, or improve quality</li>
+      <li><strong>Data &amp; intelligence:</strong> what information you need, how you'll collect it, and how it will drive better decisions</li>
+      <li><strong>Culture &amp; capability:</strong> what your people need to know and how they need to behave for any of this to work</li>
+    </ul>
+
+    <p>
+      Notice that three of those four points are not about technology at all. That's the point.
+    </p>
+
+    <h2>The most common mistake: confusing tools with strategy</h2>
+
+    <p>
+      I've sat in enough boardrooms to know how this usually goes. Someone in the business identifies a problem — customer data is fragmented, reporting is slow, the sales team is working off spreadsheets. So they find a tool that solves it. They build a business case. They get budget. They implement.
+    </p>
+
+    <p>
+      Then it happens again. And again. Three years later, the organisation has fourteen different software subscriptions, three overlapping CRM systems, and a data team that spends most of its time cleaning exports rather than generating insight.
+    </p>
+
+    <blockquote>
+      <p>Technology adopted bottom-up, one problem at a time, doesn't compound. It accumulates. And accumulated tech is one of the most reliable ways to slow a business down.</p>
+    </blockquote>
+
+    <p>
+      A digital strategy reverses this. It starts at the top, with leadership alignment on where the business is going. Then it defines the digital capabilities required to get there. Then — and only then — it identifies the right tools to build those capabilities.
+    </p>
+
+    <h2>How to tell if your "strategy" is actually just a project list</h2>
+
+    <p>
+      Here's a useful test. Ask your leadership team these three questions:
+    </p>
+
+    <ul>
+      <li>What business problem is our digital strategy solving?</li>
+      <li>How will we know in twelve months if it's working?</li>
+      <li>What would we stop doing if it wasn't working?</li>
+    </ul>
+
+    <p>
+      If you get different answers from different people, or if the answers focus on technology outputs rather than business outcomes, you have a project list dressed up as a strategy. That's not a failure — it's the norm. But it's worth being honest about, because you can't improve what you won't name.
+    </p>
+
+    <h2>Why this matters more now than it did five years ago</h2>
+
+    <p>
+      The arrival of AI has made this distinction urgent in a way it wasn't before. Every organisation is now under pressure to "do something with AI." Boards are asking about it. Competitors are claiming to use it. The temptation to adopt AI tools — because they're visible, because they make a good slide — is enormous.
+    </p>
+
+    <p>
+      But AI adoption without strategic intent is the most expensive version of the tool-not-strategy problem. AI implementations that aren't anchored to a clear business objective don't just fail quietly. They consume significant resource, create technical debt, and often generate internal resistance that makes the next attempt harder.
+    </p>
+
+    <p>
+      A digital strategy doesn't prevent you from moving fast. It prevents you from moving fast in the wrong direction.
+    </p>
+
+    <h2>Where to start if you're building one from scratch</h2>
+
+    <p>
+      The first conversation should happen away from a screen. Get your leadership team in a room and agree on two things: where the business is going in the next three years, and what the biggest constraints on getting there are. Write those down. They become the brief for your digital strategy.
+    </p>
+
+    <p>
+      From there, work backwards. Which of those constraints could technology meaningfully reduce? What data would help you make better decisions about the things that matter most? Where are your customers experiencing friction that a digital solution could remove?
+    </p>
+
+    <p>
+      Only once you have clear answers to those questions should you start evaluating tools, platforms, or vendors. At that point, the selection criteria write themselves — because you know what you're trying to achieve.
+    </p>
+
+    <hr>
+
+    <p style="color:#555; font-size:15px;">
+      <strong style="color:#888;">Working on your digital strategy?</strong><br>
+      I work with leadership teams on exactly this — cutting through the noise to build a strategy that connects technology to the things that actually matter. <a href="../index.html#contact">Let's talk →</a>
+    </p>
+
+  </div>
+</article>
+
+
+<!-- Author box -->
+<section class="px-6 pb-20">
+  <div class="prose">
+    <div class="author-box">
+      <div class="author-avatar">SM</div>
+      <div>
+        <div class="font-heading font-semibold mb-1">Stewart Masters</div>
+        <p style="color:#555; font-size:14px; line-height:1.6; margin:0;">
+          Digital strategy advisor, board member, and leadership consultant. 20+ years operating across Europe. Google-certified AI Leader. Wharton. Guest lecturer at IE Business School and ESADE.
+          <a href="https://www.linkedin.com/in/stewartmasters/" target="_blank" rel="noopener" style="color:#00D4FF; text-decoration:none;">Connect on LinkedIn →</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Related posts -->
+<section class="px-6 pb-24" style="border-top:1px solid #1a1a1a; padding-top:48px;">
+  <div class="prose">
+    <h2 class="font-heading text-2xl font-bold mb-6" style="margin-top:0;">Keep reading</h2>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;">
+      <a href="why-digital-transformations-fail.html" class="related-card">
+        <span style="font-size:10px; color:#00D4FF; letter-spacing:2px; text-transform:uppercase; display:block; margin-bottom:8px;">Leadership</span>
+        <span class="font-heading font-semibold text-white" style="font-size:15px; line-height:1.4; display:block;">Why 70% of digital transformations fail — and what the successful 30% do differently</span>
+      </a>
+      <a href="ai-strategy-not-hype.html" class="related-card">
+        <span style="font-size:10px; color:#00D4FF; letter-spacing:2px; text-transform:uppercase; display:block; margin-bottom:8px;">AI &amp; Digital Strategy</span>
+        <span class="font-heading font-semibold text-white" style="font-size:15px; line-height:1.4; display:block;">Why your AI strategy is failing before it starts</span>
+      </a>
+    </div>
+    <div style="text-align:center; margin-top:24px;">
+      <a href="index.html" style="color:#444; font-size:14px; text-decoration:none;">← All posts</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="py-10 px-6" style="border-top:1px solid #141414;">
+  <div class="max-container flex flex-col md:flex-row items-center justify-between gap-4">
+    <span class="font-heading font-semibold" style="color:#333;">Stewart Masters</span>
+    <div class="flex gap-6" style="font-size:13px;">
+      <a href="../index.html#about" class="nav-link">About</a>
+      <a href="../index.html#services" class="nav-link">Services</a>
+      <a href="index.html" class="nav-link">Thinking</a>
+      <a href="../index.html#contact" class="nav-link">Contact</a>
+    </div>
+    <a href="https://www.linkedin.com/in/stewartmasters/" target="_blank" rel="noopener" class="nav-link" style="font-size:13px;">LinkedIn →</a>
+  </div>
+  <div class="max-container mt-6 text-center" style="font-size:11px; color:#2a2a2a; letter-spacing:2px;">BARCELONA · LONDON · MADRID</div>
+</footer>
+
+</body>
+</html>
