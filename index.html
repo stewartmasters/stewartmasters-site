@@ -23,7 +23,7 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
 
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -36,11 +36,11 @@
       theme: {
         extend: {
           colors: {
-            'accent': '#00D4FF',
+            'accent': '#1863DC',
           },
           fontFamily: {
-            'heading': ['"Space Grotesk"', 'sans-serif'],
-            'body': ['Inter', 'sans-serif'],
+            'heading': ['"Barlow Condensed"', 'sans-serif'],
+            'body': ['"DM Sans"', 'sans-serif'],
           }
         }
       }
@@ -53,7 +53,7 @@
     body {
       background-color: #0D0D0D;
       color: #ffffff;
-      font-family: 'Inter', sans-serif;
+      font-family: 'DM Sans', sans-serif;
       -webkit-font-smoothing: antialiased;
     }
 
@@ -61,12 +61,12 @@
     ::-webkit-scrollbar { width: 5px; }
     ::-webkit-scrollbar-track { background: #0D0D0D; }
     ::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 3px; }
-    ::-webkit-scrollbar-thumb:hover { background: #00D4FF; }
+    ::-webkit-scrollbar-thumb:hover { background: #1863DC; }
 
     /* ---- Typography ---- */
-    .font-heading { font-family: 'Space Grotesk', sans-serif; }
+    .font-heading { font-family: 'Barlow Condensed', sans-serif; }
     .gradient-text {
-      background: linear-gradient(135deg, #ffffff 0%, #00D4FF 100%);
+      background: linear-gradient(135deg, #ffffff 0%, #1863DC 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
@@ -77,13 +77,13 @@
       font-weight: 500;
       letter-spacing: 3px;
       text-transform: uppercase;
-      color: #00D4FF;
+      color: #1863DC;
       margin-bottom: 16px;
     }
 
     /* ---- Layout ---- */
     .max-container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
-    .gradient-rule { height: 1px; background: linear-gradient(90deg, transparent, #00D4FF40, transparent); }
+    .gradient-rule { height: 1px; background: linear-gradient(90deg, transparent, #1863DC40, transparent); }
 
     /* ---- Nav ---- */
     nav {
@@ -104,9 +104,9 @@
     /* ---- Buttons ---- */
     .btn-primary {
       display: inline-block;
-      background: #00D4FF;
+      background: #1863DC;
       color: #0D0D0D;
-      font-family: 'Space Grotesk', sans-serif;
+      font-family: 'Barlow Condensed', sans-serif;
       font-weight: 600;
       font-size: 15px;
       padding: 14px 30px;
@@ -123,7 +123,7 @@
       display: inline-block;
       border: 1px solid #2c2c2c;
       color: #aaa;
-      font-family: 'Space Grotesk', sans-serif;
+      font-family: 'Barlow Condensed', sans-serif;
       font-weight: 500;
       font-size: 15px;
       padding: 13px 30px;
@@ -131,7 +131,7 @@
       text-decoration: none;
       transition: border-color 0.25s, color 0.25s;
     }
-    .btn-outline:hover { border-color: #00D4FF; color: #00D4FF; }
+    .btn-outline:hover { border-color: #1863DC; color: #1863DC; }
 
     /* ---- Hero glow ---- */
     .hero-glow {
@@ -154,12 +154,12 @@
       transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s;
     }
     .service-card:hover {
-      border-color: #00D4FF;
+      border-color: #1863DC;
       transform: translateY(-5px);
       box-shadow: 0 24px 60px rgba(0, 212, 255, 0.07);
     }
     .service-number {
-      font-family: 'Space Grotesk', sans-serif;
+      font-family: 'Barlow Condensed', sans-serif;
       font-size: 42px;
       font-weight: 700;
       color: #1e1e1e;
@@ -167,14 +167,14 @@
       margin-bottom: 20px;
       transition: color 0.3s;
     }
-    .service-card:hover .service-number { color: #00D4FF22; }
+    .service-card:hover .service-number { color: #1863DC22; }
 
     /* ---- Stats ---- */
     .stat-number {
-      font-family: 'Space Grotesk', sans-serif;
+      font-family: 'Barlow Condensed', sans-serif;
       font-size: 3.5rem;
       font-weight: 700;
-      color: #00D4FF;
+      color: #1863DC;
       line-height: 1;
     }
 
@@ -189,7 +189,7 @@
       transition: border-color 0.3s, transform 0.3s;
     }
     .blog-card:hover { border-color: #2a2a2a; transform: translateY(-4px); }
-    .blog-card:hover .blog-arrow { color: #00D4FF; }
+    .blog-card:hover .blog-arrow { color: #1863DC; }
     .blog-thumb {
       height: 200px;
       background: linear-gradient(135deg, #161616, #0f0f0f);
@@ -240,7 +240,7 @@
 
     /* ---- Credibility bar ---- */
     .cred-item {
-      font-family: 'Space Grotesk', sans-serif;
+      font-family: 'Barlow Condensed', sans-serif;
       font-weight: 600;
       font-size: 12px;
       letter-spacing: 2px;
@@ -359,7 +359,7 @@
         <h2 class="font-heading text-4xl md:text-5xl font-bold leading-tight mb-6">
           20 years at the<br>
           intersection of business,<br>
-          <span style="color: #00D4FF;">technology &amp; leadership.</span>
+          <span style="color: #1863DC;">technology &amp; leadership.</span>
         </h2>
       </div>
 
@@ -418,7 +418,7 @@
         <p class="text-gray-500 leading-relaxed mb-6" style="font-size: 15px;">
           I help organisations cut through the noise and build a digital strategy that actually gets executed. From AI adoption to product thinking to data infrastructure — focused on real business outcomes, not tech for tech's sake.
         </p>
-        <span style="color: #00D4FF; font-size: 13px; font-weight: 500;">Strategy · AI Adoption · Digital Roadmaps →</span>
+        <span style="color: #1863DC; font-size: 13px; font-weight: 500;">Strategy · AI Adoption · Digital Roadmaps →</span>
       </div>
 
       <!-- 02 -->
@@ -428,7 +428,7 @@
         <p class="text-gray-500 leading-relaxed mb-6" style="font-size: 15px;">
           A trusted strategic voice at board level — bringing digital, operational, and commercial perspective to founders and leadership teams navigating growth, investment, or change. Long-term and relationship-first.
         </p>
-        <span style="color: #00D4FF; font-size: 13px; font-weight: 500;">NED · Advisory Board · Investor-stage →</span>
+        <span style="color: #1863DC; font-size: 13px; font-weight: 500;">NED · Advisory Board · Investor-stage →</span>
       </div>
 
       <!-- 03 -->
@@ -438,7 +438,7 @@
         <p class="text-gray-500 leading-relaxed mb-6" style="font-size: 15px;">
           Strategy only works if the organisation can carry it. I work with leadership teams on the people side of transformation — building decision-making culture, navigating change, and developing the next layer of leaders.
         </p>
-        <span style="color: #00D4FF; font-size: 13px; font-weight: 500;">Executive Coaching · Team Development · Change →</span>
+        <span style="color: #1863DC; font-size: 13px; font-weight: 500;">Executive Coaching · Team Development · Change →</span>
       </div>
 
       <!-- 04 -->
@@ -448,7 +448,7 @@
         <p class="text-gray-500 leading-relaxed mb-6" style="font-size: 15px;">
           I speak on digital transformation, AI leadership, and building organisations fit for the next decade. Drawing on 20 years operating across Europe — practical, direct, and grounded in what actually works.
         </p>
-        <span style="color: #00D4FF; font-size: 13px; font-weight: 500;">Keynotes · Panels · Executive Workshops →</span>
+        <span style="color: #1863DC; font-size: 13px; font-weight: 500;">Keynotes · Panels · Executive Workshops →</span>
       </div>
 
     </div>
@@ -654,13 +654,13 @@
 
         <div class="mt-10 space-y-4">
           <div style="border-left: 2px solid #1e1e1e; padding-left: 20px;">
-            <div style="color: #00D4FF; font-size: 12px; font-weight: 500; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 4px;">Recent venues</div>
+            <div style="color: #1863DC; font-size: 12px; font-weight: 500; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 4px;">Recent venues</div>
             <div style="color: #555; font-size: 14px; line-height: 1.8;">
               IE Business School · Ostelea · 4YFN (Mobile World Congress) · Startupbootcamp · ESADE
             </div>
           </div>
           <div style="border-left: 2px solid #1e1e1e; padding-left: 20px;">
-            <div style="color: #00D4FF; font-size: 12px; font-weight: 500; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 4px;">Topics</div>
+            <div style="color: #1863DC; font-size: 12px; font-weight: 500; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 4px;">Topics</div>
             <div style="color: #555; font-size: 14px; line-height: 1.8;">
               AI &amp; Digital Transformation · Leadership at Scale · Building High-Performance Teams · The Future of Work
             </div>
