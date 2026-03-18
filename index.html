@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stewart Masters — Hospitality, Technology & Leadership</title>
+  <meta name="description" content="Stewart Masters helps hospitality and F&B brands navigate digital transformation, AI adoption, and operational excellence. Advisor, speaker, and strategic partner based in Barcelona.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Stewart Masters — Hospitality, Technology & Leadership">
+  <meta property="og:description" content="Helping hospitality brands grow through technology, strategy, and sharp leadership.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://stewartmasters.com">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Stewart Masters">
+  <meta name="twitter:description" content="Hospitality. Technology. Leadership.">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://stewartmasters.com/">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- AOS (scroll animations) -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'accent': '#00D4FF',
+          },
+          fontFamily: {
+            'heading': ['"Space Grotesk"', 'sans-serif'],
+            'body': ['Inter', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      background-color: #0D0D0D;
+      color: #ffffff;
+      font-family: 'Inter', sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ---- Scrollbar ---- */
+    ::-webkit-scrollbar { width: 5px; }
+    ::-webkit-scrollbar-track { background: #0D0D0D; }
+    ::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: #00D4FF; }
+
+    /* ---- Typography ---- */
+    .font-heading { font-family: 'Space Grotesk', sans-serif; }
+    .gradient-text {
+      background: linear-gradient(135deg, #ffffff 0%, #00D4FF 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .section-label {
+      display: block;
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: #00D4FF;
+      margin-bottom: 16px;
+    }
+
+    /* ---- Layout ---- */
+    .max-container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    .gradient-rule { height: 1px; background: linear-gradient(90deg, transparent, #00D4FF40, transparent); }
+
+    /* ---- Nav ---- */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      backdrop-filter: blur(24px);
+      background: rgba(13, 13, 13, 0.85);
+      border-bottom: 1px solid #1c1c1c;
+      transition: border-color 0.3s;
+    }
+    .nav-link {
+      font-size: 14px;
+      color: #666;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .nav-link:hover { color: #ffffff; }
+
+    /* ---- Buttons ---- */
+    .btn-primary {
+      display: inline-block;
+      background: #00D4FF;
+      color: #0D0D0D;
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 600;
+      font-size: 15px;
+      padding: 14px 30px;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: background 0.25s, box-shadow 0.25s, transform 0.2s;
+    }
+    .btn-primary:hover {
+      background: #ffffff;
+      box-shadow: 0 0 40px rgba(0, 212, 255, 0.25);
+      transform: translateY(-1px);
+    }
+    .btn-outline {
+      display: inline-block;
+      border: 1px solid #2c2c2c;
+      color: #aaa;
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 500;
+      font-size: 15px;
+      padding: 13px 30px;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: border-color 0.25s, color 0.25s;
+    }
+    .btn-outline:hover { border-color: #00D4FF; color: #00D4FF; }
+
+    /* ---- Hero glow ---- */
+    .hero-glow {
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 800px;
+      height: 500px;
+      background: radial-gradient(ellipse at center, rgba(0,212,255,0.06) 0%, transparent 65%);
+      pointer-events: none;
+    }
+
+    /* ---- Service cards ---- */
+    .service-card {
+      background: #121212;
+      border: 1px solid #1e1e1e;
+      border-radius: 10px;
+      padding: 36px;
+      transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    }
+    .service-card:hover {
+      border-color: #00D4FF;
+      transform: translateY(-5px);
+      box-shadow: 0 24px 60px rgba(0, 212, 255, 0.07);
+    }
+    .service-number {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 42px;
+      font-weight: 700;
+      color: #1e1e1e;
+      line-height: 1;
+      margin-bottom: 20px;
+      transition: color 0.3s;
+    }
+    .service-card:hover .service-number { color: #00D4FF22; }
+
+    /* ---- Stats ---- */
+    .stat-number {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 3.5rem;
+      font-weight: 700;
+      color: #00D4FF;
+      line-height: 1;
+    }
+
+    /* ---- Blog cards ---- */
+    .blog-card {
+      background: #121212;
+      border: 1px solid #1e1e1e;
+      border-radius: 10px;
+      overflow: hidden;
+      text-decoration: none;
+      display: block;
+      transition: border-color 0.3s, transform 0.3s;
+    }
+    .blog-card:hover { border-color: #2a2a2a; transform: translateY(-4px); }
+    .blog-card:hover .blog-arrow { color: #00D4FF; }
+    .blog-thumb {
+      height: 200px;
+      background: linear-gradient(135deg, #161616, #0f0f0f);
+      border-bottom: 1px solid #1e1e1e;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .blog-tag {
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #444;
+    }
+    .blog-arrow {
+      color: #333;
+      font-size: 18px;
+      transition: color 0.2s;
+    }
+
+    /* ---- Testimonial cards ---- */
+    .testimonial-card {
+      background: #121212;
+      border: 1px solid #1e1e1e;
+      border-radius: 10px;
+      padding: 32px;
+    }
+
+    /* ---- Speaking tags ---- */
+    .speaking-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #141414;
+      border: 1px solid #1e1e1e;
+      border-radius: 6px;
+      padding: 10px 16px;
+      font-size: 14px;
+      color: #888;
+    }
+
+    /* ---- CTA section background glow ---- */
+    .cta-glow {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at 50% 120%, rgba(0,212,255,0.06), transparent 60%);
+      pointer-events: none;
+    }
+
+    /* ---- Credibility bar ---- */
+    .cred-item {
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 600;
+      font-size: 12px;
+      letter-spacing: 2px;
+      color: #2e2e2e;
+      text-transform: uppercase;
+      transition: color 0.3s;
+    }
+    .cred-item:hover { color: #555; }
+
+    /* ---- Mobile nav ---- */
+    #mobile-menu { display: none; }
+    #mobile-menu.open { display: flex; }
+
+    @media (max-width: 768px) {
+      .stat-number { font-size: 2.5rem; }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- ====================================================
+     NAVIGATION
+===================================================== -->
+<nav>
+  <div class="max-container py-4 flex items-center justify-between">
+    <a href="/" class="font-heading font-semibold text-white text-lg tracking-tight">Stewart Masters</a>
+
+    <!-- Desktop nav -->
+    <div class="hidden md:flex items-center gap-8">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#services" class="nav-link">Services</a>
+      <a href="blog/index.html" class="nav-link">Thinking</a>
+      <a href="#speaking" class="nav-link">Speaking</a>
+    </div>
+
+    <div class="flex items-center gap-3">
+      <a href="#contact" class="btn-primary hidden md:inline-block" style="padding: 10px 22px; font-size: 14px;">Work With Me</a>
+      <!-- Mobile hamburger -->
+      <button id="hamburger" class="md:hidden text-gray-400 p-2" onclick="toggleMenu()">
+        <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M3 6h16M3 12h16M3 18h16"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile menu -->
+  <div id="mobile-menu" class="flex-col gap-1 pb-4 px-6 border-t" style="border-color: #1a1a1a;">
+    <a href="#about" class="nav-link py-3 block" onclick="closeMenu()">About</a>
+    <a href="#services" class="nav-link py-3 block" onclick="closeMenu()">Services</a>
+    <a href="blog/index.html" class="nav-link py-3 block">Thinking</a>
+    <a href="#speaking" class="nav-link py-3 block" onclick="closeMenu()">Speaking</a>
+    <a href="#contact" class="btn-primary mt-3 text-center" onclick="closeMenu()">Work With Me</a>
+  </div>
+</nav>
+
+
+<!-- ====================================================
+     HERO
+===================================================== -->
+<section class="min-h-screen flex items-center pt-20 px-6 relative overflow-hidden">
+  <div class="hero-glow"></div>
+
+  <div class="max-container w-full py-28">
+    <div class="max-w-4xl">
+      <span class="section-label" data-aos="fade-up">Hospitality · Technology · Leadership</span>
+
+      <h1 class="font-heading text-5xl md:text-7xl font-bold leading-[1.05] tracking-tight mb-8" data-aos="fade-up" data-aos-delay="80">
+        Where real food<br>
+        meets <span class="gradient-text">real strategy.</span>
+      </h1>
+
+      <p class="text-gray-400 text-lg md:text-xl leading-relaxed max-w-2xl mb-12" data-aos="fade-up" data-aos-delay="160">
+        I help hospitality founders and operators build brands that scale — through smarter digital strategy, practical AI adoption, and leadership that actually works on the ground.
+      </p>
+
+      <div class="flex flex-wrap gap-4" data-aos="fade-up" data-aos-delay="240">
+        <a href="#contact" class="btn-primary">Let's Talk</a>
+        <a href="#services" class="btn-outline">See How I Work</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ====================================================
+     CREDIBILITY BAR
+===================================================== -->
+<section class="py-12 px-6" style="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a;">
+  <div class="max-container">
+    <p class="text-center mb-8" style="font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: #333;">Trusted by &amp; affiliated with</p>
+    <div class="flex flex-wrap items-center justify-center gap-8 md:gap-14">
+      <span class="cred-item">Wharton</span>
+      <span class="cred-item">IE Business School</span>
+      <span class="cred-item">ESADE</span>
+      <span class="cred-item">Honest Greens</span>
+      <span class="cred-item">Ostelea</span>
+      <span class="cred-item">Startupbootcamp</span>
+      <span class="cred-item">4YFN</span>
+    </div>
+  </div>
+</section>
+
+
+<!-- ====================================================
+     ABOUT
+===================================================== -->
+<section id="about" class="py-28 px-6">
+  <div class="max-container">
+    <div class="grid md:grid-cols-2 gap-16 items-center">
+
+      <!-- Left -->
+      <div data-aos="fade-right">
+        <span class="section-label">About</span>
+        <h2 class="font-heading text-4xl md:text-5xl font-bold leading-tight mb-6">
+          20 years building<br>
+          hospitality brands.<br>
+          <span style="color: #00D4FF;">Now I help others</span><br>
+          do it smarter.
+        </h2>
+      </div>
+
+      <!-- Right -->
+      <div data-aos="fade-left">
+        <p class="text-gray-400 text-lg leading-relaxed mb-6">
+          I've led digital transformation across some of Europe's most exciting food &amp; beverage brands — from scrappy startups to 30-location scale-ups. Based between Barcelona, Madrid, and London, I've built and broken enough things to know what actually moves the needle.
+        </p>
+        <p class="text-gray-400 text-lg leading-relaxed mb-10">
+          Today I work with founders and operators as an advisor, fractional leader, and strategic partner. I bring the perspective of someone who's been in the room — and in the kitchen.
+        </p>
+
+        <!-- Stats -->
+        <div class="grid grid-cols-3 gap-6 pt-8" style="border-top: 1px solid #1e1e1e;">
+          <div>
+            <div class="stat-number">20+</div>
+            <div class="text-xs text-gray-600 mt-2 leading-snug">Years in F&amp;B &amp; hospitality</div>
+          </div>
+          <div>
+            <div class="stat-number">4</div>
+            <div class="text-xs text-gray-600 mt-2 leading-snug">Languages spoken</div>
+          </div>
+          <div>
+            <div class="stat-number">7K+</div>
+            <div class="text-xs text-gray-600 mt-2 leading-snug">LinkedIn community</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="gradient-rule mx-6"></div>
+
+
+<!-- ====================================================
+     SERVICES
+===================================================== -->
+<section id="services" class="py-28 px-6">
+  <div class="max-container">
+
+    <div class="mb-16" data-aos="fade-up">
+      <span class="section-label">Services</span>
+      <h2 class="font-heading text-4xl md:text-5xl font-bold leading-tight max-w-2xl">
+        Four ways we can<br>work together.
+      </h2>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-5">
+
+      <!-- 01 -->
+      <div class="service-card" data-aos="fade-up" data-aos-delay="0">
+        <div class="service-number">01</div>
+        <h3 class="font-heading text-xl font-semibold mb-3">Hospitality Strategy &amp; Operations</h3>
+        <p class="text-gray-500 leading-relaxed mb-6" style="font-size: 15px;">
+          From concept to multi-site scale — I help hospitality brands design smarter operations, build better guest experiences, and make decisions backed by real data rather than instinct alone.
+        </p>
+        <span style="color: #00D4FF; font-size: 13px; font-weight: 500;">Consulting · Fractional COO · Advisory →</span>
+      </div>
+
+      <!-- 02 -->
+      <div class="service-card" data-aos="fade-up" data-aos-delay="80">
+        <div class="service-number">02</div>
+        <h3 class="font-heading text-xl font-semibold mb-3">AI &amp; Digital Transformation</h3>
+        <p class="text-gray-500 leading-relaxed mb-6" style="font-size: 15px;">
+          Most hospitality businesses are sitting on untapped data. I help teams identify where AI creates real leverage — not hype — and implement it without disrupting day-to-day operations.
+        </p>
+        <span style="color: #00D4FF; font-size: 13px; font-weight: 500;">AI Audits · Product Strategy · Implementation →</span>
+      </div>
+
+      <!-- 03 -->
+      <div class="service-card" data-aos="fade-up" data-aos-delay="160">
+        <div class="service-number">03</div>
+        <h3 class="font-heading text-xl font-semibold mb-3">Speaking &amp; Keynotes</h3>
+        <p class="text-gray-500 leading-relaxed mb-6" style="font-size: 15px;">
+          From IE Business School to international hospitality conferences — I speak on the future of food, leadership in complex organisations, and what technology actually means for the next decade of hospitality.
+        </p>
+        <span style="color: #00D4FF; font-size: 13px; font-weight: 500;">Conferences · Workshops · Guest Lectures →</span>
+      </div>
+
+      <!-- 04 -->
+      <div class="service-card" data-aos="fade-up" data-aos-delay="240">
+        <div class="service-number">04</div>
+        <h3 class="font-heading text-xl font-semibold mb-3">Advisory &amp; Board Membership</h3>
+        <p class="text-gray-500 leading-relaxed mb-6" style="font-size: 15px;">
+          For founders building in hospitality and F&amp;B who want a trusted strategic voice, not just another consultant. Long-term, relationship-first engagement with genuine skin in the game.
+        </p>
+        <span style="color: #00D4FF; font-size: 13px; font-weight: 500;">Startups · Scale-ups · Investment-stage →</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ====================================================
+     STATS BAND
+===================================================== -->
+<section class="py-20 px-6" style="background: #090909; border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a;">
+  <div class="max-container">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-10 text-center">
+      <div data-aos="fade-up" data-aos-delay="0">
+        <div class="stat-number">30+</div>
+        <div class="text-gray-600 text-sm mt-2">Restaurant locations advised</div>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="80">
+        <div class="stat-number">5</div>
+        <div class="text-gray-600 text-sm mt-2">Countries operated in</div>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="160">
+        <div class="stat-number">19</div>
+        <div class="text-gray-600 text-sm mt-2">LinkedIn recommendations</div>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="240">
+        <div class="stat-number">9+</div>
+        <div class="text-gray-600 text-sm mt-2">Years mentoring founders</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ====================================================
+     BLOG / THINKING
+===================================================== -->
+<section id="blog" class="py-28 px-6">
+  <div class="max-container">
+
+    <div class="flex items-end justify-between mb-16">
+      <div data-aos="fade-up">
+        <span class="section-label">Thinking</span>
+        <h2 class="font-heading text-4xl md:text-5xl font-bold leading-tight">
+          Ideas worth reading.
+        </h2>
+      </div>
+      <a href="blog/index.html" class="btn-outline text-sm hidden md:inline-block" style="padding: 10px 20px; font-size: 13px;">All Posts →</a>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-5">
+
+      <!-- Post 1 -->
+      <a href="blog/ai-data-restaurants.html" class="blog-card" data-aos="fade-up" data-aos-delay="0">
+        <div class="blog-thumb">
+          <span style="color: #222; font-size: 13px;">[ Cover image ]</span>
+        </div>
+        <div class="p-6">
+          <span class="blog-tag">AI &amp; Technology</span>
+          <h3 class="font-heading text-base font-semibold mt-3 mb-2 leading-snug text-white">Why most restaurants are sitting on AI gold they're not mining</h3>
+          <p style="color: #555; font-size: 13px; line-height: 1.7;">The data is already there. The question is whether you have the systems to use it.</p>
+          <div class="flex items-center justify-between mt-5">
+            <span style="font-size: 12px; color: #333;">5 min read</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Post 2 -->
+      <a href="blog/hospitality-uncertainty.html" class="blog-card" data-aos="fade-up" data-aos-delay="80">
+        <div class="blog-thumb">
+          <span style="color: #222; font-size: 13px;">[ Cover image ]</span>
+        </div>
+        <div class="p-6">
+          <span class="blog-tag">Operations</span>
+          <h3 class="font-heading text-base font-semibold mt-3 mb-2 leading-snug text-white">Good hospitality removes uncertainty before anyone even orders</h3>
+          <p style="color: #555; font-size: 13px; line-height: 1.7;">The best restaurant experiences aren't accidental — they're engineered from the entrance in.</p>
+          <div class="flex items-center justify-between mt-5">
+            <span style="font-size: 12px; color: #333;">4 min read</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Post 3 -->
+      <a href="blog/digital-transformation-myth.html" class="blog-card" data-aos="fade-up" data-aos-delay="160">
+        <div class="blog-thumb">
+          <span style="color: #222; font-size: 13px;">[ Cover image ]</span>
+        </div>
+        <div class="p-6">
+          <span class="blog-tag">Leadership</span>
+          <h3 class="font-heading text-base font-semibold mt-3 mb-2 leading-snug text-white">The myth of "digital transformation" — what operators actually need</h3>
+          <p style="color: #555; font-size: 13px; line-height: 1.7;">Technology doesn't transform businesses. Leaders with the right frame do.</p>
+          <div class="flex items-center justify-between mt-5">
+            <span style="font-size: 12px; color: #333;">6 min read</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    <div class="text-center mt-8 md:hidden">
+      <a href="blog/index.html" class="btn-outline text-sm">All Posts →</a>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ====================================================
+     TESTIMONIALS
+===================================================== -->
+<section class="py-28 px-6" style="background: #090909; border-top: 1px solid #1a1a1a;">
+  <div class="max-container">
+
+    <div class="text-center mb-16" data-aos="fade-up">
+      <span class="section-label">What people say</span>
+      <h2 class="font-heading text-4xl font-bold">19 recommendations on LinkedIn.</h2>
+      <p style="color: #444; margin-top: 12px; font-size: 15px;">Here are a few.</p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-5">
+
+      <div class="testimonial-card" data-aos="fade-up" data-aos-delay="0">
+        <p class="text-gray-300 leading-relaxed mb-6" style="font-size: 15px; font-style: italic;">
+          "[Paste your first LinkedIn recommendation here — ideally one that speaks to strategic impact or leadership.]"
+        </p>
+        <div class="flex items-center gap-3">
+          <div style="width: 40px; height: 40px; border-radius: 50%; background: #1e1e1e; display: flex; align-items: center; justify-content: center; font-size: 12px; color: #333;">?</div>
+          <div>
+            <div class="font-heading font-medium text-sm">[Recommender Name]</div>
+            <div style="font-size: 12px; color: #444;">[Title, Company]</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card" data-aos="fade-up" data-aos-delay="80">
+        <p class="text-gray-300 leading-relaxed mb-6" style="font-size: 15px; font-style: italic;">
+          "[Paste your second LinkedIn recommendation here — ideally one that highlights expertise or results.]"
+        </p>
+        <div class="flex items-center gap-3">
+          <div style="width: 40px; height: 40px; border-radius: 50%; background: #1e1e1e; display: flex; align-items: center; justify-content: center; font-size: 12px; color: #333;">?</div>
+          <div>
+            <div class="font-heading font-medium text-sm">[Recommender Name]</div>
+            <div style="font-size: 12px; color: #444;">[Title, Company]</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card" data-aos="fade-up" data-aos-delay="160">
+        <p class="text-gray-300 leading-relaxed mb-6" style="font-size: 15px; font-style: italic;">
+          "[Paste your third LinkedIn recommendation here — ideally one that speaks to your working style or character.]"
+        </p>
+        <div class="flex items-center gap-3">
+          <div style="width: 40px; height: 40px; border-radius: 50%; background: #1e1e1e; display: flex; align-items: center; justify-content: center; font-size: 12px; color: #333;">?</div>
+          <div>
+            <div class="font-heading font-medium text-sm">[Recommender Name]</div>
+            <div style="font-size: 12px; color: #444;">[Title, Company]</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ====================================================
+     SPEAKING
+===================================================== -->
+<section id="speaking" class="py-28 px-6">
+  <div class="max-container">
+    <div class="grid md:grid-cols-2 gap-16 items-center">
+
+      <!-- Left -->
+      <div data-aos="fade-right">
+        <span class="section-label">Speaking</span>
+        <h2 class="font-heading text-4xl md:text-5xl font-bold leading-tight mb-6">
+          Bringing real-world perspective to the stage.
+        </h2>
+        <p class="text-gray-400 leading-relaxed mb-5" style="font-size: 15px;">
+          I've spoken at IE Business School, Ostelea, 4YFN, and Startupbootcamp events on topics ranging from the future of food &amp; beverage to AI adoption in hospitality and leadership in high-growth environments.
+        </p>
+        <p class="text-gray-400 leading-relaxed mb-8" style="font-size: 15px;">
+          Available for keynotes, panels, workshops, and executive sessions — in English, Spanish, Portuguese, and French.
+        </p>
+        <a href="#contact" class="btn-primary">Enquire About Speaking</a>
+      </div>
+
+      <!-- Right: speaking tags -->
+      <div data-aos="fade-left">
+        <div class="flex flex-wrap gap-3">
+          <span class="speaking-tag">🎤 Keynotes</span>
+          <span class="speaking-tag">🎙️ Panels</span>
+          <span class="speaking-tag">🏫 Guest Lectures</span>
+          <span class="speaking-tag">🛠️ Workshops</span>
+          <span class="speaking-tag">🇬🇧 English</span>
+          <span class="speaking-tag">🇪🇸 Spanish</span>
+          <span class="speaking-tag">🇵🇹 Portuguese</span>
+          <span class="speaking-tag">🇫🇷 French</span>
+        </div>
+
+        <div class="mt-10 space-y-4">
+          <div style="border-left: 2px solid #1e1e1e; padding-left: 20px;">
+            <div style="color: #00D4FF; font-size: 12px; font-weight: 500; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 4px;">Recent venues</div>
+            <div style="color: #555; font-size: 14px; line-height: 1.8;">
+              IE Business School · Ostelea · 4YFN (Mobile World Congress) · Startupbootcamp · ESADE
+            </div>
+          </div>
+          <div style="border-left: 2px solid #1e1e1e; padding-left: 20px;">
+            <div style="color: #00D4FF; font-size: 12px; font-weight: 500; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 4px;">Topics</div>
+            <div style="color: #555; font-size: 14px; line-height: 1.8;">
+              Future of Hospitality · AI in F&amp;B · Leadership at Scale · Building Brand in a Noisy World
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ====================================================
+     CTA / CONTACT
+===================================================== -->
+<section id="contact" class="py-32 px-6 relative overflow-hidden" style="border-top: 1px solid #1a1a1a;">
+  <div class="cta-glow"></div>
+  <div class="max-container text-center relative">
+    <div data-aos="fade-up">
+      <span class="section-label">Get In Touch</span>
+      <h2 class="font-heading text-4xl md:text-6xl font-bold leading-tight mb-6">
+        Let's build something<br>
+        <span class="gradient-text">worth eating.</span>
+      </h2>
+      <p class="text-gray-500 text-lg mb-10 max-w-xl mx-auto" style="font-size: 16px;">
+        Whether you're a founder, operator, or investor — if you're building in hospitality and want a strategic partner who's been in the room, I'd love to talk.
+      </p>
+      <a href="mailto:hello@stewartmasters.com" class="btn-primary" style="font-size: 16px; padding: 16px 40px;">
+        Start a Conversation →
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ====================================================
+     FOOTER
+===================================================== -->
+<footer class="py-10 px-6" style="border-top: 1px solid #141414;">
+  <div class="max-container flex flex-col md:flex-row items-center justify-between gap-4">
+    <span class="font-heading font-semibold" style="color: #333;">Stewart Masters</span>
+
+    <div class="flex gap-6" style="font-size: 13px;">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#services" class="nav-link">Services</a>
+      <a href="blog/index.html" class="nav-link">Thinking</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </div>
+
+    <a href="https://www.linkedin.com/in/stewartmasters/" target="_blank" rel="noopener" class="nav-link" style="font-size: 13px;">LinkedIn →</a>
+  </div>
+
+  <div class="max-container mt-6 text-center" style="font-size: 11px; color: #2a2a2a; letter-spacing: 2px;">
+    BARCELONA · LONDON · MADRID
+  </div>
+</footer>
+
+
+<!-- ====================================================
+     SCRIPTS
+===================================================== -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({ duration: 650, once: true, offset: 50, easing: 'ease-out' });
+
+  function toggleMenu() {
+    const menu = document.getElementById('mobile-menu');
+    menu.classList.toggle('open');
+  }
+  function closeMenu() {
+    document.getElementById('mobile-menu').classList.remove('open');
+  }
+</script>
+
+</body>
+</html>
