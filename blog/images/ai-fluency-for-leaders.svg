@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="bg6" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#0e0e18"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </radialGradient>
+    <radialGradient id="glow6" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00D4FF" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg6)"/>
+  <ellipse cx="600" cy="310" rx="350" ry="260" fill="url(#glow6)"/>
+
+  <!-- Abstract brain-like curved lines -->
+  <!-- Left hemisphere paths -->
+  <path d="M 420 210 Q 360 250 370 315 Q 360 380 420 420" fill="none" stroke="#00D4FF" stroke-opacity="0.25" stroke-width="1.5"/>
+  <path d="M 440 195 Q 370 240 380 315 Q 370 390 440 435" fill="none" stroke="#00D4FF" stroke-opacity="0.18" stroke-width="1"/>
+  <path d="M 460 185 Q 385 235 395 315 Q 385 395 460 445" fill="none" stroke="#00D4FF" stroke-opacity="0.12" stroke-width="1"/>
+
+  <!-- Right hemisphere paths -->
+  <path d="M 780 210 Q 840 250 830 315 Q 840 380 780 420" fill="none" stroke="#00D4FF" stroke-opacity="0.25" stroke-width="1.5"/>
+  <path d="M 760 195 Q 830 240 820 315 Q 830 390 760 435" fill="none" stroke="#00D4FF" stroke-opacity="0.18" stroke-width="1"/>
+  <path d="M 740 185 Q 815 235 805 315 Q 815 395 740 445" fill="none" stroke="#00D4FF" stroke-opacity="0.12" stroke-width="1"/>
+
+  <!-- Corpus callosum / centre bridge -->
+  <path d="M 420 315 Q 510 285 600 315 Q 690 345 780 315" fill="none" stroke="#00D4FF" stroke-opacity="0.3" stroke-width="1.5"/>
+  <path d="M 440 295 Q 520 270 600 295 Q 680 320 760 295" fill="none" stroke="#00D4FF" stroke-opacity="0.15" stroke-width="1"/>
+  <path d="M 440 335 Q 520 360 600 335 Q 680 310 760 335" fill="none" stroke="#00D4FF" stroke-opacity="0.15" stroke-width="1"/>
+
+  <!-- Synapse dots -->
+  <g fill="#00D4FF">
+    <circle cx="600" cy="315" r="5" fill-opacity="0.8"/>
+    <circle cx="480" cy="290" r="3" fill-opacity="0.5"/>
+    <circle cx="720" cy="290" r="3" fill-opacity="0.5"/>
+    <circle cx="450" cy="340" r="2.5" fill-opacity="0.4"/>
+    <circle cx="750" cy="340" r="2.5" fill-opacity="0.4"/>
+    <circle cx="530" cy="270" r="2" fill-opacity="0.35"/>
+    <circle cx="670" cy="270" r="2" fill-opacity="0.35"/>
+    <circle cx="510" cy="360" r="2" fill-opacity="0.3"/>
+    <circle cx="690" cy="360" r="2" fill-opacity="0.3"/>
+  </g>
+
+  <!-- Signal pulses / text outside brain -->
+  <text x="310" y="200" font-family="monospace" font-size="11" fill="#00D4FF" fill-opacity="0.2">LLM</text>
+  <text x="310" y="430" font-family="monospace" font-size="11" fill="#00D4FF" fill-opacity="0.15">API</text>
+  <text x="880" y="200" font-family="monospace" font-size="11" fill="#00D4FF" fill-opacity="0.2">RAG</text>
+  <text x="880" y="430" font-family="monospace" font-size="11" fill="#00D4FF" fill-opacity="0.15">NLP</text>
+  <text x="580" y="150" font-family="monospace" font-size="11" fill="#00D4FF" fill-opacity="0.25">PROMPT</text>
+  <text x="570" y="490" font-family="monospace" font-size="11" fill="#00D4FF" fill-opacity="0.18">CONTEXT</text>
+
+  <!-- Outer label -->
+  <text x="600" y="570" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="12" fill="#00D4FF" fill-opacity="0.25" letter-spacing="5">AI FLUENCY</text>
+</svg>

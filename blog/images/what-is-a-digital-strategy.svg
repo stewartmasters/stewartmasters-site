@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="bg8" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#0d0e18"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg8)"/>
+
+  <!-- Compass / direction concept -->
+  <!-- Compass outer ring -->
+  <circle cx="600" cy="300" r="190" fill="none" stroke="#1a1a2a" stroke-width="1.5"/>
+  <circle cx="600" cy="300" r="185" fill="none" stroke="#00D4FF" stroke-opacity="0.06" stroke-width="0.5"/>
+
+  <!-- Cardinal direction ticks and labels -->
+  <line x1="600" y1="110" x2="600" y2="125" stroke="#00D4FF" stroke-opacity="0.4" stroke-width="2"/>
+  <line x1="600" y1="475" x2="600" y2="490" stroke="#333" stroke-width="1"/>
+  <line x1="410" y1="300" x2="425" y2="300" stroke="#333" stroke-width="1"/>
+  <line x1="775" y1="300" x2="790" y2="300" stroke="#333" stroke-width="1"/>
+
+  <!-- N label -->
+  <text x="600" y="105" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700" fill="#00D4FF" fill-opacity="0.6">N</text>
+  <text x="600" y="505" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#333">S</text>
+  <text x="403" y="305" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#333">W</text>
+  <text x="797" y="305" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#333">E</text>
+
+  <!-- Intermediate ticks -->
+  <g stroke="#222" stroke-width="1">
+    <line x1="466" y1="166" x2="476" y2="176"/>
+    <line x1="734" y1="166" x2="724" y2="176"/>
+    <line x1="466" y1="434" x2="476" y2="424"/>
+    <line x1="734" y1="434" x2="724" y2="424"/>
+  </g>
+
+  <!-- Compass needle pointing NE — strategy direction -->
+  <path d="M 600 300 L 672 228" stroke="#00D4FF" stroke-opacity="0.7" stroke-width="2.5" stroke-linecap="round"/>
+  <polygon points="672,228 658,244 686,242" fill="#00D4FF" fill-opacity="0.7"/>
+
+  <!-- South pointer (grey) -->
+  <path d="M 600 300 L 528 372" stroke="#333" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="528,372 542,356 514,358" fill="#333"/>
+
+  <!-- Centre pivot -->
+  <circle cx="600" cy="300" r="8" fill="#0d0d14" stroke="#00D4FF" stroke-opacity="0.5" stroke-width="1.5"/>
+  <circle cx="600" cy="300" r="3" fill="#00D4FF" fill-opacity="0.7"/>
+
+  <!-- Strategy pillars radiating outward as dots -->
+  <g fill="none" stroke="#00D4FF" stroke-opacity="0.15" stroke-width="1">
+    <circle cx="600" cy="300" r="80"/>
+    <circle cx="600" cy="300" r="130"/>
+  </g>
+
+  <!-- Labels in the rings -->
+  <text x="660" y="240" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" fill-opacity="0.35" letter-spacing="1">VISION</text>
+  <text x="510" y="240" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#333" letter-spacing="1">DATA</text>
+  <text x="690" y="360" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#333" letter-spacing="1">CUSTOMER</text>
+  <text x="460" y="370" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#333" letter-spacing="1">OPS</text>
+
+  <text x="600" y="565" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="12" fill="#00D4FF" fill-opacity="0.22" letter-spacing="5">DIGITAL STRATEGY</text>
+</svg>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="bg4" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#0d0d14"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </radialGradient>
+    <linearGradient id="divider4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00D4FF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00D4FF" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg4)"/>
+
+  <!-- Left side — digitisation (analogue to digital, static) -->
+  <!-- Paper/document icon -->
+  <rect x="180" y="200" width="140" height="180" rx="4" fill="#0f0f18" stroke="#1e1e2e" stroke-width="1"/>
+  <!-- Lines on paper -->
+  <g stroke="#334" stroke-opacity="0.5" stroke-width="1">
+    <line x1="200" y1="240" x2="300" y2="240"/>
+    <line x1="200" y1="260" x2="300" y2="260"/>
+    <line x1="200" y1="280" x2="280" y2="280"/>
+    <line x1="200" y1="300" x2="300" y2="300"/>
+    <line x1="200" y1="320" x2="260" y2="320"/>
+  </g>
+  <!-- Scan arrows -->
+  <line x1="340" y1="290" x2="380" y2="290" stroke="#00D4FF" stroke-opacity="0.3" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Digital document -->
+  <rect x="390" y="200" width="140" height="180" rx="4" fill="#0a0a18" stroke="#00D4FF" stroke-opacity="0.2" stroke-width="1"/>
+  <!-- Binary content -->
+  <text x="420" y="250" font-family="monospace" font-size="10" fill="#00D4FF" fill-opacity="0.25">0101 1100</text>
+  <text x="420" y="270" font-family="monospace" font-size="10" fill="#00D4FF" fill-opacity="0.2">1010 0011</text>
+  <text x="420" y="290" font-family="monospace" font-size="10" fill="#00D4FF" fill-opacity="0.15">0110 1101</text>
+
+  <!-- Left label -->
+  <text x="320" y="430" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="12" fill="#666" letter-spacing="2">DIGITISATION</text>
+  <text x="320" y="450" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#333" letter-spacing="1">converting records</text>
+
+  <!-- Centre divider -->
+  <line x1="600" y1="100" x2="600" y2="530" stroke="url(#divider4)" stroke-width="1"/>
+
+  <!-- Right side — digitalisation (transformation, living systems) -->
+  <!-- Connected nodes / system -->
+  <g stroke="#00D4FF" stroke-opacity="0.2" stroke-width="1" fill="none">
+    <line x1="720" y1="240" x2="800" y2="200"/>
+    <line x1="720" y1="240" x2="800" y2="290"/>
+    <line x1="720" y1="240" x2="720" y2="350"/>
+    <line x1="800" y1="290" x2="920" y2="290"/>
+    <line x1="720" y1="350" x2="800" y2="390"/>
+    <line x1="920" y1="290" x2="920" y2="390"/>
+    <line x1="800" y1="390" x2="920" y2="390"/>
+  </g>
+
+  <!-- Nodes -->
+  <circle cx="720" cy="240" r="10" fill="#00D4FF" fill-opacity="0.15" stroke="#00D4FF" stroke-opacity="0.4" stroke-width="1"/>
+  <circle cx="720" cy="240" r="4" fill="#00D4FF"/>
+  <circle cx="800" cy="200" r="8" fill="#00D4FF" fill-opacity="0.1" stroke="#00D4FF" stroke-opacity="0.3" stroke-width="1"/>
+  <circle cx="800" cy="200" r="3" fill="#00D4FF" fill-opacity="0.7"/>
+  <circle cx="800" cy="290" r="8" fill="#00D4FF" fill-opacity="0.1" stroke="#00D4FF" stroke-opacity="0.3" stroke-width="1"/>
+  <circle cx="800" cy="290" r="3" fill="#00D4FF" fill-opacity="0.7"/>
+  <circle cx="920" cy="290" r="10" fill="#00D4FF" fill-opacity="0.15" stroke="#00D4FF" stroke-opacity="0.35" stroke-width="1"/>
+  <circle cx="920" cy="290" r="4" fill="#00D4FF" fill-opacity="0.8"/>
+  <circle cx="720" cy="350" r="8" fill="#00D4FF" fill-opacity="0.1" stroke="#00D4FF" stroke-opacity="0.3" stroke-width="1"/>
+  <circle cx="720" cy="350" r="3" fill="#00D4FF" fill-opacity="0.6"/>
+  <circle cx="800" cy="390" r="8" fill="#00D4FF" fill-opacity="0.1" stroke="#00D4FF" stroke-opacity="0.3" stroke-width="1"/>
+  <circle cx="800" cy="390" r="3" fill="#00D4FF" fill-opacity="0.6"/>
+  <circle cx="920" cy="390" r="8" fill="#00D4FF" fill-opacity="0.1" stroke="#00D4FF" stroke-opacity="0.3" stroke-width="1"/>
+  <circle cx="920" cy="390" r="3" fill="#00D4FF" fill-opacity="0.6"/>
+
+  <!-- Right label -->
+  <text x="820" y="450" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="12" fill="#00D4FF" fill-opacity="0.5" letter-spacing="2">DIGITALISATION</text>
+  <text x="820" y="470" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#445" fill-opacity="0.8" letter-spacing="1">transforming how you work</text>
+
+  <!-- VS -->
+  <text x="600" y="322" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="20" font-weight="700" fill="#333">VS</text>
+
+  <text x="600" y="570" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#00D4FF" fill-opacity="0.2" letter-spacing="4">THE DIFFERENCE THAT MATTERS</text>
+</svg>
