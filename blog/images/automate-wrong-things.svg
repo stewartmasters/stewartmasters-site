@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="bgawt" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#0d0d0d"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bgawt)"/>
+
+  <!-- Wrong target — automated (left) — lit up with orange/red glow -->
+  <circle cx="330" cy="300" r="120" fill="none" stroke="#ff4444" stroke-opacity="0.08" stroke-width="30"/>
+  <circle cx="330" cy="300" r="80" fill="none" stroke="#ff4444" stroke-opacity="0.1" stroke-width="20"/>
+  <circle cx="330" cy="300" r="40" fill="#ff4444" fill-opacity="0.05" stroke="#ff4444" stroke-opacity="0.2" stroke-width="2"/>
+  <!-- Crosshair lines -->
+  <line x1="200" y1="300" x2="460" y2="300" stroke="#ff4444" stroke-opacity="0.15" stroke-width="1"/>
+  <line x1="330" y1="160" x2="330" y2="440" stroke="#ff4444" stroke-opacity="0.15" stroke-width="1"/>
+  <!-- Automation badge -->
+  <rect x="250" y="220" width="160" height="26" rx="13" fill="#1a0a0a" stroke="#ff4444" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="330" y="237" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#ff4444" fill-opacity="0.5" letter-spacing="2">AUTOMATED ✓</text>
+  <!-- Label -->
+  <text x="330" y="460" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#ff4444" fill-opacity="0.3" letter-spacing="2">LOW VALUE PROCESS</text>
+  <text x="330" y="478" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#333" letter-spacing="1">report generation · email formatting</text>
+
+  <!-- Arrow between -->
+  <text x="600" y="310" text-anchor="middle" font-family="sans-serif" font-size="28" fill="#1e1e1e">↔</text>
+
+  <!-- Right target — not automated (correct one) — dimmed but cyan hint -->
+  <circle cx="870" cy="300" r="120" fill="none" stroke="#00D4FF" stroke-opacity="0.12" stroke-width="30"/>
+  <circle cx="870" cy="300" r="80" fill="none" stroke="#00D4FF" stroke-opacity="0.15" stroke-width="20"/>
+  <circle cx="870" cy="300" r="40" fill="#00D4FF" fill-opacity="0.04" stroke="#00D4FF" stroke-opacity="0.25" stroke-width="2"/>
+  <!-- Crosshair lines -->
+  <line x1="740" y1="300" x2="1000" y2="300" stroke="#00D4FF" stroke-opacity="0.12" stroke-width="1"/>
+  <line x1="870" y1="160" x2="870" y2="440" stroke="#00D4FF" stroke-opacity="0.12" stroke-width="1"/>
+  <!-- Not automated badge -->
+  <rect x="790" y="220" width="160" height="26" rx="13" fill="#0a100a" stroke="#00D4FF" stroke-opacity="0.2" stroke-width="1"/>
+  <text x="870" y="237" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#00D4FF" fill-opacity="0.4" letter-spacing="2">NOT STARTED</text>
+  <!-- Label -->
+  <text x="870" y="460" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#00D4FF" fill-opacity="0.3" letter-spacing="2">HIGH VALUE PROCESS</text>
+  <text x="870" y="478" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#334" letter-spacing="1">decision routing · exception handling</text>
+
+  <text x="600" y="565" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#00D4FF" fill-opacity="0.2" letter-spacing="5">AUTOMATING THE WRONG THINGS</text>
+</svg>

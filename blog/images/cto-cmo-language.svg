@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="bgc" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#0d0d10"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bgc)"/>
+  <!-- Left speech bubble — CTO/Tech -->
+  <path d="M 160 200 Q 160 160 200 160 L 460 160 Q 500 160 500 200 L 500 330 Q 500 370 460 370 L 320 370 L 280 420 L 270 370 L 200 370 Q 160 370 160 330 Z" fill="#0e0e14" stroke="#1e1e2e" stroke-width="1.5"/>
+  <!-- Tech symbols inside left bubble -->
+  <text x="240" y="210" font-family="monospace" font-size="12" fill="#00D4FF" fill-opacity="0.35">function()</text>
+  <text x="240" y="235" font-family="monospace" font-size="12" fill="#00D4FF" fill-opacity="0.25">  if (data) {</text>
+  <text x="240" y="258" font-family="monospace" font-size="12" fill="#00D4FF" fill-opacity="0.2">    return scale;</text>
+  <text x="240" y="281" font-family="monospace" font-size="12" fill="#00D4FF" fill-opacity="0.15">  }</text>
+  <text x="240" y="320" font-family="sans-serif" font-size="10" fill="#445" letter-spacing="1">SYSTEM · SCALE · STABILITY</text>
+  <text x="330" y="450" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#555" letter-spacing="2">CTO</text>
+
+  <!-- Right speech bubble — CMO/Commercial -->
+  <path d="M 700 200 Q 700 160 740 160 L 1000 160 Q 1040 160 1040 200 L 1040 330 Q 1040 370 1000 370 L 930 370 L 920 420 L 910 370 L 740 370 Q 700 370 700 330 Z" fill="#0e0e14" stroke="#1e1e2e" stroke-width="1.5"/>
+  <!-- Commercial symbols inside right bubble -->
+  <text x="760" y="215" font-family="sans-serif" font-size="30" fill="#aaa" fill-opacity="0.15">📈</text>
+  <!-- Bar chart mini -->
+  <rect x="780" y="285" width="16" height="50" fill="#555" fill-opacity="0.3" rx="2"/>
+  <rect x="804" y="265" width="16" height="70" fill="#555" fill-opacity="0.35" rx="2"/>
+  <rect x="828" y="250" width="16" height="85" fill="#888" fill-opacity="0.4" rx="2"/>
+  <rect x="852" y="270" width="16" height="65" fill="#555" fill-opacity="0.35" rx="2"/>
+  <rect x="876" y="240" width="16" height="95" fill="#aaa" fill-opacity="0.45" rx="2"/>
+  <rect x="900" y="260" width="16" height="75" fill="#666" fill-opacity="0.35" rx="2"/>
+  <text x="870" y="215" font-family="sans-serif" font-size="10" fill="#555" letter-spacing="1">GROWTH · STORY · BRAND</text>
+  <text x="870" y="450" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#555" letter-spacing="2">CMO</text>
+
+  <!-- Gap in the middle -->
+  <text x="600" y="290" text-anchor="middle" font-family="sans-serif" font-size="32" fill="#333">↔</text>
+  <text x="600" y="330" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#2a2a2a" letter-spacing="2">GAP</text>
+
+  <!-- Translation bridge hint -->
+  <line x1="500" y1="265" x2="700" y2="265" stroke="#00D4FF" stroke-opacity="0.08" stroke-width="1" stroke-dasharray="4 6"/>
+  <text x="600" y="255" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#00D4FF" fill-opacity="0.2" letter-spacing="2">shared vocabulary</text>
+
+  <text x="600" y="565" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#00D4FF" fill-opacity="0.2" letter-spacing="5">THE TRANSLATION PROBLEM</text>
+</svg>

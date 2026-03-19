@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="bgo" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#0d100d"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bgo)"/>
+  <!-- Three stacked layer blocks -->
+  <!-- Layer 1 — DATA (bottom) -->
+  <rect x="200" y="390" width="800" height="100" rx="6" fill="#0e1210" stroke="#1e2e1e" stroke-width="1.5"/>
+  <text x="600" y="432" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#00D4FF" fill-opacity="0.5" letter-spacing="4" font-weight="bold">DATA LAYER</text>
+  <text x="600" y="454" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#445" letter-spacing="2">single source of truth · customers · transactions · inventory</text>
+  <!-- Small nodes inside -->
+  <circle cx="260" cy="440" r="5" fill="#00D4FF" fill-opacity="0.25"/>
+  <circle cx="290" cy="440" r="5" fill="#00D4FF" fill-opacity="0.2"/>
+  <circle cx="320" cy="440" r="5" fill="#00D4FF" fill-opacity="0.15"/>
+  <circle cx="880" cy="440" r="5" fill="#00D4FF" fill-opacity="0.15"/>
+  <circle cx="910" cy="440" r="5" fill="#00D4FF" fill-opacity="0.2"/>
+  <circle cx="940" cy="440" r="5" fill="#00D4FF" fill-opacity="0.25"/>
+
+  <!-- Layer 2 — WORKFLOW (middle) -->
+  <rect x="200" y="270" width="800" height="100" rx="6" fill="#0e1210" stroke="#00D4FF" stroke-opacity="0.25" stroke-width="1.5"/>
+  <text x="600" y="312" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#00D4FF" fill-opacity="0.65" letter-spacing="4" font-weight="bold">WORKFLOW LAYER</text>
+  <text x="600" y="334" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#556" letter-spacing="2">triggers · ownership · escalation · automation rules</text>
+  <!-- Arrow chain inside -->
+  <g stroke="#00D4FF" stroke-opacity="0.2" stroke-width="1" fill="none">
+    <rect x="250" y="298" width="60" height="24" rx="3"/>
+    <line x1="310" y1="310" x2="330" y2="310"/>
+    <rect x="330" y="298" width="60" height="24" rx="3"/>
+    <line x1="390" y1="310" x2="410" y2="310"/>
+    <rect x="410" y="298" width="60" height="24" rx="3"/>
+    <line x1="850" y1="310" x2="870" y2="310"/>
+    <rect x="870" y="298" width="60" height="24" rx="3"/>
+  </g>
+  <text x="600" y="314" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#00D4FF" fill-opacity="0.15">···</text>
+
+  <!-- Layer 3 — VISIBILITY (top) -->
+  <rect x="200" y="150" width="800" height="100" rx="6" fill="#0e1210" stroke="#00D4FF" stroke-opacity="0.4" stroke-width="1.5"/>
+  <text x="600" y="192" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#00D4FF" fill-opacity="0.8" letter-spacing="4" font-weight="bold">VISIBILITY LAYER</text>
+  <text x="600" y="214" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#667" letter-spacing="2">dashboards · alerts · what matters · not everything</text>
+  <!-- Mini chart inside -->
+  <g stroke="#00D4FF" stroke-opacity="0.3" stroke-width="1">
+    <line x1="260" y1="220" x2="260" y2="170"/>
+    <polyline points="265,215 275,205 285,210 295,195 305,185 315,175" fill="none"/>
+    <line x1="850" y1="220" x2="850" y2="170"/>
+    <polyline points="855,215 865,200 875,205 885,190 895,180 905,170" fill="none"/>
+  </g>
+
+  <!-- Connecting arrows between layers -->
+  <g stroke="#00D4FF" stroke-opacity="0.3" stroke-width="1.5">
+    <line x1="600" y1="250" x2="600" y2="270"/>
+    <polygon points="600,270 595,260 605,260" fill="#00D4FF" fill-opacity="0.3"/>
+    <line x1="600" y1="370" x2="600" y2="390"/>
+    <polygon points="600,390 595,380 605,380" fill="#00D4FF" fill-opacity="0.3"/>
+  </g>
+  <!-- Also up arrows -->
+  <g stroke="#00D4FF" stroke-opacity="0.15" stroke-width="1">
+    <line x1="450" y1="370" x2="450" y2="250"/>
+    <line x1="750" y1="370" x2="750" y2="250"/>
+    <line x1="450" y1="250" x2="450" y2="150"/>
+    <line x1="750" y1="250" x2="750" y2="150"/>
+  </g>
+
+  <text x="600" y="565" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#00D4FF" fill-opacity="0.2" letter-spacing="5">OPERATIONS STACK</text>
+</svg>

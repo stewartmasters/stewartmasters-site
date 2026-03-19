@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="bgs" cx="30%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#130d0d"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bgs)"/>
+  <!-- Stack of bad decks on left — messy pile -->
+  <g transform="rotate(-8, 330, 320)">
+    <rect x="160" y="200" width="300" height="220" rx="4" fill="#110a0a" stroke="#220e0e" stroke-width="1"/>
+  </g>
+  <g transform="rotate(-4, 330, 320)">
+    <rect x="170" y="210" width="300" height="220" rx="4" fill="#120b0b" stroke="#221010" stroke-width="1"/>
+  </g>
+  <g transform="rotate(2, 330, 320)">
+    <rect x="180" y="220" width="300" height="220" rx="4" fill="#130c0c" stroke="#221212" stroke-width="1"/>
+  </g>
+  <!-- Top deck — bad deck with red X -->
+  <rect x="175" y="215" width="300" height="220" rx="4" fill="#140d0d" stroke="#2a1414" stroke-width="1.5"/>
+  <!-- Fake content lines on bad deck -->
+  <rect x="200" y="240" width="180" height="8" rx="2" fill="#1e1010" opacity="0.8"/>
+  <rect x="200" y="258" width="240" height="8" rx="2" fill="#1e1010" opacity="0.6"/>
+  <rect x="200" y="276" width="200" height="8" rx="2" fill="#1e1010" opacity="0.5"/>
+  <rect x="200" y="310" width="260" height="6" rx="2" fill="#1e1010" opacity="0.4"/>
+  <rect x="200" y="325" width="220" height="6" rx="2" fill="#1e1010" opacity="0.35"/>
+  <rect x="200" y="340" width="240" height="6" rx="2" fill="#1e1010" opacity="0.3"/>
+  <rect x="200" y="355" width="180" height="6" rx="2" fill="#1e1010" opacity="0.25"/>
+  <rect x="200" y="380" width="200" height="8" rx="2" fill="#1e1010" opacity="0.3"/>
+  <rect x="200" y="395" width="150" height="8" rx="2" fill="#1e1010" opacity="0.2"/>
+  <!-- Large X on bad deck -->
+  <line x1="195" y1="225" x2="465" y2="425" stroke="#ff4444" stroke-opacity="0.2" stroke-width="2.5"/>
+  <line x1="465" y1="225" x2="195" y2="425" stroke="#ff4444" stroke-opacity="0.2" stroke-width="2.5"/>
+  <!-- "47 slides" label -->
+  <text x="325" y="458" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#ff4444" fill-opacity="0.3" letter-spacing="2">47 SLIDES</text>
+
+  <!-- Arrow pointing right -->
+  <line x1="540" y1="315" x2="660" y2="315" stroke="#333" stroke-width="1.5"/>
+  <polygon points="660,315 648,308 648,322" fill="#333"/>
+
+  <!-- Single good page on right — clean, glowing -->
+  <rect x="690" y="175" width="320" height="260" rx="6" fill="#0a100a" stroke="#00D4FF" stroke-opacity="0.5" stroke-width="1.5"/>
+  <!-- Shadow box behind -->
+  <rect x="695" y="180" width="320" height="260" rx="6" fill="none" stroke="#00D4FF" stroke-opacity="0.08" stroke-width="8"/>
+  <!-- Good content — minimal -->
+  <text x="710" y="212" font-family="sans-serif" font-size="10" fill="#00D4FF" fill-opacity="0.5" letter-spacing="2">THE ONE DECISION</text>
+  <rect x="710" y="222" width="180" height="7" rx="2" fill="#00D4FF" fill-opacity="0.2"/>
+  <rect x="710" y="235" width="240" height="7" rx="2" fill="#00D4FF" fill-opacity="0.15"/>
+  <line x1="710" y1="260" x2="990" y2="260" stroke="#1e2e1e" stroke-width="1"/>
+  <text x="710" y="280" font-family="sans-serif" font-size="10" fill="#445" letter-spacing="2">WHAT WE'RE NOT DOING</text>
+  <rect x="710" y="290" width="160" height="6" rx="2" fill="#334" fill-opacity="0.4"/>
+  <line x1="710" y1="315" x2="990" y2="315" stroke="#1e2e1e" stroke-width="1"/>
+  <text x="710" y="335" font-family="sans-serif" font-size="10" fill="#445" letter-spacing="2">WHO DOES WHAT NEXT</text>
+  <rect x="710" y="345" width="200" height="6" rx="2" fill="#334" fill-opacity="0.4"/>
+  <rect x="710" y="358" width="140" height="6" rx="2" fill="#334" fill-opacity="0.3"/>
+  <line x1="710" y1="385" x2="990" y2="385" stroke="#1e2e1e" stroke-width="1"/>
+  <text x="850" y="415" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#00D4FF" fill-opacity="0.35" letter-spacing="2">1 PAGE</text>
+  <text x="850" y="460" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#00D4FF" fill-opacity="0.5" letter-spacing="1">✓</text>
+
+  <text x="600" y="565" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#00D4FF" fill-opacity="0.2" letter-spacing="5">STRATEGY THAT WORKS</text>
+</svg>

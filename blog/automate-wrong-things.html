@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Why most companies automate the wrong things first — Stewart Masters</title>
+  <meta name="description" content="Most companies start automation with the visible, easy processes — and leave the high-value decisions untouched. Here's how to identify what's actually worth automating.">
+  <link rel="canonical" href="https://stewartmasters.me/blog/automate-wrong-things.html">
+  <meta property="og:title" content="Why most companies automate the wrong things first">
+  <meta property="og:description" content="The visible, easy processes get automated. The high-value decisions stay manual. Here's why — and how to change it.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://stewartmasters.me/blog/automate-wrong-things.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Why most companies automate the wrong things first">
+  <meta name="twitter:description" content="The visible, easy processes get automated. The high-value decisions stay manual. Here's why — and how to change it.">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Why most companies automate the wrong things first",
+    "description": "Most companies start automation with the visible, easy processes — and leave the high-value decisions untouched. Here's how to identify what's actually worth automating.",
+    "author": { "@type": "Person", "name": "Stewart Masters", "url": "https://stewartmasters.me" },
+    "publisher": { "@type": "Person", "name": "Stewart Masters", "url": "https://stewartmasters.me" },
+    "datePublished": "2026-04-04",
+    "dateModified": "2026-04-04",
+    "url": "https://stewartmasters.me/blog/automate-wrong-things.html",
+    "keywords": "automation strategy, business process automation, what to automate, automation ROI, digital operations automation"
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { background-color: #0D0D0D; color: #ffffff; font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
+    ::-webkit-scrollbar { width: 5px; } ::-webkit-scrollbar-track { background: #0D0D0D; } ::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 3px; } ::-webkit-scrollbar-thumb:hover { background: #00D4FF; }
+    .font-heading { font-family: 'Space Grotesk', sans-serif; }
+    .max-container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; backdrop-filter: blur(24px); background: rgba(13, 13, 13, 0.85); border-bottom: 1px solid #1c1c1c; }
+    .nav-link { font-size: 14px; color: #aaa; text-decoration: none; transition: color 0.2s; }
+    .nav-link:hover { color: #ffffff; }
+    .btn-primary { display: inline-block; background: #00D4FF; color: #0D0D0D; font-family: 'Space Grotesk', sans-serif; font-weight: 600; padding: 10px 22px; border-radius: 4px; text-decoration: none; font-size: 14px; }
+    .btn-primary:hover { background: #ffffff; }
+    .prose { max-width: 720px; margin: 0 auto; }
+    .prose h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.75rem; font-weight: 700; color: #ffffff; margin-top: 3rem; margin-bottom: 1rem; line-height: 1.25; }
+    .prose h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.25rem; font-weight: 600; color: #e0e0e0; margin-top: 2rem; margin-bottom: 0.75rem; }
+    .prose p { color: #aaa; font-size: 17px; line-height: 1.85; margin-bottom: 1.5rem; }
+    .prose a { color: #00D4FF; text-decoration: underline; text-decoration-color: #00D4FF44; }
+    .prose a:hover { text-decoration-color: #00D4FF; }
+    .prose blockquote { border-left: 3px solid #00D4FF; margin: 2rem 0; padding: 1.25rem 1.5rem; background: #121212; border-radius: 0 6px 6px 0; }
+    .prose blockquote p { color: #ccc; font-style: italic; margin: 0; font-size: 18px; }
+    .prose ul, .prose ol { color: #aaa; font-size: 17px; line-height: 1.85; padding-left: 1.5rem; margin-bottom: 1.5rem; }
+    .prose li { margin-bottom: 0.5rem; }
+    .prose strong { color: #ddd; font-weight: 600; }
+    .prose hr { border: none; border-top: 1px solid #1e1e1e; margin: 3rem 0; }
+    .post-tag { display: inline-block; font-size: 10px; font-weight: 500; letter-spacing: 2px; text-transform: uppercase; color: #00D4FF; border: 1px solid #00D4FF33; padding: 5px 12px; border-radius: 20px; }
+    .author-box { background: #121212; border: 1px solid #1e1e1e; border-radius: 10px; padding: 28px; display: flex; gap: 20px; align-items: flex-start; }
+    .author-avatar { width: 56px; height: 56px; border-radius: 50%; flex-shrink: 0; overflow: hidden; }
+    .author-avatar img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+    .related-card { background: #121212; border: 1px solid #1e1e1e; border-radius: 8px; padding: 24px; text-decoration: none; display: block; transition: border-color 0.3s; }
+    .related-card:hover { border-color: #2a2a2a; }
+  </style>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+</head>
+<body>
+<nav>
+  <div class="max-container py-4 flex items-center justify-between">
+    <a href="../index.html" class="font-heading font-semibold text-white text-lg tracking-tight">Stewart Masters</a>
+    <div class="hidden md:flex items-center gap-8">
+      <a href="../index.html#about" class="nav-link">About</a>
+      <a href="../index.html#services" class="nav-link">Services</a>
+      <a href="index.html" class="nav-link" style="color:#fff;">Thinking</a>
+    </div>
+    <a href="../index.html#contact" class="btn-primary">Work With Me</a>
+  </div>
+</nav>
+
+<header class="pt-40 pb-12 px-6">
+  <div class="prose">
+    <nav style="font-size:12px;color:#333;margin-bottom:24px;">
+      <a href="../index.html" style="color:#444;text-decoration:none;">Home</a><span style="margin:0 8px;">·</span>
+      <a href="index.html" style="color:#444;text-decoration:none;">Thinking</a><span style="margin:0 8px;">·</span>
+      <span style="color:#555;">Why most companies automate the wrong things first</span>
+    </nav>
+    <span class="post-tag">AI &amp; Technology</span>
+    <h1 class="font-heading text-4xl md:text-5xl font-bold leading-tight mt-5 mb-6">Why most companies automate the wrong things first</h1>
+    <p class="text-gray-400 text-xl leading-relaxed mb-8">The visible, easy processes get automated. The high-value decisions stay manual. Here's why this keeps happening — and how to find what's actually worth automating.</p>
+    <div style="display:flex;align-items:center;gap:16px;font-size:13px;color:#444;padding-bottom:24px;border-bottom:1px solid #1e1e1e;">
+      <span>Stewart Masters</span><span>·</span><span>April 4, 2026</span><span>·</span><span>6 min read</span>
+    </div>
+  </div>
+</header>
+
+<div class="px-6 mb-12">
+  <div class="prose">
+    <img src="images/automate-wrong-things.svg" alt="Automation targeting low-value versus high-value processes" style="width:100%;height:360px;object-fit:cover;border-radius:10px;display:block;border:1px solid #1e1e1e;">
+  </div>
+</div>
+
+<article class="px-6 pb-20">
+  <div class="prose">
+
+    <p>Every time I walk into a business and ask what they've automated, the answer follows a predictable pattern. Report generation. Email templates. Invoice processing. Scheduling. The things that are visible, repetitive, and easy to describe — and therefore easy to hand to an automation tool.</p>
+
+    <p>When I ask what they haven't automated, the answer is usually a long pause. Then: "Well, a lot of the decisions." Exactly. The high-friction, high-stakes, high-frequency decisions — exception routing, stock reordering, customer escalation prioritisation, dynamic pricing — are all still being made manually by people who are already stretched, using imperfect information, and doing it inconsistently.</p>
+
+    <p>The easy stuff got automated. The important stuff didn't. And the business wonders why it's still slow.</p>
+
+    <h2>Why easy gets automated first</h2>
+
+    <p>The selection bias toward easy automation is rational, not lazy. When a team is asked to show quick wins from their automation investment, they reach for things that can be described cleanly, built quickly, and measured simply. "We automated invoice processing and saved 40 hours a month" is a credible result. It can be demonstrated. It can be reported to the leadership team. It justifies the investment.</p>
+
+    <p>The high-value automation is harder to scope, harder to build, and harder to measure. "We automated exception routing in our supply chain operations" is a much more complex story. What counts as an exception? What are the rules? What happens when the rules fail? Who signs off? The conversation immediately gets complicated, and teams who are under pressure to show results often defer it.</p>
+
+    <p>The cumulative effect is an organisation that has saved hundreds of hours on low-value tasks and left the most expensive decisions — the ones that drive customer churn, inventory cost, and margin — exactly as they were.</p>
+
+    <blockquote>
+      <p>Don't automate the tasks that are easy to describe. Automate the decisions that are expensive to get wrong.</p>
+    </blockquote>
+
+    <h2>How to find what's actually worth automating</h2>
+
+    <p>The right question isn't "what takes time?" It's "what decisions are we making at high frequency that are expensive when they're wrong?"</p>
+
+    <p>High-frequency means the decision happens dozens or hundreds of times a day, every day. Expensive when wrong means the consequence of a bad decision — a customer escalating, a stock-out, a pricing error, an order routing failure — costs more than the time it takes to make the decision correctly. Decisions that meet both criteria are the correct targets for automation. Decisions that only meet the first criterion (high frequency, low consequence) are candidates for streamlining or elimination, not automation.</p>
+
+    <p>In practice, the inventory of worth-automating decisions usually looks something like this:</p>
+
+    <ul>
+      <li>Customer support escalation routing — deciding which tickets need human attention and which can be resolved automatically</li>
+      <li>Inventory reorder triggering — deciding when stock levels require a purchasing action, based on lead times, current sell-through, and seasonal patterns</li>
+      <li>Pricing exception handling — deciding when a promotional price or a discount request falls outside standard rules and requires review</li>
+      <li>Workforce scheduling adjustments — deciding when demand signals require staffing changes in time to act on them</li>
+    </ul>
+
+    <p>None of these are easy to automate. All of them are worth it.</p>
+
+    <h2>The automation audit that changes the conversation</h2>
+
+    <p>The most useful exercise I've found is what I call the decision audit. For two weeks, ask every operational team to log every decision they make that required them to look at information, make a judgment, and take an action. Not tasks — decisions. At the end of two weeks, sort the log by frequency and consequence. The items at the top of both lists are your automation targets.</p>
+
+    <p>What you'll typically find surprises teams. The decisions that feel like "just how we work" — the daily pricing reviews, the exception queues, the escalation triage — turn out to be happening hundreds of times a week and costing significant time and consistency. The invoice processing that got automated last year was happening once a day. The exception queue was happening 150 times a day and nobody had counted.</p>
+
+    <p>Once the decisions are visible and quantified, the automation investment case becomes straightforward. The hard part is making them visible — because the high-value decisions are usually invisible. Not because they're hidden, but because they've been part of someone's job so long that nobody has looked at them as a process that could be changed.</p>
+
+    <h2>The right order</h2>
+
+    <p>Automate in this order: first, the decisions with the highest frequency and the highest cost of error. Second, the decisions that are currently creating bottlenecks. Third, the tasks that support those decisions. Last, the tasks that just take time.</p>
+
+    <p>Most businesses are doing it exactly backwards. But the reversal isn't complicated. It just requires someone asking the right question.</p>
+
+  </div>
+</article>
+
+<section class="px-6 pb-20">
+  <div class="prose">
+    <hr>
+    <div class="author-box">
+      <div class="author-avatar">
+        <img src="../stewart-masters.png" alt="Stewart Masters">
+      </div>
+      <div>
+        <div class="font-heading font-semibold text-white mb-1">Stewart Masters</div>
+        <p style="color:#777;font-size:14px;line-height:1.6;margin:0;">Chief Digital Officer at Honest Greens. 20 years building digital products and operational systems across Europe. I write about AI, digital operations, and what it actually takes to build things that work at scale.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="px-6 pb-24" style="border-top:1px solid #1a1a1a;">
+  <div class="prose pt-12">
+    <h3 class="font-heading text-xl font-semibold text-white mb-6">More from the blog</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <a href="ai-roi.html" class="related-card">
+        <span style="font-size:10px;letter-spacing:2px;text-transform:uppercase;color:#00D4FF;">AI &amp; Technology</span>
+        <h4 class="font-heading font-semibold text-white mt-2 mb-1 text-base leading-snug">How to think about AI ROI — and why most frameworks get it wrong</h4>
+        <span style="font-size:13px;color:#555;">March 28, 2026 · 6 min read</span>
+      </a>
+      <a href="ops-stack.html" class="related-card">
+        <span style="font-size:10px;letter-spacing:2px;text-transform:uppercase;color:#00D4FF;">Operations</span>
+        <h4 class="font-heading font-semibold text-white mt-2 mb-1 text-base leading-snug">The ops stack every digital business needs — and most don't have</h4>
+        <span style="font-size:13px;color:#555;">March 30, 2026 · 6 min read</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="py-10 px-6" style="border-top:1px solid #141414;">
+  <div class="max-container flex flex-col md:flex-row items-center justify-between gap-4">
+    <a href="../index.html" class="font-heading font-semibold" style="color:#555;">Stewart Masters</a>
+    <div class="flex gap-6" style="font-size:13px;">
+      <a href="../index.html#about" class="nav-link">About</a>
+      <a href="index.html" class="nav-link">Thinking</a>
+      <a href="../index.html#contact" class="nav-link">Contact</a>
+    </div>
+    <a href="https://www.linkedin.com/in/stewartmasters/" target="_blank" rel="noopener" class="nav-link" style="font-size:13px;">LinkedIn →</a>
+  </div>
+</footer>
+</body>
+</html>
