@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="bgdg" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#0a0c10"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bgdg)"/>
+
+  <!-- Data source node -->
+  <circle cx="150" cy="315" r="50" fill="#0e1218" stroke="#1e2830" stroke-width="1.5"/>
+  <text x="150" y="310" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#00D4FF" fill-opacity="0.4" letter-spacing="1">DATA</text>
+  <text x="150" y="325" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#00D4FF" fill-opacity="0.3" letter-spacing="1">SOURCE</text>
+  <!-- Data particles flowing right -->
+  <circle cx="210" cy="308" r="2" fill="#00D4FF" fill-opacity="0.4"/>
+  <circle cx="228" cy="315" r="2" fill="#00D4FF" fill-opacity="0.3"/>
+  <circle cx="246" cy="322" r="2" fill="#00D4FF" fill-opacity="0.2"/>
+  <circle cx="218" cy="298" r="1.5" fill="#00D4FF" fill-opacity="0.25"/>
+  <circle cx="238" cy="330" r="1.5" fill="#00D4FF" fill-opacity="0.15"/>
+
+  <!-- Pipe line -->
+  <line x1="205" y1="315" x2="320" y2="315" stroke="#1a2030" stroke-width="8" stroke-linecap="round"/>
+  <line x1="205" y1="315" x2="320" y2="315" stroke="#00D4FF" stroke-opacity="0.12" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Gate 1: Classification -->
+  <rect x="320" y="265" width="100" height="100" rx="5" fill="#0c1218" stroke="#00D4FF" stroke-opacity="0.3" stroke-width="1.5"/>
+  <text x="370" y="303" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#00D4FF" fill-opacity="0.5" letter-spacing="1">CLASSIFY</text>
+  <line x1="340" y1="320" x2="400" y2="320" stroke="#00D4FF" stroke-opacity="0.2" stroke-width="1"/>
+  <text x="370" y="340" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#334" letter-spacing="1">PUBLIC / INTERNAL</text>
+  <text x="370" y="352" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#334" letter-spacing="1">CONFIDENTIAL / SECRET</text>
+
+  <!-- Pipe line -->
+  <line x1="420" y1="315" x2="530" y2="315" stroke="#1a2030" stroke-width="8" stroke-linecap="round"/>
+  <line x1="420" y1="315" x2="530" y2="315" stroke="#00D4FF" stroke-opacity="0.12" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Gate 2: Access Control -->
+  <rect x="530" y="265" width="100" height="100" rx="5" fill="#0c1218" stroke="#00D4FF" stroke-opacity="0.25" stroke-width="1.5"/>
+  <text x="580" y="303" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#00D4FF" fill-opacity="0.4" letter-spacing="1">ACCESS</text>
+  <!-- Lock icon rough -->
+  <rect x="562" y="316" width="36" height="26" rx="3" fill="#081418" stroke="#00D4FF" stroke-opacity="0.25" stroke-width="1"/>
+  <path d="M 568,316 Q 568,305 580,305 Q 592,305 592,316" fill="none" stroke="#00D4FF" stroke-opacity="0.25" stroke-width="1.5"/>
+  <circle cx="580" cy="329" r="4" fill="#00D4FF" fill-opacity="0.2"/>
+
+  <!-- Pipe line -->
+  <line x1="630" y1="315" x2="740" y2="315" stroke="#1a2030" stroke-width="8" stroke-linecap="round"/>
+  <line x1="630" y1="315" x2="740" y2="315" stroke="#00D4FF" stroke-opacity="0.12" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Gate 3: Audit -->
+  <rect x="740" y="265" width="100" height="100" rx="5" fill="#0c1218" stroke="#00D4FF" stroke-opacity="0.2" stroke-width="1.5"/>
+  <text x="790" y="303" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#00D4FF" fill-opacity="0.35" letter-spacing="1">AUDIT LOG</text>
+  <rect x="760" y="314" width="60" height="5" rx="2" fill="#1a2030" fill-opacity="0.6"/>
+  <rect x="760" y="324" width="45" height="5" rx="2" fill="#1a2030" fill-opacity="0.4"/>
+  <rect x="760" y="334" width="52" height="5" rx="2" fill="#1a2030" fill-opacity="0.3"/>
+  <rect x="760" y="344" width="38" height="5" rx="2" fill="#1a2030" fill-opacity="0.2"/>
+
+  <!-- Pipe line -->
+  <line x1="840" y1="315" x2="950" y2="315" stroke="#1a2030" stroke-width="8" stroke-linecap="round"/>
+  <line x1="840" y1="315" x2="950" y2="315" stroke="#00D4FF" stroke-opacity="0.12" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Output node -->
+  <circle cx="1010" cy="315" r="50" fill="#081410" stroke="#00D4FF" stroke-opacity="0.3" stroke-width="1.5"/>
+  <text x="1010" y="310" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#00D4FF" fill-opacity="0.5" letter-spacing="1">GOVERNED</text>
+  <text x="1010" y="325" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#00D4FF" fill-opacity="0.4" letter-spacing="1">DATA</text>
+
+  <!-- Rejected data branch going down from gate 1 -->
+  <line x1="370" y1="365" x2="370" y2="420" stroke="#ff4444" stroke-opacity="0.15" stroke-width="2" stroke-dasharray="4,4"/>
+  <text x="370" y="445" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#ff4444" fill-opacity="0.25" letter-spacing="1">REJECTED / QUARANTINE</text>
+
+  <text x="600" y="575" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#00D4FF" fill-opacity="0.2" letter-spacing="5">DATA GOVERNANCE</text>
+</svg>

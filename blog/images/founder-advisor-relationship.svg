@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="bgfar" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#0a0a0d"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </radialGradient>
+    <clipPath id="leftCircle">
+      <circle cx="470" cy="315" r="200"/>
+    </clipPath>
+    <clipPath id="rightCircle">
+      <circle cx="730" cy="315" r="200"/>
+    </clipPath>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bgfar)"/>
+
+  <!-- Left circle: FOUNDER -->
+  <circle cx="470" cy="315" r="200" fill="#0c0c14" stroke="#1e1e2e" stroke-width="1.5"/>
+
+  <!-- Right circle: ADVISOR -->
+  <circle cx="730" cy="315" r="200" fill="#081410" stroke="#00D4FF" stroke-opacity="0.2" stroke-width="1.5"/>
+
+  <!-- Intersection fill -->
+  <circle cx="730" cy="315" r="200" fill="#0a1414" fill-opacity="0.7" clip-path="url(#leftCircle)"/>
+
+  <!-- Left content -->
+  <text x="370" y="290" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="13" fill="#aaaacc" fill-opacity="0.6" font-weight="600">FOUNDER</text>
+  <text x="370" y="315" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#3a3a4a" letter-spacing="1">Urgency</text>
+  <text x="370" y="332" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#3a3a4a" letter-spacing="1">Domain depth</text>
+  <text x="370" y="349" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#3a3a4a" letter-spacing="1">Execution</text>
+
+  <!-- Right content -->
+  <text x="840" y="290" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="13" fill="#00D4FF" fill-opacity="0.5" font-weight="600">ADVISOR</text>
+  <text x="840" y="315" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#00D4FF" fill-opacity="0.25" letter-spacing="1">Pattern recognition</text>
+  <text x="840" y="332" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#00D4FF" fill-opacity="0.2" letter-spacing="1">Network access</text>
+  <text x="840" y="349" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#00D4FF" fill-opacity="0.15" letter-spacing="1">Challenge &amp; question</text>
+
+  <!-- Center intersection content -->
+  <text x="600" y="295" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#00D4FF" fill-opacity="0.4" letter-spacing="1">WHAT WORKS</text>
+  <text x="600" y="316" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#445" letter-spacing="1">Clear scope</text>
+  <text x="600" y="330" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#3a3a4a" letter-spacing="1">Trust + candour</text>
+  <text x="600" y="344" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#334" letter-spacing="1">Regular rhythm</text>
+
+  <!-- Connection line at top suggesting relationship -->
+  <path d="M 470,115 Q 600,80 730,115" fill="none" stroke="#00D4FF" stroke-opacity="0.12" stroke-width="1.5" stroke-dasharray="5,5"/>
+
+  <!-- Small broken connection indicator below — what doesn't work -->
+  <text x="600" y="480" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#333" letter-spacing="2">WHAT DOESN'T WORK</text>
+  <line x1="350" y1="495" x2="520" y2="495" stroke="#ff4444" stroke-opacity="0.15" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="430" y="512" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#2a2a2a" letter-spacing="1">Vague mandate</text>
+  <line x1="680" y1="495" x2="850" y2="495" stroke="#ff4444" stroke-opacity="0.12" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="770" y="512" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#252525" letter-spacing="1">Advice without context</text>
+
+  <text x="600" y="575" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#00D4FF" fill-opacity="0.2" letter-spacing="5">FOUNDER · ADVISOR</text>
+</svg>

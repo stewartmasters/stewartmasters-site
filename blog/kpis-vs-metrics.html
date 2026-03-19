@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Difference Between a KPI and a Metric — and Why It Matters — Stewart Masters</title>
+  <meta name="description" content="Most organisations are drowning in metrics while being blind to performance. Here's the difference between a KPI and a metric — and how to find the numbers that actually tell you something.">
+  <link rel="canonical" href="https://stewartmasters.com/blog/kpis-vs-metrics.html">
+  <meta property="og:title" content="The Difference Between a KPI and a Metric — and Why It Matters">
+  <meta property="og:description" content="Most organisations are drowning in metrics while being blind to performance. Here's the difference — and how to find the numbers that actually tell you something.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://stewartmasters.com/blog/kpis-vs-metrics.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The Difference Between a KPI and a Metric — and Why It Matters">
+  <meta name="twitter:description" content="Most organisations are drowning in metrics while being blind to performance. Here's the difference — and how to find the numbers that actually tell you something.">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "The Difference Between a KPI and a Metric — and Why It Matters",
+    "description": "Most organisations are drowning in metrics while being blind to performance. Here's the difference between a KPI and a metric — and how to find the numbers that actually tell you something.",
+    "author": { "@type": "Person", "name": "Stewart Masters", "url": "https://stewartmasters.com" },
+    "publisher": { "@type": "Person", "name": "Stewart Masters", "url": "https://stewartmasters.com" },
+    "datePublished": "2026-04-08",
+    "dateModified": "2026-04-08",
+    "url": "https://stewartmasters.com/blog/kpis-vs-metrics.html",
+    "keywords": "KPI vs metric, key performance indicators, business metrics, digital strategy, performance measurement"
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { background-color: #0D0D0D; color: #ffffff; font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
+    ::-webkit-scrollbar { width: 5px; } ::-webkit-scrollbar-track { background: #0D0D0D; } ::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 3px; } ::-webkit-scrollbar-thumb:hover { background: #00D4FF; }
+    .font-heading { font-family: 'Space Grotesk', sans-serif; }
+    .max-container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; backdrop-filter: blur(24px); background: rgba(13, 13, 13, 0.85); border-bottom: 1px solid #1c1c1c; }
+    .nav-link { font-size: 14px; color: #aaa; text-decoration: none; transition: color 0.2s; }
+    .nav-link:hover { color: #ffffff; }
+    .btn-primary { display: inline-block; background: #00D4FF; color: #0D0D0D; font-family: 'Space Grotesk', sans-serif; font-weight: 600; padding: 10px 22px; border-radius: 4px; text-decoration: none; font-size: 14px; }
+    .btn-primary:hover { background: #ffffff; }
+    .prose { max-width: 720px; margin: 0 auto; }
+    .prose h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.75rem; font-weight: 700; color: #ffffff; margin-top: 3rem; margin-bottom: 1rem; line-height: 1.25; }
+    .prose h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.25rem; font-weight: 600; color: #e0e0e0; margin-top: 2rem; margin-bottom: 0.75rem; }
+    .prose p { color: #aaa; font-size: 17px; line-height: 1.85; margin-bottom: 1.5rem; }
+    .prose a { color: #00D4FF; text-decoration: underline; text-decoration-color: #00D4FF44; }
+    .prose a:hover { text-decoration-color: #00D4FF; }
+    .prose blockquote { border-left: 3px solid #00D4FF; margin: 2rem 0; padding: 1.25rem 1.5rem; background: #121212; border-radius: 0 6px 6px 0; }
+    .prose blockquote p { color: #ccc; font-style: italic; margin: 0; font-size: 18px; }
+    .prose ul, .prose ol { color: #aaa; font-size: 17px; line-height: 1.85; padding-left: 1.5rem; margin-bottom: 1.5rem; }
+    .prose li { margin-bottom: 0.5rem; }
+    .prose strong { color: #ddd; font-weight: 600; }
+    .prose hr { border: none; border-top: 1px solid #1e1e1e; margin: 3rem 0; }
+    .post-tag { display: inline-block; font-size: 10px; font-weight: 500; letter-spacing: 2px; text-transform: uppercase; color: #00D4FF; border: 1px solid #00D4FF33; padding: 5px 12px; border-radius: 20px; }
+    .author-box { background: #121212; border: 1px solid #1e1e1e; border-radius: 10px; padding: 28px; display: flex; gap: 20px; align-items: flex-start; }
+    .author-avatar { width: 56px; height: 56px; border-radius: 50%; flex-shrink: 0; overflow: hidden; }
+    .author-avatar img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+    .related-card { background: #121212; border: 1px solid #1e1e1e; border-radius: 8px; padding: 24px; text-decoration: none; display: block; transition: border-color 0.3s; }
+    .related-card:hover { border-color: #2a2a2a; }
+    @media (max-width: 640px) { .bc-divider, .bc-current { display: none; } }
+  </style>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+</head>
+<body>
+<nav>
+  <div class="max-container py-4 flex items-center justify-between">
+    <a href="../index.html" class="font-heading font-semibold text-white text-lg tracking-tight">Stewart Masters</a>
+    <div class="hidden md:flex items-center gap-8">
+      <a href="../index.html#about" class="nav-link">About</a>
+      <a href="../index.html#services" class="nav-link">Services</a>
+      <a href="index.html" class="nav-link" style="color:#fff;">Thinking</a>
+      <a href="../index.html#speaking" class="nav-link">Speaking</a>
+    </div>
+    <a href="../index.html#contact" class="btn-primary">Work With Me</a>
+  </div>
+</nav>
+
+<header class="pt-40 pb-12 px-6">
+  <div class="prose">
+    <nav style="font-size:12px;color:#333;margin-bottom:24px;">
+      <a href="../index.html" style="color:#444;text-decoration:none;">Home</a><span style="margin:0 8px;">·</span>
+      <a href="index.html" style="color:#444;text-decoration:none;">Thinking</a><span class="bc-divider" style="margin:0 8px;">·</span>
+      <span class="bc-current" style="color:#555;">KPIs vs metrics</span>
+    </nav>
+    <span class="post-tag">Digital Strategy</span>
+    <h1 class="font-heading text-4xl md:text-5xl font-bold leading-tight mt-5 mb-6">The difference between a KPI and a metric — and why it matters</h1>
+    <p class="text-gray-400 text-xl leading-relaxed mb-8">Most organisations are drowning in metrics while being completely blind to their own performance. The problem isn't that they're not measuring enough — it's that they're measuring the wrong things, or measuring the right things without connecting them to anything that matters.</p>
+    <div style="display:flex;align-items:center;gap:16px;font-size:13px;color:#444;padding-bottom:24px;border-bottom:1px solid #1e1e1e;">
+      <span>Stewart Masters</span><span>·</span><span>April 8, 2026</span><span>·</span><span>6 min read</span>
+    </div>
+  </div>
+</header>
+
+<div class="px-6 mb-12">
+  <div class="prose">
+    <img src="images/kpis-vs-metrics.svg" alt="KPIs versus metrics visualisation" style="width:100%;height:360px;object-fit:cover;border-radius:10px;display:block;border:1px solid #1e1e1e;">
+  </div>
+</div>
+
+<article class="px-6 pb-20">
+  <div class="prose">
+
+    <p>Let me give you the definitions first, because people use these terms interchangeably and they shouldn't. A metric is any quantitative measure you track. Website sessions. Support tickets opened. Employee headcount. Time to first response. These are all metrics — data points that describe something about your organisation. You can have hundreds of them.</p>
+
+    <p>A KPI — a Key Performance Indicator — is a metric that is explicitly linked to a strategic objective and tracked specifically because it tells you whether you're achieving that objective. The word "key" is doing a lot of work in that definition. A KPI is not just important. It is decisive. If it moves in the wrong direction, something significant needs to change.</p>
+
+    <h2>The practical difference</h2>
+    <p>Here's a way to think about it. Every KPI is a metric, but most metrics are not KPIs. Your website has hundreds of trackable data points: page views, scroll depth, click-through rates, session duration, bounce rate, conversion rate, source attribution, device split, load time. These are all metrics. But if your strategic objective is to grow qualified pipeline, then the only metric from that list that rises to the level of KPI is the number of qualified leads generated through the site. Everything else is context — useful for diagnosis, not for performance management.</p>
+
+    <p>The confusion between these two things causes real damage. Teams spend time in weekly reviews going through 30 numbers, most of which have no direct connection to whether the business is succeeding. Leaders feel informed because they're looking at data. But the specific measure that tells them whether the strategy is working gets lost in the noise.</p>
+
+    <blockquote><p>"Having 30 KPIs is the same as having no KPIs. When everything is key, nothing is."</p></blockquote>
+
+    <h2>The symptoms of metric confusion</h2>
+    <p>There are a few patterns that signal a team has lost the distinction. The most common is the weekly data dump — a standing agenda item where someone shares a dashboard of 25 numbers and the team looks at each one briefly before moving on. Nothing changes as a result. There's no threshold that, if crossed, triggers a different decision. The metrics are reported, noted, and filed away.</p>
+
+    <p>A related symptom is the vanity metric — a number that looks good and goes up, but doesn't indicate business performance. Monthly active users can be a vanity metric if retention is poor. Revenue can be a vanity metric if margin is negative. Newsletter subscribers can be a vanity metric if open rates and click-through rates are zero. Vanity metrics are addictive because they're generally easy to move and make teams feel productive. The test is simple: if this number doubles, does the business materially improve? If not, it's probably not a KPI.</p>
+
+    <p>A third symptom is the absence of thresholds. A KPI without a threshold isn't being used as a KPI — it's just being tracked. "Our NPS score is 42" is a metric observation. "Our NPS score is 42, against a target of 55, which means we're 13 points below the threshold that would trigger a customer experience review" is a KPI in use. The threshold is what makes the number actionable.</p>
+
+    <h2>How to choose the right KPIs</h2>
+    <p>Start from the strategic objectives, not from the data. What does the organisation need to achieve this year? Not what does it want to track — what does it need to achieve? For each objective, ask: what is the one number that would most clearly tell us whether we're achieving this? That's your KPI candidate.</p>
+
+    <p>Then apply three tests. First, is it measurable — can you actually get a reliable number, at a reasonable frequency? Second, is it within the team's control — or is it downstream of decisions made elsewhere? Third, if this number moves significantly, is there a clear action the team can take? If you can't answer yes to all three, the metric may be interesting but it's probably not a KPI for this team.</p>
+
+    <p>Keep the set small. For a business unit or a team, three to five KPIs is usually the right number. For an individual role, one to three. If someone can't remember their own KPIs without looking them up, there are too many.</p>
+
+    <h2>KPIs and the leading/lagging distinction</h2>
+    <p>One more distinction worth making: the difference between leading and lagging indicators. A lagging indicator tells you what happened — revenue, profit, churn, NPS. A leading indicator tells you what is likely to happen — pipeline value, trial conversions, sales activity volume. Both matter, but for different reasons.</p>
+
+    <p>Lagging indicators confirm whether your strategy is working over time. Leading indicators tell you whether it's likely to work before it's too late to change course. A well-designed KPI set usually includes both: a lagging outcome metric that confirms success over the period, and a leading indicator that gives you in-period warning.</p>
+
+    <p>A SaaS business might track monthly recurring revenue (lagging) alongside net new trials started (leading). A professional services firm might track revenue billed (lagging) alongside qualified proposals submitted (leading). The lagging metric tells you how you did. The leading metric tells you how you're likely to do.</p>
+
+    <h2>One practical exercise</h2>
+    <p>If you want to audit your current measurement approach, try this. Take your current dashboard or weekly report and highlight every metric. Then, for each one, ask: which strategic objective does this connect to, and what decision would we make differently if this number moved significantly? Any metric you can't answer that question for is not a KPI. You're measuring it, which might be fine — but it shouldn't be in your performance review conversation.</p>
+
+    <hr>
+    <p style="color:#777;font-size:15px;"><strong style="color:#888;">Trying to build a cleaner performance framework for your business?</strong><br>
+    This is a common challenge — and one I help leadership teams work through. <a href="../index.html#contact">Let's talk →</a></p>
+  </div>
+</article>
+
+<section class="px-6 pb-20">
+  <div class="prose">
+    <div class="author-box">
+      <div class="author-avatar"><img src="../stewart-masters.png" alt="Stewart Masters"></div>
+      <div>
+        <div class="font-heading font-semibold mb-1">Stewart Masters</div>
+        <p style="color:#555;font-size:14px;line-height:1.6;margin:0;">Strategic advisor to founders and operators. 20+ years building and advising businesses across Europe and the Middle East. Based in Barcelona. Guest lecturer at IE Business School and ESADE. <a href="https://www.linkedin.com/in/stewartmasters/" style="color:#00D4FF;text-decoration:none;">Connect on LinkedIn →</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="px-6 pb-24" style="border-top:1px solid #1a1a1a;padding-top:48px;">
+  <div class="prose">
+    <h2 class="font-heading text-2xl font-bold mb-6" style="margin-top:0;">More to read</h2>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+      <a href="what-is-a-digital-strategy.html" class="related-card">
+        <span style="font-size:10px;color:#00D4FF;letter-spacing:2px;text-transform:uppercase;display:block;margin-bottom:8px;">Digital Strategy</span>
+        <span class="font-heading font-semibold text-white" style="font-size:15px;line-height:1.4;display:block;">What is a digital strategy — and why most companies don't actually have one</span>
+      </a>
+      <a href="okrs-without-bureaucracy.html" class="related-card">
+        <span style="font-size:10px;color:#00D4FF;letter-spacing:2px;text-transform:uppercase;display:block;margin-bottom:8px;">Leadership</span>
+        <span class="font-heading font-semibold text-white" style="font-size:15px;line-height:1.4;display:block;">How to run OKRs without the bureaucracy</span>
+      </a>
+    </div>
+    <div style="text-align:center;margin-top:24px;"><a href="index.html" style="color:#444;font-size:14px;text-decoration:none;">← All posts</a></div>
+  </div>
+</section>
+
+<footer class="py-10 px-6" style="border-top:1px solid #141414;">
+  <div class="max-container flex flex-col md:flex-row items-center justify-between gap-4">
+    <span class="font-heading font-semibold" style="color:#555;">Stewart Masters</span>
+    <div class="flex gap-6" style="font-size:13px;">
+      <a href="../index.html#about" class="nav-link">About</a>
+      <a href="../index.html#services" class="nav-link">Services</a>
+      <a href="index.html" class="nav-link">Thinking</a>
+      <a href="../index.html#contact" class="nav-link">Contact</a>
+    </div>
+    <a href="https://www.linkedin.com/in/stewartmasters/" target="_blank" rel="noopener" class="nav-link" style="font-size:13px;">LinkedIn →</a>
+  </div>
+  <div class="max-container mt-6 text-center" style="font-size:11px;color:#2a2a2a;letter-spacing:2px;">BARCELONA · LONDON · MADRID</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="bgcaio" cx="50%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#0a0c10"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bgcaio)"/>
+
+  <!-- CEO box at top -->
+  <rect x="510" y="100" width="180" height="60" rx="5" fill="#101218" stroke="#1e2030" stroke-width="1.5"/>
+  <text x="600" y="126" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#666" letter-spacing="2">CEO</text>
+  <text x="600" y="146" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#333" letter-spacing="1">Chief Executive</text>
+
+  <!-- Connector lines from CEO down -->
+  <line x1="600" y1="160" x2="600" y2="220" stroke="#1e1e28" stroke-width="1"/>
+  <line x1="600" y1="220" x2="200" y2="220" stroke="#1e1e28" stroke-width="1"/>
+  <line x1="600" y1="220" x2="1000" y2="220" stroke="#1e1e28" stroke-width="1"/>
+
+  <!-- Standard C-suite: CTO -->
+  <line x1="200" y1="220" x2="200" y2="250" stroke="#1e1e28" stroke-width="1"/>
+  <rect x="120" y="250" width="160" height="55" rx="4" fill="#0e0e12" stroke="#181820" stroke-width="1"/>
+  <text x="200" y="272" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#444" letter-spacing="2">CTO</text>
+  <text x="200" y="290" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#2a2a2a" letter-spacing="1">Technology</text>
+
+  <!-- CFO -->
+  <line x1="400" y1="220" x2="400" y2="250" stroke="#1e1e28" stroke-width="1"/>
+  <rect x="320" y="250" width="160" height="55" rx="4" fill="#0e0e12" stroke="#181820" stroke-width="1"/>
+  <text x="400" y="272" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#444" letter-spacing="2">CFO</text>
+  <text x="400" y="290" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#2a2a2a" letter-spacing="1">Finance</text>
+
+  <!-- CMO -->
+  <line x1="600" y1="220" x2="600" y2="250" stroke="#1e1e28" stroke-width="1"/>
+  <rect x="520" y="250" width="160" height="55" rx="4" fill="#0e0e12" stroke="#181820" stroke-width="1"/>
+  <text x="600" y="272" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#444" letter-spacing="2">CMO</text>
+  <text x="600" y="290" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#2a2a2a" letter-spacing="1">Marketing</text>
+
+  <!-- COO -->
+  <line x1="800" y1="220" x2="800" y2="250" stroke="#1e1e28" stroke-width="1"/>
+  <rect x="720" y="250" width="160" height="55" rx="4" fill="#0e0e12" stroke="#181820" stroke-width="1"/>
+  <text x="800" y="272" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#444" letter-spacing="2">COO</text>
+  <text x="800" y="290" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#2a2a2a" letter-spacing="1">Operations</text>
+
+  <!-- CAIO — highlighted new box -->
+  <line x1="1000" y1="220" x2="1000" y2="250" stroke="#00D4FF" stroke-opacity="0.3" stroke-width="1"/>
+  <rect x="910" y="250" width="180" height="55" rx="4" fill="#081418" stroke="#00D4FF" stroke-opacity="0.4" stroke-width="1.5"/>
+  <text x="1000" y="272" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#00D4FF" fill-opacity="0.7" letter-spacing="2">CAIO</text>
+  <text x="1000" y="290" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#00D4FF" fill-opacity="0.35" letter-spacing="1">Chief AI Officer</text>
+
+  <!-- Question mark next to CAIO -->
+  <text x="1105" y="283" font-family="sans-serif" font-size="22" fill="#00D4FF" fill-opacity="0.25">?</text>
+
+  <!-- Below: considerations -->
+  <text x="600" y="390" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#333" letter-spacing="2">WHEN DOES THIS ROLE MAKE SENSE?</text>
+
+  <rect x="200" y="415" width="190" height="50" rx="4" fill="#0a0e10" stroke="#141a1e" stroke-width="1"/>
+  <text x="295" y="436" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#3a3a3a">AI is core to</text>
+  <text x="295" y="450" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#3a3a3a">the business model</text>
+
+  <rect x="505" y="415" width="190" height="50" rx="4" fill="#0a0e10" stroke="#141a1e" stroke-width="1"/>
+  <text x="600" y="436" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#3a3a3a">AI spans multiple</text>
+  <text x="600" y="450" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#3a3a3a">business units</text>
+
+  <rect x="810" y="415" width="190" height="50" rx="4" fill="#0a0e10" stroke="#141a1e" stroke-width="1"/>
+  <text x="905" y="436" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#3a3a3a">Governance requires</text>
+  <text x="905" y="450" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#3a3a3a">a single owner</text>
+
+  <text x="600" y="575" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#00D4FF" fill-opacity="0.2" letter-spacing="5">CHIEF AI OFFICER</text>
+</svg>

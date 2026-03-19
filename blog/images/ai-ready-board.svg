@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="bgarb" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#0a0d10"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bgarb)"/>
+
+  <!-- Board table oval -->
+  <ellipse cx="600" cy="315" rx="310" ry="140" fill="#0c0e12" stroke="#181c24" stroke-width="1.5"/>
+
+  <!-- Circuit trace overlay on table -->
+  <g stroke="#00D4FF" stroke-opacity="0.08" stroke-width="1" fill="none">
+    <path d="M 340,315 H 410 V 265 H 490"/>
+    <path d="M 490,265 H 560 V 315"/>
+    <path d="M 640,315 V 265 H 720"/>
+    <path d="M 720,265 H 790 V 315 H 860"/>
+    <path d="M 490,365 H 560 V 315"/>
+    <path d="M 640,315 V 365 H 720"/>
+    <circle cx="490" cy="265" r="3" fill="#00D4FF" fill-opacity="0.2" stroke="none"/>
+    <circle cx="560" cy="315" r="3" fill="#00D4FF" fill-opacity="0.15" stroke="none"/>
+    <circle cx="640" cy="315" r="3" fill="#00D4FF" fill-opacity="0.15" stroke="none"/>
+    <circle cx="720" cy="265" r="3" fill="#00D4FF" fill-opacity="0.2" stroke="none"/>
+  </g>
+
+  <!-- Seat positions — 8 seats around oval -->
+  <circle cx="500" cy="182" r="20" fill="#111" stroke="#1e2028" stroke-width="1.5"/>
+  <circle cx="600" cy="168" r="20" fill="#111" stroke="#00D4FF" stroke-opacity="0.3" stroke-width="1.5"/>
+  <circle cx="700" cy="182" r="20" fill="#111" stroke="#1e2028" stroke-width="1.5"/>
+  <circle cx="500" cy="448" r="20" fill="#111" stroke="#1e2028" stroke-width="1.5"/>
+  <circle cx="600" cy="462" r="20" fill="#111" stroke="#1e2028" stroke-width="1.5"/>
+  <circle cx="700" cy="448" r="20" fill="#111" stroke="#1e2028" stroke-width="1.5"/>
+  <circle cx="292" cy="315" r="20" fill="#111" stroke="#1e2028" stroke-width="1.5"/>
+  <circle cx="908" cy="315" r="20" fill="#111" stroke="#00D4FF" stroke-opacity="0.4" stroke-width="1.5"/>
+
+  <!-- AI readiness radar on table -->
+  <polygon points="600,245 636,270 636,345 600,370 564,345 564,270" fill="none" stroke="#00D4FF" stroke-opacity="0.12" stroke-width="1"/>
+  <polygon points="600,260 626,278 626,338 600,356 574,338 574,278" fill="none" stroke="#00D4FF" stroke-opacity="0.08" stroke-width="1"/>
+  <!-- Filled radar shape -->
+  <polygon points="600,250 628,272 630,340 600,360 572,338 570,275" fill="#00D4FF" fill-opacity="0.04" stroke="#00D4FF" stroke-opacity="0.18" stroke-width="1"/>
+
+  <!-- Labels -->
+  <text x="600" y="240" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#00D4FF" fill-opacity="0.3" letter-spacing="1">AI RISK</text>
+  <text x="640" y="315" text-anchor="start" font-family="sans-serif" font-size="7" fill="#00D4FF" fill-opacity="0.25" letter-spacing="1">OVERSIGHT</text>
+  <text x="560" y="315" text-anchor="end" font-family="sans-serif" font-size="7" fill="#00D4FF" fill-opacity="0.25" letter-spacing="1">FLUENCY</text>
+  <text x="600" y="378" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#00D4FF" fill-opacity="0.25" letter-spacing="1">POLICY</text>
+
+  <!-- AI label on table -->
+  <text x="600" y="318" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="14" fill="#00D4FF" fill-opacity="0.25" letter-spacing="4">AI-READY</text>
+
+  <!-- CHAIR label -->
+  <text x="908" y="352" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#00D4FF" fill-opacity="0.35" letter-spacing="1">CHAIR</text>
+
+  <text x="600" y="575" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#00D4FF" fill-opacity="0.2" letter-spacing="5">THE AI-READY BOARD</text>
+</svg>

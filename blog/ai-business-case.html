@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How to Write an AI Business Case That Actually Gets Approved — Stewart Masters</title>
+  <meta name="description" content="Most AI business cases are rejected not because the AI doesn't work, but because the case is made in the wrong language for the wrong audience. Here's how to write one that gets approved.">
+  <link rel="canonical" href="https://stewartmasters.com/blog/ai-business-case.html">
+  <meta property="og:title" content="How to Write an AI Business Case That Actually Gets Approved">
+  <meta property="og:description" content="Most AI business cases are rejected not because the AI doesn't work, but because the case is made in the wrong language for the wrong audience.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://stewartmasters.com/blog/ai-business-case.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="How to Write an AI Business Case That Actually Gets Approved">
+  <meta name="twitter:description" content="Most AI business cases are rejected not because the AI doesn't work, but because the case is made in the wrong language for the wrong audience.">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "How to Write an AI Business Case That Actually Gets Approved",
+    "description": "Most AI business cases are rejected not because the AI doesn't work, but because the case is made in the wrong language for the wrong audience. Here's how to write one that gets approved.",
+    "author": { "@type": "Person", "name": "Stewart Masters", "url": "https://stewartmasters.com" },
+    "publisher": { "@type": "Person", "name": "Stewart Masters", "url": "https://stewartmasters.com" },
+    "datePublished": "2026-04-07",
+    "dateModified": "2026-04-07",
+    "url": "https://stewartmasters.com/blog/ai-business-case.html",
+    "keywords": "AI business case, AI investment case, how to get AI approved, AI ROI, AI justification"
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { background-color: #0D0D0D; color: #ffffff; font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
+    ::-webkit-scrollbar { width: 5px; } ::-webkit-scrollbar-track { background: #0D0D0D; } ::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 3px; } ::-webkit-scrollbar-thumb:hover { background: #00D4FF; }
+    .font-heading { font-family: 'Space Grotesk', sans-serif; }
+    .max-container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; backdrop-filter: blur(24px); background: rgba(13, 13, 13, 0.85); border-bottom: 1px solid #1c1c1c; }
+    .nav-link { font-size: 14px; color: #aaa; text-decoration: none; transition: color 0.2s; }
+    .nav-link:hover { color: #ffffff; }
+    .btn-primary { display: inline-block; background: #00D4FF; color: #0D0D0D; font-family: 'Space Grotesk', sans-serif; font-weight: 600; padding: 10px 22px; border-radius: 4px; text-decoration: none; font-size: 14px; }
+    .btn-primary:hover { background: #ffffff; }
+    .prose { max-width: 720px; margin: 0 auto; }
+    .prose h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.75rem; font-weight: 700; color: #ffffff; margin-top: 3rem; margin-bottom: 1rem; line-height: 1.25; }
+    .prose h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.25rem; font-weight: 600; color: #e0e0e0; margin-top: 2rem; margin-bottom: 0.75rem; }
+    .prose p { color: #aaa; font-size: 17px; line-height: 1.85; margin-bottom: 1.5rem; }
+    .prose a { color: #00D4FF; text-decoration: underline; text-decoration-color: #00D4FF44; }
+    .prose a:hover { text-decoration-color: #00D4FF; }
+    .prose blockquote { border-left: 3px solid #00D4FF; margin: 2rem 0; padding: 1.25rem 1.5rem; background: #121212; border-radius: 0 6px 6px 0; }
+    .prose blockquote p { color: #ccc; font-style: italic; margin: 0; font-size: 18px; }
+    .prose ul, .prose ol { color: #aaa; font-size: 17px; line-height: 1.85; padding-left: 1.5rem; margin-bottom: 1.5rem; }
+    .prose li { margin-bottom: 0.5rem; }
+    .prose strong { color: #ddd; font-weight: 600; }
+    .prose hr { border: none; border-top: 1px solid #1e1e1e; margin: 3rem 0; }
+    .post-tag { display: inline-block; font-size: 10px; font-weight: 500; letter-spacing: 2px; text-transform: uppercase; color: #00D4FF; border: 1px solid #00D4FF33; padding: 5px 12px; border-radius: 20px; }
+    .author-box { background: #121212; border: 1px solid #1e1e1e; border-radius: 10px; padding: 28px; display: flex; gap: 20px; align-items: flex-start; }
+    .author-avatar { width: 56px; height: 56px; border-radius: 50%; flex-shrink: 0; overflow: hidden; }
+    .author-avatar img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+    .related-card { background: #121212; border: 1px solid #1e1e1e; border-radius: 8px; padding: 24px; text-decoration: none; display: block; transition: border-color 0.3s; }
+    .related-card:hover { border-color: #2a2a2a; }
+    @media (max-width: 640px) { .bc-divider, .bc-current { display: none; } }
+  </style>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+</head>
+<body>
+<nav>
+  <div class="max-container py-4 flex items-center justify-between">
+    <a href="../index.html" class="font-heading font-semibold text-white text-lg tracking-tight">Stewart Masters</a>
+    <div class="hidden md:flex items-center gap-8">
+      <a href="../index.html#about" class="nav-link">About</a>
+      <a href="../index.html#services" class="nav-link">Services</a>
+      <a href="index.html" class="nav-link" style="color:#fff;">Thinking</a>
+      <a href="../index.html#speaking" class="nav-link">Speaking</a>
+    </div>
+    <a href="../index.html#contact" class="btn-primary">Work With Me</a>
+  </div>
+</nav>
+
+<header class="pt-40 pb-12 px-6">
+  <div class="prose">
+    <nav style="font-size:12px;color:#333;margin-bottom:24px;">
+      <a href="../index.html" style="color:#444;text-decoration:none;">Home</a><span style="margin:0 8px;">·</span>
+      <a href="index.html" style="color:#444;text-decoration:none;">Thinking</a><span class="bc-divider" style="margin:0 8px;">·</span>
+      <span class="bc-current" style="color:#555;">AI business case</span>
+    </nav>
+    <span class="post-tag">AI &amp; Technology</span>
+    <h1 class="font-heading text-4xl md:text-5xl font-bold leading-tight mt-5 mb-6">How to write an AI business case that actually gets approved</h1>
+    <p class="text-gray-400 text-xl leading-relaxed mb-8">Most AI business cases are rejected not because the AI doesn't work, but because the case is made in the wrong language for the wrong audience. Here's how to write one that gets through — and that you can actually deliver against.</p>
+    <div style="display:flex;align-items:center;gap:16px;font-size:13px;color:#444;padding-bottom:24px;border-bottom:1px solid #1e1e1e;">
+      <span>Stewart Masters</span><span>·</span><span>April 7, 2026</span><span>·</span><span>7 min read</span>
+    </div>
+  </div>
+</header>
+
+<div class="px-6 mb-12">
+  <div class="prose">
+    <img src="images/ai-business-case.svg" alt="AI business case approval flow" style="width:100%;height:360px;object-fit:cover;border-radius:10px;display:block;border:1px solid #1e1e1e;">
+  </div>
+</div>
+
+<article class="px-6 pb-20">
+  <div class="prose">
+
+    <p>The graveyard of AI projects is littered with excellent technology that never got funded. Not because the use case was wrong, not because the numbers didn't stack up, but because the person building the case made a fundamental mistake: they wrote it for themselves rather than for the decision-maker.</p>
+
+    <p>An AI business case has to translate. It has to take what the technology team finds exciting and render it in terms that a finance director, a board, or an executive leadership team can evaluate and approve. That translation is where most cases fall apart.</p>
+
+    <h2>Why most AI business cases get rejected</h2>
+    <p>There are three patterns I see repeatedly in rejected AI proposals. The first is leading with technology rather than outcomes. The case starts with what the AI does — the model architecture, the training approach, the accuracy metrics — before ever establishing what problem it solves or what it would change in the business. Decision-makers don't know how to evaluate technology. They know how to evaluate outcomes. Lead with the outcome.</p>
+
+    <p>The second pattern is false precision on benefits. The case presents a benefit of £2.4 million over three years with two decimal places of confidence, despite being built on assumptions that are themselves uncertain. Sophisticated approvers are not reassured by precision — they are made suspicious by it. They've approved enough projects to know that confident-looking numbers are often invented numbers. A range with explicit assumptions is more credible than a point estimate.</p>
+
+    <p>The third pattern is underestimating costs. The AI license or compute cost is modelled. The infrastructure cost may be included. But the change management cost, the training cost, the data preparation cost, the ongoing model maintenance cost, and the opportunity cost of the people involved are typically missing or understated. When an approver has been burned before by undercosted projects, they will look for this gap as a reason to say no.</p>
+
+    <h2>The four elements of a winning AI business case</h2>
+    <p><strong>A clear problem statement tied to a strategic priority.</strong> The problem you're solving has to matter to the organisation — not just to the team proposing it. If your company's strategic priorities this year are revenue growth and cost reduction in operations, your AI business case needs to connect explicitly to one of those. An AI initiative that solves an interesting problem in a strategically irrelevant area will lose to a less interesting initiative that connects directly to a priority the board has already committed to.</p>
+
+    <p><strong>A credible, bounded benefit estimate.</strong> State the benefit in terms of the outcome metric that the decision-maker cares about: revenue, margin, cost, speed, risk reduction. Be specific about which part of the business experiences the benefit and over what timeframe. Use a range — low case, central case, high case — and state explicitly what assumptions drive each. A well-structured range builds more confidence than a single number because it signals you've thought about the uncertainty.</p>
+
+    <p><strong>A full cost model including the invisible costs.</strong> Technology and licensing are the visible costs. Build out the full picture: data preparation and cleaning (typically underestimated by a factor of two), change management and training, integration with existing systems, ongoing model monitoring and maintenance, internal time at realistic rates. The approver who has approved projects before will add these in their head if you don't — and they'll add a premium for uncertainty. Better to include them yourself at realistic rates than have them inflated in the review.</p>
+
+    <p><strong>A risk section that's honest, not defensive.</strong> Every AI project has risks — around data quality, model performance, user adoption, regulation, and dependency on third-party providers. Name them. State what the mitigation is. State what the residual risk is after mitigation. A business case that acknowledges risk reads as mature. A business case that pretends risk doesn't exist reads as naive.</p>
+
+    <h2>How to frame the ask</h2>
+    <p>A common mistake is presenting an AI business case as a binary decision: approve the full programme or don't. This is a bad structure. It puts the entire risk on the approval decision. A better structure is phased: request approval for a proof of concept or pilot that demonstrates the outcome at lower cost and lower risk, with explicit criteria that, if met, would justify the larger investment.</p>
+
+    <blockquote><p>"A business case that asks for £50,000 to prove the model works in production — rather than £500,000 to build the full system — is dramatically easier to approve. And it de-risks the organisation, not just the proposal."</p></blockquote>
+
+    <p>This approach works for two reasons. It reduces the immediate financial commitment and makes the approval decision smaller. And it provides a natural checkpoint at which the sceptics in the room can be converted by results rather than promises.</p>
+
+    <h2>The language that doesn't work — and what to use instead</h2>
+    <p>Avoid the word "AI" wherever you can replace it with what the AI actually does. "An AI-powered solution" tells a decision-maker nothing about value. "A system that automatically classifies customer support tickets and routes them to the right team, reducing average handling time from 48 hours to 4 hours" tells them everything. The technology is a detail. The outcome is the point.</p>
+
+    <p>Similarly, avoid the phrase "we'll learn as we go." It's honest, but it sounds like you haven't done the planning. Instead: "The pilot will include defined decision points at weeks four and eight where we assess progress against the agreed success criteria before committing to the next phase." Same reality, very different impression.</p>
+
+    <h2>One thing that almost always helps</h2>
+    <p>Find the internal comparison case. If your organisation has approved a similar investment before — a system implementation, a data infrastructure project, an automation initiative — reference it explicitly. "This is structured similarly to [previous project], which was approved in [year] and delivered [outcome]." It reduces perceived novelty, which is one of the main sources of hesitation in approving AI spending. The approver's mental model shifts from "this is new and uncertain" to "this is similar to something that worked."</p>
+
+    <p>If you can't find an internal comparison, find an external one — a competitor, a comparable company in another sector, a published case study. The point is to show that this isn't experimental speculation but a category of investment that has a track record.</p>
+
+    <hr>
+    <p style="color:#777;font-size:15px;"><strong style="color:#888;">Building an AI business case for your organisation?</strong><br>
+    This is work I do regularly — helping leadership teams translate AI opportunity into language that gets approved. <a href="../index.html#contact">Get in touch →</a></p>
+  </div>
+</article>
+
+<section class="px-6 pb-20">
+  <div class="prose">
+    <div class="author-box">
+      <div class="author-avatar"><img src="../stewart-masters.png" alt="Stewart Masters"></div>
+      <div>
+        <div class="font-heading font-semibold mb-1">Stewart Masters</div>
+        <p style="color:#555;font-size:14px;line-height:1.6;margin:0;">Strategic advisor to founders and operators. 20+ years building and advising businesses across Europe and the Middle East. Based in Barcelona. Guest lecturer at IE Business School and ESADE. <a href="https://www.linkedin.com/in/stewartmasters/" style="color:#00D4FF;text-decoration:none;">Connect on LinkedIn →</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="px-6 pb-24" style="border-top:1px solid #1a1a1a;padding-top:48px;">
+  <div class="prose">
+    <h2 class="font-heading text-2xl font-bold mb-6" style="margin-top:0;">More to read</h2>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+      <a href="ai-roi.html" class="related-card">
+        <span style="font-size:10px;color:#00D4FF;letter-spacing:2px;text-transform:uppercase;display:block;margin-bottom:8px;">AI &amp; Technology</span>
+        <span class="font-heading font-semibold text-white" style="font-size:15px;line-height:1.4;display:block;">How to think about AI ROI — and why most frameworks get it wrong</span>
+      </a>
+      <a href="agentic-ai-business-leaders.html" class="related-card">
+        <span style="font-size:10px;color:#00D4FF;letter-spacing:2px;text-transform:uppercase;display:block;margin-bottom:8px;">AI &amp; Technology</span>
+        <span class="font-heading font-semibold text-white" style="font-size:15px;line-height:1.4;display:block;">What agentic AI means for business leaders</span>
+      </a>
+    </div>
+    <div style="text-align:center;margin-top:24px;"><a href="index.html" style="color:#444;font-size:14px;text-decoration:none;">← All posts</a></div>
+  </div>
+</section>
+
+<footer class="py-10 px-6" style="border-top:1px solid #141414;">
+  <div class="max-container flex flex-col md:flex-row items-center justify-between gap-4">
+    <span class="font-heading font-semibold" style="color:#555;">Stewart Masters</span>
+    <div class="flex gap-6" style="font-size:13px;">
+      <a href="../index.html#about" class="nav-link">About</a>
+      <a href="../index.html#services" class="nav-link">Services</a>
+      <a href="index.html" class="nav-link">Thinking</a>
+      <a href="../index.html#contact" class="nav-link">Contact</a>
+    </div>
+    <a href="https://www.linkedin.com/in/stewartmasters/" target="_blank" rel="noopener" class="nav-link" style="font-size:13px;">LinkedIn →</a>
+  </div>
+  <div class="max-container mt-6 text-center" style="font-size:11px;color:#2a2a2a;letter-spacing:2px;">BARCELONA · LONDON · MADRID</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="bgth" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#0d0a08"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </radialGradient>
+    <radialGradient id="glowth" cx="50%" cy="50%" r="40%">
+      <stop offset="0%" stop-color="#ff8800" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#ff8800" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bgth)"/>
+  <ellipse cx="600" cy="315" rx="200" ry="200" fill="url(#glowth)"/>
+
+  <!-- LEFT BLOCK: Development -->
+  <rect x="100" y="220" width="360" height="200" rx="6" fill="#0c0e10" stroke="#1e2030" stroke-width="1.5"/>
+  <text x="280" y="250" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#00D4FF" fill-opacity="0.4" letter-spacing="3">DEVELOPMENT</text>
+  <!-- Code lines -->
+  <rect x="130" y="268" width="80" height="4" rx="2" fill="#00D4FF" fill-opacity="0.15"/>
+  <rect x="220" y="268" width="120" height="4" rx="2" fill="#333"/>
+  <rect x="130" y="282" width="50" height="4" rx="2" fill="#333"/>
+  <rect x="190" y="282" width="140" height="4" rx="2" fill="#00D4FF" fill-opacity="0.1"/>
+  <rect x="130" y="296" width="160" height="4" rx="2" fill="#333"/>
+  <rect x="130" y="320" width="100" height="4" rx="2" fill="#00D4FF" fill-opacity="0.12"/>
+  <rect x="240" y="320" width="80" height="4" rx="2" fill="#2a2a2a"/>
+  <rect x="130" y="334" width="140" height="4" rx="2" fill="#2a2a2a"/>
+  <!-- Tick: tests passing -->
+  <text x="280" y="390" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#00D4FF" fill-opacity="0.3" letter-spacing="1">✓ Tests passing</text>
+  <text x="280" y="406" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#00D4FF" fill-opacity="0.2" letter-spacing="1">✓ Code reviewed</text>
+
+  <!-- GAP ZONE in the middle -->
+  <rect x="460" y="255" width="280" height="130" rx="0" fill="none" stroke="#ff8800" stroke-opacity="0.15" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="460" y1="255" x2="740" y2="385" stroke="#ff8800" stroke-opacity="0.06" stroke-width="1"/>
+  <line x1="740" y1="255" x2="460" y2="385" stroke="#ff8800" stroke-opacity="0.06" stroke-width="1"/>
+  <text x="600" y="310" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#ff8800" fill-opacity="0.35" letter-spacing="2">THE GAP</text>
+  <text x="600" y="330" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#ff8800" fill-opacity="0.2" letter-spacing="1">No documentation</text>
+  <text x="600" y="348" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#ff8800" fill-opacity="0.15" letter-spacing="1">No runbook</text>
+  <text x="600" y="366" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#ff8800" fill-opacity="0.1" letter-spacing="1">Wrong team</text>
+
+  <!-- Broken chain arrows -->
+  <line x1="460" y1="320" x2="510" y2="320" stroke="#ff8800" stroke-opacity="0.25" stroke-width="2" stroke-dasharray="5,4"/>
+  <line x1="690" y1="320" x2="740" y2="320" stroke="#ff8800" stroke-opacity="0.15" stroke-width="2" stroke-dasharray="5,4"/>
+
+  <!-- RIGHT BLOCK: Operations -->
+  <rect x="740" y="220" width="360" height="200" rx="6" fill="#0c0e10" stroke="#1e2030" stroke-width="1"/>
+  <text x="920" y="250" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#555" letter-spacing="3">OPERATIONS</text>
+  <!-- Monitoring lines -->
+  <rect x="770" y="270" width="60" height="4" rx="2" fill="#1e1e1e"/>
+  <rect x="840" y="270" width="90" height="4" rx="2" fill="#1e1e1e"/>
+  <rect x="770" y="284" width="110" height="4" rx="2" fill="#1a1a1a"/>
+  <rect x="770" y="298" width="75" height="4" rx="2" fill="#181818"/>
+  <!-- Alert indicator -->
+  <rect x="770" y="320" width="300" height="30" rx="3" fill="#1a0a00" stroke="#ff8800" stroke-opacity="0.2" stroke-width="1"/>
+  <text x="920" y="340" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#ff8800" fill-opacity="0.35" letter-spacing="1">⚠ SYSTEM ERROR — NO RUNBOOK</text>
+  <text x="920" y="390" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#333" letter-spacing="1">Who owns this?</text>
+
+  <text x="600" y="575" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#ff8800" fill-opacity="0.2" letter-spacing="5">THE HANDOVER PROBLEM</text>
+</svg>

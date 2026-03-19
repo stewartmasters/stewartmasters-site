@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="bg90" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#0a0c0a"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg90)"/>
+
+  <!-- Arc timeline - large arc from bottom-left to bottom-right -->
+  <!-- Arc path: from (200,500) through (600,180) to (1000,500) -->
+  <path d="M 200,500 Q 600,120 1000,500" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+  <!-- Active portion of arc (cyan) -->
+  <path d="M 200,500 Q 460,200 620,190" fill="none" stroke="#00D4FF" stroke-opacity="0.4" stroke-width="3"/>
+
+  <!-- Day 0 marker -->
+  <circle cx="200" cy="500" r="8" fill="#0a100a" stroke="#00D4FF" stroke-opacity="0.5" stroke-width="1.5"/>
+  <text x="200" y="530" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#00D4FF" fill-opacity="0.4">DAY 0</text>
+  <text x="200" y="545" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#333">Appointment</text>
+
+  <!-- Day 30 marker -->
+  <circle cx="392" cy="340" r="8" fill="#0a100a" stroke="#00D4FF" stroke-opacity="0.5" stroke-width="1.5"/>
+  <line x1="392" y1="332" x2="392" y2="280" stroke="#1e1e1e" stroke-width="1" stroke-dasharray="3,4"/>
+  <rect x="320" y="240" width="145" height="70" rx="4" fill="#0e1210" stroke="#1e2820" stroke-width="1"/>
+  <text x="392" y="260" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#00D4FF" fill-opacity="0.5" letter-spacing="1">DAY 30</text>
+  <text x="392" y="276" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#444">Board orientation</text>
+  <text x="392" y="290" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#444">First meeting attended</text>
+  <text x="392" y="304" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#333">Key relationships mapped</text>
+
+  <!-- Day 60 marker -->
+  <circle cx="616" cy="192" r="8" fill="#0a100a" stroke="#00D4FF" stroke-opacity="0.4" stroke-width="1.5"/>
+  <line x1="616" y1="184" x2="616" y2="140" stroke="#1e1e1e" stroke-width="1" stroke-dasharray="3,4"/>
+  <rect x="545" y="100" width="145" height="70" rx="4" fill="#0e1210" stroke="#1a241a" stroke-width="1"/>
+  <text x="618" y="120" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#00D4FF" fill-opacity="0.4" letter-spacing="1">DAY 60</text>
+  <text x="618" y="136" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#3a3a3a">Committee contribution</text>
+  <text x="618" y="150" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#3a3a3a">Risk areas identified</text>
+  <text x="618" y="164" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#333">First challenge raised</text>
+
+  <!-- Day 90 marker -->
+  <circle cx="837" cy="340" r="10" fill="#0a100a" stroke="#00D4FF" stroke-opacity="0.25" stroke-width="1.5"/>
+  <line x1="837" y1="350" x2="837" y2="420" stroke="#1a1a1a" stroke-width="1" stroke-dasharray="3,4"/>
+  <rect x="765" y="420" width="145" height="70" rx="4" fill="#0e0e10" stroke="#1a1a1e" stroke-width="1"/>
+  <text x="837" y="440" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#555" letter-spacing="1">DAY 90</text>
+  <text x="837" y="456" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#333">Full contribution</text>
+  <text x="837" y="470" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#2a2a2a">Credibility established</text>
+  <text x="837" y="484" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#252525">Independent voice</text>
+
+  <!-- Day 90 end point -->
+  <circle cx="1000" cy="500" r="8" fill="#0e0e10" stroke="#1e1e1e" stroke-width="1.5"/>
+  <text x="1000" y="530" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333">DAY 90+</text>
+
+  <text x="600" y="575" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#00D4FF" fill-opacity="0.2" letter-spacing="5">FIRST 90 DAYS AS NED</text>
+</svg>
