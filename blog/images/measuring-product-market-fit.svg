@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0f0a"/>
+      <stop offset="100%" style="stop-color:#0c140c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Retention curve chart — left -->
+  <rect x="60" y="148" width="500" height="360" rx="6" fill="#090e09" stroke="#0f1e0f" stroke-width="1.5"/>
+  <text x="310" y="180" font-family="monospace" font-size="11" fill="#1a3a1a" text-anchor="middle" letter-spacing="2">COHORT RETENTION OVER TIME</text>
+  <line x1="80" y1="192" x2="540" y2="192" stroke="#0f1e0f" stroke-width="1"/>
+
+  <!-- Chart axes -->
+  <line x1="110" y1="210" x2="110" y2="440" stroke="#1a2a1a" stroke-width="1" opacity="0.6"/>
+  <line x1="110" y1="440" x2="520" y2="440" stroke="#1a2a1a" stroke-width="1" opacity="0.6"/>
+
+  <!-- Y-axis labels -->
+  <text x="100" y="218" font-family="monospace" font-size="9" fill="#333" text-anchor="end">100%</text>
+  <text x="100" y="280" font-family="monospace" font-size="9" fill="#333" text-anchor="end">60%</text>
+  <text x="100" y="340" font-family="monospace" font-size="9" fill="#333" text-anchor="end">30%</text>
+  <text x="100" y="400" font-family="monospace" font-size="9" fill="#333" text-anchor="end">10%</text>
+  <text x="100" y="440" font-family="monospace" font-size="9" fill="#333" text-anchor="end">0%</text>
+
+  <!-- X-axis labels -->
+  <text x="130" y="455" font-family="monospace" font-size="9" fill="#333">M1</text>
+  <text x="200" y="455" font-family="monospace" font-size="9" fill="#333">M3</text>
+  <text x="280" y="455" font-family="monospace" font-size="9" fill="#333">M6</text>
+  <text x="360" y="455" font-family="monospace" font-size="9" fill="#333">M9</text>
+  <text x="440" y="455" font-family="monospace" font-size="9" fill="#333">M12</text>
+
+  <!-- "No fit" curve — steep decline to zero -->
+  <polyline points="130,215 200,280 280,340 360,400 440,435" fill="none" stroke="#ff4444" stroke-width="2" opacity="0.5" stroke-dasharray="6,3"/>
+  <text x="450" y="428" font-family="monospace" font-size="9" fill="#ff4444" opacity="0.6">no fit</text>
+
+  <!-- "Fit" curve — declines then flattens -->
+  <polyline points="130,215 200,255 280,275 360,282 440,285" fill="none" stroke="#00D4FF" stroke-width="2" opacity="0.7"/>
+  <text x="450" y="280" font-family="monospace" font-size="9" fill="#00D4FF" opacity="0.7">fit ✓</text>
+
+  <!-- Flat zone annotation -->
+  <line x1="280" y1="275" x2="440" y2="285" stroke="#00D4FF" stroke-width="0.5" opacity="0.3" stroke-dasharray="2,4"/>
+  <text x="290" y="302" font-family="monospace" font-size="9" fill="#00D4FF" opacity="0.4">curve flattens</text>
+
+  <!-- Legend -->
+  <line x1="120" y1="484" x2="150" y2="484" stroke="#ff4444" stroke-width="2" opacity="0.5" stroke-dasharray="4,2"/>
+  <text x="158" y="488" font-family="monospace" font-size="9" fill="#444">Retention → 0 (no fit)</text>
+  <line x1="300" y1="484" x2="330" y2="484" stroke="#00D4FF" stroke-width="2" opacity="0.7"/>
+  <text x="338" y="488" font-family="monospace" font-size="9" fill="#2a6040">Retention flattens (fit)</text>
+
+  <!-- Right panel: PMF signals -->
+  <rect x="660" y="148" width="460" height="360" rx="6" fill="#080e08" stroke="#0f1e0f" stroke-width="1"/>
+  <text x="890" y="180" font-family="monospace" font-size="11" fill="#1e4020" text-anchor="middle" letter-spacing="2">PMF SIGNALS THAT MATTER</text>
+  <line x1="680" y1="192" x2="1100" y2="192" stroke="#0f1e0f" stroke-width="1"/>
+
+  <text x="690" y="222" font-family="monospace" font-size="10" fill="#00D4FF" opacity="0.5">01</text>
+  <text x="720" y="222" font-family="monospace" font-size="10" fill="#3a4a3a">Retention curve flattens (shape &gt; level)</text>
+
+  <text x="690" y="256" font-family="monospace" font-size="10" fill="#00D4FF" opacity="0.45">02</text>
+  <text x="720" y="256" font-family="monospace" font-size="10" fill="#333">Unprompted organic referrals</text>
+
+  <text x="690" y="290" font-family="monospace" font-size="10" fill="#00D4FF" opacity="0.4">03</text>
+  <text x="720" y="290" font-family="monospace" font-size="10" fill="#2a3a2a">40%+ "very disappointed" if product disappeared</text>
+
+  <text x="690" y="324" font-family="monospace" font-size="10" fill="#00D4FF" opacity="0.35">04</text>
+  <text x="720" y="324" font-family="monospace" font-size="10" fill="#222">Usage frequency matches expected if truly valuable</text>
+
+  <text x="690" y="358" font-family="monospace" font-size="10" fill="#00D4FF" opacity="0.3">05</text>
+  <text x="720" y="358" font-family="monospace" font-size="10" fill="#1a2a1a">Cohort retention is consistent, not declining</text>
+
+  <line x1="680" y1="376" x2="1100" y2="376" stroke="#0f1e0f" stroke-width="0.5" stroke-dasharray="3,6"/>
+
+  <text x="690" y="400" font-family="monospace" font-size="10" fill="#1e4028" opacity="0.9">Vanity metrics (sign-ups, press, DAU)</text>
+  <text x="690" y="418" font-family="monospace" font-size="10" fill="#182e1e" opacity="0.8">≠ evidence of fit. Look for retention + pull.</text>
+
+  <rect x="680" y="438" width="420" height="56" rx="3" fill="#090e09" stroke="#0f1e0f" stroke-width="1"/>
+  <text x="890" y="460" font-family="monospace" font-size="10" fill="#00D4FF" opacity="0.5" text-anchor="middle">PMF is narrower than founders think.</text>
+  <text x="890" y="478" font-family="monospace" font-size="10" fill="#1a4028" text-anchor="middle">Map it precisely before expanding.</text>
+
+  <!-- Title -->
+  <text x="600" y="78" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#00D4FF" opacity="0.6" letter-spacing="4" text-anchor="middle">DIGITAL STRATEGY</text>
+  <text x="600" y="114" font-family="'Space Grotesk', sans-serif" font-size="26" font-weight="700" fill="#fff" opacity="0.9" text-anchor="middle">How to Measure Product-Market Fit Honestly</text>
+
+  <ellipse cx="310" cy="320" rx="200" ry="160" fill="#00D4FF" opacity="0.015"/>
+</svg>

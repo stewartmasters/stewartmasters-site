@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How Boards Should Evaluate AI Risk — Stewart Masters</title>
+  <meta name="description" content="Boards are being asked to govern AI without the frameworks to do it. Here's a practical approach to evaluating AI risk at board level.">
+  <meta property="og:title" content="How Boards Should Evaluate AI Risk">
+  <meta property="og:description" content="Boards are being asked to govern AI without the frameworks to do it. Here's a practical approach to evaluating AI risk at board level.">
+  <meta property="og:type" content="article">
+  <link rel="canonical" href="https://stewartmasters.me/blog/boards-evaluating-ai-risk.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { background-color: #0D0D0D; color: #EAEAEA; font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
+    .font-heading { font-family: 'Space Grotesk', sans-serif; }
+    .max-container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    .prose-container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; backdrop-filter: blur(24px); background: rgba(13,13,13,0.85); border-bottom: 1px solid #1c1c1c; }
+    .nav-link { font-size: 14px; color: #aaa; text-decoration: none; transition: color 0.2s; }
+    .nav-link:hover { color: #fff; }
+    .btn-primary { display: inline-block; background: #00D4FF; color: #0D0D0D; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 14px; padding: 10px 22px; border-radius: 4px; text-decoration: none; transition: background 0.2s; }
+    .btn-primary:hover { background: #fff; }
+    .prose h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.5rem; font-weight: 700; color: #fff; margin: 2.5rem 0 1rem; line-height: 1.3; }
+    .prose p { color: #EAEAEA; font-size: 17px; line-height: 1.85; margin-bottom: 1.5rem; }
+    .prose ul { margin: 0 0 1.5rem 0; padding: 0; list-style: none; }
+    .prose ul li { color: #EAEAEA; font-size: 17px; line-height: 1.85; padding: 4px 0 4px 24px; position: relative; }
+    .prose ul li::before { content: '→'; color: #00D4FF; position: absolute; left: 0; }
+    .prose strong { color: #fff; font-weight: 600; }
+    .blog-card { background: #121212; border: 1px solid #1e1e1e; border-radius: 10px; overflow: hidden; text-decoration: none; display: block; transition: border-color 0.3s, transform 0.3s; }
+    .blog-card:hover { border-color: #2a2a2a; transform: translateY(-4px); }
+    .blog-arrow { color: #333; font-size: 18px; transition: color 0.2s; }
+    .blog-card:hover .blog-arrow { color: #00D4FF; }
+    ::-webkit-scrollbar { width: 5px; } ::-webkit-scrollbar-track { background: #0D0D0D; } ::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 3px; }
+    #mobile-menu { display: none; } #mobile-menu.open { display: flex; }
+  </style>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script>
+</head>
+<body>
+
+<nav>
+  <div class="max-container py-4 flex items-center justify-between">
+    <a href="../index.html" class="font-heading font-semibold text-white text-lg tracking-tight">Stewart Masters</a>
+    <div class="hidden md:flex items-center gap-8">
+      <a href="../index.html#about" class="nav-link">About</a>
+      <a href="../index.html#services" class="nav-link">Where I Help</a>
+      <a href="index.html" class="nav-link">Thinking</a>
+      <a href="../index.html#contact" class="nav-link">Contact</a>
+    </div>
+    <div class="flex items-center gap-3">
+      <a href="../index.html#contact" class="btn-primary hidden md:inline-block">Get in touch</a>
+      <button id="hamburger" class="md:hidden text-gray-400 p-2" onclick="document.getElementById('mobile-menu').classList.toggle('open')">
+        <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h16M3 12h16M3 18h16"/></svg>
+      </button>
+    </div>
+  </div>
+  <div id="mobile-menu" class="flex-col gap-1 pb-4 px-6 border-t" style="border-color:#1a1a1a;">
+    <a href="../index.html#about" class="nav-link py-3 block">About</a>
+    <a href="../index.html#services" class="nav-link py-3 block">Where I Help</a>
+    <a href="index.html" class="nav-link py-3 block">Thinking</a>
+    <a href="../index.html#contact" class="nav-link py-3 block">Contact</a>
+  </div>
+</nav>
+
+<!-- Header -->
+<section class="pt-36 pb-12 px-6" style="border-bottom: 1px solid #1a1a1a;">
+  <div class="prose-container">
+    <div class="flex items-center gap-3 mb-8" style="font-size: 13px; color: #555;">
+      <a href="index.html" class="nav-link">Thinking</a>
+      <span>→</span>
+      <span style="color: #00D4FF;">Board & Advisory</span>
+    </div>
+    <h1 class="font-heading text-4xl md:text-5xl font-bold leading-tight text-white mb-6">
+      How boards should evaluate AI risk
+    </h1>
+    <p style="color: #777; font-size: 16px; line-height: 1.7; margin-bottom: 28px;">
+      Boards are being asked to govern AI without the frameworks to do it. Here's a practical approach to evaluating AI risk at board level.
+    </p>
+    <div class="flex items-center gap-4" style="font-size: 13px; color: #555;">
+      <span>Stewart Masters</span>
+      <span>·</span>
+      <span>24 Mar 2026</span>
+      <span>·</span>
+      <span>6 min read</span>
+    </div>
+  </div>
+</section>
+
+<!-- SVG Hero -->
+<div style="width:100%; max-height:420px; overflow:hidden; border-bottom:1px solid #1a1a1a;">
+  <img src="images/boards-evaluating-ai-risk.svg" alt="How boards should evaluate AI risk" style="width:100%; height:420px; object-fit:cover;">
+</div>
+
+<!-- Article -->
+<article class="py-16 px-6">
+  <div class="prose-container prose">
+
+    <p>
+      Most boards were built for a different era of corporate risk. Financial risk, legal risk, reputational risk — these are well-mapped. There are frameworks, committees, disclosure requirements, and decades of case law to draw on.
+    </p>
+
+    <p>
+      AI introduces a different kind of risk. It's faster-moving. It gets embedded in operations before it appears on a risk register. The technical complexity makes it genuinely hard for non-specialist board members to ask the right questions — let alone evaluate the answers.
+    </p>
+
+    <p>
+      The result is a governance gap. Management moves ahead with AI adoption — often responsibly, sometimes not — while boards watch from a distance, unsure what they're supposed to be looking for.
+    </p>
+
+    <h2>The three categories of AI risk</h2>
+
+    <p>
+      <strong>Operational risk.</strong> AI that runs in your business can fail. Models degrade over time. Training data becomes stale. Edge cases emerge that weren't in the test set. The question isn't whether failure will happen — it's how consequential it is and whether there's a recovery path.
+    </p>
+
+    <p>
+      Questions boards should ask: Are there human checkpoints on decisions with material consequences? How is model performance monitored over time? What's the fallback when the AI is wrong? Who gets notified when it fails, and how quickly?
+    </p>
+
+    <p>
+      <strong>Regulatory and legal risk.</strong> This is changing fast. The EU AI Act creates tiered obligations depending on use case. Sector-specific regulation in financial services, healthcare, and HR is tightening. The accountability question — when an AI-driven decision causes harm, who is responsible — is not fully resolved, but regulators are clear that "the algorithm did it" is not a defence.
+    </p>
+
+    <p>
+      Questions boards should ask: What AI use cases are in scope for the AI Act or sector-specific regulation? Has legal reviewed the high-risk applications? Is there a clear audit trail and documented human oversight for consequential decisions?
+    </p>
+
+    <p>
+      <strong>Reputational and ethical risk.</strong> Some AI risks are hard to quantify but easy to understand once they become public. Using AI for decisions that systematically disadvantage protected groups. Deploying AI in customer interactions without disclosure. Using data in ways that weren't anticipated or consented to. These risks are real before they become legal ones.
+    </p>
+
+    <p>
+      Questions boards should ask: Are there documented principles for what AI can and can't be used for? Who has oversight of those principles? Has the organisation done any bias testing on models that affect individuals?
+    </p>
+
+    <h2>What good governance looks like</h2>
+
+    <p>
+      Board-level AI governance doesn't require technical expertise — it requires the right information and the discipline to ask for it.
+    </p>
+
+    <p>
+      At minimum, boards should be receiving a regular update on: where AI is in use across the business; which applications are material enough to warrant board-level visibility; what monitoring is in place; and any incidents or near-misses, including minor ones.
+    </p>
+
+    <p>
+      This is normal risk governance applied to a new risk category. The analogy to cybersecurity is useful: boards don't need to understand how attacks work, but they do need to know what the exposure is, what controls are in place, and what the incident response plan looks like. The same logic applies to AI.
+    </p>
+
+    <h2>What boards often get wrong</h2>
+
+    <p>
+      The two failure modes I see most often are opposite errors. The first is boards that defer entirely to management — treating AI as too technical to engage with meaningfully. This produces a rubber-stamp dynamic that isn't oversight at all.
+    </p>
+
+    <p>
+      The second is boards that become adversarial — blocking AI adoption out of an abundance of caution, without distinguishing between uses that carry real risk and uses that don't. This is equally unhelpful. The competitive pressure to move on AI is real, and leadership needs room to act.
+    </p>
+
+    <p>
+      The right posture is neither. It's engaged oversight: asking whether the risk is being taken knowingly and managed appropriately. Not blocking everything. Not approving everything. Understanding what's actually happening.
+    </p>
+
+    <h2>The questions that matter most</h2>
+
+    <p>
+      If a board could only ask four questions about AI, they should be:
+    </p>
+
+    <ul>
+      <li>Is management aware of the risks — operational, regulatory, and reputational?</li>
+      <li>Is there a framework for deciding what AI to deploy and where?</li>
+      <li>Is someone internally accountable for AI governance — not just AI capability?</li>
+      <li>Is the organisation prepared to handle a public failure when it happens?</li>
+    </ul>
+
+    <p>
+      The companies that get this right aren't the ones that move the slowest. They're the ones that move with clear eyes.
+    </p>
+
+  </div>
+</article>
+
+<!-- Author -->
+<section class="py-12 px-6" style="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a;">
+  <div class="prose-container">
+    <div class="flex items-start gap-5">
+      <div style="width:56px;height:56px;border-radius:50%;background:#1a1a1a;border:1px solid #2a2a2a;display:flex;align-items:center;justify-content:center;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:16px;color:#00D4FF;flex-shrink:0;">SM</div>
+      <div>
+        <div class="font-heading font-semibold text-white mb-1">Stewart Masters</div>
+        <div style="font-size: 13px; color: #777; margin-bottom: 8px;">Chief Digital Officer · Honest Greens · Barcelona</div>
+        <p style="font-size: 14px; color: #B0B0B0; line-height: 1.7;">20 years building and running digital operations inside real businesses. I write about AI, digital systems, and the leadership decisions that determine whether transformation actually happens.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Related Posts -->
+<section class="py-16 px-6">
+  <div class="max-container">
+    <h2 class="font-heading text-xl font-bold text-white mb-8">Related posts</h2>
+    <div class="grid md:grid-cols-3 gap-5">
+
+      <a href="ai-governance-board.html" class="blog-card">
+        <div style="height:140px;background:linear-gradient(135deg,#0a0d16,#0d0f1a);display:flex;align-items:center;justify-content:center;border-bottom:1px solid #1e1e1e;">
+          <span style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(0,150,200,0.3);font-family:'Space Grotesk',sans-serif;">Governance</span>
+        </div>
+        <div class="p-5">
+          <span style="font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:#00D4FF;">Board & Advisory</span>
+          <h3 class="font-heading text-sm font-semibold mt-2 mb-2 text-white leading-snug">AI governance — what boards need to get right</h3>
+          <div class="flex items-center justify-between mt-4">
+            <span style="font-size:12px;color:#555;">9 Apr · 6 min</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="hiring-head-of-ai.html" class="blog-card">
+        <div style="height:140px;background:linear-gradient(135deg,#0a0d16,#0d0f1a);display:flex;align-items:center;justify-content:center;border-bottom:1px solid #1e1e1e;">
+          <span style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(100,150,200,0.3);font-family:'Space Grotesk',sans-serif;">Hiring</span>
+        </div>
+        <div class="p-5">
+          <span style="font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:#00D4FF;">Leadership</span>
+          <h3 class="font-heading text-sm font-semibold mt-2 mb-2 text-white leading-snug">How to hire your first head of AI</h3>
+          <div class="flex items-center justify-between mt-4">
+            <span style="font-size:12px;color:#555;">21 Mar · 6 min</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="ned-understanding-technology.html" class="blog-card">
+        <div style="height:140px;background:linear-gradient(135deg,#0f0f0a,#14120a);display:flex;align-items:center;justify-content:center;border-bottom:1px solid #1e1e1e;">
+          <span style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(200,200,0,0.3);font-family:'Space Grotesk',sans-serif;">NED</span>
+        </div>
+        <div class="p-5">
+          <span style="font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:#00D4FF;">Board & Advisory</span>
+          <h3 class="font-heading text-sm font-semibold mt-2 mb-2 text-white leading-snug">The NED's guide to understanding technology</h3>
+          <div class="flex items-center justify-between mt-4">
+            <span style="font-size:12px;color:#555;">27 Mar · 6 min</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-10 px-6" style="border-top: 1px solid #141414;">
+  <div class="max-container flex flex-col md:flex-row items-center justify-between gap-4">
+    <span class="font-heading font-semibold" style="color: #555;">Stewart Masters</span>
+    <div class="flex gap-6" style="font-size: 13px;">
+      <a href="../index.html#about" class="nav-link">About</a>
+      <a href="../index.html#services" class="nav-link">Where I Help</a>
+      <a href="index.html" class="nav-link">Thinking</a>
+      <a href="../index.html#contact" class="nav-link">Contact</a>
+    </div>
+    <a href="https://www.linkedin.com/in/stewartmasters/" target="_blank" rel="noopener" class="nav-link" style="font-size: 13px;">LinkedIn →</a>
+  </div>
+</footer>
+
+</body>
+</html>

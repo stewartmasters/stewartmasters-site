@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Real Cost of Tech Debt in a Growing Business — Stewart Masters</title>
+  <meta name="description" content="Tech debt isn't just a developer problem. It's a leadership and growth problem. Here's how it actually slows businesses down — and what to do about it.">
+  <meta property="og:title" content="The Real Cost of Tech Debt in a Growing Business">
+  <meta property="og:description" content="Tech debt isn't just a developer problem. It's a leadership and growth problem.">
+  <meta property="og:type" content="article">
+  <link rel="canonical" href="https://stewartmasters.me/blog/tech-debt-cost.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { background-color: #0D0D0D; color: #EAEAEA; font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
+    .font-heading { font-family: 'Space Grotesk', sans-serif; }
+    .max-container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    .prose-container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; backdrop-filter: blur(24px); background: rgba(13,13,13,0.85); border-bottom: 1px solid #1c1c1c; }
+    .nav-link { font-size: 14px; color: #aaa; text-decoration: none; transition: color 0.2s; }
+    .nav-link:hover { color: #fff; }
+    .btn-primary { display: inline-block; background: #00D4FF; color: #0D0D0D; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 14px; padding: 10px 22px; border-radius: 4px; text-decoration: none; transition: background 0.2s; }
+    .btn-primary:hover { background: #fff; }
+    .prose h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.5rem; font-weight: 700; color: #fff; margin: 2.5rem 0 1rem; line-height: 1.3; }
+    .prose h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.15rem; font-weight: 600; color: #fff; margin: 2rem 0 0.75rem; }
+    .prose p { color: #EAEAEA; font-size: 17px; line-height: 1.85; margin-bottom: 1.5rem; }
+    .prose ul { margin: 0 0 1.5rem 0; padding: 0; list-style: none; }
+    .prose ul li { color: #EAEAEA; font-size: 17px; line-height: 1.85; padding: 4px 0 4px 24px; position: relative; }
+    .prose ul li::before { content: '→'; color: #00D4FF; position: absolute; left: 0; }
+    .prose strong { color: #fff; font-weight: 600; }
+    .blog-card { background: #121212; border: 1px solid #1e1e1e; border-radius: 10px; overflow: hidden; text-decoration: none; display: block; transition: border-color 0.3s, transform 0.3s; }
+    .blog-card:hover { border-color: #2a2a2a; transform: translateY(-4px); }
+    .blog-arrow { color: #333; font-size: 18px; transition: color 0.2s; }
+    .blog-card:hover .blog-arrow { color: #00D4FF; }
+    ::-webkit-scrollbar { width: 5px; } ::-webkit-scrollbar-track { background: #0D0D0D; } ::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 3px; }
+    #mobile-menu { display: none; } #mobile-menu.open { display: flex; }
+  </style>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script>
+</head>
+<body>
+
+<nav>
+  <div class="max-container py-4 flex items-center justify-between">
+    <a href="../index.html" class="font-heading font-semibold text-white text-lg tracking-tight">Stewart Masters</a>
+    <div class="hidden md:flex items-center gap-8">
+      <a href="../index.html#about" class="nav-link">About</a>
+      <a href="../index.html#services" class="nav-link">Where I Help</a>
+      <a href="index.html" class="nav-link">Thinking</a>
+      <a href="../index.html#contact" class="nav-link">Contact</a>
+    </div>
+    <div class="flex items-center gap-3">
+      <a href="../index.html#contact" class="btn-primary hidden md:inline-block">Get in touch</a>
+      <button id="hamburger" class="md:hidden text-gray-400 p-2" onclick="document.getElementById('mobile-menu').classList.toggle('open')">
+        <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h16M3 12h16M3 18h16"/></svg>
+      </button>
+    </div>
+  </div>
+  <div id="mobile-menu" class="flex-col gap-1 pb-4 px-6 border-t" style="border-color:#1a1a1a;">
+    <a href="../index.html#about" class="nav-link py-3 block">About</a>
+    <a href="../index.html#services" class="nav-link py-3 block">Where I Help</a>
+    <a href="index.html" class="nav-link py-3 block">Thinking</a>
+    <a href="../index.html#contact" class="nav-link py-3 block">Contact</a>
+  </div>
+</nav>
+
+<!-- Header -->
+<section class="pt-36 pb-12 px-6" style="border-bottom: 1px solid #1a1a1a;">
+  <div class="prose-container">
+    <div class="flex items-center gap-3 mb-8" style="font-size: 13px; color: #555;">
+      <a href="index.html" class="nav-link">Thinking</a>
+      <span>→</span>
+      <span style="color: #00D4FF;">Digital Strategy</span>
+    </div>
+    <h1 class="font-heading text-4xl md:text-5xl font-bold leading-tight text-white mb-6">
+      The real cost of tech debt in a growing business
+    </h1>
+    <p style="color: #777; font-size: 16px; line-height: 1.7; margin-bottom: 28px;">
+      Tech debt isn't just a developer problem. It's a leadership and growth problem. Here's how it actually slows businesses down — and what to do about it.
+    </p>
+    <div class="flex items-center gap-4" style="font-size: 13px; color: #555;">
+      <span>Stewart Masters</span>
+      <span>·</span>
+      <span>20 Mar 2026</span>
+      <span>·</span>
+      <span>6 min read</span>
+    </div>
+  </div>
+</section>
+
+<!-- SVG Hero -->
+<div style="width:100%; max-height:420px; overflow:hidden; border-bottom:1px solid #1a1a1a;">
+  <img src="images/tech-debt-cost.svg" alt="The real cost of tech debt" style="width:100%; height:420px; object-fit:cover;">
+</div>
+
+<!-- Article -->
+<article class="py-16 px-6">
+  <div class="prose-container prose">
+
+    <p>
+      Every leadership team inherits tech debt. Most leadership teams underestimate what it actually costs them.
+    </p>
+
+    <p>
+      Tech debt is the shorthand developers use for code that was written quickly, without the architecture it would have needed if you'd known then what you know now. Some of it is unavoidable. You move fast, you make trade-offs, you ship something imperfect because shipping something imperfect is better than shipping nothing.
+    </p>
+
+    <p>
+      The problem is not the debt itself. It's what happens when you don't take it seriously as a strategic constraint.
+    </p>
+
+    <h2>What tech debt actually is</h2>
+
+    <p>
+      Tech debt isn't just messy code. It's anything in your technology layer that makes the next thing harder than it should be. It shows up as:
+    </p>
+
+    <ul>
+      <li>Systems that can't be changed without breaking something else</li>
+      <li>Integrations that are fragile and poorly documented</li>
+      <li>Data models that don't match how the business actually works</li>
+      <li>Infrastructure that was fine at 10,000 users and breaks at 100,000</li>
+      <li>Codebase no one fully understands anymore</li>
+    </ul>
+
+    <p>
+      None of this shows up on a balance sheet. Which is why it tends to accumulate quietly until something breaks, or until a new hire says "this is really bad" and leadership realises they've been sitting on a ticking clock.
+    </p>
+
+    <h2>The real business impact</h2>
+
+    <p>
+      The most obvious cost is speed. Every new feature takes longer to build than it should. Every integration negotiation runs into "our system can't quite do that." Every sprint review has a version of "we hit an unexpected dependency." This isn't laziness — it's the tax on velocity that tech debt levies.
+    </p>
+
+    <p>
+      But there are less visible costs that matter just as much.
+    </p>
+
+    <p>
+      <strong>Talent cost.</strong> Good engineers don't want to work in codebases where they can't build anything cleanly. The highest performers leave first — they have the most options. What stays is often a team that's become normalised to the mess, which is its own kind of problem.
+    </p>
+
+    <p>
+      <strong>Strategic optionality cost.</strong> Tech debt constrains what you can do. An AI integration that would take six weeks in a clean system takes six months in a fragmented one. A market expansion that requires localising your platform becomes a 12-month project instead of a 4-month one. The debt doesn't just slow you down — it reduces what's possible.
+    </p>
+
+    <p>
+      <strong>Acquisition and fundraising cost.</strong> Technical due diligence is real. Sophisticated investors and acquirers run code reviews. A heavily indebted codebase raises questions about team quality, velocity, and what it will actually cost to scale. It affects valuation — sometimes significantly.
+    </p>
+
+    <h2>Why leadership often lets it accumulate</h2>
+
+    <p>
+      The standard story is that product pressure wins. "We'll refactor it after we ship this." And then the next thing ships. And the next. The refactor never comes because there's always something more urgent.
+    </p>
+
+    <p>
+      But there's a more fundamental issue: most leadership teams don't have a clear picture of where their debt is, how bad it is, or what it's actually costing them in delivery speed. Without that visibility, it's very hard to make a case for the investment to address it.
+    </p>
+
+    <p>
+      This is partly an engineering communication problem — technical complexity is hard to translate into business terms. But it's also a leadership accountability problem. If nobody owns the question of technical health at a strategic level, nobody fixes it.
+    </p>
+
+    <h2>What to do about it</h2>
+
+    <p>
+      You don't address tech debt by declaring a six-month moratorium on features and rewriting everything. That's usually slower, riskier, and more expensive than it sounds. The more practical approach:
+    </p>
+
+    <p>
+      <strong>Make it visible.</strong> Start with an honest audit. Not a detailed line-by-line review — a clear map of the highest-risk areas, what they're blocking, and what the estimated cost is in delivery time. Leadership needs to be able to see this clearly, not just hear a vague complaint about "legacy code."
+    </p>
+
+    <p>
+      <strong>Budget for it explicitly.</strong> A reasonable rule of thumb is allocating 20–30% of engineering capacity to debt reduction and platform health. Not as a vague aspiration — as a real protected budget that doesn't get cannibalised every time a product priority appears.
+    </p>
+
+    <p>
+      <strong>Prioritise by impact, not by severity.</strong> Not all debt is equal. The debt that blocks your next six product features is more important than the debt that makes a rarely-touched system slightly harder to maintain. Fix what's actually in the way.
+    </p>
+
+    <p>
+      <strong>Don't create more of it.</strong> The fastest way to accumulate tech debt is to keep making the same trade-offs without acknowledging their cost. Build in architectural review. Make the short-term/long-term trade-off explicit when it's being made, not when it's already embedded.
+    </p>
+
+    <h2>The leadership frame</h2>
+
+    <p>
+      Tech debt is a form of deferred risk. Like financial leverage, a small amount used strategically can be fine — even useful. A large amount that you've lost track of becomes a constraint on everything.
+    </p>
+
+    <p>
+      The leaders who manage it well aren't the ones who never take on any debt. They're the ones who take it on consciously, measure it, and invest regularly in reducing it. They treat technical health as a strategic asset — because at scale, it is.
+    </p>
+
+  </div>
+</article>
+
+<!-- Author -->
+<section class="py-12 px-6" style="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a;">
+  <div class="prose-container">
+    <div class="flex items-start gap-5">
+      <div style="width:56px;height:56px;border-radius:50%;background:#1a1a1a;border:1px solid #2a2a2a;display:flex;align-items:center;justify-content:center;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:16px;color:#00D4FF;flex-shrink:0;">SM</div>
+      <div>
+        <div class="font-heading font-semibold text-white mb-1">Stewart Masters</div>
+        <div style="font-size: 13px; color: #777; margin-bottom: 8px;">Chief Digital Officer · Honest Greens · Barcelona</div>
+        <p style="font-size: 14px; color: #B0B0B0; line-height: 1.7;">20 years building and running digital operations inside real businesses. I write about AI, digital systems, and the leadership decisions that determine whether transformation actually happens.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Related Posts -->
+<section class="py-16 px-6">
+  <div class="max-container">
+    <h2 class="font-heading text-xl font-bold text-white mb-8">Related posts</h2>
+    <div class="grid md:grid-cols-3 gap-5">
+
+      <a href="digital-transformation-failures.html" class="blog-card">
+        <div style="height:140px;background:linear-gradient(135deg,#0f1a0e,#0a120a);display:flex;align-items:center;justify-content:center;border-bottom:1px solid #1e1e1e;">
+          <span style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(80,200,80,0.3);font-family:'Space Grotesk',sans-serif;">Transformation</span>
+        </div>
+        <div class="p-5">
+          <span style="font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:#00D4FF;">Leadership</span>
+          <h3 class="font-heading text-sm font-semibold mt-2 mb-2 text-white leading-snug">Why digital transformation fails — and what actually works</h3>
+          <div class="flex items-center justify-between mt-4">
+            <span style="font-size:12px;color:#555;">25 Mar · 7 min</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="data-strategy-founders.html" class="blog-card">
+        <div style="height:140px;background:linear-gradient(135deg,#1a1a0e,#12120a);display:flex;align-items:center;justify-content:center;border-bottom:1px solid #1e1e1e;">
+          <span style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(200,200,80,0.3);font-family:'Space Grotesk',sans-serif;">Data</span>
+        </div>
+        <div class="p-5">
+          <span style="font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:#00D4FF;">Digital Strategy</span>
+          <h3 class="font-heading text-sm font-semibold mt-2 mb-2 text-white leading-snug">Data strategy for non-technical founders</h3>
+          <div class="flex items-center justify-between mt-4">
+            <span style="font-size:12px;color:#555;">23 Mar · 6 min</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="build-vs-buy.html" class="blog-card">
+        <div style="height:140px;background:linear-gradient(135deg,#0e1a1a,#0a1212);display:flex;align-items:center;justify-content:center;border-bottom:1px solid #1e1e1e;">
+          <span style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(0,200,200,0.3);font-family:'Space Grotesk',sans-serif;">Strategy</span>
+        </div>
+        <div class="p-5">
+          <span style="font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:#00D4FF;">Digital Strategy</span>
+          <h3 class="font-heading text-sm font-semibold mt-2 mb-2 text-white leading-snug">When to build vs. buy in a digital business</h3>
+          <div class="flex items-center justify-between mt-4">
+            <span style="font-size:12px;color:#555;">25 Mar · 6 min</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-10 px-6" style="border-top: 1px solid #141414;">
+  <div class="max-container flex flex-col md:flex-row items-center justify-between gap-4">
+    <span class="font-heading font-semibold" style="color: #555;">Stewart Masters</span>
+    <div class="flex gap-6" style="font-size: 13px;">
+      <a href="../index.html#about" class="nav-link">About</a>
+      <a href="../index.html#services" class="nav-link">Where I Help</a>
+      <a href="index.html" class="nav-link">Thinking</a>
+      <a href="../index.html#contact" class="nav-link">Contact</a>
+    </div>
+    <a href="https://www.linkedin.com/in/stewartmasters/" target="_blank" rel="noopener" class="nav-link" style="font-size: 13px;">LinkedIn →</a>
+  </div>
+</footer>
+
+</body>
+</html>

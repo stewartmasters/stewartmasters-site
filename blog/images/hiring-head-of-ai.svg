@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0d16"/>
+      <stop offset="100%" style="stop-color:#0d0f1a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Central figure (person silhouette abstract) -->
+  <circle cx="400" cy="260" r="52" fill="none" stroke="#00D4FF" stroke-width="1.5" opacity="0.5"/>
+  <circle cx="400" cy="260" r="40" fill="#0a1520" stroke="#00D4FF" stroke-width="1" opacity="0.4"/>
+  <circle cx="400" cy="260" r="12" fill="#00D4FF" opacity="0.6"/>
+
+  <!-- Skill nodes radiating out -->
+  <!-- AI/ML -->
+  <circle cx="280" cy="180" r="28" fill="none" stroke="#00D4FF" stroke-width="1" opacity="0.35"/>
+  <circle cx="280" cy="180" r="8" fill="#00D4FF" opacity="0.4"/>
+  <line x1="368" y1="228" x2="306" y2="197" stroke="#00D4FF" stroke-width="1" opacity="0.2" stroke-dasharray="4,4"/>
+  <text x="280" y="160" font-family="monospace" font-size="9" fill="#00D4FF" opacity="0.5" text-anchor="middle">AI/ML</text>
+
+  <!-- Change Mgmt -->
+  <circle cx="520" cy="170" r="28" fill="none" stroke="#4a9eff" stroke-width="1" opacity="0.35"/>
+  <circle cx="520" cy="170" r="8" fill="#4a9eff" opacity="0.4"/>
+  <line x1="432" y1="228" x2="496" y2="190" stroke="#4a9eff" stroke-width="1" opacity="0.2" stroke-dasharray="4,4"/>
+  <text x="520" y="152" font-family="monospace" font-size="9" fill="#4a9eff" opacity="0.5" text-anchor="middle">CHANGE MGMT</text>
+
+  <!-- Business -->
+  <circle cx="540" cy="330" r="28" fill="none" stroke="#00a8cc" stroke-width="1" opacity="0.35"/>
+  <circle cx="540" cy="330" r="8" fill="#00a8cc" opacity="0.4"/>
+  <line x1="446" y1="278" x2="516" y2="312" stroke="#00a8cc" stroke-width="1" opacity="0.2" stroke-dasharray="4,4"/>
+  <text x="540" y="312" font-family="monospace" font-size="9" fill="#00a8cc" opacity="0.5" text-anchor="middle">BUSINESS</text>
+
+  <!-- Ops -->
+  <circle cx="290" cy="350" r="28" fill="none" stroke="#3a8f88" stroke-width="1" opacity="0.35"/>
+  <circle cx="290" cy="350" r="8" fill="#3a8f88" opacity="0.4"/>
+  <line x1="358" y1="294" x2="314" y2="332" stroke="#3a8f88" stroke-width="1" opacity="0.2" stroke-dasharray="4,4"/>
+  <text x="290" y="332" font-family="monospace" font-size="9" fill="#3a8f88" opacity="0.5" text-anchor="middle">OPS</text>
+
+  <!-- Outer ring -->
+  <circle cx="400" cy="260" r="100" fill="none" stroke="#00D4FF" stroke-width="0.5" opacity="0.08" stroke-dasharray="3,6"/>
+  <circle cx="400" cy="260" r="150" fill="none" stroke="#00D4FF" stroke-width="0.5" opacity="0.05" stroke-dasharray="2,8"/>
+
+  <!-- Candidate assessment panel on right -->
+  <rect x="680" y="140" width="440" height="350" rx="8" fill="#090c14" stroke="#1a1e2e" stroke-width="1"/>
+  <text x="710" y="178" font-family="monospace" font-size="11" fill="#333" letter-spacing="2">CANDIDATE ASSESSMENT</text>
+  <line x1="700" y1="190" x2="1100" y2="190" stroke="#1a1e2e" stroke-width="1"/>
+
+  <!-- Criteria rows -->
+  <text x="710" y="220" font-family="monospace" font-size="11" fill="#555">Operator experience</text>
+  <rect x="900" y="208" width="80" height="16" rx="2" fill="#0a2a1a" stroke="#1e4a2a" stroke-width="1"/>
+  <rect x="900" y="208" width="72" height="16" rx="2" fill="#1e6030" opacity="0.7"/>
+  <text x="985" y="220" font-family="monospace" font-size="10" fill="#2a8040">90%</text>
+
+  <text x="710" y="254" font-family="monospace" font-size="11" fill="#555">Change management</text>
+  <rect x="900" y="242" width="80" height="16" rx="2" fill="#0a2a1a" stroke="#1e4a2a" stroke-width="1"/>
+  <rect x="900" y="242" width="56" height="16" rx="2" fill="#1a5028" opacity="0.7"/>
+  <text x="985" y="254" font-family="monospace" font-size="10" fill="#1e6030">70%</text>
+
+  <text x="710" y="288" font-family="monospace" font-size="11" fill="#555">Technical depth</text>
+  <rect x="900" y="276" width="80" height="16" rx="2" fill="#0a2a1a" stroke="#1e4a2a" stroke-width="1"/>
+  <rect x="900" y="276" width="40" height="16" rx="2" fill="#142014" opacity="0.7"/>
+  <text x="985" y="288" font-family="monospace" font-size="10" fill="#1a4020">50%</text>
+
+  <text x="710" y="322" font-family="monospace" font-size="11" fill="#555">Business translation</text>
+  <rect x="900" y="310" width="80" height="16" rx="2" fill="#0a2a1a" stroke="#1e4a2a" stroke-width="1"/>
+  <rect x="900" y="310" width="68" height="16" rx="2" fill="#1c5a2e" opacity="0.7"/>
+  <text x="985" y="322" font-family="monospace" font-size="10" fill="#22703a">85%</text>
+
+  <text x="710" y="356" font-family="monospace" font-size="11" fill="#555">Failure track record</text>
+  <rect x="900" y="344" width="80" height="16" rx="2" fill="#0a2a1a" stroke="#1e4a2a" stroke-width="1"/>
+  <rect x="900" y="344" width="76" height="16" rx="2" fill="#1e6838" opacity="0.7"/>
+  <text x="985" y="356" font-family="monospace" font-size="10" fill="#28904a">95%</text>
+
+  <line x1="700" y1="374" x2="1100" y2="374" stroke="#1a1e2e" stroke-width="1"/>
+  <text x="710" y="398" font-family="monospace" font-size="10" fill="#00D4FF" opacity="0.6">→ Prioritise operators over researchers</text>
+  <text x="710" y="416" font-family="monospace" font-size="10" fill="#333">→ Ask about their biggest failure first</text>
+  <text x="710" y="434" font-family="monospace" font-size="10" fill="#333">→ Most consequential hire of the decade</text>
+  <text x="710" y="452" font-family="monospace" font-size="10" fill="#333">→ Org readiness matters as much as the hire</text>
+
+  <!-- Title -->
+  <text x="600" y="78" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#00D4FF" opacity="0.6" letter-spacing="4" text-anchor="middle">LEADERSHIP</text>
+  <text x="600" y="114" font-family="'Space Grotesk', sans-serif" font-size="26" font-weight="700" fill="#fff" opacity="0.9" text-anchor="middle">Hiring Your First Head of AI</text>
+
+  <!-- Ambient -->
+  <ellipse cx="400" cy="260" rx="250" ry="200" fill="#00D4FF" opacity="0.015"/>
+</svg>

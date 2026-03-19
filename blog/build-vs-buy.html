@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>When to Build vs. Buy in a Digital Business — Stewart Masters</title>
+  <meta name="description" content="The build vs. buy decision is never just technical. It's strategic. Here's how to make it without regretting it six months later.">
+  <meta property="og:title" content="When to Build vs. Buy in a Digital Business">
+  <meta property="og:description" content="The build vs. buy decision is never just technical. It's strategic. Here's how to make it without regretting it six months later.">
+  <meta property="og:type" content="article">
+  <link rel="canonical" href="https://stewartmasters.me/blog/build-vs-buy.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { background-color: #0D0D0D; color: #EAEAEA; font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
+    .font-heading { font-family: 'Space Grotesk', sans-serif; }
+    .max-container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    .prose-container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; backdrop-filter: blur(24px); background: rgba(13,13,13,0.85); border-bottom: 1px solid #1c1c1c; }
+    .nav-link { font-size: 14px; color: #aaa; text-decoration: none; transition: color 0.2s; }
+    .nav-link:hover { color: #fff; }
+    .btn-primary { display: inline-block; background: #00D4FF; color: #0D0D0D; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 14px; padding: 10px 22px; border-radius: 4px; text-decoration: none; transition: background 0.2s; }
+    .btn-primary:hover { background: #fff; }
+    .prose h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.5rem; font-weight: 700; color: #fff; margin: 2.5rem 0 1rem; line-height: 1.3; }
+    .prose p { color: #EAEAEA; font-size: 17px; line-height: 1.85; margin-bottom: 1.5rem; }
+    .prose ul { margin: 0 0 1.5rem 0; padding: 0; list-style: none; }
+    .prose ul li { color: #EAEAEA; font-size: 17px; line-height: 1.85; padding: 4px 0 4px 24px; position: relative; }
+    .prose ul li::before { content: '→'; color: #00D4FF; position: absolute; left: 0; }
+    .prose strong { color: #fff; font-weight: 600; }
+    .blog-card { background: #121212; border: 1px solid #1e1e1e; border-radius: 10px; overflow: hidden; text-decoration: none; display: block; transition: border-color 0.3s, transform 0.3s; }
+    .blog-card:hover { border-color: #2a2a2a; transform: translateY(-4px); }
+    .blog-arrow { color: #333; font-size: 18px; transition: color 0.2s; }
+    .blog-card:hover .blog-arrow { color: #00D4FF; }
+    ::-webkit-scrollbar { width: 5px; } ::-webkit-scrollbar-track { background: #0D0D0D; } ::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 3px; }
+    #mobile-menu { display: none; } #mobile-menu.open { display: flex; }
+  </style>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script>
+</head>
+<body>
+
+<nav>
+  <div class="max-container py-4 flex items-center justify-between">
+    <a href="../index.html" class="font-heading font-semibold text-white text-lg tracking-tight">Stewart Masters</a>
+    <div class="hidden md:flex items-center gap-8">
+      <a href="../index.html#about" class="nav-link">About</a>
+      <a href="../index.html#services" class="nav-link">Where I Help</a>
+      <a href="index.html" class="nav-link">Thinking</a>
+      <a href="../index.html#contact" class="nav-link">Contact</a>
+    </div>
+    <div class="flex items-center gap-3">
+      <a href="../index.html#contact" class="btn-primary hidden md:inline-block">Get in touch</a>
+      <button id="hamburger" class="md:hidden text-gray-400 p-2" onclick="document.getElementById('mobile-menu').classList.toggle('open')">
+        <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h16M3 12h16M3 18h16"/></svg>
+      </button>
+    </div>
+  </div>
+  <div id="mobile-menu" class="flex-col gap-1 pb-4 px-6 border-t" style="border-color:#1a1a1a;">
+    <a href="../index.html#about" class="nav-link py-3 block">About</a>
+    <a href="../index.html#services" class="nav-link py-3 block">Where I Help</a>
+    <a href="index.html" class="nav-link py-3 block">Thinking</a>
+    <a href="../index.html#contact" class="nav-link py-3 block">Contact</a>
+  </div>
+</nav>
+
+<!-- Header -->
+<section class="pt-36 pb-12 px-6" style="border-bottom: 1px solid #1a1a1a;">
+  <div class="prose-container">
+    <div class="flex items-center gap-3 mb-8" style="font-size: 13px; color: #555;">
+      <a href="index.html" class="nav-link">Thinking</a>
+      <span>→</span>
+      <span style="color: #00D4FF;">Digital Strategy</span>
+    </div>
+    <h1 class="font-heading text-4xl md:text-5xl font-bold leading-tight text-white mb-6">
+      When to build vs. buy in a digital business
+    </h1>
+    <p style="color: #777; font-size: 16px; line-height: 1.7; margin-bottom: 28px;">
+      The build vs. buy decision is never just technical. It's strategic. Here's how to make it without regretting it six months later.
+    </p>
+    <div class="flex items-center gap-4" style="font-size: 13px; color: #555;">
+      <span>Stewart Masters</span>
+      <span>·</span>
+      <span>25 Mar 2026</span>
+      <span>·</span>
+      <span>6 min read</span>
+    </div>
+  </div>
+</section>
+
+<!-- SVG Hero -->
+<div style="width:100%; max-height:420px; overflow:hidden; border-bottom:1px solid #1a1a1a;">
+  <img src="images/build-vs-buy.svg" alt="When to build vs buy" style="width:100%; height:420px; object-fit:cover;">
+</div>
+
+<!-- Article -->
+<article class="py-16 px-6">
+  <div class="prose-container prose">
+
+    <p>
+      The build vs. buy conversation usually starts in the wrong place. An engineer says "we could build this ourselves in three months." A vendor quotes twelve months of contract and a per-seat model that doesn't fit how you work. Leadership instinctively wants to avoid lock-in.
+    </p>
+
+    <p>
+      None of this is the question. The question is: what is the strategic value of owning this capability yourself?
+    </p>
+
+    <p>
+      When the answer is "not much" — which it usually is — you should buy.
+    </p>
+
+    <h2>The case for buying (most things)</h2>
+
+    <p>
+      The default should be to buy. Here's the honest reasoning:
+    </p>
+
+    <p>
+      Most of the software you need to run a business exists off the shelf, built by companies whose entire product focus is that specific problem. Your CRM, your payments stack, your communication tools, your analytics platform, your HR system. The probability that you'll build something materially better than the leading vendor in any of these categories is very low. And even if you somehow could, the cost of running it over years compounds in ways that aren't obvious at the start.
+    </p>
+
+    <p>
+      The honest calculation is: what is your engineering team's time actually worth, and what is the best use of it? Building an internal scheduling system, or building the thing that actually differentiates your product in the market?
+    </p>
+
+    <h2>The case for building (rarely)</h2>
+
+    <p>
+      There are real cases where building makes sense. They're fewer than most engineering teams believe, but they're real:
+    </p>
+
+    <ul>
+      <li><strong>The use case is your competitive differentiation.</strong> If your core value proposition is a recommendation engine, you can't outsource the recommendation engine. The IP matters. The data flywheel matters. The iteration speed matters. You need to own it.</li>
+      <li><strong>The use case requires proprietary data in a way no vendor can replicate.</strong> Your operational data is unique. Sometimes the model you train on that data — for demand forecasting, pricing, or operations — is worth building and owning.</li>
+      <li><strong>The vendor genuinely can't do what you need, and customisation cost exceeds build cost.</strong> This is rare, but it does happen — especially for complex multi-market operations with specific regulatory or operational requirements.</li>
+    </ul>
+
+    <h2>The hidden costs on both sides</h2>
+
+    <p>
+      <strong>Build side:</strong> initial development is never the real cost. It's the maintenance, the team you need to run it, the tech debt it creates, the upgrades you have to fund yourself, and the opportunity cost of what your team didn't build instead. Software you build is software you own forever — including all the problems.
+    </p>
+
+    <p>
+      <strong>Buy side:</strong> integration time is real and usually underestimated. Vendor lock-in is real, though often overstated — most enterprise tools have migration paths. Seat-based pricing can become expensive at scale. And the gap between what was demoed and what the product actually does in your specific context is a consistent source of disappointment. Pilot the tool before you sign the contract.
+    </p>
+
+    <h2>The question that reframes it</h2>
+
+    <p>
+      Before you start the build vs. buy evaluation, ask one question: what is the most important thing our engineering team could be building right now?
+    </p>
+
+    <p>
+      If the answer is "the CRM replacement," you have a bigger problem than CRM selection. If the answer is something specific to your product — a capability no vendor has, a data model that reflects your business uniquely — then the CRM question answers itself. Buy something, move on, and spend the energy on the thing that's actually yours to own.
+    </p>
+
+    <p>
+      Most organisations spend more time evaluating the wrong decision than it would have taken to just move forward. The discipline to recognise commodity infrastructure and stop debating it is a competitive advantage in itself.
+    </p>
+
+  </div>
+</article>
+
+<!-- Author -->
+<section class="py-12 px-6" style="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a;">
+  <div class="prose-container">
+    <div class="flex items-start gap-5">
+      <div style="width:56px;height:56px;border-radius:50%;background:#1a1a1a;border:1px solid #2a2a2a;display:flex;align-items:center;justify-content:center;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:16px;color:#00D4FF;flex-shrink:0;">SM</div>
+      <div>
+        <div class="font-heading font-semibold text-white mb-1">Stewart Masters</div>
+        <div style="font-size: 13px; color: #777; margin-bottom: 8px;">Chief Digital Officer · Honest Greens · Barcelona</div>
+        <p style="font-size: 14px; color: #B0B0B0; line-height: 1.7;">20 years building and running digital operations inside real businesses. I write about AI, digital systems, and the leadership decisions that determine whether transformation actually happens.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Related Posts -->
+<section class="py-16 px-6">
+  <div class="max-container">
+    <h2 class="font-heading text-xl font-bold text-white mb-8">Related posts</h2>
+    <div class="grid md:grid-cols-3 gap-5">
+
+      <a href="tech-debt-cost.html" class="blog-card">
+        <div style="height:140px;background:linear-gradient(135deg,#0a0f12,#0d1a14);display:flex;align-items:center;justify-content:center;border-bottom:1px solid #1e1e1e;">
+          <span style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(0,212,255,0.2);font-family:'Space Grotesk',sans-serif;">Tech Debt</span>
+        </div>
+        <div class="p-5">
+          <span style="font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:#00D4FF;">Digital Strategy</span>
+          <h3 class="font-heading text-sm font-semibold mt-2 mb-2 text-white leading-snug">The real cost of tech debt in a growing business</h3>
+          <div class="flex items-center justify-between mt-4">
+            <span style="font-size:12px;color:#555;">20 Mar · 6 min</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="data-strategy-founders.html" class="blog-card">
+        <div style="height:140px;background:linear-gradient(135deg,#0a100f,#0c1412);display:flex;align-items:center;justify-content:center;border-bottom:1px solid #1e1e1e;">
+          <span style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(0,180,120,0.3);font-family:'Space Grotesk',sans-serif;">Data</span>
+        </div>
+        <div class="p-5">
+          <span style="font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:#00D4FF;">Digital Strategy</span>
+          <h3 class="font-heading text-sm font-semibold mt-2 mb-2 text-white leading-snug">Data strategy for non-technical founders</h3>
+          <div class="flex items-center justify-between mt-4">
+            <span style="font-size:12px;color:#555;">23 Mar · 6 min</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="product-roadmap-fiction.html" class="blog-card">
+        <div style="height:140px;background:linear-gradient(135deg,#0f0f0a,#14120a);display:flex;align-items:center;justify-content:center;border-bottom:1px solid #1e1e1e;">
+          <span style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(200,180,0,0.3);font-family:'Space Grotesk',sans-serif;">Roadmap</span>
+        </div>
+        <div class="p-5">
+          <span style="font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:#00D4FF;">Digital Strategy</span>
+          <h3 class="font-heading text-sm font-semibold mt-2 mb-2 text-white leading-snug">Why most product roadmaps are fiction</h3>
+          <div class="flex items-center justify-between mt-4">
+            <span style="font-size:12px;color:#555;">22 Mar · 6 min</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-10 px-6" style="border-top: 1px solid #141414;">
+  <div class="max-container flex flex-col md:flex-row items-center justify-between gap-4">
+    <span class="font-heading font-semibold" style="color: #555;">Stewart Masters</span>
+    <div class="flex gap-6" style="font-size: 13px;">
+      <a href="../index.html#about" class="nav-link">About</a>
+      <a href="../index.html#services" class="nav-link">Where I Help</a>
+      <a href="index.html" class="nav-link">Thinking</a>
+      <a href="../index.html#contact" class="nav-link">Contact</a>
+    </div>
+    <a href="https://www.linkedin.com/in/stewartmasters/" target="_blank" rel="noopener" class="nav-link" style="font-size: 13px;">LinkedIn →</a>
+  </div>
+</footer>
+
+</body>
+</html>

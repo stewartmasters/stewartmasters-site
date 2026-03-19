@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0f0e"/>
+      <stop offset="100%" style="stop-color:#0c1410"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- BUY panel — left -->
+  <rect x="60" y="148" width="490" height="360" rx="6" fill="#091210" stroke="#0f2018" stroke-width="1.5"/>
+  <text x="305" y="183" font-family="monospace" font-size="13" fill="#1a5028" text-anchor="middle" letter-spacing="3">BUY</text>
+  <text x="305" y="202" font-family="monospace" font-size="10" fill="#1a3820" text-anchor="middle">default for anything that isn't your differentiation</text>
+  <line x1="80" y1="215" x2="530" y2="215" stroke="#0f2018" stroke-width="1"/>
+
+  <text x="80" y="244" font-family="monospace" font-size="10" fill="#00D4FF" opacity="0.4">→</text>
+  <text x="100" y="244" font-family="monospace" font-size="10" fill="#2a4030">CRM · payments · HR · analytics · comms tools</text>
+
+  <text x="80" y="272" font-family="monospace" font-size="10" fill="#00D4FF" opacity="0.4">→</text>
+  <text x="100" y="272" font-family="monospace" font-size="10" fill="#263830">Anything with a mature specialist vendor</text>
+
+  <text x="80" y="300" font-family="monospace" font-size="10" fill="#00D4FF" opacity="0.4">→</text>
+  <text x="100" y="300" font-family="monospace" font-size="10" fill="#1e3028">When your team's time is worth more elsewhere</text>
+
+  <text x="80" y="328" font-family="monospace" font-size="10" fill="#00D4FF" opacity="0.4">→</text>
+  <text x="100" y="328" font-family="monospace" font-size="10" fill="#182820">When the maintenance burden exceeds build cost</text>
+
+  <line x1="80" y1="346" x2="530" y2="346" stroke="#0f2018" stroke-width="0.5" stroke-dasharray="3,6"/>
+  <text x="80" y="370" font-family="monospace" font-size="10" fill="#1e4030" opacity="0.9">Hidden costs: integration time, vendor lock-in,</text>
+  <text x="80" y="388" font-family="monospace" font-size="10" fill="#182e24" opacity="0.8">pricing at scale, gap between demo and reality.</text>
+  <text x="80" y="410" font-family="monospace" font-size="10" fill="#1a3828" opacity="0.9">Pilot before signing. Evaluate migration paths.</text>
+
+  <rect x="80" y="432" width="450" height="60" rx="3" fill="#091410" stroke="#0f2018" stroke-width="1"/>
+  <text x="305" y="455" font-family="monospace" font-size="10" fill="#2a7040" text-anchor="middle">Most things. Commodity infrastructure.</text>
+  <text x="305" y="473" font-family="monospace" font-size="10" fill="#1e5030" text-anchor="middle">Stop debating it. Buy and move on.</text>
+
+  <!-- BUILD panel — right -->
+  <rect x="640" y="148" width="490" height="360" rx="6" fill="#080e10" stroke="#0f1e28" stroke-width="1.5"/>
+  <text x="885" y="183" font-family="monospace" font-size="13" fill="#00D4FF" opacity="0.6" text-anchor="middle" letter-spacing="3">BUILD</text>
+  <text x="885" y="202" font-family="monospace" font-size="10" fill="#1a3050" text-anchor="middle" opacity="0.9">only when ownership creates strategic value</text>
+  <line x1="660" y1="215" x2="1110" y2="215" stroke="#0f1e28" stroke-width="1"/>
+
+  <text x="660" y="244" font-family="monospace" font-size="10" fill="#00D4FF" opacity="0.5">→</text>
+  <text x="680" y="244" font-family="monospace" font-size="10" fill="#2a4060">The use case IS your competitive differentiation</text>
+
+  <text x="660" y="272" font-family="monospace" font-size="10" fill="#00D4FF" opacity="0.45">→</text>
+  <text x="680" y="272" font-family="monospace" font-size="10" fill="#223858">Requires proprietary data no vendor can replicate</text>
+
+  <text x="660" y="300" font-family="monospace" font-size="10" fill="#00D4FF" opacity="0.4">→</text>
+  <text x="680" y="300" font-family="monospace" font-size="10" fill="#1a3050">Off-shelf genuinely can't do what you need</text>
+
+  <text x="660" y="328" font-family="monospace" font-size="10" fill="#00D4FF" opacity="0.35">→</text>
+  <text x="680" y="328" font-family="monospace" font-size="10" fill="#142840">IP matters: recommendation engine, AI model, data flywheel</text>
+
+  <line x1="660" y1="346" x2="1110" y2="346" stroke="#0f1e28" stroke-width="0.5" stroke-dasharray="3,6"/>
+  <text x="660" y="370" font-family="monospace" font-size="10" fill="#1a3858" opacity="0.9">Hidden costs: initial dev is not the real cost.</text>
+  <text x="660" y="388" font-family="monospace" font-size="10" fill="#14304e" opacity="0.8">Maintenance, ownership, tech debt, opportunity cost.</text>
+  <text x="660" y="410" font-family="monospace" font-size="10" fill="#1a3858" opacity="0.9">Software you build is software you own forever.</text>
+
+  <rect x="660" y="432" width="450" height="60" rx="3" fill="#080e14" stroke="#0f1e28" stroke-width="1"/>
+  <text x="885" y="455" font-family="monospace" font-size="10" fill="#00D4FF" opacity="0.5" text-anchor="middle">Rarely justified. Usually a rationalisation</text>
+  <text x="885" y="473" font-family="monospace" font-size="10" fill="#1a3050" text-anchor="middle">for wanting to build rather than buy.</text>
+
+  <!-- Dividing question bar -->
+  <rect x="60" y="532" width="1070" height="56" rx="4" fill="#091210" stroke="#0f1e18" stroke-width="1"/>
+  <text x="595" y="553" font-family="monospace" font-size="10" fill="#2a6040" text-anchor="middle">Ask first: what is the most important thing our engineering team could be building right now?</text>
+  <text x="595" y="573" font-family="monospace" font-size="10" fill="#1a4030" text-anchor="middle">If the answer isn't the tool in question — buy something and direct the energy where it belongs.</text>
+
+  <!-- Title -->
+  <text x="600" y="78" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#00D4FF" opacity="0.6" letter-spacing="4" text-anchor="middle">DIGITAL STRATEGY</text>
+  <text x="600" y="114" font-family="'Space Grotesk', sans-serif" font-size="26" font-weight="700" fill="#fff" opacity="0.9" text-anchor="middle">When to Build vs. Buy in a Digital Business</text>
+
+  <ellipse cx="600" cy="330" rx="350" ry="220" fill="#00D4FF" opacity="0.01"/>
+</svg>

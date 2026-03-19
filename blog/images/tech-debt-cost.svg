@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0f12"/>
+      <stop offset="100%" style="stop-color:#0d1a14"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00D4FF;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#00a8cc;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Layered rectangles — stacked debt metaphor -->
+  <!-- Bottom layer (oldest debt) -->
+  <rect x="80" y="420" width="460" height="52" rx="4" fill="none" stroke="#1a2a1f" stroke-width="1.5"/>
+  <rect x="80" y="420" width="460" height="52" rx="4" fill="#0f1a12" opacity="0.8"/>
+  <rect x="80" y="420" width="180" height="52" rx="4" fill="#0f2018" opacity="0.9"/>
+  <text x="100" y="451" font-family="monospace" font-size="11" fill="#1e3d22" letter-spacing="1">v1.0 · auth_service · 2019</text>
+
+  <rect x="80" y="358" width="400" height="52" rx="4" fill="none" stroke="#1a2820" stroke-width="1.5"/>
+  <rect x="80" y="358" width="400" height="52" rx="4" fill="#101f14" opacity="0.8"/>
+  <rect x="80" y="358" width="220" height="52" rx="4" fill="#0f2018" opacity="0.7"/>
+  <text x="100" y="389" font-family="monospace" font-size="11" fill="#1e3d28" letter-spacing="1">v2.3 · payment_legacy · 2021</text>
+
+  <rect x="80" y="296" width="340" height="52" rx="4" fill="none" stroke="#1e2e24" stroke-width="1.5"/>
+  <rect x="80" y="296" width="340" height="52" rx="4" fill="#121f16" opacity="0.8"/>
+  <text x="100" y="327" font-family="monospace" font-size="11" fill="#254030" letter-spacing="1">v3.1 · api_wrapper · 2022</text>
+
+  <rect x="80" y="234" width="280" height="52" rx="4" fill="none" stroke="#223528" stroke-width="1.5"/>
+  <rect x="80" y="234" width="280" height="52" rx="4" fill="#14211a" opacity="0.8"/>
+  <text x="100" y="265" font-family="monospace" font-size="11" fill="#2a4a38" letter-spacing="1">v4.0 · data_pipeline · 2023</text>
+
+  <!-- Top layer (current) — highlighted -->
+  <rect x="80" y="172" width="360" height="52" rx="4" fill="none" stroke="#00D4FF" stroke-width="1.5" opacity="0.5"/>
+  <rect x="80" y="172" width="360" height="52" rx="4" fill="#0a1f1a" opacity="0.9"/>
+  <text x="100" y="203" font-family="monospace" font-size="11" fill="#00D4FF" letter-spacing="1" opacity="0.8">v5.2 · core_service · 2025 ← you are here</text>
+
+  <!-- Connecting lines between layers — showing dependencies -->
+  <line x1="310" y1="224" x2="270" y2="286" stroke="#00D4FF" stroke-width="1" opacity="0.15" stroke-dasharray="4,4"/>
+  <line x1="200" y1="286" x2="220" y2="350" stroke="#1e8040" stroke-width="1" opacity="0.15" stroke-dasharray="4,4"/>
+  <line x1="350" y1="350" x2="330" y2="412" stroke="#1e8040" stroke-width="1" opacity="0.1" stroke-dasharray="4,4"/>
+
+  <!-- Accumulation label -->
+  <text x="60" y="490" font-family="monospace" font-size="10" fill="#2a4030" letter-spacing="2" transform="rotate(-90 60 490)">DEBT ACCUMULATION</text>
+
+  <!-- Right side: impact metrics -->
+  <rect x="640" y="140" width="480" height="350" rx="8" fill="#0a1210" stroke="#1a2a1f" stroke-width="1"/>
+
+  <!-- Title in metrics box -->
+  <text x="680" y="185" font-family="'Space Grotesk', sans-serif" font-size="13" fill="#555" letter-spacing="2" text-transform="uppercase">DELIVERY VELOCITY</text>
+
+  <!-- Bar chart showing slowing velocity -->
+  <!-- Q1 2023 -->
+  <rect x="680" y="320" width="60" height="80" rx="3" fill="#1a4a2a" opacity="0.8"/>
+  <text x="710" y="415" font-family="monospace" font-size="10" fill="#444" text-anchor="middle">Q1'23</text>
+  <text x="710" y="312" font-family="monospace" font-size="11" fill="#2a8040" text-anchor="middle">24</text>
+
+  <!-- Q2 2023 -->
+  <rect x="760" y="340" width="60" height="60" rx="3" fill="#1a4028" opacity="0.8"/>
+  <text x="790" y="415" font-family="monospace" font-size="10" fill="#444" text-anchor="middle">Q2'23</text>
+  <text x="790" y="332" font-family="monospace" font-size="11" fill="#1e6030" text-anchor="middle">18</text>
+
+  <!-- Q3 2023 -->
+  <rect x="840" y="356" width="60" height="44" rx="3" fill="#1a3020" opacity="0.8"/>
+  <text x="870" y="415" font-family="monospace" font-size="10" fill="#444" text-anchor="middle">Q3'23</text>
+  <text x="870" y="348" font-family="monospace" font-size="11" fill="#1a5028" text-anchor="middle">13</text>
+
+  <!-- Q4 2023 -->
+  <rect x="920" y="370" width="60" height="30" rx="3" fill="#1a2018" opacity="0.8"/>
+  <text x="950" y="415" font-family="monospace" font-size="10" fill="#444" text-anchor="middle">Q4'23</text>
+  <text x="950" y="362" font-family="monospace" font-size="11" fill="#144020" text-anchor="middle">9</text>
+
+  <!-- Q1 2024 -->
+  <rect x="1000" y="384" width="60" height="16" rx="3" fill="#00D4FF" opacity="0.4"/>
+  <text x="1030" y="415" font-family="monospace" font-size="10" fill="#444" text-anchor="middle">Q1'24</text>
+  <text x="1030" y="376" font-family="monospace" font-size="11" fill="#00D4FF" text-anchor="middle">5</text>
+
+  <!-- Y-axis label -->
+  <text x="668" y="280" font-family="monospace" font-size="9" fill="#333" text-anchor="middle" transform="rotate(-90 668 320)">FEATURES SHIPPED / QTR</text>
+
+  <!-- Trend arrow -->
+  <path d="M 690 328 Q 860 350 1040 388" stroke="#ff4444" stroke-width="1.5" fill="none" stroke-dasharray="6,3" opacity="0.4"/>
+
+  <!-- Key insight callout -->
+  <rect x="660" y="440" width="440" height="36" rx="4" fill="#0f1a10" stroke="#1e3020" stroke-width="1"/>
+  <text x="880" y="463" font-family="monospace" font-size="11" fill="#2a6030" text-anchor="middle" letter-spacing="1">↓ 79% velocity loss over 12 months</text>
+
+  <!-- Main title overlay -->
+  <text x="600" y="80" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#00D4FF" opacity="0.6" letter-spacing="4" text-anchor="middle">DIGITAL STRATEGY</text>
+  <text x="600" y="116" font-family="'Space Grotesk', sans-serif" font-size="28" font-weight="700" fill="#fff" opacity="0.9" text-anchor="middle">The Real Cost of Tech Debt</text>
+
+  <!-- Grid lines -->
+  <line x1="80" y1="172" x2="80" y2="490" stroke="#1a2a1f" stroke-width="1" opacity="0.5"/>
+  <line x1="80" y1="490" x2="560" y2="490" stroke="#1a2a1f" stroke-width="1" opacity="0.5"/>
+
+  <!-- Ambient glow -->
+  <circle cx="310" cy="315" r="200" fill="radial-gradient(circle, rgba(0,212,255,0.03), transparent)" opacity="0.3"/>
+  <ellipse cx="310" cy="315" rx="220" ry="180" fill="#00D4FF" opacity="0.02"/>
+</svg>

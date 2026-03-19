@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How to Measure Product-Market Fit Honestly — Stewart Masters</title>
+  <meta name="description" content="Product-market fit is real — but most teams don't know when they have it. Here's how to look past vanity signals and measure it honestly.">
+  <meta property="og:title" content="How to Measure Product-Market Fit Honestly">
+  <meta property="og:description" content="Product-market fit is real — but most teams don't know when they have it. Here's how to look past vanity signals and measure it honestly.">
+  <meta property="og:type" content="article">
+  <link rel="canonical" href="https://stewartmasters.me/blog/measuring-product-market-fit.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { background-color: #0D0D0D; color: #EAEAEA; font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
+    .font-heading { font-family: 'Space Grotesk', sans-serif; }
+    .max-container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    .prose-container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; backdrop-filter: blur(24px); background: rgba(13,13,13,0.85); border-bottom: 1px solid #1c1c1c; }
+    .nav-link { font-size: 14px; color: #aaa; text-decoration: none; transition: color 0.2s; }
+    .nav-link:hover { color: #fff; }
+    .btn-primary { display: inline-block; background: #00D4FF; color: #0D0D0D; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 14px; padding: 10px 22px; border-radius: 4px; text-decoration: none; transition: background 0.2s; }
+    .btn-primary:hover { background: #fff; }
+    .prose h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.5rem; font-weight: 700; color: #fff; margin: 2.5rem 0 1rem; line-height: 1.3; }
+    .prose p { color: #EAEAEA; font-size: 17px; line-height: 1.85; margin-bottom: 1.5rem; }
+    .prose ul { margin: 0 0 1.5rem 0; padding: 0; list-style: none; }
+    .prose ul li { color: #EAEAEA; font-size: 17px; line-height: 1.85; padding: 4px 0 4px 24px; position: relative; }
+    .prose ul li::before { content: '→'; color: #00D4FF; position: absolute; left: 0; }
+    .prose strong { color: #fff; font-weight: 600; }
+    .blog-card { background: #121212; border: 1px solid #1e1e1e; border-radius: 10px; overflow: hidden; text-decoration: none; display: block; transition: border-color 0.3s, transform 0.3s; }
+    .blog-card:hover { border-color: #2a2a2a; transform: translateY(-4px); }
+    .blog-arrow { color: #333; font-size: 18px; transition: color 0.2s; }
+    .blog-card:hover .blog-arrow { color: #00D4FF; }
+    ::-webkit-scrollbar { width: 5px; } ::-webkit-scrollbar-track { background: #0D0D0D; } ::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 3px; }
+    #mobile-menu { display: none; } #mobile-menu.open { display: flex; }
+  </style>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script>
+</head>
+<body>
+
+<nav>
+  <div class="max-container py-4 flex items-center justify-between">
+    <a href="../index.html" class="font-heading font-semibold text-white text-lg tracking-tight">Stewart Masters</a>
+    <div class="hidden md:flex items-center gap-8">
+      <a href="../index.html#about" class="nav-link">About</a>
+      <a href="../index.html#services" class="nav-link">Where I Help</a>
+      <a href="index.html" class="nav-link">Thinking</a>
+      <a href="../index.html#contact" class="nav-link">Contact</a>
+    </div>
+    <div class="flex items-center gap-3">
+      <a href="../index.html#contact" class="btn-primary hidden md:inline-block">Get in touch</a>
+      <button id="hamburger" class="md:hidden text-gray-400 p-2" onclick="document.getElementById('mobile-menu').classList.toggle('open')">
+        <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h16M3 12h16M3 18h16"/></svg>
+      </button>
+    </div>
+  </div>
+  <div id="mobile-menu" class="flex-col gap-1 pb-4 px-6 border-t" style="border-color:#1a1a1a;">
+    <a href="../index.html#about" class="nav-link py-3 block">About</a>
+    <a href="../index.html#services" class="nav-link py-3 block">Where I Help</a>
+    <a href="index.html" class="nav-link py-3 block">Thinking</a>
+    <a href="../index.html#contact" class="nav-link py-3 block">Contact</a>
+  </div>
+</nav>
+
+<!-- Header -->
+<section class="pt-36 pb-12 px-6" style="border-bottom: 1px solid #1a1a1a;">
+  <div class="prose-container">
+    <div class="flex items-center gap-3 mb-8" style="font-size: 13px; color: #555;">
+      <a href="index.html" class="nav-link">Thinking</a>
+      <span>→</span>
+      <span style="color: #00D4FF;">Digital Strategy</span>
+    </div>
+    <h1 class="font-heading text-4xl md:text-5xl font-bold leading-tight text-white mb-6">
+      How to measure product-market fit honestly
+    </h1>
+    <p style="color: #777; font-size: 16px; line-height: 1.7; margin-bottom: 28px;">
+      Product-market fit is real — but most teams don't know when they have it. Here's how to look past vanity signals and measure it honestly.
+    </p>
+    <div class="flex items-center gap-4" style="font-size: 13px; color: #555;">
+      <span>Stewart Masters</span>
+      <span>·</span>
+      <span>26 Mar 2026</span>
+      <span>·</span>
+      <span>6 min read</span>
+    </div>
+  </div>
+</section>
+
+<!-- SVG Hero -->
+<div style="width:100%; max-height:420px; overflow:hidden; border-bottom:1px solid #1a1a1a;">
+  <img src="images/measuring-product-market-fit.svg" alt="How to measure product-market fit" style="width:100%; height:420px; object-fit:cover;">
+</div>
+
+<!-- Article -->
+<article class="py-16 px-6">
+  <div class="prose-container prose">
+
+    <p>
+      Product-market fit is the point at which a product has found a group of customers who genuinely need it, use it repeatedly, and would be meaningfully worse off without it.
+    </p>
+
+    <p>
+      That sounds clear. In practice, it's one of the most misread signals in a product's lifecycle. Most founders either think they have PMF when they don't, or they've had it for six months and haven't recognised it.
+    </p>
+
+    <h2>The vanity metrics trap</h2>
+
+    <p>
+      The metrics that feel like product-market fit but aren't:
+    </p>
+
+    <ul>
+      <li><strong>Sign-ups or downloads.</strong> Measures awareness and marketing effectiveness. Tells you nothing about whether people find the product valuable.</li>
+      <li><strong>Total active users.</strong> Doesn't distinguish between engaged users and people who've essentially abandoned the product but haven't cancelled yet.</li>
+      <li><strong>Revenue growth.</strong> Can be hiding terrible retention — growth through acquisition masks churn until it can't anymore.</li>
+      <li><strong>Press coverage and inbound interest.</strong> People are curious. Curiosity and commitment are different things.</li>
+    </ul>
+
+    <p>
+      None of these are useless. All of them can mislead if you mistake them for evidence of fit rather than indicators of something else.
+    </p>
+
+    <h2>Leading indicators that actually matter</h2>
+
+    <p>
+      <strong>Retention curves that flatten.</strong> If you plot cohort retention over time and the curve keeps declining toward zero, you don't have fit. If it flattens — even at a modest level — you have something worth understanding. The absolute level matters less than the shape of the curve.
+    </p>
+
+    <p>
+      <strong>Unprompted organic advocacy.</strong> Are users recommending this to others without being asked? Are referrals a meaningful share of your acquisition? This is one of the hardest signals to fake and one of the most reliable indicators that the product is solving a real problem.
+    </p>
+
+    <p>
+      <strong>The disappointment test.</strong> Ask a meaningful sample of active users: how would you feel if this product no longer existed? If 40% or more say "very disappointed," you likely have fit. Below 25% and you don't. This is the Sean Ellis threshold — not a law of physics, but a useful calibration point that's held up across many products and markets.
+    </p>
+
+    <p>
+      <strong>Usage frequency versus expectation.</strong> Is the product being used as often as you'd expect if it was genuinely solving the problem? A product designed for daily use that's being used weekly suggests either that the habit hasn't formed or that the value isn't strong enough in most users' lives.
+    </p>
+
+    <h2>The retention lens</h2>
+
+    <p>
+      The most honest way to assess PMF is cohort retention — not aggregate active users, not rolling average, but cohort by cohort. Does each new group of users retain at roughly the same rate as previous groups?
+    </p>
+
+    <p>
+      If retention is declining cohort over cohort, you're probably expanding into a market that's a worse fit for the product, or the early adopters had a specific characteristic that later users don't share. Either way, something has changed and it's worth understanding what.
+    </p>
+
+    <p>
+      If retention is consistent or improving across cohorts, and the curve flattens rather than declining to zero, that's a meaningful signal. It suggests the product is doing something real for a consistent set of people.
+    </p>
+
+    <h2>When you actually have it — and what to do next</h2>
+
+    <p>
+      PMF isn't a moment — it's a range. You'll move through it gradually. The signal that you're in it: growth starts to feel pulled forward rather than pushed. Acquisition costs drop as word-of-mouth does more work. Teams that struggled to articulate the value proposition start to find it obvious.
+    </p>
+
+    <p>
+      The harder question isn't "do we have PMF?" — it's "for which specific customer type, and at what level of intensity?" Because PMF is usually narrower than founders assume. The decision to expand from the beachhead into adjacent markets is one of the most consequential decisions in a young company's life, and most make it before they've properly mapped the limits of their initial fit.
+    </p>
+
+    <p>
+      Know exactly who your product works for before you try to make it work for everyone else.
+    </p>
+
+  </div>
+</article>
+
+<!-- Author -->
+<section class="py-12 px-6" style="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a;">
+  <div class="prose-container">
+    <div class="flex items-start gap-5">
+      <div style="width:56px;height:56px;border-radius:50%;background:#1a1a1a;border:1px solid #2a2a2a;display:flex;align-items:center;justify-content:center;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:16px;color:#00D4FF;flex-shrink:0;">SM</div>
+      <div>
+        <div class="font-heading font-semibold text-white mb-1">Stewart Masters</div>
+        <div style="font-size: 13px; color: #777; margin-bottom: 8px;">Chief Digital Officer · Honest Greens · Barcelona</div>
+        <p style="font-size: 14px; color: #B0B0B0; line-height: 1.7;">20 years building and running digital operations inside real businesses. I write about AI, digital systems, and the leadership decisions that determine whether transformation actually happens.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Related Posts -->
+<section class="py-16 px-6">
+  <div class="max-container">
+    <h2 class="font-heading text-xl font-bold text-white mb-8">Related posts</h2>
+    <div class="grid md:grid-cols-3 gap-5">
+
+      <a href="product-roadmap-fiction.html" class="blog-card">
+        <div style="height:140px;background:linear-gradient(135deg,#0f0f0a,#14120a);display:flex;align-items:center;justify-content:center;border-bottom:1px solid #1e1e1e;">
+          <span style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(200,180,0,0.3);font-family:'Space Grotesk',sans-serif;">Roadmap</span>
+        </div>
+        <div class="p-5">
+          <span style="font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:#00D4FF;">Digital Strategy</span>
+          <h3 class="font-heading text-sm font-semibold mt-2 mb-2 text-white leading-snug">Why most product roadmaps are fiction</h3>
+          <div class="flex items-center justify-between mt-4">
+            <span style="font-size:12px;color:#555;">22 Mar · 6 min</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="customer-feedback-wrong-signal.html" class="blog-card">
+        <div style="height:140px;background:linear-gradient(135deg,#120a0a,#1a0e0e);display:flex;align-items:center;justify-content:center;border-bottom:1px solid #1e1e1e;">
+          <span style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(200,80,80,0.3);font-family:'Space Grotesk',sans-serif;">Signal</span>
+        </div>
+        <div class="p-5">
+          <span style="font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:#00D4FF;">Digital Strategy</span>
+          <h3 class="font-heading text-sm font-semibold mt-2 mb-2 text-white leading-snug">Why customer feedback is often the wrong signal</h3>
+          <div class="flex items-center justify-between mt-4">
+            <span style="font-size:12px;color:#555;">8 Apr · 6 min</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="build-vs-buy.html" class="blog-card">
+        <div style="height:140px;background:linear-gradient(135deg,#0e1a1a,#0a1212);display:flex;align-items:center;justify-content:center;border-bottom:1px solid #1e1e1e;">
+          <span style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(0,200,200,0.3);font-family:'Space Grotesk',sans-serif;">Strategy</span>
+        </div>
+        <div class="p-5">
+          <span style="font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:#00D4FF;">Digital Strategy</span>
+          <h3 class="font-heading text-sm font-semibold mt-2 mb-2 text-white leading-snug">When to build vs. buy in a digital business</h3>
+          <div class="flex items-center justify-between mt-4">
+            <span style="font-size:12px;color:#555;">25 Mar · 6 min</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-10 px-6" style="border-top: 1px solid #141414;">
+  <div class="max-container flex flex-col md:flex-row items-center justify-between gap-4">
+    <span class="font-heading font-semibold" style="color: #555;">Stewart Masters</span>
+    <div class="flex gap-6" style="font-size: 13px;">
+      <a href="../index.html#about" class="nav-link">About</a>
+      <a href="../index.html#services" class="nav-link">Where I Help</a>
+      <a href="index.html" class="nav-link">Thinking</a>
+      <a href="../index.html#contact" class="nav-link">Contact</a>
+    </div>
+    <a href="https://www.linkedin.com/in/stewartmasters/" target="_blank" rel="noopener" class="nav-link" style="font-size: 13px;">LinkedIn →</a>
+  </div>
+</footer>
+
+</body>
+</html>

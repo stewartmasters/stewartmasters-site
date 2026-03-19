@@ -1,0 +1,43 @@
+name: Daily Post Publish
+
+on:
+  schedule:
+    # 08:00 UTC = 09:00 CET (UTC+1) / 10:00 CEST (UTC+2)
+    # Runs every day. publish.py exits cleanly if no post is scheduled.
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+    # Allow manual trigger from GitHub Actions UI
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run publish script
+        run: python publish.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "Daily Publish"
+          git config user.email "action@github.com"
+          git add blog/index.html
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            TODAY=$(date -u +%Y-%m-%d)
+            git commit -m "Publish: ${TODAY} post"
+            git push
+          fi

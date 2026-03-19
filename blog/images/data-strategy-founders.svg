@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a100f"/>
+      <stop offset="100%" style="stop-color:#0c1412"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Data flow diagram -->
+  <!-- Sources on left -->
+  <rect x="60" y="180" width="120" height="36" rx="4" fill="#0a1a16" stroke="#1a3028" stroke-width="1"/>
+  <text x="120" y="203" font-family="monospace" font-size="10" fill="#2a6040" text-anchor="middle">CRM</text>
+
+  <rect x="60" y="240" width="120" height="36" rx="4" fill="#0a1a16" stroke="#1a3028" stroke-width="1"/>
+  <text x="120" y="263" font-family="monospace" font-size="10" fill="#2a6040" text-anchor="middle">Product DB</text>
+
+  <rect x="60" y="300" width="120" height="36" rx="4" fill="#0a1a16" stroke="#1a3028" stroke-width="1"/>
+  <text x="120" y="323" font-family="monospace" font-size="10" fill="#2a6040" text-anchor="middle">Finance</text>
+
+  <rect x="60" y="360" width="120" height="36" rx="4" fill="#0a1a16" stroke="#1a3028" stroke-width="1"/>
+  <text x="120" y="383" font-family="monospace" font-size="10" fill="#2a6040" text-anchor="middle">Marketing</text>
+
+  <rect x="60" y="420" width="120" height="36" rx="4" fill="#0a1a16" stroke="#1a3028" stroke-width="1"/>
+  <text x="120" y="443" font-family="monospace" font-size="10" fill="#2a6040" text-anchor="middle">Ops</text>
+
+  <!-- Arrows to central warehouse -->
+  <line x1="180" y1="198" x2="280" y2="300" stroke="#00D4FF" stroke-width="1" opacity="0.2"/>
+  <line x1="180" y1="258" x2="280" y2="300" stroke="#00D4FF" stroke-width="1" opacity="0.2"/>
+  <line x1="180" y1="318" x2="280" y2="318" stroke="#00D4FF" stroke-width="1.5" opacity="0.3"/>
+  <line x1="180" y1="378" x2="280" y2="336" stroke="#00D4FF" stroke-width="1" opacity="0.2"/>
+  <line x1="180" y1="438" x2="280" y2="350" stroke="#00D4FF" stroke-width="1" opacity="0.2"/>
+
+  <!-- Central warehouse -->
+  <rect x="280" y="240" width="160" height="160" rx="6" fill="#091510" stroke="#00D4FF" stroke-width="1.5" opacity="0.5"/>
+  <text x="360" y="305" font-family="monospace" font-size="10" fill="#00D4FF" opacity="0.7" text-anchor="middle">DATA</text>
+  <text x="360" y="322" font-family="monospace" font-size="10" fill="#00D4FF" opacity="0.7" text-anchor="middle">WAREHOUSE</text>
+  <!-- Stacked cylinder effect -->
+  <ellipse cx="360" cy="255" rx="68" ry="12" fill="none" stroke="#00D4FF" stroke-width="1" opacity="0.3"/>
+  <ellipse cx="360" cy="388" rx="68" ry="12" fill="none" stroke="#00D4FF" stroke-width="0.5" opacity="0.15"/>
+
+  <!-- Arrows from warehouse to outputs -->
+  <line x1="440" y1="290" x2="540" y2="250" stroke="#00D4FF" stroke-width="1" opacity="0.25"/>
+  <line x1="440" y1="318" x2="540" y2="318" stroke="#00D4FF" stroke-width="1.5" opacity="0.35"/>
+  <line x1="440" y1="346" x2="540" y2="390" stroke="#00D4FF" stroke-width="1" opacity="0.25"/>
+
+  <!-- Outputs -->
+  <rect x="540" y="220" width="140" height="50" rx="4" fill="#0a1a14" stroke="#1a3a24" stroke-width="1"/>
+  <text x="610" y="242" font-family="monospace" font-size="10" fill="#2a7040" text-anchor="middle">BI Dashboard</text>
+  <text x="610" y="257" font-family="monospace" font-size="9" fill="#1e4a30" text-anchor="middle">decisions</text>
+
+  <rect x="540" y="294" width="140" height="50" rx="4" fill="#0a1a14" stroke="#00D4FF" stroke-width="1" opacity="0.5"/>
+  <text x="610" y="316" font-family="monospace" font-size="10" fill="#00D4FF" opacity="0.8" text-anchor="middle">AI/ML Models</text>
+  <text x="610" y="331" font-family="monospace" font-size="9" fill="#00D4FF" opacity="0.4" text-anchor="middle">← needs clean data</text>
+
+  <rect x="540" y="368" width="140" height="50" rx="4" fill="#0a1a14" stroke="#1a3a24" stroke-width="1"/>
+  <text x="610" y="390" font-family="monospace" font-size="10" fill="#2a7040" text-anchor="middle">Reporting</text>
+  <text x="610" y="405" font-family="monospace" font-size="9" fill="#1e4a30" text-anchor="middle">investors / board</text>
+
+  <!-- Five questions panel on right -->
+  <rect x="730" y="140" width="400" height="360" rx="6" fill="#080e0d" stroke="#0f2018" stroke-width="1"/>
+  <text x="930" y="170" font-family="monospace" font-size="11" fill="#1e4030" text-anchor="middle" letter-spacing="2">5 QUESTIONS TO ASK</text>
+  <line x1="750" y1="182" x2="1110" y2="182" stroke="#0f2018" stroke-width="1"/>
+
+  <text x="760" y="208" font-family="monospace" font-size="10" fill="#00D4FF" opacity="0.5">01</text>
+  <text x="790" y="208" font-family="monospace" font-size="10" fill="#444">Single source of truth for key metrics?</text>
+
+  <text x="760" y="238" font-family="monospace" font-size="10" fill="#00D4FF" opacity="0.45">02</text>
+  <text x="790" y="238" font-family="monospace" font-size="10" fill="#3a3a3a">Who owns data quality?</text>
+
+  <text x="760" y="268" font-family="monospace" font-size="10" fill="#00D4FF" opacity="0.4">03</text>
+  <text x="790" y="268" font-family="monospace" font-size="10" fill="#333">Time to answer a new business question?</text>
+
+  <text x="760" y="298" font-family="monospace" font-size="10" fill="#00D4FF" opacity="0.35">04</text>
+  <text x="790" y="298" font-family="monospace" font-size="10" fill="#2a2a2a">Decisions we can't make with confidence?</text>
+
+  <text x="760" y="328" font-family="monospace" font-size="10" fill="#00D4FF" opacity="0.3">05</text>
+  <text x="790" y="328" font-family="monospace" font-size="10" fill="#222">What data do competitors have that we don't?</text>
+
+  <line x1="750" y1="350" x2="1110" y2="350" stroke="#0f2018" stroke-width="0.5" stroke-dasharray="3,6"/>
+
+  <text x="760" y="374" font-family="monospace" font-size="10" fill="#1a3a28" opacity="0.9">Early stage: one CRM, agree on definitions</text>
+  <text x="760" y="394" font-family="monospace" font-size="10" fill="#152e20" opacity="0.8">Growth: warehouse + BI + one data owner</text>
+  <text x="760" y="414" font-family="monospace" font-size="10" fill="#0f2018" opacity="0.7">Scale: engineering + governance + real-time</text>
+  <rect x="750" y="428" width="370" height="58" rx="3" fill="#091510" stroke="#0f2018" stroke-width="1"/>
+  <text x="935" y="450" font-family="monospace" font-size="10" fill="#00D4FF" opacity="0.6" text-anchor="middle">AI needs clean data.</text>
+  <text x="935" y="468" font-family="monospace" font-size="10" fill="#1a4030" opacity="0.8" text-anchor="middle">Data strategy is the prerequisite, not the follow-on.</text>
+
+  <!-- Title -->
+  <text x="600" y="78" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#00D4FF" opacity="0.6" letter-spacing="4" text-anchor="middle">DIGITAL STRATEGY</text>
+  <text x="600" y="114" font-family="'Space Grotesk', sans-serif" font-size="26" font-weight="700" fill="#fff" opacity="0.9" text-anchor="middle">Data Strategy for Non-Technical Founders</text>
+
+  <ellipse cx="360" cy="318" rx="200" ry="160" fill="#00D4FF" opacity="0.02"/>
+</svg>

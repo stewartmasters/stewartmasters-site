@@ -1,0 +1,330 @@
+[
+  {
+    "date": "2026-04-15",
+    "slug": "founder-advisor-relationship",
+    "title": "The founder-advisor relationship",
+    "category": "Board & Advisory",
+    "excerpt": "Most founder-advisor relationships fail quietly. The advisor drifts. The founder stops calling. Here\u2019s what makes the relationship actually work \u2014 and what kills it.",
+    "read_time": 7
+  },
+  {
+    "date": "2026-03-20",
+    "slug": "tech-debt-cost",
+    "title": "The real cost of tech debt in a growing business",
+    "category": "Digital Strategy",
+    "excerpt": "Tech debt isn\u2019t just a developer problem. It\u2019s a leadership and growth problem. Here\u2019s how it actually slows businesses down \u2014 and what to do about it.",
+    "read_time": 6
+  },
+  {
+    "date": "2026-03-21",
+    "slug": "hiring-head-of-ai",
+    "title": "How to hire your first head of AI",
+    "category": "Leadership",
+    "excerpt": "Most companies hiring for AI leadership are asking the wrong questions. Here\u2019s what the role actually requires \u2014 and how to find someone who can do it.",
+    "read_time": 6
+  },
+  {
+    "date": "2026-03-22",
+    "slug": "product-roadmap-fiction",
+    "title": "Why most product roadmaps are fiction",
+    "category": "Digital Strategy",
+    "excerpt": "Roadmaps feel like planning. They\u2019re usually something else. Here\u2019s why most product roadmaps fail to reflect reality \u2014 and what to do instead.",
+    "read_time": 6
+  },
+  {
+    "date": "2026-03-23",
+    "slug": "data-strategy-founders",
+    "title": "Data strategy for non-technical founders",
+    "category": "Digital Strategy",
+    "excerpt": "You don\u2019t need to be technical to make good decisions about data. You just need to ask the right questions and avoid the most expensive mistakes.",
+    "read_time": 6
+  },
+  {
+    "date": "2026-03-24",
+    "slug": "boards-evaluating-ai-risk",
+    "title": "How boards should evaluate AI risk",
+    "category": "Board & Advisory",
+    "excerpt": "Boards are being asked to govern AI without the frameworks to do it. Here\u2019s a practical approach to evaluating AI risk at board level.",
+    "read_time": 6
+  },
+  {
+    "date": "2026-03-25",
+    "slug": "build-vs-buy",
+    "title": "When to build vs. buy in a digital business",
+    "category": "Digital Strategy",
+    "excerpt": "The build vs. buy decision is never just technical. It\u2019s strategic. Here\u2019s how to make it without regretting it six months later.",
+    "read_time": 6
+  },
+  {
+    "date": "2026-03-26",
+    "slug": "measuring-product-market-fit",
+    "title": "How to measure product-market fit honestly",
+    "category": "Digital Strategy",
+    "excerpt": "Product-market fit is real \u2014 but most teams don\u2019t know when they have it. Here\u2019s how to look past vanity signals and measure it honestly.",
+    "read_time": 6
+  },
+  {
+    "date": "2026-03-27",
+    "slug": "ned-understanding-technology",
+    "title": "The NED\u2019s guide to understanding technology",
+    "category": "Board & Advisory",
+    "excerpt": "You don\u2019t need to be a technologist to be an effective NED on a tech-led business. But you do need to know what to look for.",
+    "read_time": 6
+  },
+  {
+    "date": "2026-03-28",
+    "slug": "digital-transformation-budget",
+    "title": "How to structure a digital transformation budget",
+    "category": "Digital Strategy",
+    "excerpt": "Most digital transformation budgets are built around tools and projects, not outcomes. Here\u2019s how to structure one that actually reflects how change happens.",
+    "read_time": 6
+  },
+  {
+    "date": "2026-03-29",
+    "slug": "ai-needs-data-strategy",
+    "title": "Why your AI strategy needs a data strategy first",
+    "category": "AI & Technology",
+    "excerpt": "Most AI projects fail not because of the model \u2014 but because the data isn\u2019t ready. Here\u2019s why you need the data strategy before the AI strategy.",
+    "read_time": 6
+  },
+  {
+    "date": "2026-03-30",
+    "slug": "evaluating-a-cto",
+    "title": "How to evaluate a CTO",
+    "category": "Leadership",
+    "excerpt": "A CTO who built the first version of your product may not be the right person to scale it. Here\u2019s how to assess whether you have the right one.",
+    "read_time": 6
+  },
+  {
+    "date": "2026-03-31",
+    "slug": "founder-stepping-back-product",
+    "title": "The founder\u2019s guide to stepping back from product",
+    "category": "Leadership",
+    "excerpt": "At some point, every founder has to stop being the de facto CPO. Most do it too late and too badly. Here\u2019s how to do it right.",
+    "read_time": 6
+  },
+  {
+    "date": "2026-04-01",
+    "slug": "when-advisory-boards-work",
+    "title": "When advisory boards actually work",
+    "category": "Board & Advisory",
+    "excerpt": "Most advisory boards are a list of names on a deck. Here\u2019s what separates the ones that actually generate value from the ones that don\u2019t.",
+    "read_time": 6
+  },
+  {
+    "date": "2026-04-02",
+    "slug": "scaling-culture-markets",
+    "title": "How to scale culture across multiple markets",
+    "category": "Leadership",
+    "excerpt": "Culture doesn\u2019t scale automatically. What works in one market can break in another. Here\u2019s how to maintain coherence without imposing uniformity.",
+    "read_time": 6
+  },
+  {
+    "date": "2026-04-03",
+    "slug": "board-cybersecurity-incident",
+    "title": "The board\u2019s role in a cybersecurity incident",
+    "category": "Board & Advisory",
+    "excerpt": "A cybersecurity incident is a board-level event. Most boards aren\u2019t ready. Here\u2019s what governance looks like before, during, and after.",
+    "read_time": 6
+  },
+  {
+    "date": "2026-04-04",
+    "slug": "operators-vs-strategists",
+    "title": "How great operators think differently from great strategists",
+    "category": "Leadership",
+    "excerpt": "Strategy and execution require different orientations. The best leaders can do both \u2014 but most organisations don\u2019t understand the distinction.",
+    "read_time": 6
+  },
+  {
+    "date": "2026-04-05",
+    "slug": "what-investors-look-for-digital",
+    "title": "What investors actually look for in digital businesses",
+    "category": "Digital Strategy",
+    "excerpt": "Investors don\u2019t just evaluate products and markets. They evaluate the systems and teams behind them. Here\u2019s what they\u2019re really looking for.",
+    "read_time": 6
+  },
+  {
+    "date": "2026-04-06",
+    "slug": "product-team-that-ships",
+    "title": "How to build a product team that ships",
+    "category": "Leadership",
+    "excerpt": "Most product teams are better at planning than shipping. Here\u2019s what the ones that consistently deliver actually do differently.",
+    "read_time": 6
+  },
+  {
+    "date": "2026-04-07",
+    "slug": "digital-hiring-mistakes",
+    "title": "The most common mistakes in digital hiring",
+    "category": "Leadership",
+    "excerpt": "Digital roles are hard to hire for if you don\u2019t know what you\u2019re actually buying. Here are the mistakes that cost companies the most.",
+    "read_time": 6
+  },
+  {
+    "date": "2026-04-08",
+    "slug": "customer-feedback-wrong-signal",
+    "title": "Why customer feedback is often the wrong signal",
+    "category": "Digital Strategy",
+    "excerpt": "Customer feedback is essential \u2014 but it\u2019s also one of the easiest inputs to misread. Here\u2019s when to listen, when to discount, and what to look for instead.",
+    "read_time": 6
+  },
+  {
+    "date": "2026-04-09",
+    "slug": "ai-governance-board",
+    "title": "AI governance \u2014 what boards need to get right",
+    "category": "Board & Advisory",
+    "excerpt": "AI governance is becoming a board responsibility. Most boards aren\u2019t ready for it. Here\u2019s what good governance actually looks like in practice.",
+    "read_time": 6
+  },
+  {
+    "date": "2026-04-10",
+    "slug": "adoption-not-capability",
+    "title": "Why adoption beats capability every time",
+    "category": "AI & Technology",
+    "excerpt": "The most capable tool wins nothing if nobody uses it. Here\u2019s why adoption is the real measure of a successful digital or AI implementation.",
+    "read_time": 6
+  },
+  {
+    "date": "2026-04-11",
+    "slug": "leadership-behind-failed-projects",
+    "title": "The leadership failure behind most failed digital projects",
+    "category": "Leadership",
+    "excerpt": "Most digital project failures aren\u2019t technology failures. They\u2019re leadership failures in disguise. Here\u2019s where they usually go wrong.",
+    "read_time": 6
+  },
+  {
+    "date": "2026-04-12",
+    "slug": "quarterly-business-review",
+    "title": "How to structure a quarterly business review that matters",
+    "category": "Leadership",
+    "excerpt": "Most QBRs are performance theatre. Here\u2019s how to run one that actually improves decision-making and creates accountability.",
+    "read_time": 6
+  },
+  {
+    "date": "2026-04-13",
+    "slug": "what-caio-actually-does",
+    "title": "What a CAIO actually does \u2014 and when you need one",
+    "category": "AI & Technology",
+    "excerpt": "The Chief AI Officer title is spreading fast. But the role varies wildly. Here\u2019s what it should actually look like \u2014 and whether you need one.",
+    "read_time": 6
+  },
+  {
+    "date": "2026-04-16",
+    "slug": "future-digital-operations-hospitality",
+    "title": "The future of digital operations in hospitality",
+    "category": "AI & Technology",
+    "excerpt": "Hospitality is further along the AI adoption curve than most industries realise. Here\u2019s where the operational gains are \u2014 and where the risks lie.",
+    "read_time": 6
+  },
+  {
+    "date": "2026-04-17",
+    "slug": "technical-cofounder",
+    "title": "What makes a great technical co-founder",
+    "category": "Leadership",
+    "excerpt": "Finding a technical co-founder is one of the most consequential decisions an early-stage founder makes. Here\u2019s what to look for \u2014 and what to avoid.",
+    "read_time": 6
+  },
+  {
+    "date": "2026-04-18",
+    "slug": "product-manager-vs-leader",
+    "title": "The difference between a product manager and a product leader",
+    "category": "Leadership",
+    "excerpt": "The gap between managing a product and leading a product function is larger than most organisations realise. Here\u2019s how to tell the difference.",
+    "read_time": 6
+  },
+  {
+    "date": "2026-04-19",
+    "slug": "sprint-reviews-that-work",
+    "title": "How to run sprint reviews that actually work",
+    "category": "Digital Strategy",
+    "excerpt": "Most sprint reviews are status updates in disguise. Here\u2019s how to run them so they generate real feedback, real decisions, and real momentum.",
+    "read_time": 5
+  },
+  {
+    "date": "2026-04-20",
+    "slug": "digital-marketplace-failures",
+    "title": "The hidden failure modes of digital marketplaces",
+    "category": "Digital Strategy",
+    "excerpt": "Marketplaces look simple. They\u2019re not. Here are the failure modes that catch founders off-guard \u2014 and how to design against them from the start.",
+    "read_time": 6
+  },
+  {
+    "date": "2026-04-21",
+    "slug": "why-ai-projects-fail",
+    "title": "Why most AI projects fail in companies",
+    "category": "AI & Technology",
+    "excerpt": "Most AI projects don\u2019t fail because the technology doesn\u2019t work. They fail because of decisions made before a single line of code is written.",
+    "read_time": 6
+  },
+  {
+    "date": "2026-04-22",
+    "slug": "ai-implementation-operations",
+    "title": "How to actually implement AI in operations",
+    "category": "AI & Technology",
+    "excerpt": "There\u2019s a wide gap between \u2018exploring AI\u2019 and having AI running in your operations. Here\u2019s what the gap actually consists of \u2014 and how to close it.",
+    "read_time": 6
+  },
+  {
+    "date": "2026-04-23",
+    "slug": "ai-vs-automation",
+    "title": "AI vs automation: what businesses get wrong",
+    "category": "AI & Technology",
+    "excerpt": "Most businesses are confusing AI with automation. They\u2019re related but different. Getting the distinction right changes what you build and where you invest.",
+    "read_time": 5
+  },
+  {
+    "date": "2026-04-24",
+    "slug": "agentic-ai-in-practice",
+    "title": "What agentic AI actually means in practice",
+    "category": "AI & Technology",
+    "excerpt": "Agentic AI is one of the most discussed and least understood concepts in enterprise AI. Here\u2019s what it actually means \u2014 and what it means for how businesses operate.",
+    "read_time": 6
+  },
+  {
+    "date": "2026-04-25",
+    "slug": "introducing-ai-resistant-teams",
+    "title": "How to introduce AI into a team that doesn\u2019t want it",
+    "category": "AI & Technology",
+    "excerpt": "Resistance to AI in the workplace is normal and often rational. Here\u2019s how to work with it rather than against it \u2014 and what makes adoption actually stick.",
+    "read_time": 6
+  },
+  {
+    "date": "2026-04-26",
+    "slug": "ai-adoption-mistakes",
+    "title": "The biggest mistakes companies make with AI adoption",
+    "category": "AI & Technology",
+    "excerpt": "After watching dozens of AI implementations, the failure modes are remarkably consistent. Here\u2019s what to avoid \u2014 and what to do instead.",
+    "read_time": 6
+  },
+  {
+    "date": "2026-04-27",
+    "slug": "ai-in-restaurants",
+    "title": "AI in restaurants: what actually works",
+    "category": "AI & Technology",
+    "excerpt": "Hospitality has more real AI use cases than most industries \u2014 and more ways to get it wrong. Here\u2019s what\u2019s delivering results and what\u2019s just noise.",
+    "read_time": 6
+  },
+  {
+    "date": "2026-04-28",
+    "slug": "ai-pilot-to-production",
+    "title": "From pilot to production: why AI projects stall",
+    "category": "AI & Technology",
+    "excerpt": "Most organisations can run an AI pilot. Far fewer can take one into production. The gap is predictable \u2014 and fixable.",
+    "read_time": 6
+  },
+  {
+    "date": "2026-04-29",
+    "slug": "what-to-build-first-ai",
+    "title": "What to build first when adding AI to your product",
+    "category": "AI & Technology",
+    "excerpt": "The first AI feature you add to a product shapes the expectations, the architecture, and the team\u2019s understanding of what AI is for. Choose carefully.",
+    "read_time": 5
+  },
+  {
+    "date": "2026-04-30",
+    "slug": "why-digital-strategies-fail",
+    "title": "Why most digital strategies fail in execution",
+    "category": "Digital Strategy",
+    "excerpt": "Strategy documents are easy. Execution is where digital initiatives die. Here\u2019s the consistent failure pattern \u2014 and how to avoid it.",
+    "read_time": 6
+  }
+]
