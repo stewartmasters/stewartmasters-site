@@ -4,8 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Thinking — Stewart Masters</title>
-  <meta name="description" content="Perspectives on hospitality strategy, AI adoption, and building better food & beverage brands. Written by Stewart Masters.">
+  <meta name="description" content="Perspectives on AI adoption, digital strategy, board advisory, and organisational leadership. Written by Stewart Masters — advisor, board director, and lecturer.">
   <link rel="canonical" href="https://stewartmasters.com/blog/">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -73,18 +82,11 @@
     .blog-card:hover { border-color: #2a2a2a; transform: translateY(-4px); }
     .blog-card:hover .blog-arrow { color: #00D4FF; }
     .blog-thumb {
-      height: 200px;
+      height: 180px;
       background: linear-gradient(135deg, #161616, #0f0f0f);
       border-bottom: 1px solid #1e1e1e;
       display: flex; align-items: center; justify-content: center;
     }
-    .blog-tag {
-      display: inline-block;
-      font-size: 10px; font-weight: 500;
-      letter-spacing: 2px; text-transform: uppercase;
-      color: #333; margin-bottom: 10px;
-    }
-    .blog-tag.ai { color: #00D4FF44; }
     .blog-arrow { color: #333; font-size: 18px; transition: color 0.2s; }
 
     /* Featured post */
@@ -121,6 +123,14 @@
     }
     .cat-pill:hover, .cat-pill.active { border-color: #00D4FF; color: #00D4FF; }
 
+    .post-tag {
+      display: inline-block;
+      font-size: 10px; font-weight: 500;
+      letter-spacing: 2px; text-transform: uppercase;
+      color: #00D4FF;
+      margin-bottom: 8px;
+    }
+
     @media (max-width: 768px) {
       .featured-card { grid-template-columns: 1fr; }
       .featured-thumb { border-right: none; border-bottom: 1px solid #1e1e1e; min-height: 180px; }
@@ -152,18 +162,17 @@
     <h1 class="font-heading text-5xl md:text-6xl font-bold leading-tight mb-6" data-aos="fade-up" data-aos-delay="80">
       Ideas worth reading.
     </h1>
-    <p class="text-gray-500 text-lg max-w-2xl" data-aos="fade-up" data-aos-delay="160" style="font-size: 16px;">
-      Perspectives on hospitality strategy, AI adoption, digital transformation, and building food &amp; beverage brands that last. Published weekly.
+    <p class="text-gray-500 text-lg max-w-2xl" data-aos="fade-up" data-aos-delay="160" style="font-size: 16px; color: #777;">
+      Perspectives on AI adoption, digital strategy, board advisory, and the kind of leadership that actually changes organisations. Written for founders, operators, and board directors.
     </p>
 
     <!-- Category filters -->
     <div class="flex flex-wrap gap-3 mt-10" data-aos="fade-up" data-aos-delay="240">
       <a href="#" class="cat-pill active">All</a>
       <a href="#" class="cat-pill">AI &amp; Technology</a>
-      <a href="#" class="cat-pill">Operations</a>
+      <a href="#" class="cat-pill">Digital Strategy</a>
       <a href="#" class="cat-pill">Leadership</a>
-      <a href="#" class="cat-pill">F&amp;B Strategy</a>
-      <a href="#" class="cat-pill">Growth</a>
+      <a href="#" class="cat-pill">Board &amp; Advisory</a>
     </div>
   </div>
 </section>
@@ -172,25 +181,24 @@
 <!-- Featured Post -->
 <section class="px-6 pb-8">
   <div class="max-container">
-    <a href="what-is-a-digital-strategy.html" class="featured-card" data-aos="fade-up">
-      <div class="featured-thumb" style="position:relative; overflow:hidden;">
-        <img src="https://placehold.co/800x500/111111/333333?text=." alt="" style="width:100%; height:100%; object-fit:cover; opacity:0.5;">
-        <div style="position:absolute; inset:0; display:flex; align-items:center; justify-content:center;">
-          <svg width="36" height="36" fill="none" stroke="#333" stroke-width="1.5" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="12" cy="12" r="3"/><path d="M9 5V3h6v2"/></svg>
+    <a href="agentic-ai-business-leaders.html" class="featured-card" data-aos="fade-up">
+      <div class="featured-thumb">
+        <div style="text-align:center;">
+          <div style="font-size:48px;color:#1a1a1a;">◈</div>
         </div>
       </div>
       <div class="p-10 flex flex-col justify-between">
         <div>
-          <span style="font-size: 10px; font-weight: 500; letter-spacing: 2px; text-transform: uppercase; color: #00D4FF; display: block; margin-bottom: 14px;">Featured · Digital Strategy</span>
+          <span style="font-size: 10px; font-weight: 500; letter-spacing: 2px; text-transform: uppercase; color: #00D4FF; display: block; margin-bottom: 14px;">Latest · AI &amp; Technology</span>
           <h2 class="font-heading text-2xl md:text-3xl font-bold leading-snug mb-4">
-            What is a digital strategy — and why most companies don't actually have one
+            What agentic AI means for business leaders — and why the window to get ahead is closing
           </h2>
-          <p style="color: #555; font-size: 15px; line-height: 1.7; margin-bottom: 24px;">
-            Most organisations think they have a digital strategy. What they actually have is a list of technology projects. Here's what a real digital strategy looks like — and how to build one that actually connects technology to outcomes.
+          <p style="color: #777; font-size: 15px; line-height: 1.7; margin-bottom: 24px;">
+            Agentic AI doesn't just answer questions — it takes actions, runs sequences, and operates autonomously. Here's what business leaders need to understand before this becomes the new normal.
           </p>
         </div>
         <div class="flex items-center justify-between">
-          <span style="font-size: 12px; color: #333;">18 March 2026 · 7 min read</span>
+          <span style="font-size: 12px; color: #555;">27 Mar 2026 · 7 min read</span>
           <span class="blog-arrow">→</span>
         </div>
       </div>
@@ -204,58 +212,145 @@
   <div class="max-container">
     <div class="grid md:grid-cols-3 gap-5">
 
-      <!-- Post 2 -->
-      <a href="board-advisor-vs-non-executive-director.html" class="blog-card" data-aos="fade-up" data-aos-delay="0">
-        <div class="blog-thumb" style="position:relative;">
-          <img src="https://placehold.co/600x300/111111/333333?text=." alt="" style="width:100%; height:100%; object-fit:cover; opacity:0.6;">
-          <div style="position:absolute; inset:0; display:flex; align-items:center; justify-content:center;">
-            <svg width="28" height="28" fill="none" stroke="#333" stroke-width="1.5" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="12" cy="12" r="3"/><path d="M9 5V3h6v2"/></svg>
-          </div>
+      <!-- Post 9 -->
+      <a href="shadow-ai-boards.html" class="blog-card" data-aos="fade-up" data-aos-delay="0">
+        <div class="blog-thumb">
+          <div style="font-size:36px;color:#1a1a1a;">◈</div>
         </div>
         <div class="p-6">
-          <span class="blog-tag">Board &amp; Advisory</span>
-          <h3 class="font-heading text-base font-semibold mb-2 leading-snug text-white">Board advisor vs Non-Executive Director: what's the actual difference?</h3>
-          <p style="color: #555; font-size: 13px; line-height: 1.7;">The differences in legal responsibility, time commitment, and compensation are significant enough to matter.</p>
+          <span class="post-tag">AI &amp; Technology</span>
+          <h3 class="font-heading text-base font-semibold mt-1 mb-2 leading-snug text-white">What boards need to know about shadow AI right now</h3>
+          <p style="color: #777; font-size: 13px; line-height: 1.7;">Shadow AI is already inside your organisation. Here's what boards need to understand about the risk, and what a proportionate response looks like.</p>
           <div class="flex items-center justify-between mt-5">
-            <span style="font-size: 12px; color: #333;">19 Mar 2026 · 6 min</span>
+            <span style="font-size: 12px; color: #555;">26 Mar 2026 · 6 min</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Post 8 -->
+      <a href="digital-transformation-failures.html" class="blog-card" data-aos="fade-up" data-aos-delay="80">
+        <div class="blog-thumb">
+          <div style="font-size:36px;color:#1a1a1a;">◈</div>
+        </div>
+        <div class="p-6">
+          <span class="post-tag">Leadership</span>
+          <h3 class="font-heading text-base font-semibold mt-1 mb-2 leading-snug text-white">Why digital transformation fails — and what actually works</h3>
+          <p style="color: #777; font-size: 13px; line-height: 1.7;">Most digital transformations fail not because of technology but because of three leadership failures that appear across almost every case.</p>
+          <div class="flex items-center justify-between mt-5">
+            <span style="font-size: 12px; color: #555;">25 Mar 2026 · 7 min</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Post 7 -->
+      <a href="digitisation-vs-digitalisation.html" class="blog-card" data-aos="fade-up" data-aos-delay="160">
+        <div class="blog-thumb">
+          <div style="font-size:36px;color:#1a1a1a;">◈</div>
+        </div>
+        <div class="p-6">
+          <span class="post-tag">Digital Strategy</span>
+          <h3 class="font-heading text-base font-semibold mt-1 mb-2 leading-snug text-white">Digitisation vs digitalisation: why the difference matters more than you think</h3>
+          <p style="color: #777; font-size: 13px; line-height: 1.7;">Confusing these two terms leads to the wrong investments. Here's a clear, practical breakdown — and how to use both effectively.</p>
+          <div class="flex items-center justify-between mt-5">
+            <span style="font-size: 12px; color: #555;">24 Mar 2026 · 6 min</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Post 6 -->
+      <a href="fractional-leader.html" class="blog-card" data-aos="fade-up" data-aos-delay="0">
+        <div class="blog-thumb">
+          <div style="font-size:36px;color:#1a1a1a;">◈</div>
+        </div>
+        <div class="p-6">
+          <span class="post-tag">Leadership</span>
+          <h3 class="font-heading text-base font-semibold mt-1 mb-2 leading-snug text-white">What is a fractional leader — and does your business need one?</h3>
+          <p style="color: #777; font-size: 13px; line-height: 1.7;">Fractional leadership is one of the most useful tools available to growing businesses. Here's what it actually means and when it makes sense.</p>
+          <div class="flex items-center justify-between mt-5">
+            <span style="font-size: 12px; color: #555;">23 Mar 2026 · 6 min</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Post 5 -->
+      <a href="what-is-a-non-executive-director.html" class="blog-card" data-aos="fade-up" data-aos-delay="80">
+        <div class="blog-thumb">
+          <div style="font-size:36px;color:#1a1a1a;">◈</div>
+        </div>
+        <div class="p-6">
+          <span class="post-tag">Board &amp; Advisory</span>
+          <h3 class="font-heading text-base font-semibold mt-1 mb-2 leading-snug text-white">What is a Non-Executive Director — and does your business need one?</h3>
+          <p style="color: #777; font-size: 13px; line-height: 1.7;">NEDs sit on boards without running the business. But the right one adds far more than governance. Here's a clear guide to the role.</p>
+          <div class="flex items-center justify-between mt-5">
+            <span style="font-size: 12px; color: #555;">22 Mar 2026 · 7 min</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Post 4 -->
+      <a href="ai-fluency-for-leaders.html" class="blog-card" data-aos="fade-up" data-aos-delay="160">
+        <div class="blog-thumb">
+          <div style="font-size:36px;color:#1a1a1a;">◈</div>
+        </div>
+        <div class="p-6">
+          <span class="post-tag">AI &amp; Technology</span>
+          <h3 class="font-heading text-base font-semibold mt-1 mb-2 leading-snug text-white">What is AI fluency — and why every executive needs it in 2026</h3>
+          <p style="color: #777; font-size: 13px; line-height: 1.7;">AI fluency isn't about writing code. It's the ability to evaluate AI claims, ask the right questions, and lead teams through AI-enabled change.</p>
+          <div class="flex items-center justify-between mt-5">
+            <span style="font-size: 12px; color: #555;">21 Mar 2026 · 6 min</span>
             <span class="blog-arrow">→</span>
           </div>
         </div>
       </a>
 
       <!-- Post 3 -->
-      <a href="digital-transformation-myth.html" class="blog-card" data-aos="fade-up" data-aos-delay="80">
-        <div class="blog-thumb" style="position:relative;">
-          <img src="https://placehold.co/600x300/111111/333333?text=." alt="" style="width:100%; height:100%; object-fit:cover; opacity:0.6;">
-          <div style="position:absolute; inset:0; display:flex; align-items:center; justify-content:center;">
-            <svg width="28" height="28" fill="none" stroke="#333" stroke-width="1.5" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="12" cy="12" r="3"/><path d="M9 5V3h6v2"/></svg>
-          </div>
+      <a href="how-to-land-first-board-advisor-role.html" class="blog-card" data-aos="fade-up" data-aos-delay="0">
+        <div class="blog-thumb">
+          <div style="font-size:36px;color:#1a1a1a;">◈</div>
         </div>
         <div class="p-6">
-          <span class="blog-tag">Leadership</span>
-          <h3 class="font-heading text-base font-semibold mb-2 leading-snug text-white">The myth of "digital transformation" — what operators actually need</h3>
-          <p style="color: #555; font-size: 13px; line-height: 1.7;">Technology doesn't transform businesses. Leaders with the right frame do.</p>
+          <span class="post-tag">Board &amp; Advisory</span>
+          <h3 class="font-heading text-base font-semibold mt-1 mb-2 leading-snug text-white">How to land your first board or advisor role — a practical guide</h3>
+          <p style="color: #777; font-size: 13px; line-height: 1.7;">Most board roles are never advertised. Here's how experienced operators actually navigate the transition — and position themselves to be found.</p>
           <div class="flex items-center justify-between mt-5">
-            <span style="font-size: 12px; color: #333;">Feb 2026 · 6 min</span>
+            <span style="font-size: 12px; color: #555;">20 Mar 2026 · 7 min</span>
             <span class="blog-arrow">→</span>
           </div>
         </div>
       </a>
 
-      <!-- Post 4 — Placeholder for daily publishing -->
-      <a href="#" class="blog-card" data-aos="fade-up" data-aos-delay="160">
-        <div class="blog-thumb" style="position:relative;">
-          <img src="https://placehold.co/600x300/111111/333333?text=." alt="" style="width:100%; height:100%; object-fit:cover; opacity:0.6;">
-          <div style="position:absolute; inset:0; display:flex; align-items:center; justify-content:center;">
-            <svg width="28" height="28" fill="none" stroke="#333" stroke-width="1.5" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="12" cy="12" r="3"/><path d="M9 5V3h6v2"/></svg>
-          </div>
+      <!-- Post 2 -->
+      <a href="board-advisor-vs-non-executive-director.html" class="blog-card" data-aos="fade-up" data-aos-delay="80">
+        <div class="blog-thumb">
+          <div style="font-size:36px;color:#1a1a1a;">◈</div>
         </div>
         <div class="p-6">
-          <span class="blog-tag">F&amp;B Strategy</span>
-          <h3 class="font-heading text-base font-semibold mb-2 leading-snug text-white">[Next post title — published daily]</h3>
-          <p style="color: #555; font-size: 13px; line-height: 1.7;">[Post excerpt — ~120 characters]</p>
+          <span class="post-tag">Board &amp; Advisory</span>
+          <h3 class="font-heading text-base font-semibold mt-1 mb-2 leading-snug text-white">Board advisor vs Non-Executive Director: what's the actual difference?</h3>
+          <p style="color: #777; font-size: 13px; line-height: 1.7;">The differences in legal responsibility, time commitment, and compensation are significant enough to matter — whether you're hiring or pursuing the role yourself.</p>
           <div class="flex items-center justify-between mt-5">
-            <span style="font-size: 12px; color: #333;">Coming soon</span>
+            <span style="font-size: 12px; color: #555;">19 Mar 2026 · 6 min</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Post 1 -->
+      <a href="what-is-a-digital-strategy.html" class="blog-card" data-aos="fade-up" data-aos-delay="160">
+        <div class="blog-thumb">
+          <div style="font-size:36px;color:#1a1a1a;">◈</div>
+        </div>
+        <div class="p-6">
+          <span class="post-tag">Digital Strategy</span>
+          <h3 class="font-heading text-base font-semibold mt-1 mb-2 leading-snug text-white">What is a digital strategy — and why most companies don't actually have one</h3>
+          <p style="color: #777; font-size: 13px; line-height: 1.7;">Most organisations think they have a digital strategy. What they actually have is a list of technology projects.</p>
+          <div class="flex items-center justify-between mt-5">
+            <span style="font-size: 12px; color: #555;">18 Mar 2026 · 7 min</span>
             <span class="blog-arrow">→</span>
           </div>
         </div>
@@ -266,30 +361,10 @@
 </section>
 
 
-<!-- Newsletter CTA -->
-<section class="py-24 px-6" style="border-top: 1px solid #1a1a1a;">
-  <div class="max-container text-center">
-    <span class="section-label" data-aos="fade-up">Never miss a post</span>
-    <h2 class="font-heading text-3xl md:text-4xl font-bold mb-4" data-aos="fade-up" data-aos-delay="80">Get new thinking in your inbox.</h2>
-    <p style="color: #555; font-size: 15px; margin-bottom: 32px;" data-aos="fade-up" data-aos-delay="160">
-      One piece, once a week. No fluff, no sales — just useful ideas for hospitality operators and leaders.
-    </p>
-    <form class="flex flex-col sm:flex-row gap-3 justify-center max-w-md mx-auto" data-aos="fade-up" data-aos-delay="240">
-      <input
-        type="email"
-        placeholder="your@email.com"
-        style="flex: 1; background: #141414; border: 1px solid #222; color: #fff; padding: 14px 18px; border-radius: 4px; font-size: 14px; font-family: Inter, sans-serif;"
-      >
-      <button type="submit" class="btn-primary" style="white-space: nowrap;">Subscribe →</button>
-    </form>
-  </div>
-</section>
-
-
 <!-- Footer -->
 <footer class="py-10 px-6" style="border-top: 1px solid #141414;">
   <div class="max-container flex flex-col md:flex-row items-center justify-between gap-4">
-    <span class="font-heading font-semibold" style="color: #333;">Stewart Masters</span>
+    <span class="font-heading font-semibold" style="color: #555;">Stewart Masters</span>
     <div class="flex gap-6" style="font-size: 13px;">
       <a href="../index.html#about" class="nav-link">About</a>
       <a href="../index.html#services" class="nav-link">Services</a>
