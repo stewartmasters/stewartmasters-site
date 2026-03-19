@@ -85,13 +85,13 @@
 
     .cta-glow { position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 120%, rgba(0,212,255,0.06), transparent 60%); pointer-events: none; }
 
-    .logo-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 36px 48px; align-items: center; justify-items: center; }
-    @media (max-width: 640px) { .logo-grid { grid-template-columns: repeat(2, 1fr); gap: 28px 32px; } }
-    .logo-item { display: flex; align-items: center; justify-content: center; width: 100%; }
-    .logo-item img { max-height: 36px; width: auto; max-width: 140px; object-fit: contain; transition: opacity 0.25s, filter 0.25s; }
+    .logo-grid { display: flex; align-items: center; justify-content: center; gap: 64px; flex-wrap: wrap; }
+    .logo-item { display: flex; align-items: center; justify-content: center; }
+    .logo-item img { max-height: 56px; width: auto; max-width: 200px; object-fit: contain; transition: opacity 0.25s, filter 0.25s; }
     .logo-item img:hover { opacity: 0.75; filter: brightness(1.2); }
-    .logo-fallback { font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 13px; letter-spacing: 1.5px; color: #888; text-transform: uppercase; transition: color 0.25s; text-align: center; }
+    .logo-fallback { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 18px; letter-spacing: 1.5px; color: #888; text-transform: uppercase; transition: color 0.25s; text-align: center; }
     .logo-fallback:hover { color: #EAEAEA; }
+    @media (max-width: 640px) { .logo-grid { gap: 36px 40px; } .logo-item img { max-height: 42px; } }
 
     #mobile-menu { display: none; }
     #mobile-menu.open { display: flex; }
@@ -214,33 +214,6 @@
         <span class="logo-fallback" style="display:none;">Enzo Ventures</span>
       </div>
 
-      <!-- IE Business School -->
-      <div class="logo-item">
-        <img src="logo-ie-business-school.png" alt="IE Business School"
-             onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
-        <span class="logo-fallback" style="display:none;">IE Business School</span>
-      </div>
-
-      <!-- ESADE -->
-      <div class="logo-item">
-        <img src="logo-esade.png" alt="ESADE"
-             onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
-        <span class="logo-fallback" style="display:none;">ESADE</span>
-      </div>
-
-      <!-- Tutotoons -->
-      <div class="logo-item">
-        <img src="logo-tutotoons.png" alt="Tutotoons"
-             onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
-        <span class="logo-fallback" style="display:none;">Tutotoons</span>
-      </div>
-
-      <!-- Icebergs -->
-      <div class="logo-item">
-        <img src="logo-icebergs.png" alt="Icebergs"
-             onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
-        <span class="logo-fallback" style="display:none;">Icebergs</span>
-      </div>
 
     </div>
   </div>

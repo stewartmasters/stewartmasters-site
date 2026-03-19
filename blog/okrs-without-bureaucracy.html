@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OKRs Without the Bureaucracy — Stewart Masters</title>
+  <meta name="description" content="OKRs work. The way most companies implement them doesn't. Here's how to get the alignment and focus OKRs are designed to create without the overhead that kills momentum.">
+  <link rel="canonical" href="https://stewartmasters.me/blog/okrs-without-bureaucracy.html">
+  <meta property="og:title" content="OKRs Without the Bureaucracy">
+  <meta property="og:description" content="OKRs work. The way most companies implement them doesn't. Here's how to get the alignment and focus without the overhead.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://stewartmasters.me/blog/okrs-without-bureaucracy.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="OKRs Without the Bureaucracy">
+  <meta name="twitter:description" content="OKRs work. The way most companies implement them doesn't. Here's how to get the alignment and focus without the overhead.">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "OKRs Without the Bureaucracy",
+    "description": "OKRs work. The way most companies implement them doesn't. Here's how to get the alignment and focus OKRs are designed to create without the overhead that kills momentum.",
+    "author": { "@type": "Person", "name": "Stewart Masters", "url": "https://stewartmasters.me" },
+    "publisher": { "@type": "Person", "name": "Stewart Masters", "url": "https://stewartmasters.me" },
+    "datePublished": "2026-04-14",
+    "dateModified": "2026-04-14",
+    "url": "https://stewartmasters.me/blog/okrs-without-bureaucracy.html",
+    "keywords": "OKRs, goal setting, strategy, leadership, management, alignment"
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { background-color: #0D0D0D; color: #ffffff; font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
+    ::-webkit-scrollbar { width: 5px; } ::-webkit-scrollbar-track { background: #0D0D0D; } ::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 3px; } ::-webkit-scrollbar-thumb:hover { background: #00D4FF; }
+    .font-heading { font-family: 'Space Grotesk', sans-serif; }
+    .max-container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; backdrop-filter: blur(24px); background: rgba(13, 13, 13, 0.85); border-bottom: 1px solid #1c1c1c; }
+    .nav-link { font-size: 14px; color: #aaa; text-decoration: none; transition: color 0.2s; }
+    .nav-link:hover { color: #ffffff; }
+    .btn-primary { display: inline-block; background: #00D4FF; color: #0D0D0D; font-family: 'Space Grotesk', sans-serif; font-weight: 600; padding: 10px 22px; border-radius: 4px; text-decoration: none; font-size: 14px; }
+    .btn-primary:hover { background: #ffffff; }
+    .prose { max-width: 720px; margin: 0 auto; }
+    .prose h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.75rem; font-weight: 700; color: #ffffff; margin-top: 3rem; margin-bottom: 1rem; line-height: 1.25; }
+    .prose h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.25rem; font-weight: 600; color: #e0e0e0; margin-top: 2rem; margin-bottom: 0.75rem; }
+    .prose p { color: #aaa; font-size: 17px; line-height: 1.85; margin-bottom: 1.5rem; }
+    .prose a { color: #00D4FF; text-decoration: underline; text-decoration-color: #00D4FF44; }
+    .prose a:hover { text-decoration-color: #00D4FF; }
+    .prose blockquote { border-left: 3px solid #00D4FF; margin: 2rem 0; padding: 1.25rem 1.5rem; background: #121212; border-radius: 0 6px 6px 0; }
+    .prose blockquote p { color: #ccc; font-style: italic; margin: 0; font-size: 18px; }
+    .prose ul, .prose ol { color: #aaa; font-size: 17px; line-height: 1.85; padding-left: 1.5rem; margin-bottom: 1.5rem; }
+    .prose li { margin-bottom: 0.5rem; }
+    .prose strong { color: #ddd; font-weight: 600; }
+    .prose hr { border: none; border-top: 1px solid #1e1e1e; margin: 3rem 0; }
+    .post-tag { display: inline-block; font-size: 10px; font-weight: 500; letter-spacing: 2px; text-transform: uppercase; color: #00D4FF; border: 1px solid #00D4FF33; padding: 5px 12px; border-radius: 20px; }
+    .author-box { background: #121212; border: 1px solid #1e1e1e; border-radius: 10px; padding: 28px; display: flex; gap: 20px; align-items: flex-start; }
+    .author-avatar { width: 56px; height: 56px; border-radius: 50%; flex-shrink: 0; overflow: hidden; }
+    .author-avatar img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+    .related-card { background: #121212; border: 1px solid #1e1e1e; border-radius: 8px; padding: 24px; text-decoration: none; display: block; transition: border-color 0.3s; }
+    .related-card:hover { border-color: #2a2a2a; }
+    @media (max-width: 640px) { .bc-divider, .bc-current { display: none; } }
+  </style>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+</head>
+<body>
+<nav>
+  <div class="max-container py-4 flex items-center justify-between">
+    <a href="../index.html" class="font-heading font-semibold text-white text-lg tracking-tight">Stewart Masters</a>
+    <div class="hidden md:flex items-center gap-8">
+      <a href="../index.html#about" class="nav-link">About</a>
+      <a href="../index.html#services" class="nav-link">Services</a>
+      <a href="index.html" class="nav-link" style="color:#fff;">Thinking</a>
+      <a href="../index.html#speaking" class="nav-link">Speaking</a>
+    </div>
+    <a href="../index.html#contact" class="btn-primary">Work With Me</a>
+  </div>
+</nav>
+
+<header class="pt-40 pb-12 px-6">
+  <div class="prose">
+    <nav style="font-size:12px;color:#333;margin-bottom:24px;">
+      <a href="../index.html" style="color:#444;text-decoration:none;">Home</a><span style="margin:0 8px;">·</span>
+      <a href="index.html" style="color:#444;text-decoration:none;">Thinking</a><span class="bc-divider" style="margin:0 8px;">·</span>
+      <span class="bc-current" style="color:#555;">OKRs without bureaucracy</span>
+    </nav>
+    <span class="post-tag">Leadership</span>
+    <h1 class="font-heading text-4xl md:text-5xl font-bold leading-tight mt-5 mb-6">OKRs without the bureaucracy</h1>
+    <p class="text-gray-400 text-xl leading-relaxed mb-8">OKRs work. The way most companies implement them doesn't. The framework gets blamed for the failure, when the real problem is how it was deployed — too many objectives, no real cadence, and a process that turns a clarity tool into a compliance exercise.</p>
+    <div style="display:flex;align-items:center;gap:16px;font-size:13px;color:#444;padding-bottom:24px;border-bottom:1px solid #1e1e1e;">
+      <span>Stewart Masters</span><span>·</span><span>April 14, 2026</span><span>·</span><span>6 min read</span>
+    </div>
+  </div>
+</header>
+
+<div class="px-6 mb-12">
+  <div class="prose">
+    <img src="images/okrs-without-bureaucracy.svg" alt="OKRs bullseye diagram" style="width:100%;height:360px;object-fit:cover;border-radius:10px;display:block;border:1px solid #1e1e1e;">
+  </div>
+</div>
+
+<article class="px-6 pb-20">
+  <div class="prose">
+
+    <p>Most OKR implementations follow the same pattern. The leadership team reads a book, gets excited, and rolls it out company-wide. Three months later, everyone has eight objectives, each with four key results, none of which are measurable, most of which describe activity rather than outcomes, and all of which were forgotten by the end of week two. The quarterly review is a box-ticking exercise. Nothing changed.</p>
+
+    <p>The framework gets blamed. But OKRs didn't fail — the implementation failed. And it failed in predictable ways that are entirely avoidable.</p>
+
+    <h2>What OKRs are actually for</h2>
+    <p>OKRs do one thing well: they force a conversation about what matters most, make the answer explicit, and create a shared reference point for decisions. That's it. They're not a performance management tool. They're not a measurement system. They're not a way to track everything the team does. They're a focus mechanism.</p>
+
+    <p>When they work, it's because the team can answer three questions at any moment: What are we trying to achieve this quarter? How will we know if we got there? Is what I'm doing today connected to that? When they don't work, it's because no one can answer any of those questions without opening a spreadsheet.</p>
+
+    <h2>The five ways OKRs become bureaucracy</h2>
+
+    <p><strong>Too many objectives.</strong> If you have more than three objectives at any level, you don't have priorities — you have a list. The point of OKRs is to make hard choices about what matters. A leadership team with eight objectives hasn't made those choices. They've delegated them downward and called it a framework.</p>
+
+    <p><strong>Key results that are tasks.</strong> "Launch the new onboarding flow" is a task. "Increase week-one retention from 42% to 60%" is a key result. The difference matters: a task can be completed without moving the needle. A genuine key result forces the team to figure out what will actually change the metric — which is where the useful thinking happens.</p>
+
+    <p><strong>No connection between levels.</strong> Company OKRs that don't inform team OKRs, team OKRs that don't inform individual focus — the cascade breaks down and each level optimises for its own objectives in isolation. The whole point is alignment. If a team can hit all its OKRs while the company misses its objectives, the system isn't working.</p>
+
+    <p><strong>Set and forget.</strong> OKRs written in January and reviewed in March achieved nothing in February. The quarterly cadence needs a weekly or biweekly check-in — not a status update meeting, but a brief conversation: are we on track, what's blocking us, does anything need to change? Without the cadence, the objectives become wallpaper.</p>
+
+    <p><strong>Graded on completion, not learning.</strong> The original OKR design assumes that consistently hitting 100% means your objectives weren't ambitious enough. A healthy average is somewhere around 70%. But most organisations grade OKRs like exams — anything below 80% is a failure. This guarantees safe, unambitious objectives that describe what the team was going to do anyway.</p>
+
+    <blockquote><p>"An OKR that everyone hits every quarter is a sign that nobody is being ambitious. The discomfort of the stretch is the point."</p></blockquote>
+
+    <h2>How to run OKRs without the overhead</h2>
+
+    <p>Start with fewer objectives than feel comfortable. Three at the company level. Two or three at the team level. One or two for individuals. The constraint forces the real conversation about what actually matters.</p>
+
+    <p>Write key results that are outcomes, not outputs. Before finalising any key result, ask: could we complete this without it actually mattering? If yes, it's a task. Replace it with the metric that would move if the task worked.</p>
+
+    <p>Run a fifteen-minute weekly check-in. Not a full review — a pulse. Three questions: what did we move this week, what's blocking progress, does anything need escalating? Done standing up, documented in a shared doc. The value is in the conversation, not the report.</p>
+
+    <p>Review and reset quarterly, not annually. Markets move. Priorities shift. A set of objectives that was right in January may be wrong by March. Build in a formal reset at the start of each quarter — not just a rollover of whatever wasn't completed.</p>
+
+    <p>Grade honestly. At the end of each quarter, score every key result 0–1. Share the scores, discuss what you learned, and use the gaps to inform the next set. Teams that consistently score 0.9 on everything need to raise the bar. Teams that score 0.3 need to understand why — was it the wrong objective, an uncontrollable external factor, or a resourcing issue?</p>
+
+    <h2>The organisational condition that makes this hard</h2>
+    <p>The biggest barrier to simple OKRs isn't the framework — it's the organisational desire for comprehensiveness. Leaders want to capture everything the team is doing. Board members want to see that all strategic themes are covered. HR wants OKRs to map to performance reviews. Each of these is understandable, and each of them is corrosive.</p>
+
+    <p>OKRs that try to capture everything end up capturing nothing. The tool works because it forces selection. The moment you start using it to track everything, you've turned a compass into a spreadsheet.</p>
+
+    <p>The fix is to separate concerns. OKRs are for strategic focus. Performance reviews can reference OKRs but should include more. Operational metrics live in dashboards. Project tracking lives in project tools. Trying to collapse all of these into one system is where the bureaucracy starts.</p>
+
+    <hr>
+    <p style="color:#777;font-size:15px;"><strong style="color:#888;">Working on strategy execution or team alignment?</strong><br>
+    This is territory I've navigated across multiple businesses. <a href="../index.html#contact">Let's talk →</a></p>
+  </div>
+</article>
+
+<section class="px-6 pb-20">
+  <div class="prose">
+    <div class="author-box">
+      <div class="author-avatar"><img src="../stewart-masters.png" alt="Stewart Masters"></div>
+      <div>
+        <div class="font-heading font-semibold mb-1">Stewart Masters</div>
+        <p style="color:#555;font-size:14px;line-height:1.6;margin:0;">Strategic advisor to founders and operators. 20+ years building and advising businesses across Europe and the Middle East. Based in Barcelona. Guest lecturer at IE Business School and ESADE. <a href="https://www.linkedin.com/in/stewartmasters/" style="color:#00D4FF;text-decoration:none;">Connect on LinkedIn →</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="px-6 pb-24" style="border-top:1px solid #1a1a1a;padding-top:48px;">
+  <div class="prose">
+    <h2 class="font-heading text-2xl font-bold mb-6" style="margin-top:0;">More to read</h2>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+      <a href="kpis-vs-metrics.html" class="related-card">
+        <span style="font-size:10px;color:#00D4FF;letter-spacing:2px;text-transform:uppercase;display:block;margin-bottom:8px;">Digital Strategy</span>
+        <span class="font-heading font-semibold text-white" style="font-size:15px;line-height:1.4;display:block;">KPIs vs metrics — why the distinction matters more than you think</span>
+      </a>
+      <a href="digital-transformation-failures.html" class="related-card">
+        <span style="font-size:10px;color:#00D4FF;letter-spacing:2px;text-transform:uppercase;display:block;margin-bottom:8px;">Leadership</span>
+        <span class="font-heading font-semibold text-white" style="font-size:15px;line-height:1.4;display:block;">Why digital transformation fails — and what actually works</span>
+      </a>
+    </div>
+    <div style="text-align:center;margin-top:24px;"><a href="index.html" style="color:#444;font-size:14px;text-decoration:none;">← All posts</a></div>
+  </div>
+</section>
+
+<footer class="py-10 px-6" style="border-top:1px solid #141414;">
+  <div class="max-container flex flex-col md:flex-row items-center justify-between gap-4">
+    <span class="font-heading font-semibold" style="color:#555;">Stewart Masters</span>
+    <div class="flex gap-6" style="font-size:13px;">
+      <a href="../index.html#about" class="nav-link">About</a>
+      <a href="../index.html#services" class="nav-link">Services</a>
+      <a href="index.html" class="nav-link">Thinking</a>
+      <a href="../index.html#contact" class="nav-link">Contact</a>
+    </div>
+    <a href="https://www.linkedin.com/in/stewartmasters/" target="_blank" rel="noopener" class="nav-link" style="font-size:13px;">LinkedIn →</a>
+  </div>
+  <div class="max-container mt-6 text-center" style="font-size:11px;color:#2a2a2a;letter-spacing:2px;">BARCELONA · LONDON · MADRID</div>
+</footer>
+</body>
+</html>
