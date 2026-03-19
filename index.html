@@ -3,41 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Stewart Masters — Digital Strategy, Leadership & Board Advisory</title>
-  <meta name="description" content="Stewart Masters is a digital strategy and transformation advisor, board member, and leadership consultant. Based in Barcelona, working globally across Europe and beyond.">
+  <title>Stewart Masters — Chief Digital Officer · AI Systems · Digital Operations</title>
+  <meta name="description" content="Stewart Masters builds and runs AI-powered digital systems inside real businesses. Chief Digital Officer at Honest Greens. Based in Barcelona, operating across 12 countries.">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Stewart Masters — Digital Strategy, Leadership & Board Advisory">
-  <meta property="og:description" content="Digital strategy advisor, board member, and leadership consultant working with founders and organisations globally.">
+  <meta property="og:title" content="Stewart Masters — AI Systems & Digital Operations">
+  <meta property="og:description" content="I build and run AI-powered digital systems inside real businesses. CDO at Honest Greens. 20 years building products and operational systems that don't break at scale.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://stewartmasters.com">
+  <meta property="og:url" content="https://stewartmasters.me">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Stewart Masters">
-  <meta name="twitter:description" content="Hospitality. Technology. Leadership.">
+  <meta name="twitter:description" content="I build and run AI-powered digital systems inside real businesses.">
 
   <!-- Canonical -->
-  <link rel="canonical" href="https://stewartmasters.com/">
+  <link rel="canonical" href="https://stewartmasters.me/">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
 
-  <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
-
-  <!-- AOS (scroll animations) -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <script>
     tailwind.config = {
       theme: {
         extend: {
-          colors: {
-            'accent': '#00D4FF',
-          },
+          colors: { 'accent': '#00D4FF' },
           fontFamily: {
             'heading': ['"Space Grotesk"', 'sans-serif'],
             'body': ['Inter', 'sans-serif'],
@@ -50,207 +45,52 @@
   <style>
     *, *::before, *::after { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
-    body {
-      background-color: #0D0D0D;
-      color: #ffffff;
-      font-family: 'Inter', sans-serif;
-      -webkit-font-smoothing: antialiased;
-    }
+    body { background-color: #0D0D0D; color: #ffffff; font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
 
-    /* ---- Scrollbar ---- */
     ::-webkit-scrollbar { width: 5px; }
     ::-webkit-scrollbar-track { background: #0D0D0D; }
     ::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 3px; }
     ::-webkit-scrollbar-thumb:hover { background: #00D4FF; }
 
-    /* ---- Typography ---- */
     .font-heading { font-family: 'Space Grotesk', sans-serif; }
-    .gradient-text {
-      background: linear-gradient(135deg, #ffffff 0%, #00D4FF 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-    }
-    .section-label {
-      display: block;
-      font-size: 11px;
-      font-weight: 500;
-      letter-spacing: 3px;
-      text-transform: uppercase;
-      color: #00D4FF;
-      margin-bottom: 16px;
-    }
+    .gradient-text { background: linear-gradient(135deg, #ffffff 0%, #00D4FF 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .section-label { display: block; font-size: 11px; font-weight: 500; letter-spacing: 3px; text-transform: uppercase; color: #00D4FF; margin-bottom: 16px; }
 
-    /* ---- Layout ---- */
     .max-container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
     .gradient-rule { height: 1px; background: linear-gradient(90deg, transparent, #00D4FF40, transparent); }
 
-    /* ---- Nav ---- */
-    nav {
-      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-      backdrop-filter: blur(24px);
-      background: rgba(13, 13, 13, 0.85);
-      border-bottom: 1px solid #1c1c1c;
-      transition: border-color 0.3s;
-    }
-    .nav-link {
-      font-size: 14px;
-      color: #aaa;
-      text-decoration: none;
-      transition: color 0.2s;
-    }
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; backdrop-filter: blur(24px); background: rgba(13, 13, 13, 0.85); border-bottom: 1px solid #1c1c1c; }
+    .nav-link { font-size: 14px; color: #aaa; text-decoration: none; transition: color 0.2s; }
     .nav-link:hover { color: #ffffff; }
 
-    /* ---- Buttons ---- */
-    .btn-primary {
-      display: inline-block;
-      background: #00D4FF;
-      color: #0D0D0D;
-      font-family: 'Space Grotesk', sans-serif;
-      font-weight: 600;
-      font-size: 15px;
-      padding: 14px 30px;
-      border-radius: 4px;
-      text-decoration: none;
-      transition: background 0.25s, box-shadow 0.25s, transform 0.2s;
-    }
-    .btn-primary:hover {
-      background: #ffffff;
-      box-shadow: 0 0 40px rgba(0, 212, 255, 0.25);
-      transform: translateY(-1px);
-    }
-    .btn-outline {
-      display: inline-block;
-      border: 1px solid #2c2c2c;
-      color: #aaa;
-      font-family: 'Space Grotesk', sans-serif;
-      font-weight: 500;
-      font-size: 15px;
-      padding: 13px 30px;
-      border-radius: 4px;
-      text-decoration: none;
-      transition: border-color 0.25s, color 0.25s;
-    }
+    .btn-primary { display: inline-block; background: #00D4FF; color: #0D0D0D; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 15px; padding: 14px 30px; border-radius: 4px; text-decoration: none; transition: background 0.25s, box-shadow 0.25s, transform 0.2s; }
+    .btn-primary:hover { background: #ffffff; box-shadow: 0 0 40px rgba(0, 212, 255, 0.25); transform: translateY(-1px); }
+    .btn-outline { display: inline-block; border: 1px solid #2c2c2c; color: #aaa; font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 15px; padding: 13px 30px; border-radius: 4px; text-decoration: none; transition: border-color 0.25s, color 0.25s; }
     .btn-outline:hover { border-color: #00D4FF; color: #00D4FF; }
 
-    /* ---- Hero glow ---- */
-    .hero-glow {
-      position: absolute;
-      top: 30%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 800px;
-      height: 500px;
-      background: radial-gradient(ellipse at center, rgba(0,212,255,0.06) 0%, transparent 65%);
-      pointer-events: none;
-    }
+    .hero-glow { position: absolute; top: 30%; left: 50%; transform: translate(-50%, -50%); width: 800px; height: 500px; background: radial-gradient(ellipse at center, rgba(0,212,255,0.06) 0%, transparent 65%); pointer-events: none; }
 
-    /* ---- Service cards ---- */
-    .service-card {
-      background: #121212;
-      border: 1px solid #1e1e1e;
-      border-radius: 10px;
-      padding: 36px;
-      transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s;
-    }
-    .service-card:hover {
-      border-color: #00D4FF;
-      transform: translateY(-5px);
-      box-shadow: 0 24px 60px rgba(0, 212, 255, 0.07);
-    }
-    .service-number {
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: 42px;
-      font-weight: 700;
-      color: #1e1e1e;
-      line-height: 1;
-      margin-bottom: 20px;
-      transition: color 0.3s;
-    }
+    .service-card { background: #121212; border: 1px solid #1e1e1e; border-radius: 10px; padding: 36px; transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s; }
+    .service-card:hover { border-color: #00D4FF; transform: translateY(-5px); box-shadow: 0 24px 60px rgba(0, 212, 255, 0.07); }
+    .service-number { font-family: 'Space Grotesk', sans-serif; font-size: 42px; font-weight: 700; color: #1e1e1e; line-height: 1; margin-bottom: 20px; transition: color 0.3s; }
     .service-card:hover .service-number { color: #00D4FF22; }
 
-    /* ---- Stats ---- */
-    .stat-number {
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: 3.5rem;
-      font-weight: 700;
-      color: #00D4FF;
-      line-height: 1;
-    }
+    .stat-number { font-family: 'Space Grotesk', sans-serif; font-size: 3.5rem; font-weight: 700; color: #00D4FF; line-height: 1; }
 
-    /* ---- Blog cards ---- */
-    .blog-card {
-      background: #121212;
-      border: 1px solid #1e1e1e;
-      border-radius: 10px;
-      overflow: hidden;
-      text-decoration: none;
-      display: block;
-      transition: border-color 0.3s, transform 0.3s;
-    }
+    .blog-card { background: #121212; border: 1px solid #1e1e1e; border-radius: 10px; overflow: hidden; text-decoration: none; display: block; transition: border-color 0.3s, transform 0.3s; }
     .blog-card:hover { border-color: #2a2a2a; transform: translateY(-4px); }
     .blog-card:hover .blog-arrow { color: #00D4FF; }
-    .blog-thumb {
-      height: 200px;
-      background: linear-gradient(135deg, #161616, #0f0f0f);
-      border-bottom: 1px solid #1e1e1e;
-      display: flex; align-items: center; justify-content: center;
-    }
-    .blog-tag {
-      font-size: 10px;
-      font-weight: 500;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      color: #444;
-    }
-    .blog-arrow {
-      color: #333;
-      font-size: 18px;
-      transition: color 0.2s;
-    }
+    .blog-thumb { height: 200px; background: linear-gradient(135deg, #161616, #0f0f0f); border-bottom: 1px solid #1e1e1e; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+    .blog-tag { font-size: 10px; font-weight: 500; letter-spacing: 2px; text-transform: uppercase; color: #00D4FF; }
+    .blog-arrow { color: #333; font-size: 18px; transition: color 0.2s; }
 
-    /* ---- Testimonial cards ---- */
-    .testimonial-card {
-      background: #121212;
-      border: 1px solid #1e1e1e;
-      border-radius: 10px;
-      padding: 32px;
-    }
+    .testimonial-card { background: #121212; border: 1px solid #1e1e1e; border-radius: 10px; padding: 32px; }
 
-    /* ---- Speaking tags ---- */
-    .speaking-tag {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      background: #141414;
-      border: 1px solid #1e1e1e;
-      border-radius: 6px;
-      padding: 10px 16px;
-      font-size: 14px;
-      color: #888;
-    }
+    .cta-glow { position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 120%, rgba(0,212,255,0.06), transparent 60%); pointer-events: none; }
 
-    /* ---- CTA section background glow ---- */
-    .cta-glow {
-      position: absolute;
-      inset: 0;
-      background: radial-gradient(ellipse at 50% 120%, rgba(0,212,255,0.06), transparent 60%);
-      pointer-events: none;
-    }
-
-    /* ---- Credibility bar ---- */
-    .cred-item {
-      font-family: 'Space Grotesk', sans-serif;
-      font-weight: 600;
-      font-size: 12px;
-      letter-spacing: 2px;
-      color: #555;
-      text-transform: uppercase;
-      transition: color 0.3s;
-    }
+    .cred-item { font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 13px; letter-spacing: 1px; color: #444; transition: color 0.3s; }
     .cred-item:hover { color: #888; }
 
-    /* ---- Mobile nav ---- */
     #mobile-menu { display: none; }
     #mobile-menu.open { display: flex; }
 
@@ -258,6 +98,7 @@
       .stat-number { font-size: 2.5rem; }
     }
   </style>
+
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
   <script>
@@ -270,140 +111,128 @@
 
 <body>
 
-<!-- ====================================================
-     NAVIGATION
-===================================================== -->
+<!-- NAV -->
 <nav>
   <div class="max-container py-4 flex items-center justify-between">
     <a href="/" class="font-heading font-semibold text-white text-lg tracking-tight">Stewart Masters</a>
-
-    <!-- Desktop nav -->
     <div class="hidden md:flex items-center gap-8">
       <a href="#about" class="nav-link">About</a>
-      <a href="#services" class="nav-link">Services</a>
+      <a href="#services" class="nav-link">Where I Help</a>
       <a href="blog/index.html" class="nav-link">Thinking</a>
-      <a href="#speaking" class="nav-link">Speaking</a>
+      <a href="#contact" class="nav-link">Contact</a>
     </div>
-
     <div class="flex items-center gap-3">
-      <a href="#contact" class="btn-primary hidden md:inline-block" style="padding: 10px 22px; font-size: 14px;">Work With Me</a>
-      <!-- Mobile hamburger -->
+      <a href="#contact" class="btn-primary hidden md:inline-block" style="padding: 10px 22px; font-size: 14px;">Start a Conversation</a>
       <button id="hamburger" class="md:hidden text-gray-400 p-2" onclick="toggleMenu()">
-        <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M3 6h16M3 12h16M3 18h16"/>
-        </svg>
+        <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h16M3 12h16M3 18h16"/></svg>
       </button>
     </div>
   </div>
-
-  <!-- Mobile menu -->
   <div id="mobile-menu" class="flex-col gap-1 pb-4 px-6 border-t" style="border-color: #1a1a1a;">
     <a href="#about" class="nav-link py-3 block" onclick="closeMenu()">About</a>
-    <a href="#services" class="nav-link py-3 block" onclick="closeMenu()">Services</a>
+    <a href="#services" class="nav-link py-3 block" onclick="closeMenu()">Where I Help</a>
     <a href="blog/index.html" class="nav-link py-3 block">Thinking</a>
-    <a href="#speaking" class="nav-link py-3 block" onclick="closeMenu()">Speaking</a>
-    <a href="#contact" class="btn-primary mt-3 text-center" onclick="closeMenu()">Work With Me</a>
+    <a href="#contact" class="nav-link py-3 block" onclick="closeMenu()">Contact</a>
+    <a href="#contact" class="btn-primary mt-3 text-center block" onclick="closeMenu()">Start a Conversation</a>
   </div>
 </nav>
 
 
-<!-- ====================================================
-     HERO
-===================================================== -->
+<!-- HERO -->
 <section class="min-h-screen flex items-center pt-20 px-6 relative overflow-hidden">
   <div class="hero-glow"></div>
 
   <div class="max-container w-full py-28">
     <div class="grid md:grid-cols-2 gap-12 items-center">
 
-    <!-- Headshot -->
-    <div class="hidden md:flex justify-end order-last" data-aos="fade-left">
-      <div style="width:360px; height:440px; border-radius:12px; overflow:hidden; border:1px solid #222;">
-        <img src="stewart-masters.png" alt="Stewart Masters" style="width:100%; height:100%; object-fit:cover; object-position:center top;">
+      <!-- Photo -->
+      <div class="hidden md:flex justify-end order-last" data-aos="fade-left">
+        <div style="width:360px; height:440px; border-radius:12px; overflow:hidden; border:1px solid #222;">
+          <img src="stewart-masters.png" alt="Stewart Masters" style="width:100%; height:100%; object-fit:cover; object-position:center top;">
+        </div>
       </div>
-    </div>
 
-    <div class="max-w-4xl">
-      <span class="section-label" data-aos="fade-up">Digital Strategy · Leadership · Board Advisory</span>
+      <div class="max-w-2xl">
+        <h1 class="font-heading text-5xl md:text-6xl font-bold leading-[1.05] tracking-tight mb-8" data-aos="fade-up">
+          I build and run AI-powered digital systems inside real businesses.
+        </h1>
 
-      <h1 class="font-heading text-5xl md:text-7xl font-bold leading-[1.05] tracking-tight mb-8" data-aos="fade-up" data-aos-delay="80">
-        Clarity in complexity.<br>
-        <span class="gradient-text">Strategy that sticks.</span>
-      </h1>
+        <div data-aos="fade-up" data-aos-delay="80">
+          <p style="color: #aaa; font-size: 18px; line-height: 1.7; margin-bottom: 12px;">
+            Chief Digital Officer at <span style="color: #fff;">Honest Greens.</span><br>
+            20 years building products and operational systems that don't break at scale.
+          </p>
+          <p style="color: #666; font-size: 17px; line-height: 1.7; margin-bottom: 28px;">
+            I work inside the organisation — where decisions actually get made.
+          </p>
+          <p style="color: #555; font-size: 14px; letter-spacing: 1px; margin-bottom: 8px; text-transform: uppercase; font-family: 'Space Grotesk', sans-serif;">Based in Barcelona · Operating across 12 countries</p>
+          <p style="color: #444; font-size: 14px; margin-bottom: 40px;">I take on a small number of high-impact projects each year.</p>
+        </div>
 
-      <p class="text-gray-400 text-lg md:text-xl leading-relaxed max-w-2xl mb-12" data-aos="fade-up" data-aos-delay="160">
-        I help ambitious organisations navigate digital transformation, sharpen their leadership, and make decisions that compound. Advisor, board member, and strategic partner — based in Barcelona, working globally.
-      </p>
+        <div class="flex flex-wrap gap-4" data-aos="fade-up" data-aos-delay="160">
+          <a href="#contact" class="btn-primary">Start a Conversation</a>
+          <a href="#services" class="btn-outline">Where I Create Impact</a>
+        </div>
 
-      <div class="flex flex-wrap gap-4" data-aos="fade-up" data-aos-delay="240">
-        <a href="#contact" class="btn-primary">Let's Talk</a>
-        <a href="#services" class="btn-outline">See How I Work</a>
+        <p style="color: #333; font-size: 14px; margin-top: 28px; font-style: italic;" data-aos="fade-up" data-aos-delay="220">I prefer building over talking about building.</p>
       </div>
-    </div>
 
-    </div><!-- end grid -->
+    </div>
   </div>
 </section>
 
 
-<!-- ====================================================
-     CREDIBILITY BAR
-===================================================== -->
-<section class="py-12 px-6" style="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a;">
+<!-- TRUSTED BY -->
+<section class="py-10 px-6" style="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a;">
   <div class="max-container">
-    <p class="text-center mb-8" style="font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: #555;">Affiliated with &amp; recognised by</p>
-    <div class="flex flex-wrap items-center justify-center gap-8 md:gap-14">
-      <span class="cred-item">Wharton</span>
-      <span class="cred-item">Google</span>
-      <span class="cred-item">IBM</span>
-      <span class="cred-item">IE Business School</span>
-      <span class="cred-item">ESADE</span>
-      <span class="cred-item">Startupbootcamp</span>
-      <span class="cred-item">4YFN</span>
+    <p class="text-center mb-7" style="font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: #444;">Trusted by teams at</p>
+    <div class="flex flex-wrap items-center justify-center gap-10 md:gap-16">
+      <span class="cred-item">Honest Greens</span>
+      <span class="cred-item">Resy</span>
+      <span class="cred-item">ClassPass</span>
     </div>
   </div>
 </section>
 
 
-<!-- ====================================================
-     ABOUT
-===================================================== -->
+<!-- ABOUT -->
 <section id="about" class="py-28 px-6">
   <div class="max-container">
     <div class="grid md:grid-cols-2 gap-16 items-center">
 
-      <!-- Left -->
       <div data-aos="fade-right">
         <span class="section-label">About</span>
         <h2 class="font-heading text-4xl md:text-5xl font-bold leading-tight mb-6">
-          20 years at the<br>
-          intersection of business,<br>
-          <span style="color: #00D4FF;">technology &amp; leadership.</span>
+          20 years building things<br>
+          that actually work<br>
+          <span style="color: #00D4FF;">at scale.</span>
         </h2>
       </div>
 
-      <!-- Right -->
       <div data-aos="fade-left">
-        <p class="text-gray-400 text-lg leading-relaxed mb-6">
-          I've spent two decades leading digital strategy, product, and organisational transformation across high-growth businesses in Europe and beyond. Certified in AI leadership by Google and IBM, and trained in financial modelling at Wharton — I bring rigour and real-world experience in equal measure.
+        <p style="color: #aaa; font-size: 17px; line-height: 1.8; margin-bottom: 20px;">
+          I've spent two decades inside fast-moving businesses — building digital products, operational systems, and the teams that run them. Not as an outside consultant parachuted in with slides, but as the person accountable for making it work.
         </p>
-        <p class="text-gray-400 text-lg leading-relaxed mb-10">
-          Today I advise founders, sit on boards, and partner with leadership teams navigating complexity — whether that's scaling operations, adopting AI, or building the kind of culture that outlasts any single strategy.
+        <p style="color: #aaa; font-size: 17px; line-height: 1.8; margin-bottom: 32px;">
+          Currently CDO at Honest Greens, where I'm responsible for digital systems across 12 countries. Before that: product and operations roles across Europe. I've hired, built, shipped, failed, fixed, and scaled — across hospitality, tech, and consumer businesses.
+        </p>
+        <p style="color: #666; font-size: 16px; line-height: 1.8; margin-bottom: 32px;">
+          I speak English, Spanish, Portuguese, and French. I guest lecture at IE Business School and ESADE. External work is selective — I take on situations where the problem is real and the leadership team is serious.
         </p>
 
         <!-- Stats -->
         <div class="grid grid-cols-3 gap-6 pt-8" style="border-top: 1px solid #1e1e1e;">
           <div>
             <div class="stat-number">20+</div>
-            <div class="text-xs mt-2 leading-snug" style="color: #777;">Years in business &amp; technology</div>
+            <div class="text-xs mt-2 leading-snug" style="color: #777;">Years building &amp; running digital operations</div>
           </div>
           <div>
-            <div class="stat-number">4</div>
-            <div class="text-xs mt-2 leading-snug" style="color: #777;">Languages spoken</div>
+            <div class="stat-number">12</div>
+            <div class="text-xs mt-2 leading-snug" style="color: #777;">Countries operating in right now</div>
           </div>
           <div>
-            <div class="stat-number">7K+</div>
-            <div class="text-xs mt-2 leading-snug" style="color: #777;">LinkedIn community</div>
+            <div class="stat-number">16+</div>
+            <div class="text-xs mt-2 leading-snug" style="color: #777;">Years mentoring founders &amp; teams</div>
           </div>
         </div>
       </div>
@@ -415,59 +244,53 @@
 <div class="gradient-rule mx-6"></div>
 
 
-<!-- ====================================================
-     SERVICES
-===================================================== -->
+<!-- WHERE I CREATE IMPACT -->
 <section id="services" class="py-28 px-6">
   <div class="max-container">
 
     <div class="mb-16" data-aos="fade-up">
-      <span class="section-label">Services</span>
+      <span class="section-label">Where I Create Impact</span>
       <h2 class="font-heading text-4xl md:text-5xl font-bold leading-tight max-w-2xl">
-        Four ways we can<br>work together.
+        Four areas.<br>All execution-first.
       </h2>
     </div>
 
     <div class="grid md:grid-cols-2 gap-5">
 
-      <!-- 01 -->
       <div class="service-card" data-aos="fade-up" data-aos-delay="0">
         <div class="service-number">01</div>
-        <h3 class="font-heading text-xl font-semibold mb-3">Digital Strategy &amp; Transformation</h3>
-        <p class="text-gray-500 leading-relaxed mb-6" style="font-size: 15px;">
-          I help organisations cut through the noise and build a digital strategy that actually gets executed. From AI adoption to product thinking to data infrastructure — focused on real business outcomes, not tech for tech's sake.
+        <h3 class="font-heading text-xl font-semibold mb-3">AI &amp; Product Direction</h3>
+        <p style="color: #777; font-size: 15px; line-height: 1.75; margin-bottom: 20px;">
+          I turn AI from an idea into something teams actually use — embedded in product, operations, and decision-making. Not a proof of concept. Not a chatbot. Systems that change how the business runs.
         </p>
-        <span style="color: #00D4FF; font-size: 13px; font-weight: 500;">Strategy · AI Adoption · Digital Roadmaps →</span>
+        <span style="color: #00D4FF; font-size: 13px; font-weight: 500;">AI Integration · Product Strategy · Workflow Automation →</span>
       </div>
 
-      <!-- 02 -->
       <div class="service-card" data-aos="fade-up" data-aos-delay="80">
         <div class="service-number">02</div>
-        <h3 class="font-heading text-xl font-semibold mb-3">Board Advisory &amp; Non-Executive Roles</h3>
-        <p class="text-gray-500 leading-relaxed mb-6" style="font-size: 15px;">
-          A trusted strategic voice at board level — bringing digital, operational, and commercial perspective to founders and leadership teams navigating growth, investment, or change. Long-term and relationship-first.
+        <h3 class="font-heading text-xl font-semibold mb-3">0→1 Product Builds</h3>
+        <p style="color: #777; font-size: 15px; line-height: 1.75; margin-bottom: 20px;">
+          I take products from zero to live — fast enough to matter, stable enough to scale. I've done this enough times to know where teams lose momentum and how to avoid it.
         </p>
-        <span style="color: #00D4FF; font-size: 13px; font-weight: 500;">NED · Advisory Board · Investor-stage →</span>
+        <span style="color: #00D4FF; font-size: 13px; font-weight: 500;">Product Development · MVP · Technical Direction →</span>
       </div>
 
-      <!-- 03 -->
       <div class="service-card" data-aos="fade-up" data-aos-delay="160">
         <div class="service-number">03</div>
-        <h3 class="font-heading text-xl font-semibold mb-3">Leadership &amp; Organisational Change</h3>
-        <p class="text-gray-500 leading-relaxed mb-6" style="font-size: 15px;">
-          Strategy only works if the organisation can carry it. I work with leadership teams on the people side of transformation — building decision-making culture, navigating change, and developing the next layer of leaders.
+        <h3 class="font-heading text-xl font-semibold mb-3">Digital Operations &amp; Systems</h3>
+        <p style="color: #777; font-size: 15px; line-height: 1.75; margin-bottom: 20px;">
+          I build the operational layer that keeps a digital business running — not just launching. Tooling, processes, data flows, integrations. The infrastructure that stops breaking when you scale.
         </p>
-        <span style="color: #00D4FF; font-size: 13px; font-weight: 500;">Executive Coaching · Team Development · Change →</span>
+        <span style="color: #00D4FF; font-size: 13px; font-weight: 500;">Ops Systems · Data Infrastructure · Multi-market →</span>
       </div>
 
-      <!-- 04 -->
       <div class="service-card" data-aos="fade-up" data-aos-delay="240">
         <div class="service-number">04</div>
-        <h3 class="font-heading text-xl font-semibold mb-3">Speaking &amp; Keynotes</h3>
-        <p class="text-gray-500 leading-relaxed mb-6" style="font-size: 15px;">
-          I speak on digital transformation, AI leadership, and building organisations fit for the next decade. Drawing on 20 years operating across Europe — practical, direct, and grounded in what actually works.
+        <h3 class="font-heading text-xl font-semibold mb-3">Founder &amp; Exec Decision Support</h3>
+        <p style="color: #777; font-size: 15px; line-height: 1.75; margin-bottom: 20px;">
+          I help leadership teams make better decisions under pressure — with context, not theory. As a board advisor or sounding board for founders navigating inflection points.
         </p>
-        <span style="color: #00D4FF; font-size: 13px; font-weight: 500;">Keynotes · Panels · Executive Workshops →</span>
+        <span style="color: #00D4FF; font-size: 13px; font-weight: 500;">Advisory · Board · Exec Coaching →</span>
       </div>
 
     </div>
@@ -475,36 +298,128 @@
 </section>
 
 
-<!-- ====================================================
-     STATS BAND
-===================================================== -->
+<!-- AI SECTION -->
+<section class="py-28 px-6" style="background: #090909; border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a;">
+  <div class="max-container">
+    <div class="grid md:grid-cols-2 gap-16 items-center">
+
+      <div data-aos="fade-right">
+        <span class="section-label">AI in Practice</span>
+        <h2 class="font-heading text-4xl md:text-5xl font-bold leading-tight mb-6">
+          Most AI projects fail<br>
+          in the integration layer —<br>
+          <span style="color: #00D4FF;">not the model.</span>
+        </h2>
+      </div>
+
+      <div data-aos="fade-left">
+        <p style="color: #aaa; font-size: 17px; line-height: 1.8; margin-bottom: 20px;">
+          The hard part of AI isn't choosing a model. It's embedding it into workflows that real teams use under real pressure — with imperfect data, legacy systems, and people who weren't asking for it.
+        </p>
+        <p style="color: #aaa; font-size: 17px; line-height: 1.8; margin-bottom: 20px;">
+          I've built AI into operations at Honest Greens across 12 markets. Not demos. Not pilots. Running systems that make decisions daily.
+        </p>
+        <p style="color: #666; font-size: 16px; line-height: 1.8;">
+          When I work on AI with external teams, I focus on integration, adoption, and outcomes — not hype.
+        </p>
+        <div class="mt-8 p-6 rounded-lg" style="border: 1px solid #1e1e1e; background: #111;">
+          <p style="color: #888; font-size: 14px; line-height: 1.7; margin-bottom: 12px;">What I focus on:</p>
+          <ul style="color: #aaa; font-size: 15px; line-height: 2; list-style: none; padding: 0;">
+            <li style="display:flex;gap:10px;"><span style="color:#00D4FF;">→</span> Connecting AI to the decisions that matter</li>
+            <li style="display:flex;gap:10px;"><span style="color:#00D4FF;">→</span> Building for adoption, not just capability</li>
+            <li style="display:flex;gap:10px;"><span style="color:#00D4FF;">→</span> Measuring outcomes, not activity</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- WHAT THIS LOOKS LIKE IN PRACTICE -->
+<section class="py-28 px-6">
+  <div class="max-container">
+
+    <div class="mb-16" data-aos="fade-up">
+      <span class="section-label">In Practice</span>
+      <h2 class="font-heading text-4xl md:text-5xl font-bold leading-tight max-w-2xl">
+        What this looks like<br>in practice.
+      </h2>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-5">
+
+      <div class="service-card" data-aos="fade-up" data-aos-delay="0">
+        <h3 class="font-heading text-lg font-semibold mb-4" style="color: #00D4FF;">Scaling digital operations across markets</h3>
+        <p style="color: #777; font-size: 15px; line-height: 1.75; margin-bottom: 16px;">
+          Built and scaled digital systems across 12 markets inside fast-growing businesses. The challenge wasn't launching — it was making systems usable, reliable, and adopted daily across teams.
+        </p>
+        <ul style="color: #666; font-size: 14px; line-height: 1.9; list-style: none; padding: 0;">
+          <li style="display:flex;gap:8px;"><span style="color:#1e1e1e;">→</span> Simplified operational workflows</li>
+          <li style="display:flex;gap:8px;"><span style="color:#1e1e1e;">→</span> Built tools teams actually use</li>
+          <li style="display:flex;gap:8px;"><span style="color:#1e1e1e;">→</span> Integrated AI where it improves decisions</li>
+        </ul>
+        <p style="color: #555; font-size: 13px; margin-top: 16px; padding-top: 16px; border-top: 1px solid #1e1e1e;">Systems that support daily operations — not slideware, not experiments.</p>
+      </div>
+
+      <div class="service-card" data-aos="fade-up" data-aos-delay="80">
+        <h3 class="font-heading text-lg font-semibold mb-4" style="color: #00D4FF;">Product built from zero</h3>
+        <p style="color: #777; font-size: 15px; line-height: 1.75; margin-bottom: 16px;">
+          Taken multiple products from concept to live — in environments where speed matters and resources are constrained. Each one built to be maintainable, not just launchable.
+        </p>
+        <ul style="color: #666; font-size: 14px; line-height: 1.9; list-style: none; padding: 0;">
+          <li style="display:flex;gap:8px;"><span style="color:#1e1e1e;">→</span> Defined what to build and why</li>
+          <li style="display:flex;gap:8px;"><span style="color:#1e1e1e;">→</span> Led technical and product direction</li>
+          <li style="display:flex;gap:8px;"><span style="color:#1e1e1e;">→</span> Shipped and iterated under real constraints</li>
+        </ul>
+        <p style="color: #555; font-size: 13px; margin-top: 16px; padding-top: 16px; border-top: 1px solid #1e1e1e;">Speed comes from clarity — knowing what not to build is half the work.</p>
+      </div>
+
+      <div class="service-card" data-aos="fade-up" data-aos-delay="160">
+        <h3 class="font-heading text-lg font-semibold mb-4" style="color: #00D4FF;">Leadership teams at inflection points</h3>
+        <p style="color: #777; font-size: 15px; line-height: 1.75; margin-bottom: 16px;">
+          Worked alongside founders and exec teams at moments of real pressure — funding rounds, market expansion, leadership transitions, strategic pivots.
+        </p>
+        <ul style="color: #666; font-size: 14px; line-height: 1.9; list-style: none; padding: 0;">
+          <li style="display:flex;gap:8px;"><span style="color:#1e1e1e;">→</span> Brought outside perspective without losing context</li>
+          <li style="display:flex;gap:8px;"><span style="color:#1e1e1e;">→</span> Challenged assumptions before they became expensive</li>
+          <li style="display:flex;gap:8px;"><span style="color:#1e1e1e;">→</span> Focused on the decision, not the deck</li>
+        </ul>
+        <p style="color: #555; font-size: 13px; margin-top: 16px; padding-top: 16px; border-top: 1px solid #1e1e1e;">Most companies don't have a strategy problem. They have a decision problem.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- STATS BAND -->
 <section class="py-20 px-6" style="background: #090909; border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a;">
   <div class="max-container">
     <div class="grid grid-cols-2 md:grid-cols-4 gap-10 text-center">
       <div data-aos="fade-up" data-aos-delay="0">
-        <div class="stat-number">30+</div>
-        <div class="text-sm mt-2" style="color: #777;">Businesses advised &amp; scaled</div>
+        <div class="stat-number">20+</div>
+        <div class="text-sm mt-2" style="color: #777;">Years building &amp; running digital businesses</div>
       </div>
       <div data-aos="fade-up" data-aos-delay="80">
-        <div class="stat-number">6</div>
-        <div class="text-sm mt-2" style="color: #777;">Countries worked across</div>
+        <div class="stat-number">12</div>
+        <div class="text-sm mt-2" style="color: #777;">Countries in current operational remit</div>
       </div>
       <div data-aos="fade-up" data-aos-delay="160">
-        <div class="stat-number">19</div>
-        <div class="text-sm mt-2" style="color: #777;">LinkedIn recommendations</div>
+        <div class="stat-number">30+</div>
+        <div class="text-sm mt-2" style="color: #777;">Businesses built, advised &amp; scaled</div>
       </div>
       <div data-aos="fade-up" data-aos-delay="240">
-        <div class="stat-number">9+</div>
-        <div class="text-sm mt-2" style="color: #777;">Years mentoring founders</div>
+        <div class="stat-number">16+</div>
+        <div class="text-sm mt-2" style="color: #777;">Years mentoring founders &amp; teams</div>
       </div>
     </div>
   </div>
 </section>
 
 
-<!-- ====================================================
-     BLOG / THINKING
-===================================================== -->
+<!-- BLOG -->
 <section id="blog" class="py-28 px-6">
   <div class="max-container">
 
@@ -520,10 +435,11 @@
 
     <div class="grid md:grid-cols-3 gap-5">
 
-      <!-- Post 10 — Latest -->
       <a href="blog/agentic-ai-business-leaders.html" class="blog-card" data-aos="fade-up" data-aos-delay="0">
-        <div class="blog-thumb" style="background:linear-gradient(135deg,#111,#0a0a0a);display:flex;align-items:center;justify-content:center;">
-          <div style="font-size:36px;color:#1a1a1a;">◈</div>
+        <div class="blog-thumb" style="background: linear-gradient(135deg, #0e1a1f, #0a1214);">
+          <div style="text-align:center;">
+            <div style="font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: #00D4FF44; font-family: 'Space Grotesk', sans-serif;">Agentic AI</div>
+          </div>
         </div>
         <div class="p-6">
           <span class="blog-tag">AI &amp; Technology</span>
@@ -536,10 +452,11 @@
         </div>
       </a>
 
-      <!-- Post 9 -->
       <a href="blog/shadow-ai-boards.html" class="blog-card" data-aos="fade-up" data-aos-delay="80">
-        <div class="blog-thumb" style="background:linear-gradient(135deg,#111,#0a0a0a);display:flex;align-items:center;justify-content:center;">
-          <div style="font-size:36px;color:#1a1a1a;">◈</div>
+        <div class="blog-thumb" style="background: linear-gradient(135deg, #1a0e0e, #120a0a);">
+          <div style="text-align:center;">
+            <div style="font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: #FF444444; font-family: 'Space Grotesk', sans-serif;">Shadow AI</div>
+          </div>
         </div>
         <div class="p-6">
           <span class="blog-tag">AI &amp; Technology</span>
@@ -552,15 +469,16 @@
         </div>
       </a>
 
-      <!-- Post 8 -->
       <a href="blog/digital-transformation-failures.html" class="blog-card" data-aos="fade-up" data-aos-delay="160">
-        <div class="blog-thumb" style="background:linear-gradient(135deg,#111,#0a0a0a);display:flex;align-items:center;justify-content:center;">
-          <div style="font-size:36px;color:#1a1a1a;">◈</div>
+        <div class="blog-thumb" style="background: linear-gradient(135deg, #0f1a0e, #0a120a);">
+          <div style="text-align:center;">
+            <div style="font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: #44FF4444; font-family: 'Space Grotesk', sans-serif;">Transformation</div>
+          </div>
         </div>
         <div class="p-6">
           <span class="blog-tag">Leadership</span>
           <h3 class="font-heading text-base font-semibold mt-3 mb-2 leading-snug text-white">Why digital transformation fails — and what actually works</h3>
-          <p style="color: #777; font-size: 13px; line-height: 1.7;">Most transformations fail not because of technology but because of three leadership failures that appear across almost every case.</p>
+          <p style="color: #777; font-size: 13px; line-height: 1.7;">Most transformations fail not because of technology but because of three leadership failures.</p>
           <div class="flex items-center justify-between mt-5">
             <span style="font-size: 12px; color: #555;">25 Mar · 7 min read</span>
             <span class="blog-arrow">→</span>
@@ -578,55 +496,82 @@
 </section>
 
 
-<!-- ====================================================
-     TESTIMONIALS
-===================================================== -->
+<!-- TESTIMONIALS -->
 <section class="py-28 px-6" style="background: #090909; border-top: 1px solid #1a1a1a;">
   <div class="max-container">
 
     <div class="text-center mb-16" data-aos="fade-up">
       <span class="section-label">What people say</span>
-      <h2 class="font-heading text-4xl font-bold">19 recommendations on LinkedIn.</h2>
-      <p style="color: #666; margin-top: 12px; font-size: 15px;">Here are a few.</p>
+      <h2 class="font-heading text-4xl font-bold">Straight from the people I've worked with.</h2>
     </div>
 
-    <div class="grid md:grid-cols-3 gap-5">
+    <div class="grid md:grid-cols-3 gap-5 mb-5">
 
       <div class="testimonial-card" data-aos="fade-up" data-aos-delay="0">
-        <p class="text-gray-300 leading-relaxed mb-6" style="font-size: 15px; font-style: italic;">
-          "[Paste your first LinkedIn recommendation here — ideally one that speaks to strategic impact or leadership.]"
+        <p style="color: #ccc; font-size: 15px; line-height: 1.75; font-style: italic; margin-bottom: 24px;">
+          "Stewart cuts through noise and brings immediate clarity to complex problems. He doesn't just advise — he drives momentum."
         </p>
         <div class="flex items-center gap-3">
-          <div style="width: 40px; height: 40px; border-radius: 50%; background: #1e1e1e; display: flex; align-items: center; justify-content: center; font-size: 12px; color: #333;">?</div>
+          <div style="width:40px; height:40px; border-radius:50%; background:#1a1a1a; border:1px solid #2a2a2a; display:flex; align-items:center; justify-content:center; font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:13px; color:#555;">ML</div>
           <div>
-            <div class="font-heading font-medium text-sm">[Recommender Name]</div>
-            <div style="font-size: 12px; color: #444;">[Title, Company]</div>
+            <div class="font-heading font-medium text-sm">Minka Monica Li</div>
+            <div style="font-size: 12px; color: #555;">Commercial Strategy &amp; Operations · ex-ClassPass</div>
           </div>
         </div>
       </div>
 
       <div class="testimonial-card" data-aos="fade-up" data-aos-delay="80">
-        <p class="text-gray-300 leading-relaxed mb-6" style="font-size: 15px; font-style: italic;">
-          "[Paste your second LinkedIn recommendation here — ideally one that highlights expertise or results.]"
+        <p style="color: #ccc; font-size: 15px; line-height: 1.75; font-style: italic; margin-bottom: 24px;">
+          "No-nonsense, high-energy, and always pushing for better solutions. Stewart challenges assumptions and gets things moving."
         </p>
         <div class="flex items-center gap-3">
-          <div style="width: 40px; height: 40px; border-radius: 50%; background: #1e1e1e; display: flex; align-items: center; justify-content: center; font-size: 12px; color: #333;">?</div>
+          <div style="width:40px; height:40px; border-radius:50%; background:#1a1a1a; border:1px solid #2a2a2a; display:flex; align-items:center; justify-content:center; font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:13px; color:#555;">JM</div>
           <div>
-            <div class="font-heading font-medium text-sm">[Recommender Name]</div>
-            <div style="font-size: 12px; color: #444;">[Title, Company]</div>
+            <div class="font-heading font-medium text-sm">Jonathon Matthysen</div>
+            <div style="font-size: 12px; color: #555;">Global Sales Trainer</div>
           </div>
         </div>
       </div>
 
       <div class="testimonial-card" data-aos="fade-up" data-aos-delay="160">
-        <p class="text-gray-300 leading-relaxed mb-6" style="font-size: 15px; font-style: italic;">
-          "[Paste your third LinkedIn recommendation here — ideally one that speaks to your working style or character.]"
+        <p style="color: #ccc; font-size: 15px; line-height: 1.75; font-style: italic; margin-bottom: 24px;">
+          "Stewart has a rare ability to combine long-term strategic thinking with practical, day-to-day decision making. He helped me level up fast."
         </p>
         <div class="flex items-center gap-3">
-          <div style="width: 40px; height: 40px; border-radius: 50%; background: #1e1e1e; display: flex; align-items: center; justify-content: center; font-size: 12px; color: #333;">?</div>
+          <div style="width:40px; height:40px; border-radius:50%; background:#1a1a1a; border:1px solid #2a2a2a; display:flex; align-items:center; justify-content:center; font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:13px; color:#555;">DB</div>
           <div>
-            <div class="font-heading font-medium text-sm">[Recommender Name]</div>
-            <div style="font-size: 12px; color: #444;">[Title, Company]</div>
+            <div class="font-heading font-medium text-sm">Damien Bruneau</div>
+            <div style="font-size: 12px; color: #555;">Entrepreneur</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-5">
+
+      <div class="testimonial-card" data-aos="fade-up" data-aos-delay="0">
+        <p style="color: #ccc; font-size: 15px; line-height: 1.75; font-style: italic; margin-bottom: 24px;">
+          "His understanding of customers and product is sharp. He helped us define strategy, communication, and what actually mattered."
+        </p>
+        <div class="flex items-center gap-3">
+          <div style="width:40px; height:40px; border-radius:50%; background:#1a1a1a; border:1px solid #2a2a2a; display:flex; align-items:center; justify-content:center; font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:13px; color:#555;">BC</div>
+          <div>
+            <div class="font-heading font-medium text-sm">Blai Carandell Saladich</div>
+            <div style="font-size: 12px; color: #555;">CEO · NOBA</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card" data-aos="fade-up" data-aos-delay="80">
+        <p style="color: #ccc; font-size: 15px; line-height: 1.75; font-style: italic; margin-bottom: 24px;">
+          "He raises the standard of everyone around him. Calm, direct, and focused on getting to the right outcome."
+        </p>
+        <div class="flex items-center gap-3">
+          <div style="width:40px; height:40px; border-radius:50%; background:#1a1a1a; border:1px solid #2a2a2a; display:flex; align-items:center; justify-content:center; font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:13px; color:#555;">AV</div>
+          <div>
+            <div class="font-heading font-medium text-sm">Aleix Ventayol</div>
+            <div style="font-size: 12px; color: #555;">CEO · Bugfender</div>
           </div>
         </div>
       </div>
@@ -636,53 +581,43 @@
 </section>
 
 
-<!-- ====================================================
-     SPEAKING
-===================================================== -->
-<section id="speaking" class="py-28 px-6">
+<!-- WHERE I GET INVOLVED -->
+<section class="py-28 px-6" style="border-top: 1px solid #1a1a1a;">
   <div class="max-container">
-    <div class="grid md:grid-cols-2 gap-16 items-center">
+    <div class="grid md:grid-cols-2 gap-16 items-start">
 
-      <!-- Left -->
       <div data-aos="fade-right">
-        <span class="section-label">Speaking</span>
+        <span class="section-label">Where I Get Involved</span>
         <h2 class="font-heading text-4xl md:text-5xl font-bold leading-tight mb-6">
-          Bringing real-world perspective to the stage.
+          Selective by design.
         </h2>
-        <p class="text-gray-400 leading-relaxed mb-5" style="font-size: 15px;">
-          I've spoken at IE Business School, ESADE, 4YFN, and Startupbootcamp on topics ranging from AI and digital transformation to leadership in high-growth environments and building organisations that last.
+        <p style="color: #aaa; font-size: 17px; line-height: 1.8; margin-bottom: 20px;">
+          Not widely available — intentionally. Honest Greens is my primary role. External work is limited to a handful of situations per year where the problem is real and the team is ready to move.
         </p>
-        <p class="text-gray-400 leading-relaxed mb-8" style="font-size: 15px;">
-          Available for keynotes, panels, workshops, and executive sessions — in English, Spanish, Portuguese, and French.
+        <p style="color: #666; font-size: 16px; line-height: 1.8; margin-bottom: 32px;">
+          If you're a founder or leadership team navigating a genuine inflection point — AI adoption, digital operations at scale, 0→1 product, or a decision that needs outside perspective — that's where I get involved.
         </p>
-        <a href="#contact" class="btn-primary">Enquire About Speaking</a>
+        <a href="#contact" class="btn-primary">Start a Conversation</a>
       </div>
 
-      <!-- Right: speaking tags -->
       <div data-aos="fade-left">
-        <div class="flex flex-wrap gap-3">
-          <span class="speaking-tag">🎤 Keynotes</span>
-          <span class="speaking-tag">🎙️ Panels</span>
-          <span class="speaking-tag">🏫 Guest Lectures</span>
-          <span class="speaking-tag">🛠️ Workshops</span>
-          <span class="speaking-tag">🇬🇧 English</span>
-          <span class="speaking-tag">🇪🇸 Spanish</span>
-          <span class="speaking-tag">🇵🇹 Portuguese</span>
-          <span class="speaking-tag">🇫🇷 French</span>
-        </div>
-
-        <div class="mt-10 space-y-4">
-          <div style="border-left: 2px solid #1e1e1e; padding-left: 20px;">
-            <div style="color: #00D4FF; font-size: 12px; font-weight: 500; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 4px;">Recent venues</div>
-            <div style="color: #777; font-size: 14px; line-height: 1.8;">
-              IE Business School · Ostelea · 4YFN (Mobile World Congress) · Startupbootcamp · ESADE
-            </div>
+        <div class="space-y-5">
+          <div style="background:#121212; border:1px solid #1e1e1e; border-radius:8px; padding:24px;">
+            <div style="color:#00D4FF; font-size:12px; font-weight:500; letter-spacing:2px; text-transform:uppercase; margin-bottom:10px;">What fits</div>
+            <ul style="color:#aaa; font-size:15px; line-height:2; list-style:none; padding:0;">
+              <li style="display:flex;gap:10px;"><span style="color:#00D4FF;">→</span> AI integration with real operational stakes</li>
+              <li style="display:flex;gap:10px;"><span style="color:#00D4FF;">→</span> Digital systems that need to work across markets</li>
+              <li style="display:flex;gap:10px;"><span style="color:#00D4FF;">→</span> Products that need to ship, not just get planned</li>
+              <li style="display:flex;gap:10px;"><span style="color:#00D4FF;">→</span> Leadership teams that need direct input, not decks</li>
+            </ul>
           </div>
-          <div style="border-left: 2px solid #1e1e1e; padding-left: 20px;">
-            <div style="color: #00D4FF; font-size: 12px; font-weight: 500; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 4px;">Topics</div>
-            <div style="color: #777; font-size: 14px; line-height: 1.8;">
-              AI &amp; Digital Transformation · Leadership at Scale · Building High-Performance Teams · The Future of Work
-            </div>
+          <div style="background:#121212; border:1px solid #1e1e1e; border-radius:8px; padding:24px;">
+            <div style="color:#444; font-size:12px; font-weight:500; letter-spacing:2px; text-transform:uppercase; margin-bottom:10px;">What doesn't</div>
+            <ul style="color:#555; font-size:15px; line-height:2; list-style:none; padding:0;">
+              <li style="display:flex;gap:10px;"><span style="color:#333;">→</span> Long strategy engagements with no execution mandate</li>
+              <li style="display:flex;gap:10px;"><span style="color:#333;">→</span> Organisations not ready to act on what they find</li>
+              <li style="display:flex;gap:10px;"><span style="color:#333;">→</span> Speaking gigs as the primary deliverable</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -692,66 +627,48 @@
 </section>
 
 
-<!-- ====================================================
-     CTA / CONTACT
-===================================================== -->
+<!-- CTA / CONTACT -->
 <section id="contact" class="py-32 px-6 relative overflow-hidden" style="border-top: 1px solid #1a1a1a;">
   <div class="cta-glow"></div>
   <div class="max-container text-center relative">
     <div data-aos="fade-up">
       <span class="section-label">Get In Touch</span>
       <h2 class="font-heading text-4xl md:text-6xl font-bold leading-tight mb-6">
-        Let's build something<br>
-        <span class="gradient-text">that lasts.</span>
+        If you're working on<br>
+        <span class="gradient-text">something that actually matters —</span>
       </h2>
-      <p class="text-gray-500 text-lg mb-10 max-w-xl mx-auto" style="font-size: 16px;">
-        Whether you're a founder, a board, or a leadership team navigating transformation — if you want a strategic partner who's been in the room, I'd love to talk.
+      <p style="color: #666; font-size: 17px; margin-bottom: 40px; max-width: 480px; margin-left: auto; margin-right: auto; line-height: 1.7;">
+        reach out.
       </p>
-      <a href="mailto:hello@stewartmasters.com" class="btn-primary" style="font-size: 16px; padding: 16px 40px;">
-        Start a Conversation →
+      <a href="mailto:hello@stewartmasters.me" class="btn-primary" style="font-size: 16px; padding: 16px 40px;">
+        hello@stewartmasters.me →
       </a>
     </div>
   </div>
 </section>
 
 
-<!-- ====================================================
-     FOOTER
-===================================================== -->
+<!-- FOOTER -->
 <footer class="py-10 px-6" style="border-top: 1px solid #141414;">
   <div class="max-container flex flex-col md:flex-row items-center justify-between gap-4">
-    <span class="font-heading font-semibold" style="color: #333;">Stewart Masters</span>
-
+    <span class="font-heading font-semibold" style="color: #555;">Stewart Masters</span>
     <div class="flex gap-6" style="font-size: 13px;">
       <a href="#about" class="nav-link">About</a>
-      <a href="#services" class="nav-link">Services</a>
+      <a href="#services" class="nav-link">Where I Help</a>
       <a href="blog/index.html" class="nav-link">Thinking</a>
       <a href="#contact" class="nav-link">Contact</a>
     </div>
-
     <a href="https://www.linkedin.com/in/stewartmasters/" target="_blank" rel="noopener" class="nav-link" style="font-size: 13px;">LinkedIn →</a>
   </div>
-
-  <div class="max-container mt-6 text-center" style="font-size: 11px; color: #2a2a2a; letter-spacing: 2px;">
-    BARCELONA · LONDON · MADRID
-  </div>
+  <div class="max-container mt-6 text-center" style="font-size: 11px; color: #2a2a2a; letter-spacing: 2px;">BARCELONA · LONDON · MADRID</div>
 </footer>
 
 
-<!-- ====================================================
-     SCRIPTS
-===================================================== -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   AOS.init({ duration: 650, once: true, offset: 50, easing: 'ease-out' });
-
-  function toggleMenu() {
-    const menu = document.getElementById('mobile-menu');
-    menu.classList.toggle('open');
-  }
-  function closeMenu() {
-    document.getElementById('mobile-menu').classList.remove('open');
-  }
+  function toggleMenu() { document.getElementById('mobile-menu').classList.toggle('open'); }
+  function closeMenu() { document.getElementById('mobile-menu').classList.remove('open'); }
 </script>
 
 </body>
