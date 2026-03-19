@@ -4,27 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Stewart Masters — Chief Digital Officer · AI Systems · Digital Operations</title>
-  <meta name="description" content="Stewart Masters builds and runs AI-powered digital systems inside real businesses. Chief Digital Officer at Honest Greens. Based in Barcelona, operating across 12 countries.">
+  <meta name="description" content="Stewart Masters builds and runs AI-powered digital systems inside real businesses. Chief Digital Officer at Honest Greens. Based in Barcelona, operating globally.">
 
-  <!-- Open Graph -->
   <meta property="og:title" content="Stewart Masters — AI Systems & Digital Operations">
   <meta property="og:description" content="I build and run AI-powered digital systems inside real businesses. CDO at Honest Greens. 20 years building products and operational systems that don't break at scale.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://stewartmasters.me">
-
-  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Stewart Masters">
   <meta name="twitter:description" content="I build and run AI-powered digital systems inside real businesses.">
-
-  <!-- Canonical -->
   <link rel="canonical" href="https://stewartmasters.me/">
 
-  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
-
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
@@ -45,7 +38,7 @@
   <style>
     *, *::before, *::after { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
-    body { background-color: #0D0D0D; color: #ffffff; font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
+    body { background-color: #0D0D0D; color: #EAEAEA; font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
 
     ::-webkit-scrollbar { width: 5px; }
     ::-webkit-scrollbar-track { background: #0D0D0D; }
@@ -72,31 +65,32 @@
 
     .service-card { background: #121212; border: 1px solid #1e1e1e; border-radius: 10px; padding: 36px; transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s; }
     .service-card:hover { border-color: #00D4FF; transform: translateY(-5px); box-shadow: 0 24px 60px rgba(0, 212, 255, 0.07); }
-    .service-number { font-family: 'Space Grotesk', sans-serif; font-size: 42px; font-weight: 700; color: #1e1e1e; line-height: 1; margin-bottom: 20px; transition: color 0.3s; }
-    .service-card:hover .service-number { color: #00D4FF22; }
+    .service-number { font-family: 'Space Grotesk', sans-serif; font-size: 42px; font-weight: 700; color: rgba(0, 212, 255, 0.22); line-height: 1; margin-bottom: 20px; transition: color 0.3s; }
+    .service-card:hover .service-number { color: rgba(0, 212, 255, 0.4); }
 
     .stat-number { font-family: 'Space Grotesk', sans-serif; font-size: 3.5rem; font-weight: 700; color: #00D4FF; line-height: 1; }
 
     .blog-card { background: #121212; border: 1px solid #1e1e1e; border-radius: 10px; overflow: hidden; text-decoration: none; display: block; transition: border-color 0.3s, transform 0.3s; }
     .blog-card:hover { border-color: #2a2a2a; transform: translateY(-4px); }
     .blog-card:hover .blog-arrow { color: #00D4FF; }
-    .blog-thumb { height: 200px; background: linear-gradient(135deg, #161616, #0f0f0f); border-bottom: 1px solid #1e1e1e; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+    .blog-thumb { height: 200px; border-bottom: 1px solid #1e1e1e; display: flex; align-items: center; justify-content: center; overflow: hidden; }
     .blog-tag { font-size: 10px; font-weight: 500; letter-spacing: 2px; text-transform: uppercase; color: #00D4FF; }
-    .blog-arrow { color: #333; font-size: 18px; transition: color 0.2s; }
+    .blog-arrow { color: #555; font-size: 18px; transition: color 0.2s; }
 
     .testimonial-card { background: #121212; border: 1px solid #1e1e1e; border-radius: 10px; padding: 32px; }
 
     .cta-glow { position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 120%, rgba(0,212,255,0.06), transparent 60%); pointer-events: none; }
 
-    .cred-item { font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 13px; letter-spacing: 1px; color: #444; transition: color 0.3s; }
-    .cred-item:hover { color: #888; }
+    .logo-item { display: flex; align-items: center; justify-content: center; }
+    .logo-item img { filter: brightness(0) invert(1); opacity: 0.55; transition: opacity 0.3s; height: 26px; width: auto; }
+    .logo-item img:hover { opacity: 1; }
+    .logo-fallback { font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 13px; letter-spacing: 1.5px; color: #555; text-transform: uppercase; transition: color 0.3s; }
+    .logo-fallback:hover { color: #aaa; }
 
     #mobile-menu { display: none; }
     #mobile-menu.open { display: flex; }
 
-    @media (max-width: 768px) {
-      .stat-number { font-size: 2.5rem; }
-    }
+    @media (max-width: 768px) { .stat-number { font-size: 2.5rem; } }
   </style>
 
   <!-- Google tag (gtag.js) -->
@@ -145,7 +139,6 @@
   <div class="max-container w-full py-28">
     <div class="grid md:grid-cols-2 gap-12 items-center">
 
-      <!-- Photo -->
       <div class="hidden md:flex justify-end order-last" data-aos="fade-left">
         <div style="width:360px; height:440px; border-radius:12px; overflow:hidden; border:1px solid #222;">
           <img src="stewart-masters.png" alt="Stewart Masters" style="width:100%; height:100%; object-fit:cover; object-position:center top;">
@@ -158,15 +151,15 @@
         </h1>
 
         <div data-aos="fade-up" data-aos-delay="80">
-          <p style="color: #aaa; font-size: 18px; line-height: 1.7; margin-bottom: 12px;">
-            Chief Digital Officer at <span style="color: #fff;">Honest Greens.</span><br>
+          <p style="color: #EAEAEA; font-size: 18px; line-height: 1.7; margin-bottom: 12px;">
+            Chief Digital Officer at <span style="color: #fff; font-weight: 500;">Honest Greens.</span><br>
             20 years building products and operational systems that don't break at scale.
           </p>
-          <p style="color: #666; font-size: 17px; line-height: 1.7; margin-bottom: 28px;">
+          <p style="color: #B0B0B0; font-size: 17px; line-height: 1.7; margin-bottom: 28px;">
             I work inside the organisation — where decisions actually get made.
           </p>
-          <p style="color: #555; font-size: 14px; letter-spacing: 1px; margin-bottom: 8px; text-transform: uppercase; font-family: 'Space Grotesk', sans-serif;">Based in Barcelona · Operating across 12 countries</p>
-          <p style="color: #444; font-size: 14px; margin-bottom: 40px;">I take on a small number of high-impact projects each year.</p>
+          <p style="color: #888; font-size: 14px; letter-spacing: 1px; margin-bottom: 8px; text-transform: uppercase; font-family: 'Space Grotesk', sans-serif;">Based in Barcelona · Operating globally</p>
+          <p style="color: #777; font-size: 14px; margin-bottom: 40px;">I take on a small number of high-impact projects each year.</p>
         </div>
 
         <div class="flex flex-wrap gap-4" data-aos="fade-up" data-aos-delay="160">
@@ -174,7 +167,7 @@
           <a href="#services" class="btn-outline">Where I Create Impact</a>
         </div>
 
-        <p style="color: #333; font-size: 14px; margin-top: 28px; font-style: italic;" data-aos="fade-up" data-aos-delay="220">I prefer building over talking about building.</p>
+        <p style="color: #444; font-size: 14px; margin-top: 28px; font-style: italic;" data-aos="fade-up" data-aos-delay="220">I prefer building over talking about building.</p>
       </div>
 
     </div>
@@ -183,13 +176,39 @@
 
 
 <!-- TRUSTED BY -->
-<section class="py-10 px-6" style="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a;">
+<section class="py-12 px-6" style="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a;">
   <div class="max-container">
-    <p class="text-center mb-7" style="font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: #444;">Trusted by teams at</p>
-    <div class="flex flex-wrap items-center justify-center gap-10 md:gap-16">
-      <span class="cred-item">Honest Greens</span>
-      <span class="cred-item">Resy</span>
-      <span class="cred-item">ClassPass</span>
+    <p class="text-center mb-10" style="font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: #555;">Trusted by teams at</p>
+    <div class="flex flex-wrap items-center justify-center gap-12 md:gap-20">
+
+      <!-- Honest Greens -->
+      <div class="logo-item">
+        <img src="https://logo.clearbit.com/honestgreens.com" alt="Honest Greens"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+        <span class="logo-fallback" style="display:none;">Honest Greens</span>
+      </div>
+
+      <!-- Resy -->
+      <div class="logo-item">
+        <img src="https://logo.clearbit.com/resy.com" alt="Resy"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+        <span class="logo-fallback" style="display:none;">Resy</span>
+      </div>
+
+      <!-- ClassPass -->
+      <div class="logo-item">
+        <img src="https://logo.clearbit.com/classpass.com" alt="ClassPass"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+        <span class="logo-fallback" style="display:none;">ClassPass</span>
+      </div>
+
+      <!-- Enzo Ventures -->
+      <div class="logo-item">
+        <img src="https://logo.clearbit.com/enzoventures.com" alt="Enzo Ventures"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+        <span class="logo-fallback" style="display:none;">Enzo Ventures</span>
+      </div>
+
     </div>
   </div>
 </section>
@@ -210,29 +229,28 @@
       </div>
 
       <div data-aos="fade-left">
-        <p style="color: #aaa; font-size: 17px; line-height: 1.8; margin-bottom: 20px;">
+        <p style="color: #EAEAEA; font-size: 17px; line-height: 1.8; margin-bottom: 20px;">
           I've spent two decades inside fast-moving businesses — building digital products, operational systems, and the teams that run them. Not as an outside consultant parachuted in with slides, but as the person accountable for making it work.
         </p>
-        <p style="color: #aaa; font-size: 17px; line-height: 1.8; margin-bottom: 32px;">
-          Currently CDO at Honest Greens, where I'm responsible for digital systems across 12 countries. Before that: product and operations roles across Europe. I've hired, built, shipped, failed, fixed, and scaled — across hospitality, tech, and consumer businesses.
+        <p style="color: #EAEAEA; font-size: 17px; line-height: 1.8; margin-bottom: 32px;">
+          Currently CDO at Honest Greens, where I'm responsible for digital systems across multiple markets. Before that: product and operations roles across Europe. I've hired, built, shipped, failed, fixed, and scaled — across hospitality, tech, and consumer businesses.
         </p>
-        <p style="color: #666; font-size: 16px; line-height: 1.8; margin-bottom: 32px;">
+        <p style="color: #B0B0B0; font-size: 16px; line-height: 1.8; margin-bottom: 32px;">
           I speak English, Spanish, Portuguese, and French. I guest lecture at IE Business School and ESADE. External work is selective — I take on situations where the problem is real and the leadership team is serious.
         </p>
 
-        <!-- Stats -->
         <div class="grid grid-cols-3 gap-6 pt-8" style="border-top: 1px solid #1e1e1e;">
           <div>
             <div class="stat-number">20+</div>
-            <div class="text-xs mt-2 leading-snug" style="color: #777;">Years building &amp; running digital operations</div>
+            <div class="text-xs mt-2 leading-snug" style="color: #B0B0B0;">Years building &amp; running digital operations</div>
           </div>
           <div>
-            <div class="stat-number">12</div>
-            <div class="text-xs mt-2 leading-snug" style="color: #777;">Countries operating in right now</div>
+            <div class="stat-number">4</div>
+            <div class="text-xs mt-2 leading-snug" style="color: #B0B0B0;">Languages spoken fluently</div>
           </div>
           <div>
             <div class="stat-number">16+</div>
-            <div class="text-xs mt-2 leading-snug" style="color: #777;">Years mentoring founders &amp; teams</div>
+            <div class="text-xs mt-2 leading-snug" style="color: #B0B0B0;">Years mentoring founders &amp; teams</div>
           </div>
         </div>
       </div>
@@ -260,7 +278,7 @@
       <div class="service-card" data-aos="fade-up" data-aos-delay="0">
         <div class="service-number">01</div>
         <h3 class="font-heading text-xl font-semibold mb-3">AI &amp; Product Direction</h3>
-        <p style="color: #777; font-size: 15px; line-height: 1.75; margin-bottom: 20px;">
+        <p style="color: #B0B0B0; font-size: 15px; line-height: 1.75; margin-bottom: 20px;">
           I turn AI from an idea into something teams actually use — embedded in product, operations, and decision-making. Not a proof of concept. Not a chatbot. Systems that change how the business runs.
         </p>
         <span style="color: #00D4FF; font-size: 13px; font-weight: 500;">AI Integration · Product Strategy · Workflow Automation →</span>
@@ -269,7 +287,7 @@
       <div class="service-card" data-aos="fade-up" data-aos-delay="80">
         <div class="service-number">02</div>
         <h3 class="font-heading text-xl font-semibold mb-3">0→1 Product Builds</h3>
-        <p style="color: #777; font-size: 15px; line-height: 1.75; margin-bottom: 20px;">
+        <p style="color: #B0B0B0; font-size: 15px; line-height: 1.75; margin-bottom: 20px;">
           I take products from zero to live — fast enough to matter, stable enough to scale. I've done this enough times to know where teams lose momentum and how to avoid it.
         </p>
         <span style="color: #00D4FF; font-size: 13px; font-weight: 500;">Product Development · MVP · Technical Direction →</span>
@@ -278,7 +296,7 @@
       <div class="service-card" data-aos="fade-up" data-aos-delay="160">
         <div class="service-number">03</div>
         <h3 class="font-heading text-xl font-semibold mb-3">Digital Operations &amp; Systems</h3>
-        <p style="color: #777; font-size: 15px; line-height: 1.75; margin-bottom: 20px;">
+        <p style="color: #B0B0B0; font-size: 15px; line-height: 1.75; margin-bottom: 20px;">
           I build the operational layer that keeps a digital business running — not just launching. Tooling, processes, data flows, integrations. The infrastructure that stops breaking when you scale.
         </p>
         <span style="color: #00D4FF; font-size: 13px; font-weight: 500;">Ops Systems · Data Infrastructure · Multi-market →</span>
@@ -287,7 +305,7 @@
       <div class="service-card" data-aos="fade-up" data-aos-delay="240">
         <div class="service-number">04</div>
         <h3 class="font-heading text-xl font-semibold mb-3">Founder &amp; Exec Decision Support</h3>
-        <p style="color: #777; font-size: 15px; line-height: 1.75; margin-bottom: 20px;">
+        <p style="color: #B0B0B0; font-size: 15px; line-height: 1.75; margin-bottom: 20px;">
           I help leadership teams make better decisions under pressure — with context, not theory. As a board advisor or sounding board for founders navigating inflection points.
         </p>
         <span style="color: #00D4FF; font-size: 13px; font-weight: 500;">Advisory · Board · Exec Coaching →</span>
@@ -313,18 +331,18 @@
       </div>
 
       <div data-aos="fade-left">
-        <p style="color: #aaa; font-size: 17px; line-height: 1.8; margin-bottom: 20px;">
+        <p style="color: #EAEAEA; font-size: 17px; line-height: 1.8; margin-bottom: 20px;">
           The hard part of AI isn't choosing a model. It's embedding it into workflows that real teams use under real pressure — with imperfect data, legacy systems, and people who weren't asking for it.
         </p>
-        <p style="color: #aaa; font-size: 17px; line-height: 1.8; margin-bottom: 20px;">
-          I've built AI into operations at Honest Greens across 12 markets. Not demos. Not pilots. Running systems that make decisions daily.
+        <p style="color: #EAEAEA; font-size: 17px; line-height: 1.8; margin-bottom: 20px;">
+          I've built AI into operations at Honest Greens across multiple international markets. Not demos. Not pilots. Running systems that make decisions daily.
         </p>
-        <p style="color: #666; font-size: 16px; line-height: 1.8;">
+        <p style="color: #B0B0B0; font-size: 16px; line-height: 1.8;">
           When I work on AI with external teams, I focus on integration, adoption, and outcomes — not hype.
         </p>
         <div class="mt-8 p-6 rounded-lg" style="border: 1px solid #1e1e1e; background: #111;">
-          <p style="color: #888; font-size: 14px; line-height: 1.7; margin-bottom: 12px;">What I focus on:</p>
-          <ul style="color: #aaa; font-size: 15px; line-height: 2; list-style: none; padding: 0;">
+          <p style="color: #B0B0B0; font-size: 14px; line-height: 1.7; margin-bottom: 12px;">What I focus on:</p>
+          <ul style="color: #EAEAEA; font-size: 15px; line-height: 2; list-style: none; padding: 0;">
             <li style="display:flex;gap:10px;"><span style="color:#00D4FF;">→</span> Connecting AI to the decisions that matter</li>
             <li style="display:flex;gap:10px;"><span style="color:#00D4FF;">→</span> Building for adoption, not just capability</li>
             <li style="display:flex;gap:10px;"><span style="color:#00D4FF;">→</span> Measuring outcomes, not activity</li>
@@ -351,42 +369,42 @@
     <div class="grid md:grid-cols-3 gap-5">
 
       <div class="service-card" data-aos="fade-up" data-aos-delay="0">
-        <h3 class="font-heading text-lg font-semibold mb-4" style="color: #00D4FF;">Scaling digital operations across markets</h3>
-        <p style="color: #777; font-size: 15px; line-height: 1.75; margin-bottom: 16px;">
-          Built and scaled digital systems across 12 markets inside fast-growing businesses. The challenge wasn't launching — it was making systems usable, reliable, and adopted daily across teams.
+        <h3 class="font-heading text-lg font-semibold mb-4" style="color: #00D4FF;">Scaling digital operations globally</h3>
+        <p style="color: #B0B0B0; font-size: 15px; line-height: 1.75; margin-bottom: 16px;">
+          Built and scaled digital systems across international markets inside fast-growing businesses. The challenge wasn't launching — it was making systems usable, reliable, and adopted daily across teams.
         </p>
-        <ul style="color: #666; font-size: 14px; line-height: 1.9; list-style: none; padding: 0;">
-          <li style="display:flex;gap:8px;"><span style="color:#1e1e1e;">→</span> Simplified operational workflows</li>
-          <li style="display:flex;gap:8px;"><span style="color:#1e1e1e;">→</span> Built tools teams actually use</li>
-          <li style="display:flex;gap:8px;"><span style="color:#1e1e1e;">→</span> Integrated AI where it improves decisions</li>
+        <ul style="color: #B0B0B0; font-size: 14px; line-height: 1.9; list-style: none; padding: 0;">
+          <li style="display:flex;gap:8px;"><span style="color:#00D4FF; flex-shrink:0;">→</span> Simplified operational workflows</li>
+          <li style="display:flex;gap:8px;"><span style="color:#00D4FF; flex-shrink:0;">→</span> Built tools teams actually use</li>
+          <li style="display:flex;gap:8px;"><span style="color:#00D4FF; flex-shrink:0;">→</span> Integrated AI where it improves decisions</li>
         </ul>
-        <p style="color: #555; font-size: 13px; margin-top: 16px; padding-top: 16px; border-top: 1px solid #1e1e1e;">Systems that support daily operations — not slideware, not experiments.</p>
+        <p style="color: #777; font-size: 13px; margin-top: 16px; padding-top: 16px; border-top: 1px solid #1e1e1e;">Systems that support daily operations — not slideware, not experiments.</p>
       </div>
 
       <div class="service-card" data-aos="fade-up" data-aos-delay="80">
         <h3 class="font-heading text-lg font-semibold mb-4" style="color: #00D4FF;">Product built from zero</h3>
-        <p style="color: #777; font-size: 15px; line-height: 1.75; margin-bottom: 16px;">
+        <p style="color: #B0B0B0; font-size: 15px; line-height: 1.75; margin-bottom: 16px;">
           Taken multiple products from concept to live — in environments where speed matters and resources are constrained. Each one built to be maintainable, not just launchable.
         </p>
-        <ul style="color: #666; font-size: 14px; line-height: 1.9; list-style: none; padding: 0;">
-          <li style="display:flex;gap:8px;"><span style="color:#1e1e1e;">→</span> Defined what to build and why</li>
-          <li style="display:flex;gap:8px;"><span style="color:#1e1e1e;">→</span> Led technical and product direction</li>
-          <li style="display:flex;gap:8px;"><span style="color:#1e1e1e;">→</span> Shipped and iterated under real constraints</li>
+        <ul style="color: #B0B0B0; font-size: 14px; line-height: 1.9; list-style: none; padding: 0;">
+          <li style="display:flex;gap:8px;"><span style="color:#00D4FF; flex-shrink:0;">→</span> Defined what to build and why</li>
+          <li style="display:flex;gap:8px;"><span style="color:#00D4FF; flex-shrink:0;">→</span> Led technical and product direction</li>
+          <li style="display:flex;gap:8px;"><span style="color:#00D4FF; flex-shrink:0;">→</span> Shipped and iterated under real constraints</li>
         </ul>
-        <p style="color: #555; font-size: 13px; margin-top: 16px; padding-top: 16px; border-top: 1px solid #1e1e1e;">Speed comes from clarity — knowing what not to build is half the work.</p>
+        <p style="color: #777; font-size: 13px; margin-top: 16px; padding-top: 16px; border-top: 1px solid #1e1e1e;">Speed comes from clarity — knowing what not to build is half the work.</p>
       </div>
 
       <div class="service-card" data-aos="fade-up" data-aos-delay="160">
         <h3 class="font-heading text-lg font-semibold mb-4" style="color: #00D4FF;">Leadership teams at inflection points</h3>
-        <p style="color: #777; font-size: 15px; line-height: 1.75; margin-bottom: 16px;">
+        <p style="color: #B0B0B0; font-size: 15px; line-height: 1.75; margin-bottom: 16px;">
           Worked alongside founders and exec teams at moments of real pressure — funding rounds, market expansion, leadership transitions, strategic pivots.
         </p>
-        <ul style="color: #666; font-size: 14px; line-height: 1.9; list-style: none; padding: 0;">
-          <li style="display:flex;gap:8px;"><span style="color:#1e1e1e;">→</span> Brought outside perspective without losing context</li>
-          <li style="display:flex;gap:8px;"><span style="color:#1e1e1e;">→</span> Challenged assumptions before they became expensive</li>
-          <li style="display:flex;gap:8px;"><span style="color:#1e1e1e;">→</span> Focused on the decision, not the deck</li>
+        <ul style="color: #B0B0B0; font-size: 14px; line-height: 1.9; list-style: none; padding: 0;">
+          <li style="display:flex;gap:8px;"><span style="color:#00D4FF; flex-shrink:0;">→</span> Outside perspective without losing context</li>
+          <li style="display:flex;gap:8px;"><span style="color:#00D4FF; flex-shrink:0;">→</span> Challenged assumptions before they got expensive</li>
+          <li style="display:flex;gap:8px;"><span style="color:#00D4FF; flex-shrink:0;">→</span> Focused on the decision, not the deck</li>
         </ul>
-        <p style="color: #555; font-size: 13px; margin-top: 16px; padding-top: 16px; border-top: 1px solid #1e1e1e;">Most companies don't have a strategy problem. They have a decision problem.</p>
+        <p style="color: #777; font-size: 13px; margin-top: 16px; padding-top: 16px; border-top: 1px solid #1e1e1e;">Most companies don't have a strategy problem. They have a decision problem.</p>
       </div>
 
     </div>
@@ -400,19 +418,19 @@
     <div class="grid grid-cols-2 md:grid-cols-4 gap-10 text-center">
       <div data-aos="fade-up" data-aos-delay="0">
         <div class="stat-number">20+</div>
-        <div class="text-sm mt-2" style="color: #777;">Years building &amp; running digital businesses</div>
+        <div class="text-sm mt-2" style="color: #B0B0B0;">Years building &amp; running digital businesses</div>
       </div>
       <div data-aos="fade-up" data-aos-delay="80">
-        <div class="stat-number">12</div>
-        <div class="text-sm mt-2" style="color: #777;">Countries in current operational remit</div>
+        <div class="stat-number">30+</div>
+        <div class="text-sm mt-2" style="color: #B0B0B0;">Businesses built, advised &amp; scaled</div>
       </div>
       <div data-aos="fade-up" data-aos-delay="160">
-        <div class="stat-number">30+</div>
-        <div class="text-sm mt-2" style="color: #777;">Businesses built, advised &amp; scaled</div>
+        <div class="stat-number">16+</div>
+        <div class="text-sm mt-2" style="color: #B0B0B0;">Years mentoring founders &amp; teams</div>
       </div>
       <div data-aos="fade-up" data-aos-delay="240">
-        <div class="stat-number">16+</div>
-        <div class="text-sm mt-2" style="color: #777;">Years mentoring founders &amp; teams</div>
+        <div class="stat-number">4</div>
+        <div class="text-sm mt-2" style="color: #B0B0B0;">Languages spoken fluently</div>
       </div>
     </div>
   </div>
@@ -437,16 +455,14 @@
 
       <a href="blog/agentic-ai-business-leaders.html" class="blog-card" data-aos="fade-up" data-aos-delay="0">
         <div class="blog-thumb" style="background: linear-gradient(135deg, #0e1a1f, #0a1214);">
-          <div style="text-align:center;">
-            <div style="font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: #00D4FF44; font-family: 'Space Grotesk', sans-serif;">Agentic AI</div>
-          </div>
+          <div style="font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: rgba(0,212,255,0.3); font-family: 'Space Grotesk', sans-serif;">Agentic AI</div>
         </div>
         <div class="p-6">
           <span class="blog-tag">AI &amp; Technology</span>
           <h3 class="font-heading text-base font-semibold mt-3 mb-2 leading-snug text-white">What agentic AI means for business leaders — and why the window to get ahead is closing</h3>
-          <p style="color: #777; font-size: 13px; line-height: 1.7;">Agentic AI doesn't just answer questions — it takes actions, runs sequences, and operates autonomously.</p>
+          <p style="color: #B0B0B0; font-size: 13px; line-height: 1.7;">Agentic AI doesn't just answer questions — it takes actions, runs sequences, and operates autonomously.</p>
           <div class="flex items-center justify-between mt-5">
-            <span style="font-size: 12px; color: #555;">27 Mar · 7 min read</span>
+            <span style="font-size: 12px; color: #777;">27 Mar · 7 min read</span>
             <span class="blog-arrow">→</span>
           </div>
         </div>
@@ -454,16 +470,14 @@
 
       <a href="blog/shadow-ai-boards.html" class="blog-card" data-aos="fade-up" data-aos-delay="80">
         <div class="blog-thumb" style="background: linear-gradient(135deg, #1a0e0e, #120a0a);">
-          <div style="text-align:center;">
-            <div style="font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: #FF444444; font-family: 'Space Grotesk', sans-serif;">Shadow AI</div>
-          </div>
+          <div style="font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: rgba(255,80,80,0.3); font-family: 'Space Grotesk', sans-serif;">Shadow AI</div>
         </div>
         <div class="p-6">
           <span class="blog-tag">AI &amp; Technology</span>
           <h3 class="font-heading text-base font-semibold mt-3 mb-2 leading-snug text-white">What boards need to know about shadow AI right now</h3>
-          <p style="color: #777; font-size: 13px; line-height: 1.7;">Shadow AI is already inside your organisation. Here's what boards need to understand about the risk.</p>
+          <p style="color: #B0B0B0; font-size: 13px; line-height: 1.7;">Shadow AI is already inside your organisation. Here's what boards need to understand about the risk.</p>
           <div class="flex items-center justify-between mt-5">
-            <span style="font-size: 12px; color: #555;">26 Mar · 6 min read</span>
+            <span style="font-size: 12px; color: #777;">26 Mar · 6 min read</span>
             <span class="blog-arrow">→</span>
           </div>
         </div>
@@ -471,16 +485,14 @@
 
       <a href="blog/digital-transformation-failures.html" class="blog-card" data-aos="fade-up" data-aos-delay="160">
         <div class="blog-thumb" style="background: linear-gradient(135deg, #0f1a0e, #0a120a);">
-          <div style="text-align:center;">
-            <div style="font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: #44FF4444; font-family: 'Space Grotesk', sans-serif;">Transformation</div>
-          </div>
+          <div style="font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: rgba(80,200,80,0.3); font-family: 'Space Grotesk', sans-serif;">Transformation</div>
         </div>
         <div class="p-6">
           <span class="blog-tag">Leadership</span>
           <h3 class="font-heading text-base font-semibold mt-3 mb-2 leading-snug text-white">Why digital transformation fails — and what actually works</h3>
-          <p style="color: #777; font-size: 13px; line-height: 1.7;">Most transformations fail not because of technology but because of three leadership failures.</p>
+          <p style="color: #B0B0B0; font-size: 13px; line-height: 1.7;">Most transformations fail not because of technology but because of three leadership failures.</p>
           <div class="flex items-center justify-between mt-5">
-            <span style="font-size: 12px; color: #555;">25 Mar · 7 min read</span>
+            <span style="font-size: 12px; color: #777;">25 Mar · 7 min read</span>
             <span class="blog-arrow">→</span>
           </div>
         </div>
@@ -508,40 +520,40 @@
     <div class="grid md:grid-cols-3 gap-5 mb-5">
 
       <div class="testimonial-card" data-aos="fade-up" data-aos-delay="0">
-        <p style="color: #ccc; font-size: 15px; line-height: 1.75; font-style: italic; margin-bottom: 24px;">
+        <p style="color: #EAEAEA; font-size: 15px; line-height: 1.75; font-style: italic; margin-bottom: 24px;">
           "Stewart cuts through noise and brings immediate clarity to complex problems. He doesn't just advise — he drives momentum."
         </p>
         <div class="flex items-center gap-3">
-          <div style="width:40px; height:40px; border-radius:50%; background:#1a1a1a; border:1px solid #2a2a2a; display:flex; align-items:center; justify-content:center; font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:13px; color:#555;">ML</div>
+          <div style="width:40px; height:40px; border-radius:50%; background:#1a1a1a; border:1px solid #2a2a2a; display:flex; align-items:center; justify-content:center; font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:13px; color:#666;">ML</div>
           <div>
-            <div class="font-heading font-medium text-sm">Minka Monica Li</div>
-            <div style="font-size: 12px; color: #555;">Commercial Strategy &amp; Operations · ex-ClassPass</div>
+            <div class="font-heading font-medium text-sm text-white">Minka Monica Li</div>
+            <div style="font-size: 12px; color: #777;">Commercial Strategy &amp; Operations · ex-ClassPass</div>
           </div>
         </div>
       </div>
 
       <div class="testimonial-card" data-aos="fade-up" data-aos-delay="80">
-        <p style="color: #ccc; font-size: 15px; line-height: 1.75; font-style: italic; margin-bottom: 24px;">
+        <p style="color: #EAEAEA; font-size: 15px; line-height: 1.75; font-style: italic; margin-bottom: 24px;">
           "No-nonsense, high-energy, and always pushing for better solutions. Stewart challenges assumptions and gets things moving."
         </p>
         <div class="flex items-center gap-3">
-          <div style="width:40px; height:40px; border-radius:50%; background:#1a1a1a; border:1px solid #2a2a2a; display:flex; align-items:center; justify-content:center; font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:13px; color:#555;">JM</div>
+          <div style="width:40px; height:40px; border-radius:50%; background:#1a1a1a; border:1px solid #2a2a2a; display:flex; align-items:center; justify-content:center; font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:13px; color:#666;">JM</div>
           <div>
-            <div class="font-heading font-medium text-sm">Jonathon Matthysen</div>
-            <div style="font-size: 12px; color: #555;">Global Sales Trainer</div>
+            <div class="font-heading font-medium text-sm text-white">Jonathon Matthysen</div>
+            <div style="font-size: 12px; color: #777;">Global Sales Trainer</div>
           </div>
         </div>
       </div>
 
       <div class="testimonial-card" data-aos="fade-up" data-aos-delay="160">
-        <p style="color: #ccc; font-size: 15px; line-height: 1.75; font-style: italic; margin-bottom: 24px;">
+        <p style="color: #EAEAEA; font-size: 15px; line-height: 1.75; font-style: italic; margin-bottom: 24px;">
           "Stewart has a rare ability to combine long-term strategic thinking with practical, day-to-day decision making. He helped me level up fast."
         </p>
         <div class="flex items-center gap-3">
-          <div style="width:40px; height:40px; border-radius:50%; background:#1a1a1a; border:1px solid #2a2a2a; display:flex; align-items:center; justify-content:center; font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:13px; color:#555;">DB</div>
+          <div style="width:40px; height:40px; border-radius:50%; background:#1a1a1a; border:1px solid #2a2a2a; display:flex; align-items:center; justify-content:center; font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:13px; color:#666;">DB</div>
           <div>
-            <div class="font-heading font-medium text-sm">Damien Bruneau</div>
-            <div style="font-size: 12px; color: #555;">Entrepreneur</div>
+            <div class="font-heading font-medium text-sm text-white">Damien Bruneau</div>
+            <div style="font-size: 12px; color: #777;">Entrepreneur</div>
           </div>
         </div>
       </div>
@@ -551,27 +563,27 @@
     <div class="grid md:grid-cols-2 gap-5">
 
       <div class="testimonial-card" data-aos="fade-up" data-aos-delay="0">
-        <p style="color: #ccc; font-size: 15px; line-height: 1.75; font-style: italic; margin-bottom: 24px;">
+        <p style="color: #EAEAEA; font-size: 15px; line-height: 1.75; font-style: italic; margin-bottom: 24px;">
           "His understanding of customers and product is sharp. He helped us define strategy, communication, and what actually mattered."
         </p>
         <div class="flex items-center gap-3">
-          <div style="width:40px; height:40px; border-radius:50%; background:#1a1a1a; border:1px solid #2a2a2a; display:flex; align-items:center; justify-content:center; font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:13px; color:#555;">BC</div>
+          <div style="width:40px; height:40px; border-radius:50%; background:#1a1a1a; border:1px solid #2a2a2a; display:flex; align-items:center; justify-content:center; font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:13px; color:#666;">BC</div>
           <div>
-            <div class="font-heading font-medium text-sm">Blai Carandell Saladich</div>
-            <div style="font-size: 12px; color: #555;">CEO · NOBA</div>
+            <div class="font-heading font-medium text-sm text-white">Blai Carandell Saladich</div>
+            <div style="font-size: 12px; color: #777;">CEO · NOBA</div>
           </div>
         </div>
       </div>
 
       <div class="testimonial-card" data-aos="fade-up" data-aos-delay="80">
-        <p style="color: #ccc; font-size: 15px; line-height: 1.75; font-style: italic; margin-bottom: 24px;">
+        <p style="color: #EAEAEA; font-size: 15px; line-height: 1.75; font-style: italic; margin-bottom: 24px;">
           "He raises the standard of everyone around him. Calm, direct, and focused on getting to the right outcome."
         </p>
         <div class="flex items-center gap-3">
-          <div style="width:40px; height:40px; border-radius:50%; background:#1a1a1a; border:1px solid #2a2a2a; display:flex; align-items:center; justify-content:center; font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:13px; color:#555;">AV</div>
+          <div style="width:40px; height:40px; border-radius:50%; background:#1a1a1a; border:1px solid #2a2a2a; display:flex; align-items:center; justify-content:center; font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:13px; color:#666;">AV</div>
           <div>
-            <div class="font-heading font-medium text-sm">Aleix Ventayol</div>
-            <div style="font-size: 12px; color: #555;">CEO · Bugfender</div>
+            <div class="font-heading font-medium text-sm text-white">Aleix Ventayol</div>
+            <div style="font-size: 12px; color: #777;">CEO · Bugfender</div>
           </div>
         </div>
       </div>
@@ -591,10 +603,10 @@
         <h2 class="font-heading text-4xl md:text-5xl font-bold leading-tight mb-6">
           Selective by design.
         </h2>
-        <p style="color: #aaa; font-size: 17px; line-height: 1.8; margin-bottom: 20px;">
+        <p style="color: #EAEAEA; font-size: 17px; line-height: 1.8; margin-bottom: 20px;">
           Not widely available — intentionally. Honest Greens is my primary role. External work is limited to a handful of situations per year where the problem is real and the team is ready to move.
         </p>
-        <p style="color: #666; font-size: 16px; line-height: 1.8; margin-bottom: 32px;">
+        <p style="color: #B0B0B0; font-size: 16px; line-height: 1.8; margin-bottom: 32px;">
           If you're a founder or leadership team navigating a genuine inflection point — AI adoption, digital operations at scale, 0→1 product, or a decision that needs outside perspective — that's where I get involved.
         </p>
         <a href="#contact" class="btn-primary">Start a Conversation</a>
@@ -603,20 +615,20 @@
       <div data-aos="fade-left">
         <div class="space-y-5">
           <div style="background:#121212; border:1px solid #1e1e1e; border-radius:8px; padding:24px;">
-            <div style="color:#00D4FF; font-size:12px; font-weight:500; letter-spacing:2px; text-transform:uppercase; margin-bottom:10px;">What fits</div>
-            <ul style="color:#aaa; font-size:15px; line-height:2; list-style:none; padding:0;">
-              <li style="display:flex;gap:10px;"><span style="color:#00D4FF;">→</span> AI integration with real operational stakes</li>
-              <li style="display:flex;gap:10px;"><span style="color:#00D4FF;">→</span> Digital systems that need to work across markets</li>
-              <li style="display:flex;gap:10px;"><span style="color:#00D4FF;">→</span> Products that need to ship, not just get planned</li>
-              <li style="display:flex;gap:10px;"><span style="color:#00D4FF;">→</span> Leadership teams that need direct input, not decks</li>
+            <div style="color:#00D4FF; font-size:12px; font-weight:500; letter-spacing:2px; text-transform:uppercase; margin-bottom:12px;">What fits</div>
+            <ul style="color:#EAEAEA; font-size:15px; line-height:2; list-style:none; padding:0;">
+              <li style="display:flex;gap:10px;"><span style="color:#00D4FF; flex-shrink:0;">→</span> AI integration with real operational stakes</li>
+              <li style="display:flex;gap:10px;"><span style="color:#00D4FF; flex-shrink:0;">→</span> Digital systems that need to work across markets</li>
+              <li style="display:flex;gap:10px;"><span style="color:#00D4FF; flex-shrink:0;">→</span> Products that need to ship, not just get planned</li>
+              <li style="display:flex;gap:10px;"><span style="color:#00D4FF; flex-shrink:0;">→</span> Leadership teams that need direct input, not decks</li>
             </ul>
           </div>
           <div style="background:#121212; border:1px solid #1e1e1e; border-radius:8px; padding:24px;">
-            <div style="color:#444; font-size:12px; font-weight:500; letter-spacing:2px; text-transform:uppercase; margin-bottom:10px;">What doesn't</div>
-            <ul style="color:#555; font-size:15px; line-height:2; list-style:none; padding:0;">
-              <li style="display:flex;gap:10px;"><span style="color:#333;">→</span> Long strategy engagements with no execution mandate</li>
-              <li style="display:flex;gap:10px;"><span style="color:#333;">→</span> Organisations not ready to act on what they find</li>
-              <li style="display:flex;gap:10px;"><span style="color:#333;">→</span> Speaking gigs as the primary deliverable</li>
+            <div style="color:#666; font-size:12px; font-weight:500; letter-spacing:2px; text-transform:uppercase; margin-bottom:12px;">What doesn't</div>
+            <ul style="color: #777; font-size:15px; line-height:2; list-style:none; padding:0;">
+              <li style="display:flex;gap:10px;"><span style="color:#444; flex-shrink:0;">→</span> Long strategy engagements with no execution mandate</li>
+              <li style="display:flex;gap:10px;"><span style="color:#444; flex-shrink:0;">→</span> Organisations not ready to act on what they find</li>
+              <li style="display:flex;gap:10px;"><span style="color:#444; flex-shrink:0;">→</span> Speaking gigs as the primary deliverable</li>
             </ul>
           </div>
         </div>
@@ -637,7 +649,7 @@
         If you're working on<br>
         <span class="gradient-text">something that actually matters —</span>
       </h2>
-      <p style="color: #666; font-size: 17px; margin-bottom: 40px; max-width: 480px; margin-left: auto; margin-right: auto; line-height: 1.7;">
+      <p style="color: #B0B0B0; font-size: 19px; margin-bottom: 40px; max-width: 480px; margin-left: auto; margin-right: auto; line-height: 1.6;">
         reach out.
       </p>
       <a href="mailto:hello@stewartmasters.me" class="btn-primary" style="font-size: 16px; padding: 16px 40px;">
