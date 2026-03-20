@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI vs Automation: What Businesses Get Wrong | Stewart Masters</title>
+  <meta name="description" content="Most businesses are confusing AI with automation. They're related but different. Getting the distinction right changes what you build and where you invest.">
+  <meta property="og:title" content="AI vs Automation: What Businesses Get Wrong">
+  <meta property="og:description" content="Most businesses are confusing AI with automation. They're related but different. Getting the distinction right changes what you build and where you invest.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://stewartmasters.me/blog/ai-vs-automation.html">
+  <meta property="og:site_name" content="Stewart Masters">
+  <meta property="og:image" content="https://stewartmasters.me/blog/images/ai-vs-automation.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AI vs Automation: What Businesses Get Wrong">
+  <meta name="twitter:description" content="Most businesses are confusing AI with automation. They're related but different. Getting the distinction right changes what you build and where you invest.">
+  <link rel="canonical" href="https://stewartmasters.me/blog/ai-vs-automation.html">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --cyan: #00D4FF; --bg: #0a0a0a; --surface: #111; --border: #1e1e1e; --text: #e0e0e0; --muted: #888; }
+    body { background: var(--bg); color: var(--text); font-family: 'Space Grotesk', sans-serif; line-height: 1.6; }
+    a { color: inherit; }
+    .max-container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    nav { border-bottom: 1px solid var(--border); padding: 16px 0; position: sticky; top: 0; background: rgba(10,10,10,0.95); backdrop-filter: blur(10px); z-index: 100; }
+    .nav-inner { display: flex; align-items: center; justify-content: space-between; }
+    .nav-logo { font-weight: 700; font-size: 18px; text-decoration: none; color: #fff; }
+    .nav-links { display: flex; align-items: center; gap: 32px; }
+    .nav-link { text-decoration: none; color: var(--muted); font-size: 14px; transition: color 0.2s; }
+    .nav-link:hover { color: #fff; }
+    .btn-primary { background: var(--cyan); color: #000; padding: 8px 20px; border-radius: 6px; font-weight: 600; font-size: 14px; text-decoration: none; transition: opacity 0.2s; }
+    .btn-primary:hover { opacity: 0.85; }
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; background: none; border: none; padding: 4px; }
+    .hamburger span { display: block; width: 22px; height: 2px; background: #fff; border-radius: 2px; transition: all 0.3s; }
+    #mobile-menu { display: none; flex-direction: column; gap: 16px; padding: 20px 0; border-top: 1px solid var(--border); }
+    #mobile-menu.open { display: flex; }
+    .blog-header { padding: 48px 0 32px; }
+    .breadcrumb { font-size: 13px; color: var(--muted); margin-bottom: 16px; }
+    .breadcrumb a { color: var(--muted); text-decoration: none; }
+    .breadcrumb a:hover { color: #fff; }
+    .blog-category { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: 2px; color: var(--cyan); text-transform: uppercase; margin-bottom: 12px; }
+    .blog-title { font-size: clamp(28px, 5vw, 48px); font-weight: 700; line-height: 1.15; color: #fff; margin-bottom: 16px; max-width: 800px; }
+    .blog-meta { font-size: 13px; color: var(--muted); }
+    .hero-image { width: 100%; border-radius: 12px; margin-bottom: 48px; display: block; }
+    .prose-container { max-width: 720px; }
+    .prose h2 { font-size: 22px; font-weight: 700; color: #fff; margin: 40px 0 16px; }
+    .prose p { font-size: 16px; line-height: 1.8; color: #ccc; margin-bottom: 20px; }
+    .prose ul { margin: 0 0 20px 0; padding: 0; list-style: none; }
+    .prose ul li { font-size: 16px; line-height: 1.8; color: #ccc; padding-left: 24px; position: relative; margin-bottom: 8px; }
+    .prose ul li::before { content: '→'; color: var(--cyan); position: absolute; left: 0; }
+    .prose strong { color: #fff; font-weight: 600; }
+    .author-bio { border-top: 1px solid var(--border); padding-top: 40px; margin-top: 48px; display: flex; gap: 20px; align-items: flex-start; }
+    .author-avatar { width: 56px; height: 56px; border-radius: 50%; background: linear-gradient(135deg, #00D4FF22, #00D4FF44); border: 1px solid #00D4FF33; display: flex; align-items: center; justify-content: center; font-size: 20px; font-weight: 700; color: var(--cyan); flex-shrink: 0; }
+    .author-name { font-weight: 600; color: #fff; margin-bottom: 4px; }
+    .author-desc { font-size: 14px; color: var(--muted); line-height: 1.6; }
+    .related-section { padding: 64px 0; border-top: 1px solid var(--border); margin-top: 80px; }
+    .related-title { font-size: 13px; font-weight: 600; letter-spacing: 3px; color: var(--muted); text-transform: uppercase; margin-bottom: 32px; }
+    .related-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .blog-card { background: #121212; border: 1px solid var(--border); border-radius: 10px; overflow: hidden; text-decoration: none; display: block; transition: border-color 0.3s, transform 0.3s; }
+    .blog-card:hover { border-color: #2a2a2a; transform: translateY(-4px); }
+    .blog-card-tag { font-size: 10px; font-weight: 700; letter-spacing: 2px; color: var(--cyan); text-transform: uppercase; }
+    .blog-card-title { font-size: 15px; font-weight: 600; color: #fff; line-height: 1.4; margin: 8px 0 12px; }
+    .blog-card-meta { font-size: 12px; color: var(--muted); }
+    .blog-arrow { color: var(--cyan); font-size: 18px; }
+    footer { border-top: 1px solid var(--border); padding: 40px 0; }
+    .footer-inner { display: flex; align-items: center; justify-content: space-between; }
+    .footer-copy { font-size: 13px; color: var(--muted); }
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .hamburger { display: flex; }
+      .related-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "AI vs Automation: What Businesses Get Wrong",
+    "description": "Most businesses are confusing AI with automation. They're related but different. Getting the distinction right changes what you build and where you invest.",
+    "author": { "@type": "Person", "name": "Stewart Masters", "url": "https://stewartmasters.me" },
+    "publisher": { "@type": "Person", "name": "Stewart Masters", "url": "https://stewartmasters.me" },
+    "datePublished": "2026-04-23",
+    "dateModified": "2026-04-23",
+    "url": "https://stewartmasters.me/blog/ai-vs-automation.html",
+    "image": "https://stewartmasters.me/blog/images/ai-vs-automation.svg"
+  }
+  </script>
+</head>
+<body>
+  <nav>
+    <div class="max-container">
+      <div class="nav-inner">
+        <a href="/" class="nav-logo">Stewart Masters</a>
+        <div class="nav-links">
+          <a href="/about.html" class="nav-link">About</a>
+          <a href="/services.html" class="nav-link">Services</a>
+          <a href="/blog/" class="nav-link">Blog</a>
+          <a href="/contact.html" class="btn-primary">Get in touch</a>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <div id="mobile-menu">
+        <a href="/about.html" class="nav-link">About</a>
+        <a href="/services.html" class="nav-link">Services</a>
+        <a href="/blog/" class="nav-link">Blog</a>
+        <a href="/contact.html" class="btn-primary" style="text-align:center;">Get in touch</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="blog-header">
+    <div class="max-container">
+      <div class="prose-container">
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="/blog/">Blog</a> / AI vs Automation: What Businesses Get Wrong</div>
+        <div class="blog-category">AI &amp; Technology</div>
+        <h1 class="blog-title">AI vs Automation: What Businesses Get Wrong</h1>
+        <div class="blog-meta">23 April 2026 · 5 min read</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="max-container">
+    <img src="/blog/images/ai-vs-automation.svg" alt="AI vs automation — key differences and when to use each" class="hero-image">
+  </div>
+
+  <div class="max-container" style="padding-bottom: 80px;">
+    <div class="prose-container">
+      <div class="prose">
+
+        <p>Automation and AI are not the same thing. They're related, they often overlap, and they're frequently confused — but confusing them leads to the wrong decisions about where to invest, what to build, and what to expect. Getting the distinction right matters practically.</p>
+
+        <h2>What automation actually is</h2>
+        <p>Automation executes a defined set of rules without human intervention. If condition A, do B. If field X is empty, send email Y. When order arrives, trigger fulfilment workflow. The logic is explicit, the inputs are structured, and the outputs are predictable. Automation is deterministic — the same inputs always produce the same outputs.</p>
+        <p>Automation has been central to business operations for decades. It underpins enterprise resource planning, supply chain management, financial reporting, and most of the back-office processes that keep organisations running. It works extremely well for tasks that are high-volume, rule-based, and consistent. It doesn't cope with variability — when inputs fall outside the defined cases, automation fails or escalates.</p>
+
+        <h2>What AI actually is</h2>
+        <p>AI systems learn patterns from data and use those patterns to make predictions or decisions about inputs they haven't seen before. They're probabilistic rather than deterministic — the same input might produce slightly different outputs depending on the model's confidence and the context. AI handles variability well, but introduces uncertainty that automation doesn't have.</p>
+        <p>The practical difference: automation is good for "if the invoice matches the purchase order, approve it." AI is better suited to "given this customer's behaviour history, predict their likelihood of churn" or "given this image, does it contain a defect?" One requires explicit rules; the other requires learned patterns from examples.</p>
+
+        <h2>Where businesses get confused</h2>
+        <p>The most common confusion is applying AI to problems that are better solved by automation — and vice versa. Using a machine learning model to route support tickets when a simple decision tree would work just as well is an expensive way to achieve the same outcome. Conversely, trying to automate a process that handles too much variability produces a brittle system that breaks constantly and requires disproportionate maintenance.</p>
+        <p>A second common mistake is treating AI as a replacement for automation infrastructure. AI can make better decisions within a process; it doesn't replace the operational systems that execute those decisions. An AI model that predicts demand doesn't replace the procurement workflow — it informs it. The model and the workflow need to be connected, and the automation layer is still necessary.</p>
+
+        <h2>The question worth asking first</h2>
+        <p>Before labelling something an "AI project," it's worth asking: is this problem fundamentally about handling variability, or is it fundamentally about reducing manual effort in a consistent process? If it's the latter, automation is probably the right answer — faster to build, cheaper to maintain, and easier to audit. If it's the former, AI may be warranted, but the data requirements and the tolerance for probabilistic outputs need to be understood upfront.</p>
+        <p>The best digital operations use both. Automation handles the high-volume, rules-based work reliably and cheaply. AI handles the judgment calls — the cases where pattern recognition from historical data produces better decisions than explicit rules. Knowing which is which, and building accordingly, is one of the most practically important distinctions in digital operations.</p>
+
+        <h2>When they overlap</h2>
+        <p>The clearest example of the overlap is intelligent process automation — workflows that combine traditional automation with AI components. The automation handles data routing, system integration, and execution. The AI handles the decisions that require judgment within the workflow. Getting this combination right requires understanding both what automation can and can't do, and what AI can and can't do, and being clear about where one ends and the other begins.</p>
+        <p>Neither tool is better than the other. They have different strengths, different failure modes, and different costs. The organisations that use both effectively understand the distinction and design accordingly.</p>
+
+      </div>
+
+      <div class="author-bio">
+        <div class="author-avatar">SM</div>
+        <div>
+          <div class="author-name">Stewart Masters</div>
+          <div class="author-desc">Stewart is a digital and technology executive advisor working with boards, founders, and senior leadership teams across ANZ and Asia. He specialises in digital strategy, AI adoption, and building high-performance technology organisations.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="related-section">
+    <div class="max-container">
+      <div class="related-title">Related Articles</div>
+      <div class="related-grid">
+
+        <a href="/blog/automate-wrong-things.html" class="blog-card">
+          <div style="height:140px;background:linear-gradient(135deg, #0d1520 0%, #0a2040 100%);display:flex;align-items:flex-end;padding:16px;">
+            <span class="blog-card-tag">Digital Strategy</span>
+          </div>
+          <div style="padding:20px;">
+            <div class="blog-card-title">Why Companies Automate the Wrong Things</div>
+            <div style="display:flex;justify-content:space-between;align-items:center;">
+              <div class="blog-card-meta">Digital Strategy · 6 min</div>
+              <span class="blog-arrow">→</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="/blog/ai-implementation-operations.html" class="blog-card">
+          <div style="height:140px;background:linear-gradient(135deg, #0d1520 0%, #0a2040 100%);display:flex;align-items:flex-end;padding:16px;">
+            <span class="blog-card-tag">AI &amp; Technology</span>
+          </div>
+          <div style="padding:20px;">
+            <div class="blog-card-title">How to Actually Implement AI in Operations</div>
+            <div style="display:flex;justify-content:space-between;align-items:center;">
+              <div class="blog-card-meta">22 April 2026 · 6 min</div>
+              <span class="blog-arrow">→</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="/blog/why-ai-projects-fail.html" class="blog-card">
+          <div style="height:140px;background:linear-gradient(135deg, #0d1520 0%, #0a2040 100%);display:flex;align-items:flex-end;padding:16px;">
+            <span class="blog-card-tag">AI &amp; Technology</span>
+          </div>
+          <div style="padding:20px;">
+            <div class="blog-card-title">Why Most AI Projects Fail in Companies</div>
+            <div style="display:flex;justify-content:space-between;align-items:center;">
+              <div class="blog-card-meta">21 April 2026 · 6 min</div>
+              <span class="blog-arrow">→</span>
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="max-container">
+      <div class="footer-inner">
+        <div class="footer-copy">© 2026 Stewart Masters</div>
+        <a href="https://www.linkedin.com/in/stewartmasters/" target="_blank" rel="noopener" class="nav-link" style="font-size: 13px;">LinkedIn →</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobile-menu');
+    hamburger.addEventListener('click', () => { mobileMenu.classList.toggle('open'); });
+  </script>
+</body>
+</html>

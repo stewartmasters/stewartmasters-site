@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0d12"/>
+      <stop offset="100%" style="stop-color:#0d1018"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="600" y="55" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#00D4FF" opacity="0.6" letter-spacing="4" text-anchor="middle">AI &amp; TECHNOLOGY</text>
+  <text x="600" y="88" font-family="'Space Grotesk', sans-serif" font-size="25" font-weight="700" fill="#fff" opacity="0.9" text-anchor="middle">What to Build First When Adding AI to Your Product</text>
+
+  <!-- Section header -->
+  <text x="600" y="122" font-family="'Space Grotesk', sans-serif" font-size="9" fill="#00D4FF" opacity="0.4" letter-spacing="3" text-anchor="middle">CRITERIA FOR A GOOD FIRST AI FEATURE</text>
+  <line x1="200" y1="130" x2="1000" y2="130" stroke="#1a2a3a" stroke-width="0.5"/>
+
+  <!-- 4 criteria boxes top row -->
+  <rect x="60" y="142" width="255" height="110" rx="5" fill="#0a1820" stroke="#00D4FF" stroke-width="1" opacity="0.5"/>
+  <text x="187" y="167" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600" fill="#00D4FF" text-anchor="middle" opacity="0.9">Narrow in scope</text>
+  <text x="187" y="187" font-family="monospace" font-size="8" fill="#2a7090" text-anchor="middle">Not to demonstrate potential</text>
+  <text x="187" y="203" font-family="monospace" font-size="8" fill="#1a5070" text-anchor="middle">But to deliver one clear thing</text>
+  <text x="187" y="219" font-family="monospace" font-size="8" fill="#1a4060" text-anchor="middle">Breadth later. Depth first.</text>
+  <rect x="80" y="234" width="215" height="4" rx="2" fill="#00D4FF" opacity="0.15"/>
+
+  <rect x="335" y="142" width="255" height="110" rx="5" fill="#0a1820" stroke="#00D4FF" stroke-width="1" opacity="0.4"/>
+  <text x="462" y="167" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600" fill="#00D4FF" text-anchor="middle" opacity="0.8">High signal value</text>
+  <text x="462" y="187" font-family="monospace" font-size="8" fill="#2a7090" text-anchor="middle">Generates clear, measurable feedback</text>
+  <text x="462" y="203" font-family="monospace" font-size="8" fill="#1a5070" text-anchor="middle">Did it help? Where did it fail?</text>
+  <text x="462" y="219" font-family="monospace" font-size="8" fill="#1a4060" text-anchor="middle">Signal &gt; engagement metrics</text>
+  <rect x="355" y="234" width="215" height="4" rx="2" fill="#00D4FF" opacity="0.12"/>
+
+  <rect x="610" y="142" width="255" height="110" rx="5" fill="#0a1820" stroke="#00D4FF" stroke-width="1" opacity="0.35"/>
+  <text x="737" y="167" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600" fill="#00D4FF" text-anchor="middle" opacity="0.7">Low cost of failure</text>
+  <text x="737" y="187" font-family="monospace" font-size="8" fill="#2a7090" text-anchor="middle">AI fails in unpredictable ways</text>
+  <text x="737" y="203" font-family="monospace" font-size="8" fill="#1a5070" text-anchor="middle">Choose where errors are recoverable</text>
+  <text x="737" y="219" font-family="monospace" font-size="8" fill="#1a4060" text-anchor="middle">User notices, nothing bad happens</text>
+  <rect x="630" y="234" width="215" height="4" rx="2" fill="#00D4FF" opacity="0.1"/>
+
+  <rect x="885" y="142" width="255" height="110" rx="5" fill="#0a1820" stroke="#00D4FF" stroke-width="1" opacity="0.3"/>
+  <text x="1012" y="167" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600" fill="#00D4FF" text-anchor="middle" opacity="0.65">Real user problem</text>
+  <text x="1012" y="187" font-family="monospace" font-size="8" fill="#2a7090" text-anchor="middle">Users asked for it, or data shows friction</text>
+  <text x="1012" y="203" font-family="monospace" font-size="8" fill="#1a5070" text-anchor="middle">Not: demonstrate AI exists</text>
+  <text x="1012" y="219" font-family="monospace" font-size="8" fill="#1a4060" text-anchor="middle">Yes: remove documented pain</text>
+  <rect x="905" y="234" width="215" height="4" rx="2" fill="#00D4FF" opacity="0.08"/>
+
+  <!-- Works / Doesn't work section -->
+  <text x="310" y="280" font-family="'Space Grotesk', sans-serif" font-size="9" fill="#00D4FF" opacity="0.5" letter-spacing="2" text-anchor="middle">TENDS TO WORK</text>
+  <text x="890" y="280" font-family="'Space Grotesk', sans-serif" font-size="9" fill="#903030" opacity="0.5" letter-spacing="2" text-anchor="middle">TENDS TO FAIL</text>
+  <line x1="80" y1="288" x2="540" y2="288" stroke="#1a3040" stroke-width="0.5"/>
+  <line x1="660" y1="288" x2="1120" y2="288" stroke="#1a1818" stroke-width="0.5"/>
+
+  <!-- Good first features -->
+  <rect x="60" y="298" width="490" height="200" rx="6" fill="#0a1820" stroke="#00D4FF" stroke-width="0.5" opacity="0.35"/>
+  <text x="100" y="325" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" opacity="0.7">Intelligent summarisation</text>
+  <text x="305" y="342" font-family="monospace" font-size="8" fill="#1a5070" text-anchor="middle">Content users already produce → summarised · output visible + revisable</text>
+  <line x1="80" y1="354" x2="530" y2="354" stroke="#1a3040" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <text x="100" y="374" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" opacity="0.65">Smart search and retrieval</text>
+  <text x="305" y="391" font-family="monospace" font-size="8" fill="#1a4060" text-anchor="middle">Semantic search over existing corpus · clear success metric · good foundation</text>
+  <line x1="80" y1="403" x2="530" y2="403" stroke="#1a3040" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <text x="100" y="423" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" opacity="0.6">First-draft generation</text>
+  <text x="305" y="440" font-family="monospace" font-size="8" fill="#1a3850" text-anchor="middle">Starting point for content users already produce · immediately revisable</text>
+  <rect x="80" y="476" width="450" height="4" rx="2" fill="#00D4FF" opacity="0.08"/>
+
+  <!-- Bad first features -->
+  <rect x="660" y="298" width="480" height="200" rx="6" fill="#100808" stroke="#903030" stroke-width="0.5" opacity="0.35"/>
+  <text x="700" y="325" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#903030" opacity="0.7">The chatbot</text>
+  <text x="900" y="342" font-family="monospace" font-size="8" fill="#5a2020" text-anchor="middle">Visible failures damage trust · confident wrong answers · hard to recover from</text>
+  <line x1="680" y1="354" x2="1120" y2="354" stroke="#2a1818" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <text x="700" y="374" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#903030" opacity="0.65">Personalisation</text>
+  <text x="900" y="391" font-family="monospace" font-size="8" fill="#4a1a1a" text-anchor="middle">Needs data infrastructure you don't have yet · coarse personalisation isn't personal</text>
+  <line x1="680" y1="403" x2="1120" y2="403" stroke="#2a1818" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <text x="700" y="423" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#903030" opacity="0.6">Prediction without action pathway</text>
+  <text x="900" y="440" font-family="monospace" font-size="8" fill="#3a1515" text-anchor="middle">Churn scores, risk ratings — without telling users what to do with them</text>
+  <rect x="680" y="476" width="420" height="4" rx="2" fill="#903030" opacity="0.06"/>
+
+  <!-- Bottom bar -->
+  <rect x="60" y="515" width="1080" height="36" rx="4" fill="#0a0f0a" stroke="#1a2a1a" stroke-width="1"/>
+  <text x="600" y="538" font-family="'Space Grotesk', sans-serif" font-size="13" fill="#aaa" text-anchor="middle">The best first AI feature teaches the team the most and creates the best foundation for what comes next</text>
+</svg>

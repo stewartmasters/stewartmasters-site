@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What Agentic AI Actually Means in Practice | Stewart Masters</title>
+  <meta name="description" content="Agentic AI is one of the most discussed and least understood concepts in enterprise AI. Here's what it actually means — and what it means for how businesses operate.">
+  <meta property="og:title" content="What Agentic AI Actually Means in Practice">
+  <meta property="og:description" content="Agentic AI is one of the most discussed and least understood concepts in enterprise AI. Here's what it actually means — and what it means for how businesses operate.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://stewartmasters.me/blog/agentic-ai-in-practice.html">
+  <meta property="og:site_name" content="Stewart Masters">
+  <meta property="og:image" content="https://stewartmasters.me/blog/images/agentic-ai-in-practice.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="What Agentic AI Actually Means in Practice">
+  <meta name="twitter:description" content="Agentic AI is one of the most discussed and least understood concepts in enterprise AI. Here's what it actually means — and what it means for how businesses operate.">
+  <link rel="canonical" href="https://stewartmasters.me/blog/agentic-ai-in-practice.html">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --cyan: #00D4FF; --bg: #0a0a0a; --surface: #111; --border: #1e1e1e; --text: #e0e0e0; --muted: #888; }
+    body { background: var(--bg); color: var(--text); font-family: 'Space Grotesk', sans-serif; line-height: 1.6; }
+    a { color: inherit; }
+    .max-container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    nav { border-bottom: 1px solid var(--border); padding: 16px 0; position: sticky; top: 0; background: rgba(10,10,10,0.95); backdrop-filter: blur(10px); z-index: 100; }
+    .nav-inner { display: flex; align-items: center; justify-content: space-between; }
+    .nav-logo { font-weight: 700; font-size: 18px; text-decoration: none; color: #fff; }
+    .nav-links { display: flex; align-items: center; gap: 32px; }
+    .nav-link { text-decoration: none; color: var(--muted); font-size: 14px; transition: color 0.2s; }
+    .nav-link:hover { color: #fff; }
+    .btn-primary { background: var(--cyan); color: #000; padding: 8px 20px; border-radius: 6px; font-weight: 600; font-size: 14px; text-decoration: none; transition: opacity 0.2s; }
+    .btn-primary:hover { opacity: 0.85; }
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; background: none; border: none; padding: 4px; }
+    .hamburger span { display: block; width: 22px; height: 2px; background: #fff; border-radius: 2px; transition: all 0.3s; }
+    #mobile-menu { display: none; flex-direction: column; gap: 16px; padding: 20px 0; border-top: 1px solid var(--border); }
+    #mobile-menu.open { display: flex; }
+    .blog-header { padding: 48px 0 32px; }
+    .breadcrumb { font-size: 13px; color: var(--muted); margin-bottom: 16px; }
+    .breadcrumb a { color: var(--muted); text-decoration: none; }
+    .breadcrumb a:hover { color: #fff; }
+    .blog-category { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: 2px; color: var(--cyan); text-transform: uppercase; margin-bottom: 12px; }
+    .blog-title { font-size: clamp(28px, 5vw, 48px); font-weight: 700; line-height: 1.15; color: #fff; margin-bottom: 16px; max-width: 800px; }
+    .blog-meta { font-size: 13px; color: var(--muted); }
+    .hero-image { width: 100%; border-radius: 12px; margin-bottom: 48px; display: block; }
+    .prose-container { max-width: 720px; }
+    .prose h2 { font-size: 22px; font-weight: 700; color: #fff; margin: 40px 0 16px; }
+    .prose p { font-size: 16px; line-height: 1.8; color: #ccc; margin-bottom: 20px; }
+    .prose ul { margin: 0 0 20px 0; padding: 0; list-style: none; }
+    .prose ul li { font-size: 16px; line-height: 1.8; color: #ccc; padding-left: 24px; position: relative; margin-bottom: 8px; }
+    .prose ul li::before { content: '→'; color: var(--cyan); position: absolute; left: 0; }
+    .prose strong { color: #fff; font-weight: 600; }
+    .author-bio { border-top: 1px solid var(--border); padding-top: 40px; margin-top: 48px; display: flex; gap: 20px; align-items: flex-start; }
+    .author-avatar { width: 56px; height: 56px; border-radius: 50%; background: linear-gradient(135deg, #00D4FF22, #00D4FF44); border: 1px solid #00D4FF33; display: flex; align-items: center; justify-content: center; font-size: 20px; font-weight: 700; color: var(--cyan); flex-shrink: 0; }
+    .author-name { font-weight: 600; color: #fff; margin-bottom: 4px; }
+    .author-desc { font-size: 14px; color: var(--muted); line-height: 1.6; }
+    .related-section { padding: 64px 0; border-top: 1px solid var(--border); margin-top: 80px; }
+    .related-title { font-size: 13px; font-weight: 600; letter-spacing: 3px; color: var(--muted); text-transform: uppercase; margin-bottom: 32px; }
+    .related-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .blog-card { background: #121212; border: 1px solid var(--border); border-radius: 10px; overflow: hidden; text-decoration: none; display: block; transition: border-color 0.3s, transform 0.3s; }
+    .blog-card:hover { border-color: #2a2a2a; transform: translateY(-4px); }
+    .blog-card-tag { font-size: 10px; font-weight: 700; letter-spacing: 2px; color: var(--cyan); text-transform: uppercase; }
+    .blog-card-title { font-size: 15px; font-weight: 600; color: #fff; line-height: 1.4; margin: 8px 0 12px; }
+    .blog-card-meta { font-size: 12px; color: var(--muted); }
+    .blog-arrow { color: var(--cyan); font-size: 18px; }
+    footer { border-top: 1px solid var(--border); padding: 40px 0; }
+    .footer-inner { display: flex; align-items: center; justify-content: space-between; }
+    .footer-copy { font-size: 13px; color: var(--muted); }
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .hamburger { display: flex; }
+      .related-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "What Agentic AI Actually Means in Practice",
+    "description": "Agentic AI is one of the most discussed and least understood concepts in enterprise AI. Here's what it actually means — and what it means for how businesses operate.",
+    "author": { "@type": "Person", "name": "Stewart Masters", "url": "https://stewartmasters.me" },
+    "publisher": { "@type": "Person", "name": "Stewart Masters", "url": "https://stewartmasters.me" },
+    "datePublished": "2026-04-24",
+    "dateModified": "2026-04-24",
+    "url": "https://stewartmasters.me/blog/agentic-ai-in-practice.html",
+    "image": "https://stewartmasters.me/blog/images/agentic-ai-in-practice.svg"
+  }
+  </script>
+</head>
+<body>
+  <nav>
+    <div class="max-container">
+      <div class="nav-inner">
+        <a href="/" class="nav-logo">Stewart Masters</a>
+        <div class="nav-links">
+          <a href="/about.html" class="nav-link">About</a>
+          <a href="/services.html" class="nav-link">Services</a>
+          <a href="/blog/" class="nav-link">Blog</a>
+          <a href="/contact.html" class="btn-primary">Get in touch</a>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <div id="mobile-menu">
+        <a href="/about.html" class="nav-link">About</a>
+        <a href="/services.html" class="nav-link">Services</a>
+        <a href="/blog/" class="nav-link">Blog</a>
+        <a href="/contact.html" class="btn-primary" style="text-align:center;">Get in touch</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="blog-header">
+    <div class="max-container">
+      <div class="prose-container">
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="/blog/">Blog</a> / What Agentic AI Actually Means in Practice</div>
+        <div class="blog-category">AI &amp; Technology</div>
+        <h1 class="blog-title">What Agentic AI Actually Means in Practice</h1>
+        <div class="blog-meta">24 April 2026 · 6 min read</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="max-container">
+    <img src="/blog/images/agentic-ai-in-practice.svg" alt="What agentic AI means and how it changes operations" class="hero-image">
+  </div>
+
+  <div class="max-container" style="padding-bottom: 80px;">
+    <div class="prose-container">
+      <div class="prose">
+
+        <p>Agentic AI is appearing in almost every enterprise AI conversation at the moment. It's also one of the least clearly defined concepts in that conversation. Most people using the term mean something slightly different. Getting clarity on what it actually is — and what it isn't — is useful before committing resources to it.</p>
+
+        <h2>The basic definition</h2>
+        <p>An AI agent is a system that pursues a goal by taking a sequence of actions, using the results of each action to inform the next. Rather than receiving a single input and producing a single output, an agent operates in a loop: observe the current state, decide on an action, take the action, observe the result, repeat. The agent continues until it achieves its goal or determines that it can't.</p>
+        <p>The practical difference from a standard AI model: a standard model answers "what should happen here?" An agent asks "what should I do next to make the desired outcome happen?" and then does it — repeatedly, without a human directing each step.</p>
+
+        <h2>What makes something genuinely agentic</h2>
+        <p>Three characteristics define genuinely agentic behaviour:</p>
+        <ul>
+          <li><strong>Goal-directed.</strong> The agent is given an objective, not a single query. It determines its own path to achieving that objective.</li>
+          <li><strong>Tool use.</strong> The agent can take actions — searching the web, running code, reading files, calling APIs, sending messages. These actions change the state of the environment the agent is operating in.</li>
+          <li><strong>Memory and context.</strong> The agent maintains context across multiple steps, so each action is informed by what it has already done and found.</li>
+        </ul>
+        <p>Many systems marketed as "agentic" have some of these characteristics but not all. A chatbot that calls a search API is not an agent in any meaningful sense. A system that can break a complex task into subtasks, execute each one, evaluate the results, and revise its approach based on what it finds — that's genuinely agentic.</p>
+
+        <h2>What it means for business operations</h2>
+        <p>The operational significance of agentic AI is that it changes the unit of work that AI can handle. Previously, AI could support a decision or generate a piece of content. An agent can execute a workflow — not just support the human making decisions within it, but carry out the sequence of actions required to complete it.</p>
+        <p>This is a meaningful shift in capability. Consider tasks like: researching a supplier and producing a due diligence summary, monitoring a set of web sources and flagging changes relevant to a specific business question, or handling the first-line response to a customer query by gathering context from multiple internal systems before escalating. Each of these is multi-step, requires judgment at multiple points, and involves accessing multiple tools or data sources. Each is within range of current agentic AI systems.</p>
+
+        <h2>The governance challenge</h2>
+        <p>Agentic AI introduces a governance challenge that single-output models don't have: the agent is taking actions with real consequences, and those actions may not be immediately visible to the humans nominally overseeing the process. An agent that sends emails, modifies records, or places orders is doing things in the world, not just making suggestions.</p>
+        <p>The practical response to this is designing clear boundaries around what actions an agent is authorised to take without human review, what conditions require escalation, and how the agent's actions are logged and auditable. These are not optional features — they're the governance layer that makes agentic deployment responsible.</p>
+
+        <h2>Where it's genuinely ready today</h2>
+        <p>The honest assessment of agentic AI maturity in 2026: it's reliable for structured tasks with clear success criteria, predictable action spaces, and good error recovery paths. It's less reliable for ambiguous tasks, high-stakes decisions, or situations where mistakes are hard to reverse.</p>
+        <p>The most successful enterprise deployments of agentic AI are currently in areas like: software development assistance (agents that can read code, write tests, run them, and fix failures autonomously), research and synthesis workflows (agents that gather and summarise information from multiple sources), and operational monitoring (agents that watch for specific conditions and take defined first-response actions). These are areas with enough structure for agents to operate reliably while keeping humans in appropriate oversight roles.</p>
+        <p>The genuine value isn't in replacing human judgment — it's in handling the surrounding work that currently consumes time that could be better spent on judgment. That's the practical case for agentic AI, and it's a strong one.</p>
+
+      </div>
+
+      <div class="author-bio">
+        <div class="author-avatar">SM</div>
+        <div>
+          <div class="author-name">Stewart Masters</div>
+          <div class="author-desc">Stewart is a digital and technology executive advisor working with boards, founders, and senior leadership teams across ANZ and Asia. He specialises in digital strategy, AI adoption, and building high-performance technology organisations.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="related-section">
+    <div class="max-container">
+      <div class="related-title">Related Articles</div>
+      <div class="related-grid">
+
+        <a href="/blog/agentic-ai-business-leaders.html" class="blog-card">
+          <div style="height:140px;background:linear-gradient(135deg, #0d1520 0%, #0a2040 100%);display:flex;align-items:flex-end;padding:16px;">
+            <span class="blog-card-tag">AI &amp; Technology</span>
+          </div>
+          <div style="padding:20px;">
+            <div class="blog-card-title">Agentic AI — What Business Leaders Need to Know</div>
+            <div style="display:flex;justify-content:space-between;align-items:center;">
+              <div class="blog-card-meta">AI &amp; Technology · 6 min</div>
+              <span class="blog-arrow">→</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="/blog/ai-governance-board.html" class="blog-card">
+          <div style="height:140px;background:linear-gradient(135deg, #0d1520 0%, #0a2040 100%);display:flex;align-items:flex-end;padding:16px;">
+            <span class="blog-card-tag">Board &amp; Advisory</span>
+          </div>
+          <div style="padding:20px;">
+            <div class="blog-card-title">AI Governance — What Boards Need to Get Right</div>
+            <div style="display:flex;justify-content:space-between;align-items:center;">
+              <div class="blog-card-meta">9 April 2026 · 6 min</div>
+              <span class="blog-arrow">→</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="/blog/ai-vs-automation.html" class="blog-card">
+          <div style="height:140px;background:linear-gradient(135deg, #0d1520 0%, #0a2040 100%);display:flex;align-items:flex-end;padding:16px;">
+            <span class="blog-card-tag">AI &amp; Technology</span>
+          </div>
+          <div style="padding:20px;">
+            <div class="blog-card-title">AI vs Automation: What Businesses Get Wrong</div>
+            <div style="display:flex;justify-content:space-between;align-items:center;">
+              <div class="blog-card-meta">23 April 2026 · 5 min</div>
+              <span class="blog-arrow">→</span>
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="max-container">
+      <div class="footer-inner">
+        <div class="footer-copy">© 2026 Stewart Masters</div>
+        <a href="https://www.linkedin.com/in/stewartmasters/" target="_blank" rel="noopener" class="nav-link" style="font-size: 13px;">LinkedIn →</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobile-menu');
+    hamburger.addEventListener('click', () => { mobileMenu.classList.toggle('open'); });
+  </script>
+</body>
+</html>

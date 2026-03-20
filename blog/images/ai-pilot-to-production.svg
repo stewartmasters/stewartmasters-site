@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0d12"/>
+      <stop offset="100%" style="stop-color:#0d1018"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="600" y="55" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#00D4FF" opacity="0.6" letter-spacing="4" text-anchor="middle">AI &amp; TECHNOLOGY</text>
+  <text x="600" y="88" font-family="'Space Grotesk', sans-serif" font-size="26" font-weight="700" fill="#fff" opacity="0.9" text-anchor="middle">From Pilot to Production: Why AI Projects Stall</text>
+
+  <!-- Three-stage flow -->
+  <!-- Stage 1: Pilot (left) -->
+  <rect x="60" y="115" width="300" height="370" rx="8" fill="#0a1820" stroke="#00D4FF" stroke-width="1.5" opacity="0.7"/>
+  <text x="210" y="148" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700" fill="#00D4FF" text-anchor="middle" opacity="0.9">PILOT</text>
+  <text x="210" y="170" font-family="monospace" font-size="8" fill="#2a7090" text-anchor="middle">Self-selected team — enthusiastic</text>
+  <text x="210" y="186" font-family="monospace" font-size="8" fill="#2a6080" text-anchor="middle">Constrained scope — clean data</text>
+  <text x="210" y="202" font-family="monospace" font-size="8" fill="#1a5070" text-anchor="middle">Close monitoring — fast fixes</text>
+  <text x="210" y="218" font-family="monospace" font-size="8" fill="#1a4060" text-anchor="middle">Visible senior sponsorship</text>
+  <text x="210" y="234" font-family="monospace" font-size="8" fill="#1a3850" text-anchor="middle">Named champion — high motivation</text>
+  <line x1="80" y1="250" x2="340" y2="250" stroke="#1a3040" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <text x="210" y="274" font-family="monospace" font-size="8" fill="#00D4FF" text-anchor="middle" opacity="0.6">✓ Results look promising</text>
+  <text x="210" y="292" font-family="monospace" font-size="8" fill="#00D4FF" text-anchor="middle" opacity="0.5">✓ Stakeholders enthusiastic</text>
+  <text x="210" y="310" font-family="monospace" font-size="8" fill="#00D4FF" text-anchor="middle" opacity="0.4">✓ Decision to scale up made</text>
+  <rect x="80" y="462" width="260" height="5" rx="2" fill="#00D4FF" opacity="0.2"/>
+
+  <!-- Gap arrow -->
+  <line x1="380" y1="300" x2="470" y2="300" stroke="#903030" stroke-width="1.5" opacity="0.6"/>
+  <polygon points="470,293 490,300 470,307" fill="#903030" opacity="0.6"/>
+  <text x="435" y="290" font-family="'Space Grotesk', sans-serif" font-size="9" fill="#903030" text-anchor="middle" opacity="0.7">THE GAP</text>
+
+  <!-- Stage 2: The gap (centre) -->
+  <rect x="500" y="115" width="200" height="370" rx="8" fill="#120808" stroke="#903030" stroke-width="1.5" opacity="0.5"/>
+  <text x="600" y="148" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="700" fill="#903030" text-anchor="middle" opacity="0.8">WHERE IT STALLS</text>
+  <text x="600" y="178" font-family="monospace" font-size="8" fill="#703030" text-anchor="middle">Integration debt</text>
+  <text x="600" y="196" font-family="monospace" font-size="8" fill="#603030" text-anchor="middle">surfaces at scale</text>
+  <line x1="520" y1="210" x2="680" y2="210" stroke="#2a1a1a" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <text x="600" y="230" font-family="monospace" font-size="8" fill="#703030" text-anchor="middle">Ownership</text>
+  <text x="600" y="248" font-family="monospace" font-size="8" fill="#603030" text-anchor="middle">becomes unclear</text>
+  <line x1="520" y1="262" x2="680" y2="262" stroke="#2a1a1a" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <text x="600" y="282" font-family="monospace" font-size="8" fill="#703030" text-anchor="middle">No support model</text>
+  <text x="600" y="300" font-family="monospace" font-size="8" fill="#603030" text-anchor="middle">designed</text>
+  <line x1="520" y1="314" x2="680" y2="314" stroke="#2a1a1a" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <text x="600" y="334" font-family="monospace" font-size="8" fill="#703030" text-anchor="middle">Change mgmt</text>
+  <text x="600" y="352" font-family="monospace" font-size="8" fill="#603030" text-anchor="middle">afterthought</text>
+  <line x1="520" y1="366" x2="680" y2="366" stroke="#2a1a1a" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <text x="600" y="386" font-family="monospace" font-size="8" fill="#703030" text-anchor="middle">Success criteria</text>
+  <text x="600" y="404" font-family="monospace" font-size="8" fill="#603030" text-anchor="middle">drift or disappear</text>
+  <rect x="520" y="462" width="160" height="5" rx="2" fill="#903030" opacity="0.15"/>
+
+  <!-- Second arrow -->
+  <line x1="720" y1="300" x2="810" y2="300" stroke="#00D4FF" stroke-width="1.5" opacity="0.4"/>
+  <polygon points="810,293 830,300 810,307" fill="#00D4FF" opacity="0.4"/>
+  <text x="775" y="290" font-family="'Space Grotesk', sans-serif" font-size="9" fill="#00D4FF" text-anchor="middle" opacity="0.5">PLAN FOR IT</text>
+
+  <!-- Stage 3: Production (right) -->
+  <rect x="840" y="115" width="300" height="370" rx="8" fill="#0a1820" stroke="#00D4FF" stroke-width="1" opacity="0.35"/>
+  <text x="990" y="148" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700" fill="#00D4FF" text-anchor="middle" opacity="0.65">PRODUCTION</text>
+  <text x="990" y="172" font-family="'Space Grotesk', sans-serif" font-size="9" fill="#00D4FF" text-anchor="middle" opacity="0.5">Transition plan covers:</text>
+  <text x="990" y="196" font-family="monospace" font-size="8" fill="#1a6070" text-anchor="middle">→ Production data integration</text>
+  <text x="990" y="214" font-family="monospace" font-size="8" fill="#1a5565" text-anchor="middle">→ Named ownership + accountability</text>
+  <text x="990" y="232" font-family="monospace" font-size="8" fill="#1a4a58" text-anchor="middle">→ Support model before go-live</text>
+  <text x="990" y="250" font-family="monospace" font-size="8" fill="#1a3f4a" text-anchor="middle">→ Change management plan</text>
+  <text x="990" y="268" font-family="monospace" font-size="8" fill="#1a343c" text-anchor="middle">→ Success metrics (revisited)</text>
+  <text x="990" y="286" font-family="monospace" font-size="8" fill="#1a292e" text-anchor="middle">→ Pilot sunset plan</text>
+  <line x1="860" y1="300" x2="1120" y2="300" stroke="#1a3040" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <text x="990" y="324" font-family="monospace" font-size="8" fill="#1a4060" text-anchor="middle">Ask before scaling:</text>
+  <text x="990" y="342" font-family="monospace" font-size="8" fill="#1a3850" text-anchor="middle">Do the conditions for success</text>
+  <text x="990" y="360" font-family="monospace" font-size="8" fill="#1a3040" text-anchor="middle">exist more broadly?</text>
+  <rect x="860" y="462" width="260" height="5" rx="2" fill="#00D4FF" opacity="0.08"/>
+
+  <!-- Bottom bar -->
+  <rect x="60" y="508" width="1080" height="36" rx="4" fill="#0a0f0a" stroke="#1a2a1a" stroke-width="1"/>
+  <text x="600" y="531" font-family="'Space Grotesk', sans-serif" font-size="13" fill="#aaa" text-anchor="middle">The pilot-to-production transition is its own project — it needs its own scope, resources, and plan</text>
+</svg>

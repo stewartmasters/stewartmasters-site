@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How to Actually Implement AI in Operations | Stewart Masters</title>
+  <meta name="description" content="There's a wide gap between exploring AI and having it run in your operations. Here's what that gap consists of — and how to close it.">
+  <meta property="og:title" content="How to Actually Implement AI in Operations">
+  <meta property="og:description" content="There's a wide gap between exploring AI and having it run in your operations. Here's what that gap consists of — and how to close it.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://stewartmasters.me/blog/ai-implementation-operations.html">
+  <meta property="og:site_name" content="Stewart Masters">
+  <meta property="og:image" content="https://stewartmasters.me/blog/images/ai-implementation-operations.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="How to Actually Implement AI in Operations">
+  <meta name="twitter:description" content="There's a wide gap between exploring AI and having it run in your operations. Here's what that gap consists of — and how to close it.">
+  <link rel="canonical" href="https://stewartmasters.me/blog/ai-implementation-operations.html">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --cyan: #00D4FF; --bg: #0a0a0a; --surface: #111; --border: #1e1e1e; --text: #e0e0e0; --muted: #888; }
+    body { background: var(--bg); color: var(--text); font-family: 'Space Grotesk', sans-serif; line-height: 1.6; }
+    a { color: inherit; }
+    .max-container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    nav { border-bottom: 1px solid var(--border); padding: 16px 0; position: sticky; top: 0; background: rgba(10,10,10,0.95); backdrop-filter: blur(10px); z-index: 100; }
+    .nav-inner { display: flex; align-items: center; justify-content: space-between; }
+    .nav-logo { font-weight: 700; font-size: 18px; text-decoration: none; color: #fff; }
+    .nav-links { display: flex; align-items: center; gap: 32px; }
+    .nav-link { text-decoration: none; color: var(--muted); font-size: 14px; transition: color 0.2s; }
+    .nav-link:hover { color: #fff; }
+    .btn-primary { background: var(--cyan); color: #000; padding: 8px 20px; border-radius: 6px; font-weight: 600; font-size: 14px; text-decoration: none; transition: opacity 0.2s; }
+    .btn-primary:hover { opacity: 0.85; }
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; background: none; border: none; padding: 4px; }
+    .hamburger span { display: block; width: 22px; height: 2px; background: #fff; border-radius: 2px; transition: all 0.3s; }
+    #mobile-menu { display: none; flex-direction: column; gap: 16px; padding: 20px 0; border-top: 1px solid var(--border); }
+    #mobile-menu.open { display: flex; }
+    .blog-header { padding: 48px 0 32px; }
+    .breadcrumb { font-size: 13px; color: var(--muted); margin-bottom: 16px; }
+    .breadcrumb a { color: var(--muted); text-decoration: none; }
+    .breadcrumb a:hover { color: #fff; }
+    .blog-category { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: 2px; color: var(--cyan); text-transform: uppercase; margin-bottom: 12px; }
+    .blog-title { font-size: clamp(28px, 5vw, 48px); font-weight: 700; line-height: 1.15; color: #fff; margin-bottom: 16px; max-width: 800px; }
+    .blog-meta { font-size: 13px; color: var(--muted); }
+    .hero-image { width: 100%; border-radius: 12px; margin-bottom: 48px; display: block; }
+    .prose-container { max-width: 720px; }
+    .prose h2 { font-size: 22px; font-weight: 700; color: #fff; margin: 40px 0 16px; }
+    .prose p { font-size: 16px; line-height: 1.8; color: #ccc; margin-bottom: 20px; }
+    .prose ul { margin: 0 0 20px 0; padding: 0; list-style: none; }
+    .prose ul li { font-size: 16px; line-height: 1.8; color: #ccc; padding-left: 24px; position: relative; margin-bottom: 8px; }
+    .prose ul li::before { content: '→'; color: var(--cyan); position: absolute; left: 0; }
+    .prose strong { color: #fff; font-weight: 600; }
+    .author-bio { border-top: 1px solid var(--border); padding-top: 40px; margin-top: 48px; display: flex; gap: 20px; align-items: flex-start; }
+    .author-avatar { width: 56px; height: 56px; border-radius: 50%; background: linear-gradient(135deg, #00D4FF22, #00D4FF44); border: 1px solid #00D4FF33; display: flex; align-items: center; justify-content: center; font-size: 20px; font-weight: 700; color: var(--cyan); flex-shrink: 0; }
+    .author-name { font-weight: 600; color: #fff; margin-bottom: 4px; }
+    .author-desc { font-size: 14px; color: var(--muted); line-height: 1.6; }
+    .related-section { padding: 64px 0; border-top: 1px solid var(--border); margin-top: 80px; }
+    .related-title { font-size: 13px; font-weight: 600; letter-spacing: 3px; color: var(--muted); text-transform: uppercase; margin-bottom: 32px; }
+    .related-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .blog-card { background: #121212; border: 1px solid var(--border); border-radius: 10px; overflow: hidden; text-decoration: none; display: block; transition: border-color 0.3s, transform 0.3s; }
+    .blog-card:hover { border-color: #2a2a2a; transform: translateY(-4px); }
+    .blog-card-tag { font-size: 10px; font-weight: 700; letter-spacing: 2px; color: var(--cyan); text-transform: uppercase; }
+    .blog-card-title { font-size: 15px; font-weight: 600; color: #fff; line-height: 1.4; margin: 8px 0 12px; }
+    .blog-card-meta { font-size: 12px; color: var(--muted); }
+    .blog-arrow { color: var(--cyan); font-size: 18px; }
+    footer { border-top: 1px solid var(--border); padding: 40px 0; }
+    .footer-inner { display: flex; align-items: center; justify-content: space-between; }
+    .footer-copy { font-size: 13px; color: var(--muted); }
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .hamburger { display: flex; }
+      .related-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "How to Actually Implement AI in Operations",
+    "description": "There's a wide gap between exploring AI and having it run in your operations. Here's what that gap consists of — and how to close it.",
+    "author": { "@type": "Person", "name": "Stewart Masters", "url": "https://stewartmasters.me" },
+    "publisher": { "@type": "Person", "name": "Stewart Masters", "url": "https://stewartmasters.me" },
+    "datePublished": "2026-04-22",
+    "dateModified": "2026-04-22",
+    "url": "https://stewartmasters.me/blog/ai-implementation-operations.html",
+    "image": "https://stewartmasters.me/blog/images/ai-implementation-operations.svg"
+  }
+  </script>
+</head>
+<body>
+  <nav>
+    <div class="max-container">
+      <div class="nav-inner">
+        <a href="/" class="nav-logo">Stewart Masters</a>
+        <div class="nav-links">
+          <a href="/about.html" class="nav-link">About</a>
+          <a href="/services.html" class="nav-link">Services</a>
+          <a href="/blog/" class="nav-link">Blog</a>
+          <a href="/contact.html" class="btn-primary">Get in touch</a>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <div id="mobile-menu">
+        <a href="/about.html" class="nav-link">About</a>
+        <a href="/services.html" class="nav-link">Services</a>
+        <a href="/blog/" class="nav-link">Blog</a>
+        <a href="/contact.html" class="btn-primary" style="text-align:center;">Get in touch</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="blog-header">
+    <div class="max-container">
+      <div class="prose-container">
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="/blog/">Blog</a> / How to Actually Implement AI in Operations</div>
+        <div class="blog-category">AI &amp; Technology</div>
+        <h1 class="blog-title">How to Actually Implement AI in Operations</h1>
+        <div class="blog-meta">22 April 2026 · 6 min read</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="max-container">
+    <img src="/blog/images/ai-implementation-operations.svg" alt="Six stages of implementing AI in operations" class="hero-image">
+  </div>
+
+  <div class="max-container" style="padding-bottom: 80px;">
+    <div class="prose-container">
+      <div class="prose">
+
+        <p>There's a significant gap between the conversation most organisations are having about AI — "how do we use it?" — and what it actually takes to have AI running in production operations. The gap is not primarily technical. It's organisational, and it's predictable. Understanding what it consists of is the first step to closing it.</p>
+
+        <h2>Start with problem selection, not tool selection</h2>
+        <p>The right starting point is identifying operational problems that are genuinely worth solving with AI, as opposed to better processes, traditional automation, or simply more disciplined human execution. Not every operational problem is an AI problem, and applying AI to the wrong problems wastes significant time and money while producing nothing useful.</p>
+        <p>Good candidates for AI in operations share certain characteristics: they involve repetitive decisions using variable inputs, they have enough historical data to learn from, the cost of a wrong decision is manageable, and the volume of decisions is high enough that automation produces real efficiency gains. Bad candidates are usually edge cases, novel situations, or decisions where the context is too complex or sensitive to encode.</p>
+
+        <h2>Get honest about data state before you commit</h2>
+        <p>AI in operations is built on operational data. Before committing time and budget to any implementation, you need an honest assessment of whether that data is accessible, clean, consistently formatted, and sufficiently labelled. In most organisations this assessment will reveal problems. Some are fixable quickly; some are multi-year programmes. Knowing which is which before you start is essential — not optional.</p>
+        <p>The organisations that move fastest on AI in operations are typically those that have invested in data infrastructure for other reasons — analytics, reporting, operational dashboards — and have cleaner, more accessible data as a result. If that infrastructure doesn't exist, building it is usually a prerequisite, not a parallel track.</p>
+
+        <h2>Build vs buy in an AI context</h2>
+        <p>Most operational AI use cases don't require custom model development. The choice is usually between configuring an existing vendor solution, fine-tuning a foundation model on your operational data, or using AI APIs to build a custom application. The right choice depends on the specificity of your use case, your data privacy requirements, the degree to which you need the system to reflect your specific operational context, and the cost of maintaining a custom system over time.</p>
+        <p>A common mistake is defaulting to custom development because it feels more "strategic." Custom development creates more control but also more maintenance burden, more dependency on technical capability, and more risk that the system falls behind as the underlying technology evolves. Start with what's available, and build custom only when there's a specific reason to.</p>
+
+        <h2>Integration architecture matters more than the model</h2>
+        <p>AI that sits outside the systems people actually use has limited operational impact. The most common failure in AI implementation is building something that works in isolation but doesn't connect to the workflows where decisions are actually made. A demand forecasting model that runs in a notebook and requires someone to extract and apply its output manually is not an operational AI system — it's a decision support tool with high friction.</p>
+        <p>Think about integration from the start: where will the output appear, how will it be actioned, what systems need to send data to the model, and what needs to happen when the model is wrong or uncertain? These are product design questions as much as technical ones.</p>
+
+        <h2>The humans in the loop matter most</h2>
+        <p>The change management work — getting the people who will use the system to understand it, trust it, and integrate it into how they actually work — is typically underestimated and underfunded relative to the technical build. This is the most consistent pattern in AI implementations that fail at the deployment stage.</p>
+        <p>Operational staff need to understand what the system does and doesn't do, what it's optimised for, where it will be wrong, and how to handle the cases where it can't help. Training is part of this. Involvement in the design and testing phase is more important — people who have been part of building something are far more likely to trust and use it than those who have had it presented to them as a finished product.</p>
+
+        <h2>Define the measurement before you launch</h2>
+        <p>What does this system need to do to be considered successful? Define it before launch: the baseline metric, the target, the measurement method, and the timeframe. Six months after deployment, you should be able to say clearly whether the implementation has delivered — not construct a retrospective case around whatever the numbers happen to show.</p>
+        <p>This discipline also forces clarity about what you're actually optimising for. "More efficient operations" is not a measurement. Reduction in time-to-decision for a specific process, or improvement in forecast accuracy, or reduction in manual exceptions handled — these are measurements. Organisations that define them upfront tend to deliver on them.</p>
+
+      </div>
+
+      <div class="author-bio">
+        <div class="author-avatar">SM</div>
+        <div>
+          <div class="author-name">Stewart Masters</div>
+          <div class="author-desc">Stewart is a digital and technology executive advisor working with boards, founders, and senior leadership teams across ANZ and Asia. He specialises in digital strategy, AI adoption, and building high-performance technology organisations.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="related-section">
+    <div class="max-container">
+      <div class="related-title">Related Articles</div>
+      <div class="related-grid">
+
+        <a href="/blog/why-ai-projects-fail.html" class="blog-card">
+          <div style="height:140px;background:linear-gradient(135deg, #0d1520 0%, #0a2040 100%);display:flex;align-items:flex-end;padding:16px;">
+            <span class="blog-card-tag">AI &amp; Technology</span>
+          </div>
+          <div style="padding:20px;">
+            <div class="blog-card-title">Why Most AI Projects Fail in Companies</div>
+            <div style="display:flex;justify-content:space-between;align-items:center;">
+              <div class="blog-card-meta">21 April 2026 · 6 min</div>
+              <span class="blog-arrow">→</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="/blog/adoption-not-capability.html" class="blog-card">
+          <div style="height:140px;background:linear-gradient(135deg, #0d1520 0%, #0a2040 100%);display:flex;align-items:flex-end;padding:16px;">
+            <span class="blog-card-tag">AI &amp; Technology</span>
+          </div>
+          <div style="padding:20px;">
+            <div class="blog-card-title">Why Adoption Beats Capability Every Time</div>
+            <div style="display:flex;justify-content:space-between;align-items:center;">
+              <div class="blog-card-meta">10 April 2026 · 6 min</div>
+              <span class="blog-arrow">→</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="/blog/automate-wrong-things.html" class="blog-card">
+          <div style="height:140px;background:linear-gradient(135deg, #0d1520 0%, #0a2040 100%);display:flex;align-items:flex-end;padding:16px;">
+            <span class="blog-card-tag">Digital Strategy</span>
+          </div>
+          <div style="padding:20px;">
+            <div class="blog-card-title">Why Companies Automate the Wrong Things</div>
+            <div style="display:flex;justify-content:space-between;align-items:center;">
+              <div class="blog-card-meta">Digital Strategy · 6 min</div>
+              <span class="blog-arrow">→</span>
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="max-container">
+      <div class="footer-inner">
+        <div class="footer-copy">© 2026 Stewart Masters</div>
+        <a href="https://www.linkedin.com/in/stewartmasters/" target="_blank" rel="noopener" class="nav-link" style="font-size: 13px;">LinkedIn →</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobile-menu');
+    hamburger.addEventListener('click', () => { mobileMenu.classList.toggle('open'); });
+  </script>
+</body>
+</html>

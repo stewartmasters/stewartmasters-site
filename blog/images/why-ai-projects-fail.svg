@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0d12"/>
+      <stop offset="100%" style="stop-color:#0d1018"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="600" y="55" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#00D4FF" opacity="0.6" letter-spacing="4" text-anchor="middle">AI &amp; TECHNOLOGY</text>
+  <text x="600" y="88" font-family="'Space Grotesk', sans-serif" font-size="26" font-weight="700" fill="#fff" opacity="0.9" text-anchor="middle">Why Most AI Projects Fail in Companies</text>
+
+  <!-- Row 1 -->
+  <rect x="60" y="110" width="350" height="155" rx="5" fill="#150808" stroke="#2a1010" stroke-width="1"/>
+  <text x="235" y="135" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#903030" text-anchor="middle">Starting with technology</text>
+  <text x="235" y="155" font-family="monospace" font-size="9" fill="#5a2020" text-anchor="middle">"We should do something with AI"</text>
+  <text x="235" y="173" font-family="monospace" font-size="8" fill="#3a1515" text-anchor="middle">No defined problem · no user · no adoption</text>
+  <text x="235" y="191" font-family="monospace" font-size="8" fill="#2a1010" text-anchor="middle">Technically impressive demos that generate</text>
+  <text x="235" y="207" font-family="monospace" font-size="8" fill="#2a1010" text-anchor="middle">no operational value — and no one notices</text>
+  <rect x="100" y="245" width="270" height="5" rx="2" fill="#a03030" opacity="0.2"/>
+
+  <rect x="425" y="110" width="350" height="155" rx="5" fill="#150808" stroke="#2a1010" stroke-width="1"/>
+  <text x="600" y="135" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#903030" text-anchor="middle">Data that isn't ready</text>
+  <text x="600" y="155" font-family="monospace" font-size="9" fill="#5a2020" text-anchor="middle">Incomplete · inconsistently labelled · siloed</text>
+  <text x="600" y="173" font-family="monospace" font-size="8" fill="#3a1515" text-anchor="middle">Discovered mid-project, not before</text>
+  <text x="600" y="191" font-family="monospace" font-size="8" fill="#2a1010" text-anchor="middle">Data readiness assessment is the most</text>
+  <text x="600" y="207" font-family="monospace" font-size="8" fill="#2a1010" text-anchor="middle">valuable step — and the most skipped</text>
+  <rect x="465" y="245" width="270" height="5" rx="2" fill="#a03030" opacity="0.18"/>
+
+  <rect x="790" y="110" width="350" height="155" rx="5" fill="#150808" stroke="#2a1010" stroke-width="1"/>
+  <text x="965" y="135" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#903030" text-anchor="middle">No success metric defined</text>
+  <text x="965" y="155" font-family="monospace" font-size="9" fill="#5a2020" text-anchor="middle">"Better outcomes" · "improved efficiency"</text>
+  <text x="965" y="173" font-family="monospace" font-size="8" fill="#3a1515" text-anchor="middle">Can't evaluate delivery · can't build the case</text>
+  <text x="965" y="191" font-family="monospace" font-size="8" fill="#2a1010" text-anchor="middle">Set the baseline and target before starting —</text>
+  <text x="965" y="207" font-family="monospace" font-size="8" fill="#2a1010" text-anchor="middle">not after the pilot has run for six months</text>
+  <rect x="830" y="245" width="270" height="5" rx="2" fill="#a03030" opacity="0.15"/>
+
+  <!-- Row 2 -->
+  <rect x="60" y="283" width="350" height="155" rx="5" fill="#150808" stroke="#2a1010" stroke-width="1"/>
+  <text x="235" y="308" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#903030" text-anchor="middle">Wrong team structure</text>
+  <text x="235" y="328" font-family="monospace" font-size="9" fill="#5a2020" text-anchor="middle">AI project lives in IT without ops buy-in</text>
+  <text x="235" y="346" font-family="monospace" font-size="8" fill="#3a1515" text-anchor="middle">Users not consulted in design · don't trust output</text>
+  <text x="235" y="364" font-family="monospace" font-size="8" fill="#2a1010" text-anchor="middle">Deployment arrives and people continue</text>
+  <text x="235" y="380" font-family="monospace" font-size="8" fill="#2a1010" text-anchor="middle">doing the process manually anyway</text>
+  <rect x="100" y="418" width="270" height="5" rx="2" fill="#a03030" opacity="0.2"/>
+
+  <rect x="425" y="283" width="350" height="155" rx="5" fill="#150808" stroke="#2a1010" stroke-width="1"/>
+  <text x="600" y="308" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#903030" text-anchor="middle">Pilot purgatory</text>
+  <text x="600" y="328" font-family="monospace" font-size="9" fill="#5a2020" text-anchor="middle">Works in demo · fails on edge cases in prod</text>
+  <text x="600" y="346" font-family="monospace" font-size="8" fill="#3a1515" text-anchor="middle">Integration harder than expected · org moves on</text>
+  <text x="600" y="364" font-family="monospace" font-size="8" fill="#2a1010" text-anchor="middle">Pilot becomes a permanent demo that justifies</text>
+  <text x="600" y="380" font-family="monospace" font-size="8" fill="#2a1010" text-anchor="middle">future experimentation — but never ships</text>
+  <rect x="465" y="418" width="270" height="5" rx="2" fill="#a03030" opacity="0.18"/>
+
+  <rect x="790" y="283" width="350" height="155" rx="5" fill="#150808" stroke="#2a1010" stroke-width="1"/>
+  <text x="965" y="308" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#903030" text-anchor="middle">Overestimating the model</text>
+  <text x="965" y="328" font-family="monospace" font-size="9" fill="#5a2020" text-anchor="middle">Expecting AI to handle judgment calls it can't</text>
+  <text x="965" y="346" font-family="monospace" font-size="8" fill="#3a1515" text-anchor="middle">Novel situations · ambiguity · contextual gaps</text>
+  <text x="965" y="364" font-family="monospace" font-size="8" fill="#2a1010" text-anchor="middle">Outputs become unreliable · trust collapses ·</text>
+  <text x="965" y="380" font-family="monospace" font-size="8" fill="#2a1010" text-anchor="middle">human/AI boundary was never designed properly</text>
+  <rect x="830" y="418" width="270" height="5" rx="2" fill="#a03030" opacity="0.15"/>
+
+  <!-- Bottom bar -->
+  <rect x="60" y="458" width="1080" height="36" rx="4" fill="#0a0f0a" stroke="#1a2a1a" stroke-width="1"/>
+  <text x="600" y="481" font-family="'Space Grotesk', sans-serif" font-size="13" fill="#aaa" text-anchor="middle">AI projects fail upstream — before the technology is ever written</text>
+</svg>

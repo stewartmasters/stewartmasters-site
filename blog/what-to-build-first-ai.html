@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What to Build First When Adding AI to Your Product — Stewart Masters</title>
+  <meta name="description" content="The first AI feature you add to a product shapes the expectations, the architecture, and the team's understanding of what AI is for. Choose carefully.">
+  <meta property="og:title" content="What to Build First When Adding AI to Your Product">
+  <meta property="og:description" content="The first AI feature you add to a product shapes the expectations, the architecture, and the team's understanding of what AI is for. Choose carefully.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://stewartmasters.me/blog/what-to-build-first-ai.html">
+  <meta property="og:site_name" content="Stewart Masters">
+  <meta property="og:image" content="https://stewartmasters.me/blog/images/what-to-build-first-ai.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="What to Build First When Adding AI to Your Product">
+  <meta name="twitter:description" content="The first AI feature you add to a product shapes the expectations, the architecture, and the team's understanding of what AI is for. Choose carefully.">
+  <link rel="canonical" href="https://stewartmasters.me/blog/what-to-build-first-ai.html">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "What to Build First When Adding AI to Your Product",
+    "description": "The first AI feature you add to a product shapes the expectations, the architecture, and the team's understanding of what AI is for. Choose carefully.",
+    "image": "https://stewartmasters.me/blog/images/what-to-build-first-ai.svg",
+    "author": { "@type": "Person", "name": "Stewart Masters", "url": "https://stewartmasters.me" },
+    "publisher": { "@type": "Person", "name": "Stewart Masters", "url": "https://stewartmasters.me" },
+    "datePublished": "2026-04-29",
+    "dateModified": "2026-04-29",
+    "url": "https://stewartmasters.me/blog/what-to-build-first-ai.html",
+    "keywords": "AI product features, first AI feature, AI product strategy, building AI products, AI product development"
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { background-color: #0D0D0D; color: #EAEAEA; font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
+    .font-heading { font-family: 'Space Grotesk', sans-serif; }
+    .max-container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    .prose-container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; backdrop-filter: blur(24px); background: rgba(13,13,13,0.85); border-bottom: 1px solid #1c1c1c; }
+    .nav-link { font-size: 14px; color: #aaa; text-decoration: none; transition: color 0.2s; }
+    .nav-link:hover { color: #fff; }
+    .btn-primary { display: inline-block; background: #00D4FF; color: #0D0D0D; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 14px; padding: 10px 22px; border-radius: 4px; text-decoration: none; transition: background 0.2s; }
+    .btn-primary:hover { background: #fff; }
+    .prose h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.5rem; font-weight: 700; color: #fff; margin: 2.5rem 0 1rem; line-height: 1.3; }
+    .prose h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.15rem; font-weight: 600; color: #fff; margin: 2rem 0 0.75rem; }
+    .prose p { color: #EAEAEA; font-size: 17px; line-height: 1.85; margin-bottom: 1.5rem; }
+    .prose ul { margin: 0 0 1.5rem 0; padding: 0; list-style: none; }
+    .prose ul li { color: #EAEAEA; font-size: 17px; line-height: 1.85; padding: 4px 0 4px 24px; position: relative; }
+    .prose ul li::before { content: '→'; color: #00D4FF; position: absolute; left: 0; }
+    .prose strong { color: #fff; font-weight: 600; }
+    .blog-card { background: #121212; border: 1px solid #1e1e1e; border-radius: 10px; overflow: hidden; text-decoration: none; display: block; transition: border-color 0.3s, transform 0.3s; }
+    .blog-card:hover { border-color: #2a2a2a; transform: translateY(-4px); }
+    .blog-arrow { color: #333; font-size: 18px; transition: color 0.2s; }
+    .blog-card:hover .blog-arrow { color: #00D4FF; }
+    ::-webkit-scrollbar { width: 5px; } ::-webkit-scrollbar-track { background: #0D0D0D; } ::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 3px; }
+    #mobile-menu { display: none; } #mobile-menu.open { display: flex; }
+  </style>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script>
+</head>
+<body>
+
+<nav>
+  <div class="max-container py-4 flex items-center justify-between">
+    <a href="../index.html" class="font-heading font-semibold text-white text-lg tracking-tight">Stewart Masters</a>
+    <div class="hidden md:flex items-center gap-8">
+      <a href="../index.html#about" class="nav-link">About</a>
+      <a href="../index.html#services" class="nav-link">Where I Help</a>
+      <a href="index.html" class="nav-link">Thinking</a>
+      <a href="../index.html#contact" class="nav-link">Contact</a>
+    </div>
+    <div class="flex items-center gap-3">
+      <a href="../index.html#contact" class="btn-primary hidden md:inline-block">Get in touch</a>
+      <button id="hamburger" class="md:hidden text-gray-400 p-2" onclick="document.getElementById('mobile-menu').classList.toggle('open')">
+        <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h16M3 12h16M3 18h16"/></svg>
+      </button>
+    </div>
+  </div>
+  <div id="mobile-menu" class="flex-col gap-1 pb-4 px-6 border-t" style="border-color:#1a1a1a;">
+    <a href="../index.html#about" class="nav-link py-3 block">About</a>
+    <a href="../index.html#services" class="nav-link py-3 block">Where I Help</a>
+    <a href="index.html" class="nav-link py-3 block">Thinking</a>
+    <a href="../index.html#contact" class="nav-link py-3 block">Contact</a>
+  </div>
+</nav>
+
+<!-- Header -->
+<section class="pt-36 pb-12 px-6" style="border-bottom: 1px solid #1a1a1a;">
+  <div class="prose-container">
+    <div class="flex items-center gap-3 mb-8" style="font-size: 13px; color: #555;">
+      <a href="index.html" class="nav-link">Thinking</a>
+      <span>→</span>
+      <span style="color: #00D4FF;">AI &amp; Technology</span>
+    </div>
+    <h1 class="font-heading text-4xl md:text-5xl font-bold leading-tight text-white mb-6">
+      What to build first when adding AI to your product
+    </h1>
+    <p style="color: #777; font-size: 16px; line-height: 1.7; margin-bottom: 28px;">
+      The first AI feature you add to a product shapes the expectations, the architecture, and the team's understanding of what AI is for. Choose carefully.
+    </p>
+    <div class="flex items-center gap-4" style="font-size: 13px; color: #555;">
+      <span>Stewart Masters</span>
+      <span>·</span>
+      <span>29 Apr 2026</span>
+      <span>·</span>
+      <span>5 min read</span>
+    </div>
+  </div>
+</section>
+
+<!-- SVG Hero -->
+<div style="width:100%; max-height:420px; overflow:hidden; border-bottom:1px solid #1a1a1a;">
+  <img loading="lazy" src="images/what-to-build-first-ai.svg" alt="Decision framework for selecting the first AI feature to build in a product" style="width:100%; height:420px; object-fit:cover;">
+</div>
+
+<!-- Article -->
+<article class="py-16 px-6">
+  <div class="prose-container prose">
+
+    <p>
+      There's a version of this decision that gets made by committees and ends up producing the wrong answer. It usually looks like this: a group of people with different priorities debate what AI could do, a shortlist emerges that reflects the loudest voices rather than the clearest thinking, and the first feature gets built based on what seemed most impressive in the discussion rather than what would actually be most valuable.
+    </p>
+
+    <p>
+      The first AI feature matters more than subsequent ones, not because it's inherently more important, but because it establishes precedents. It shapes what the rest of the team thinks AI is for. It creates an architectural foundation that later features build on. It sets expectations with users that are hard to revise. Get it wrong and you spend the next year correcting misconceptions rather than building forward.
+    </p>
+
+    <h2>What makes a good first AI feature</h2>
+
+    <p>
+      The criteria are different from what you'd use for any other feature. A good first AI feature is:
+    </p>
+
+    <p>
+      <strong>Narrow in scope.</strong> This is not the time to demonstrate AI's full potential. It's the time to deliver something specific and well-contained that the team can understand, evaluate, and learn from. Breadth comes later. Depth comes first.
+    </p>
+
+    <p>
+      <strong>High in signal value.</strong> You want a feature that generates clear, measurable feedback — not just usage metrics, but signals about quality. Did the AI output help users accomplish what they were trying to do? Where did it fall short? A feature that produces this kind of signal is enormously more valuable than one that generates engagement without insight.
+    </p>
+
+    <p>
+      <strong>Low in cost of failure.</strong> The first AI feature will not be perfect. AI systems fail in ways that software systems don't — they produce plausible-sounding wrong answers, they behave differently on edge cases than on typical cases, and their failure modes aren't always predictable from the design. Choosing a feature where these failures are recoverable — where the user notices, nothing bad happens, and they try again — is safer than choosing one where errors carry real consequences.
+    </p>
+
+    <p>
+      <strong>Connected to a real user problem.</strong> The pressure to add AI features because competitors are adding them produces features that demonstrate AI without solving anything. These are easy to build and easy to dismiss. A feature that addresses a specific, well-documented user friction — one that users have been asking for, or one that existing data shows is causing drop-off — is the kind that changes user behaviour and generates the feedback that improves the system.
+    </p>
+
+    <h2>Common first features that work</h2>
+
+    <p>
+      <strong>Intelligent summarisation.</strong> Taking content that users already produce or consume within the product and summarising it — meeting notes, support tickets, documents, conversation threads — is a well-contained AI application with clear user value and recoverable failure modes. If the summary is wrong, users notice and can refer to the original. The output is visible, comparable, and improvable.
+    </p>
+
+    <p>
+      <strong>Smart search and retrieval.</strong> Replacing keyword search with semantic search — where users can describe what they're looking for rather than guessing the exact terms — delivers immediate, demonstrable value in almost any product with a content corpus. It's architecturally clean, the success metric (did the user find what they needed?) is clear, and it creates a foundation for more sophisticated retrieval later.
+    </p>
+
+    <p>
+      <strong>First-draft generation.</strong> Giving users a structured starting point — a draft email, a template response, a suggested description — in contexts where they already need to produce text. This reduces the blank-page problem and speeds up a task users already do. The output is immediately revisable, so failures are low-stakes and obvious.
+    </p>
+
+    <h2>Common first features that don't work</h2>
+
+    <p>
+      <strong>The chatbot.</strong> Chatbots feel like a natural first AI feature because they're highly visible and easy to demonstrate. They're also among the hardest to get right. A chatbot that disappoints users sets a negative expectation that's hard to recover from. And the failure modes — confident wrong answers, inability to handle edge cases, frustrating loops — are highly visible. Save the chatbot for when you have the infrastructure and the data quality to do it well.
+    </p>
+
+    <p>
+      <strong>Personalisation.</strong> Personalisation at scale is genuinely powerful, but it requires data infrastructure, user history, and model training that most teams don't have at the start. The personalisation that's achievable early is usually too coarse to feel personal and too complex to debug. It's a second or third AI feature, not a first.
+    </p>
+
+    <p>
+      <strong>Prediction without clear action.</strong> AI that produces predictions users don't know how to act on — a churn score, a complexity rating, a risk level — without also providing the action pathway creates the impression of intelligence without the value of intelligence. Connect the prediction to something actionable before shipping it.
+    </p>
+
+    <h2>The architectural question</h2>
+
+    <p>
+      The first AI feature also makes decisions that are hard to undo. Which model provider? What data flows into the context? How do outputs get stored and evaluated? How does the feedback loop work? These aren't implementation details — they're foundations.
+    </p>
+
+    <p>
+      Build the first feature with the architecture in mind, not just the feature. The abstractions you put in place now — around model calls, output handling, logging, and evaluation — will either make the second and third features easier or harder to build. Take the time to get the plumbing right.
+    </p>
+
+    <p>
+      The best first AI features are not the most ambitious ones. They're the ones that teach the team the most, set the most useful precedents, and create the most solid foundation for what comes next. Start there.
+    </p>
+
+  </div>
+</article>
+
+<!-- Author -->
+<section class="py-12 px-6" style="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a;">
+  <div class="prose-container">
+    <div class="flex items-start gap-5">
+      <div style="width:56px;height:56px;border-radius:50%;background:#1a1a1a;border:1px solid #2a2a2a;display:flex;align-items:center;justify-content:center;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:16px;color:#00D4FF;flex-shrink:0;">SM</div>
+      <div>
+        <div class="font-heading font-semibold text-white mb-1">Stewart Masters</div>
+        <div style="font-size: 13px; color: #777; margin-bottom: 8px;">Chief Digital Officer · Honest Greens · Barcelona</div>
+        <p style="font-size: 14px; color: #B0B0B0; line-height: 1.7;">20 years building and running digital operations inside real businesses. I write about AI, digital systems, and the leadership decisions that determine whether transformation actually happens.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Related Posts -->
+<section class="py-16 px-6">
+  <div class="max-container">
+    <h2 class="font-heading text-xl font-bold text-white mb-8">Related posts</h2>
+    <div class="grid md:grid-cols-3 gap-5">
+
+      <a href="ai-vs-automation.html" class="blog-card">
+        <div style="height:140px;background:linear-gradient(135deg,#0a1520,#081015);display:flex;align-items:center;justify-content:center;border-bottom:1px solid #1e1e1e;">
+          <span style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(0,180,255,0.3);font-family:'Space Grotesk',sans-serif;">AI vs Auto</span>
+        </div>
+        <div class="p-5">
+          <span style="font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:#00D4FF;">AI &amp; Technology</span>
+          <h3 class="font-heading text-sm font-semibold mt-2 mb-2 text-white leading-snug">AI vs automation: what businesses get wrong</h3>
+          <div class="flex items-center justify-between mt-4">
+            <span style="font-size:12px;color:#555;">23 Apr · 5 min</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="build-vs-buy.html" class="blog-card">
+        <div style="height:140px;background:linear-gradient(135deg,#0a1218,#081015);display:flex;align-items:center;justify-content:center;border-bottom:1px solid #1e1e1e;">
+          <span style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(0,180,255,0.3);font-family:'Space Grotesk',sans-serif;">Build / Buy</span>
+        </div>
+        <div class="p-5">
+          <span style="font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:#00D4FF;">Digital Strategy</span>
+          <h3 class="font-heading text-sm font-semibold mt-2 mb-2 text-white leading-snug">When to build vs. buy in a digital business</h3>
+          <div class="flex items-center justify-between mt-4">
+            <span style="font-size:12px;color:#555;">25 Mar · 6 min</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="ai-implementation-operations.html" class="blog-card">
+        <div style="height:140px;background:linear-gradient(135deg,#0a1520,#081015);display:flex;align-items:center;justify-content:center;border-bottom:1px solid #1e1e1e;">
+          <span style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(0,180,255,0.3);font-family:'Space Grotesk',sans-serif;">Operations</span>
+        </div>
+        <div class="p-5">
+          <span style="font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:#00D4FF;">AI &amp; Technology</span>
+          <h3 class="font-heading text-sm font-semibold mt-2 mb-2 text-white leading-snug">How to actually implement AI in operations</h3>
+          <div class="flex items-center justify-between mt-4">
+            <span style="font-size:12px;color:#555;">22 Apr · 6 min</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-10 px-6" style="border-top: 1px solid #141414;">
+  <div class="max-container flex flex-col md:flex-row items-center justify-between gap-4">
+    <span class="font-heading font-semibold" style="color: #555;">Stewart Masters</span>
+    <div class="flex gap-6" style="font-size: 13px;">
+      <a href="../index.html#about" class="nav-link">About</a>
+      <a href="../index.html#services" class="nav-link">Where I Help</a>
+      <a href="index.html" class="nav-link">Thinking</a>
+      <a href="../index.html#contact" class="nav-link">Contact</a>
+    </div>
+    <a href="https://www.linkedin.com/in/stewartmasters/" target="_blank" rel="noopener" class="nav-link" style="font-size: 13px;">LinkedIn →</a>
+  </div>
+</footer>
+
+</body>
+</html>

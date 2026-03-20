@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0d12"/>
+      <stop offset="100%" style="stop-color:#0d1018"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="600" y="55" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#00D4FF" opacity="0.6" letter-spacing="4" text-anchor="middle">AI &amp; TECHNOLOGY</text>
+  <text x="600" y="88" font-family="'Space Grotesk', sans-serif" font-size="26" font-weight="700" fill="#fff" opacity="0.9" text-anchor="middle">How to Actually Implement AI in Operations</text>
+
+  <!-- 6-step grid: 3 cols x 2 rows -->
+  <!-- Row 1 -->
+  <rect x="60" y="112" width="345" height="140" rx="6" fill="#0a1820" stroke="#00D4FF" stroke-width="1" opacity="0.5"/>
+  <text x="80" y="138" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" opacity="0.5" letter-spacing="2">01</text>
+  <text x="232" y="138" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#00D4FF" text-anchor="middle" opacity="0.9">Problem selection</text>
+  <text x="232" y="158" font-family="monospace" font-size="8" fill="#2a7090" text-anchor="middle">Not every operational problem is an AI problem</text>
+  <text x="232" y="175" font-family="monospace" font-size="8" fill="#1a5070" text-anchor="middle">Look for: repetitive decisions · variable inputs</text>
+  <text x="232" y="192" font-family="monospace" font-size="8" fill="#1a4060" text-anchor="middle">sufficient history · manageable cost of error</text>
+  <text x="232" y="209" font-family="monospace" font-size="8" fill="#1a3050" text-anchor="middle">volume high enough to justify automation</text>
+  <rect x="80" y="232" width="305" height="4" rx="2" fill="#00D4FF" opacity="0.15"/>
+
+  <rect x="427" y="112" width="345" height="140" rx="6" fill="#0a1820" stroke="#00D4FF" stroke-width="1" opacity="0.4"/>
+  <text x="447" y="138" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" opacity="0.4" letter-spacing="2">02</text>
+  <text x="599" y="138" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#00D4FF" text-anchor="middle" opacity="0.8">Data readiness</text>
+  <text x="599" y="158" font-family="monospace" font-size="8" fill="#2a7090" text-anchor="middle">Accessible · clean · consistently formatted</text>
+  <text x="599" y="175" font-family="monospace" font-size="8" fill="#1a5070" text-anchor="middle">Assessment before commitment — not after</text>
+  <text x="599" y="192" font-family="monospace" font-size="8" fill="#1a4060" text-anchor="middle">Data infrastructure is a prerequisite</text>
+  <text x="599" y="209" font-family="monospace" font-size="8" fill="#1a3050" text-anchor="middle">not a parallel track to AI implementation</text>
+  <rect x="447" y="232" width="305" height="4" rx="2" fill="#00D4FF" opacity="0.12"/>
+
+  <rect x="794" y="112" width="345" height="140" rx="6" fill="#0a1820" stroke="#00D4FF" stroke-width="1" opacity="0.35"/>
+  <text x="814" y="138" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" opacity="0.35" letter-spacing="2">03</text>
+  <text x="966" y="138" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#00D4FF" text-anchor="middle" opacity="0.7">Build vs buy</text>
+  <text x="966" y="158" font-family="monospace" font-size="8" fill="#2a7090" text-anchor="middle">Most use cases don't need custom models</text>
+  <text x="966" y="175" font-family="monospace" font-size="8" fill="#1a5070" text-anchor="middle">Configure vendor · fine-tune foundation · API build</text>
+  <text x="966" y="192" font-family="monospace" font-size="8" fill="#1a4060" text-anchor="middle">Custom = control but maintenance + risk</text>
+  <text x="966" y="209" font-family="monospace" font-size="8" fill="#1a3050" text-anchor="middle">Build custom only when there's a specific reason</text>
+  <rect x="814" y="232" width="305" height="4" rx="2" fill="#00D4FF" opacity="0.1"/>
+
+  <!-- Row 2 -->
+  <rect x="60" y="272" width="345" height="140" rx="6" fill="#0a1820" stroke="#00D4FF" stroke-width="1" opacity="0.4"/>
+  <text x="80" y="298" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" opacity="0.4" letter-spacing="2">04</text>
+  <text x="232" y="298" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#00D4FF" text-anchor="middle" opacity="0.8">Integration architecture</text>
+  <text x="232" y="318" font-family="monospace" font-size="8" fill="#2a7090" text-anchor="middle">AI outside the systems people use has no impact</text>
+  <text x="232" y="335" font-family="monospace" font-size="8" fill="#1a5070" text-anchor="middle">Where does output appear? How is it actioned?</text>
+  <text x="232" y="352" font-family="monospace" font-size="8" fill="#1a4060" text-anchor="middle">What systems send data to the model?</text>
+  <text x="232" y="369" font-family="monospace" font-size="8" fill="#1a3050" text-anchor="middle">Design the integration before the model, not after</text>
+  <rect x="80" y="392" width="305" height="4" rx="2" fill="#00D4FF" opacity="0.12"/>
+
+  <rect x="427" y="272" width="345" height="140" rx="6" fill="#0a1820" stroke="#00D4FF" stroke-width="1" opacity="0.35"/>
+  <text x="447" y="298" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" opacity="0.35" letter-spacing="2">05</text>
+  <text x="599" y="298" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#00D4FF" text-anchor="middle" opacity="0.7">Change management</text>
+  <text x="599" y="318" font-family="monospace" font-size="8" fill="#2a7090" text-anchor="middle">The most consistently underfunded phase</text>
+  <text x="599" y="335" font-family="monospace" font-size="8" fill="#1a5070" text-anchor="middle">Involve ops staff in design and testing — not just demo</text>
+  <text x="599" y="352" font-family="monospace" font-size="8" fill="#1a4060" text-anchor="middle">They need to understand what it can't do</text>
+  <text x="599" y="369" font-family="monospace" font-size="8" fill="#1a3050" text-anchor="middle">People who built it will trust and use it</text>
+  <rect x="447" y="392" width="305" height="4" rx="2" fill="#00D4FF" opacity="0.1"/>
+
+  <rect x="794" y="272" width="345" height="140" rx="6" fill="#0a1820" stroke="#00D4FF" stroke-width="1" opacity="0.3"/>
+  <text x="814" y="298" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" opacity="0.3" letter-spacing="2">06</text>
+  <text x="966" y="298" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#00D4FF" text-anchor="middle" opacity="0.65">Measurement</text>
+  <text x="966" y="318" font-family="monospace" font-size="8" fill="#2a7090" text-anchor="middle">Define success before launch, not after</text>
+  <text x="966" y="335" font-family="monospace" font-size="8" fill="#1a5070" text-anchor="middle">Baseline · target · method · timeframe</text>
+  <text x="966" y="352" font-family="monospace" font-size="8" fill="#1a4060" text-anchor="middle">"More efficient" is not a measurement</text>
+  <text x="966" y="369" font-family="monospace" font-size="8" fill="#1a3050" text-anchor="middle">Organisations that define upfront tend to deliver</text>
+  <rect x="814" y="392" width="305" height="4" rx="2" fill="#00D4FF" opacity="0.08"/>
+
+  <!-- Bottom bar -->
+  <rect x="60" y="432" width="1080" height="36" rx="4" fill="#0a0f0a" stroke="#1a2a1a" stroke-width="1"/>
+  <text x="600" y="455" font-family="'Space Grotesk', sans-serif" font-size="13" fill="#aaa" text-anchor="middle">The gap between exploring AI and running it in operations is organisational — not technical</text>
+</svg>

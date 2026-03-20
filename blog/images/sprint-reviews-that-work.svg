@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0d12"/>
+      <stop offset="100%" style="stop-color:#0d1018"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="600" y="65" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#00D4FF" opacity="0.6" letter-spacing="4" text-anchor="middle">DIGITAL STRATEGY</text>
+  <text x="600" y="100" font-family="'Space Grotesk', sans-serif" font-size="26" font-weight="700" fill="#fff" opacity="0.9" text-anchor="middle">How to Run a Sprint Review That Actually Works</text>
+
+  <!-- Column headers -->
+  <text x="300" y="145" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#c04030" text-anchor="middle" letter-spacing="2" opacity="0.8">WHAT THEY BECOME</text>
+  <text x="900" y="145" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" text-anchor="middle" letter-spacing="2" opacity="0.8">WHAT THEY SHOULD BE</text>
+  <line x1="60" y1="153" x2="580" y2="153" stroke="#c04030" stroke-width="0.5" opacity="0.3"/>
+  <line x1="620" y1="153" x2="1140" y2="153" stroke="#00D4FF" stroke-width="0.5" opacity="0.3"/>
+  <line x1="600" y1="153" x2="600" y2="510" stroke="#1a1a1a" stroke-width="1"/>
+
+  <!-- Row 1 Left: One-way demo -->
+  <rect x="60" y="162" width="520" height="80" rx="5" fill="#180808" stroke="#2a1010" stroke-width="1"/>
+  <text x="320" y="185" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#903030" text-anchor="middle">A one-way presentation</text>
+  <text x="320" y="205" font-family="monospace" font-size="9" fill="#5a2020" text-anchor="middle">Team demos · stakeholders watch · polite questions</text>
+  <text x="320" y="223" font-family="monospace" font-size="8" fill="#3a1515" text-anchor="middle">Everyone knows what shipped — no one changes their plans</text>
+
+  <!-- Row 1 Right: Learning forum -->
+  <rect x="620" y="162" width="520" height="80" rx="5" fill="#0a1820" stroke="#00D4FF" stroke-width="1" opacity="0.5"/>
+  <text x="880" y="185" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#00D4FF" text-anchor="middle" opacity="0.9">A forum for learning</text>
+  <text x="880" y="205" font-family="monospace" font-size="9" fill="#2a7090" text-anchor="middle">Does it do what we intended? Does it change what's next?</text>
+  <text x="880" y="223" font-family="monospace" font-size="8" fill="#1a5070" text-anchor="middle">Outcomes evaluated against user scenarios, not feature lists</text>
+
+  <!-- Row 2 Left: Too late -->
+  <rect x="60" y="255" width="520" height="80" rx="5" fill="#180808" stroke="#2a1010" stroke-width="1"/>
+  <text x="320" y="278" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#903030" text-anchor="middle">Too late to change anything</text>
+  <text x="320" y="298" font-family="monospace" font-size="9" fill="#5a2020" text-anchor="middle">Review happens after next sprint has started</text>
+  <text x="320" y="316" font-family="monospace" font-size="8" fill="#3a1515" text-anchor="middle">Feedback is captured but never actioned — stakeholders stop engaging</text>
+
+  <!-- Row 2 Right: Connected to planning -->
+  <rect x="620" y="255" width="520" height="80" rx="5" fill="#0a1820" stroke="#00D4FF" stroke-width="1" opacity="0.4"/>
+  <text x="880" y="278" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#00D4FF" text-anchor="middle" opacity="0.8">Connected to the planning cycle</text>
+  <text x="880" y="298" font-family="monospace" font-size="9" fill="#2a7090" text-anchor="middle">Review before planning, not after it starts</text>
+  <text x="880" y="316" font-family="monospace" font-size="8" fill="#1a5070" text-anchor="middle">Feedback has a real path into the next sprint</text>
+
+  <!-- Row 3 Left: Wrong audience -->
+  <rect x="60" y="348" width="520" height="80" rx="5" fill="#180808" stroke="#2a1010" stroke-width="1"/>
+  <text x="320" y="371" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#903030" text-anchor="middle">Wrong audience, wrong purpose</text>
+  <text x="320" y="391" font-family="monospace" font-size="9" fill="#5a2020" text-anchor="middle">Senior leaders attending to be informed, not engaged</text>
+  <text x="320" y="409" font-family="monospace" font-size="8" fill="#3a1515" text-anchor="middle">Broad audience with low stakes = the review becomes theatre</text>
+
+  <!-- Row 3 Right: Right room -->
+  <rect x="620" y="348" width="520" height="80" rx="5" fill="#0a1820" stroke="#00D4FF" stroke-width="1" opacity="0.4"/>
+  <text x="880" y="371" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#00D4FF" text-anchor="middle" opacity="0.8">Right people, genuine stakes</text>
+  <text x="880" y="391" font-family="monospace" font-size="9" fill="#2a7090" text-anchor="middle">Stakeholders who influence direction, not just observe it</text>
+  <text x="880" y="409" font-family="monospace" font-size="8" fill="#1a5070" text-anchor="middle">Smaller rooms with prepared participants → better feedback</text>
+
+  <!-- Row 4 Left: Feature checklist -->
+  <rect x="60" y="441" width="520" height="50" rx="5" fill="#180808" stroke="#2a1010" stroke-width="1"/>
+  <text x="320" y="464" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600" fill="#903030" text-anchor="middle">Demos the happy path · treats feedback as a list</text>
+  <text x="320" y="481" font-family="monospace" font-size="8" fill="#3a1515" text-anchor="middle">Implicit commitments made on the spot that never get delivered</text>
+
+  <!-- Row 4 Right: User scenarios -->
+  <rect x="620" y="441" width="520" height="50" rx="5" fill="#0a1820" stroke="#00D4FF" stroke-width="1" opacity="0.35"/>
+  <text x="880" y="464" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600" fill="#00D4FF" text-anchor="middle" opacity="0.8">Shows real user scenarios · routes feedback explicitly</text>
+  <text x="880" y="481" font-family="monospace" font-size="8" fill="#1a5070" text-anchor="middle">Feedback captured, categorised, prioritised — not promised</text>
+
+  <!-- Bottom bar -->
+  <rect x="60" y="510" width="1080" height="36" rx="4" fill="#0a0f0a" stroke="#1a2a1a" stroke-width="1"/>
+  <text x="600" y="533" font-family="'Space Grotesk', sans-serif" font-size="13" fill="#aaa" text-anchor="middle">Sprint reviews that work are connected to planning. Sprint reviews that don't are just demos.</text>
+</svg>

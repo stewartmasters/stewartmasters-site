@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0d12"/>
+      <stop offset="100%" style="stop-color:#0d1018"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="600" y="55" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#00D4FF" opacity="0.6" letter-spacing="4" text-anchor="middle">AI &amp; TECHNOLOGY</text>
+  <text x="600" y="88" font-family="'Space Grotesk', sans-serif" font-size="26" font-weight="700" fill="#fff" opacity="0.9" text-anchor="middle">What Agentic AI Actually Means in Practice</text>
+
+  <!-- Standard AI vs Agentic AI comparison -->
+  <text x="300" y="130" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#4a90c0" text-anchor="middle" letter-spacing="2" opacity="0.7">STANDARD AI MODEL</text>
+  <text x="900" y="130" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" text-anchor="middle" letter-spacing="2" opacity="0.8">AI AGENT</text>
+
+  <!-- Standard AI box -->
+  <rect x="80" y="142" width="440" height="100" rx="6" fill="#0a1020" stroke="#1a3040" stroke-width="1"/>
+  <text x="300" y="168" font-family="monospace" font-size="9" fill="#3a6080" text-anchor="middle">Single input → single output</text>
+  <text x="300" y="186" font-family="monospace" font-size="9" fill="#2a5070" text-anchor="middle">Answers "what should happen here?"</text>
+  <text x="300" y="204" font-family="monospace" font-size="8" fill="#1a4060" text-anchor="middle">One call · one result · human decides next step</text>
+  <text x="300" y="222" font-family="monospace" font-size="8" fill="#1a3050" text-anchor="middle">No memory across calls · no actions taken</text>
+
+  <!-- Arrow between -->
+  <text x="600" y="200" font-family="'Space Grotesk', sans-serif" font-size="20" fill="#1a3a5a" text-anchor="middle">→</text>
+
+  <!-- Agentic AI box -->
+  <rect x="680" y="142" width="440" height="100" rx="6" fill="#0a1820" stroke="#00D4FF" stroke-width="1" opacity="0.5"/>
+  <text x="900" y="168" font-family="monospace" font-size="9" fill="#2a7090" text-anchor="middle">Goal given → sequence of actions taken</text>
+  <text x="900" y="186" font-family="monospace" font-size="9" fill="#1a5070" text-anchor="middle">Asks "what should I do next to achieve this?"</text>
+  <text x="900" y="204" font-family="monospace" font-size="8" fill="#1a4060" text-anchor="middle">Loop: observe → decide → act → observe → repeat</text>
+  <text x="900" y="222" font-family="monospace" font-size="8" fill="#1a3a50" text-anchor="middle">Memory · tool use · persistent context across steps</text>
+
+  <!-- Three characteristics -->
+  <text x="600" y="268" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" opacity="0.5" letter-spacing="3" text-anchor="middle">WHAT MAKES IT GENUINELY AGENTIC</text>
+  <line x1="200" y1="276" x2="1000" y2="276" stroke="#1a2a3a" stroke-width="0.5"/>
+
+  <rect x="80" y="288" width="325" height="110" rx="5" fill="#0a1820" stroke="#00D4FF" stroke-width="1" opacity="0.4"/>
+  <text x="242" y="312" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#00D4FF" text-anchor="middle" opacity="0.8">Goal-directed</text>
+  <text x="242" y="332" font-family="monospace" font-size="8" fill="#2a7090" text-anchor="middle">Given an objective, not a single query</text>
+  <text x="242" y="349" font-family="monospace" font-size="8" fill="#1a5070" text-anchor="middle">Determines its own path to achieve it</text>
+  <text x="242" y="366" font-family="monospace" font-size="8" fill="#1a4060" text-anchor="middle">No step-by-step human instruction required</text>
+  <rect x="102" y="384" width="280" height="4" rx="2" fill="#00D4FF" opacity="0.12"/>
+
+  <rect x="437" y="288" width="325" height="110" rx="5" fill="#0a1820" stroke="#00D4FF" stroke-width="1" opacity="0.35"/>
+  <text x="599" y="312" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#00D4FF" text-anchor="middle" opacity="0.7">Tool use</text>
+  <text x="599" y="332" font-family="monospace" font-size="8" fill="#2a7090" text-anchor="middle">Can take real actions in the world</text>
+  <text x="599" y="349" font-family="monospace" font-size="8" fill="#1a5070" text-anchor="middle">Search · run code · call APIs · send messages</text>
+  <text x="599" y="366" font-family="monospace" font-size="8" fill="#1a4060" text-anchor="middle">Actions change the state of the environment</text>
+  <rect x="459" y="384" width="280" height="4" rx="2" fill="#00D4FF" opacity="0.1"/>
+
+  <rect x="794" y="288" width="325" height="110" rx="5" fill="#0a1820" stroke="#00D4FF" stroke-width="1" opacity="0.3"/>
+  <text x="956" y="312" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#00D4FF" text-anchor="middle" opacity="0.65">Memory and context</text>
+  <text x="956" y="332" font-family="monospace" font-size="8" fill="#2a7090" text-anchor="middle">Retains context across multiple steps</text>
+  <text x="956" y="349" font-family="monospace" font-size="8" fill="#1a5070" text-anchor="middle">Each action informed by what it's already done</text>
+  <text x="956" y="366" font-family="monospace" font-size="8" fill="#1a4060" text-anchor="middle">Builds a working model of the task state</text>
+  <rect x="816" y="384" width="280" height="4" rx="2" fill="#00D4FF" opacity="0.08"/>
+
+  <!-- Where ready today -->
+  <rect x="80" y="412" width="1040" height="72" rx="5" fill="#060e0a" stroke="#1a2a1a" stroke-width="1"/>
+  <text x="600" y="436" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" opacity="0.5" letter-spacing="2" text-anchor="middle">WHERE IT'S GENUINELY READY TODAY</text>
+  <text x="600" y="456" font-family="monospace" font-size="9" fill="#2a5040" text-anchor="middle">Software development assistance · research and synthesis workflows · operational monitoring and first-response</text>
+  <text x="600" y="473" font-family="monospace" font-size="8" fill="#1a3a2a" text-anchor="middle">Structured tasks · clear success criteria · predictable action spaces · good error recovery paths</text>
+
+  <!-- Bottom bar -->
+  <rect x="80" y="504" width="1040" height="36" rx="4" fill="#0a0f0a" stroke="#1a2a1a" stroke-width="1"/>
+  <text x="600" y="527" font-family="'Space Grotesk', sans-serif" font-size="13" fill="#aaa" text-anchor="middle">Agents handle the surrounding work — freeing human judgment for where it actually matters</text>
+</svg>
