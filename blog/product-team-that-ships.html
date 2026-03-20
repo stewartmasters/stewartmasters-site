@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Building a Product Team That Actually Ships — Stewart Masters</title>
+  <meta name="description" content="Most product teams are busy but not productive. Here's what separates teams that ship valuable things consistently from teams that just look like they're doing product.">
+  <meta property="og:title" content="Building a Product Team That Actually Ships">
+  <meta property="og:description" content="Most product teams are busy but not productive. Here's what separates teams that ship valuable things consistently from teams that just look like they're doing product.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://stewartmasters.me/blog/product-team-that-ships.html">
+  <meta property="og:site_name" content="Stewart Masters">
+  <meta property="og:image" content="https://stewartmasters.me/blog/images/product-team-that-ships.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Building a Product Team That Actually Ships">
+  <meta name="twitter:description" content="Most product teams are busy but not productive. Here's what separates teams that ship valuable things consistently from teams that just look like they're doing product.">
+  <link rel="canonical" href="https://stewartmasters.me/blog/product-team-that-ships.html">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Building a Product Team That Actually Ships",
+    "description": "Most product teams are busy but not productive. Here's what separates teams that ship valuable things consistently from teams that just look like they're doing product.",
+    "image": "https://stewartmasters.me/blog/images/product-team-that-ships.svg",
+    "author": { "@type": "Person", "name": "Stewart Masters", "url": "https://stewartmasters.me" },
+    "publisher": { "@type": "Person", "name": "Stewart Masters", "url": "https://stewartmasters.me" },
+    "datePublished": "2026-04-06",
+    "dateModified": "2026-04-06",
+    "url": "https://stewartmasters.me/blog/product-team-that-ships.html",
+    "keywords": "product team, shipping velocity, product management, product engineering, delivery culture"
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { background-color: #0D0D0D; color: #EAEAEA; font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
+    .font-heading { font-family: 'Space Grotesk', sans-serif; }
+    .max-container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    .prose-container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; backdrop-filter: blur(24px); background: rgba(13,13,13,0.85); border-bottom: 1px solid #1c1c1c; }
+    .nav-link { font-size: 14px; color: #aaa; text-decoration: none; transition: color 0.2s; }
+    .nav-link:hover { color: #fff; }
+    .btn-primary { display: inline-block; background: #00D4FF; color: #0D0D0D; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 14px; padding: 10px 22px; border-radius: 4px; text-decoration: none; transition: background 0.2s; }
+    .btn-primary:hover { background: #fff; }
+    .prose h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.5rem; font-weight: 700; color: #fff; margin: 2.5rem 0 1rem; line-height: 1.3; }
+    .prose h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.15rem; font-weight: 600; color: #fff; margin: 2rem 0 0.75rem; }
+    .prose p { color: #EAEAEA; font-size: 17px; line-height: 1.85; margin-bottom: 1.5rem; }
+    .prose ul { margin: 0 0 1.5rem 0; padding: 0; list-style: none; }
+    .prose ul li { color: #EAEAEA; font-size: 17px; line-height: 1.85; padding: 4px 0 4px 24px; position: relative; }
+    .prose ul li::before { content: '→'; color: #00D4FF; position: absolute; left: 0; }
+    .prose strong { color: #fff; font-weight: 600; }
+    .blog-card { background: #121212; border: 1px solid #1e1e1e; border-radius: 10px; overflow: hidden; text-decoration: none; display: block; transition: border-color 0.3s, transform 0.3s; }
+    .blog-card:hover { border-color: #2a2a2a; transform: translateY(-4px); }
+    .blog-arrow { color: #333; font-size: 18px; transition: color 0.2s; }
+    .blog-card:hover .blog-arrow { color: #00D4FF; }
+    ::-webkit-scrollbar { width: 5px; } ::-webkit-scrollbar-track { background: #0D0D0D; } ::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 3px; }
+    #mobile-menu { display: none; } #mobile-menu.open { display: flex; }
+  </style>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script>
+</head>
+<body>
+
+<nav>
+  <div class="max-container py-4 flex items-center justify-between">
+    <a href="../index.html" class="font-heading font-semibold text-white text-lg tracking-tight">Stewart Masters</a>
+    <div class="hidden md:flex items-center gap-8">
+      <a href="../index.html#about" class="nav-link">About</a>
+      <a href="../index.html#services" class="nav-link">Where I Help</a>
+      <a href="index.html" class="nav-link">Thinking</a>
+      <a href="../index.html#contact" class="nav-link">Contact</a>
+    </div>
+    <div class="flex items-center gap-3">
+      <a href="../index.html#contact" class="btn-primary hidden md:inline-block">Get in touch</a>
+      <button id="hamburger" class="md:hidden text-gray-400 p-2" onclick="document.getElementById('mobile-menu').classList.toggle('open')">
+        <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h16M3 12h16M3 18h16"/></svg>
+      </button>
+    </div>
+  </div>
+  <div id="mobile-menu" class="flex-col gap-1 pb-4 px-6 border-t" style="border-color:#1a1a1a;">
+    <a href="../index.html#about" class="nav-link py-3 block">About</a>
+    <a href="../index.html#services" class="nav-link py-3 block">Where I Help</a>
+    <a href="index.html" class="nav-link py-3 block">Thinking</a>
+    <a href="../index.html#contact" class="nav-link py-3 block">Contact</a>
+  </div>
+</nav>
+
+<!-- Header -->
+<section class="pt-36 pb-12 px-6" style="border-bottom: 1px solid #1a1a1a;">
+  <div class="prose-container">
+    <div class="flex items-center gap-3 mb-8" style="font-size: 13px; color: #555;">
+      <a href="index.html" class="nav-link">Thinking</a>
+      <span>→</span>
+      <span style="color: #00D4FF;">Leadership</span>
+    </div>
+    <h1 class="font-heading text-4xl md:text-5xl font-bold leading-tight text-white mb-6">
+      Building a product team that actually ships
+    </h1>
+    <p style="color: #777; font-size: 16px; line-height: 1.7; margin-bottom: 28px;">
+      Most product teams are busy but not productive. Here's what separates teams that ship valuable things consistently from teams that just look like they're doing product.
+    </p>
+    <div class="flex items-center gap-4" style="font-size: 13px; color: #555;">
+      <span>Stewart Masters</span>
+      <span>·</span>
+      <span>6 Apr 2026</span>
+      <span>·</span>
+      <span>6 min read</span>
+    </div>
+  </div>
+</section>
+
+<!-- SVG Hero -->
+<div style="width:100%; max-height:420px; overflow:hidden; border-bottom:1px solid #1a1a1a;">
+  <img loading="lazy" src="images/product-team-that-ships.svg" alt="Diagram contrasting a busy product team with a shipping product team across clarity, decision-making, and delivery culture dimensions" style="width:100%; height:420px; object-fit:cover;">
+</div>
+
+<!-- Article -->
+<article class="py-16 px-6">
+  <div class="prose-container prose">
+
+    <p>
+      There's a particular kind of product team that looks, from the outside, like it's doing everything right. Sprint planning. Retrospectives. A backlog groomed to within an inch of its life. Roadmap reviews. Stakeholder demos. And yet the thing — the actual product — barely moves. Features take months to ship. Fixes linger in review. The team is perpetually busy and perpetually behind.
+    </p>
+
+    <p>
+      This is not a methodology problem. You can't fix it with a better Jira setup or a different agile framework. It's a leadership and culture problem, and it requires a different diagnosis.
+    </p>
+
+    <h2>Clarity of outcome, not clarity of task</h2>
+
+    <p>
+      Teams that don't ship well are usually teams that have been given very clear tasks but very unclear outcomes. The backlog is full of features — specific, well-described, estimated. But nobody can answer the question: what result are we trying to achieve, and how will we know if we got there?
+    </p>
+
+    <p>
+      This matters because tasks without outcomes can't be prioritised. When everything on the backlog sounds equally plausible, everything gets deprioritised in favour of whatever the last person to speak to the PM asked for. And the constant reprioritisation is exactly what kills velocity — not because the team is slow, but because it keeps being redirected before it builds momentum in any direction.
+    </p>
+
+    <p>
+      The shift that matters here is moving from "what are we building this sprint?" to "what metric are we trying to move this quarter, and what's our best bet on how to move it?" This changes how the team reasons about trade-offs and gives it the ability to say no to things that don't connect to the outcome.
+    </p>
+
+    <h2>Decision rights, clearly owned</h2>
+
+    <p>
+      Most product teams are slow because decisions are slow. Not because anyone is lazy — because it's unclear who has the authority to make a given call.
+    </p>
+
+    <p>
+      The PM wants to ship a simplified version. Engineering thinks the full version is necessary for technical reasons. Design has concerns about the UX. The CEO has a view they shared in passing three weeks ago. Everyone is waiting for consensus. Consensus never arrives. The feature sits in review.
+    </p>
+
+    <p>
+      High-velocity teams have resolved this in advance. The PM owns the what and the why. Engineering owns the how and the when. Design owns the experience quality. These aren't just aspiration statements — they're enforced by who actually makes the call when there's disagreement, and who gets overruled if they overstep their domain.
+    </p>
+
+    <p>
+      The CEO role in this is particularly important. Founders who can't resist providing a view on every product decision — even when they've hired a product team specifically to make those decisions — will consistently slow the team down. The cost of every "just one more thought from the founder" is measured in days of delay and weeks of eroded team confidence.
+    </p>
+
+    <h2>Small batches, short cycles</h2>
+
+    <p>
+      Teams that ship valuable things consistently don't ship large things infrequently. They ship small things often. This is not just a best practice — it's the mechanism that allows a team to learn and correct.
+    </p>
+
+    <p>
+      A feature that takes three months to build and then turns out not to move the needle is a much more expensive failure than a feature that takes two weeks to build, turns out not to move the needle, and teaches you something about user behaviour you didn't know before.
+    </p>
+
+    <p>
+      The discipline required is cutting scope — aggressively and repeatedly. Most product teams resist this because scope reduction feels like failure. But shipping a smaller thing that works is always better than not shipping a larger thing that's almost ready.
+    </p>
+
+    <h2>A culture of done, not almost done</h2>
+
+    <p>
+      Almost done is the enemy of shipped. Almost done means it's in QA. Almost done means the PM hasn't signed off. Almost done means the edge cases haven't been handled. Almost done is where features go to die.
+    </p>
+
+    <p>
+      Teams with high shipping velocity treat "done" as a precisely defined state — not "code complete" but "live in production, monitored, with known metrics to evaluate against." Everything before that state is in progress, not done. This sounds like a trivial distinction until you've watched a team spend three weeks on features that are each individually "almost done."
+    </p>
+
+    <h2>Protecting the team from the noise</h2>
+
+    <p>
+      One of the most underrated leadership contributions in product is absorbing noise. Every product team has a stream of incoming requests — from sales, from customer success, from the CEO, from individual customer calls. If that stream reaches the engineering team unfiltered, it destroys focus.
+    </p>
+
+    <p>
+      The PM's job is to be a filter, not a translator. The difference is that a translator passes through anything that sounds reasonable. A filter evaluates everything against the outcome the team is trying to achieve and absorbs the pressure from stakeholders who are disappointed that their request isn't being worked on this sprint.
+    </p>
+
+    <p>
+      Teams that ship well have PMs who are willing to have the uncomfortable conversations with internal stakeholders. Teams that don't ship well often have PMs who are conflict-averse — who add requests to the backlog to avoid saying no, creating the illusion of responsiveness while actually building a backlog so large it becomes meaningless.
+    </p>
+
+    <h2>Feedback loops that are fast</h2>
+
+    <p>
+      The final ingredient is feedback — fast, real, from actual users. Teams that ship well have built mechanisms to hear from users quickly after something goes live. Not through a quarterly NPS survey, but through conversations, usage data, and direct observation.
+    </p>
+
+    <p>
+      This is what turns a good team into a great one over time. The team that gets fast feedback learns faster. It starts to develop intuition about what will work before it builds it. And that intuition is what produces the best product decisions — not the perfect backlog, not the right framework, but a team that has shipped enough, learned enough, and corrected enough to genuinely know its users.
+    </p>
+
+  </div>
+</article>
+
+<!-- Author -->
+<section class="py-12 px-6" style="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a;">
+  <div class="prose-container">
+    <div class="flex items-start gap-5">
+      <div style="width:56px;height:56px;border-radius:50%;background:#1a1a1a;border:1px solid #2a2a2a;display:flex;align-items:center;justify-content:center;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:16px;color:#00D4FF;flex-shrink:0;">SM</div>
+      <div>
+        <div class="font-heading font-semibold text-white mb-1">Stewart Masters</div>
+        <div style="font-size: 13px; color: #777; margin-bottom: 8px;">Chief Digital Officer · Honest Greens · Barcelona</div>
+        <p style="font-size: 14px; color: #B0B0B0; line-height: 1.7;">20 years building and running digital operations inside real businesses. I write about AI, digital systems, and the leadership decisions that determine whether transformation actually happens.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Related Posts -->
+<section class="py-16 px-6">
+  <div class="max-container">
+    <h2 class="font-heading text-xl font-bold text-white mb-8">Related posts</h2>
+    <div class="grid md:grid-cols-3 gap-5">
+
+      <a href="hiring-product-manager.html" class="blog-card">
+        <div style="height:140px;background:linear-gradient(135deg,#1a1a0e,#12120a);display:flex;align-items:center;justify-content:center;border-bottom:1px solid #1e1e1e;">
+          <span style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(200,200,80,0.3);font-family:'Space Grotesk',sans-serif;">Hiring</span>
+        </div>
+        <div class="p-5">
+          <span style="font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:#00D4FF;">Leadership</span>
+          <h3 class="font-heading text-sm font-semibold mt-2 mb-2 text-white leading-snug">How to hire a product manager who actually leads</h3>
+          <div class="flex items-center justify-between mt-4">
+            <span style="font-size:12px;color:#555;">Mar · 6 min</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="founder-stepping-back-product.html" class="blog-card">
+        <div style="height:140px;background:linear-gradient(135deg,#0d1020,#0a0c18);display:flex;align-items:center;justify-content:center;border-bottom:1px solid #1e1e1e;">
+          <span style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(100,100,200,0.3);font-family:'Space Grotesk',sans-serif;">Founders</span>
+        </div>
+        <div class="p-5">
+          <span style="font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:#00D4FF;">Leadership</span>
+          <h3 class="font-heading text-sm font-semibold mt-2 mb-2 text-white leading-snug">The founder's guide to stepping back from product</h3>
+          <div class="flex items-center justify-between mt-4">
+            <span style="font-size:12px;color:#555;">31 Mar · 6 min</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="product-roadmap-fiction.html" class="blog-card">
+        <div style="height:140px;background:linear-gradient(135deg,#0f1818,#0a1010);display:flex;align-items:center;justify-content:center;border-bottom:1px solid #1e1e1e;">
+          <span style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(80,200,200,0.3);font-family:'Space Grotesk',sans-serif;">Roadmap</span>
+        </div>
+        <div class="p-5">
+          <span style="font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:#00D4FF;">Digital Strategy</span>
+          <h3 class="font-heading text-sm font-semibold mt-2 mb-2 text-white leading-snug">Why your product roadmap is a work of fiction</h3>
+          <div class="flex items-center justify-between mt-4">
+            <span style="font-size:12px;color:#555;">Mar · 6 min</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-10 px-6" style="border-top: 1px solid #141414;">
+  <div class="max-container flex flex-col md:flex-row items-center justify-between gap-4">
+    <span class="font-heading font-semibold" style="color: #555;">Stewart Masters</span>
+    <div class="flex gap-6" style="font-size: 13px;">
+      <a href="../index.html#about" class="nav-link">About</a>
+      <a href="../index.html#services" class="nav-link">Where I Help</a>
+      <a href="index.html" class="nav-link">Thinking</a>
+      <a href="../index.html#contact" class="nav-link">Contact</a>
+    </div>
+    <a href="https://www.linkedin.com/in/stewartmasters/" target="_blank" rel="noopener" class="nav-link" style="font-size: 13px;">LinkedIn →</a>
+  </div>
+</footer>
+
+</body>
+</html>

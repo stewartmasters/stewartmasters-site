@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0d12"/>
+      <stop offset="100%" style="stop-color:#0d1018"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="600" y="65" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#00D4FF" opacity="0.6" letter-spacing="4" text-anchor="middle">LEADERSHIP</text>
+  <text x="600" y="100" font-family="'Space Grotesk', sans-serif" font-size="26" font-weight="700" fill="#fff" opacity="0.9" text-anchor="middle">The Leadership Failures Behind Failed Projects</text>
+
+  <!-- Row 1: 3 cells -->
+  <!-- Cell 1: Scope Creep -->
+  <rect x="60" y="130" width="350" height="160" rx="5" fill="#150808" stroke="#2a1010" stroke-width="1"/>
+  <text x="235" y="160" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#c04030" text-anchor="middle" letter-spacing="2" opacity="0.9">SCOPE CREEP</text>
+  <line x1="80" y1="170" x2="390" y2="170" stroke="#2a1010" stroke-width="0.5"/>
+  <text x="235" y="195" font-family="monospace" font-size="9" fill="#703020" text-anchor="middle">Leaders who can't say no</text>
+  <text x="235" y="213" font-family="monospace" font-size="8" fill="#503020" text-anchor="middle">Every addition seems small.</text>
+  <text x="235" y="229" font-family="monospace" font-size="8" fill="#503020" text-anchor="middle">Collectively they kill timelines.</text>
+  <text x="235" y="253" font-family="monospace" font-size="8" fill="#402010" text-anchor="middle">Holding scope is a leadership</text>
+  <text x="235" y="269" font-family="monospace" font-size="8" fill="#402010" text-anchor="middle">skill, not a PM skill</text>
+
+  <!-- Cell 2: Wrong Accountability -->
+  <rect x="425" y="130" width="350" height="160" rx="5" fill="#150808" stroke="#2a1010" stroke-width="1"/>
+  <text x="600" y="160" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#c04030" text-anchor="middle" letter-spacing="2" opacity="0.9">WRONG ACCOUNTABILITY</text>
+  <line x1="445" y1="170" x2="755" y2="170" stroke="#2a1010" stroke-width="0.5"/>
+  <text x="600" y="195" font-family="monospace" font-size="9" fill="#703020" text-anchor="middle">Authority ≠ accountability</text>
+  <text x="600" y="213" font-family="monospace" font-size="8" fill="#503020" text-anchor="middle">Assigned to whoever is</text>
+  <text x="600" y="229" font-family="monospace" font-size="8" fill="#503020" text-anchor="middle">most available or convenient</text>
+  <text x="600" y="253" font-family="monospace" font-size="8" fill="#402010" text-anchor="middle">If they must escalate every</text>
+  <text x="600" y="269" font-family="monospace" font-size="8" fill="#402010" text-anchor="middle">decision, they're not accountable</text>
+
+  <!-- Cell 3: No Definition of Done -->
+  <rect x="790" y="130" width="350" height="160" rx="5" fill="#150808" stroke="#2a1010" stroke-width="1"/>
+  <text x="965" y="160" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#c04030" text-anchor="middle" letter-spacing="2" opacity="0.9">NO DEFINITION OF DONE</text>
+  <line x1="810" y1="170" x2="1120" y2="170" stroke="#2a1010" stroke-width="0.5"/>
+  <text x="965" y="195" font-family="monospace" font-size="9" fill="#703020" text-anchor="middle">"We'll know it when we see it"</text>
+  <text x="965" y="213" font-family="monospace" font-size="8" fill="#503020" text-anchor="middle">Avoids the hard conversation</text>
+  <text x="965" y="229" font-family="monospace" font-size="8" fill="#503020" text-anchor="middle">about what success requires</text>
+  <text x="965" y="253" font-family="monospace" font-size="8" fill="#402010" text-anchor="middle">Satisfies nobody at the end</text>
+  <text x="965" y="269" font-family="monospace" font-size="8" fill="#402010" text-anchor="middle">because targets weren't shared</text>
+
+  <!-- Row 2: 3 cells -->
+  <!-- Cell 4: Escalation Paths -->
+  <rect x="60" y="310" width="350" height="160" rx="5" fill="#150808" stroke="#2a1010" stroke-width="1"/>
+  <text x="235" y="340" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#c04030" text-anchor="middle" letter-spacing="2" opacity="0.9">BROKEN ESCALATION</text>
+  <line x1="80" y1="350" x2="390" y2="350" stroke="#2a1010" stroke-width="0.5"/>
+  <text x="235" y="375" font-family="monospace" font-size="9" fill="#703020" text-anchor="middle">Blocked projects stay blocked</text>
+  <text x="235" y="393" font-family="monospace" font-size="8" fill="#503020" text-anchor="middle">Leaders who shoot the messenger</text>
+  <text x="235" y="409" font-family="monospace" font-size="8" fill="#503020" text-anchor="middle">or deprioritise internal issues</text>
+  <text x="235" y="433" font-family="monospace" font-size="8" fill="#402010" text-anchor="middle">Silent failure until it's</text>
+  <text x="235" y="449" font-family="monospace" font-size="8" fill="#402010" text-anchor="middle">too late to recover</text>
+
+  <!-- Cell 5: Won't Kill Failing Projects -->
+  <rect x="425" y="310" width="350" height="160" rx="5" fill="#150808" stroke="#2a1010" stroke-width="1"/>
+  <text x="600" y="340" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#c04030" text-anchor="middle" letter-spacing="2" opacity="0.9">REFUSING TO STOP</text>
+  <line x1="445" y1="350" x2="755" y2="350" stroke="#2a1010" stroke-width="0.5"/>
+  <text x="600" y="375" font-family="monospace" font-size="9" fill="#703020" text-anchor="middle">Sunk cost logic keeps it alive</text>
+  <text x="600" y="393" font-family="monospace" font-size="8" fill="#503020" text-anchor="middle">Political capital tied to the</text>
+  <text x="600" y="409" font-family="monospace" font-size="8" fill="#503020" text-anchor="middle">longer it runs</text>
+  <text x="600" y="433" font-family="monospace" font-size="8" fill="#402010" text-anchor="middle">Calling it early is a decision</text>
+  <text x="600" y="449" font-family="monospace" font-size="8" fill="#402010" text-anchor="middle">not a failure</text>
+
+  <!-- Cell 6: Post-mortems that change nothing -->
+  <rect x="790" y="310" width="350" height="160" rx="5" fill="#150808" stroke="#2a1010" stroke-width="1"/>
+  <text x="965" y="340" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#c04030" text-anchor="middle" letter-spacing="2" opacity="0.9">EMPTY POST-MORTEMS</text>
+  <line x1="810" y1="350" x2="1120" y2="350" stroke="#2a1010" stroke-width="0.5"/>
+  <text x="965" y="375" font-family="monospace" font-size="9" fill="#703020" text-anchor="middle">Slide deck, list of actions</text>
+  <text x="965" y="393" font-family="monospace" font-size="8" fill="#503020" text-anchor="middle">Same patterns next project</text>
+  <text x="965" y="409" font-family="monospace" font-size="8" fill="#503020" text-anchor="middle">No change to leadership behaviour</text>
+  <text x="965" y="433" font-family="monospace" font-size="8" fill="#402010" text-anchor="middle">If nothing changed, it was</text>
+  <text x="965" y="449" font-family="monospace" font-size="8" fill="#402010" text-anchor="middle">a ceremony — not a review</text>
+
+  <!-- Bottom bar -->
+  <rect x="60" y="492" width="1080" height="36" rx="4" fill="#0a0f0a" stroke="#1a2a1a" stroke-width="1"/>
+  <text x="600" y="515" font-family="'Space Grotesk', sans-serif" font-size="13" fill="#aaa" text-anchor="middle">Projects don't fail — leadership decisions do</text>
+</svg>

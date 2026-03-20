@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The AI Problem Is Adoption, Not Capability — Stewart Masters</title>
+  <meta name="description" content="The tools are good enough. The bottleneck is people, process, and organisational readiness. Here's why most AI implementations stall at adoption.">
+  <meta property="og:title" content="The AI Problem Is Adoption, Not Capability">
+  <meta property="og:description" content="The tools are good enough. The bottleneck is people, process, and organisational readiness. Here's why most AI implementations stall at adoption.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://stewartmasters.me/blog/adoption-not-capability.html">
+  <meta property="og:site_name" content="Stewart Masters">
+  <meta property="og:image" content="https://stewartmasters.me/blog/images/adoption-not-capability.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The AI Problem Is Adoption, Not Capability">
+  <meta name="twitter:description" content="The tools are good enough. The bottleneck is people, process, and organisational readiness. Here's why most AI implementations stall at adoption.">
+  <link rel="canonical" href="https://stewartmasters.me/blog/adoption-not-capability.html">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "The AI Problem Is Adoption, Not Capability",
+    "description": "The tools are good enough. The bottleneck is people, process, and organisational readiness. Here's why most AI implementations stall at adoption.",
+    "image": "https://stewartmasters.me/blog/images/adoption-not-capability.svg",
+    "author": { "@type": "Person", "name": "Stewart Masters", "url": "https://stewartmasters.me" },
+    "publisher": { "@type": "Person", "name": "Stewart Masters", "url": "https://stewartmasters.me" },
+    "datePublished": "2026-04-10",
+    "dateModified": "2026-04-10",
+    "url": "https://stewartmasters.me/blog/adoption-not-capability.html",
+    "keywords": "AI adoption, AI implementation, change management AI, AI organisational readiness"
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { background-color: #0D0D0D; color: #EAEAEA; font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
+    .font-heading { font-family: 'Space Grotesk', sans-serif; }
+    .max-container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    .prose-container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; backdrop-filter: blur(24px); background: rgba(13,13,13,0.85); border-bottom: 1px solid #1c1c1c; }
+    .nav-link { font-size: 14px; color: #aaa; text-decoration: none; transition: color 0.2s; }
+    .nav-link:hover { color: #fff; }
+    .btn-primary { display: inline-block; background: #00D4FF; color: #0D0D0D; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 14px; padding: 10px 22px; border-radius: 4px; text-decoration: none; transition: background 0.2s; }
+    .btn-primary:hover { background: #fff; }
+    .prose h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.5rem; font-weight: 700; color: #fff; margin: 2.5rem 0 1rem; line-height: 1.3; }
+    .prose h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.15rem; font-weight: 600; color: #fff; margin: 2rem 0 0.75rem; }
+    .prose p { color: #EAEAEA; font-size: 17px; line-height: 1.85; margin-bottom: 1.5rem; }
+    .prose ul { margin: 0 0 1.5rem 0; padding: 0; list-style: none; }
+    .prose ul li { color: #EAEAEA; font-size: 17px; line-height: 1.85; padding: 4px 0 4px 24px; position: relative; }
+    .prose ul li::before { content: '→'; color: #00D4FF; position: absolute; left: 0; }
+    .prose strong { color: #fff; font-weight: 600; }
+    .blog-card { background: #121212; border: 1px solid #1e1e1e; border-radius: 10px; overflow: hidden; text-decoration: none; display: block; transition: border-color 0.3s, transform 0.3s; }
+    .blog-card:hover { border-color: #2a2a2a; transform: translateY(-4px); }
+    .blog-arrow { color: #333; font-size: 18px; transition: color 0.2s; }
+    .blog-card:hover .blog-arrow { color: #00D4FF; }
+    ::-webkit-scrollbar { width: 5px; } ::-webkit-scrollbar-track { background: #0D0D0D; } ::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 3px; }
+    #mobile-menu { display: none; } #mobile-menu.open { display: flex; }
+  </style>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script>
+</head>
+<body>
+
+<nav>
+  <div class="max-container py-4 flex items-center justify-between">
+    <a href="../index.html" class="font-heading font-semibold text-white text-lg tracking-tight">Stewart Masters</a>
+    <div class="hidden md:flex items-center gap-8">
+      <a href="../index.html#about" class="nav-link">About</a>
+      <a href="../index.html#services" class="nav-link">Where I Help</a>
+      <a href="index.html" class="nav-link">Thinking</a>
+      <a href="../index.html#contact" class="nav-link">Contact</a>
+    </div>
+    <div class="flex items-center gap-3">
+      <a href="../index.html#contact" class="btn-primary hidden md:inline-block">Get in touch</a>
+      <button id="hamburger" class="md:hidden text-gray-400 p-2" onclick="document.getElementById('mobile-menu').classList.toggle('open')">
+        <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h16M3 12h16M3 18h16"/></svg>
+      </button>
+    </div>
+  </div>
+  <div id="mobile-menu" class="flex-col gap-1 pb-4 px-6 border-t" style="border-color:#1a1a1a;">
+    <a href="../index.html#about" class="nav-link py-3 block">About</a>
+    <a href="../index.html#services" class="nav-link py-3 block">Where I Help</a>
+    <a href="index.html" class="nav-link py-3 block">Thinking</a>
+    <a href="../index.html#contact" class="nav-link py-3 block">Contact</a>
+  </div>
+</nav>
+
+<!-- Header -->
+<section class="pt-36 pb-12 px-6" style="border-bottom: 1px solid #1a1a1a;">
+  <div class="prose-container">
+    <div class="flex items-center gap-3 mb-8" style="font-size: 13px; color: #555;">
+      <a href="index.html" class="nav-link">Thinking</a>
+      <span>→</span>
+      <span style="color: #00D4FF;">AI &amp; Technology</span>
+    </div>
+    <h1 class="font-heading text-4xl md:text-5xl font-bold leading-tight text-white mb-6">
+      The AI problem is adoption, not capability
+    </h1>
+    <p style="color: #777; font-size: 16px; line-height: 1.7; margin-bottom: 28px;">
+      The tools are good enough. The bottleneck is people, process, and organisational readiness. Here's why most AI implementations stall at adoption.
+    </p>
+    <div class="flex items-center gap-4" style="font-size: 13px; color: #555;">
+      <span>Stewart Masters</span>
+      <span>·</span>
+      <span>10 Apr 2026</span>
+      <span>·</span>
+      <span>6 min read</span>
+    </div>
+  </div>
+</section>
+
+<!-- SVG Hero -->
+<div style="width:100%; max-height:420px; overflow:hidden; border-bottom:1px solid #1a1a1a;">
+  <img loading="lazy" src="images/adoption-not-capability.svg" alt="Diagram showing the gap between AI capability and actual adoption, with the barriers in between" style="width:100%; height:420px; object-fit:cover;">
+</div>
+
+<!-- Article -->
+<article class="py-16 px-6">
+  <div class="prose-container prose">
+
+    <p>
+      The conversation about AI in business has been dominated by capability questions. Is the model good enough? Is the technology mature enough? Can it actually do what we need it to do?
+    </p>
+
+    <p>
+      These were legitimate questions two or three years ago. They're much less relevant now. For the vast majority of business problems organisations want to apply AI to, the technology is more than capable enough. The tools exist. The APIs are accessible. The cost of AI compute has dropped dramatically.
+    </p>
+
+    <p>
+      The bottleneck has shifted. It is now almost entirely an adoption problem — and adoption problems require a completely different set of solutions than capability problems.
+    </p>
+
+    <h2>What the adoption gap actually looks like</h2>
+
+    <p>
+      Walk into almost any organisation that has announced an "AI strategy" and you'll find the same pattern. A central team — often small, often reporting to the CDO or CTO — has implemented one or two AI tools. Usage is concentrated in a handful of enthusiastic early adopters. The rest of the organisation continues to work in exactly the same way it did before.
+    </p>
+
+    <p>
+      This is not a technology failure. The tools are available, often free or very cheap, often already licensed as part of existing software subscriptions. The failure is that nobody has figured out how to make the tools fit into the actual work that people do, in a way that feels obviously better than the current approach, with enough support to overcome the friction of changing habits.
+    </p>
+
+    <p>
+      That's a change management problem. And most AI implementations are treating it as an IT problem.
+    </p>
+
+    <h2>The five barriers to adoption</h2>
+
+    <p>
+      <strong>Awareness without applicability.</strong> Most employees know, in the abstract, that AI tools exist. Very few can answer the question "what would I actually use this for in my job today?" Making the connection between the tool and the specific task is not something people do naturally — it requires deliberate education that goes far beyond a lunch-and-learn.
+    </p>
+
+    <p>
+      <strong>Trust gaps.</strong> People won't use tools they don't trust. And trust in AI is low in many organisations — partly due to well-publicised failures, partly due to accurate concern about accuracy, and partly due to a reasonable worry that using AI might expose them to criticism if something goes wrong. A culture that doesn't explicitly address these concerns will have low adoption regardless of how good the tools are.
+    </p>
+
+    <p>
+      <strong>Process fit.</strong> AI tools that don't integrate into existing workflows will fail. Asking someone to open a separate application, reformulate their problem in a new way, and then translate the output back into their existing system is asking them to take on friction in exchange for an uncertain benefit. The tools that get adopted are the ones that appear where people already work.
+    </p>
+
+    <p>
+      <strong>Skill gaps that nobody has measured.</strong> Effective use of AI tools requires skills that are not evenly distributed. Prompt engineering is a learnable skill, but it requires practice. Data literacy — understanding what the AI is doing and when to trust its outputs — is another. These aren't skills that people pick up accidentally.
+    </p>
+
+    <p>
+      <strong>Lack of visible leadership behaviour.</strong> In most organisations, adoption follows senior behaviour. If leaders are visibly using AI tools in their own work, talking about how they use them, and sharing where they've found value, adoption accelerates. If leaders are absent from this conversation, the implicit signal is that it's optional — and optional things don't become habits.
+    </p>
+
+    <h2>What works: the shift from deployment to embedding</h2>
+
+    <p>
+      Organisations that achieve meaningful AI adoption typically make a conceptual shift from thinking about deployment (getting the tool in place) to thinking about embedding (changing how work actually happens).
+    </p>
+
+    <p>
+      Embedding looks different from deployment in several ways. Instead of rolling out tools to everyone and hoping for uptake, it starts with identifying specific workflows where AI creates clear, demonstrable value — and then redesigning those workflows to incorporate AI as the default approach, not an optional add-on.
+    </p>
+
+    <p>
+      Instead of one-off training sessions, it provides ongoing learning infrastructure — regular sharing of what's working, peer coaching, and explicit recognition of people who find new applications. Instead of treating AI adoption as an IT rollout, it assigns it to the people who own the relevant workflows — operations, HR, finance, customer service — with technology in a supporting role.
+    </p>
+
+    <h2>The measurement problem</h2>
+
+    <p>
+      Adoption without measurement is invisible. Most organisations have no clear view of how widely AI tools are being used, where they're creating value, and where they're not. Without this data, it's impossible to identify what's working, what's not, and where to focus effort.
+    </p>
+
+    <p>
+      Basic adoption metrics — active users, tasks completed with AI assistance, time saved — should be tracked from the beginning of any AI implementation. Not because the numbers matter in themselves, but because they create accountability and reveal the reality of adoption that self-reporting and anecdotes will always obscure.
+    </p>
+
+    <h2>The leadership question</h2>
+
+    <p>
+      Ultimately, the adoption gap is a leadership question. The organisations that are genuinely ahead on AI — not in terms of what they've announced, but in terms of how their people actually work — have leaders who have made AI adoption a visible priority, allocated real resources to change management (not just technology), and created accountability structures for adoption, not just for deployment.
+    </p>
+
+    <p>
+      The capability questions will keep getting easier as the technology improves. The adoption questions are hard for reasons that won't go away on their own — they require deliberate, sustained leadership attention. The organisations that figure this out first will have a durable advantage over the ones that are still waiting for the capability to get good enough.
+    </p>
+
+  </div>
+</article>
+
+<!-- Author -->
+<section class="py-12 px-6" style="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a;">
+  <div class="prose-container">
+    <div class="flex items-start gap-5">
+      <div style="width:56px;height:56px;border-radius:50%;background:#1a1a1a;border:1px solid #2a2a2a;display:flex;align-items:center;justify-content:center;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:16px;color:#00D4FF;flex-shrink:0;">SM</div>
+      <div>
+        <div class="font-heading font-semibold text-white mb-1">Stewart Masters</div>
+        <div style="font-size: 13px; color: #777; margin-bottom: 8px;">Chief Digital Officer · Honest Greens · Barcelona</div>
+        <p style="font-size: 14px; color: #B0B0B0; line-height: 1.7;">20 years building and running digital operations inside real businesses. I write about AI, digital systems, and the leadership decisions that determine whether transformation actually happens.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Related Posts -->
+<section class="py-16 px-6">
+  <div class="max-container">
+    <h2 class="font-heading text-xl font-bold text-white mb-8">Related posts</h2>
+    <div class="grid md:grid-cols-3 gap-5">
+
+      <a href="ai-needs-data-strategy.html" class="blog-card">
+        <div style="height:140px;background:linear-gradient(135deg,#0a1218,#081015);display:flex;align-items:center;justify-content:center;border-bottom:1px solid #1e1e1e;">
+          <span style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(0,180,255,0.3);font-family:'Space Grotesk',sans-serif;">Data</span>
+        </div>
+        <div class="p-5">
+          <span style="font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:#00D4FF;">AI &amp; Technology</span>
+          <h3 class="font-heading text-sm font-semibold mt-2 mb-2 text-white leading-snug">Why your AI strategy needs a data strategy first</h3>
+          <div class="flex items-center justify-between mt-4">
+            <span style="font-size:12px;color:#555;">29 Mar · 6 min</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="digital-transformation-failures.html" class="blog-card">
+        <div style="height:140px;background:linear-gradient(135deg,#1a0e0e,#120a0a);display:flex;align-items:center;justify-content:center;border-bottom:1px solid #1e1e1e;">
+          <span style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(200,80,80,0.3);font-family:'Space Grotesk',sans-serif;">Failure</span>
+        </div>
+        <div class="p-5">
+          <span style="font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:#00D4FF;">Leadership</span>
+          <h3 class="font-heading text-sm font-semibold mt-2 mb-2 text-white leading-snug">Why digital transformation fails — and what actually works</h3>
+          <div class="flex items-center justify-between mt-4">
+            <span style="font-size:12px;color:#555;">25 Mar · 7 min</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="ai-governance-board.html" class="blog-card">
+        <div style="height:140px;background:linear-gradient(135deg,#0a1520,#081015);display:flex;align-items:center;justify-content:center;border-bottom:1px solid #1e1e1e;">
+          <span style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(0,180,255,0.3);font-family:'Space Grotesk',sans-serif;">Governance</span>
+        </div>
+        <div class="p-5">
+          <span style="font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:#00D4FF;">Board &amp; Advisory</span>
+          <h3 class="font-heading text-sm font-semibold mt-2 mb-2 text-white leading-snug">AI governance for boards — what good oversight actually looks like</h3>
+          <div class="flex items-center justify-between mt-4">
+            <span style="font-size:12px;color:#555;">9 Apr · 6 min</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-10 px-6" style="border-top: 1px solid #141414;">
+  <div class="max-container flex flex-col md:flex-row items-center justify-between gap-4">
+    <span class="font-heading font-semibold" style="color: #555;">Stewart Masters</span>
+    <div class="flex gap-6" style="font-size: 13px;">
+      <a href="../index.html#about" class="nav-link">About</a>
+      <a href="../index.html#services" class="nav-link">Where I Help</a>
+      <a href="index.html" class="nav-link">Thinking</a>
+      <a href="../index.html#contact" class="nav-link">Contact</a>
+    </div>
+    <a href="https://www.linkedin.com/in/stewartmasters/" target="_blank" rel="noopener" class="nav-link" style="font-size: 13px;">LinkedIn →</a>
+  </div>
+</footer>
+
+</body>
+</html>

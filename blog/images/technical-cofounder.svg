@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0d12"/>
+      <stop offset="100%" style="stop-color:#0d1018"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="600" y="65" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#00D4FF" opacity="0.6" letter-spacing="4" text-anchor="middle">LEADERSHIP</text>
+  <text x="600" y="100" font-family="'Space Grotesk', sans-serif" font-size="25" font-weight="700" fill="#fff" opacity="0.9" text-anchor="middle">What to Look For in a Technical Co-founder</text>
+
+  <!-- Column headers -->
+  <text x="300" y="145" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#c04030" text-anchor="middle" letter-spacing="2" opacity="0.8">COMMON MISTAKES</text>
+  <text x="900" y="145" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" text-anchor="middle" letter-spacing="2" opacity="0.8">WHAT ACTUALLY MATTERS</text>
+  <line x1="60" y1="153" x2="580" y2="153" stroke="#c04030" stroke-width="0.5" opacity="0.3"/>
+  <line x1="620" y1="153" x2="1140" y2="153" stroke="#00D4FF" stroke-width="0.5" opacity="0.3"/>
+  <line x1="600" y1="153" x2="600" y2="490" stroke="#1a1a1a" stroke-width="1"/>
+
+  <!-- Mistake 1 -->
+  <rect x="60" y="162" width="520" height="88" rx="5" fill="#180808" stroke="#2a1010" stroke-width="1"/>
+  <text x="320" y="187" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#903030" text-anchor="middle">Optimising for technical depth alone</text>
+  <text x="320" y="207" font-family="monospace" font-size="9" fill="#5a2020" text-anchor="middle">Most sophisticated ≠ most appropriate</text>
+  <text x="320" y="224" font-family="monospace" font-size="9" fill="#3a1515" text-anchor="middle">Over-engineering at early stage is a real failure mode</text>
+  <text x="320" y="241" font-family="monospace" font-size="8" fill="#2a1010" text-anchor="middle">Judgment about when to build vs buy matters more</text>
+
+  <!-- Mistake 2 -->
+  <rect x="60" y="262" width="520" height="88" rx="5" fill="#180808" stroke="#2a1010" stroke-width="1"/>
+  <text x="320" y="287" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#903030" text-anchor="middle">Treating them like a senior engineer</text>
+  <text x="320" y="307" font-family="monospace" font-size="9" fill="#5a2020" text-anchor="middle">A co-founder is not an employee</text>
+  <text x="320" y="324" font-family="monospace" font-size="9" fill="#3a1515" text-anchor="middle">Normal exit mechanisms don't apply cleanly</text>
+  <text x="320" y="341" font-family="monospace" font-size="8" fill="#2a1010" text-anchor="middle">The equity and partnership structure must be right from day one</text>
+
+  <!-- Mistake 3 -->
+  <rect x="60" y="362" width="520" height="88" rx="5" fill="#180808" stroke="#2a1010" stroke-width="1"/>
+  <text x="320" y="387" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#903030" text-anchor="middle">Hiring fast to start shipping</text>
+  <text x="320" y="407" font-family="monospace" font-size="9" fill="#5a2020" text-anchor="middle">Urgency is understandable — but wrong person costs more</text>
+  <text x="320" y="424" font-family="monospace" font-size="9" fill="#3a1515" text-anchor="middle">Skipping references · Not building together first</text>
+  <text x="320" y="441" font-family="monospace" font-size="8" fill="#2a1010" text-anchor="middle">Avoiding hard conversations about vision and values</text>
+
+  <!-- What matters 1 -->
+  <rect x="620" y="162" width="520" height="88" rx="5" fill="#0a1820" stroke="#00D4FF" stroke-width="1" opacity="0.5"/>
+  <text x="880" y="187" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#00D4FF" text-anchor="middle" opacity="0.9">Technical judgment, not depth</text>
+  <text x="880" y="207" font-family="monospace" font-size="9" fill="#2a7090" text-anchor="middle">Matches skills to what the next 18 months require</text>
+  <text x="880" y="224" font-family="monospace" font-size="9" fill="#1a5070" text-anchor="middle">Pragmatic vs rigorous — can articulate the trade-off</text>
+  <text x="880" y="241" font-family="monospace" font-size="8" fill="#1a3a50" text-anchor="middle">Thinks in outcomes, not architecture</text>
+
+  <!-- What matters 2 -->
+  <rect x="620" y="262" width="520" height="88" rx="5" fill="#0a1820" stroke="#00D4FF" stroke-width="1" opacity="0.4"/>
+  <text x="880" y="287" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#00D4FF" text-anchor="middle" opacity="0.8">Partnership and communication quality</text>
+  <text x="880" y="307" font-family="monospace" font-size="9" fill="#2a7090" text-anchor="middle">Can work through genuine disagreement</text>
+  <text x="880" y="324" font-family="monospace" font-size="9" fill="#1a5070" text-anchor="middle">Explains technical decisions to non-technical audiences</text>
+  <text x="880" y="341" font-family="monospace" font-size="8" fill="#1a3a50" text-anchor="middle">Appetite for non-technical work: hiring, investors, strategy</text>
+
+  <!-- What matters 3 -->
+  <rect x="620" y="362" width="520" height="88" rx="5" fill="#0a1820" stroke="#00D4FF" stroke-width="1" opacity="0.4"/>
+  <text x="880" y="387" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#00D4FF" text-anchor="middle" opacity="0.8">Process before formality</text>
+  <text x="880" y="407" font-family="monospace" font-size="9" fill="#2a7090" text-anchor="middle">Build something small together first</text>
+  <text x="880" y="424" font-family="monospace" font-size="9" fill="#1a5070" text-anchor="middle">Deep reference checks · Hard vision conversations</text>
+  <text x="880" y="441" font-family="monospace" font-size="8" fill="#1a3a50" text-anchor="middle">Equity and legal structure done properly before value exists</text>
+
+  <!-- Bottom bar -->
+  <rect x="160" y="492" width="880" height="36" rx="4" fill="#0a0f0a" stroke="#1a2a1a" stroke-width="1"/>
+  <text x="600" y="515" font-family="'Space Grotesk', sans-serif" font-size="13" fill="#aaa" text-anchor="middle">The quality of the partnership matters more than the speed of formation</text>
+</svg>

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Why Your AI Strategy Needs a Data Strategy First — Stewart Masters</title>
+  <meta name="description" content="Most AI projects fail not because of the model — but because the data isn't ready. Here's why you need the data strategy before the AI strategy.">
+  <meta property="og:title" content="Why Your AI Strategy Needs a Data Strategy First">
+  <meta property="og:description" content="Most AI projects fail not because of the model — but because the data isn't ready. Here's why you need the data strategy before the AI strategy.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://stewartmasters.me/blog/ai-needs-data-strategy.html">
+  <meta property="og:site_name" content="Stewart Masters">
+  <meta property="og:image" content="https://stewartmasters.me/blog/images/ai-needs-data-strategy.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Why Your AI Strategy Needs a Data Strategy First">
+  <meta name="twitter:description" content="Most AI projects fail not because of the model — but because the data isn't ready. Data strategy comes first.">
+  <link rel="canonical" href="https://stewartmasters.me/blog/ai-needs-data-strategy.html">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Why Your AI Strategy Needs a Data Strategy First",
+    "description": "Most AI projects fail not because of the model — but because the data isn't ready. Here's why you need the data strategy before the AI strategy.",
+    "image": "https://stewartmasters.me/blog/images/ai-needs-data-strategy.svg",
+    "author": { "@type": "Person", "name": "Stewart Masters", "url": "https://stewartmasters.me" },
+    "publisher": { "@type": "Person", "name": "Stewart Masters", "url": "https://stewartmasters.me" },
+    "datePublished": "2026-03-29",
+    "dateModified": "2026-03-29",
+    "url": "https://stewartmasters.me/blog/ai-needs-data-strategy.html",
+    "keywords": "AI strategy data strategy, data readiness for AI, AI implementation, AI project failure, data foundation"
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { background-color: #0D0D0D; color: #EAEAEA; font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
+    .font-heading { font-family: 'Space Grotesk', sans-serif; }
+    .max-container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    .prose-container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; backdrop-filter: blur(24px); background: rgba(13,13,13,0.85); border-bottom: 1px solid #1c1c1c; }
+    .nav-link { font-size: 14px; color: #aaa; text-decoration: none; transition: color 0.2s; }
+    .nav-link:hover { color: #fff; }
+    .btn-primary { display: inline-block; background: #00D4FF; color: #0D0D0D; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 14px; padding: 10px 22px; border-radius: 4px; text-decoration: none; transition: background 0.2s; }
+    .btn-primary:hover { background: #fff; }
+    .prose h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.5rem; font-weight: 700; color: #fff; margin: 2.5rem 0 1rem; line-height: 1.3; }
+    .prose h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.15rem; font-weight: 600; color: #fff; margin: 2rem 0 0.75rem; }
+    .prose p { color: #EAEAEA; font-size: 17px; line-height: 1.85; margin-bottom: 1.5rem; }
+    .prose ul { margin: 0 0 1.5rem 0; padding: 0; list-style: none; }
+    .prose ul li { color: #EAEAEA; font-size: 17px; line-height: 1.85; padding: 4px 0 4px 24px; position: relative; }
+    .prose ul li::before { content: '→'; color: #00D4FF; position: absolute; left: 0; }
+    .prose strong { color: #fff; font-weight: 600; }
+    .blog-card { background: #121212; border: 1px solid #1e1e1e; border-radius: 10px; overflow: hidden; text-decoration: none; display: block; transition: border-color 0.3s, transform 0.3s; }
+    .blog-card:hover { border-color: #2a2a2a; transform: translateY(-4px); }
+    .blog-arrow { color: #333; font-size: 18px; transition: color 0.2s; }
+    .blog-card:hover .blog-arrow { color: #00D4FF; }
+    ::-webkit-scrollbar { width: 5px; } ::-webkit-scrollbar-track { background: #0D0D0D; } ::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 3px; }
+    #mobile-menu { display: none; } #mobile-menu.open { display: flex; }
+  </style>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script>
+</head>
+<body>
+
+<nav>
+  <div class="max-container py-4 flex items-center justify-between">
+    <a href="../index.html" class="font-heading font-semibold text-white text-lg tracking-tight">Stewart Masters</a>
+    <div class="hidden md:flex items-center gap-8">
+      <a href="../index.html#about" class="nav-link">About</a>
+      <a href="../index.html#services" class="nav-link">Where I Help</a>
+      <a href="index.html" class="nav-link">Thinking</a>
+      <a href="../index.html#contact" class="nav-link">Contact</a>
+    </div>
+    <div class="flex items-center gap-3">
+      <a href="../index.html#contact" class="btn-primary hidden md:inline-block">Get in touch</a>
+      <button id="hamburger" class="md:hidden text-gray-400 p-2" onclick="document.getElementById('mobile-menu').classList.toggle('open')">
+        <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h16M3 12h16M3 18h16"/></svg>
+      </button>
+    </div>
+  </div>
+  <div id="mobile-menu" class="flex-col gap-1 pb-4 px-6 border-t" style="border-color:#1a1a1a;">
+    <a href="../index.html#about" class="nav-link py-3 block">About</a>
+    <a href="../index.html#services" class="nav-link py-3 block">Where I Help</a>
+    <a href="index.html" class="nav-link py-3 block">Thinking</a>
+    <a href="../index.html#contact" class="nav-link py-3 block">Contact</a>
+  </div>
+</nav>
+
+<!-- Header -->
+<section class="pt-36 pb-12 px-6" style="border-bottom: 1px solid #1a1a1a;">
+  <div class="prose-container">
+    <div class="flex items-center gap-3 mb-8" style="font-size: 13px; color: #555;">
+      <a href="index.html" class="nav-link">Thinking</a>
+      <span>→</span>
+      <span style="color: #00D4FF;">AI & Technology</span>
+    </div>
+    <h1 class="font-heading text-4xl md:text-5xl font-bold leading-tight text-white mb-6">
+      Why your AI strategy needs a data strategy first
+    </h1>
+    <p style="color: #777; font-size: 16px; line-height: 1.7; margin-bottom: 28px;">
+      Most AI projects fail not because of the model — but because the data isn't ready. Here's why the data strategy has to come first, and what building it actually involves.
+    </p>
+    <div class="flex items-center gap-4" style="font-size: 13px; color: #555;">
+      <span>Stewart Masters</span>
+      <span>·</span>
+      <span>29 Mar 2026</span>
+      <span>·</span>
+      <span>6 min read</span>
+    </div>
+  </div>
+</section>
+
+<!-- SVG Hero -->
+<div style="width:100%; max-height:420px; overflow:hidden; border-bottom:1px solid #1a1a1a;">
+  <img loading="lazy" src="images/ai-needs-data-strategy.svg" alt="Diagram showing the relationship between data strategy and AI strategy, with data as the foundation layer" style="width:100%; height:420px; object-fit:cover;">
+</div>
+
+<!-- Article -->
+<article class="py-16 px-6">
+  <div class="prose-container prose">
+
+    <p>
+      The majority of organisations approaching AI adoption start in the wrong place. They start with the model — which AI tool to use, which vendor to partner with, what use cases to prioritise. This is understandable. The model is the exciting part. The data is the unglamorous part that nobody wants to fund or talk about. But getting the order wrong is why most AI projects deliver so little.
+    </p>
+
+    <h2>The order matters more than the technology</h2>
+
+    <p>
+      AI — whether you're using foundation models, building custom systems, or deploying off-the-shelf tools — depends entirely on data. The quality of your AI output is a direct function of the quality, completeness, and structure of your data. A world-class model with mediocre data produces mediocre results. A well-designed AI application with clean, consistent, well-governed data can produce remarkable results.
+    </p>
+
+    <p>
+      Most organisations don't have good data. They have data spread across disconnected systems, with inconsistent definitions, poor governance, and significant gaps. They've never had to confront this because the previous generation of reporting tools could be configured to work around these problems. AI can't. It exposes them immediately.
+    </p>
+
+    <h2>What data readiness actually means</h2>
+
+    <p>
+      Data readiness is not just about volume. Bigger datasets don't automatically produce better AI. What matters is:
+    </p>
+
+    <ul>
+      <li><strong>Completeness:</strong> Do you have the data that the AI use case actually requires? Missing fields, sparse records, and historical gaps all limit what's possible.</li>
+      <li><strong>Consistency:</strong> Is the same concept represented the same way across different systems? Customer IDs that don't match across databases, product categories that differ between sales and operations, dates in incompatible formats — all of these create problems that are surprisingly hard to fix at scale.</li>
+      <li><strong>Accuracy:</strong> Does your data actually reflect reality? Data that was accurate three years ago may not be now. Data that was accurate in one context may not be in another.</li>
+      <li><strong>Accessibility:</strong> Can the data actually be accessed by the systems that need it? Many organisations have valuable data locked in systems that don't expose APIs, or in formats that require significant transformation before use.</li>
+    </ul>
+
+    <h2>The four data problems that kill AI projects</h2>
+
+    <p>
+      After working through multiple AI implementations, the same failure patterns recur. Understanding them early saves significant time and money.
+    </p>
+
+    <p>
+      <strong>Siloed systems with no single truth.</strong> The most common problem: customer data in CRM, financial data in ERP, operational data in a separate system, and no reliable way to connect them. Every AI project that requires a unified view of the business — which is most of the valuable ones — hits this wall immediately.
+    </p>
+
+    <p>
+      <strong>Data that's collected but not structured for use.</strong> Organisations often have vast quantities of data they can't use because it was collected without thinking about downstream applications. Unstructured notes, inconsistent tagging, free-text fields where structured fields were needed. Cleaning this data is laborious and expensive.
+    </p>
+
+    <p>
+      <strong>Governance gaps that create legal and ethical risk.</strong> AI that uses personal data creates compliance obligations that many organisations haven't addressed. Understanding what data you hold, where it came from, whether you have the right to use it for AI, and how to manage it appropriately is a legal requirement, not just good practice.
+    </p>
+
+    <p>
+      <strong>Data pipelines that don't exist yet.</strong> Some AI use cases require data that simply isn't being collected. Before you can build the AI, you have to build the infrastructure to capture the data — which may take months and require changes to operational systems.
+    </p>
+
+    <h2>What building a data foundation looks like</h2>
+
+    <p>
+      A data strategy for AI doesn't need to be comprehensive from day one. It needs to be sequenced correctly. Start with the use cases you're planning to pursue first, and work backwards to understand what data those use cases require. This is a much more tractable problem than trying to fix all your data before starting.
+    </p>
+
+    <p>
+      The practical steps: audit what data you have and where it lives; identify the gaps relative to your priority AI use cases; establish clear data ownership and governance; build or procure the infrastructure to move, clean, and serve data to AI systems; and define the data quality standards the organisation will hold itself to.
+    </p>
+
+    <h2>How long it takes — and why that matters</h2>
+
+    <p>
+      This is where most AI roadmaps underestimate the timeline. Data foundation work — depending on the complexity of your systems landscape — takes months, not weeks. Organisations that haven't done this work and are promising AI outcomes in 60 days are either working on very narrow, low-risk use cases or setting themselves up for disappointment.
+    </p>
+
+    <p>
+      The honest planning assumption for a meaningful AI implementation is: 3–6 months of data foundation work before you can reliably build on top of it. That doesn't mean you can't run experiments or learn during that period. But it does mean that the AI use cases that will matter to the business will take longer than the vendor demos suggest.
+    </p>
+
+    <h2>Starting before you're fully ready</h2>
+
+    <p>
+      The data foundation work and the AI strategy work don't have to be sequential. The most effective approach is to run them in parallel: start scoping your priority use cases while simultaneously auditing your data. Use the use case scoping to inform which data problems to fix first. Use the data audit to inform which use cases are actually viable in a realistic timeframe.
+    </p>
+
+    <p>
+      The key is to be honest about what's a proof of concept and what's a production system. Proofs of concept can work with imperfect data. Production systems can't. Build the data foundation before you commit to production timelines — and include the data investment in your AI budget from the start.
+    </p>
+
+  </div>
+</article>
+
+<!-- Author -->
+<section class="py-12 px-6" style="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a;">
+  <div class="prose-container">
+    <div class="flex items-start gap-5">
+      <div style="width:56px;height:56px;border-radius:50%;background:#1a1a1a;border:1px solid #2a2a2a;display:flex;align-items:center;justify-content:center;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:16px;color:#00D4FF;flex-shrink:0;">SM</div>
+      <div>
+        <div class="font-heading font-semibold text-white mb-1">Stewart Masters</div>
+        <div style="font-size: 13px; color: #777; margin-bottom: 8px;">Chief Digital Officer · Honest Greens · Barcelona</div>
+        <p style="font-size: 14px; color: #B0B0B0; line-height: 1.7;">20 years building and running digital operations inside real businesses. I write about AI, digital systems, and the leadership decisions that determine whether transformation actually happens.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Related Posts -->
+<section class="py-16 px-6">
+  <div class="max-container">
+    <h2 class="font-heading text-xl font-bold text-white mb-8">Related posts</h2>
+    <div class="grid md:grid-cols-3 gap-5">
+
+      <a href="data-strategy-founders.html" class="blog-card">
+        <div style="height:140px;background:linear-gradient(135deg,#1a1a0e,#12120a);display:flex;align-items:center;justify-content:center;border-bottom:1px solid #1e1e1e;">
+          <span style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(200,200,80,0.3);font-family:'Space Grotesk',sans-serif;">Data</span>
+        </div>
+        <div class="p-5">
+          <span style="font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:#00D4FF;">Digital Strategy</span>
+          <h3 class="font-heading text-sm font-semibold mt-2 mb-2 text-white leading-snug">Data strategy for non-technical founders</h3>
+          <div class="flex items-center justify-between mt-4">
+            <span style="font-size:12px;color:#555;">23 Mar · 6 min</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="agentic-ai-business-leaders.html" class="blog-card">
+        <div style="height:140px;background:linear-gradient(135deg,#0e1a1a,#0a1212);display:flex;align-items:center;justify-content:center;border-bottom:1px solid #1e1e1e;">
+          <span style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(0,200,200,0.3);font-family:'Space Grotesk',sans-serif;">Agentic</span>
+        </div>
+        <div class="p-5">
+          <span style="font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:#00D4FF;">AI & Technology</span>
+          <h3 class="font-heading text-sm font-semibold mt-2 mb-2 text-white leading-snug">What agentic AI means for business leaders</h3>
+          <div class="flex items-center justify-between mt-4">
+            <span style="font-size:12px;color:#555;">Mar · 6 min</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="data-governance.html" class="blog-card">
+        <div style="height:140px;background:linear-gradient(135deg,#1a0e1a,#12080f);display:flex;align-items:center;justify-content:center;border-bottom:1px solid #1e1e1e;">
+          <span style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(180,80,255,0.3);font-family:'Space Grotesk',sans-serif;">Governance</span>
+        </div>
+        <div class="p-5">
+          <span style="font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:#00D4FF;">Digital Strategy</span>
+          <h3 class="font-heading text-sm font-semibold mt-2 mb-2 text-white leading-snug">Data governance without the bureaucracy</h3>
+          <div class="flex items-center justify-between mt-4">
+            <span style="font-size:12px;color:#555;">Mar · 5 min</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-10 px-6" style="border-top: 1px solid #141414;">
+  <div class="max-container flex flex-col md:flex-row items-center justify-between gap-4">
+    <span class="font-heading font-semibold" style="color: #555;">Stewart Masters</span>
+    <div class="flex gap-6" style="font-size: 13px;">
+      <a href="../index.html#about" class="nav-link">About</a>
+      <a href="../index.html#services" class="nav-link">Where I Help</a>
+      <a href="index.html" class="nav-link">Thinking</a>
+      <a href="../index.html#contact" class="nav-link">Contact</a>
+    </div>
+    <a href="https://www.linkedin.com/in/stewartmasters/" target="_blank" rel="noopener" class="nav-link" style="font-size: 13px;">LinkedIn →</a>
+  </div>
+</footer>
+
+</body>
+</html>

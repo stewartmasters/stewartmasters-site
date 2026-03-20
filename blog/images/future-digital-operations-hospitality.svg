@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0d12"/>
+      <stop offset="100%" style="stop-color:#0d1018"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="600" y="65" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#00D4FF" opacity="0.6" letter-spacing="4" text-anchor="middle">AI &amp; TECHNOLOGY</text>
+  <text x="600" y="100" font-family="'Space Grotesk', sans-serif" font-size="24" font-weight="700" fill="#fff" opacity="0.9" text-anchor="middle">The Future of Digital Operations in Hospitality</text>
+
+  <!-- Four quadrant panels -->
+
+  <!-- Top left: Revenue Management -->
+  <rect x="60" y="128" width="530" height="175" rx="6" fill="#0a1820" stroke="#00D4FF" stroke-width="1" opacity="0.5"/>
+  <text x="325" y="158" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" text-anchor="middle" letter-spacing="2" opacity="0.9">REVENUE MANAGEMENT</text>
+  <line x1="80" y1="168" x2="570" y2="168" stroke="#00D4FF" stroke-width="0.5" opacity="0.3"/>
+  <text x="325" y="193" font-family="monospace" font-size="9" fill="#2a7090" text-anchor="middle">Dynamic pricing already technology-led at scale</text>
+  <text x="325" y="211" font-family="monospace" font-size="9" fill="#1a5070" text-anchor="middle">AI adds: weather · events · competitor signals · real-time</text>
+  <text x="325" y="237" font-family="monospace" font-size="8" fill="#1a3a50" text-anchor="middle">Manual weekly reviews = competitive disadvantage</text>
+  <text x="325" y="255" font-family="monospace" font-size="8" fill="#1a3050" text-anchor="middle">Cost of intelligent yield management now viable for mid-market</text>
+  <text x="325" y="279" font-family="monospace" font-size="8" fill="#1a2840" text-anchor="middle">Constraint: adoption and integration, not capability</text>
+
+  <!-- Top right: Guest Experience -->
+  <rect x="610" y="128" width="530" height="175" rx="6" fill="#0a1820" stroke="#00D4FF" stroke-width="1" opacity="0.4"/>
+  <text x="875" y="158" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" text-anchor="middle" letter-spacing="2" opacity="0.8">GUEST EXPERIENCE</text>
+  <line x1="630" y1="168" x2="1120" y2="168" stroke="#00D4FF" stroke-width="0.5" opacity="0.3"/>
+  <text x="875" y="193" font-family="monospace" font-size="9" fill="#2a7090" text-anchor="middle">Personalisation at scale — without large CRM teams</text>
+  <text x="875" y="211" font-family="monospace" font-size="9" fill="#1a5070" text-anchor="middle">Uses data that already exists in PMS + loyalty + bookings</text>
+  <text x="875" y="237" font-family="monospace" font-size="8" fill="#1a3a50" text-anchor="middle">Quiet room guest ≠ conference attendee ≠ spa repeat visitor</text>
+  <text x="875" y="255" font-family="monospace" font-size="8" fill="#1a3050" text-anchor="middle">Barrier: fragmented data, not missing technology</text>
+  <text x="875" y="279" font-family="monospace" font-size="8" fill="#1a2840" text-anchor="middle">Real change: staff see better information, faster</text>
+
+  <!-- Bottom left: Operations & Maintenance -->
+  <rect x="60" y="323" width="530" height="175" rx="6" fill="#0a1820" stroke="#00D4FF" stroke-width="1" opacity="0.35"/>
+  <text x="325" y="353" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" text-anchor="middle" letter-spacing="2" opacity="0.7">OPERATIONS &amp; MAINTENANCE</text>
+  <line x1="80" y1="363" x2="570" y2="363" stroke="#00D4FF" stroke-width="0.5" opacity="0.3"/>
+  <text x="325" y="388" font-family="monospace" font-size="9" fill="#2a7090" text-anchor="middle">Reactive → predictive: anticipate, not respond</text>
+  <text x="325" y="406" font-family="monospace" font-size="9" fill="#1a5070" text-anchor="middle">Housekeeping · Energy · Maintenance all optimisable</text>
+  <text x="325" y="432" font-family="monospace" font-size="8" fill="#1a3a50" text-anchor="middle">Fix before failure costs a fraction of in-stay disruption</text>
+  <text x="325" y="450" font-family="monospace" font-size="8" fill="#1a3050" text-anchor="middle">Models aren't complex — need consistent data capture</text>
+  <text x="325" y="474" font-family="monospace" font-size="8" fill="#1a2840" text-anchor="middle">Act on signals before the problem becomes visible</text>
+
+  <!-- Bottom right: Workforce Planning -->
+  <rect x="610" y="323" width="530" height="175" rx="6" fill="#0a1820" stroke="#00D4FF" stroke-width="1" opacity="0.3"/>
+  <text x="875" y="353" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" text-anchor="middle" letter-spacing="2" opacity="0.7">WORKFORCE PLANNING</text>
+  <line x1="630" y1="363" x2="1120" y2="363" stroke="#00D4FF" stroke-width="0.5" opacity="0.3"/>
+  <text x="875" y="388" font-family="monospace" font-size="9" fill="#2a7090" text-anchor="middle">Fixed rosters → demand-responsive scheduling</text>
+  <text x="875" y="406" font-family="monospace" font-size="9" fill="#1a5070" text-anchor="middle">Balances forecast · preferences · fatigue · compliance</text>
+  <text x="875" y="432" font-family="monospace" font-size="8" fill="#1a3a50" text-anchor="middle">Technology exists and is mature</text>
+  <text x="875" y="450" font-family="monospace" font-size="8" fill="#1a3050" text-anchor="middle">Barrier: managers trusting models they didn't build</text>
+  <text x="875" y="474" font-family="monospace" font-size="8" fill="#1a2840" text-anchor="middle">Change management problem, not a technology problem</text>
+
+  <!-- Bottom bar -->
+  <rect x="60" y="518" width="1080" height="36" rx="4" fill="#0a0f0a" stroke="#1a2a1a" stroke-width="1"/>
+  <text x="600" y="541" font-family="'Space Grotesk', sans-serif" font-size="13" fill="#aaa" text-anchor="middle">The future is a workforce spending more time on high-value human interaction</text>
+</svg>

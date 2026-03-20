@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0d0a"/>
+      <stop offset="100%" style="stop-color:#0d100d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- 6 mistake cards in 2x3 grid -->
+  <!-- Mistake 1 -->
+  <rect x="60" y="155" width="340" height="130" rx="5" fill="#150808" stroke="#2a1010" stroke-width="1"/>
+  <text x="230" y="178" font-family="'Space Grotesk', sans-serif" font-size="9" fill="#5a2020" text-anchor="middle" letter-spacing="2">MISTAKE 1</text>
+  <text x="230" y="200" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#903030" text-anchor="middle">Hiring for the title</text>
+  <text x="230" y="220" font-family="monospace" font-size="9" fill="#5a2020" text-anchor="middle">Not for the specific problem</text>
+  <text x="230" y="238" font-family="monospace" font-size="8" fill="#3a1515" text-anchor="middle">What are we solving in 18 months?</text>
+  <text x="230" y="256" font-family="monospace" font-size="8" fill="#2a1010" text-anchor="middle">Answer this before you post the role</text>
+
+  <!-- Mistake 2 -->
+  <rect x="430" y="155" width="340" height="130" rx="5" fill="#150808" stroke="#2a1010" stroke-width="1"/>
+  <text x="600" y="178" font-family="'Space Grotesk', sans-serif" font-size="9" fill="#5a2020" text-anchor="middle" letter-spacing="2">MISTAKE 2</text>
+  <text x="600" y="200" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#903030" text-anchor="middle">Impressive names &gt; relevant experience</text>
+  <text x="600" y="220" font-family="monospace" font-size="9" fill="#5a2020" text-anchor="middle">Big company ≠ right context</text>
+  <text x="600" y="238" font-family="monospace" font-size="8" fill="#3a1515" text-anchor="middle">Have they done THIS at THIS stage?</text>
+  <text x="600" y="256" font-family="monospace" font-size="8" fill="#2a1010" text-anchor="middle">Closer match = faster impact</text>
+
+  <!-- Mistake 3 -->
+  <rect x="800" y="155" width="340" height="130" rx="5" fill="#150808" stroke="#2a1010" stroke-width="1"/>
+  <text x="970" y="178" font-family="'Space Grotesk', sans-serif" font-size="9" fill="#5a2020" text-anchor="middle" letter-spacing="2">MISTAKE 3</text>
+  <text x="970" y="200" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#903030" text-anchor="middle">Testing tools, not judgment</text>
+  <text x="970" y="220" font-family="monospace" font-size="9" fill="#5a2020" text-anchor="middle">Stack questions miss what matters</text>
+  <text x="970" y="238" font-family="monospace" font-size="8" fill="#3a1515" text-anchor="middle">Ask: "Tell me about a wrong decision"</text>
+  <text x="970" y="256" font-family="monospace" font-size="8" fill="#2a1010" text-anchor="middle">Judgment &gt; tool knowledge</text>
+
+  <!-- Mistake 4 -->
+  <rect x="60" y="310" width="340" height="130" rx="5" fill="#150808" stroke="#2a1010" stroke-width="1"/>
+  <text x="230" y="333" font-family="'Space Grotesk', sans-serif" font-size="9" fill="#5a2020" text-anchor="middle" letter-spacing="2">MISTAKE 4</text>
+  <text x="230" y="355" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#903030" text-anchor="middle">Wrong people in the room</text>
+  <text x="230" y="375" font-family="monospace" font-size="9" fill="#5a2020" text-anchor="middle">CEO + CHRO can't test credibility</text>
+  <text x="230" y="393" font-family="monospace" font-size="8" fill="#3a1515" text-anchor="middle">Bring someone who can probe technically</text>
+  <text x="230" y="411" font-family="monospace" font-size="8" fill="#2a1010" text-anchor="middle">Internal, advisor, or consultant</text>
+
+  <!-- Mistake 5 -->
+  <rect x="430" y="310" width="340" height="130" rx="5" fill="#150808" stroke="#2a1010" stroke-width="1"/>
+  <text x="600" y="333" font-family="'Space Grotesk', sans-serif" font-size="9" fill="#5a2020" text-anchor="middle" letter-spacing="2">MISTAKE 5</text>
+  <text x="600" y="355" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#903030" text-anchor="middle">Hiring for where you are</text>
+  <text x="600" y="375" font-family="monospace" font-size="9" fill="#5a2020" text-anchor="middle">Not where you're going</text>
+  <text x="600" y="393" font-family="monospace" font-size="8" fill="#3a1515" text-anchor="middle">Team of 3 today → 15 at next raise?</text>
+  <text x="600" y="411" font-family="monospace" font-size="8" fill="#2a1010" text-anchor="middle">Hire for where they need to be in 3 years</text>
+
+  <!-- Mistake 6 (fixed) -->
+  <rect x="800" y="310" width="340" height="130" rx="5" fill="#0a1a0a" stroke="#00D4FF" stroke-width="1" opacity="0.5"/>
+  <text x="970" y="333" font-family="'Space Grotesk', sans-serif" font-size="9" fill="#00D4FF" text-anchor="middle" letter-spacing="2" opacity="0.7">THE FIX</text>
+  <text x="970" y="355" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#00D4FF" text-anchor="middle" opacity="0.8">Ask for a 90-day plan</text>
+  <text x="970" y="375" font-family="monospace" font-size="9" fill="#2a7080" text-anchor="middle">Reveals thinking before hiring</text>
+  <text x="970" y="393" font-family="monospace" font-size="8" fill="#1a5060" text-anchor="middle">Creates accountability from day one</text>
+  <text x="970" y="411" font-family="monospace" font-size="8" fill="#1a4050" text-anchor="middle">Superficial plans tell you everything</text>
+
+  <!-- Bottom bar -->
+  <rect x="160" y="468" width="880" height="36" rx="4" fill="#0a0f0a" stroke="#1a2a1a" stroke-width="1"/>
+  <text x="600" y="491" font-family="'Space Grotesk', sans-serif" font-size="13" fill="#aaa" text-anchor="middle">Most digital hiring failures are preventable with better preparation before the search starts</text>
+
+  <!-- Title -->
+  <text x="600" y="72" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#00D4FF" opacity="0.6" letter-spacing="4" text-anchor="middle">LEADERSHIP</text>
+  <text x="600" y="108" font-family="'Space Grotesk', sans-serif" font-size="27" font-weight="700" fill="#fff" opacity="0.9" text-anchor="middle">Common Mistakes When Hiring for Digital Roles</text>
+</svg>

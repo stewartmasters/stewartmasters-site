@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Board's Role in a Cybersecurity Incident — Stewart Masters</title>
+  <meta name="description" content="A cybersecurity incident is a board-level event. Most boards aren't ready. Here's what governance looks like before, during, and after.">
+  <meta property="og:title" content="The Board's Role in a Cybersecurity Incident">
+  <meta property="og:description" content="A cybersecurity incident is a board-level event. Most boards aren't ready. Here's what governance looks like before, during, and after.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://stewartmasters.me/blog/board-cybersecurity-incident.html">
+  <meta property="og:site_name" content="Stewart Masters">
+  <meta property="og:image" content="https://stewartmasters.me/blog/images/board-cybersecurity-incident.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The Board's Role in a Cybersecurity Incident">
+  <meta name="twitter:description" content="A cybersecurity incident is a board-level event. Most boards aren't ready. Here's what governance looks like before, during, and after.">
+  <link rel="canonical" href="https://stewartmasters.me/blog/board-cybersecurity-incident.html">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "The Board's Role in a Cybersecurity Incident",
+    "description": "A cybersecurity incident is a board-level event. Most boards aren't ready. Here's what governance looks like before, during, and after.",
+    "image": "https://stewartmasters.me/blog/images/board-cybersecurity-incident.svg",
+    "author": { "@type": "Person", "name": "Stewart Masters", "url": "https://stewartmasters.me" },
+    "publisher": { "@type": "Person", "name": "Stewart Masters", "url": "https://stewartmasters.me" },
+    "datePublished": "2026-04-03",
+    "dateModified": "2026-04-03",
+    "url": "https://stewartmasters.me/blog/board-cybersecurity-incident.html",
+    "keywords": "board cybersecurity, cyber incident governance, board cyber risk, NED technology oversight"
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { background-color: #0D0D0D; color: #EAEAEA; font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
+    .font-heading { font-family: 'Space Grotesk', sans-serif; }
+    .max-container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    .prose-container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; backdrop-filter: blur(24px); background: rgba(13,13,13,0.85); border-bottom: 1px solid #1c1c1c; }
+    .nav-link { font-size: 14px; color: #aaa; text-decoration: none; transition: color 0.2s; }
+    .nav-link:hover { color: #fff; }
+    .btn-primary { display: inline-block; background: #00D4FF; color: #0D0D0D; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 14px; padding: 10px 22px; border-radius: 4px; text-decoration: none; transition: background 0.2s; }
+    .btn-primary:hover { background: #fff; }
+    .prose h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.5rem; font-weight: 700; color: #fff; margin: 2.5rem 0 1rem; line-height: 1.3; }
+    .prose h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.15rem; font-weight: 600; color: #fff; margin: 2rem 0 0.75rem; }
+    .prose p { color: #EAEAEA; font-size: 17px; line-height: 1.85; margin-bottom: 1.5rem; }
+    .prose ul { margin: 0 0 1.5rem 0; padding: 0; list-style: none; }
+    .prose ul li { color: #EAEAEA; font-size: 17px; line-height: 1.85; padding: 4px 0 4px 24px; position: relative; }
+    .prose ul li::before { content: '→'; color: #00D4FF; position: absolute; left: 0; }
+    .prose strong { color: #fff; font-weight: 600; }
+    .blog-card { background: #121212; border: 1px solid #1e1e1e; border-radius: 10px; overflow: hidden; text-decoration: none; display: block; transition: border-color 0.3s, transform 0.3s; }
+    .blog-card:hover { border-color: #2a2a2a; transform: translateY(-4px); }
+    .blog-arrow { color: #333; font-size: 18px; transition: color 0.2s; }
+    .blog-card:hover .blog-arrow { color: #00D4FF; }
+    ::-webkit-scrollbar { width: 5px; } ::-webkit-scrollbar-track { background: #0D0D0D; } ::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 3px; }
+    #mobile-menu { display: none; } #mobile-menu.open { display: flex; }
+  </style>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script>
+</head>
+<body>
+
+<nav>
+  <div class="max-container py-4 flex items-center justify-between">
+    <a href="../index.html" class="font-heading font-semibold text-white text-lg tracking-tight">Stewart Masters</a>
+    <div class="hidden md:flex items-center gap-8">
+      <a href="../index.html#about" class="nav-link">About</a>
+      <a href="../index.html#services" class="nav-link">Where I Help</a>
+      <a href="index.html" class="nav-link">Thinking</a>
+      <a href="../index.html#contact" class="nav-link">Contact</a>
+    </div>
+    <div class="flex items-center gap-3">
+      <a href="../index.html#contact" class="btn-primary hidden md:inline-block">Get in touch</a>
+      <button id="hamburger" class="md:hidden text-gray-400 p-2" onclick="document.getElementById('mobile-menu').classList.toggle('open')">
+        <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h16M3 12h16M3 18h16"/></svg>
+      </button>
+    </div>
+  </div>
+  <div id="mobile-menu" class="flex-col gap-1 pb-4 px-6 border-t" style="border-color:#1a1a1a;">
+    <a href="../index.html#about" class="nav-link py-3 block">About</a>
+    <a href="../index.html#services" class="nav-link py-3 block">Where I Help</a>
+    <a href="index.html" class="nav-link py-3 block">Thinking</a>
+    <a href="../index.html#contact" class="nav-link py-3 block">Contact</a>
+  </div>
+</nav>
+
+<!-- Header -->
+<section class="pt-36 pb-12 px-6" style="border-bottom: 1px solid #1a1a1a;">
+  <div class="prose-container">
+    <div class="flex items-center gap-3 mb-8" style="font-size: 13px; color: #555;">
+      <a href="index.html" class="nav-link">Thinking</a>
+      <span>→</span>
+      <span style="color: #00D4FF;">Board &amp; Advisory</span>
+    </div>
+    <h1 class="font-heading text-4xl md:text-5xl font-bold leading-tight text-white mb-6">
+      The board's role in a cybersecurity incident
+    </h1>
+    <p style="color: #777; font-size: 16px; line-height: 1.7; margin-bottom: 28px;">
+      A cybersecurity incident is a board-level event. Most boards aren't ready. Here's what governance looks like before, during, and after.
+    </p>
+    <div class="flex items-center gap-4" style="font-size: 13px; color: #555;">
+      <span>Stewart Masters</span>
+      <span>·</span>
+      <span>3 Apr 2026</span>
+      <span>·</span>
+      <span>6 min read</span>
+    </div>
+  </div>
+</section>
+
+<!-- SVG Hero -->
+<div style="width:100%; max-height:420px; overflow:hidden; border-bottom:1px solid #1a1a1a;">
+  <img loading="lazy" src="images/board-cybersecurity-incident.svg" alt="Diagram showing board governance across the three phases of a cybersecurity incident: before, during, and after" style="width:100%; height:420px; object-fit:cover;">
+</div>
+
+<!-- Article -->
+<article class="py-16 px-6">
+  <div class="prose-container prose">
+
+    <p>
+      Boards have spent years debating whether they should hire a Chief Digital Officer. They've hired consultants to help them understand AI risk. And yet most boards are completely unprepared for the thing most likely to test their governance in real time: a significant cybersecurity incident.
+    </p>
+
+    <p>
+      A ransomware attack. A data breach. A third-party supplier compromised. These aren't hypotheticals. They happen to well-run companies with capable technology teams. And when they happen, the board's role is not to fix the technical problem — it's to govern through a crisis they almost certainly didn't rehearse.
+    </p>
+
+    <h2>Why boards are usually unprepared</h2>
+
+    <p>
+      The most common failure mode is this: the board is told that "we take cybersecurity seriously," cyber risk appears on the risk register, and there's a brief mention of it at the annual strategy away day. Nobody on the board has read the incident response plan. Nobody has asked who specifically would call whom if something happened at 11pm on a Saturday.
+    </p>
+
+    <p>
+      This is not negligence — it's a structural gap. Boards are asked to oversee cyber risk without being given a framework for what that oversight actually looks like under pressure. The result is boards that understand cyber risk in the abstract but have no muscle memory for acting on it when it's real.
+    </p>
+
+    <p>
+      A significant incident also moves faster than most board processes. Decisions that would normally take a board meeting — whether to pay a ransom, when to notify regulators, how to communicate with customers — need to happen in hours. If the governance structures aren't built in advance, you'll be improvising them during the crisis.
+    </p>
+
+    <h2>Before: what good preparation looks like</h2>
+
+    <p>
+      Good cyber governance starts long before any incident. The board's job in the preparation phase is primarily about asking the right questions and ensuring the right structures are in place.
+    </p>
+
+    <ul>
+      <li>Who is the CISO or equivalent, and does the board have a direct relationship with them — not just through the CEO?</li>
+      <li>Has the board reviewed and approved the incident response plan, and does it include board-level escalation criteria?</li>
+      <li>What are the regulatory notification requirements, and who owns that decision when time is short?</li>
+      <li>Has the organisation run a tabletop exercise that includes board members?</li>
+      <li>What cyber insurance coverage exists, and has the board verified that it would actually apply to the most likely scenarios?</li>
+    </ul>
+
+    <p>
+      The tabletop exercise is the piece most boards skip. It feels like an overhead — a whole afternoon of simulating something that probably won't happen. But it's the only way a board discovers in advance whether its decision-making process can handle compressed timelines and incomplete information.
+    </p>
+
+    <h2>During: the board's actual role</h2>
+
+    <p>
+      When an incident is live, the board's primary job is to enable management to respond — not to manage the incident itself. This distinction is easy to state and genuinely difficult to practise under pressure.
+    </p>
+
+    <p>
+      Concretely, this means:
+    </p>
+
+    <ul>
+      <li>Establishing a clear communication rhythm so the board is informed without overwhelming the response team</li>
+      <li>Providing decision authority for choices that exceed management's normal remit — ransom payments, emergency expenditure, decisions to notify before the facts are fully established</li>
+      <li>Coordinating with legal counsel on regulatory obligations, which vary significantly by jurisdiction and type of data involved</li>
+      <li>Managing external communication — particularly if the incident becomes public — where the board's credibility may be needed</li>
+    </ul>
+
+    <p>
+      The chair of the board typically has a specific role here: maintaining composure and communication with major stakeholders, including investors, while the management team focuses on the technical response. If the company is publicly listed, the interaction with financial markets communications becomes another immediate complexity.
+    </p>
+
+    <h2>The ransom decision</h2>
+
+    <p>
+      Ransomware incidents create a particularly acute governance challenge. The question of whether to pay a ransom is one that boards need to have a pre-agreed position on, because under the pressure of an active attack, with systems down and operations halted, the argument for paying can feel compelling even if it isn't the right call.
+    </p>
+
+    <p>
+      The considerations are complex — regulatory prohibitions in some jurisdictions, the question of whether payment guarantees restoration, the precedent it sets, the reputational implications. But the point is that this decision should not be made in the heat of an incident by people who haven't thought through it in advance. The board needs a position before it needs it.
+    </p>
+
+    <h2>After: review and accountability</h2>
+
+    <p>
+      The post-incident review is where board governance is most commonly neglected. It's tempting to declare the incident over once systems are restored and move on. But the review phase is where boards actually learn — and where they determine whether the incident reflects a governance failure, a management failure, or genuinely bad luck.
+    </p>
+
+    <p>
+      A proper board-level post-incident review asks:
+    </p>
+
+    <ul>
+      <li>Was the incident response plan effective, and where did it break down?</li>
+      <li>Was the board's decision-making process adequate given the time pressure?</li>
+      <li>Were there early warning signals that should have been escalated sooner?</li>
+      <li>What changes to risk management and investment are now required?</li>
+      <li>If regulators are involved, how is the remediation plan being managed?</li>
+    </ul>
+
+    <p>
+      The review should produce concrete changes — not just to technical infrastructure, but to governance processes. If the board discovered during the incident that it didn't know who to call or what authority it had, that's a governance gap that needs to be closed before the next one.
+    </p>
+
+    <h2>What this requires of board members</h2>
+
+    <p>
+      None of this requires board members to be cybersecurity technicians. It requires them to ask hard questions in advance, participate in scenario planning, understand the company's regulatory obligations, and be clear about what decisions they reserve for themselves versus delegate to management.
+    </p>
+
+    <p>
+      The CISO relationship matters more than most boards realise. The CISO needs to trust that they can escalate a genuine concern to the board without it being filtered or minimised at the executive layer. And the board needs enough of a direct relationship with the CISO to assess whether the assurances they're receiving are well-founded.
+    </p>
+
+    <p>
+      Cyber risk has moved from a technology issue to a governance issue. The boards that manage it well have treated it that way before anything went wrong.
+    </p>
+
+  </div>
+</article>
+
+<!-- Author -->
+<section class="py-12 px-6" style="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a;">
+  <div class="prose-container">
+    <div class="flex items-start gap-5">
+      <div style="width:56px;height:56px;border-radius:50%;background:#1a1a1a;border:1px solid #2a2a2a;display:flex;align-items:center;justify-content:center;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:16px;color:#00D4FF;flex-shrink:0;">SM</div>
+      <div>
+        <div class="font-heading font-semibold text-white mb-1">Stewart Masters</div>
+        <div style="font-size: 13px; color: #777; margin-bottom: 8px;">Chief Digital Officer · Honest Greens · Barcelona</div>
+        <p style="font-size: 14px; color: #B0B0B0; line-height: 1.7;">20 years building and running digital operations inside real businesses. I write about AI, digital systems, and the leadership decisions that determine whether transformation actually happens.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Related Posts -->
+<section class="py-16 px-6">
+  <div class="max-container">
+    <h2 class="font-heading text-xl font-bold text-white mb-8">Related posts</h2>
+    <div class="grid md:grid-cols-3 gap-5">
+
+      <a href="boards-evaluating-ai-risk.html" class="blog-card">
+        <div style="height:140px;background:linear-gradient(135deg,#0e1520,#0a1018);display:flex;align-items:center;justify-content:center;border-bottom:1px solid #1e1e1e;">
+          <span style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(0,180,255,0.3);font-family:'Space Grotesk',sans-serif;">Risk</span>
+        </div>
+        <div class="p-5">
+          <span style="font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:#00D4FF;">Board &amp; Advisory</span>
+          <h3 class="font-heading text-sm font-semibold mt-2 mb-2 text-white leading-snug">How boards should evaluate AI risk</h3>
+          <div class="flex items-center justify-between mt-4">
+            <span style="font-size:12px;color:#555;">Mar · 6 min</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="ned-understanding-technology.html" class="blog-card">
+        <div style="height:140px;background:linear-gradient(135deg,#0a1820,#081215);display:flex;align-items:center;justify-content:center;border-bottom:1px solid #1e1e1e;">
+          <span style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(0,180,255,0.3);font-family:'Space Grotesk',sans-serif;">Governance</span>
+        </div>
+        <div class="p-5">
+          <span style="font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:#00D4FF;">Board &amp; Advisory</span>
+          <h3 class="font-heading text-sm font-semibold mt-2 mb-2 text-white leading-snug">The NED's guide to understanding technology</h3>
+          <div class="flex items-center justify-between mt-4">
+            <span style="font-size:12px;color:#555;">27 Mar · 6 min</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="when-advisory-boards-work.html" class="blog-card">
+        <div style="height:140px;background:linear-gradient(135deg,#0a1a12,#081510);display:flex;align-items:center;justify-content:center;border-bottom:1px solid #1e1e1e;">
+          <span style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(0,200,120,0.3);font-family:'Space Grotesk',sans-serif;">Advisory</span>
+        </div>
+        <div class="p-5">
+          <span style="font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:#00D4FF;">Board &amp; Advisory</span>
+          <h3 class="font-heading text-sm font-semibold mt-2 mb-2 text-white leading-snug">When advisory boards actually work</h3>
+          <div class="flex items-center justify-between mt-4">
+            <span style="font-size:12px;color:#555;">1 Apr · 6 min</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-10 px-6" style="border-top: 1px solid #141414;">
+  <div class="max-container flex flex-col md:flex-row items-center justify-between gap-4">
+    <span class="font-heading font-semibold" style="color: #555;">Stewart Masters</span>
+    <div class="flex gap-6" style="font-size: 13px;">
+      <a href="../index.html#about" class="nav-link">About</a>
+      <a href="../index.html#services" class="nav-link">Where I Help</a>
+      <a href="index.html" class="nav-link">Thinking</a>
+      <a href="../index.html#contact" class="nav-link">Contact</a>
+    </div>
+    <a href="https://www.linkedin.com/in/stewartmasters/" target="_blank" rel="noopener" class="nav-link" style="font-size: 13px;">LinkedIn →</a>
+  </div>
+</footer>
+
+</body>
+</html>

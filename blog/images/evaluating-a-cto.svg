@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0d0f"/>
+      <stop offset="100%" style="stop-color:#0d1015"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- 2x2 grid axes -->
+  <!-- Y axis: Technical Depth -->
+  <line x1="380" y1="150" x2="380" y2="500" stroke="#1a2030" stroke-width="1.5"/>
+  <!-- X axis: Leadership Breadth -->
+  <line x1="180" y1="330" x2="820" y2="330" stroke="#1a2030" stroke-width="1.5"/>
+
+  <!-- Axis labels -->
+  <text x="380" y="140" font-family="monospace" font-size="10" fill="#333" text-anchor="middle" letter-spacing="2">HIGH TECH DEPTH</text>
+  <text x="380" y="520" font-family="monospace" font-size="10" fill="#333" text-anchor="middle" letter-spacing="2">LOW TECH DEPTH</text>
+  <text x="170" y="334" font-family="monospace" font-size="10" fill="#333" text-anchor="end" letter-spacing="1">BUILDER</text>
+  <text x="830" y="334" font-family="monospace" font-size="10" fill="#333" text-anchor="start" letter-spacing="1">OPERATOR</text>
+
+  <!-- Quadrant labels (faint) -->
+  <text x="270" y="230" font-family="monospace" font-size="9" fill="#1a2a1a" text-anchor="middle" letter-spacing="1">ARCHITECT</text>
+  <text x="270" y="430" font-family="monospace" font-size="9" fill="#1a1a2a" text-anchor="middle" letter-spacing="1">BUILDER</text>
+  <text x="600" y="230" font-family="monospace" font-size="9" fill="#1a1a2a" text-anchor="middle" letter-spacing="1">OPERATOR</text>
+  <text x="600" y="430" font-family="monospace" font-size="9" fill="#2a1a1a" text-anchor="middle" letter-spacing="1">ENG MGR</text>
+
+  <!-- The four CTO types as circles -->
+  <!-- Architect -->
+  <circle cx="270" cy="200" r="52" fill="#0a1a10" stroke="#1a4020" stroke-width="1.5"/>
+  <text x="270" y="195" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#2a7030" text-anchor="middle">Architect</text>
+  <text x="270" y="212" font-family="monospace" font-size="9" fill="#1a4020" text-anchor="middle">Great at design</text>
+  <text x="270" y="225" font-family="monospace" font-size="9" fill="#1a4020" text-anchor="middle">struggles at scale</text>
+
+  <!-- Builder -->
+  <circle cx="270" cy="440" r="52" fill="#0a1020" stroke="#1a2a40" stroke-width="1.5"/>
+  <text x="270" y="435" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#2a4070" text-anchor="middle">Builder</text>
+  <text x="270" y="452" font-family="monospace" font-size="9" fill="#1a2a40" text-anchor="middle">Fast, product-led</text>
+  <text x="270" y="465" font-family="monospace" font-size="9" fill="#1a2a40" text-anchor="middle">accumulates debt</text>
+
+  <!-- Operator — highlighted as often needed -->
+  <circle cx="600" cy="200" r="52" fill="#0a1a20" stroke="#00D4FF" stroke-width="1.5" opacity="0.8"/>
+  <text x="600" y="195" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#00D4FF" text-anchor="middle" opacity="0.8">Operator</text>
+  <text x="600" y="212" font-family="monospace" font-size="9" fill="#1a4a60" text-anchor="middle">Scales reliably</text>
+  <text x="600" y="225" font-family="monospace" font-size="9" fill="#1a4a60" text-anchor="middle">needed at growth</text>
+
+  <!-- Eng Manager -->
+  <circle cx="600" cy="440" r="52" fill="#1a1010" stroke="#3a2020" stroke-width="1.5"/>
+  <text x="600" y="435" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#5a3030" text-anchor="middle">Eng Mgr</text>
+  <text x="600" y="452" font-family="monospace" font-size="9" fill="#3a2020" text-anchor="middle">People-focused</text>
+  <text x="600" y="465" font-family="monospace" font-size="9" fill="#3a2020" text-anchor="middle">low tech depth</text>
+
+  <!-- Stage indicator right side -->
+  <rect x="870" y="150" width="280" height="340" rx="6" fill="#0a0f14" stroke="#1a2030" stroke-width="1"/>
+  <text x="1010" y="178" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#555" letter-spacing="2" text-anchor="middle">STAGE FIT</text>
+
+  <rect x="895" y="196" width="230" height="44" rx="3" fill="#0a1a10" stroke="#1a3020" stroke-width="1"/>
+  <text x="895" y="214" font-family="monospace" font-size="9" fill="#00D4FF" opacity="0.5">  SEED</text>
+  <text x="895" y="230" font-family="monospace" font-size="9" fill="#1a5030">  Architect or Builder CTO</text>
+
+  <rect x="895" y="256" width="230" height="44" rx="3" fill="#0a1418" stroke="#1a2030" stroke-width="1"/>
+  <text x="895" y="274" font-family="monospace" font-size="9" fill="#00D4FF" opacity="0.5">  SERIES A</text>
+  <text x="895" y="290" font-family="monospace" font-size="9" fill="#1a4050">  Transition to Operator needed</text>
+
+  <rect x="895" y="316" width="230" height="44" rx="3" fill="#0a1a10" stroke="#00D4FF" stroke-width="1" opacity="0.4"/>
+  <text x="895" y="334" font-family="monospace" font-size="9" fill="#00D4FF" opacity="0.7">  SERIES B+</text>
+  <text x="895" y="350" font-family="monospace" font-size="9" fill="#00D4FF" opacity="0.5">  Operator CTO essential</text>
+
+  <rect x="895" y="376" width="230" height="44" rx="3" fill="#0d0d10" stroke="#1a1a20" stroke-width="1"/>
+  <text x="895" y="394" font-family="monospace" font-size="9" fill="#333">  SCALE</text>
+  <text x="895" y="410" font-family="monospace" font-size="9" fill="#2a2a30">  VP Eng + CTO split often</text>
+
+  <text x="1010" y="454" font-family="monospace" font-size="9" fill="#1a2a30" text-anchor="middle">Most transitions fail at A→B</text>
+  <text x="1010" y="468" font-family="monospace" font-size="9" fill="#1a2030" text-anchor="middle">when builder becomes needed operator</text>
+
+  <!-- Title -->
+  <text x="600" y="80" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#00D4FF" opacity="0.6" letter-spacing="4" text-anchor="middle">LEADERSHIP</text>
+  <text x="600" y="116" font-family="'Space Grotesk', sans-serif" font-size="28" font-weight="700" fill="#fff" opacity="0.9" text-anchor="middle">How to Evaluate a CTO</text>
+
+  <!-- Ambient glow -->
+  <ellipse cx="600" cy="200" rx="70" ry="70" fill="#00D4FF" opacity="0.03"/>
+</svg>

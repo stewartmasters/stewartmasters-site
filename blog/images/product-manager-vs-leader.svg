@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0d12"/>
+      <stop offset="100%" style="stop-color:#0d1018"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="600" y="65" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#00D4FF" opacity="0.6" letter-spacing="4" text-anchor="middle">LEADERSHIP</text>
+  <text x="600" y="100" font-family="'Space Grotesk', sans-serif" font-size="26" font-weight="700" fill="#fff" opacity="0.9" text-anchor="middle">Product Manager vs Product Leader — What Changes</text>
+
+  <!-- Left panel: Product Manager -->
+  <rect x="60" y="128" width="510" height="370" rx="8" fill="#0a1020" stroke="#1a3040" stroke-width="1"/>
+  <text x="315" y="165" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="700" fill="#4a90c0" text-anchor="middle">PRODUCT MANAGER</text>
+  <line x1="80" y1="178" x2="550" y2="178" stroke="#1a3040" stroke-width="0.5"/>
+
+  <text x="315" y="208" font-family="monospace" font-size="9" fill="#3a6080" text-anchor="middle">Owns outcomes for one product or area</text>
+  <text x="315" y="228" font-family="monospace" font-size="9" fill="#2a5070" text-anchor="middle">Close to the detail — value comes from depth</text>
+  <text x="315" y="256" font-family="monospace" font-size="8" fill="#1a4060" text-anchor="middle">Writes briefs · Manages backlog · Synthesises research</text>
+  <text x="315" y="274" font-family="monospace" font-size="8" fill="#1a3a50" text-anchor="middle">Works daily with engineering and design</text>
+  <text x="315" y="292" font-family="monospace" font-size="8" fill="#1a3050" text-anchor="middle">Removes friction that stops teams delivering</text>
+
+  <line x1="100" y1="310" x2="530" y2="310" stroke="#1a2a40" stroke-width="0.5" stroke-dasharray="3,3"/>
+
+  <text x="315" y="335" font-family="monospace" font-size="8" fill="#1a3050" text-anchor="middle">Decisions: what ships, when, why</text>
+  <text x="315" y="353" font-family="monospace" font-size="8" fill="#1a2840" text-anchor="middle">Success = great product that users value</text>
+  <text x="315" y="371" font-family="monospace" font-size="8" fill="#1a2840" text-anchor="middle">The instinct to jump in and fix is an asset</text>
+  <text x="315" y="399" font-family="monospace" font-size="8" fill="#102030" text-anchor="middle">Accountability is individual and direct</text>
+  <text x="315" y="417" font-family="monospace" font-size="8" fill="#102030" text-anchor="middle">Proximity to work = competitive advantage</text>
+  <rect x="155" y="460" width="320" height="6" rx="3" fill="#1a5080" opacity="0.3"/>
+
+  <!-- VS divider -->
+  <text x="600" y="325" font-family="'Space Grotesk', sans-serif" font-size="18" font-weight="700" fill="#1a2a3a" text-anchor="middle">VS</text>
+
+  <!-- Right panel: Product Leader -->
+  <rect x="630" y="128" width="510" height="370" rx="8" fill="#0a1820" stroke="#00D4FF" stroke-width="1" opacity="0.4"/>
+  <text x="885" y="165" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="700" fill="#00D4FF" text-anchor="middle" opacity="0.9">PRODUCT LEADER</text>
+  <line x1="650" y1="178" x2="1120" y2="178" stroke="#00D4FF" stroke-width="0.5" opacity="0.3"/>
+
+  <text x="885" y="208" font-family="monospace" font-size="9" fill="#2a7090" text-anchor="middle">Accountable for multiple PMs and areas</text>
+  <text x="885" y="228" font-family="monospace" font-size="9" fill="#1a5070" text-anchor="middle">Far enough out to see the whole picture</text>
+  <text x="885" y="256" font-family="monospace" font-size="8" fill="#1a4060" text-anchor="middle">From doing → enabling · From output → team output</text>
+  <text x="885" y="274" font-family="monospace" font-size="8" fill="#1a3a50" text-anchor="middle">Most important decisions: hiring, development, culture</text>
+  <text x="885" y="292" font-family="monospace" font-size="8" fill="#1a3050" text-anchor="middle">Helping PMs make better decisions independently</text>
+
+  <line x1="670" y1="310" x2="1100" y2="310" stroke="#1a3040" stroke-width="0.5" stroke-dasharray="3,3"/>
+
+  <text x="885" y="335" font-family="monospace" font-size="8" fill="#1a3050" text-anchor="middle">Decisions: who, what standard, which bets</text>
+  <text x="885" y="353" font-family="monospace" font-size="8" fill="#1a2840" text-anchor="middle">Success = team that consistently ships great product</text>
+  <text x="885" y="371" font-family="monospace" font-size="8" fill="#1a2840" text-anchor="middle">The instinct to jump in and fix becomes a liability</text>
+  <text x="885" y="399" font-family="monospace" font-size="8" fill="#102030" text-anchor="middle">Accountability is collective — your results = team results</text>
+  <text x="885" y="417" font-family="monospace" font-size="8" fill="#102030" text-anchor="middle">Proximity to work can become a bottleneck</text>
+  <rect x="725" y="460" width="320" height="6" rx="3" fill="#00D4FF" opacity="0.15"/>
+
+  <!-- Bottom bar -->
+  <rect x="60" y="520" width="1080" height="36" rx="4" fill="#0a0f0a" stroke="#1a2a1a" stroke-width="1"/>
+  <text x="600" y="543" font-family="'Space Grotesk', sans-serif" font-size="13" fill="#aaa" text-anchor="middle">The best PMs who become leaders want the leadership work — not just the title</text>
+</svg>

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0a12"/>
+      <stop offset="100%" style="stop-color:#12101a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Timeline line -->
+  <line x1="100" y1="315" x2="1100" y2="315" stroke="#1a1a30" stroke-width="2"/>
+
+  <!-- Stage 1: Founder as Product -->
+  <circle cx="200" cy="315" r="12" fill="#2a1a40" stroke="#4a2a70" stroke-width="1.5"/>
+  <rect x="120" y="200" width="160" height="84" rx="4" fill="#1a0f28" stroke="#2a1a40" stroke-width="1"/>
+  <text x="200" y="220" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#4a2a60" text-anchor="middle" letter-spacing="1">SEED</text>
+  <text x="200" y="240" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#6a3a90" text-anchor="middle">Founder = CPO</text>
+  <text x="200" y="258" font-family="monospace" font-size="9" fill="#3a2050" text-anchor="middle">All product decisions</text>
+  <text x="200" y="272" font-family="monospace" font-size="9" fill="#3a2050" text-anchor="middle">owned by founder</text>
+  <text x="200" y="350" font-family="monospace" font-size="9" fill="#2a1840" text-anchor="middle">Works fine here</text>
+
+  <!-- Arrow down at stage 1 -->
+  <line x1="200" y1="327" x2="200" y2="345" stroke="#2a1a40" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- Stage 2: Growing tension -->
+  <circle cx="420" cy="315" r="12" fill="#3a2020" stroke="#6a3030" stroke-width="1.5"/>
+  <rect x="340" y="195" width="160" height="94" rx="4" fill="#1a1010" stroke="#3a2020" stroke-width="1"/>
+  <text x="420" y="215" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#6a3030" text-anchor="middle" letter-spacing="1">SERIES A</text>
+  <text x="420" y="235" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#9a4040" text-anchor="middle">Tension builds</text>
+  <text x="420" y="253" font-family="monospace" font-size="9" fill="#5a2a2a" text-anchor="middle">Team grows but</text>
+  <text x="420" y="267" font-family="monospace" font-size="9" fill="#5a2a2a" text-anchor="middle">decisions bottleneck</text>
+  <text x="420" y="281" font-family="monospace" font-size="9" fill="#4a2020" text-anchor="middle">CEO misses strategy</text>
+  <text x="420" y="350" font-family="monospace" font-size="9" fill="#5a2020" text-anchor="middle">Danger zone</text>
+  <line x1="420" y1="327" x2="420" y2="345" stroke="#4a2020" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- Stage 3: Transition -->
+  <circle cx="650" cy="315" r="14" fill="#0a2030" stroke="#00D4FF" stroke-width="1.5" opacity="0.7"/>
+  <rect x="560" y="188" width="180" height="100" rx="4" fill="#0a1820" stroke="#00D4FF" stroke-width="1" opacity="0.5"/>
+  <text x="650" y="208" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" text-anchor="middle" letter-spacing="1" opacity="0.7">TRANSITION</text>
+  <text x="650" y="228" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#00D4FF" text-anchor="middle" opacity="0.8">Hire CPO/VP Prod</text>
+  <text x="650" y="248" font-family="monospace" font-size="9" fill="#1a4a60" text-anchor="middle">Define authority</text>
+  <text x="650" y="262" font-family="monospace" font-size="9" fill="#1a4a60" text-anchor="middle">explicitly in writing</text>
+  <text x="650" y="276" font-family="monospace" font-size="9" fill="#1a4060" text-anchor="middle">Let decisions happen</text>
+  <text x="650" y="350" font-family="monospace" font-size="9" fill="#00D4FF" text-anchor="middle" opacity="0.5">Do this now</text>
+  <line x1="650" y1="329" x2="650" y2="345" stroke="#00D4FF" stroke-width="1" stroke-dasharray="3,3" opacity="0.4"/>
+
+  <!-- Stage 4: CEO mode -->
+  <circle cx="900" cy="315" r="12" fill="#0a1a10" stroke="#1a5020" stroke-width="1.5"/>
+  <rect x="820" y="200" width="160" height="84" rx="4" fill="#0a1510" stroke="#1a4020" stroke-width="1"/>
+  <text x="900" y="220" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#1a5020" text-anchor="middle" letter-spacing="1">SERIES B+</text>
+  <text x="900" y="240" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#2a7030" text-anchor="middle">CEO mode</text>
+  <text x="900" y="258" font-family="monospace" font-size="9" fill="#1a4020" text-anchor="middle">Strategy, culture,</text>
+  <text x="900" y="272" font-family="monospace" font-size="9" fill="#1a4020" text-anchor="middle">board, investors</text>
+  <text x="900" y="350" font-family="monospace" font-size="9" fill="#1a5020" text-anchor="middle">Product flies</text>
+  <line x1="900" y1="327" x2="900" y2="345" stroke="#1a4020" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- Velocity arrow -->
+  <text x="600" y="408" font-family="monospace" font-size="10" fill="#1a3050" text-anchor="middle" letter-spacing="2">TRANSITION ENABLES FASTER GROWTH</text>
+  <line x1="300" y1="422" x2="900" y2="422" stroke="#1a2a40" stroke-width="1"/>
+  <polygon points="895,417 905,422 895,427" fill="#1a3050"/>
+
+  <!-- Warning callout -->
+  <rect x="100" y="460" width="1000" height="44" rx="4" fill="#0a0a14" stroke="#1a1a28" stroke-width="1"/>
+  <text x="600" y="478" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#3a3060" opacity="0.8" text-anchor="middle" letter-spacing="2">MOST COMMON MISTAKE</text>
+  <text x="600" y="497" font-family="'Space Grotesk', sans-serif" font-size="13" fill="#aaa" text-anchor="middle">Founders delay the transition until the bottleneck becomes a crisis — then rush it</text>
+
+  <!-- Title -->
+  <text x="600" y="80" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#00D4FF" opacity="0.6" letter-spacing="4" text-anchor="middle">LEADERSHIP</text>
+  <text x="600" y="116" font-family="'Space Grotesk', sans-serif" font-size="26" font-weight="700" fill="#fff" opacity="0.9" text-anchor="middle">Stepping Back from Product</text>
+
+  <!-- Glow at transition point -->
+  <ellipse cx="650" cy="315" rx="80" ry="50" fill="#00D4FF" opacity="0.02"/>
+</svg>

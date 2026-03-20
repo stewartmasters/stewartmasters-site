@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0d12"/>
+      <stop offset="100%" style="stop-color:#0d1018"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Capability level (high, right side) -->
+  <text x="1060" y="200" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" text-anchor="middle" letter-spacing="2" opacity="0.7">AI CAPABILITY</text>
+  <circle cx="1060" cy="240" r="40" fill="#0a1a20" stroke="#00D4FF" stroke-width="1.5" opacity="0.6"/>
+  <text x="1060" y="245" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#00D4FF" text-anchor="middle" opacity="0.8">HIGH</text>
+  <text x="1060" y="300" font-family="monospace" font-size="8" fill="#1a5070" text-anchor="middle">Tools exist</text>
+  <text x="1060" y="316" font-family="monospace" font-size="8" fill="#1a4060" text-anchor="middle">APIs accessible</text>
+  <text x="1060" y="332" font-family="monospace" font-size="8" fill="#1a3050" text-anchor="middle">Cost dropping</text>
+
+  <!-- Adoption level (low, left side) -->
+  <text x="140" y="200" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#c04030" text-anchor="middle" letter-spacing="2" opacity="0.8">AI ADOPTION</text>
+  <circle cx="140" cy="240" r="40" fill="#1a0808" stroke="#c04030" stroke-width="1.5" opacity="0.6"/>
+  <text x="140" y="245" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#c04030" text-anchor="middle" opacity="0.8">LOW</text>
+  <text x="140" y="300" font-family="monospace" font-size="8" fill="#703020" text-anchor="middle">Most orgs: 5%</text>
+  <text x="140" y="316" font-family="monospace" font-size="8" fill="#603020" text-anchor="middle">active usage</text>
+  <text x="140" y="332" font-family="monospace" font-size="8" fill="#502010" text-anchor="middle">despite access</text>
+
+  <!-- Arrow from left to right -->
+  <line x1="190" y1="240" x2="480" y2="315" stroke="#1a1a1a" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="720" y1="315" x2="1010" y2="240" stroke="#1a1a1a" stroke-width="1" stroke-dasharray="5,5"/>
+
+  <!-- Five barriers in the gap -->
+  <rect x="220" y="175" width="760" height="290" rx="8" fill="#0a0d0a" stroke="#1a2a1a" stroke-width="1"/>
+  <text x="600" y="202" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#1a3a20" text-anchor="middle" letter-spacing="3">THE ADOPTION GAP</text>
+
+  <!-- Barrier 1 -->
+  <rect x="240" y="215" width="140" height="60" rx="4" fill="#150808" stroke="#2a1010" stroke-width="1"/>
+  <text x="310" y="238" font-family="monospace" font-size="8" fill="#703020" text-anchor="middle">Awareness</text>
+  <text x="310" y="253" font-family="monospace" font-size="8" fill="#503020" text-anchor="middle">without</text>
+  <text x="310" y="268" font-family="monospace" font-size="8" fill="#503020" text-anchor="middle">applicability</text>
+
+  <!-- Barrier 2 -->
+  <rect x="395" y="215" width="140" height="60" rx="4" fill="#150808" stroke="#2a1010" stroke-width="1"/>
+  <text x="465" y="238" font-family="monospace" font-size="8" fill="#703020" text-anchor="middle">Trust</text>
+  <text x="465" y="253" font-family="monospace" font-size="8" fill="#503020" text-anchor="middle">gaps</text>
+  <text x="465" y="268" font-family="monospace" font-size="8" fill="#402010" text-anchor="middle">accuracy fear</text>
+
+  <!-- Barrier 3 -->
+  <rect x="550" y="215" width="140" height="60" rx="4" fill="#150808" stroke="#2a1010" stroke-width="1"/>
+  <text x="620" y="238" font-family="monospace" font-size="8" fill="#703020" text-anchor="middle">Poor process</text>
+  <text x="620" y="253" font-family="monospace" font-size="8" fill="#503020" text-anchor="middle">fit — extra</text>
+  <text x="620" y="268" font-family="monospace" font-size="8" fill="#402010" text-anchor="middle">friction</text>
+
+  <!-- Barrier 4 -->
+  <rect x="705" y="215" width="140" height="60" rx="4" fill="#150808" stroke="#2a1010" stroke-width="1"/>
+  <text x="775" y="238" font-family="monospace" font-size="8" fill="#703020" text-anchor="middle">Skill gaps</text>
+  <text x="775" y="253" font-family="monospace" font-size="8" fill="#503020" text-anchor="middle">unmeasured</text>
+  <text x="775" y="268" font-family="monospace" font-size="8" fill="#402010" text-anchor="middle">unaddressed</text>
+
+  <!-- Barrier 5 -->
+  <rect x="860" y="215" width="100" height="60" rx="4" fill="#150808" stroke="#2a1010" stroke-width="1"/>
+  <text x="910" y="238" font-family="monospace" font-size="8" fill="#703020" text-anchor="middle">No visible</text>
+  <text x="910" y="253" font-family="monospace" font-size="8" fill="#503020" text-anchor="middle">leadership</text>
+  <text x="910" y="268" font-family="monospace" font-size="8" fill="#402010" text-anchor="middle">behaviour</text>
+
+  <!-- Solutions row -->
+  <line x1="240" y1="300" x2="960" y2="300" stroke="#1a2a1a" stroke-width="0.5"/>
+  <text x="600" y="325" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" text-anchor="middle" letter-spacing="2" opacity="0.6">WHAT WORKS</text>
+
+  <rect x="240" y="338" width="700" height="100" rx="4" fill="#0a1812" stroke="#1a3020" stroke-width="1"/>
+  <text x="590" y="362" font-family="monospace" font-size="9" fill="#2a6030" text-anchor="middle">Shift from deployment → embedding · Redesign workflows with AI as default</text>
+  <text x="590" y="383" font-family="monospace" font-size="9" fill="#1a4020" text-anchor="middle">Ongoing learning infrastructure · Peer coaching · Recognition of adoption</text>
+  <text x="590" y="404" font-family="monospace" font-size="9" fill="#1a3a20" text-anchor="middle">Assign to workflow owners, not IT · Measure active usage from day one</text>
+  <text x="590" y="425" font-family="monospace" font-size="9" fill="#1a3020" text-anchor="middle">Leaders visibly using AI in their own work — the most powerful signal</text>
+
+  <!-- Title -->
+  <text x="600" y="72" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#00D4FF" opacity="0.6" letter-spacing="4" text-anchor="middle">AI &amp; TECHNOLOGY</text>
+  <text x="600" y="108" font-family="'Space Grotesk', sans-serif" font-size="28" font-weight="700" fill="#fff" opacity="0.9" text-anchor="middle">The AI Problem Is Adoption, Not Capability</text>
+</svg>

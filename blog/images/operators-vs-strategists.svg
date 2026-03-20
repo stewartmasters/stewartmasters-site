@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0d0a"/>
+      <stop offset="100%" style="stop-color:#0d1010"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Operator column -->
+  <rect x="60" y="155" width="490" height="380" rx="6" fill="#0a1218" stroke="#1a2a35" stroke-width="1"/>
+  <text x="305" y="185" font-family="'Space Grotesk', sans-serif" font-size="13" fill="#2a6090" text-anchor="middle" letter-spacing="2">OPERATOR</text>
+  <text x="305" y="205" font-family="monospace" font-size="9" fill="#1a3a50" text-anchor="middle">Execution-focused · Process-driven · Reliability</text>
+
+  <!-- Operator traits -->
+  <rect x="80" y="220" width="460" height="34" rx="3" fill="#0d1820" stroke="#1a2a35" stroke-width="1"/>
+  <text x="310" y="242" font-family="monospace" font-size="10" fill="#3a8090" text-anchor="middle">Builds process and assigns ownership</text>
+
+  <rect x="80" y="262" width="460" height="34" rx="3" fill="#0d1820" stroke="#1a2a35" stroke-width="1"/>
+  <text x="310" y="284" font-family="monospace" font-size="10" fill="#3a8090" text-anchor="middle">Tracks what's measured · Dislikes ambiguity</text>
+
+  <rect x="80" y="304" width="460" height="34" rx="3" fill="#0d1820" stroke="#1a2a35" stroke-width="1"/>
+  <text x="310" y="326" font-family="monospace" font-size="10" fill="#3a8090" text-anchor="middle">Turns strategy into plans and plans into results</text>
+
+  <!-- Operator risk -->
+  <rect x="80" y="352" width="460" height="50" rx="3" fill="#120808" stroke="#2a1010" stroke-width="1"/>
+  <text x="310" y="372" font-family="'Space Grotesk', sans-serif" font-size="9" fill="#a04030" text-anchor="middle" letter-spacing="1">RISK</text>
+  <text x="310" y="390" font-family="monospace" font-size="9" fill="#703020" text-anchor="middle">Optimises the wrong things · Confuses activity with progress</text>
+
+  <!-- Operator at best -->
+  <rect x="80" y="418" width="460" height="36" rx="3" fill="#0a1810" stroke="#1a3018" stroke-width="1"/>
+  <text x="310" y="441" font-family="monospace" font-size="9" fill="#2a5020" text-anchor="middle">At best: things actually get done · reliable delivery</text>
+
+  <!-- Team imbalance label -->
+  <text x="305" y="490" font-family="monospace" font-size="9" fill="#1a3040" text-anchor="middle">Most common: too many operators</text>
+  <text x="305" y="505" font-family="monospace" font-size="9" fill="#1a2a35" text-anchor="middle">→ runs well today, misses tomorrow</text>
+
+  <!-- Strategist column -->
+  <rect x="650" y="155" width="490" height="380" rx="6" fill="#100a18" stroke="#00D4FF" stroke-width="1" opacity="0.4"/>
+  <text x="895" y="185" font-family="'Space Grotesk', sans-serif" font-size="13" fill="#00D4FF" text-anchor="middle" letter-spacing="2" opacity="0.8">STRATEGIST</text>
+  <text x="895" y="205" font-family="monospace" font-size="9" fill="#1a3060" text-anchor="middle">Vision-focused · Pattern recognition · Future-oriented</text>
+
+  <!-- Strategist traits -->
+  <rect x="670" y="220" width="460" height="34" rx="3" fill="#120d22" stroke="#1a1a38" stroke-width="1"/>
+  <text x="900" y="242" font-family="monospace" font-size="10" fill="#3a4090" text-anchor="middle">Zooms out · Sees patterns across the market</text>
+
+  <rect x="670" y="262" width="460" height="34" rx="3" fill="#120d22" stroke="#1a1a38" stroke-width="1"/>
+  <text x="900" y="284" font-family="monospace" font-size="10" fill="#3a4090" text-anchor="middle">Comfortable with ambiguity · Generates options</text>
+
+  <rect x="670" y="304" width="460" height="34" rx="3" fill="#120d22" stroke="#1a1a38" stroke-width="1"/>
+  <text x="900" y="326" font-family="monospace" font-size="10" fill="#3a4090" text-anchor="middle">Spots threats early · Questions the orthodoxy</text>
+
+  <!-- Strategist risk -->
+  <rect x="670" y="352" width="460" height="50" rx="3" fill="#120808" stroke="#2a1010" stroke-width="1"/>
+  <text x="900" y="372" font-family="'Space Grotesk', sans-serif" font-size="9" fill="#a04030" text-anchor="middle" letter-spacing="1">RISK</text>
+  <text x="900" y="390" font-family="monospace" font-size="9" fill="#703020" text-anchor="middle">Beautiful decks · Pivots too early · Too many options</text>
+
+  <!-- Strategist at best -->
+  <rect x="670" y="418" width="460" height="36" rx="3" fill="#0a1818" stroke="#1a2a30" stroke-width="1"/>
+  <text x="900" y="441" font-family="monospace" font-size="9" fill="#1a5050" text-anchor="middle">At best: changes trajectory · sees what others miss</text>
+
+  <text x="895" y="490" font-family="monospace" font-size="9" fill="#1a2a40" text-anchor="middle">Less common: too many strategists</text>
+  <text x="895" y="505" font-family="monospace" font-size="9" fill="#1a2030" text-anchor="middle">→ great conversations, poor results</text>
+
+  <!-- VS divider -->
+  <line x1="600" y1="155" x2="600" y2="535" stroke="#1a1a1a" stroke-width="1" stroke-dasharray="6,6"/>
+  <circle cx="600" cy="345" r="20" fill="#0d0d0d" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="600" y="351" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#333" text-anchor="middle" font-weight="700">VS</text>
+
+  <!-- Bottom label -->
+  <rect x="300" y="545" width="600" height="36" rx="4" fill="#0a0f0a" stroke="#1a2a1a" stroke-width="1"/>
+  <text x="600" y="568" font-family="'Space Grotesk', sans-serif" font-size="13" fill="#aaa" text-anchor="middle">The best teams have genuine respect for both orientations</text>
+
+  <!-- Title -->
+  <text x="600" y="72" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#00D4FF" opacity="0.6" letter-spacing="4" text-anchor="middle">LEADERSHIP</text>
+  <text x="600" y="108" font-family="'Space Grotesk', sans-serif" font-size="28" font-weight="700" fill="#fff" opacity="0.9" text-anchor="middle">Operators vs Strategists</text>
+</svg>

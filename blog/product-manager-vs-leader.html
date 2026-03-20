@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Manager vs Product Leader — What Changes | Stewart Masters</title>
+  <meta name="description" content="The transition from PM to product leader is one of the hardest in product organisations. The skills that made someone a great PM can actively get in the way.">
+  <meta property="og:title" content="Product Manager vs Product Leader — What Changes">
+  <meta property="og:description" content="The transition from PM to product leader is one of the hardest in product organisations. The skills that made someone a great PM can actively get in the way.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://stewartmasters.me/blog/product-manager-vs-leader.html">
+  <meta property="og:site_name" content="Stewart Masters">
+  <meta property="og:image" content="https://stewartmasters.me/blog/images/product-manager-vs-leader.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Product Manager vs Product Leader — What Changes">
+  <meta name="twitter:description" content="The transition from PM to product leader is one of the hardest in product organisations. The skills that made someone a great PM can actively get in the way.">
+  <link rel="canonical" href="https://stewartmasters.me/blog/product-manager-vs-leader.html">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --cyan: #00D4FF; --bg: #0a0a0a; --surface: #111; --border: #1e1e1e; --text: #e0e0e0; --muted: #888; }
+    body { background: var(--bg); color: var(--text); font-family: 'Space Grotesk', sans-serif; line-height: 1.6; }
+    .font-heading { font-family: 'Space Grotesk', sans-serif; }
+    a { color: inherit; }
+    .max-container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    nav { border-bottom: 1px solid var(--border); padding: 16px 0; position: sticky; top: 0; background: rgba(10,10,10,0.95); backdrop-filter: blur(10px); z-index: 100; }
+    .nav-inner { display: flex; align-items: center; justify-content: space-between; }
+    .nav-logo { font-weight: 700; font-size: 18px; text-decoration: none; color: #fff; }
+    .nav-links { display: flex; align-items: center; gap: 32px; }
+    .nav-link { text-decoration: none; color: var(--muted); font-size: 14px; transition: color 0.2s; }
+    .nav-link:hover { color: #fff; }
+    .btn-primary { background: var(--cyan); color: #000; padding: 8px 20px; border-radius: 6px; font-weight: 600; font-size: 14px; text-decoration: none; transition: opacity 0.2s; }
+    .btn-primary:hover { opacity: 0.85; }
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; background: none; border: none; padding: 4px; }
+    .hamburger span { display: block; width: 22px; height: 2px; background: #fff; border-radius: 2px; transition: all 0.3s; }
+    #mobile-menu { display: none; flex-direction: column; gap: 16px; padding: 20px 0; border-top: 1px solid var(--border); }
+    #mobile-menu.open { display: flex; }
+    .blog-header { padding: 48px 0 32px; }
+    .breadcrumb { font-size: 13px; color: var(--muted); margin-bottom: 16px; }
+    .breadcrumb a { color: var(--muted); text-decoration: none; }
+    .breadcrumb a:hover { color: #fff; }
+    .blog-category { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: 2px; color: var(--cyan); text-transform: uppercase; margin-bottom: 12px; }
+    .blog-title { font-size: clamp(28px, 5vw, 48px); font-weight: 700; line-height: 1.15; color: #fff; margin-bottom: 16px; max-width: 800px; }
+    .blog-meta { font-size: 13px; color: var(--muted); }
+    .hero-image { width: 100%; border-radius: 12px; margin-bottom: 48px; display: block; }
+    .prose-container { max-width: 720px; }
+    .prose h2 { font-size: 22px; font-weight: 700; color: #fff; margin: 40px 0 16px; }
+    .prose p { font-size: 16px; line-height: 1.8; color: #ccc; margin-bottom: 20px; }
+    .prose ul { margin: 0 0 20px 0; padding: 0; list-style: none; }
+    .prose ul li { font-size: 16px; line-height: 1.8; color: #ccc; padding-left: 24px; position: relative; margin-bottom: 8px; }
+    .prose ul li::before { content: '→'; color: var(--cyan); position: absolute; left: 0; }
+    .prose strong { color: #fff; font-weight: 600; }
+    .author-bio { border-top: 1px solid var(--border); padding-top: 40px; margin-top: 48px; display: flex; gap: 20px; align-items: flex-start; }
+    .author-avatar { width: 56px; height: 56px; border-radius: 50%; background: linear-gradient(135deg, #00D4FF22, #00D4FF44); border: 1px solid #00D4FF33; display: flex; align-items: center; justify-content: center; font-size: 20px; font-weight: 700; color: var(--cyan); flex-shrink: 0; }
+    .author-name { font-weight: 600; color: #fff; margin-bottom: 4px; }
+    .author-desc { font-size: 14px; color: var(--muted); line-height: 1.6; }
+    .related-section { padding: 64px 0; border-top: 1px solid var(--border); margin-top: 80px; }
+    .related-title { font-size: 13px; font-weight: 600; letter-spacing: 3px; color: var(--muted); text-transform: uppercase; margin-bottom: 32px; }
+    .related-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .blog-card { background: #121212; border: 1px solid var(--border); border-radius: 10px; overflow: hidden; text-decoration: none; display: block; transition: border-color 0.3s, transform 0.3s; }
+    .blog-card:hover { border-color: #2a2a2a; transform: translateY(-4px); }
+    .blog-card-tag { font-size: 10px; font-weight: 700; letter-spacing: 2px; color: var(--cyan); text-transform: uppercase; }
+    .blog-card-title { font-size: 15px; font-weight: 600; color: #fff; line-height: 1.4; margin: 8px 0 12px; }
+    .blog-card-meta { font-size: 12px; color: var(--muted); }
+    .blog-arrow { color: var(--cyan); font-size: 18px; }
+    footer { border-top: 1px solid var(--border); padding: 40px 0; }
+    .footer-inner { display: flex; align-items: center; justify-content: space-between; }
+    .footer-copy { font-size: 13px; color: var(--muted); }
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .hamburger { display: flex; }
+      .related-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Product Manager vs Product Leader — What Changes",
+    "description": "The transition from PM to product leader is one of the hardest in product organisations. The skills that made someone a great PM can actively get in the way.",
+    "author": {
+      "@type": "Person",
+      "name": "Stewart Masters",
+      "url": "https://stewartmasters.me"
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Stewart Masters",
+      "url": "https://stewartmasters.me"
+    },
+    "datePublished": "2026-04-18",
+    "dateModified": "2026-04-18",
+    "url": "https://stewartmasters.me/blog/product-manager-vs-leader.html",
+    "image": "https://stewartmasters.me/blog/images/product-manager-vs-leader.svg"
+  }
+  </script>
+</head>
+<body>
+
+  <nav>
+    <div class="max-container">
+      <div class="nav-inner">
+        <a href="/" class="nav-logo">Stewart Masters</a>
+        <div class="nav-links">
+          <a href="/about.html" class="nav-link">About</a>
+          <a href="/services.html" class="nav-link">Services</a>
+          <a href="/blog/" class="nav-link">Blog</a>
+          <a href="/contact.html" class="btn-primary">Get in touch</a>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <div id="mobile-menu">
+        <a href="/about.html" class="nav-link">About</a>
+        <a href="/services.html" class="nav-link">Services</a>
+        <a href="/blog/" class="nav-link">Blog</a>
+        <a href="/contact.html" class="btn-primary" style="text-align:center;">Get in touch</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="blog-header">
+    <div class="max-container">
+      <div class="prose-container">
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="/blog/">Blog</a> / Product Manager vs Product Leader — What Changes</div>
+        <div class="blog-category">Leadership</div>
+        <h1 class="blog-title">Product Manager vs Product Leader — What Changes</h1>
+        <div class="blog-meta">18 April 2026 · 6 min read</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="max-container">
+    <img src="/blog/images/product-manager-vs-leader.svg" alt="Side-by-side comparison of product manager versus product leader responsibilities and mindset" class="hero-image">
+  </div>
+
+  <div class="max-container" style="padding-bottom: 80px;">
+    <div class="prose-container">
+      <div class="prose">
+
+        <p>The transition from product manager to product leader is one of the hardest in any product organisation. Most of the skills that made someone a great PM actively work against being an effective product leader — and most people who make the transition do it without being told this clearly enough.</p>
+
+        <h2>What a PM does</h2>
+        <p>A product manager owns outcomes for a specific product or area. They work closely with engineering and design, write briefs and acceptance criteria, manage the backlog, synthesise research, and remove friction that stops teams delivering. They're close to the detail. Their value comes from deep product knowledge and the ability to make good decisions quickly on the ground.</p>
+
+        <h2>What actually changes when you lead</h2>
+        <p>A product leader is accountable for the outcomes of multiple PMs and multiple product areas simultaneously. The shift is significant and uncomfortable for most people making it:</p>
+        <ul>
+          <li><strong>From doing to enabling.</strong> A product leader still writing specs or attending every design review is probably slowing the team down rather than scaling it. The value shifts from your direct output to the quality of what your team produces without you.</li>
+          <li><strong>From individual to team accountability.</strong> Your results are your team's results. The instinct to jump in and fix things yourself — which was an asset as a PM — becomes a liability when it undermines the ownership and development of the people you manage.</li>
+          <li><strong>From prioritising features to prioritising people.</strong> The most important decisions you make as a product leader are about hiring, development, and culture. Not which feature ships next quarter.</li>
+          <li><strong>From proximity to perspective.</strong> You need to be far enough from the detail to see the whole, while close enough to know when the detail is wrong. That balance is genuinely difficult and takes time to calibrate.</li>
+        </ul>
+
+        <h2>What trips people up</h2>
+        <p>The most common failure mode is staying too close to the work. A recently promoted product leader re-reviews decisions the team should own, adds themselves to meetings they should trust others to run, and gradually undermines the authority of PMs they're supposed to be developing. This feels productive. It isn't.</p>
+        <p>The second failure mode is the opposite: delegating without understanding. A product leader who has disconnected from what teams are actually doing can't make good resource allocation or prioritisation decisions. The information they receive is filtered, and they often don't know it.</p>
+
+        <h2>What effective product leaders establish early</h2>
+        <ul>
+          <li><strong>Clear ownership.</strong> Each PM knows exactly what they own and what they can decide without escalation. Ambiguity about ownership creates the conditions for over-involvement by the leader and under-confidence in the team.</li>
+          <li><strong>A real feedback rhythm.</strong> Regular one-to-ones focused on development, not status updates. The difference matters — status updates can be async. Development conversations require genuine attention.</li>
+          <li><strong>Connection to strategy.</strong> Helping PMs understand how their area connects to the organisation's direction so they can make better decisions independently. PMs who don't understand context become execution-focused rather than outcome-focused.</li>
+          <li><strong>A standard for good.</strong> What does excellent product work look like in this team? If the leader can't articulate that standard clearly, the team can't hit it consistently.</li>
+        </ul>
+
+        <h2>The hard truth</h2>
+        <p>Some excellent PMs never make the transition successfully. Not because they lack intelligence or commitment, but because the job is genuinely different — more people-focused, more strategic, less hands-on — and not everyone wants that. Some of the best PMs I've worked with have chosen to remain individual contributors rather than move into leadership, and that choice has served them and their organisations well.</p>
+        <p>The best PMs who become product leaders are those who genuinely want the leadership work — not just the title, the pay band, or the perceived progression. If someone is pursuing the role primarily for status rather than because they want to spend most of their time on people and strategy, the transition is unlikely to go well for anyone involved.</p>
+
+      </div>
+
+      <div class="author-bio">
+        <div class="author-avatar">SM</div>
+        <div>
+          <div class="author-name">Stewart Masters</div>
+          <div class="author-desc">Stewart is a digital and technology executive advisor working with boards, founders, and senior leadership teams across ANZ and Asia. He specialises in digital strategy, AI adoption, and building high-performance technology organisations.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="related-section">
+    <div class="max-container">
+      <div class="related-title">Related Articles</div>
+      <div class="related-grid">
+
+        <a href="/blog/product-team-that-ships.html" class="blog-card">
+          <div style="height:140px;background:linear-gradient(135deg, #0d1520 0%, #0a2040 100%);display:flex;align-items:flex-end;padding:16px;">
+            <span class="blog-card-tag">Leadership</span>
+          </div>
+          <div style="padding:20px;">
+            <div class="blog-card-title">Building a Product Team That Actually Ships</div>
+            <div style="display:flex;justify-content:space-between;align-items:center;">
+              <div class="blog-card-meta">6 April 2026 · 6 min</div>
+              <span class="blog-arrow">→</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="/blog/founder-stepping-back-product.html" class="blog-card">
+          <div style="height:140px;background:linear-gradient(135deg, #0d1520 0%, #0a2040 100%);display:flex;align-items:flex-end;padding:16px;">
+            <span class="blog-card-tag">Leadership</span>
+          </div>
+          <div style="padding:20px;">
+            <div class="blog-card-title">When the Founder Needs to Step Back From Product</div>
+            <div style="display:flex;justify-content:space-between;align-items:center;">
+              <div class="blog-card-meta">Leadership · 6 min</div>
+              <span class="blog-arrow">→</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="/blog/hiring-product-manager.html" class="blog-card">
+          <div style="height:140px;background:linear-gradient(135deg, #0d1520 0%, #0a2040 100%);display:flex;align-items:flex-end;padding:16px;">
+            <span class="blog-card-tag">Leadership</span>
+          </div>
+          <div style="padding:20px;">
+            <div class="blog-card-title">How to Hire Your First Product Manager</div>
+            <div style="display:flex;justify-content:space-between;align-items:center;">
+              <div class="blog-card-meta">Leadership · 6 min</div>
+              <span class="blog-arrow">→</span>
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="max-container">
+      <div class="footer-inner">
+        <div class="footer-copy">© 2026 Stewart Masters</div>
+        <a href="https://www.linkedin.com/in/stewartmasters/" target="_blank" rel="noopener" class="nav-link" style="font-size: 13px;">LinkedIn →</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobile-menu');
+    hamburger.addEventListener('click', () => {
+      mobileMenu.classList.toggle('open');
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0d10"/>
+      <stop offset="100%" style="stop-color:#0d1015"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Signal vs Noise 2x3 matrix -->
+
+  <!-- Header row labels -->
+  <text x="370" y="155" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" text-anchor="middle" letter-spacing="2" opacity="0.7">SIGNAL</text>
+  <text x="830" y="155" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#c04030" text-anchor="middle" letter-spacing="2" opacity="0.7">NOISE</text>
+  <line x1="60" y1="163" x2="588" y2="163" stroke="#00D4FF" stroke-width="0.5" opacity="0.3"/>
+  <line x1="612" y1="163" x2="1140" y2="163" stroke="#c04030" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Signal 1 -->
+  <rect x="60" y="172" width="520" height="90" rx="5" fill="#0a1820" stroke="#00D4FF" stroke-width="1" opacity="0.4"/>
+  <text x="320" y="198" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#00D4FF" text-anchor="middle" opacity="0.8">Representative sample</text>
+  <text x="320" y="218" font-family="monospace" font-size="9" fill="#2a7090" text-anchor="middle">Not just the vocal minority</text>
+  <text x="320" y="235" font-family="monospace" font-size="9" fill="#1a5070" text-anchor="middle">Matches the breadth of your customer base</text>
+  <text x="320" y="252" font-family="monospace" font-size="8" fill="#1a3a50" text-anchor="middle">Weighted by revenue cohort</text>
+
+  <!-- Signal 2 -->
+  <rect x="60" y="275" width="520" height="90" rx="5" fill="#0a1820" stroke="#00D4FF" stroke-width="1" opacity="0.3"/>
+  <text x="320" y="301" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#00D4FF" text-anchor="middle" opacity="0.7">Behaviour over intention</text>
+  <text x="320" y="321" font-family="monospace" font-size="9" fill="#2a7090" text-anchor="middle">What they do, not what they say they'd do</text>
+  <text x="320" y="338" font-family="monospace" font-size="9" fill="#1a5070" text-anchor="middle">Usage data + observation beats surveys</text>
+  <text x="320" y="355" font-family="monospace" font-size="8" fill="#1a3a50" text-anchor="middle">Actions are honest · Intentions are optimistic</text>
+
+  <!-- Signal 3 -->
+  <rect x="60" y="378" width="520" height="90" rx="5" fill="#0a1820" stroke="#00D4FF" stroke-width="1" opacity="0.3"/>
+  <text x="320" y="404" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#00D4FF" text-anchor="middle" opacity="0.7">Problems, not solutions</text>
+  <text x="320" y="424" font-family="monospace" font-size="9" fill="#2a7090" text-anchor="middle">Ask: what's hard? What workaround do you use?</text>
+  <text x="320" y="441" font-family="monospace" font-size="9" fill="#1a5070" text-anchor="middle">Don't ask: would you use this feature?</text>
+  <text x="320" y="458" font-family="monospace" font-size="8" fill="#1a3a50" text-anchor="middle">Customers describe problems, not solutions</text>
+
+  <!-- Noise 1 -->
+  <rect x="620" y="172" width="520" height="90" rx="5" fill="#180808" stroke="#2a1010" stroke-width="1"/>
+  <text x="880" y="198" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#903030" text-anchor="middle">Loudest customers</text>
+  <text x="880" y="218" font-family="monospace" font-size="9" fill="#5a2020" text-anchor="middle">Self-selecting · Most vocal ≠ most valuable</text>
+  <text x="880" y="235" font-family="monospace" font-size="9" fill="#3a1515" text-anchor="middle">Often the most resistant to needed change</text>
+  <text x="880" y="252" font-family="monospace" font-size="8" fill="#2a1010" text-anchor="middle">Optimising for them hurts the silent majority</text>
+
+  <!-- Noise 2 -->
+  <rect x="620" y="275" width="520" height="90" rx="5" fill="#180808" stroke="#2a1010" stroke-width="1"/>
+  <text x="880" y="301" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#903030" text-anchor="middle">Hypothetical surveys</text>
+  <text x="880" y="321" font-family="monospace" font-size="9" fill="#5a2020" text-anchor="middle">Would you use X? → They say yes → Don't use it</text>
+  <text x="880" y="338" font-family="monospace" font-size="9" fill="#3a1515" text-anchor="middle">Customers can't predict their own behaviour</text>
+  <text x="880" y="355" font-family="monospace" font-size="8" fill="#2a1010" text-anchor="middle">Feature requests ≠ commitment to use</text>
+
+  <!-- Noise 3 -->
+  <rect x="620" y="378" width="520" height="90" rx="5" fill="#180808" stroke="#2a1010" stroke-width="1"/>
+  <text x="880" y="404" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#903030" text-anchor="middle">NPS as a standalone metric</text>
+  <text x="880" y="424" font-family="monospace" font-size="9" fill="#5a2020" text-anchor="middle">Score without verbatim analysis = vanity</text>
+  <text x="880" y="441" font-family="monospace" font-size="9" fill="#3a1515" text-anchor="middle">Celebrating the number without the diagnosis</text>
+  <text x="880" y="458" font-family="monospace" font-size="8" fill="#2a1010" text-anchor="middle">The number alone tells you nothing actionable</text>
+
+  <!-- Divider -->
+  <line x1="600" y1="163" x2="600" y2="480" stroke="#1a1a1a" stroke-width="1"/>
+
+  <!-- Bottom note -->
+  <rect x="160" y="490" width="880" height="36" rx="4" fill="#0a0f0a" stroke="#1a2a1a" stroke-width="1"/>
+  <text x="600" y="513" font-family="'Space Grotesk', sans-serif" font-size="13" fill="#aaa" text-anchor="middle">The best teams treat feedback as one input among several — not as the answer</text>
+
+  <!-- Title -->
+  <text x="600" y="72" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#00D4FF" opacity="0.6" letter-spacing="4" text-anchor="middle">DIGITAL STRATEGY</text>
+  <text x="600" y="108" font-family="'Space Grotesk', sans-serif" font-size="27" font-weight="700" fill="#fff" opacity="0.9" text-anchor="middle">When Customer Feedback Is the Wrong Signal</text>
+</svg>

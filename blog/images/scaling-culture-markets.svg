@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0d0a"/>
+      <stop offset="100%" style="stop-color:#0d1010"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Central core culture circle -->
+  <circle cx="600" cy="315" r="100" fill="#0a1820" stroke="#00D4FF" stroke-width="1.5" opacity="0.6"/>
+  <text x="600" y="305" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#00D4FF" opacity="0.7" text-anchor="middle" letter-spacing="2">CORE CULTURE</text>
+  <text x="600" y="323" font-family="monospace" font-size="9" fill="#1a4060" text-anchor="middle">Quality standards</text>
+  <text x="600" y="337" font-family="monospace" font-size="9" fill="#1a4060" text-anchor="middle">Ethics · Customer focus</text>
+  <text x="600" y="351" font-family="monospace" font-size="9" fill="#1a4060" text-anchor="middle">Decision principles</text>
+
+  <!-- Market circles -->
+  <!-- Market 1: top-left -->
+  <circle cx="260" cy="190" r="75" fill="#0d1810" stroke="#1a3020" stroke-width="1"/>
+  <text x="260" y="178" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#2a5020" text-anchor="middle">MADRID</text>
+  <text x="260" y="196" font-family="monospace" font-size="9" fill="#1a4020" text-anchor="middle">Direct feedback</text>
+  <text x="260" y="210" font-family="monospace" font-size="9" fill="#1a3020" text-anchor="middle">Flat hierarchy</text>
+  <text x="260" y="224" font-family="monospace" font-size="9" fill="#1a3020" text-anchor="middle">Lunch culture</text>
+
+  <!-- Market 2: top-right -->
+  <circle cx="940" cy="190" r="75" fill="#0d1018" stroke="#1a2030" stroke-width="1"/>
+  <text x="940" y="178" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#2a4050" text-anchor="middle">AMSTERDAM</text>
+  <text x="940" y="196" font-family="monospace" font-size="9" fill="#1a3040" text-anchor="middle">Consensus-driven</text>
+  <text x="940" y="210" font-family="monospace" font-size="9" fill="#1a2040" text-anchor="middle">Work-life clarity</text>
+  <text x="940" y="224" font-family="monospace" font-size="9" fill="#1a2040" text-anchor="middle">Written culture</text>
+
+  <!-- Market 3: bottom-left -->
+  <circle cx="260" cy="440" r="75" fill="#180d10" stroke="#301a20" stroke-width="1"/>
+  <text x="260" y="428" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#503040" text-anchor="middle">LONDON</text>
+  <text x="260" y="446" font-family="monospace" font-size="9" fill="#402030" text-anchor="middle">Understated style</text>
+  <text x="260" y="460" font-family="monospace" font-size="9" fill="#302030" text-anchor="middle">Formal structure</text>
+  <text x="260" y="474" font-family="monospace" font-size="9" fill="#302030" text-anchor="middle">Pub culture</text>
+
+  <!-- Market 4: bottom-right -->
+  <circle cx="940" cy="440" r="75" fill="#0d180d" stroke="#1a301a" stroke-width="1"/>
+  <text x="940" y="428" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#2a5020" text-anchor="middle">BARCELONA</text>
+  <text x="940" y="446" font-family="monospace" font-size="9" fill="#1a4020" text-anchor="middle">Collaborative</text>
+  <text x="940" y="460" font-family="monospace" font-size="9" fill="#1a3020" text-anchor="middle">Creative latitude</text>
+  <text x="940" y="474" font-family="monospace" font-size="9" fill="#1a3020" text-anchor="middle">Relationship-first</text>
+
+  <!-- Connecting lines — core to markets -->
+  <line x1="513" y1="258" x2="320" y2="218" stroke="#00D4FF" stroke-width="1" stroke-dasharray="4,4" opacity="0.3"/>
+  <line x1="687" y1="258" x2="880" y2="218" stroke="#00D4FF" stroke-width="1" stroke-dasharray="4,4" opacity="0.3"/>
+  <line x1="513" y1="372" x2="320" y2="415" stroke="#00D4FF" stroke-width="1" stroke-dasharray="4,4" opacity="0.3"/>
+  <line x1="687" y1="372" x2="880" y2="415" stroke="#00D4FF" stroke-width="1" stroke-dasharray="4,4" opacity="0.3"/>
+
+  <!-- Labels on connections -->
+  <text x="420" y="232" font-family="monospace" font-size="8" fill="#1a3040" text-anchor="middle">local expression</text>
+  <text x="780" y="232" font-family="monospace" font-size="8" fill="#1a3040" text-anchor="middle">local expression</text>
+  <text x="420" y="405" font-family="monospace" font-size="8" fill="#1a3040" text-anchor="middle">local expression</text>
+  <text x="780" y="405" font-family="monospace" font-size="8" fill="#1a3040" text-anchor="middle">local expression</text>
+
+  <!-- Bottom label -->
+  <rect x="200" y="540" width="800" height="44" rx="4" fill="#0a0f0a" stroke="#1a2a1a" stroke-width="1"/>
+  <text x="600" y="558" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#2a5020" opacity="0.8" text-anchor="middle" letter-spacing="2">KEY DISTINCTION</text>
+  <text x="600" y="577" font-family="'Space Grotesk', sans-serif" font-size="13" fill="#aaa" text-anchor="middle">Standardise principles — localise expression</text>
+
+  <!-- Title -->
+  <text x="600" y="80" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#00D4FF" opacity="0.6" letter-spacing="4" text-anchor="middle">LEADERSHIP</text>
+  <text x="600" y="116" font-family="'Space Grotesk', sans-serif" font-size="28" font-weight="700" fill="#fff" opacity="0.9" text-anchor="middle">Scaling Culture Across Markets</text>
+
+  <ellipse cx="600" cy="315" rx="120" ry="120" fill="#00D4FF" opacity="0.02"/>
+</svg>

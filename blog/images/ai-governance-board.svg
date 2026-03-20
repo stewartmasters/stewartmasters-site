@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0d12"/>
+      <stop offset="100%" style="stop-color:#0d1018"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Four pillars -->
+  <!-- Pillar 1: Accountability -->
+  <rect x="60" y="175" width="240" height="310" rx="6" fill="#0a1520" stroke="#00D4FF" stroke-width="1" opacity="0.5"/>
+  <text x="180" y="205" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" text-anchor="middle" letter-spacing="2" opacity="0.8">ACCOUNTABILITY</text>
+  <line x1="80" y1="218" x2="280" y2="218" stroke="#00D4FF" stroke-width="0.5" opacity="0.3"/>
+  <text x="180" y="245" font-family="monospace" font-size="9" fill="#2a7090" text-anchor="middle">Named person</text>
+  <text x="180" y="263" font-family="monospace" font-size="9" fill="#1a5070" text-anchor="middle">for every deployment</text>
+  <text x="180" y="290" font-family="monospace" font-size="8" fill="#1a4060" text-anchor="middle">Not the vendor</text>
+  <text x="180" y="308" font-family="monospace" font-size="8" fill="#1a4060" text-anchor="middle">Not "the team"</text>
+  <text x="180" y="335" font-family="monospace" font-size="8" fill="#1a3050" text-anchor="middle">A specific person</text>
+  <text x="180" y="353" font-family="monospace" font-size="8" fill="#1a3050" text-anchor="middle">who answers to</text>
+  <text x="180" y="371" font-family="monospace" font-size="8" fill="#1a3050" text-anchor="middle">the board</text>
+  <text x="180" y="410" font-family="monospace" font-size="8" fill="#1a2a40" text-anchor="middle">Can decide to take</text>
+  <text x="180" y="426" font-family="monospace" font-size="8" fill="#1a2a40" text-anchor="middle">the system offline</text>
+  <rect x="100" y="460" width="160" height="6" rx="3" fill="#00D4FF" opacity="0.15"/>
+
+  <!-- Pillar 2: Transparency -->
+  <rect x="320" y="175" width="240" height="310" rx="6" fill="#0a1820" stroke="#1a3040" stroke-width="1"/>
+  <text x="440" y="205" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#1a6090" text-anchor="middle" letter-spacing="2">TRANSPARENCY</text>
+  <line x1="340" y1="218" x2="540" y2="218" stroke="#1a5080" stroke-width="0.5" opacity="0.5"/>
+  <text x="440" y="245" font-family="monospace" font-size="9" fill="#2a6080" text-anchor="middle">Board can explain</text>
+  <text x="440" y="263" font-family="monospace" font-size="9" fill="#1a4060" text-anchor="middle">at a high level</text>
+  <text x="440" y="290" font-family="monospace" font-size="8" fill="#1a3a50" text-anchor="middle">What data it uses</text>
+  <text x="440" y="308" font-family="monospace" font-size="8" fill="#1a3a50" text-anchor="middle">What it optimises for</text>
+  <text x="440" y="335" font-family="monospace" font-size="8" fill="#1a2a40" text-anchor="middle">What limits exist</text>
+  <text x="440" y="353" font-family="monospace" font-size="8" fill="#1a2a40" text-anchor="middle">on its authority</text>
+  <text x="440" y="410" font-family="monospace" font-size="8" fill="#1a2030" text-anchor="middle">If mgt can't explain</text>
+  <text x="440" y="426" font-family="monospace" font-size="8" fill="#1a2030" text-anchor="middle">simply — red flag</text>
+  <rect x="360" y="460" width="160" height="6" rx="3" fill="#1a5080" opacity="0.3"/>
+
+  <!-- Pillar 3: Risk Management -->
+  <rect x="580" y="175" width="240" height="310" rx="6" fill="#181a08" stroke="#2a2a14" stroke-width="1"/>
+  <text x="700" y="205" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#606030" text-anchor="middle" letter-spacing="2">RISK MANAGEMENT</text>
+  <line x1="600" y1="218" x2="800" y2="218" stroke="#505020" stroke-width="0.5" opacity="0.5"/>
+  <text x="700" y="245" font-family="monospace" font-size="9" fill="#606030" text-anchor="middle">On the risk register</text>
+  <text x="700" y="263" font-family="monospace" font-size="9" fill="#404020" text-anchor="middle">proportional to impact</text>
+  <text x="700" y="290" font-family="monospace" font-size="8" fill="#3a3a18" text-anchor="middle">Consequential decisions</text>
+  <text x="700" y="308" font-family="monospace" font-size="8" fill="#3a3a18" text-anchor="middle">get serious scrutiny</text>
+  <text x="700" y="335" font-family="monospace" font-size="8" fill="#2a2a10" text-anchor="middle">Pricing · HR · Credit</text>
+  <text x="700" y="353" font-family="monospace" font-size="8" fill="#2a2a10" text-anchor="middle">all need mitigations</text>
+  <text x="700" y="410" font-family="monospace" font-size="8" fill="#202010" text-anchor="middle">Regulatory exposure</text>
+  <text x="700" y="426" font-family="monospace" font-size="8" fill="#202010" text-anchor="middle">actively tracked</text>
+  <rect x="620" y="460" width="160" height="6" rx="3" fill="#505020" opacity="0.3"/>
+
+  <!-- Pillar 4: Ethical Boundaries -->
+  <rect x="840" y="175" width="300" height="310" rx="6" fill="#0a1218" stroke="#1a2530" stroke-width="1"/>
+  <text x="990" y="205" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#2a5070" text-anchor="middle" letter-spacing="2">ETHICAL BOUNDARIES</text>
+  <line x1="860" y1="218" x2="1120" y2="218" stroke="#1a4060" stroke-width="0.5" opacity="0.5"/>
+  <text x="990" y="245" font-family="monospace" font-size="9" fill="#2a5070" text-anchor="middle">Some AI uses have</text>
+  <text x="990" y="263" font-family="monospace" font-size="9" fill="#1a3a50" text-anchor="middle">values implications</text>
+  <text x="990" y="290" font-family="monospace" font-size="8" fill="#1a3040" text-anchor="middle">Customer-facing decisions</text>
+  <text x="990" y="308" font-family="monospace" font-size="8" fill="#1a3040" text-anchor="middle">HR and recruitment</text>
+  <text x="990" y="335" font-family="monospace" font-size="8" fill="#1a2030" text-anchor="middle">Not just technical choices</text>
+  <text x="990" y="353" font-family="monospace" font-size="8" fill="#1a2030" text-anchor="middle">Belong at board level</text>
+  <text x="990" y="410" font-family="monospace" font-size="8" fill="#1a1a28" text-anchor="middle">What will we NOT do</text>
+  <text x="990" y="426" font-family="monospace" font-size="8" fill="#1a1a28" text-anchor="middle">with AI — set limits</text>
+  <rect x="880" y="460" width="220" height="6" rx="3" fill="#1a3050" opacity="0.3"/>
+
+  <!-- Bottom bar -->
+  <rect x="60" y="508" width="1080" height="36" rx="4" fill="#0a0f0a" stroke="#1a2a1a" stroke-width="1"/>
+  <text x="600" y="531" font-family="'Space Grotesk', sans-serif" font-size="13" fill="#aaa" text-anchor="middle">AI governance is a leadership problem — not a technology problem</text>
+
+  <!-- Title -->
+  <text x="600" y="72" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#00D4FF" opacity="0.6" letter-spacing="4" text-anchor="middle">BOARD &amp; ADVISORY</text>
+  <text x="600" y="108" font-family="'Space Grotesk', sans-serif" font-size="26" font-weight="700" fill="#fff" opacity="0.9" text-anchor="middle">AI Governance — What Good Board Oversight Looks Like</text>
+
+  <ellipse cx="600" cy="340" rx="300" ry="160" fill="#00D4FF" opacity="0.01"/>
+</svg>

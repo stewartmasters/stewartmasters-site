@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0d10"/>
+      <stop offset="100%" style="stop-color:#0d1015"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- 6 evaluation dimensions in 2x3 grid -->
+  <!-- Row 1 -->
+
+  <!-- Data Quality -->
+  <rect x="60" y="155" width="340" height="150" rx="6" fill="#0a1520" stroke="#00D4FF" stroke-width="1" opacity="0.5"/>
+  <text x="230" y="183" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" text-anchor="middle" letter-spacing="2" opacity="0.8">DATA QUALITY</text>
+  <text x="230" y="210" font-family="monospace" font-size="9" fill="#2a6080" text-anchor="middle">Single source of truth?</text>
+  <text x="230" y="228" font-family="monospace" font-size="9" fill="#1a4060" text-anchor="middle">Data accessible + queryable?</text>
+  <text x="230" y="246" font-family="monospace" font-size="9" fill="#1a4060" text-anchor="middle">Governance in place?</text>
+  <text x="230" y="275" font-family="monospace" font-size="8" fill="#c08040" text-anchor="middle">⚠ Most businesses fail here</text>
+
+  <!-- Tech Architecture -->
+  <rect x="430" y="155" width="340" height="150" rx="6" fill="#0a1820" stroke="#1a3040" stroke-width="1"/>
+  <text x="600" y="183" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#1a5080" text-anchor="middle" letter-spacing="2">TECH ARCHITECTURE</text>
+  <text x="600" y="210" font-family="monospace" font-size="9" fill="#2a5070" text-anchor="middle">Can it scale to 10x?</text>
+  <text x="600" y="228" font-family="monospace" font-size="9" fill="#1a3050" text-anchor="middle">Tech debt mapped + managed?</text>
+  <text x="600" y="246" font-family="monospace" font-size="9" fill="#1a3050" text-anchor="middle">Change velocity — how fast?</text>
+  <text x="600" y="275" font-family="monospace" font-size="8" fill="#1a3a50" text-anchor="middle">Due diligence always includes code review</text>
+
+  <!-- Unit Economics -->
+  <rect x="800" y="155" width="340" height="150" rx="6" fill="#181a08" stroke="#2a2a14" stroke-width="1"/>
+  <text x="970" y="183" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#505020" text-anchor="middle" letter-spacing="2">UNIT ECONOMICS</text>
+  <text x="970" y="210" font-family="monospace" font-size="9" fill="#606030" text-anchor="middle">CAC trending correctly?</text>
+  <text x="970" y="228" font-family="monospace" font-size="9" fill="#404020" text-anchor="middle">Tech cost vs revenue curve?</text>
+  <text x="970" y="246" font-family="monospace" font-size="9" fill="#404020" text-anchor="middle">What happens at 5x scale?</text>
+  <text x="970" y="275" font-family="monospace" font-size="8" fill="#404020" text-anchor="middle">Sub-linear cost scaling = premium valuation</text>
+
+  <!-- Row 2 -->
+
+  <!-- Team Capability -->
+  <rect x="60" y="330" width="340" height="150" rx="6" fill="#121818" stroke="#1a2a2a" stroke-width="1"/>
+  <text x="230" y="358" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#2a5050" text-anchor="middle" letter-spacing="2">TEAM CAPABILITY</text>
+  <text x="230" y="385" font-family="monospace" font-size="9" fill="#2a5050" text-anchor="middle">Builder or manager CTO?</text>
+  <text x="230" y="403" font-family="monospace" font-size="9" fill="#1a3535" text-anchor="middle">In-house vs agency dependency?</text>
+  <text x="230" y="421" font-family="monospace" font-size="9" fill="#1a3535" text-anchor="middle">Tech as strategy or overhead?</text>
+  <text x="230" y="450" font-family="monospace" font-size="8" fill="#1a3535" text-anchor="middle">Roadmap: deliberate build vs buy?</text>
+
+  <!-- Scalability -->
+  <rect x="430" y="330" width="340" height="150" rx="6" fill="#0a1210" stroke="#1a2a20" stroke-width="1"/>
+  <text x="600" y="358" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#1a5030" text-anchor="middle" letter-spacing="2">OPERATIONAL LEVERAGE</text>
+  <text x="600" y="385" font-family="monospace" font-size="9" fill="#2a5030" text-anchor="middle">Easier or harder at 10x?</text>
+  <text x="600" y="403" font-family="monospace" font-size="9" fill="#1a3a20" text-anchor="middle">Linear vs sub-linear cost scaling</text>
+  <text x="600" y="421" font-family="monospace" font-size="9" fill="#1a3a20" text-anchor="middle">Infrastructure creating leverage?</text>
+  <text x="600" y="450" font-family="monospace" font-size="8" fill="#1a3a20" text-anchor="middle">Genuine digital advantage or good interface?</text>
+
+  <!-- AI Readiness -->
+  <rect x="800" y="330" width="340" height="150" rx="6" fill="#0a1520" stroke="#00D4FF" stroke-width="1" opacity="0.4"/>
+  <text x="970" y="358" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" text-anchor="middle" letter-spacing="2" opacity="0.7">AI READINESS</text>
+  <text x="970" y="385" font-family="monospace" font-size="9" fill="#2a7080" text-anchor="middle">Data clean enough for AI?</text>
+  <text x="970" y="403" font-family="monospace" font-size="9" fill="#1a5060" text-anchor="middle">Clear use cases at scale?</text>
+  <text x="970" y="421" font-family="monospace" font-size="9" fill="#1a5060" text-anchor="middle">Leadership understands AI?</text>
+  <text x="970" y="450" font-family="monospace" font-size="8" fill="#1a5060" text-anchor="middle">Now a distinct evaluation category</text>
+
+  <!-- Title -->
+  <text x="600" y="72" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#00D4FF" opacity="0.6" letter-spacing="4" text-anchor="middle">DIGITAL STRATEGY</text>
+  <text x="600" y="108" font-family="'Space Grotesk', sans-serif" font-size="27" font-weight="700" fill="#fff" opacity="0.9" text-anchor="middle">What Investors Look for in a Digital Business</text>
+
+  <!-- Bottom note -->
+  <text x="600" y="510" font-family="monospace" font-size="9" fill="#1a2a35" text-anchor="middle">Six dimensions of digital due diligence</text>
+
+  <ellipse cx="600" cy="340" rx="300" ry="180" fill="#00D4FF" opacity="0.01"/>
+</svg>
