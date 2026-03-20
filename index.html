@@ -633,7 +633,7 @@
       <span style="font-size:11px;font-weight:500;letter-spacing:3px;text-transform:uppercase;color:#00D4FF;display:block;margin-bottom:16px;">Newsletter</span>
       <h2 class="font-heading text-3xl md:text-4xl font-bold text-white mb-4">Practical thinking, twice a week</h2>
       <p style="color:#777;font-size:16px;line-height:1.7;max-width:480px;margin:0 auto 32px;">AI adoption, digital strategy, and what actually changes organisations. Written for founders, operators, and board directors.</p>
-      <form name="newsletter" method="POST" action="/thank-you" data-netlify="true" style="display:flex;gap:12px;max-width:460px;margin:0 auto;flex-wrap:wrap;justify-content:center;">
+      <form name="newsletter" method="POST" action="/thank-you" data-netlify="true" data-netlify-honeypot="bot-field" style="display:flex;gap:12px;max-width:460px;margin:0 auto;flex-wrap:wrap;justify-content:center;">
         <input type="hidden" name="form-name" value="newsletter">
         <p style="display:none;"><input name="bot-field"></p>
         <input type="email" name="email" placeholder="Your email address" required
