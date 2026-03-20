@@ -38,6 +38,8 @@
 
   <style>
     *, *::before, *::after { box-sizing: border-box; }
+    html, body { overflow-x: hidden; }
+    img { max-width: 100%; }
     html { scroll-behavior: smooth; }
     body {
       background-color: #0D0D0D;
@@ -147,6 +149,7 @@
       .featured-card { grid-template-columns: 1fr; }
       .featured-thumb { border-right: none; border-bottom: 1px solid #1e1e1e; min-height: 180px; }
     }
+    #mobile-menu { display: none; } #mobile-menu.open { display: flex; }
   </style>
 </head>
 
@@ -158,11 +161,22 @@
     <a href="../index.html" class="font-heading font-semibold text-white text-lg tracking-tight">Stewart Masters</a>
     <div class="hidden md:flex items-center gap-8">
       <a href="../index.html#about" class="nav-link">About</a>
-      <a href="../index.html#services" class="nav-link">Services</a>
+      <a href="../index.html#services" class="nav-link">Where I Help</a>
       <a href="index.html" class="nav-link" style="color: #fff;">Thinking</a>
-      <a href="../index.html#speaking" class="nav-link">Speaking</a>
+      <a href="../index.html#contact" class="nav-link">Contact</a>
     </div>
-    <a href="../index.html#contact" class="btn-primary">Work With Me</a>
+    <div class="flex items-center gap-3">
+      <a href="../index.html#contact" class="btn-primary hidden md:inline-block">Work With Me</a>
+      <button id="hamburger" class="md:hidden text-gray-400 p-2" onclick="document.getElementById('mobile-menu').classList.toggle('open')">
+        <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h16M3 12h16M3 18h16"/></svg>
+      </button>
+    </div>
+  </div>
+  <div id="mobile-menu" class="flex-col gap-1 pb-4 px-6 border-t" style="border-color:#1a1a1a;">
+    <a href="../index.html#about" class="nav-link py-3 block">About</a>
+    <a href="../index.html#services" class="nav-link py-3 block">Where I Help</a>
+    <a href="index.html" class="nav-link py-3 block" style="color:#fff;">Thinking</a>
+    <a href="../index.html#contact" class="nav-link py-3 block">Contact</a>
   </div>
 </nav>
 
