@@ -169,9 +169,11 @@
 
     .logo-grid { display: flex; align-items: center; justify-content: center; gap: 40px 56px; flex-wrap: wrap; max-width: 860px; margin: 0 auto; }
     .logo-item { display: flex; align-items: center; justify-content: center; }
-    .logo-item img { max-height: 38px; width: auto; max-width: 160px; object-fit: contain; filter: brightness(0) invert(1); opacity: 0.45; transition: opacity 0.3s; }
+    .logo-item img { max-height: 38px; width: auto; max-width: 160px; object-fit: contain; opacity: 0.55; transition: opacity 0.3s; }
     .logo-item img:hover { opacity: 0.9; }
-    .logo-fallback { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 15px; letter-spacing: 1.5px; color: #444; text-transform: uppercase; transition: color 0.25s; text-align: center; }
+    .logo-item img.logo-to-white { filter: brightness(0) invert(1); opacity: 0.45; }
+    .logo-item img.logo-invert { filter: invert(1) grayscale(1); opacity: 0.5; }
+    .logo-fallback { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 18px; letter-spacing: 1.5px; color: #888; text-transform: uppercase; transition: color 0.25s; text-align: center; }
     .logo-fallback:hover { color: #EAEAEA; }
     @media (max-width: 640px) { .logo-grid { gap: 28px 36px; } .logo-item img { max-height: 28px; max-width: 120px; } }
 
@@ -265,61 +267,61 @@
 <!-- TRUSTED BY -->
 <section class="py-16 px-6" style="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a;">
   <div class="max-container">
-    <p class="text-center mb-12" style="font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: #444;">Clients &amp; institutions</p>
+    <p class="text-center mb-12" style="font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: #EAEAEA;">Trusted by teams at</p>
     <div class="logo-grid">
 
-      <!-- Honest Greens -->
+      <!-- Honest Greens — opaque dark bg, naturally works -->
       <div class="logo-item">
         <img src="logo-honest-greens.png" alt="Honest Greens"
              onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
         <span class="logo-fallback" style="display:none;">Honest Greens</span>
       </div>
 
-      <!-- Resy -->
+      <!-- Resy — opaque coloured bg, naturally works -->
       <div class="logo-item">
         <img src="logo-resy.png" alt="Resy"
              onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
         <span class="logo-fallback" style="display:none;">Resy</span>
       </div>
 
-      <!-- ClassPass -->
+      <!-- ClassPass — SVG transparent bg, dark paths → invert to white -->
       <div class="logo-item">
-        <img src="logo-classpass.svg" alt="ClassPass"
+        <img src="logo-classpass.svg" alt="ClassPass" class="logo-to-white"
              onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
         <span class="logo-fallback" style="display:none;">ClassPass</span>
       </div>
 
-      <!-- Enzo Ventures -->
+      <!-- Enzo Ventures — opaque coloured bg, naturally works -->
       <div class="logo-item">
         <img src="logo-enzo-ventures.png" alt="Enzo Ventures"
              onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
         <span class="logo-fallback" style="display:none;">Enzo Ventures</span>
       </div>
 
-      <!-- Esade -->
+      <!-- Esade — transparent bg, dark text → invert to white -->
       <div class="logo-item">
-        <img src="logo-esade.png" alt="Esade"
+        <img src="logo-esade.png" alt="Esade" class="logo-to-white"
              onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
         <span class="logo-fallback" style="display:none;">Esade</span>
       </div>
 
-      <!-- IE Business School -->
+      <!-- IE Business School — transparent bg, dark content → invert to white -->
       <div class="logo-item">
-        <img src="logo-ie-business-school.png" alt="IE Business School"
+        <img src="logo-ie-business-school.png" alt="IE Business School" class="logo-to-white"
              onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
         <span class="logo-fallback" style="display:none;">IE Business School</span>
       </div>
 
-      <!-- Techstars -->
+      <!-- Techstars — white bg, dark text → invert+greyscale → white on near-black -->
       <div class="logo-item">
-        <img src="logo-techstars.png" alt="Techstars"
+        <img src="logo-techstars.png" alt="Techstars" class="logo-invert"
              onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
         <span class="logo-fallback" style="display:none;">Techstars</span>
       </div>
 
-      <!-- Startupbootcamp -->
+      <!-- Startupbootcamp — white bg, coloured text → invert+greyscale → white on near-black -->
       <div class="logo-item">
-        <img src="logo-startupbootcamp.png" alt="Startupbootcamp"
+        <img src="logo-startupbootcamp.png" alt="Startupbootcamp" class="logo-invert"
              onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
         <span class="logo-fallback" style="display:none;">Startupbootcamp</span>
       </div>
