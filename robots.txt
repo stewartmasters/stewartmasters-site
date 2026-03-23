@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /blog/drafts/
 
 Sitemap: https://stewartmasters.me/sitemap.xml

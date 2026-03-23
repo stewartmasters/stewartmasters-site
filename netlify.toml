@@ -1,0 +1,34 @@
+[build]
+  publish = "."
+
+# Block public access to draft posts
+[[redirects]]
+  from = "/blog/drafts/*"
+  to = "/404.html"
+  status = 404
+  force = true
+
+# Security headers for all pages
+[[headers]]
+  for = "/*"
+  [headers.values]
+    # Prevent clickjacking — site should never be embedded in an iframe
+    X-Frame-Options = "DENY"
+
+    # Prevent MIME-type sniffing
+    X-Content-Type-Options = "nosniff"
+
+    # Only send the origin (no path/query) as referrer to third parties
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+    # Enforce HTTPS for 2 years; eligible for preload list
+    Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+
+    # Disable browser APIs not used by this site
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()"
+
+    # Content Security Policy
+    # Note: unsafe-inline for scripts is required because Tailwind CDN, Google Analytics,
+    # and AOS all rely on inline <script> blocks. This limits XSS protection to blocking
+    # scripts from unexpected origins rather than blocking all inline execution.
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com https://unpkg.com https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://unpkg.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'"
