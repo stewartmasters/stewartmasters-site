@@ -5,20 +5,25 @@ Runs via GitHub Actions at 08:00 UTC (09:00 CET / 10:00 CEST)
 
 Logic per run:
   1. Find today's scheduled post in schedule.json
-  2. Verify the post HTML file exists in blog/
+  2. Move the post HTML from blog/drafts/ to blog/ (if not already there)
   3. Replace the featured section in blog/index.html with today's post
   4. Insert the previous featured post as a grid card at the top of the grid
+
+Future posts are stored in blog/drafts/ so they are not publicly accessible
+until their scheduled publish date.
 """
 
 import json
 import os
 import re
+import shutil
 import sys
 import datetime
 
 SCHEDULE_FILE = "blog/schedule.json"
 BLOG_INDEX = "blog/index.html"
 BLOG_DIR = "blog"
+DRAFTS_DIR = "blog/drafts"
 
 
 def load_schedule():
@@ -104,11 +109,17 @@ def main():
 
     slug = today_entry["slug"]
     post_path = os.path.join(BLOG_DIR, f"{slug}.html")
+    draft_path = os.path.join(DRAFTS_DIR, f"{slug}.html")
 
+    # Move from drafts/ to blog/ if needed
     if not os.path.exists(post_path):
-        print(f"ERROR: Post file not found: {post_path}")
-        print("Commit the post HTML before scheduling the publish.")
-        sys.exit(1)
+        if os.path.exists(draft_path):
+            shutil.move(draft_path, post_path)
+            print(f"Moved {slug}.html from drafts/ to blog/")
+        else:
+            print(f"ERROR: Post file not found in blog/ or blog/drafts/: {slug}.html")
+            print("Add the post HTML to blog/drafts/ before its scheduled date.")
+            sys.exit(1)
 
     print(f"Publishing: {today_entry['title']}")
 
