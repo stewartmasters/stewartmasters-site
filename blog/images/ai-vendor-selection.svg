@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="bg-avs" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#0e0e18"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </radialGradient>
+    <radialGradient id="glow-avs" cx="40%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00D4FF" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg-avs)"/>
+  <ellipse cx="580" cy="315" rx="360" ry="240" fill="url(#glow-avs)"/>
+
+  <!-- Comparison grid — 3 vendor columns -->
+  <!-- Column headers -->
+  <rect x="390" y="180" width="120" height="36" rx="4" fill="#00D4FF" fill-opacity="0.06" stroke="#00D4FF" stroke-opacity="0.2" stroke-width="1"/>
+  <rect x="530" y="180" width="120" height="36" rx="4" fill="#00D4FF" fill-opacity="0.06" stroke="#00D4FF" stroke-opacity="0.2" stroke-width="1"/>
+  <rect x="670" y="180" width="120" height="36" rx="4" fill="#00D4FF" fill-opacity="0.06" stroke="#00D4FF" stroke-opacity="0.2" stroke-width="1"/>
+  <text x="450" y="203" text-anchor="middle" font-family="monospace" font-size="10" fill="#00D4FF" fill-opacity="0.5">VENDOR A</text>
+  <text x="590" y="203" text-anchor="middle" font-family="monospace" font-size="10" fill="#00D4FF" fill-opacity="0.5">VENDOR B</text>
+  <text x="730" y="203" text-anchor="middle" font-family="monospace" font-size="10" fill="#00D4FF" fill-opacity="0.5">VENDOR C</text>
+
+  <!-- Row labels -->
+  <text x="370" y="242" text-anchor="end" font-family="monospace" font-size="9" fill="#00D4FF" fill-opacity="0.3">TECH</text>
+  <text x="370" y="282" text-anchor="end" font-family="monospace" font-size="9" fill="#00D4FF" fill-opacity="0.3">DATA</text>
+  <text x="370" y="322" text-anchor="end" font-family="monospace" font-size="9" fill="#00D4FF" fill-opacity="0.3">PRICE</text>
+  <text x="370" y="362" text-anchor="end" font-family="monospace" font-size="9" fill="#00D4FF" fill-opacity="0.3">SUPPORT</text>
+  <text x="370" y="402" text-anchor="end" font-family="monospace" font-size="9" fill="#00D4FF" fill-opacity="0.3">SECURITY</text>
+
+  <!-- Grid cells -->
+  <rect x="390" y="222" width="120" height="30" rx="2" fill="#00D4FF" fill-opacity="0.04" stroke="#00D4FF" stroke-opacity="0.08" stroke-width="0.5"/>
+  <rect x="530" y="222" width="120" height="30" rx="2" fill="#00D4FF" fill-opacity="0.08" stroke="#00D4FF" stroke-opacity="0.15" stroke-width="0.5"/>
+  <rect x="670" y="222" width="120" height="30" rx="2" fill="#00D4FF" fill-opacity="0.04" stroke="#00D4FF" stroke-opacity="0.08" stroke-width="0.5"/>
+
+  <rect x="390" y="262" width="120" height="30" rx="2" fill="#00D4FF" fill-opacity="0.04" stroke="#00D4FF" stroke-opacity="0.08" stroke-width="0.5"/>
+  <rect x="530" y="262" width="120" height="30" rx="2" fill="#00D4FF" fill-opacity="0.04" stroke="#00D4FF" stroke-opacity="0.08" stroke-width="0.5"/>
+  <rect x="670" y="262" width="120" height="30" rx="2" fill="#00D4FF" fill-opacity="0.08" stroke="#00D4FF" stroke-opacity="0.15" stroke-width="0.5"/>
+
+  <rect x="390" y="302" width="120" height="30" rx="2" fill="#00D4FF" fill-opacity="0.08" stroke="#00D4FF" stroke-opacity="0.15" stroke-width="0.5"/>
+  <rect x="530" y="302" width="120" height="30" rx="2" fill="#00D4FF" fill-opacity="0.04" stroke="#00D4FF" stroke-opacity="0.08" stroke-width="0.5"/>
+  <rect x="670" y="302" width="120" height="30" rx="2" fill="#00D4FF" fill-opacity="0.04" stroke="#00D4FF" stroke-opacity="0.08" stroke-width="0.5"/>
+
+  <rect x="390" y="342" width="120" height="30" rx="2" fill="#00D4FF" fill-opacity="0.04" stroke="#00D4FF" stroke-opacity="0.08" stroke-width="0.5"/>
+  <rect x="530" y="342" width="120" height="30" rx="2" fill="#00D4FF" fill-opacity="0.08" stroke="#00D4FF" stroke-opacity="0.15" stroke-width="0.5"/>
+  <rect x="670" y="342" width="120" height="30" rx="2" fill="#00D4FF" fill-opacity="0.04" stroke="#00D4FF" stroke-opacity="0.08" stroke-width="0.5"/>
+
+  <rect x="390" y="382" width="120" height="30" rx="2" fill="#00D4FF" fill-opacity="0.04" stroke="#00D4FF" stroke-opacity="0.08" stroke-width="0.5"/>
+  <rect x="530" y="382" width="120" height="30" rx="2" fill="#00D4FF" fill-opacity="0.04" stroke="#00D4FF" stroke-opacity="0.08" stroke-width="0.5"/>
+  <rect x="670" y="382" width="120" height="30" rx="2" fill="#00D4FF" fill-opacity="0.08" stroke="#00D4FF" stroke-opacity="0.15" stroke-width="0.5"/>
+
+  <!-- Score dots -->
+  <g fill="#00D4FF">
+    <circle cx="450" cy="237" r="3" fill-opacity="0.3"/>
+    <circle cx="590" cy="237" r="5" fill-opacity="0.6"/>
+    <circle cx="730" cy="237" r="3" fill-opacity="0.3"/>
+    <circle cx="450" cy="277" r="3" fill-opacity="0.3"/>
+    <circle cx="590" cy="277" r="3" fill-opacity="0.3"/>
+    <circle cx="730" cy="277" r="5" fill-opacity="0.6"/>
+    <circle cx="450" cy="317" r="5" fill-opacity="0.6"/>
+    <circle cx="590" cy="317" r="3" fill-opacity="0.3"/>
+    <circle cx="730" cy="317" r="3" fill-opacity="0.3"/>
+  </g>
+
+  <!-- Outer label -->
+  <text x="600" y="570" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="12" fill="#00D4FF" fill-opacity="0.25" letter-spacing="5">AI VENDOR EVALUATION</text>
+</svg>

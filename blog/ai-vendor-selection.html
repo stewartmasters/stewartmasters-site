@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How to Evaluate and Select an AI Vendor — Stewart Masters</title>
+  <meta name="description" content="Choosing the wrong AI vendor is expensive and hard to reverse. A structured approach to evaluating AI tools and vendors — before you sign the contract.">
+  <link rel="canonical" href="https://stewartmasters.me/blog/ai-vendor-selection.html">
+  <meta property="og:title" content="How to Evaluate and Select an AI Vendor">
+  <meta property="og:description" content="Choosing the wrong AI vendor is expensive and hard to reverse. A structured approach to evaluating AI tools and vendors — before you sign the contract.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://stewartmasters.me/blog/ai-vendor-selection.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="How to Evaluate and Select an AI Vendor">
+  <meta name="twitter:description" content="Choosing the wrong AI vendor is expensive and hard to reverse. A structured approach to evaluating AI tools and vendors — before you sign the contract.">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "How to Evaluate and Select an AI Vendor",
+    "description": "Choosing the wrong AI vendor is expensive and hard to reverse. A structured approach to evaluating AI tools and vendors — before you sign the contract.",
+    "author": {
+      "@type": "Person",
+      "name": "Stewart Masters",
+      "url": "https://stewartmasters.me"
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Stewart Masters",
+      "url": "https://stewartmasters.me"
+    },
+    "datePublished": "2026-05-07",
+    "dateModified": "2026-05-07",
+    "url": "https://stewartmasters.me/blog/ai-vendor-selection.html",
+    "keywords": "AI vendor selection, evaluating AI tools, AI procurement, AI software selection"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://stewartmasters.me"},
+      {"@type": "ListItem", "position": 2, "name": "Thinking", "item": "https://stewartmasters.me/blog/"},
+      {"@type": "ListItem", "position": 3, "name": "How to Evaluate and Select an AI Vendor", "item": "https://stewartmasters.me/blog/ai-vendor-selection.html"}
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html, body { overflow-x: hidden; }
+    img { max-width: 100%; }
+    html { scroll-behavior: smooth; }
+    body { background-color: #0D0D0D; color: #ffffff; font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
+    ::-webkit-scrollbar { width: 5px; }
+    ::-webkit-scrollbar-track { background: #0D0D0D; }
+    ::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: #00D4FF; }
+    .font-heading { font-family: 'Space Grotesk', sans-serif; }
+    .max-container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; backdrop-filter: blur(24px); background: rgba(13, 13, 13, 0.85); border-bottom: 1px solid #1c1c1c; }
+    .nav-link { font-size: 14px; color: #aaa; text-decoration: none; transition: color 0.2s; }
+    .nav-link:hover { color: #ffffff; }
+    .btn-primary { display: inline-block; background: #00D4FF; color: #0D0D0D; font-family: 'Space Grotesk', sans-serif; font-weight: 600; padding: 10px 22px; border-radius: 4px; text-decoration: none; font-size: 14px; }
+    .btn-primary:hover { background: #ffffff; }
+    .prose { max-width: 720px; margin: 0 auto; }
+    .prose h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.75rem; font-weight: 700; color: #ffffff; margin-top: 3rem; margin-bottom: 1rem; line-height: 1.25; }
+    .prose h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.25rem; font-weight: 600; color: #e0e0e0; margin-top: 2rem; margin-bottom: 0.75rem; }
+    .prose p { color: #aaa; font-size: 17px; line-height: 1.85; margin-bottom: 1.5rem; }
+    .prose a { color: #00D4FF; text-decoration: underline; text-decoration-color: #00D4FF44; }
+    .prose a:hover { text-decoration-color: #00D4FF; }
+    .prose blockquote { border-left: 3px solid #00D4FF; margin: 2rem 0; padding: 1.25rem 1.5rem; background: #121212; border-radius: 0 6px 6px 0; }
+    .prose blockquote p { color: #ccc; font-style: italic; margin: 0; font-size: 18px; }
+    .prose ul, .prose ol { color: #aaa; font-size: 17px; line-height: 1.85; padding-left: 1.5rem; margin-bottom: 1.5rem; }
+    .prose li { margin-bottom: 0.5rem; }
+    .prose strong { color: #ddd; font-weight: 600; }
+    .prose hr { border: none; border-top: 1px solid #1e1e1e; margin: 3rem 0; }
+    .post-tag { display: inline-block; font-size: 10px; font-weight: 500; letter-spacing: 2px; text-transform: uppercase; color: #00D4FF; border: 1px solid #00D4FF33; padding: 5px 12px; border-radius: 20px; }
+    .author-box { background: #121212; border: 1px solid #1e1e1e; border-radius: 10px; padding: 28px; display: flex; gap: 20px; align-items: flex-start; }
+    .author-avatar { width: 56px; height: 56px; border-radius: 50%; flex-shrink: 0; overflow: hidden; }
+    .author-avatar img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+    .related-card { background: #121212; border: 1px solid #1e1e1e; border-radius: 8px; padding: 24px; text-decoration: none; display: block; transition: border-color 0.3s; }
+    .related-card:hover { border-color: #2a2a2a; }
+  </style>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+</head>
+
+<body>
+
+<nav>
+  <div class="max-container py-4 flex items-center justify-between">
+    <a href="../index.html" class="font-heading font-semibold text-white text-lg tracking-tight">Stewart Masters</a>
+    <div class="hidden md:flex items-center gap-8">
+      <a href="../index.html#about" class="nav-link">About</a>
+      <a href="../index.html#services" class="nav-link">Services</a>
+      <a href="index.html" class="nav-link" style="color: #fff;">Thinking</a>
+      <a href="../index.html#speaking" class="nav-link">Speaking</a>
+    </div>
+    <a href="../index.html#contact" class="btn-primary">Work With Me</a>
+  </div>
+</nav>
+
+<header class="pt-40 pb-12 px-6">
+  <div class="prose">
+    <nav style="font-size: 12px; color: #333; margin-bottom: 24px;">
+      <a href="../index.html" style="color: #444; text-decoration: none;">Home</a>
+      <span style="margin: 0 8px;">·</span>
+      <a href="index.html" style="color: #444; text-decoration: none;">Thinking</a>
+      <span style="margin: 0 8px;">·</span>
+      <span style="color: #555;">How to evaluate an AI vendor</span>
+    </nav>
+
+    <span class="post-tag">AI &amp; Technology</span>
+
+    <h1 class="font-heading text-4xl md:text-5xl font-bold leading-tight mt-5 mb-6">
+      How to evaluate and select an AI vendor
+    </h1>
+
+    <p class="text-gray-400 text-xl leading-relaxed mb-8">
+      AI vendor decisions are some of the stickiest technology commitments you'll make. The wrong choice is expensive, disruptive to reverse, and often invisible until it's too late. Here's a structured approach to getting it right before you sign.
+    </p>
+
+    <div style="display: flex; align-items: center; gap: 16px; font-size: 13px; color: #444; padding-bottom: 24px; border-bottom: 1px solid #1e1e1e;">
+      <span>Stewart Masters</span>
+      <span>·</span>
+      <span>7 May 2026</span>
+      <span>·</span>
+      <span>8 min read</span>
+    </div>
+  </div>
+</header>
+
+<div class="px-6 mb-12">
+  <div class="prose">
+    <img src="images/ai-vendor-selection.svg" alt="AI vendor evaluation comparison framework" style="width:100%;height:360px;object-fit:cover;border-radius:10px;display:block;border:1px solid #1e1e1e;">
+  </div>
+</div>
+
+<article class="px-6 pb-20">
+  <div class="prose">
+
+    <p>
+      Buying AI software is harder than buying conventional software, and most procurement processes aren't built for it. The evaluation criteria that work for an ERP or a CRM don't fully translate. Models change, performance degrades in ways that aren't obvious in demos, pricing structures are unfamiliar, and lock-in risks are real but often underestimated. This guide walks through a rigorous vendor evaluation process that accounts for the specific characteristics of AI products.
+    </p>
+
+    <h2>Before you look at vendors: define the problem</h2>
+    <p>
+      The most common mistake in AI procurement is starting with the solution and working backwards to a problem. "We need an AI tool" is not a procurement brief. "We want to reduce the time our support team spends on first-contact resolution by 40%, using AI to handle common query types automatically" is a procurement brief.
+    </p>
+    <p>
+      Before approaching any vendor, be specific about: the problem you're trying to solve, the workflow you're trying to change, the metrics you'll use to evaluate success, the data you have available to power the solution, and the constraints you're operating under (budget, timeline, integration requirements, regulatory environment).
+    </p>
+    <p>
+      This specificity does two important things. First, it lets you evaluate vendors against your actual use case rather than their best demo. Second, it protects you from vendors who are skilled at expanding the problem to fit their solution — a common pattern in enterprise AI sales.
+    </p>
+
+    <h2>The four evaluation dimensions</h2>
+
+    <h3>1. Technology</h3>
+    <p>
+      The technical evaluation of an AI product should cover more than feature completeness. Key questions:
+    </p>
+    <ul>
+      <li><strong>What is the underlying model?</strong> Is it a proprietary model, a fine-tuned foundation model, or a thin wrapper around a commodity API? The answer matters for both performance and dependency risk.</li>
+      <li><strong>How does performance degrade on edge cases?</strong> Most AI tools look good in demos constructed to show them favourably. Ask to test on your actual data and your actual edge cases. Measure hallucination rates, error rates, and confidence calibration specifically for your use case.</li>
+      <li><strong>What is the model update cadence?</strong> When the vendor updates the underlying model, does performance on your use case change? How are you notified? Can you pin to a specific version?</li>
+      <li><strong>What are the latency characteristics?</strong> For any real-time or customer-facing application, latency matters. Test this under realistic load conditions, not ideal laboratory conditions.</li>
+    </ul>
+
+    <h3>2. Data handling</h3>
+    <p>
+      This is often where deals should be blocked but aren't, because organisations don't ask the right questions early enough. Essential data questions:
+    </p>
+    <ul>
+      <li><strong>Does the vendor use your data to train or improve their models?</strong> Many consumer-tier AI tools do this by default. Enterprise agreements typically allow you to opt out, but you need to ask explicitly and get the answer in writing.</li>
+      <li><strong>Where is your data processed and stored?</strong> Data residency matters for GDPR compliance, for regulated industries, and for organisations with customers in jurisdictions with data sovereignty requirements.</li>
+      <li><strong>What happens to your data if you terminate the contract?</strong> How is it deleted? Within what timeframe? What audit trail is provided?</li>
+      <li><strong>Who at the vendor has access to your data?</strong> Under what circumstances? For what purposes?</li>
+    </ul>
+    <p>
+      If a vendor is unwilling or unable to answer these questions clearly in writing, that tells you something important. A reputable enterprise AI vendor should have comprehensive, accessible documentation on their data practices.
+    </p>
+
+    <h3>3. Commercial structure</h3>
+    <p>
+      AI pricing models are less standardised than traditional software, and the differences matter enormously for total cost of ownership:
+    </p>
+    <ul>
+      <li><strong>Per-seat vs consumption-based pricing.</strong> Per-seat pricing is predictable but may be wasteful if usage varies widely across users. Consumption-based pricing can scale efficiently but creates cost uncertainty — a surprisingly successful deployment can generate a surprisingly large invoice.</li>
+      <li><strong>What counts as a "unit" of consumption?</strong> Token-based pricing, query-based pricing, and document-based pricing all have different implications for your expected cost at different usage levels. Model this carefully against your actual anticipated usage.</li>
+      <li><strong>Contract flexibility.</strong> What happens if you want to scale up significantly? Scale down? Exit entirely? Are there minimum commitments? What are the notice periods?</li>
+      <li><strong>Audit rights.</strong> For any significant AI deployment, you should have the right to audit usage, costs, and compliance. Make sure this is in the contract.</li>
+    </ul>
+
+    <h3>4. Company stability</h3>
+    <p>
+      The AI vendor landscape in 2026 contains a significant number of companies that will not exist in their current form in 2028. Before making a significant commitment:
+    </p>
+    <ul>
+      <li><strong>Funding runway.</strong> For startups, understand their funding situation. A vendor burning cash rapidly with uncertain prospects for the next funding round is a dependency risk.</li>
+      <li><strong>Reference customers.</strong> Ask for references from customers in your sector, at your scale, with similar use cases. Then actually call them. Ask specifically about what went wrong, not just what went right.</li>
+      <li><strong>Support quality.</strong> Test the support process during evaluation. How quickly do they respond? How competent are the responses? What does the escalation path look like?</li>
+      <li><strong>Acquisition risk.</strong> If the vendor is acquired, what happens to your contract, your data, and your pricing? This should be addressed in the contract.</li>
+    </ul>
+
+    <blockquote>
+      <p>"The best AI vendor evaluation question is: 'Tell me about a customer deployment that didn't go to plan and what you learned from it.' The answer reveals more than any polished demo."</p>
+    </blockquote>
+
+    <h2>Structuring the proof of concept</h2>
+    <p>
+      Never skip the PoC. AI products that look compelling in demos regularly underperform against real-world data and real-world workflows. A well-structured PoC typically runs four to six weeks and covers:
+    </p>
+    <ul>
+      <li><strong>Scope:</strong> Define a specific, bounded use case that's representative of your broader use case but small enough to evaluate thoroughly in the timeframe.</li>
+      <li><strong>Success metrics:</strong> Agree these with the vendor before you start. Don't let them be redefined mid-PoC.</li>
+      <li><strong>Data:</strong> Use real data if possible, or data that closely mirrors the characteristics of your real data. Synthetic or sanitised data can mask problems that will surface in production.</li>
+      <li><strong>End users:</strong> Include real end users in the PoC — the people who will actually use the system day-to-day. Their feedback on usability and workflow fit is as important as the technical metrics.</li>
+      <li><strong>Failure modes:</strong> Deliberately test edge cases and failure modes. What happens when the AI encounters input it hasn't seen before? When it's wrong, how does it fail — gracefully or catastrophically?</li>
+    </ul>
+
+    <h2>The <a href="/blog/build-vs-buy.html">build vs buy</a> question</h2>
+    <p>
+      Before committing to a vendor, genuinely interrogate whether a buy decision is the right one. The build option has become materially more accessible with the maturity of foundation model APIs — you can build surprisingly capable AI applications using off-the-shelf models without training anything from scratch.
+    </p>
+    <p>
+      Buy is generally right when: the problem is common enough that specialist vendors have deep expertise, the compliance and security work is already done, and your competitive differentiation doesn't depend on the AI capability itself. Build is generally right when: the use case is highly specific to your business, your competitive advantage depends on proprietary data and approaches, or vendor lock-in risk outweighs the development cost.
+    </p>
+
+    <h2>Red flags in AI vendor evaluation</h2>
+    <p>
+      Experience working on AI vendor selections surfaces consistent patterns that should prompt caution:
+    </p>
+    <ul>
+      <li><strong>Unwillingness to provide a Data Processing Agreement (DPA)</strong> before contract signature. Any legitimate enterprise AI vendor should provide this as a matter of course.</li>
+      <li><strong>Lock-in clauses buried in Terms and Conditions</strong> — particularly around data portability, integration limitations, and termination provisions. Get legal review of any agreement before signing.</li>
+      <li><strong>Demo environments that don't reflect production performance.</strong> Ask to see performance data from production deployments at comparable customers, not just curated demo scenarios.</li>
+      <li><strong>Pricing structures with no ceiling.</strong> Consumption-based pricing without caps or alerts can result in significant unexpected costs. Ensure you have budget controls and notifications in place.</li>
+      <li><strong>Resistance to technical due diligence.</strong> A vendor who won't let your technical team ask detailed questions is a vendor with something to hide.</li>
+    </ul>
+
+    <h2>Negotiating the contract</h2>
+    <p>
+      Once you've selected a preferred vendor, negotiate on terms that protect your long-term position — not just the initial price. Key negotiating points:
+    </p>
+    <ul>
+      <li><strong>SLAs with teeth:</strong> Define uptime, latency, and accuracy SLAs. Ensure there are meaningful remedies (service credits, termination rights) if they're breached.</li>
+      <li><strong>Data deletion:</strong> Specify timeframes and methods for data deletion on contract termination, and require a written confirmation that deletion has occurred.</li>
+      <li><strong>Exit provisions:</strong> What does an orderly exit look like? What data export format is provided? What transition support is available? How much notice is required?</li>
+      <li><strong>Price protection:</strong> If you're committing to a multi-year contract, negotiate protection against significant price increases. Consumption-based contracts should have a rate guarantee for the contract period.</li>
+      <li><strong>Model change notifications:</strong> If the vendor updates the underlying model in ways that could affect your use case, what notification are you entitled to, and what rights do you have if performance changes materially?</li>
+    </ul>
+
+    <hr>
+
+    <p style="color: #777; font-size: 15px;">
+      <strong style="color: #888;">Need an independent view on an AI vendor selection?</strong><br>
+      I help organisations evaluate and select technology without vendor bias. <a href="../index.html#contact">let's talk →</a>
+    </p>
+
+  </div>
+</article>
+
+<section class="px-6 pb-20">
+  <div class="prose">
+    <div class="author-box">
+      <div class="author-avatar">
+        <img src="../stewart-masters.png" alt="Stewart Masters">
+      </div>
+      <div>
+        <div class="font-heading font-semibold mb-1">Stewart Masters</div>
+        <p style="color: #555; font-size: 14px; line-height: 1.6; margin: 0;">
+          Strategic advisor to founders and operators. 20+ years building and advising businesses across Europe and the Middle East. Based in Barcelona. Guest lecturer at IE Business School and ESADE.
+          <a href="https://www.linkedin.com/in/stewartmasters/" style="color: #00D4FF; text-decoration: none;">Connect on LinkedIn →</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="px-6 pb-24" style="border-top: 1px solid #1a1a1a; padding-top: 48px;">
+  <div class="prose">
+    <h2 class="font-heading text-2xl font-bold mb-6" style="margin-top: 0;">More to read</h2>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+      <a href="build-vs-buy.html" class="related-card">
+        <span style="font-size: 10px; color: #00D4FF; letter-spacing: 2px; text-transform: uppercase; display: block; margin-bottom: 8px;">Digital Strategy</span>
+        <span class="font-heading font-semibold text-white" style="font-size: 15px; line-height: 1.4; display: block;">Build vs buy: how to make the right call for your business</span>
+      </a>
+      <a href="ai-business-case.html" class="related-card">
+        <span style="font-size: 10px; color: #00D4FF; letter-spacing: 2px; text-transform: uppercase; display: block; margin-bottom: 8px;">AI &amp; Technology</span>
+        <span class="font-heading font-semibold text-white" style="font-size: 15px; line-height: 1.4; display: block;">Building the business case for AI</span>
+      </a>
+    </div>
+    <div style="text-align: center; margin-top: 24px;">
+      <a href="index.html" style="color: #444; font-size: 14px; text-decoration: none;">← All posts</a>
+    </div>
+  </div>
+</section>
+
+<!-- Newsletter -->
+<section class="py-16 px-6" style="border-top: 1px solid #1a1a1a;">
+  <div class="max-container" style="max-width:680px;">
+    <div style="background:#121212;border:1px solid #1e1e1e;border-radius:10px;padding:40px;text-align:center;">
+      <span style="font-size:11px;font-weight:500;letter-spacing:3px;text-transform:uppercase;color:#00D4FF;display:block;margin-bottom:16px;">Newsletter</span>
+      <h2 class="font-heading text-2xl font-bold text-white mb-3">Practical thinking, twice a week</h2>
+      <p style="color:#777;font-size:15px;line-height:1.7;max-width:420px;margin:0 auto 28px;">AI adoption, digital strategy, and what actually changes organisations. No fluff.</p>
+      <form name="newsletter" method="POST" action="/thank-you" data-netlify="true" data-netlify-honeypot="bot-field" style="display:flex;gap:12px;max-width:420px;margin:0 auto;flex-wrap:wrap;justify-content:center;">
+        <input type="hidden" name="form-name" value="newsletter">
+        <p style="display:none;"><input name="bot-field"></p>
+        <input type="email" name="email" placeholder="Your email address" required
+          style="flex:1;min-width:200px;background:#1a1a1a;border:1px solid #2a2a2a;border-radius:4px;padding:11px 16px;color:#fff;font-size:14px;font-family:'Inter',sans-serif;outline:none;">
+        <button type="submit"
+          style="background:#00D4FF;color:#0D0D0D;font-family:'Space Grotesk',sans-serif;font-weight:600;padding:11px 24px;border-radius:4px;border:none;cursor:pointer;font-size:14px;white-space:nowrap;">
+          Subscribe →
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+<footer class="py-10 px-6" style="border-top: 1px solid #141414;">
+  <div class="max-container flex flex-col md:flex-row items-center justify-between gap-4">
+    <span class="font-heading font-semibold" style="color: #555;">Stewart Masters</span>
+    <div class="flex gap-6" style="font-size: 13px;">
+      <a href="../index.html#about" class="nav-link">About</a>
+      <a href="../index.html#services" class="nav-link">Services</a>
+      <a href="index.html" class="nav-link">Thinking</a>
+      <a href="../index.html#contact" class="nav-link">Contact</a>
+    </div>
+    <a href="https://www.linkedin.com/in/stewartmasters/" target="_blank" rel="noopener" class="nav-link" style="font-size: 13px;">LinkedIn →</a>
+  </div>
+  <div class="max-container mt-6 text-center" style="font-size: 11px; color: #2a2a2a; letter-spacing: 2px;">BARCELONA · LONDON · MADRID</div>
+</footer>
+
+</body>
+</html>

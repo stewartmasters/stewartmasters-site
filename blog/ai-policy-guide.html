@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How to Write an AI Policy for Your Organisation — Stewart Masters</title>
+  <meta name="description" content="A practical guide to writing an AI policy that employees will actually use. Covers what to include, what to avoid, and how to keep it current as AI tools evolve.">
+  <link rel="canonical" href="https://stewartmasters.me/blog/ai-policy-guide.html">
+  <meta property="og:title" content="How to Write an AI Policy for Your Organisation">
+  <meta property="og:description" content="A practical guide to writing an AI policy that employees will actually use. Covers what to include, what to avoid, and how to keep it current as AI tools evolve.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://stewartmasters.me/blog/ai-policy-guide.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="How to Write an AI Policy for Your Organisation">
+  <meta name="twitter:description" content="A practical guide to writing an AI policy that employees will actually use. Covers what to include, what to avoid, and how to keep it current as AI tools evolve.">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "How to Write an AI Policy for Your Organisation",
+    "description": "A practical guide to writing an AI policy that employees will actually use. Covers what to include, what to avoid, and how to keep it current as AI tools evolve.",
+    "author": {
+      "@type": "Person",
+      "name": "Stewart Masters",
+      "url": "https://stewartmasters.me"
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Stewart Masters",
+      "url": "https://stewartmasters.me"
+    },
+    "datePublished": "2026-05-04",
+    "dateModified": "2026-05-04",
+    "url": "https://stewartmasters.me/blog/ai-policy-guide.html",
+    "keywords": "AI policy, AI policy template, AI acceptable use policy, AI governance policy"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://stewartmasters.me"},
+      {"@type": "ListItem", "position": 2, "name": "Thinking", "item": "https://stewartmasters.me/blog/"},
+      {"@type": "ListItem", "position": 3, "name": "How to Write an AI Policy for Your Organisation", "item": "https://stewartmasters.me/blog/ai-policy-guide.html"}
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html, body { overflow-x: hidden; }
+    img { max-width: 100%; }
+    html { scroll-behavior: smooth; }
+    body { background-color: #0D0D0D; color: #ffffff; font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
+    ::-webkit-scrollbar { width: 5px; }
+    ::-webkit-scrollbar-track { background: #0D0D0D; }
+    ::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: #00D4FF; }
+    .font-heading { font-family: 'Space Grotesk', sans-serif; }
+    .max-container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; backdrop-filter: blur(24px); background: rgba(13, 13, 13, 0.85); border-bottom: 1px solid #1c1c1c; }
+    .nav-link { font-size: 14px; color: #aaa; text-decoration: none; transition: color 0.2s; }
+    .nav-link:hover { color: #ffffff; }
+    .btn-primary { display: inline-block; background: #00D4FF; color: #0D0D0D; font-family: 'Space Grotesk', sans-serif; font-weight: 600; padding: 10px 22px; border-radius: 4px; text-decoration: none; font-size: 14px; }
+    .btn-primary:hover { background: #ffffff; }
+    .prose { max-width: 720px; margin: 0 auto; }
+    .prose h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.75rem; font-weight: 700; color: #ffffff; margin-top: 3rem; margin-bottom: 1rem; line-height: 1.25; }
+    .prose h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.25rem; font-weight: 600; color: #e0e0e0; margin-top: 2rem; margin-bottom: 0.75rem; }
+    .prose p { color: #aaa; font-size: 17px; line-height: 1.85; margin-bottom: 1.5rem; }
+    .prose a { color: #00D4FF; text-decoration: underline; text-decoration-color: #00D4FF44; }
+    .prose a:hover { text-decoration-color: #00D4FF; }
+    .prose blockquote { border-left: 3px solid #00D4FF; margin: 2rem 0; padding: 1.25rem 1.5rem; background: #121212; border-radius: 0 6px 6px 0; }
+    .prose blockquote p { color: #ccc; font-style: italic; margin: 0; font-size: 18px; }
+    .prose ul, .prose ol { color: #aaa; font-size: 17px; line-height: 1.85; padding-left: 1.5rem; margin-bottom: 1.5rem; }
+    .prose li { margin-bottom: 0.5rem; }
+    .prose strong { color: #ddd; font-weight: 600; }
+    .prose hr { border: none; border-top: 1px solid #1e1e1e; margin: 3rem 0; }
+    .post-tag { display: inline-block; font-size: 10px; font-weight: 500; letter-spacing: 2px; text-transform: uppercase; color: #00D4FF; border: 1px solid #00D4FF33; padding: 5px 12px; border-radius: 20px; }
+    .author-box { background: #121212; border: 1px solid #1e1e1e; border-radius: 10px; padding: 28px; display: flex; gap: 20px; align-items: flex-start; }
+    .author-avatar { width: 56px; height: 56px; border-radius: 50%; flex-shrink: 0; overflow: hidden; }
+    .author-avatar img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+    .related-card { background: #121212; border: 1px solid #1e1e1e; border-radius: 8px; padding: 24px; text-decoration: none; display: block; transition: border-color 0.3s; }
+    .related-card:hover { border-color: #2a2a2a; }
+  </style>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+</head>
+
+<body>
+
+<nav>
+  <div class="max-container py-4 flex items-center justify-between">
+    <a href="../index.html" class="font-heading font-semibold text-white text-lg tracking-tight">Stewart Masters</a>
+    <div class="hidden md:flex items-center gap-8">
+      <a href="../index.html#about" class="nav-link">About</a>
+      <a href="../index.html#services" class="nav-link">Services</a>
+      <a href="index.html" class="nav-link" style="color: #fff;">Thinking</a>
+      <a href="../index.html#speaking" class="nav-link">Speaking</a>
+    </div>
+    <a href="../index.html#contact" class="btn-primary">Work With Me</a>
+  </div>
+</nav>
+
+<header class="pt-40 pb-12 px-6">
+  <div class="prose">
+    <nav style="font-size: 12px; color: #333; margin-bottom: 24px;">
+      <a href="../index.html" style="color: #444; text-decoration: none;">Home</a>
+      <span style="margin: 0 8px;">·</span>
+      <a href="index.html" style="color: #444; text-decoration: none;">Thinking</a>
+      <span style="margin: 0 8px;">·</span>
+      <span style="color: #555;">How to write an AI policy</span>
+    </nav>
+
+    <span class="post-tag">AI &amp; Technology</span>
+
+    <h1 class="font-heading text-4xl md:text-5xl font-bold leading-tight mt-5 mb-6">
+      How to write an AI policy for your organisation
+    </h1>
+
+    <p class="text-gray-400 text-xl leading-relaxed mb-8">
+      Most organisations either have no AI policy at all, or one written by legal that nobody reads. Neither is good enough. Here's how to write a policy that employees will actually use — and that actually reduces the risks you care about.
+    </p>
+
+    <div style="display: flex; align-items: center; gap: 16px; font-size: 13px; color: #444; padding-bottom: 24px; border-bottom: 1px solid #1e1e1e;">
+      <span>Stewart Masters</span>
+      <span>·</span>
+      <span>4 May 2026</span>
+      <span>·</span>
+      <span>9 min read</span>
+    </div>
+  </div>
+</header>
+
+<div class="px-6 mb-12">
+  <div class="prose">
+    <img src="images/ai-policy-guide.svg" alt="AI policy document with shield and governance framework" style="width:100%;height:360px;object-fit:cover;border-radius:10px;display:block;border:1px solid #1e1e1e;">
+  </div>
+</div>
+
+<article class="px-6 pb-20">
+  <div class="prose">
+
+    <p>
+      Your employees are already using AI. Whether you've authorised it or not, tools like ChatGPT, Claude, Copilot, Gemini, and dozens of others are being used every day to draft emails, summarise documents, generate code, analyse data, and research competitors. The question isn't whether to have an AI policy — it's whether you're going to manage <a href="/blog/shadow-ai-boards.html">shadow AI</a> with intention or by default.
+    </p>
+    <p>
+      An AI policy is not a technology project. It's a people and risk management initiative. Done well, it gives your organisation a shared framework for what's acceptable, what's not, and who's responsible. Done badly — or not at all — it leaves you exposed to data breaches, IP disputes, compliance failures, and reputational risk that could easily have been avoided.
+    </p>
+
+    <h2>Why most AI policies fail</h2>
+    <p>
+      Before getting into what to include, it's worth understanding why so many AI policies fail to stick. The most common failure modes are:
+    </p>
+    <ul>
+      <li><strong>Too long and too legalistic.</strong> When a policy requires a law degree to parse, employees skip it. They sign the acknowledgement form, file it away, and carry on as before.</li>
+      <li><strong>Written without operational input.</strong> Legal or compliance teams write a policy based on risk exposure without speaking to the people who actually use AI in their work. The result is a document that doesn't map to reality.</li>
+      <li><strong>No guidance on the grey areas.</strong> Most employees don't want to do something wrong — they want to know what's acceptable. A policy that only says "use AI responsibly" without defining what that means in practice is close to useless.</li>
+      <li><strong>No update cadence.</strong> AI tools and risks change fast. A policy written in 2023 may be dangerously out of date in 2025. Most organisations have no mechanism to keep it current.</li>
+    </ul>
+    <p>
+      A good AI policy is short, plain-English, grounded in real use cases, and tied to someone's accountability. Here's what it needs to cover.
+    </p>
+
+    <h2>The four things every AI policy must cover</h2>
+
+    <h3>1. Sanctioned vs prohibited tools</h3>
+    <p>
+      Be explicit about which AI tools are approved for use, which are being evaluated, and which are not permitted. This doesn't have to be exhaustive — and it shouldn't try to be, since new tools appear constantly — but it should cover the tools your employees are most likely to encounter.
+    </p>
+    <p>
+      A practical approach is to create three categories: <strong>Approved</strong> (you can use these without seeking further permission), <strong>Seek Approval</strong> (these may be appropriate for specific use cases — ask before using), and <strong>Not Permitted</strong> (these are off the table for defined reasons — usually data handling or vendor risk). Include the reasoning briefly, so employees understand the logic rather than just the rule.
+    </p>
+
+    <h3>2. Data classification rules — what can and cannot go into AI</h3>
+    <p>
+      This is the highest-stakes section of most AI policies. When employees use consumer AI tools — even approved ones — they may be sending your data to third-party systems where it could be used for model training, retained on foreign servers, or accessed by the vendor's team.
+    </p>
+    <p>
+      Your policy needs to define data classifications clearly and map them to AI usage permissions. A common framework:
+    </p>
+    <ul>
+      <li><strong>Public information:</strong> No restrictions on AI use</li>
+      <li><strong>Internal information:</strong> Can be used in approved enterprise AI tools with appropriate data agreements in place; not in consumer tools</li>
+      <li><strong>Confidential information:</strong> Can only be used in AI tools with explicit data processing agreements and where data residency is confirmed; requires manager approval</li>
+      <li><strong>Restricted information:</strong> Customer PII, financial data, health data, legally privileged material — not to be used in AI tools without specific authorisation and legal review</li>
+    </ul>
+    <p>
+      Give concrete examples. "Confidential" is abstract. "The terms of an unannounced acquisition" is concrete and memorable.
+    </p>
+
+    <h3>3. Output review obligations</h3>
+    <p>
+      AI generates outputs. Those outputs can be wrong, biased, misleading, or inappropriate. Your policy needs to establish clearly that AI output is a starting point, not a finished product — and that the employee who uses that output is responsible for its accuracy and appropriateness.
+    </p>
+    <p>
+      This matters legally, commercially, and reputationally. If a customer-facing document contains a hallucinated statistic, or a tender response cites a policy that doesn't exist, or code deployed in production has a security flaw that an AI introduced, the organisation bears the consequences. The policy should require review proportionate to the risk of the output — a first draft of an internal memo needs less scrutiny than a client proposal or a regulatory submission.
+    </p>
+
+    <h3>4. IP ownership and confidentiality</h3>
+    <p>
+      Who owns work that was created with significant AI assistance? This is a live legal question in most jurisdictions, and your policy needs to address it practically even before the law fully settles. Define that AI-assisted work product created during the course of employment belongs to the organisation (consistent with how you treat other work product), establish that employees must not represent AI-generated content as entirely their own to third parties without disclosure where required, and clarify obligations around any creative work where IP origin matters.
+    </p>
+    <p>
+      Separately, address the risk that employees inadvertently disclose confidential information through AI prompts. Even if the output is fine, the input may have contained sensitive information that is now in a third-party system.
+    </p>
+
+    <blockquote>
+      <p>"The most dangerous AI risk in most organisations isn't a rogue AI — it's an employee who pastes a client contract into a consumer chatbot without thinking."</p>
+    </blockquote>
+
+    <h2>How to structure the policy document</h2>
+    <p>
+      The structure matters almost as much as the content. Aim for a document that can be read in ten minutes, navigated quickly for specific questions, and updated section by section as things change. A practical structure:
+    </p>
+    <ol>
+      <li><strong>Purpose:</strong> One paragraph explaining why the policy exists and what it's trying to achieve. This sets tone and intent.</li>
+      <li><strong>Scope:</strong> Who does this apply to? Employees, contractors, board members? Which systems and tools? What geographies?</li>
+      <li><strong>Definitions:</strong> Plain-English definitions of key terms — AI tool, generative AI, LLM, data classification categories. Don't assume shared understanding.</li>
+      <li><strong>Rules:</strong> The actual do's and don'ts, organised by the categories above. Keep these short, specific, and scannable. Avoid ambiguous language like "appropriate" or "reasonable" without defining what those mean in context.</li>
+      <li><strong>Accountability:</strong> Who is responsible for what? Who can grant exceptions? Where do employees go with questions? Who owns the policy?</li>
+      <li><strong>Review cadence:</strong> When will this be reviewed? Who triggers an out-of-cycle review if something significant changes?</li>
+    </ol>
+
+    <h2>Getting employee buy-in</h2>
+    <p>
+      A policy that employees resent or ignore is worse than useless — it gives you a false sense of protection while providing none. Getting genuine buy-in requires more than a mandatory read-and-sign exercise.
+    </p>
+    <p>
+      <strong>Launch it with examples, not just rules.</strong> Show employees what good AI use looks like in the context of their actual job. A sales team understands "you can use AI to draft initial outreach emails but must review before sending and should not include client-specific revenue data in the prompt" far better than an abstract policy statement.
+    </p>
+    <p>
+      <strong>Brief line managers first.</strong> Managers will field questions from their teams. If they haven't had a chance to read and understand the policy before it lands with their team, they'll either give inconsistent guidance or escalate everything to HR and legal, which slows adoption.
+    </p>
+    <p>
+      <strong>Tie it to your existing data governance framework.</strong> AI policy shouldn't feel like a separate foreign document — it should slot naturally alongside your existing data handling policies. If employees already understand your data classification system, extending it to AI use is a small step rather than a new mental model.
+    </p>
+    <p>
+      <strong>Create a clear escalation path.</strong> Employees need to know where to go when they're unsure. If the answer is "talk to your manager, who will talk to IT, who will talk to legal," the friction is high enough that most people will either ask nobody or just proceed anyway. Make the escalation path simple and fast.
+    </p>
+
+    <h2>Keeping the policy current</h2>
+    <p>
+      AI tools and the risks they create are changing faster than the annual policy review cycle that most organisations operate on. A policy that was comprehensive in Q1 may have material gaps by Q3 — a new tool category emerges, a high-profile data breach changes the risk landscape, a new regulation creates compliance obligations.
+    </p>
+    <p>
+      Build in quarterly review triggers rather than relying on an annual cycle. Define specific events that automatically trigger a policy review: a major AI tool being adopted by a significant portion of the workforce, a security incident involving AI, a regulatory update, or a significant change in the vendor landscape. Assign ownership clearly — whoever owns the AI policy should have both the authority and the remit to update it without a lengthy governance process.
+    </p>
+    <p>
+      For the major AI vendors you're using, follow their changelog. When a vendor changes its data retention policies, updates its training data practices, or introduces new features that change the risk profile of the tool, your policy may need to be updated to reflect that.
+    </p>
+
+    <h2>Common mistakes</h2>
+    <p>
+      <strong>Banning AI entirely.</strong> This is the most counterproductive response to AI risk. Blanket bans don't prevent AI use — they drive it underground. Employees find workarounds, use personal devices, or simply ignore the policy. You lose visibility, control, and the ability to channel AI use towards genuine value. Address the actual risks instead.
+    </p>
+    <p>
+      <strong>Copying another company's policy.</strong> A policy that works for a regulated financial services firm in London won't necessarily work for a growing e-commerce business in Barcelona. Context matters enormously — your data, your risks, your tools, your people. Use external examples as inspiration for structure, not as templates to copy wholesale.
+    </p>
+    <p>
+      <strong>Writing only in legal language.</strong> Your legal team needs to be involved in the policy. They also shouldn't be the only voice. The finished document needs to be understood by everyone it applies to, which means plain language is not optional.
+    </p>
+    <p>
+      <strong>No named owner.</strong> A policy with no clear owner is a policy that will drift. Assign accountability explicitly. The owner should be senior enough to have authority, close enough to the work to understand the operational reality, and have a mandate to keep the policy current.
+    </p>
+
+    <h2>AI governance vs AI policy</h2>
+    <p>
+      An AI policy is one component of a broader <a href="/ai-adoption-guide.html">AI adoption</a> framework. It addresses the rules for individual AI use. AI governance is the broader system — how decisions about AI investment are made, how AI projects are evaluated and approved, how AI performance and risk are monitored at an organisational level, and how accountability is structured from board level downwards.
+    </p>
+    <p>
+      Most organisations need both, but they're not the same thing and shouldn't be conflated. Start with the policy if you don't have one — it's the most immediately actionable. Build toward governance as your AI usage matures and becomes more significant to the business.
+    </p>
+
+    <hr>
+
+    <p style="color: #777; font-size: 15px;">
+      <strong style="color: #888;">Need help drafting your organisation's AI policy?</strong><br>
+      I work with leadership teams to build practical AI governance frameworks. <a href="../index.html#contact">let's talk →</a>
+    </p>
+
+  </div>
+</article>
+
+<section class="px-6 pb-20">
+  <div class="prose">
+    <div class="author-box">
+      <div class="author-avatar">
+        <img src="../stewart-masters.png" alt="Stewart Masters">
+      </div>
+      <div>
+        <div class="font-heading font-semibold mb-1">Stewart Masters</div>
+        <p style="color: #555; font-size: 14px; line-height: 1.6; margin: 0;">
+          Strategic advisor to founders and operators. 20+ years building and advising businesses across Europe and the Middle East. Based in Barcelona. Guest lecturer at IE Business School and ESADE.
+          <a href="https://www.linkedin.com/in/stewartmasters/" style="color: #00D4FF; text-decoration: none;">Connect on LinkedIn →</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="px-6 pb-24" style="border-top: 1px solid #1a1a1a; padding-top: 48px;">
+  <div class="prose">
+    <h2 class="font-heading text-2xl font-bold mb-6" style="margin-top: 0;">More to read</h2>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+      <a href="shadow-ai-boards.html" class="related-card">
+        <span style="font-size: 10px; color: #00D4FF; letter-spacing: 2px; text-transform: uppercase; display: block; margin-bottom: 8px;">AI &amp; Technology</span>
+        <span class="font-heading font-semibold text-white" style="font-size: 15px; line-height: 1.4; display: block;">Shadow AI: what your board doesn't know about how employees use AI</span>
+      </a>
+      <a href="ai-governance-board.html" class="related-card">
+        <span style="font-size: 10px; color: #00D4FF; letter-spacing: 2px; text-transform: uppercase; display: block; margin-bottom: 8px;">AI &amp; Technology</span>
+        <span class="font-heading font-semibold text-white" style="font-size: 15px; line-height: 1.4; display: block;">AI governance for the board — what directors need to know</span>
+      </a>
+    </div>
+    <div style="text-align: center; margin-top: 24px;">
+      <a href="index.html" style="color: #444; font-size: 14px; text-decoration: none;">← All posts</a>
+    </div>
+  </div>
+</section>
+
+<!-- Newsletter -->
+<section class="py-16 px-6" style="border-top: 1px solid #1a1a1a;">
+  <div class="max-container" style="max-width:680px;">
+    <div style="background:#121212;border:1px solid #1e1e1e;border-radius:10px;padding:40px;text-align:center;">
+      <span style="font-size:11px;font-weight:500;letter-spacing:3px;text-transform:uppercase;color:#00D4FF;display:block;margin-bottom:16px;">Newsletter</span>
+      <h2 class="font-heading text-2xl font-bold text-white mb-3">Practical thinking, twice a week</h2>
+      <p style="color:#777;font-size:15px;line-height:1.7;max-width:420px;margin:0 auto 28px;">AI adoption, digital strategy, and what actually changes organisations. No fluff.</p>
+      <form name="newsletter" method="POST" action="/thank-you" data-netlify="true" data-netlify-honeypot="bot-field" style="display:flex;gap:12px;max-width:420px;margin:0 auto;flex-wrap:wrap;justify-content:center;">
+        <input type="hidden" name="form-name" value="newsletter">
+        <p style="display:none;"><input name="bot-field"></p>
+        <input type="email" name="email" placeholder="Your email address" required
+          style="flex:1;min-width:200px;background:#1a1a1a;border:1px solid #2a2a2a;border-radius:4px;padding:11px 16px;color:#fff;font-size:14px;font-family:'Inter',sans-serif;outline:none;">
+        <button type="submit"
+          style="background:#00D4FF;color:#0D0D0D;font-family:'Space Grotesk',sans-serif;font-weight:600;padding:11px 24px;border-radius:4px;border:none;cursor:pointer;font-size:14px;white-space:nowrap;">
+          Subscribe →
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+<footer class="py-10 px-6" style="border-top: 1px solid #141414;">
+  <div class="max-container flex flex-col md:flex-row items-center justify-between gap-4">
+    <span class="font-heading font-semibold" style="color: #555;">Stewart Masters</span>
+    <div class="flex gap-6" style="font-size: 13px;">
+      <a href="../index.html#about" class="nav-link">About</a>
+      <a href="../index.html#services" class="nav-link">Services</a>
+      <a href="index.html" class="nav-link">Thinking</a>
+      <a href="../index.html#contact" class="nav-link">Contact</a>
+    </div>
+    <a href="https://www.linkedin.com/in/stewartmasters/" target="_blank" rel="noopener" class="nav-link" style="font-size: 13px;">LinkedIn →</a>
+  </div>
+  <div class="max-container mt-6 text-center" style="font-size: 11px; color: #2a2a2a; letter-spacing: 2px;">BARCELONA · LONDON · MADRID</div>
+</footer>
+
+</body>
+</html>

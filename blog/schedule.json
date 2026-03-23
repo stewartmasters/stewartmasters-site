@@ -326,5 +326,85 @@
     "category": "Digital Strategy",
     "excerpt": "Strategy documents are easy. Execution is where digital initiatives die. Here\u2019s the consistent failure pattern \u2014 and how to avoid it.",
     "read_time": 6
+  },
+  {
+    "date": "2026-05-04",
+    "slug": "ai-policy-guide",
+    "title": "How to write an AI policy for your organisation",
+    "category": "AI & Technology",
+    "excerpt": "A practical guide to writing an AI policy that employees will actually use. Covers what to include, what to avoid, and how to keep it current as AI tools evolve.",
+    "read_time": 9
+  },
+  {
+    "date": "2026-05-07",
+    "slug": "ai-vendor-selection",
+    "title": "How to evaluate and select an AI vendor",
+    "category": "AI & Technology",
+    "excerpt": "Choosing the wrong AI vendor is expensive and hard to reverse. Here\u2019s a structured approach to evaluating AI tools and vendors \u2014 before you sign the contract.",
+    "read_time": 8
+  },
+  {
+    "date": "2026-05-11",
+    "slug": "eu-ai-act-business-leaders",
+    "title": "What the EU AI Act means for your business",
+    "category": "AI & Technology",
+    "excerpt": "The EU AI Act is the world\u2019s first comprehensive AI regulation. Here\u2019s what it actually requires, which businesses are affected, and what you need to do now.",
+    "read_time": 8
+  },
+  {
+    "date": "2026-05-14",
+    "slug": "board-buyin-technology",
+    "title": "How to get board buy-in for a technology investment",
+    "category": "Board & Advisory",
+    "excerpt": "Most technology investment cases fail at board level \u2014 not because the idea is wrong but because they\u2019re presented the wrong way. Here\u2019s how to get the approval you need.",
+    "read_time": 8
+  },
+  {
+    "date": "2026-05-18",
+    "slug": "building-digital-team",
+    "title": "Building a digital team from scratch",
+    "category": "Digital Strategy",
+    "excerpt": "Most organisations hire for digital in the wrong order and wonder why the team underperforms. Here\u2019s the sequencing that actually works \u2014 and the roles to avoid until you\u2019re ready.",
+    "read_time": 9
+  },
+  {
+    "date": "2026-05-21",
+    "slug": "ai-multi-site-operations",
+    "title": "AI in multi-site operations: where it actually helps",
+    "category": "AI & Technology",
+    "excerpt": "Multi-site operations have some of the richest AI use cases. Here\u2019s where the genuine ROI is and how to prioritise across locations.",
+    "read_time": 8
+  },
+  {
+    "date": "2026-05-25",
+    "slug": "measuring-digital-transformation",
+    "title": "How to measure digital transformation",
+    "category": "Digital Strategy",
+    "excerpt": "Digital transformation is notoriously hard to measure. Here\u2019s a framework for tracking progress that actually reflects business change \u2014 not just IT activity.",
+    "read_time": 9
+  },
+  {
+    "date": "2026-05-28",
+    "slug": "prompt-engineering-executives",
+    "title": "Prompt engineering for non-technical leaders",
+    "category": "AI & Technology",
+    "excerpt": "You don\u2019t need to be technical to get dramatically better results from AI tools. Here\u2019s a practical prompt engineering guide written for executives and business leaders.",
+    "read_time": 7
+  },
+  {
+    "date": "2026-06-01",
+    "slug": "board-report-technology",
+    "title": "How to write a board report on technology",
+    "category": "Board & Advisory",
+    "excerpt": "Most technology board reports are too long, too technical, and fail to drive decisions. Here\u2019s how to write a technology report that boards actually read and act on.",
+    "read_time": 8
+  },
+  {
+    "date": "2026-06-04",
+    "slug": "ai-adoption-smes",
+    "title": "AI adoption for SMEs: a practical starting point",
+    "category": "AI & Technology",
+    "excerpt": "SMEs face different AI challenges than enterprises. Here\u2019s a practical starting point that reflects the actual constraints of a smaller business.",
+    "read_time": 8
   }
 ]

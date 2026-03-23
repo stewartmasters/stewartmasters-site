@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Building a Digital Team from Scratch | Stewart Masters</title>
+  <meta name="description" content="The first hire matters more than most leaders realise. A practical guide to sequencing your digital team build, defining roles, and avoiding the most common mistakes." />
+  <link rel="canonical" href="https://stewartmasters.me/blog/building-digital-team.html" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Building a Digital Team from Scratch" />
+  <meta property="og:description" content="The first hire matters more than most leaders realise. A practical guide to sequencing your digital team build, defining roles, and avoiding the most common mistakes." />
+  <meta property="og:url" content="https://stewartmasters.me/blog/building-digital-team.html" />
+  <meta property="og:image" content="https://stewartmasters.me/blog/images/building-digital-team.svg" />
+  <meta property="og:site_name" content="Stewart Masters" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Building a Digital Team from Scratch" />
+  <meta name="twitter:description" content="The first hire matters more than most leaders realise. A practical guide to sequencing your digital team build, defining roles, and avoiding the most common mistakes." />
+  <meta name="twitter:image" content="https://stewartmasters.me/blog/images/building-digital-team.svg" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Building a Digital Team from Scratch",
+    "description": "The first hire matters more than most leaders realise. A practical guide to sequencing your digital team build, defining roles, and avoiding the most common mistakes.",
+    "image": "https://stewartmasters.me/blog/images/building-digital-team.svg",
+    "author": {
+      "@type": "Person",
+      "name": "Stewart Masters",
+      "url": "https://stewartmasters.me"
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Stewart Masters"
+    },
+    "datePublished": "2026-05-18",
+    "dateModified": "2026-05-18",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://stewartmasters.me/blog/building-digital-team.html"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://stewartmasters.me"},
+      {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://stewartmasters.me/blog"},
+      {"@type": "ListItem", "position": 3, "name": "Building a Digital Team from Scratch"}
+    ]
+  }
+  </script>
+
+  <style>
+    body { background-color: #0D0D0D; color: #E5E5E5; font-family: 'Inter', sans-serif; }
+    h1, h2, h3, h4, h5, h6 { font-family: 'Space Grotesk', sans-serif; }
+    .accent { color: #00D4FF; }
+    .prose h2 { font-size: 1.5rem; font-weight: 700; margin-top: 2.5rem; margin-bottom: 1rem; color: #F5F5F5; font-family: 'Space Grotesk', sans-serif; }
+    .prose h3 { font-size: 1.15rem; font-weight: 600; margin-top: 2rem; margin-bottom: 0.75rem; color: #E5E5E5; font-family: 'Space Grotesk', sans-serif; }
+    .prose p { margin-bottom: 1.25rem; line-height: 1.8; color: #C8C8C8; }
+    .prose ul, .prose ol { margin-bottom: 1.25rem; padding-left: 1.5rem; color: #C8C8C8; }
+    .prose li { margin-bottom: 0.5rem; line-height: 1.75; }
+    .prose ul li { list-style-type: disc; }
+    .prose ol li { list-style-type: decimal; }
+    .prose a { color: #00D4FF; text-decoration: underline; text-underline-offset: 3px; }
+    .prose strong { color: #F5F5F5; font-weight: 600; }
+    .prose blockquote { border-left: 3px solid #00D4FF; padding-left: 1.25rem; margin: 2rem 0; color: #A0A0A0; font-style: italic; }
+    nav a:hover { color: #00D4FF; }
+  </style>
+</head>
+<body class="min-h-screen">
+
+  <!-- Nav -->
+  <header class="border-b border-white/10">
+    <nav class="max-w-4xl mx-auto px-6 py-5 flex items-center justify-between">
+      <a href="/" class="font-bold text-lg tracking-tight" style="font-family:'Space Grotesk',sans-serif;">Stewart Masters</a>
+      <div class="flex gap-6 text-sm text-gray-400">
+        <a href="/about.html" class="hover:text-white transition-colors">About</a>
+        <a href="/services.html" class="hover:text-white transition-colors">Services</a>
+        <a href="/blog" class="hover:text-white transition-colors">Writing</a>
+        <a href="/contact.html" class="hover:text-white transition-colors">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <div class="max-w-4xl mx-auto px-6 pt-12 pb-6">
+    <div class="text-sm text-gray-500 mb-6">
+      <a href="/" class="hover:text-gray-300 transition-colors">Home</a>
+      <span class="mx-2">/</span>
+      <a href="/blog" class="hover:text-gray-300 transition-colors">Blog</a>
+      <span class="mx-2">/</span>
+      <span class="text-gray-400">Building a Digital Team from Scratch</span>
+    </div>
+
+    <div class="mb-4 flex gap-3 items-center flex-wrap">
+      <span class="text-xs font-medium px-3 py-1 rounded-full" style="background:rgba(0,212,255,0.1);color:#00D4FF;border:1px solid rgba(0,212,255,0.2);">Digital Strategy</span>
+      <span class="text-sm text-gray-500">18 May 2026</span>
+      <span class="text-sm text-gray-500">·</span>
+      <span class="text-sm text-gray-500">9 min read</span>
+    </div>
+
+    <h1 class="text-3xl md:text-4xl font-bold leading-tight mb-6" style="font-family:'Space Grotesk',sans-serif;">
+      Building a Digital Team from Scratch
+    </h1>
+
+    <img src="/blog/images/building-digital-team.svg" alt="Digital team org chart diagram" class="w-full rounded-xl mb-10" style="border:1px solid rgba(255,255,255,0.06);" />
+  </div>
+
+  <!-- Article -->
+  <main class="max-w-4xl mx-auto px-6 pb-20">
+    <article class="prose max-w-none">
+
+      <p>Most organisations that need a digital team have spent years managing without one. The decision to build in-house capability is often triggered by a combination of dissatisfaction with agency output, growing digital ambition, and the realisation that a function this central to the business should not sit entirely outside the organisation.</p>
+
+      <p>The sequencing of that build matters enormously. The wrong first hire sets a direction that is difficult to reverse. The right one compounds your investment over time. This guide covers how to think about the team you need, how to sequence the hiring, and how to avoid the mistakes that slow most organisations down.</p>
+
+      <h2>Define the Problem Before Defining the Team</h2>
+
+      <p>The most common mistake in building a digital team is starting with roles rather than outcomes. "We need a head of digital and a data analyst and a developer" is not a hiring plan. It is a guess. Start instead with a clear statement of what you need the team to do in the first twelve months.</p>
+
+      <p>Useful questions to anchor this:</p>
+
+      <ul>
+        <li>What digital capability do you have today, and where are the biggest gaps?</li>
+        <li>What outcomes are you expecting from digital investment in the next year?</li>
+        <li>What decisions will the team need to make, and what information will they need to make them?</li>
+        <li>What is currently outsourced that should be in-house, and vice versa?</li>
+      </ul>
+
+      <p>The answers to these questions will determine whether your first hire should be a strategist, an analyst, a developer, or a generalist. There is no universal right answer.</p>
+
+      <h2>The First Hire Is Disproportionately Important</h2>
+
+      <p>In a new function, the first person sets the culture, the standards, and in many cases the direction of the team that follows. They are often managing up — helping the executive team understand what digital capability is, what it costs, and what it can deliver — while simultaneously managing down and building team and process from scratch.</p>
+
+      <p>This person needs to be more than technically capable. They need commercial judgement, stakeholder credibility, and the ability to operate with ambiguity. A brilliant specialist who cannot communicate at the executive level will struggle to build the organisational support the team needs. A commercially strong generalist who cannot recruit and retain technical talent will build a team that cannot deliver.</p>
+
+      <p>Look for someone who has built something before — a team, a product, a digital function — from a comparable starting point. The candidate who has been employee number three in a digital function is often more useful than the one who joined a mature team of thirty.</p>
+
+      <h2>How to Sequence the Build</h2>
+
+      <p>The right sequence depends on your starting point, but a typical pattern for a mid-sized organisation building digital capability for the first time looks like this:</p>
+
+      <h3>Stage 1: Foundation (months 1–6)</h3>
+
+      <p>Hire the lead first — your head of digital or chief digital officer equivalent. This person should spend their first few months understanding the existing technology estate, auditing current digital performance, building relationships with operations and commercial teams, and developing a plan for the team they need to recruit. Resist the temptation to hire the rest of the team before the lead is in place. Hiring made without the future team lead's input frequently creates problems that take years to unwind.</p>
+
+      <h3>Stage 2: Core Capability (months 4–12)</h3>
+
+      <p>Build out the core execution capability based on your specific priorities. For most organisations, this means some combination of: a product or digital operations manager (to drive delivery across the portfolio), a data analyst or data engineer (to make sense of what you have), and a developer or technical lead (if you have proprietary platforms to maintain or build). The exact roles depend on your digital estate and your strategic priorities.</p>
+
+      <h3>Stage 3: Specialisation (year 2 onwards)</h3>
+
+      <p>As the team demonstrates its value and the organisation's ambitions grow, specialist roles become worthwhile — UX designers, data scientists, platform specialists, growth marketers. These roles rarely make sense in isolation in a small team, but become valuable once there is enough work and enough supporting structure to make them effective.</p>
+
+      <h2>The Build vs Buy Decision for Talent</h2>
+
+      <p>Not every digital capability needs to sit in-house. Some functions are better suited to agency or consultant relationships, at least initially. A useful framework for this decision:</p>
+
+      <ul>
+        <li><strong>Build in-house</strong> when the capability is central to your competitive differentiation, requires deep organisational knowledge, or needs to be responsive on very short timescales</li>
+        <li><strong>Agency or outsource</strong> when the work is project-based, requires specialisation you cannot sustain full-time, or where the market for talent is too competitive to win</li>
+        <li><strong>Hybrid</strong> when you need a head of function to own strategy and quality but can supplement with external resource for execution capacity</li>
+      </ul>
+
+      <p>Most mature digital teams operate a hybrid model: in-house ownership of strategy, product, and data, with agency support for design, content production, and specialist technical work.</p>
+
+      <h2>Setting Up the Team to Succeed</h2>
+
+      <p>Hiring the right people is necessary but not sufficient. New digital teams often fail not because the individuals are wrong, but because the organisational conditions make success difficult.</p>
+
+      <h3>Clarity on mandate</h3>
+
+      <p>The team needs to know what they own, what they influence, and what falls outside their scope. Ambiguity about whether digital owns the website, shares it with marketing, or reports to IT is a structural problem that will surface as conflict within months.</p>
+
+      <h3>Executive sponsorship</h3>
+
+      <p>A digital team that reports into a function that does not understand or value digital capability will be under-resourced and marginalised. The most effective digital teams report directly to the CEO or MD, or to an executive who is genuinely digitally literate and sponsors the function actively.</p>
+
+      <h3>Access to data and systems</h3>
+
+      <p>A digital team that cannot access their own analytics, has to queue with IT for data, or is blocked from making changes to the platforms they are responsible for will deliver slowly and burn out quickly. Ensure the team has the access and autonomy they need to work effectively from day one.</p>
+
+      <h3>Realistic timelines</h3>
+
+      <p>Building capability takes time. Organisations that expect transformational results in the first six months from a team that did not exist twelve months ago are setting the team up to fail. Set a twelve-month milestone that is achievable and build credibility through consistent delivery before asking for more.</p>
+
+      <h2>Retaining Digital Talent</h2>
+
+      <p>The market for digital talent remains competitive. The organisations that retain digital talent long-term tend to share a few characteristics: they give people genuine ownership of meaningful problems; they invest in learning and development; they have management that understands the work; and they are honest about career progression.</p>
+
+      <p>Salary is a threshold factor rather than a differentiator — people will leave for more money if everything else is wrong, but rarely stay for less money if everything else is right. The factors that drive retention are autonomy, quality of colleagues, interesting problems, and the sense that the organisation takes their work seriously.</p>
+
+      <h2>A Final Note on Patience</h2>
+
+      <p>Building a high-performing digital team typically takes two to three years. The first year is largely about hiring, establishing processes, and building internal credibility. The second year is when the team starts delivering at scale. The third year is when the compound value of an embedded, capable team begins to significantly outperform what any agency arrangement could deliver.</p>
+
+      <p>Organisations that give up on the team after twelve months because results have not been transformational are making the same mistake as someone who plants a tree and digs it up after a month to check if it has grown. The investment in building internal digital capability is a long-term one. Treat it accordingly.</p>
+
+    </article>
+
+    <!-- Related Posts -->
+    <div class="mt-16 pt-10 border-t border-white/10">
+      <h2 class="text-xl font-bold mb-6" style="font-family:'Space Grotesk',sans-serif;">Related reading</h2>
+      <div class="grid md:grid-cols-2 gap-4">
+        <a href="/blog/product-manager-vs-leader.html" class="block p-5 rounded-xl border border-white/10 hover:border-white/20 transition-colors" style="background:rgba(255,255,255,0.03);">
+          <span class="text-xs font-medium" style="color:#00D4FF;">Digital Strategy</span>
+          <h3 class="font-semibold mt-2 mb-1 text-sm" style="font-family:'Space Grotesk',sans-serif;">Product manager vs digital leader: what's the difference?</h3>
+          <p class="text-xs text-gray-500">Two distinct roles that are often confused — and why the distinction matters when hiring.</p>
+        </a>
+        <a href="/blog/why-digital-strategies-fail.html" class="block p-5 rounded-xl border border-white/10 hover:border-white/20 transition-colors" style="background:rgba(255,255,255,0.03);">
+          <span class="text-xs font-medium" style="color:#00D4FF;">Digital Strategy</span>
+          <h3 class="font-semibold mt-2 mb-1 text-sm" style="font-family:'Space Grotesk',sans-serif;">Why digital strategies fail</h3>
+          <p class="text-xs text-gray-500">The structural reasons most digital transformation efforts stall, and what to do differently.</p>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-white/10 py-10">
+    <div class="max-w-4xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
+      <span>© 2026 Stewart Masters</span>
+      <div class="flex gap-6">
+        <a href="/about.html" class="hover:text-gray-300 transition-colors">About</a>
+        <a href="/services.html" class="hover:text-gray-300 transition-colors">Services</a>
+        <a href="/blog" class="hover:text-gray-300 transition-colors">Writing</a>
+        <a href="/contact.html" class="hover:text-gray-300 transition-colors">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

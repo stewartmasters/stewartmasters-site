@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prompt Engineering for Non-Technical Leaders | Stewart Masters</title>
+  <meta name="description" content="You don't need to be a developer to get far better results from AI tools. A practical guide to writing prompts that actually work — for business leaders." />
+  <link rel="canonical" href="https://stewartmasters.me/blog/prompt-engineering-executives.html" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Prompt Engineering for Non-Technical Leaders" />
+  <meta property="og:description" content="You don't need to be a developer to get far better results from AI tools. A practical guide to writing prompts that actually work — for business leaders." />
+  <meta property="og:url" content="https://stewartmasters.me/blog/prompt-engineering-executives.html" />
+  <meta property="og:image" content="https://stewartmasters.me/blog/images/prompt-engineering-executives.svg" />
+  <meta property="og:site_name" content="Stewart Masters" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Prompt Engineering for Non-Technical Leaders" />
+  <meta name="twitter:description" content="You don't need to be a developer to get far better results from AI tools. A practical guide to writing prompts that actually work — for business leaders." />
+  <meta name="twitter:image" content="https://stewartmasters.me/blog/images/prompt-engineering-executives.svg" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Prompt Engineering for Non-Technical Leaders",
+    "description": "You don't need to be a developer to get far better results from AI tools. A practical guide to writing prompts that actually work — for business leaders.",
+    "image": "https://stewartmasters.me/blog/images/prompt-engineering-executives.svg",
+    "author": {
+      "@type": "Person",
+      "name": "Stewart Masters",
+      "url": "https://stewartmasters.me"
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Stewart Masters"
+    },
+    "datePublished": "2026-05-28",
+    "dateModified": "2026-05-28",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://stewartmasters.me/blog/prompt-engineering-executives.html"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://stewartmasters.me"},
+      {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://stewartmasters.me/blog"},
+      {"@type": "ListItem", "position": 3, "name": "Prompt Engineering for Non-Technical Leaders"}
+    ]
+  }
+  </script>
+
+  <style>
+    body { background-color: #0D0D0D; color: #E5E5E5; font-family: 'Inter', sans-serif; }
+    h1, h2, h3, h4, h5, h6 { font-family: 'Space Grotesk', sans-serif; }
+    .accent { color: #00D4FF; }
+    .prose h2 { font-size: 1.5rem; font-weight: 700; margin-top: 2.5rem; margin-bottom: 1rem; color: #F5F5F5; font-family: 'Space Grotesk', sans-serif; }
+    .prose h3 { font-size: 1.15rem; font-weight: 600; margin-top: 2rem; margin-bottom: 0.75rem; color: #E5E5E5; font-family: 'Space Grotesk', sans-serif; }
+    .prose p { margin-bottom: 1.25rem; line-height: 1.8; color: #C8C8C8; }
+    .prose ul, .prose ol { margin-bottom: 1.25rem; padding-left: 1.5rem; color: #C8C8C8; }
+    .prose li { margin-bottom: 0.5rem; line-height: 1.75; }
+    .prose ul li { list-style-type: disc; }
+    .prose ol li { list-style-type: decimal; }
+    .prose a { color: #00D4FF; text-decoration: underline; text-underline-offset: 3px; }
+    .prose strong { color: #F5F5F5; font-weight: 600; }
+    .prose blockquote { border-left: 3px solid #00D4FF; padding-left: 1.25rem; margin: 2rem 0; color: #A0A0A0; font-style: italic; }
+    .prose code { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1); border-radius: 4px; padding: 0.15em 0.4em; font-size: 0.875em; color: #00D4FF; font-family: monospace; }
+    .prose pre { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; padding: 1.25rem; overflow-x: auto; margin: 1.5rem 0; }
+    .prose pre code { background: none; border: none; padding: 0; font-size: 0.85em; color: #C8C8C8; }
+    nav a:hover { color: #00D4FF; }
+  </style>
+</head>
+<body class="min-h-screen">
+
+  <!-- Nav -->
+  <header class="border-b border-white/10">
+    <nav class="max-w-4xl mx-auto px-6 py-5 flex items-center justify-between">
+      <a href="/" class="font-bold text-lg tracking-tight" style="font-family:'Space Grotesk',sans-serif;">Stewart Masters</a>
+      <div class="flex gap-6 text-sm text-gray-400">
+        <a href="/about.html" class="hover:text-white transition-colors">About</a>
+        <a href="/services.html" class="hover:text-white transition-colors">Services</a>
+        <a href="/blog" class="hover:text-white transition-colors">Writing</a>
+        <a href="/contact.html" class="hover:text-white transition-colors">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <div class="max-w-4xl mx-auto px-6 pt-12 pb-6">
+    <div class="text-sm text-gray-500 mb-6">
+      <a href="/" class="hover:text-gray-300 transition-colors">Home</a>
+      <span class="mx-2">/</span>
+      <a href="/blog" class="hover:text-gray-300 transition-colors">Blog</a>
+      <span class="mx-2">/</span>
+      <span class="text-gray-400">Prompt Engineering for Non-Technical Leaders</span>
+    </div>
+
+    <div class="mb-4 flex gap-3 items-center flex-wrap">
+      <span class="text-xs font-medium px-3 py-1 rounded-full" style="background:rgba(0,212,255,0.1);color:#00D4FF;border:1px solid rgba(0,212,255,0.2);">AI &amp; Technology</span>
+      <span class="text-sm text-gray-500">28 May 2026</span>
+      <span class="text-sm text-gray-500">·</span>
+      <span class="text-sm text-gray-500">7 min read</span>
+    </div>
+
+    <h1 class="text-3xl md:text-4xl font-bold leading-tight mb-6" style="font-family:'Space Grotesk',sans-serif;">
+      Prompt Engineering for Non-Technical Leaders
+    </h1>
+
+    <img src="/blog/images/prompt-engineering-executives.svg" alt="Prompt engineering terminal diagram" class="w-full rounded-xl mb-10" style="border:1px solid rgba(255,255,255,0.06);" />
+  </div>
+
+  <!-- Article -->
+  <main class="max-w-4xl mx-auto px-6 pb-20">
+    <article class="prose max-w-none">
+
+      <p>Most business leaders who use AI tools are getting a fraction of the value available to them. Not because the tools are limited, but because the way they are interacting with them is limiting the output. The difference between a mediocre AI response and a useful one is almost always in the quality of the instruction given.</p>
+
+      <p>Prompt engineering sounds technical. It is not. It is the practice of communicating clearly with an AI system — giving it enough context, the right framing, and a specific enough request that it can give you something genuinely useful. The skills involved are not programming skills. They are the same skills that make someone effective at briefing a consultant, delegating to a team member, or commissioning a piece of work.</p>
+
+      <h2>Why Vague Prompts Get Vague Answers</h2>
+
+      <p>AI language models are very good at pattern matching and generalisation. When you give them a vague instruction, they generalise. "Write me a report on our competitors" will produce a generic report structure with placeholder observations, because the model has no way of knowing which competitors you mean, what you already know, who the audience is, or what you want to do with the output.</p>
+
+      <p>The model is not being lazy. It is doing exactly what you asked. The problem is that what you asked was underdetermined. It could be answered in a thousand different ways, and the model will pick one of them. Not necessarily the one you wanted.</p>
+
+      <p>This is the core insight of prompt engineering: the model can only work with what you give it. More context, more constraints, and more specific framing leads to more specific, more useful output.</p>
+
+      <h2>The Four-Part Structure</h2>
+
+      <p>A prompt that consistently produces good results typically contains four components: a role, context, a task, and a format specification. Not every prompt needs all four — simple requests often need fewer — but having all four in mind helps.</p>
+
+      <h3>Role</h3>
+
+      <p>Tell the model who you want it to be for this task. This is not mystical — it is a way of anchoring the model's approach and vocabulary to a specific perspective. "Act as an experienced commercial solicitor reviewing a contract" will produce very different output from "Act as a friendly explainer helping a non-specialist understand this contract." Both might be useful depending on what you need.</p>
+
+      <p>For business tasks, useful roles include: experienced consultant in a specific domain, expert analyst, plain-language communicator, devil's advocate, or simply "someone who has done this before."</p>
+
+      <h3>Context</h3>
+
+      <p>Give the model the background it needs to make useful assumptions. Who is the audience? What is the purpose of the output? What does the model need to know about your situation that is not obvious from the task alone?</p>
+
+      <p>For example: "I am the CEO of a 200-person professional services firm. We are considering expanding into the Scottish market. Our main existing services are HR consulting and payroll outsourcing. Our current clients are mostly SMEs in the English Midlands."</p>
+
+      <p>This context transforms what the model can do with any task you give it. Without it, it is working in a vacuum.</p>
+
+      <h3>Task</h3>
+
+      <p>Be specific about what you want. "Help me think about the expansion" is less useful than "Identify the five key risks we should assess before committing to a Scottish office." Specific tasks produce specific outputs. If you are not sure exactly what you want, describe what you are trying to achieve and let the model suggest the task structure — but then refine from there.</p>
+
+      <h3>Format</h3>
+
+      <p>Tell the model how you want the output. Bullet points. A structured memo. A comparison table. A list of questions. A paragraph of plain prose. If you do not specify, the model will choose a format based on the task, and it may not be the one that works best for your context. If you are copying output into a slide deck, ask for bullet points. If you are forwarding to a client, ask for a professional memo structure.</p>
+
+      <h2>A Before and After Example</h2>
+
+      <p>Here is the same request, first as most people write it, then with the four-part structure applied.</p>
+
+      <p><strong>Vague version:</strong></p>
+      <pre><code>Write a summary of the key trends in the hospitality sector.</code></pre>
+
+      <p><strong>Structured version:</strong></p>
+      <pre><code>You are a strategy consultant with deep experience in UK hospitality.
+
+I am the operations director of a 45-site pub and restaurant group
+focused on casual dining. Our sites are predominantly in market towns
+and rural locations. I am preparing a briefing for our board's
+strategy day next month.
+
+Summarise the five most commercially significant trends affecting
+operators in our segment over the next 18–24 months. Focus on
+trends that directly affect operating costs, labour, or customer
+behaviour. Ignore trends primarily relevant to city-centre fine dining
+or fast food.
+
+Format as five numbered points, each with a two-sentence summary and
+one implication for us specifically.</code></pre>
+
+      <p>The structured version will produce output that requires far less editing and is far more likely to be useful. The extra thirty seconds it takes to write is paid back many times over.</p>
+
+      <h2>Techniques That Work Across Different Tasks</h2>
+
+      <h3>Ask for the reasoning, not just the answer</h3>
+
+      <p>If you want to trust and use an AI analysis, ask it to show its reasoning. "Explain why you reached this conclusion" or "List the assumptions underlying this recommendation" surfaces the logic behind an output and lets you identify where you agree and where you do not. It also reduces confident-sounding errors — the model is much less likely to confabulate when it has to show its working.</p>
+
+      <h3>Use constraints to focus the output</h3>
+
+      <p>Constraints are your friend. "Give me three options, not one" forces the model to explore alternatives rather than converging on the first plausible answer. "Identify the biggest risk with this approach" forces it to be critical rather than supportive. "What would need to be true for this not to work?" is a particularly useful challenge prompt for strategic analysis.</p>
+
+      <h3>Iterate rather than starting again</h3>
+
+      <p>Treating each interaction as a blank page is less efficient than treating it as a conversation. If the first response is not quite right, tell the model what you want to change: "This is good but too technical for a non-specialist audience — simplify the language" or "Add a section on the implementation risks." The model remembers the context of the conversation and can refine from there.</p>
+
+      <h3>Use the model to improve your own prompts</h3>
+
+      <p>One of the most underused techniques is asking the model to help you ask better questions. "I want to analyse whether we should expand our software platform to new markets. Help me identify the key questions I should be exploring before making this decision." This is particularly useful when you are entering an area you know less about and are not sure what you should be asking.</p>
+
+      <h2>Where to Be Careful</h2>
+
+      <p>Better prompts produce better outputs, but better outputs still require human judgement. AI tools are very good at generating plausible, well-structured content. They are not reliably accurate on specific facts, recent events, or proprietary information they have not been given. Treat AI output as a strong first draft or a thinking partner, not as an authoritative source.</p>
+
+      <p>For factual claims — market size figures, regulatory requirements, competitor specifics — verify independently before relying on them. For analysis and synthesis of information you have provided, the output quality is generally much higher.</p>
+
+      <h2>Building the Habit</h2>
+
+      <p>Like any skill, prompt writing improves with practice. The most effective way to improve is to notice when you get a disappointing response and diagnose why: was the task too vague? Was there missing context? Was the format unspecified? Then rewrite and observe the difference.</p>
+
+      <p>The leaders who get the most value from AI tools are not those who have mastered arcane technical knowledge. They are those who have internalised a simple discipline: before sending a prompt, ask yourself whether you have given the model everything it needs to produce the output you actually want. If not, spend another thirty seconds on the prompt. The investment almost always pays off.</p>
+
+    </article>
+
+    <!-- Related Posts -->
+    <div class="mt-16 pt-10 border-t border-white/10">
+      <h2 class="text-xl font-bold mb-6" style="font-family:'Space Grotesk',sans-serif;">Related reading</h2>
+      <div class="grid md:grid-cols-2 gap-4">
+        <a href="/blog/ai-fluency-for-leaders.html" class="block p-5 rounded-xl border border-white/10 hover:border-white/20 transition-colors" style="background:rgba(255,255,255,0.03);">
+          <span class="text-xs font-medium" style="color:#00D4FF;">AI &amp; Technology</span>
+          <h3 class="font-semibold mt-2 mb-1 text-sm" style="font-family:'Space Grotesk',sans-serif;">AI fluency for business leaders</h3>
+          <p class="text-xs text-gray-500">The concepts and vocabulary every leader needs to engage meaningfully with AI in their organisation.</p>
+        </a>
+        <a href="/blog/ai-adoption-smes.html" class="block p-5 rounded-xl border border-white/10 hover:border-white/20 transition-colors" style="background:rgba(255,255,255,0.03);">
+          <span class="text-xs font-medium" style="color:#00D4FF;">AI &amp; Technology</span>
+          <h3 class="font-semibold mt-2 mb-1 text-sm" style="font-family:'Space Grotesk',sans-serif;">AI adoption for SMEs: a practical starting point</h3>
+          <p class="text-xs text-gray-500">Where to begin with AI when you don't have a large IT team or a dedicated innovation budget.</p>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-white/10 py-10">
+    <div class="max-w-4xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
+      <span>© 2026 Stewart Masters</span>
+      <div class="flex gap-6">
+        <a href="/about.html" class="hover:text-gray-300 transition-colors">About</a>
+        <a href="/services.html" class="hover:text-gray-300 transition-colors">Services</a>
+        <a href="/blog" class="hover:text-gray-300 transition-colors">Writing</a>
+        <a href="/contact.html" class="hover:text-gray-300 transition-colors">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

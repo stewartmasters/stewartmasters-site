@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="bg-bbt" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#0e0e18"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </radialGradient>
+    <radialGradient id="glow-bbt" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00D4FF" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg-bbt)"/>
+  <ellipse cx="600" cy="315" rx="360" ry="250" fill="url(#glow-bbt)"/>
+
+  <!-- Boardroom table (oval) -->
+  <ellipse cx="600" cy="330" rx="240" ry="110" fill="none" stroke="#00D4FF" stroke-opacity="0.15" stroke-width="1.5"/>
+  <ellipse cx="600" cy="330" rx="240" ry="110" fill="#00D4FF" fill-opacity="0.02"/>
+
+  <!-- People around the table (circles) -->
+  <!-- Top side -->
+  <circle cx="520" cy="220" r="16" fill="#00D4FF" fill-opacity="0.06" stroke="#00D4FF" stroke-opacity="0.3" stroke-width="1"/>
+  <circle cx="600" cy="205" r="16" fill="#00D4FF" fill-opacity="0.06" stroke="#00D4FF" stroke-opacity="0.3" stroke-width="1"/>
+  <circle cx="680" cy="220" r="16" fill="#00D4FF" fill-opacity="0.06" stroke="#00D4FF" stroke-opacity="0.3" stroke-width="1"/>
+  <!-- Bottom side -->
+  <circle cx="520" cy="440" r="16" fill="#00D4FF" fill-opacity="0.06" stroke="#00D4FF" stroke-opacity="0.3" stroke-width="1"/>
+  <circle cx="600" cy="455" r="16" fill="#00D4FF" fill-opacity="0.06" stroke="#00D4FF" stroke-opacity="0.3" stroke-width="1"/>
+  <circle cx="680" cy="440" r="16" fill="#00D4FF" fill-opacity="0.06" stroke="#00D4FF" stroke-opacity="0.3" stroke-width="1"/>
+  <!-- Sides -->
+  <circle cx="360" cy="310" r="16" fill="#00D4FF" fill-opacity="0.06" stroke="#00D4FF" stroke-opacity="0.3" stroke-width="1"/>
+  <circle cx="360" cy="350" r="16" fill="#00D4FF" fill-opacity="0.06" stroke="#00D4FF" stroke-opacity="0.3" stroke-width="1"/>
+  <circle cx="840" cy="310" r="16" fill="#00D4FF" fill-opacity="0.10" stroke="#00D4FF" stroke-opacity="0.5" stroke-width="1.5"/>
+  <circle cx="840" cy="350" r="16" fill="#00D4FF" fill-opacity="0.06" stroke="#00D4FF" stroke-opacity="0.3" stroke-width="1"/>
+
+  <!-- Presenter person highlight -->
+  <text x="840" y="315" text-anchor="middle" font-family="monospace" font-size="9" fill="#00D4FF" fill-opacity="0.6">YOU</text>
+
+  <!-- Presentation slide at head -->
+  <rect x="555" y="290" width="90" height="60" rx="3" fill="#00D4FF" fill-opacity="0.05" stroke="#00D4FF" stroke-opacity="0.25" stroke-width="1"/>
+  <line x1="565" y1="305" x2="635" y2="305" stroke="#00D4FF" stroke-opacity="0.3" stroke-width="1"/>
+  <line x1="565" y1="318" x2="625" y2="318" stroke="#00D4FF" stroke-opacity="0.2" stroke-width="0.8"/>
+  <line x1="565" y1="330" x2="635" y2="330" stroke="#00D4FF" stroke-opacity="0.15" stroke-width="0.8"/>
+
+  <!-- Up arrow on slide -->
+  <path d="M 600 338 L 600 312 M 594 320 L 600 312 L 606 320" fill="none" stroke="#00D4FF" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Labels -->
+  <text x="240" y="280" font-family="monospace" font-size="9" fill="#00D4FF" fill-opacity="0.2">ROI</text>
+  <text x="240" y="380" font-family="monospace" font-size="9" fill="#00D4FF" fill-opacity="0.2">RISK</text>
+  <text x="940" y="280" font-family="monospace" font-size="9" fill="#00D4FF" fill-opacity="0.2">STRATEGY</text>
+  <text x="940" y="380" font-family="monospace" font-size="9" fill="#00D4FF" fill-opacity="0.2">APPROVAL</text>
+
+  <text x="600" y="570" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="12" fill="#00D4FF" fill-opacity="0.25" letter-spacing="5">BOARD BUY-IN</text>
+</svg>

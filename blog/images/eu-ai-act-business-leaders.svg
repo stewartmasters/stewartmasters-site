@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="bg-eu" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#0e0e18"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </radialGradient>
+    <radialGradient id="glow-eu" cx="50%" cy="45%" r="45%">
+      <stop offset="0%" stop-color="#00D4FF" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg-eu)"/>
+  <ellipse cx="600" cy="300" rx="320" ry="240" fill="url(#glow-eu)"/>
+
+  <!-- Regulatory pyramid — 4 tiers -->
+  <!-- Tier 1 — Unacceptable (top, smallest) -->
+  <polygon points="600,155 545,220 655,220" fill="#00D4FF" fill-opacity="0.12" stroke="#00D4FF" stroke-opacity="0.5" stroke-width="1.5"/>
+  <text x="600" y="197" text-anchor="middle" font-family="monospace" font-size="9" fill="#00D4FF" fill-opacity="0.7">BANNED</text>
+
+  <!-- Tier 2 — High risk -->
+  <polygon points="545,225 475,310 725,310 655,225" fill="#00D4FF" fill-opacity="0.07" stroke="#00D4FF" stroke-opacity="0.35" stroke-width="1.5"/>
+  <text x="600" y="272" text-anchor="middle" font-family="monospace" font-size="10" fill="#00D4FF" fill-opacity="0.55">HIGH RISK</text>
+
+  <!-- Tier 3 — Limited risk -->
+  <polygon points="475,315 390,420 810,420 725,315" fill="#00D4FF" fill-opacity="0.04" stroke="#00D4FF" stroke-opacity="0.22" stroke-width="1.5"/>
+  <text x="600" y="372" text-anchor="middle" font-family="monospace" font-size="10" fill="#00D4FF" fill-opacity="0.38">LIMITED RISK</text>
+
+  <!-- Tier 4 — Minimal risk (base, largest) -->
+  <polygon points="390,425 300,530 900,530 810,425" fill="#00D4FF" fill-opacity="0.02" stroke="#00D4FF" stroke-opacity="0.14" stroke-width="1.5"/>
+  <text x="600" y="482" text-anchor="middle" font-family="monospace" font-size="10" fill="#00D4FF" fill-opacity="0.25">MINIMAL RISK</text>
+
+  <!-- Side annotations -->
+  <text x="240" y="195" font-family="monospace" font-size="9" fill="#00D4FF" fill-opacity="0.2">PROHIBITED</text>
+  <text x="240" y="275" font-family="monospace" font-size="9" fill="#00D4FF" fill-opacity="0.2">REGULATED</text>
+  <text x="240" y="370" font-family="monospace" font-size="9" fill="#00D4FF" fill-opacity="0.15">TRANSPARENCY</text>
+  <text x="240" y="480" font-family="monospace" font-size="9" fill="#00D4FF" fill-opacity="0.12">NO OBLIGATION</text>
+
+  <!-- Outer label -->
+  <text x="600" y="580" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="12" fill="#00D4FF" fill-opacity="0.25" letter-spacing="5">EU AI ACT</text>
+</svg>

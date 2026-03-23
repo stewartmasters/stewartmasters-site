@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="bg-apg" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#0e0e18"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </radialGradient>
+    <radialGradient id="glow-apg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00D4FF" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg-apg)"/>
+  <ellipse cx="600" cy="315" rx="380" ry="260" fill="url(#glow-apg)"/>
+
+  <!-- Document shape -->
+  <rect x="480" y="160" width="240" height="310" rx="6" fill="none" stroke="#00D4FF" stroke-opacity="0.2" stroke-width="1.5"/>
+  <rect x="480" y="160" width="240" height="310" rx="6" fill="#00D4FF" fill-opacity="0.02"/>
+  <!-- Document fold corner -->
+  <path d="M 680 160 L 720 160 L 720 200 L 680 160 Z" fill="none" stroke="#00D4FF" stroke-opacity="0.2" stroke-width="1"/>
+  <path d="M 680 160 L 680 200 L 720 200" fill="none" stroke="#00D4FF" stroke-opacity="0.15" stroke-width="1"/>
+
+  <!-- Document lines -->
+  <line x1="510" y1="230" x2="690" y2="230" stroke="#00D4FF" stroke-opacity="0.25" stroke-width="1.5"/>
+  <line x1="510" y1="255" x2="690" y2="255" stroke="#00D4FF" stroke-opacity="0.15" stroke-width="1"/>
+  <line x1="510" y1="275" x2="660" y2="275" stroke="#00D4FF" stroke-opacity="0.15" stroke-width="1"/>
+  <line x1="510" y1="295" x2="690" y2="295" stroke="#00D4FF" stroke-opacity="0.12" stroke-width="1"/>
+  <line x1="510" y1="315" x2="670" y2="315" stroke="#00D4FF" stroke-opacity="0.12" stroke-width="1"/>
+  <line x1="510" y1="335" x2="690" y2="335" stroke="#00D4FF" stroke-opacity="0.10" stroke-width="1"/>
+  <line x1="510" y1="355" x2="640" y2="355" stroke="#00D4FF" stroke-opacity="0.10" stroke-width="1"/>
+  <line x1="510" y1="375" x2="690" y2="375" stroke="#00D4FF" stroke-opacity="0.08" stroke-width="1"/>
+
+  <!-- Shield icon overlay -->
+  <path d="M 600 185 L 635 200 L 635 235 Q 635 260 600 275 Q 565 260 565 235 L 565 200 Z" fill="none" stroke="#00D4FF" stroke-opacity="0.4" stroke-width="1.5"/>
+  <path d="M 589 228 L 597 236 L 614 215" fill="none" stroke="#00D4FF" stroke-opacity="0.5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Checkmark bullets -->
+  <circle cx="520" cy="295" r="4" fill="#00D4FF" fill-opacity="0.3"/>
+  <circle cx="520" cy="315" r="4" fill="#00D4FF" fill-opacity="0.3"/>
+  <circle cx="520" cy="335" r="4" fill="#00D4FF" fill-opacity="0.25"/>
+  <circle cx="520" cy="355" r="4" fill="#00D4FF" fill-opacity="0.2"/>
+
+  <!-- Labels -->
+  <text x="350" y="240" font-family="monospace" font-size="10" fill="#00D4FF" fill-opacity="0.2">POLICY</text>
+  <text x="350" y="320" font-family="monospace" font-size="10" fill="#00D4FF" fill-opacity="0.15">SCOPE</text>
+  <text x="350" y="400" font-family="monospace" font-size="10" fill="#00D4FF" fill-opacity="0.12">RULES</text>
+  <text x="800" y="240" font-family="monospace" font-size="10" fill="#00D4FF" fill-opacity="0.2">REVIEW</text>
+  <text x="800" y="320" font-family="monospace" font-size="10" fill="#00D4FF" fill-opacity="0.15">GOVERN</text>
+  <text x="800" y="400" font-family="monospace" font-size="10" fill="#00D4FF" fill-opacity="0.12">COMPLY</text>
+
+  <!-- Outer label -->
+  <text x="600" y="570" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="12" fill="#00D4FF" fill-opacity="0.25" letter-spacing="5">AI POLICY</text>
+</svg>

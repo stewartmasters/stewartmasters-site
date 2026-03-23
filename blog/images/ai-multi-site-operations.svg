@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="bg-amso" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#0e0e18"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </radialGradient>
+    <radialGradient id="glow-amso" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00D4FF" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg-amso)"/>
+  <ellipse cx="600" cy="315" rx="380" ry="260" fill="url(#glow-amso)"/>
+
+  <!-- Central hub -->
+  <circle cx="600" cy="315" r="36" fill="#00D4FF" fill-opacity="0.1" stroke="#00D4FF" stroke-opacity="0.4" stroke-width="1.5"/>
+  <text x="600" y="311" text-anchor="middle" font-family="monospace" font-size="8" fill="#00D4FF" fill-opacity="0.7">AI</text>
+  <text x="600" y="323" text-anchor="middle" font-family="monospace" font-size="8" fill="#00D4FF" fill-opacity="0.7">CORE</text>
+
+  <!-- Site nodes radiating out -->
+  <circle cx="600" cy="175" r="22" fill="#00D4FF" fill-opacity="0.06" stroke="#00D4FF" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="600" y="179" text-anchor="middle" font-family="monospace" font-size="8" fill="#00D4FF" fill-opacity="0.5">SITE 1</text>
+
+  <circle cx="760" cy="225" r="22" fill="#00D4FF" fill-opacity="0.06" stroke="#00D4FF" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="760" y="229" text-anchor="middle" font-family="monospace" font-size="8" fill="#00D4FF" fill-opacity="0.5">SITE 2</text>
+
+  <circle cx="800" cy="380" r="22" fill="#00D4FF" fill-opacity="0.06" stroke="#00D4FF" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="800" y="384" text-anchor="middle" font-family="monospace" font-size="8" fill="#00D4FF" fill-opacity="0.5">SITE 3</text>
+
+  <circle cx="600" cy="455" r="22" fill="#00D4FF" fill-opacity="0.06" stroke="#00D4FF" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="600" y="459" text-anchor="middle" font-family="monospace" font-size="8" fill="#00D4FF" fill-opacity="0.5">SITE 4</text>
+
+  <circle cx="400" cy="390" r="22" fill="#00D4FF" fill-opacity="0.06" stroke="#00D4FF" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="400" y="394" text-anchor="middle" font-family="monospace" font-size="8" fill="#00D4FF" fill-opacity="0.5">SITE 5</text>
+
+  <circle cx="440" cy="225" r="22" fill="#00D4FF" fill-opacity="0.06" stroke="#00D4FF" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="440" y="229" text-anchor="middle" font-family="monospace" font-size="8" fill="#00D4FF" fill-opacity="0.5">SITE 6</text>
+
+  <!-- Connecting lines -->
+  <line x1="600" y1="279" x2="600" y2="197" stroke="#00D4FF" stroke-opacity="0.2" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="631" y1="293" x2="742" y2="243" stroke="#00D4FF" stroke-opacity="0.2" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="635" y1="327" x2="779" y2="368" stroke="#00D4FF" stroke-opacity="0.2" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="600" y1="351" x2="600" y2="433" stroke="#00D4FF" stroke-opacity="0.2" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="565" y1="336" x2="420" y2="371" stroke="#00D4FF" stroke-opacity="0.2" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="565" y1="298" x2="460" y2="241" stroke="#00D4FF" stroke-opacity="0.2" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Data flow dots on lines -->
+  <circle cx="600" cy="237" r="2.5" fill="#00D4FF" fill-opacity="0.5"/>
+  <circle cx="686" cy="268" r="2.5" fill="#00D4FF" fill-opacity="0.5"/>
+  <circle cx="717" cy="347" r="2.5" fill="#00D4FF" fill-opacity="0.5"/>
+  <circle cx="600" cy="392" r="2.5" fill="#00D4FF" fill-opacity="0.5"/>
+  <circle cx="492" cy="353" r="2.5" fill="#00D4FF" fill-opacity="0.5"/>
+  <circle cx="512" cy="269" r="2.5" fill="#00D4FF" fill-opacity="0.5"/>
+
+  <text x="600" y="570" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="12" fill="#00D4FF" fill-opacity="0.25" letter-spacing="5">MULTI-SITE AI</text>
+</svg>

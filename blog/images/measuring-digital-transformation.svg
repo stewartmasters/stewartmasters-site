@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="bg-mdt" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#0e0e18"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </radialGradient>
+    <radialGradient id="glow-mdt" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00D4FF" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg-mdt)"/>
+  <ellipse cx="600" cy="315" rx="380" ry="250" fill="url(#glow-mdt)"/>
+
+  <!-- Chart axes -->
+  <line x1="340" y1="450" x2="860" y2="450" stroke="#00D4FF" stroke-opacity="0.2" stroke-width="1.5"/>
+  <line x1="340" y1="170" x2="340" y2="455" stroke="#00D4FF" stroke-opacity="0.2" stroke-width="1.5"/>
+
+  <!-- Axis labels -->
+  <text x="600" y="480" text-anchor="middle" font-family="monospace" font-size="9" fill="#00D4FF" fill-opacity="0.25">TIME →</text>
+  <text x="325" y="315" text-anchor="middle" font-family="monospace" font-size="9" fill="#00D4FF" fill-opacity="0.25" transform="rotate(-90, 325, 315)">TRANSFORMATION →</text>
+
+  <!-- Three trend lines — activity, adoption, outcome -->
+  <!-- Activity line (highest, dotted) -->
+  <polyline points="360,420 430,390 500,355 570,320 640,295 710,270 780,250 840,235" fill="none" stroke="#00D4FF" stroke-opacity="0.25" stroke-width="1.5" stroke-dasharray="5,4"/>
+
+  <!-- Adoption line (middle) -->
+  <polyline points="360,440 430,435 500,420 570,390 640,355 710,320 780,295 840,275" fill="none" stroke="#00D4FF" stroke-opacity="0.4" stroke-width="2"/>
+
+  <!-- Outcome line (lagged, steeper curve) -->
+  <polyline points="360,445 430,443 500,440 570,430 640,405 710,370 780,330 840,295" fill="none" stroke="#00D4FF" stroke-opacity="0.6" stroke-width="2.5"/>
+
+  <!-- Data points on outcome line -->
+  <circle cx="360" cy="445" r="3" fill="#00D4FF" fill-opacity="0.5"/>
+  <circle cx="500" cy="440" r="3" fill="#00D4FF" fill-opacity="0.5"/>
+  <circle cx="640" cy="405" r="3" fill="#00D4FF" fill-opacity="0.5"/>
+  <circle cx="780" cy="330" r="4" fill="#00D4FF" fill-opacity="0.7"/>
+  <circle cx="840" cy="295" r="4" fill="#00D4FF" fill-opacity="0.7"/>
+
+  <!-- Legend -->
+  <line x1="360" y1="520" x2="395" y2="520" stroke="#00D4FF" stroke-opacity="0.25" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <text x="400" y="524" font-family="monospace" font-size="8" fill="#00D4FF" fill-opacity="0.3">ACTIVITY</text>
+  <line x1="500" y1="520" x2="535" y2="520" stroke="#00D4FF" stroke-opacity="0.4" stroke-width="2"/>
+  <text x="540" y="524" font-family="monospace" font-size="8" fill="#00D4FF" fill-opacity="0.4">ADOPTION</text>
+  <line x1="640" y1="520" x2="675" y2="520" stroke="#00D4FF" stroke-opacity="0.6" stroke-width="2.5"/>
+  <text x="680" y="524" font-family="monospace" font-size="8" fill="#00D4FF" fill-opacity="0.5">OUTCOME</text>
+
+  <!-- Grid lines horizontal -->
+  <line x1="340" y1="390" x2="860" y2="390" stroke="#00D4FF" stroke-opacity="0.05" stroke-width="0.8"/>
+  <line x1="340" y1="330" x2="860" y2="330" stroke="#00D4FF" stroke-opacity="0.05" stroke-width="0.8"/>
+  <line x1="340" y1="270" x2="860" y2="270" stroke="#00D4FF" stroke-opacity="0.05" stroke-width="0.8"/>
+  <line x1="340" y1="210" x2="860" y2="210" stroke="#00D4FF" stroke-opacity="0.05" stroke-width="0.8"/>
+
+  <text x="600" y="580" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="12" fill="#00D4FF" fill-opacity="0.25" letter-spacing="5">MEASURING TRANSFORMATION</text>
+</svg>
