@@ -22,6 +22,7 @@ import datetime
 
 SCHEDULE_FILE = "blog/schedule.json"
 BLOG_INDEX = "blog/index.html"
+HOMEPAGE = "index.html"
 BLOG_DIR = "blog"
 DRAFTS_DIR = "blog/drafts"
 
@@ -85,6 +86,30 @@ def grid_card_html(entry):
           <p style="color: #777; font-size: 13px; line-height: 1.7;">{excerpt}</p>
           <div class="flex items-center justify-between mt-5">
             <span style="font-size: 12px; color: #555;">{date_display} · {read_time} min</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>"""
+
+
+def homepage_card_html(entry, delay):
+    slug = entry["slug"]
+    title = entry["title"]
+    category = entry["category"]
+    excerpt = entry["excerpt"]
+    read_time = entry["read_time"]
+    date_display = format_date_display(entry["date"])
+
+    return f"""      <a href="blog/{slug}.html" class="blog-card" data-aos="fade-up" data-aos-delay="{delay}">
+        <div class="blog-thumb" style="background:none;padding:0;">
+          <img src="blog/images/{slug}.svg" alt="" style="width:100%;height:100%;object-fit:cover;">
+        </div>
+        <div class="p-6">
+          <span class="blog-tag">{category}</span>
+          <h3 class="font-heading text-base font-semibold mt-3 mb-2 leading-snug text-white">{title}</h3>
+          <p style="color: #B0B0B0; font-size: 13px; line-height: 1.7;">{excerpt}</p>
+          <div class="flex items-center justify-between mt-5">
+            <span style="font-size: 12px; color: #777;">{date_display} · {read_time} min read</span>
             <span class="blog-arrow">→</span>
           </div>
         </div>
@@ -162,6 +187,30 @@ def main():
     print(f"✓ Featured: {today_entry['title']}")
     if prev_entry:
         print(f"✓ Added to grid: {prev_entry['title']}")
+
+    # Update homepage (index.html) — replace the 3 most-recent published posts
+    published = [
+        e for e in schedule_sorted
+        if e["date"] <= today and os.path.exists(os.path.join(BLOG_DIR, f"{e['slug']}.html"))
+    ]
+    recent_three = list(reversed(published))[:3]
+
+    if recent_three:
+        delays = [0, 80, 160]
+        cards = "\n".join(
+            homepage_card_html(e, delays[i]) for i, e in enumerate(recent_three)
+        )
+        with open(HOMEPAGE, "r", encoding="utf-8") as f:
+            hp = f.read()
+        hp = re.sub(
+            r"<!-- HOMEPAGE_POSTS_START -->.*?<!-- HOMEPAGE_POSTS_END -->",
+            f"<!-- HOMEPAGE_POSTS_START -->\n{cards}\n<!-- HOMEPAGE_POSTS_END -->",
+            hp,
+            flags=re.DOTALL,
+        )
+        with open(HOMEPAGE, "w", encoding="utf-8") as f:
+            f.write(hp)
+        print(f"✓ Updated index.html homepage posts")
 
 
 if __name__ == "__main__":
