@@ -194,11 +194,12 @@
 
     <!-- Category filters -->
     <div class="flex flex-wrap gap-3 mt-10" data-aos="fade-up" data-aos-delay="240">
-      <a href="#" class="cat-pill active">All</a>
-      <a href="#" class="cat-pill">AI &amp; Technology</a>
-      <a href="#" class="cat-pill">Digital Strategy</a>
-      <a href="#" class="cat-pill">Leadership</a>
-      <a href="#" class="cat-pill">Board &amp; Advisory</a>
+      <a href="#" class="cat-pill active" data-filter="all">All</a>
+      <a href="#" class="cat-pill" data-filter="AI &amp; Technology">AI &amp; Technology</a>
+      <a href="#" class="cat-pill" data-filter="Digital Strategy">Digital Strategy</a>
+      <a href="#" class="cat-pill" data-filter="Leadership">Leadership</a>
+      <a href="#" class="cat-pill" data-filter="Operations">Operations</a>
+      <a href="#" class="cat-pill" data-filter="Board &amp; Advisory">Board &amp; Advisory</a>
     </div>
   </div>
 </section>
@@ -793,5 +794,28 @@
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>AOS.init({ duration: 650, once: true, offset: 50 });</script>
+<script>
+  (function() {
+    var pills = document.querySelectorAll('.cat-pill');
+    var cards = document.querySelectorAll('.blog-card');
+    function normalize(text) {
+      if (text === 'Product' || text === 'Strategy') return 'Digital Strategy';
+      return text;
+    }
+    pills.forEach(function(pill) {
+      pill.addEventListener('click', function(e) {
+        e.preventDefault();
+        pills.forEach(function(p) { p.classList.remove('active'); });
+        this.classList.add('active');
+        var filter = this.dataset.filter;
+        cards.forEach(function(card) {
+          var tag = card.querySelector('.post-tag');
+          var cat = tag ? normalize(tag.textContent.trim()) : '';
+          card.style.display = (filter === 'all' || cat === filter) ? '' : 'none';
+        });
+      });
+    });
+  })();
+</script>
 </body>
 </html>

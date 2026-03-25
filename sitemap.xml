@@ -24,8 +24,14 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://stewartmasters.me/contact.html</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
 
-  <!-- Blog posts — original set -->
+  <!-- Published blog posts -->
   <url>
     <loc>https://stewartmasters.me/blog/agentic-ai-business-leaders.html</loc>
     <lastmod>2026-01-13</lastmod>
@@ -75,18 +81,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/boards-evaluating-ai-risk.html</loc>
-    <lastmod>2026-03-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://stewartmasters.me/blog/build-vs-buy.html</loc>
-    <lastmod>2026-03-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://stewartmasters.me/blog/chief-ai-officer.html</loc>
     <lastmod>2026-03-10</lastmod>
     <changefreq>monthly</changefreq>
@@ -106,7 +100,7 @@
   </url>
   <url>
     <loc>https://stewartmasters.me/blog/data-strategy-founders.html</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-03-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -135,12 +129,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/founder-advisor-relationship.html</loc>
-    <lastmod>2026-03-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://stewartmasters.me/blog/fractional-leader.html</loc>
     <lastmod>2025-12-30</lastmod>
     <changefreq>monthly</changefreq>
@@ -148,7 +136,7 @@
   </url>
   <url>
     <loc>https://stewartmasters.me/blog/hiring-head-of-ai.html</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-03-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -167,12 +155,6 @@
   <url>
     <loc>https://stewartmasters.me/blog/kpis-vs-metrics.html</loc>
     <lastmod>2026-02-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://stewartmasters.me/blog/measuring-product-market-fit.html</loc>
-    <lastmod>2026-03-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -196,7 +178,7 @@
   </url>
   <url>
     <loc>https://stewartmasters.me/blog/product-roadmap-fiction.html</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -220,7 +202,7 @@
   </url>
   <url>
     <loc>https://stewartmasters.me/blog/tech-debt-cost.html</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-03-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -243,192 +225,4 @@
     <priority>0.7</priority>
   </url>
 
-  <!-- Blog posts — March/April 2026 additions -->
-  <url>
-    <loc>https://stewartmasters.me/blog/ned-understanding-technology.html</loc>
-    <lastmod>2026-03-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://stewartmasters.me/blog/when-advisory-boards-work.html</loc>
-    <lastmod>2026-03-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://stewartmasters.me/blog/scaling-culture-markets.html</loc>
-    <lastmod>2026-03-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://stewartmasters.me/blog/founder-stepping-back-product.html</loc>
-    <lastmod>2026-03-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://stewartmasters.me/blog/evaluating-a-cto.html</loc>
-    <lastmod>2026-03-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://stewartmasters.me/blog/ai-needs-data-strategy.html</loc>
-    <lastmod>2026-03-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://stewartmasters.me/blog/digital-transformation-budget.html</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://stewartmasters.me/blog/board-cybersecurity-incident.html</loc>
-    <lastmod>2026-04-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://stewartmasters.me/blog/operators-vs-strategists.html</loc>
-    <lastmod>2026-04-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://stewartmasters.me/blog/what-investors-look-for-digital.html</loc>
-    <lastmod>2026-04-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://stewartmasters.me/blog/product-team-that-ships.html</loc>
-    <lastmod>2026-04-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://stewartmasters.me/blog/digital-hiring-mistakes.html</loc>
-    <lastmod>2026-04-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://stewartmasters.me/blog/customer-feedback-wrong-signal.html</loc>
-    <lastmod>2026-04-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://stewartmasters.me/blog/ai-governance-board.html</loc>
-    <lastmod>2026-04-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://stewartmasters.me/blog/adoption-not-capability.html</loc>
-    <lastmod>2026-04-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://stewartmasters.me/blog/leadership-behind-failed-projects.html</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://stewartmasters.me/blog/quarterly-business-review.html</loc>
-    <lastmod>2026-04-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://stewartmasters.me/blog/what-caio-actually-does.html</loc>
-    <lastmod>2026-04-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://stewartmasters.me/blog/future-digital-operations-hospitality.html</loc>
-    <lastmod>2026-04-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://stewartmasters.me/blog/technical-cofounder.html</loc>
-    <lastmod>2026-04-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://stewartmasters.me/blog/product-manager-vs-leader.html</loc>
-    <lastmod>2026-04-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://stewartmasters.me/blog/ai-policy-guide.html</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://stewartmasters.me/blog/ai-vendor-selection.html</loc>
-    <lastmod>2026-05-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://stewartmasters.me/blog/eu-ai-act-business-leaders.html</loc>
-    <lastmod>2026-05-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://stewartmasters.me/blog/board-buyin-technology.html</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://stewartmasters.me/blog/building-digital-team.html</loc>
-    <lastmod>2026-05-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://stewartmasters.me/blog/ai-multi-site-operations.html</loc>
-    <lastmod>2026-05-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://stewartmasters.me/blog/measuring-digital-transformation.html</loc>
-    <lastmod>2026-05-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://stewartmasters.me/blog/prompt-engineering-executives.html</loc>
-    <lastmod>2026-05-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://stewartmasters.me/blog/board-report-technology.html</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://stewartmasters.me/blog/ai-adoption-smes.html</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
 </urlset>
