@@ -1,9 +1,9 @@
-name: Daily Post Publish
+name: Scheduled Post Publish
 
 on:
   schedule:
     # 08:00 UTC = 09:00 CET (UTC+1) / 10:00 CEST (UTC+2)
-    # Runs every day. publish.py exits cleanly if no post is scheduled.
+    # Runs daily but publish.py only publishes on scheduled days (Tue/Thu).
     - cron: '0 8 * * *'
   workflow_dispatch:
     # Allow manual trigger from GitHub Actions UI
@@ -31,7 +31,7 @@ jobs:
 
       - name: Commit and push if changed
         run: |
-          git config user.name "Daily Publish"
+          git config user.name "Scheduled Publish"
           git config user.email "action@github.com"
           git add index.html blog/index.html blog/drafts/ blog/*.html
           if git diff --staged --quiet; then
