@@ -8,6 +8,7 @@ Logic per run:
   2. Move the post HTML from blog/drafts/ to blog/ (if not already there)
   3. Replace the featured section in blog/index.html with today's post
   4. Insert the previous featured post as a grid card at the top of the grid
+  5. Regenerate feed.xml with all published posts
 
 Future posts are stored in blog/drafts/ so they are not publicly accessible
 until their scheduled publish date.
@@ -19,12 +20,16 @@ import re
 import shutil
 import sys
 import datetime
+from email.utils import format_datetime
+from datetime import timezone
 
 SCHEDULE_FILE = "blog/schedule.json"
 BLOG_INDEX = "blog/index.html"
 HOMEPAGE = "index.html"
+FEED_FILE = "feed.xml"
 BLOG_DIR = "blog"
 DRAFTS_DIR = "blog/drafts"
+BLOG_SKIP = {"index.html", "_post-template.html"}
 
 
 def load_schedule():
@@ -114,6 +119,86 @@ def homepage_card_html(entry, delay):
           </div>
         </div>
       </a>"""
+
+
+def _extract_post_meta(path):
+    """Extract title, description and datePublished from a blog post HTML file."""
+    with open(path, "r", encoding="utf-8") as f:
+        html = f.read()
+    title_m = re.search(r"<title>(.+?)</title>", html)
+    title = title_m.group(1) if title_m else os.path.basename(path)
+    title = re.sub(r"\s*[\u2014\u2013-]+\s*Stewart Masters\s*$", "", title).strip()
+    desc_m = re.search(r'<meta name="description" content="([^"]+)"', html)
+    description = desc_m.group(1) if desc_m else ""
+    date_m = re.search(r'"datePublished"\s*:\s*"(\d{4}-\d{2}-\d{2})"', html)
+    date_str = date_m.group(1) if date_m else None
+    if not date_str:
+        vis_m = re.search(r"(\d{1,2}\s+\w{3}\s+20\d{2})", html)
+        if vis_m:
+            try:
+                d = datetime.datetime.strptime(vis_m.group(1), "%d %b %Y")
+                date_str = d.strftime("%Y-%m-%d")
+            except ValueError:
+                pass
+    return title, description, date_str or "2025-12-01"
+
+
+def generate_feed():
+    """Regenerate feed.xml from all published blog posts."""
+    posts = []
+    for fname in os.listdir(BLOG_DIR):
+        if not fname.endswith(".html") or fname in BLOG_SKIP:
+            continue
+        slug = fname[:-5]
+        path = os.path.join(BLOG_DIR, fname)
+        title, description, date_str = _extract_post_meta(path)
+        posts.append({"slug": slug, "title": title, "description": description, "date": date_str})
+
+    posts.sort(key=lambda x: x["date"], reverse=True)
+    if not posts:
+        return
+
+    latest_date = posts[0]["date"]
+
+    def rfc822(date_str):
+        d = datetime.datetime.strptime(date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+        return format_datetime(d)
+
+    def escape_xml(s):
+        return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+    items = ""
+    for p in posts:
+        url = f"https://stewartmasters.me/blog/{p['slug']}.html"
+        items += f"""
+  <item>
+    <title>{escape_xml(p['title'])}</title>
+    <link>{url}</link>
+    <description>{escape_xml(p['description'])}</description>
+    <pubDate>{rfc822(p['date'])}</pubDate>
+    <guid isPermaLink="true">{url}</guid>
+  </item>"""
+
+    feed = f"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stewart Masters</title>
+    <link>https://stewartmasters.me</link>
+    <description>Operator perspectives on AI adoption, digital operations, and product execution inside real businesses.</description>
+    <language>en</language>
+    <atom:link href="https://stewartmasters.me/feed.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>{rfc822(latest_date)}</lastBuildDate>
+    <image>
+      <url>https://stewartmasters.me/favicon-32x32.png</url>
+      <title>Stewart Masters</title>
+      <link>https://stewartmasters.me</link>
+    </image>{items}
+  </channel>
+</rss>"""
+
+    with open(FEED_FILE, "w", encoding="utf-8") as f:
+        f.write(feed)
+    print(f"\u2713 Regenerated feed.xml ({len(posts)} posts)")
 
 
 def main():
@@ -211,6 +296,9 @@ def main():
         with open(HOMEPAGE, "w", encoding="utf-8") as f:
             f.write(hp)
         print(f"✓ Updated index.html homepage posts")
+
+    # Regenerate RSS feed
+    generate_feed()
 
 
 if __name__ == "__main__":

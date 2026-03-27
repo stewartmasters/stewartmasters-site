@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stewart Masters</title>
+    <link>https://stewartmasters.me</link>
+    <description>Operator perspectives on AI adoption, digital operations, and product execution inside real businesses.</description>
+    <language>en</language>
+    <atom:link href="https://stewartmasters.me/feed.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Thu, 26 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://stewartmasters.me/favicon-32x32.png</url>
+      <title>Stewart Masters</title>
+      <link>https://stewartmasters.me</link>
+    </image>
+  <item>
+    <title>How to Measure Product-Market Fit Honestly</title>
+    <link>https://stewartmasters.me/blog/measuring-product-market-fit.html</link>
+    <description>Product-market fit is real — but most teams don't know when they have it. Here's how to look past vanity signals and measure it honestly.</description>
+    <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/measuring-product-market-fit.html</guid>
+  </item>
+  <item>
+    <title>When to Build vs. Buy in a Digital Business</title>
+    <link>https://stewartmasters.me/blog/build-vs-buy.html</link>
+    <description>The build vs. buy decision is never just technical. It's strategic. Here's how to make it without regretting it six months later.</description>
+    <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/build-vs-buy.html</guid>
+  </item>
+  <item>
+    <title>How Boards Should Evaluate AI Risk</title>
+    <link>https://stewartmasters.me/blog/boards-evaluating-ai-risk.html</link>
+    <description>Boards are being asked to govern AI without the frameworks to do it. Here's a practical approach to evaluating AI risk at board level.</description>
+    <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/boards-evaluating-ai-risk.html</guid>
+  </item>
+  <item>
+    <title>Data Strategy for Non-Technical Founders</title>
+    <link>https://stewartmasters.me/blog/data-strategy-founders.html</link>
+    <description>You don't need to be technical to make good decisions about data. You just need to ask the right questions and avoid the most expensive mistakes.</description>
+    <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/data-strategy-founders.html</guid>
+  </item>
+  <item>
+    <title>Why Most Product Roadmaps Are Fiction</title>
+    <link>https://stewartmasters.me/blog/product-roadmap-fiction.html</link>
+    <description>Roadmaps feel like planning. They're usually something else. Here's why most product roadmaps fail to reflect reality — and what to do instead.</description>
+    <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/product-roadmap-fiction.html</guid>
+  </item>
+  <item>
+    <title>How to Hire Your First Head of AI</title>
+    <link>https://stewartmasters.me/blog/hiring-head-of-ai.html</link>
+    <description>Most companies hiring for AI leadership are asking the wrong questions. Here's what the role actually requires — and how to find someone who can do it.</description>
+    <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/hiring-head-of-ai.html</guid>
+  </item>
+  <item>
+    <title>The Real Cost of Tech Debt in a Growing Business</title>
+    <link>https://stewartmasters.me/blog/tech-debt-cost.html</link>
+    <description>Tech debt isn't just a developer problem. It's a leadership and growth problem. Here's how it actually slows businesses down — and what to do about it.</description>
+    <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/tech-debt-cost.html</guid>
+  </item>
+  <item>
+    <title>OKRs Without the Bureaucracy</title>
+    <link>https://stewartmasters.me/blog/okrs-without-bureaucracy.html</link>
+    <description>OKRs work. The way most companies implement them doesn't. Here's how to get the alignment and focus OKRs are designed to create without the overhead that kills momentum.</description>
+    <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/okrs-without-bureaucracy.html</guid>
+  </item>
+  <item>
+    <title>What Data Governance Actually Means in Practice</title>
+    <link>https://stewartmasters.me/blog/data-governance.html</link>
+    <description>Data governance sounds like compliance theatre. Done properly, it's how organisations make data usable, trustworthy, and safe at scale. Here's what it actually involves.</description>
+    <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/data-governance.html</guid>
+  </item>
+  <item>
+    <title>The Case for a Chief AI Officer — and When Not to Hire One</title>
+    <link>https://stewartmasters.me/blog/chief-ai-officer.html</link>
+    <description>The Chief AI Officer role is becoming a fixture in leadership teams. But it's the right answer to a specific set of organisational problems — not a universal solution. Here's how to think about it.</description>
+    <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/chief-ai-officer.html</guid>
+  </item>
+  <item>
+    <title>Why Technology Projects Fail at Handover — and How to Fix It</title>
+    <link>https://stewartmasters.me/blog/technology-handover.html</link>
+    <description>Most technology projects succeed in build and fail in handover. The gap between what the development team built and what the operating team receives is where value is lost.</description>
+    <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/technology-handover.html</guid>
+  </item>
+  <item>
+    <title>How to Structure Your First 90 Days as a Non-Executive Director</title>
+    <link>https://stewartmasters.me/blog/first-90-days-ned.html</link>
+    <description>The first 90 days as a NED are the most important — and the least supported. Here's how to use the time well, build the relationships that matter, and establish credibility before you start contributing.</description>
+    <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/first-90-days-ned.html</guid>
+  </item>
+  <item>
+    <title>What Good Looks Like for an AI-Ready Board</title>
+    <link>https://stewartmasters.me/blog/ai-ready-board.html</link>
+    <description>Most boards are unprepared for the AI decisions now landing on their agendas. Here's what an AI-ready board actually looks like — and what it takes to build one.</description>
+    <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/ai-ready-board.html</guid>
+  </item>
+  <item>
+    <title>The Difference Between a KPI and a Metric — and Why It Matters</title>
+    <link>https://stewartmasters.me/blog/kpis-vs-metrics.html</link>
+    <description>Most organisations are drowning in metrics while being blind to performance. Here's the difference between a KPI and a metric — and how to find the numbers that actually tell you something.</description>
+    <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/kpis-vs-metrics.html</guid>
+  </item>
+  <item>
+    <title>How to Write an AI Business Case That Actually Gets Approved</title>
+    <link>https://stewartmasters.me/blog/ai-business-case.html</link>
+    <description>Most AI business cases are rejected not because the AI doesn't work, but because the case is made in the wrong language for the wrong audience. Here's how to write one that gets approved.</description>
+    <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/ai-business-case.html</guid>
+  </item>
+  <item>
+    <title>How to run a board meeting that actually matters</title>
+    <link>https://stewartmasters.me/blog/board-meeting.html</link>
+    <description>Most board meetings are status updates with governance theatre. Here's how to structure a board meeting where the right decisions get made by the right people.</description>
+    <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/board-meeting.html</guid>
+  </item>
+  <item>
+    <title>What digital-first operations actually means</title>
+    <link>https://stewartmasters.me/blog/digital-first-operations.html</link>
+    <description>Digital-first operations isn't about having more software. It's about designing processes where the digital layer drives the outcome, not just records it.</description>
+    <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/digital-first-operations.html</guid>
+  </item>
+  <item>
+    <title>Why most companies automate the wrong things first</title>
+    <link>https://stewartmasters.me/blog/automate-wrong-things.html</link>
+    <description>Most companies start automation with the visible, easy processes — and leave the high-value decisions untouched. Here's how to identify what's actually worth automating.</description>
+    <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/automate-wrong-things.html</guid>
+  </item>
+  <item>
+    <title>The difference between a roadmap and a plan</title>
+    <link>https://stewartmasters.me/blog/roadmap-vs-plan.html</link>
+    <description>A roadmap tells you where you're going. A plan tells you how to get there. Most teams have one and call it the other — and it costs them dearly.</description>
+    <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/roadmap-vs-plan.html</guid>
+  </item>
+  <item>
+    <title>How to hire a product manager who actually builds</title>
+    <link>https://stewartmasters.me/blog/hiring-product-manager.html</link>
+    <description>Most PM hiring processes select for people who present well, not people who ship. Here's how to tell the difference — and what to look for in a PM who actually builds.</description>
+    <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/hiring-product-manager.html</guid>
+  </item>
+  <item>
+    <title>What I learned from 20 years of bad strategy decks</title>
+    <link>https://stewartmasters.me/blog/strategy-decks.html</link>
+    <description>After two decades of seeing strategy decks that don't work, I've noticed the same sins keep appearing. Here's what bad strategy looks like — and what good looks like instead.</description>
+    <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/strategy-decks.html</guid>
+  </item>
+  <item>
+    <title>Why your CTO and CMO don't speak the same language</title>
+    <link>https://stewartmasters.me/blog/cto-cmo-language.html</link>
+    <description>CTOs think in systems. CMOs think in stories. The gap between them is where roadmaps stall, data gets misread, and AI projects die in committee.</description>
+    <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/cto-cmo-language.html</guid>
+  </item>
+  <item>
+    <title>The ops stack every digital business needs — and most don't have</title>
+    <link>https://stewartmasters.me/blog/ops-stack.html</link>
+    <description>Most digital businesses run on 15 disconnected tools and call it an ops stack. Here's what a real connected operations stack looks like — and why it matters.</description>
+    <pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/ops-stack.html</guid>
+  </item>
+  <item>
+    <title>What makes a great product brief — and why most teams skip it</title>
+    <link>https://stewartmasters.me/blog/product-brief.html</link>
+    <description>A product brief isn't a spec doc. It's a contract between what the business needs and what the team is building. Most teams skip it and pay for it later.</description>
+    <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/product-brief.html</guid>
+  </item>
+  <item>
+    <title>How to think about AI ROI — and why most frameworks get it wrong</title>
+    <link>https://stewartmasters.me/blog/ai-roi.html</link>
+    <description>Most AI ROI frameworks measure the wrong things. Here's a better way to think about value that actually holds up inside a real business.</description>
+    <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/ai-roi.html</guid>
+  </item>
+  <item>
+    <title>What Is Agentic AI — and What Does It Mean for Non-Technical Business Leaders?</title>
+    <link>https://stewartmasters.me/blog/agentic-ai-business-leaders.html</link>
+    <description>Agentic AI systems can plan, make decisions, and take actions autonomously. For business leaders, this changes what's possible — and what's at stake. Here's a clear-headed introduction.</description>
+    <pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/agentic-ai-business-leaders.html</guid>
+  </item>
+  <item>
+    <title>What Boards Need to Know About Shadow AI Right Now</title>
+    <link>https://stewartmasters.me/blog/shadow-ai-boards.html</link>
+    <description>Shadow AI — employees using AI tools without corporate knowledge or approval — is already inside your organisation. Here's what boards need to understand and what to do about it.</description>
+    <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/shadow-ai-boards.html</guid>
+  </item>
+  <item>
+    <title>Three Digital Transformations I've Seen Fail — and What Actually Went Wrong</title>
+    <link>https://stewartmasters.me/blog/digital-transformation-failures.html</link>
+    <description>Most digital transformation failures share the same underlying causes. Drawing on direct experience, here are three patterns I've watched destroy value — and what a different outcome would have required.</description>
+    <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/digital-transformation-failures.html</guid>
+  </item>
+  <item>
+    <title>Digitisation vs Digitalisation vs Digital Transformation: The Difference Actually Matters</title>
+    <link>https://stewartmasters.me/blog/digitisation-vs-digitalisation.html</link>
+    <description>Digitisation, digitalisation, and digital transformation are not the same thing. Conflating them leads to misaligned strategy and wasted investment. Here's the clear distinction.</description>
+    <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/digitisation-vs-digitalisation.html</guid>
+  </item>
+  <item>
+    <title>What Is a Fractional Leader — and When Does It Make More Sense Than a Full Hire?</title>
+    <link>https://stewartmasters.me/blog/fractional-leader.html</link>
+    <description>Fractional leadership is growing fast — but it's not right for every situation. Here's when a fractional CMO, CFO, or CTO genuinely makes sense, and when it doesn't.</description>
+    <pubDate>Tue, 30 Dec 2025 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/fractional-leader.html</guid>
+  </item>
+  <item>
+    <title>What Is a Non-Executive Director — and Does Your Business Need One?</title>
+    <link>https://stewartmasters.me/blog/what-is-a-non-executive-director.html</link>
+    <description>What is a Non-Executive Director, what do they actually do, and when does your business genuinely need one? A practical guide from someone who's held both sides of the table.</description>
+    <pubDate>Fri, 26 Dec 2025 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/what-is-a-non-executive-director.html</guid>
+  </item>
+  <item>
+    <title>What Is AI Fluency — and Why Every Executive Needs It in 2026</title>
+    <link>https://stewartmasters.me/blog/ai-fluency-for-leaders.html</link>
+    <description>AI fluency isn't about learning to code. It's about knowing enough to lead well in a world where AI is reshaping every business decision. Here's what it actually means.</description>
+    <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/ai-fluency-for-leaders.html</guid>
+  </item>
+  <item>
+    <title>Board Advisor vs Non-Executive Director: What's the Actual Difference?</title>
+    <link>https://stewartmasters.me/blog/board-advisor-vs-non-executive-director.html</link>
+    <description>Board advisors and Non-Executive Directors are often used interchangeably — but the differences in legal responsibility, time commitment, and compensation are significant. Here's how to tell them apart.</description>
+    <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/board-advisor-vs-non-executive-director.html</guid>
+  </item>
+  <item>
+    <title>How to Land Your First Board Advisor Role</title>
+    <link>https://stewartmasters.me/blog/how-to-land-first-board-advisor-role.html</link>
+    <description>Most people wait to be discovered. That's why they wait forever. Here's the practical approach to landing your first board advisor role — from positioning to outreach.</description>
+    <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/how-to-land-first-board-advisor-role.html</guid>
+  </item>
+  <item>
+    <title>What is a Digital Strategy — and Why Most Companies Don't Actually Have One</title>
+    <link>https://stewartmasters.me/blog/what-is-a-digital-strategy.html</link>
+    <description>Most organisations think they have a digital strategy. What they actually have is a list of technology projects. Here's what a real digital strategy looks like — and how to build one.</description>
+    <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/what-is-a-digital-strategy.html</guid>
+  </item>
+  </channel>
+</rss>
