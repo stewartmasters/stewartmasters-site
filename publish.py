@@ -230,6 +230,10 @@ def main():
             print(f"ERROR: Post file not found in blog/ or blog/drafts/: {slug}.html")
             print("Add the post HTML to blog/drafts/ before its scheduled date.")
             sys.exit(1)
+    elif not os.path.exists(draft_path):
+        print(f"ERROR: {slug}.html is already published but has a new schedule.json entry for {today}.")
+        print("This is a duplicate schedule entry. Remove the duplicate from schedule.json.")
+        sys.exit(1)
 
     print(f"Publishing: {today_entry['title']}")
 
