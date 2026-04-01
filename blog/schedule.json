@@ -57,10 +57,10 @@
   },
   {
     "date": "2026-04-02",
-    "slug": "measuring-product-market-fit",
-    "title": "How to measure product-market fit honestly",
-    "category": "Digital Strategy",
-    "excerpt": "Product-market fit is real — but most teams don’t know when they have it. Here’s how to look past vanity signals and measure it honestly.",
+    "slug": "adoption-not-capability",
+    "title": "The AI Problem Is Adoption, Not Capability",
+    "category": "AI & Technology",
+    "excerpt": "The tools are good enough. The bottleneck is people, process, and organisational readiness. Here’s why most AI implementations stall at adoption.",
     "read_time": 6
   },
   {
@@ -173,14 +173,6 @@
     "title": "AI governance — what boards need to get right",
     "category": "Board & Advisory",
     "excerpt": "AI governance is becoming a board responsibility. Most boards aren’t ready for it. Here’s what good governance actually looks like in practice.",
-    "read_time": 6
-  },
-  {
-    "date": "2026-05-26",
-    "slug": "adoption-not-capability",
-    "title": "Why adoption beats capability every time",
-    "category": "AI & Technology",
-    "excerpt": "The most capable tool wins nothing if nobody uses it. Here’s why adoption is the real measure of a successful digital or AI implementation.",
     "read_time": 6
   },
   {
