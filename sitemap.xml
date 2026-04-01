@@ -35,6 +35,12 @@
 
   <!-- Published blog posts -->
   <url>
+    <loc>https://stewartmasters.me/blog/salary-spending-blind-spot.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://stewartmasters.me/blog/agentic-ai-business-leaders.html</loc>
     <lastmod>2026-01-13</lastmod>
     <changefreq>monthly</changefreq>

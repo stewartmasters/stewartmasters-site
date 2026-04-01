@@ -6,12 +6,19 @@
     <description>Operator perspectives on AI adoption, digital operations, and product execution inside real businesses.</description>
     <language>en</language>
     <atom:link href="https://stewartmasters.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 26 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://stewartmasters.me/favicon-32x32.png</url>
       <title>Stewart Masters</title>
       <link>https://stewartmasters.me</link>
     </image>
+  <item>
+    <title>Why most professionals have no idea what they're worth — or where their money goes</title>
+    <link>https://stewartmasters.me/blog/salary-spending-blind-spot.html</link>
+    <description>Most professionals are rigorous with data at work and completely blind about their own finances. Here's why that gap exists and how to close it.</description>
+    <pubDate>Sun, 29 Mar 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/salary-spending-blind-spot.html</guid>
+  </item>
   <item>
     <title>How to Measure Product-Market Fit Honestly</title>
     <link>https://stewartmasters.me/blog/measuring-product-market-fit.html</link>
