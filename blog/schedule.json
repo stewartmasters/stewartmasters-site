@@ -40,6 +40,14 @@
     "read_time": 6
   },
   {
+    "date": "2026-03-25",
+    "slug": "build-vs-buy",
+    "title": "When to build vs. buy in a digital business",
+    "category": "Digital Strategy",
+    "excerpt": "The build vs. buy decision is never just technical. It’s strategic. Here’s how to make it without regretting it six months later.",
+    "read_time": 6
+  },
+  {
     "date": "2026-03-31",
     "slug": "why-ai-projects-fail",
     "title": "Why Most AI Projects Fail in Companies",
@@ -245,14 +253,6 @@
     "title": "The hidden failure modes of digital marketplaces",
     "category": "Digital Strategy",
     "excerpt": "Marketplaces look simple. They’re not. Here are the failure modes that catch founders off-guard — and how to design against them from the start.",
-    "read_time": 6
-  },
-  {
-    "date": "2026-06-30",
-    "slug": "why-ai-projects-fail",
-    "title": "Why most AI projects fail in companies",
-    "category": "AI & Technology",
-    "excerpt": "Most AI projects don’t fail because the technology doesn’t work. They fail because of decisions made before a single line of code is written.",
     "read_time": 6
   },
   {
