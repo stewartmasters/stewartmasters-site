@@ -6,12 +6,26 @@
     <description>Operator perspectives on AI adoption, digital operations, and product execution inside real businesses.</description>
     <language>en</language>
     <atom:link href="https://stewartmasters.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 29 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://stewartmasters.me/favicon-32x32.png</url>
       <title>Stewart Masters</title>
       <link>https://stewartmasters.me</link>
     </image>
+  <item>
+    <title>The AI Problem Is Adoption, Not Capability</title>
+    <link>https://stewartmasters.me/blog/adoption-not-capability.html</link>
+    <description>The tools are good enough. The bottleneck is people, process, and organisational readiness. Here's why most AI implementations stall at adoption.</description>
+    <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/adoption-not-capability.html</guid>
+  </item>
+  <item>
+    <title>Why Most AI Projects Fail in Companies | Stewart Masters</title>
+    <link>https://stewartmasters.me/blog/why-ai-projects-fail.html</link>
+    <description>Most AI projects don't fail because the technology doesn't work. They fail because of decisions made before a single line of code is written.</description>
+    <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/why-ai-projects-fail.html</guid>
+  </item>
   <item>
     <title>Why most professionals have no idea what they're worth — or where their money goes</title>
     <link>https://stewartmasters.me/blog/salary-spending-blind-spot.html</link>
