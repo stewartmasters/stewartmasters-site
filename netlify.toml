@@ -2,6 +2,19 @@
   command = "npm ci && npm run build:css"
   publish = "."
 
+# Canonical URL redirects — prevent duplicate indexing
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/index.html"
+  to = "/blog/"
+  status = 301
+  force = true
+
 # Block public access to draft posts
 [[redirects]]
   from = "/blog/drafts/*"
