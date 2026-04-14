@@ -1,0 +1,86 @@
+[
+  {
+    "slug": "ai-adoption",
+    "title": "AI Adoption for Leadership Teams",
+    "meta_description": "Stewart Masters speaks on AI adoption for leadership teams — practical implementation, avoiding the most expensive mistakes, and what actually works inside a real business.",
+    "category": "AI & Technology",
+    "intro": "Most leadership teams know they need to move on AI. Fewer know where to start, what to prioritise, or how to avoid the most common and expensive mistakes. This talk draws directly from the experience of building and running AI programmes inside fast-moving businesses.",
+    "takeaways": [
+      "Why most AI projects stall before they deliver value — and the predictable pattern behind it",
+      "How to assess organisational readiness before committing to an AI programme",
+      "The difference between AI as a productivity tool and AI as a structural change to how the business operates",
+      "How to build an AI business case that a board will actually approve",
+      "What the first 90 days of a real AI implementation should look like"
+    ],
+    "formats": ["Keynote (30–60 min)", "Executive workshop (half-day)", "Boardroom session (90 min)", "Conference panel"],
+    "audiences": ["C-suite and leadership teams", "Boards and non-executive directors", "Founders and operators", "Technology and digital conferences"],
+    "related_posts": [
+      {"slug": "why-ai-projects-fail", "title": "Why Most AI Projects Fail", "category": "AI & Technology"},
+      {"slug": "ai-business-case", "title": "Building an AI Business Case", "category": "AI & Technology"},
+      {"slug": "adoption-not-capability", "title": "The AI Problem Is Adoption, Not Capability", "category": "AI & Technology"}
+    ]
+  },
+  {
+    "slug": "digital-transformation",
+    "title": "Digital Transformation That Works",
+    "meta_description": "Stewart Masters speaks on digital transformation — why most fail, what separates the ones that don't, and what leadership teams and boards need to get right from the start.",
+    "category": "Digital Strategy",
+    "intro": "Digital transformation has a poor track record — not because the technology doesn't work, but because of the decisions made before and during the process. This talk covers the consistent failure patterns and what the successful ones do differently.",
+    "takeaways": [
+      "The structural reasons why most digital transformations fail to deliver lasting change",
+      "How to sequence a transformation so you build momentum rather than lose it",
+      "The team and leadership decisions that determine whether transformation sticks",
+      "How to measure progress in a way that reflects real business change rather than IT activity",
+      "What boards and investors should be asking — and when to be worried"
+    ],
+    "formats": ["Keynote (30–60 min)", "Executive workshop (half-day)", "Conference panel", "Leadership team session"],
+    "audiences": ["C-suite and senior leadership", "Founders and scale-up operators", "Boards overseeing digital programmes", "Business strategy conferences"],
+    "related_posts": [
+      {"slug": "digital-transformation-failures", "title": "Why Digital Transformations Fail", "category": "Digital Strategy"},
+      {"slug": "digitisation-vs-digitalisation", "title": "Digitisation vs Digitalisation", "category": "Digital Strategy"},
+      {"slug": "digital-first-operations", "title": "Building Digital-First Operations", "category": "Digital Strategy"}
+    ]
+  },
+  {
+    "slug": "ai-governance-boards",
+    "title": "AI Governance for Boards and NEDs",
+    "meta_description": "Stewart Masters speaks on AI governance for boards and non-executive directors — practical frameworks for oversight, risk, and the questions every board should be asking.",
+    "category": "Board & Governance",
+    "intro": "Boards are increasingly responsible for AI governance without the frameworks to do it effectively. This session is designed specifically for board members and NEDs — focused on oversight, risk, and accountability rather than technical detail.",
+    "takeaways": [
+      "What AI governance actually means at board level — and what it doesn't",
+      "The specific AI risks that boards are responsible for overseeing",
+      "How to evaluate whether management's AI strategy is credible",
+      "The questions every board member should be asking — and red flags in the answers",
+      "What good AI governance looks like in practice, with examples from different sectors"
+    ],
+    "formats": ["Boardroom session (90 min)", "NED education session (half-day)", "Keynote (45 min)", "Panel discussion"],
+    "audiences": ["Boards and non-executive directors", "Chairs and governance committees", "Investors and audit committees", "Governance and risk conferences"],
+    "related_posts": [
+      {"slug": "boards-evaluating-ai-risk", "title": "How Boards Should Evaluate AI Risk", "category": "Board & Advisory"},
+      {"slug": "shadow-ai-boards", "title": "Shadow AI and Board Oversight", "category": "Board & Advisory"},
+      {"slug": "ai-ready-board", "title": "Building an AI-Ready Board", "category": "Board & Advisory"}
+    ]
+  },
+  {
+    "slug": "digital-operations",
+    "title": "Building Digital Operations at Scale",
+    "meta_description": "Stewart Masters speaks on scaling digital operations across multiple markets — ops stack decisions, digital team structure, managing tech debt, and what actually works at scale.",
+    "category": "Operations",
+    "intro": "Building a digital system that works in one location is one challenge. Making it work consistently across multiple markets, with different teams and different levels of digital maturity, is a different problem entirely. This talk covers what operators learn the hard way.",
+    "takeaways": [
+      "How to design a digital operations stack that actually scales — not just works locally",
+      "The team structure decisions that determine whether digital becomes embedded or stays marginal",
+      "How to manage tech debt before it becomes a constraint on growth",
+      "What cross-market digital consistency looks like and how to maintain it without stifling local teams",
+      "The metrics that actually matter when you're scaling digital operations"
+    ],
+    "formats": ["Keynote (45 min)", "Executive workshop (half-day)", "Leadership team session (90 min)", "Conference panel"],
+    "audiences": ["Operations and digital leaders", "Multi-site business operators", "Founders scaling into new markets", "Hospitality, retail, and consumer brand conferences"],
+    "related_posts": [
+      {"slug": "ops-stack", "title": "Building the Right Ops Stack", "category": "Digital Strategy"},
+      {"slug": "tech-debt-cost", "title": "The Real Cost of Tech Debt", "category": "Digital Strategy"},
+      {"slug": "digital-first-operations", "title": "Building Digital-First Operations", "category": "Digital Strategy"}
+    ]
+  }
+]

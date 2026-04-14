@@ -1,0 +1,807 @@
+[
+  {
+    "date": "2026-04-21",
+    "slug": "what-is-a-fractional-cdo",
+    "question": "What is a fractional CDO?",
+    "meta_description": "A fractional CDO provides executive-level digital leadership part-time or on a fixed-term basis. Here's what the role covers, when it makes sense, and what to look for.",
+    "category": "Digital Strategy",
+    "intro": "A fractional CDO — or fractional Chief Digital Officer — is an experienced digital executive who works with an organisation on a part-time, interim, or project basis rather than as a full-time hire. The model has become increasingly common as businesses recognise the need for senior digital leadership without the cost or commitment of a permanent C-suite role.",
+    "sections": [
+      {
+        "heading": "What the role covers",
+        "content": "The scope depends on the business, but typically includes digital strategy, technology decision-making, team structure, and digital operations. A fractional CDO might lead a transformation programme, define a technology roadmap, advise on build vs buy decisions, or help a board understand the digital risks in the business. Unlike a consultant who produces a report, a fractional CDO takes accountability for outcomes — they operate, not just advise.",
+        "bullets": []
+      },
+      {
+        "heading": "When it makes sense",
+        "content": "The model works best when a business has a clear digital need but isn't yet at the stage where a full-time CDO makes commercial sense. This is common in growth-stage companies, businesses undergoing transformation, or organisations filling a capability gap while they hire. It also works well when the need is project-specific — launching a digital product, building a data foundation, or leading an AI programme — rather than ongoing.",
+        "bullets": [
+          "You need senior digital leadership but can't justify a full-time hire",
+          "You're at an inflection point: fundraise, new market, or digital pivot",
+          "You need someone who can operate, not just advise",
+          "Your board needs a credible digital voice it doesn't currently have"
+        ]
+      },
+      {
+        "heading": "What to look for",
+        "content": "The best fractional CDOs have deep operating experience — they've built and run digital teams before, not just consulted on them. Look for someone who has worked in similar contexts to yours in terms of scale, sector, and geography, and who is explicit about how they structure their time across clients. Ask for references from operating engagements, not advisory ones.",
+        "bullets": []
+      }
+    ],
+    "closing": "The most important question before engaging a fractional CDO is whether the scope is clear. A fixed-term engagement with defined outcomes is far more likely to deliver value than an open-ended retainer without a mandate.",
+    "related_posts": [
+      {"slug": "fractional-leader", "title": "What a fractional leader actually does", "category": "Leadership"},
+      {"slug": "chief-ai-officer", "title": "Do you need a Chief AI Officer?", "category": "Leadership"},
+      {"slug": "digital-transformation-failures", "title": "Why digital transformations fail", "category": "Digital Strategy"}
+    ]
+  },
+  {
+    "date": "2026-04-28",
+    "slug": "how-to-evaluate-a-cto",
+    "question": "How do I evaluate my CTO?",
+    "meta_description": "Evaluating a CTO means looking beyond technical competence to strategic clarity, team leadership, and whether the role has grown with the business. Here's how to do it properly.",
+    "category": "Leadership",
+    "intro": "Evaluating a CTO is one of the most difficult assessments a founder or board has to make — partly because most boards lack the technical context to assess technical leadership directly, and partly because what makes a great CTO changes significantly as a company scales.",
+    "sections": [
+      {
+        "heading": "What you're actually evaluating",
+        "content": "Technical depth matters less than people think at the senior level. The right questions are about strategy and leadership: Can they translate technology decisions into business outcomes? Do they build teams that scale? Are they making the company's technology simpler or more complicated over time? A CTO who is still writing most of the code three years into a company's growth is often a warning sign, not a strength.",
+        "bullets": [
+          "Do they understand the business well enough to make the right technology trade-offs?",
+          "Are they building a team, or are they the team?",
+          "Can they communicate technical risk to a non-technical board?",
+          "Is the technical debt growing or shrinking under their leadership?"
+        ]
+      },
+      {
+        "heading": "Signs the role may have been outgrown",
+        "content": "The most common pattern is a CTO who was exceptional in the early stages — shipping fast, working across every layer of the stack — but who hasn't transitioned into a leadership and strategy role as the company has grown. The tell is usually a team that is highly dependent on the CTO for decisions, a roadmap that lives in one person's head, and a board that can't get a clear picture of technical direction.",
+        "bullets": []
+      },
+      {
+        "heading": "How to have the conversation",
+        "content": "If you have concerns, the worst approach is ambiguity. Be specific about what outcomes you need to see and in what timeframe. Give the CTO the opportunity to respond with a clear plan. If the role needs to change — more team-building, less individual contribution — that can often be framed as a natural evolution rather than a criticism. But if the fit is fundamentally wrong, acting slowly is almost always more damaging than acting clearly.",
+        "bullets": []
+      }
+    ],
+    "closing": "Evaluating a CTO well requires honesty about what the business needs now, not what it needed when the person was hired. The role changes faster than most leadership roles as a company grows.",
+    "related_posts": [
+      {"slug": "technology-handover", "title": "How to handle a technology leadership handover", "category": "Leadership"},
+      {"slug": "cto-cmo-language", "title": "Why CTOs and CMOs speak different languages", "category": "Leadership"},
+      {"slug": "hiring-head-of-ai", "title": "How to hire your first Head of AI", "category": "Leadership"}
+    ]
+  },
+  {
+    "date": "2026-05-05",
+    "slug": "what-does-a-cdo-do",
+    "question": "What does a Chief Digital Officer actually do?",
+    "meta_description": "The CDO role varies widely by company, but at its core it covers digital strategy, technology leadership, and digital operations. Here's what the role actually involves in practice.",
+    "category": "Digital Strategy",
+    "intro": "The Chief Digital Officer title covers a surprisingly wide range of responsibilities depending on the company, sector, and stage of digital maturity. In some organisations it's primarily a strategy role. In others it's deeply operational. Understanding what the role should actually be is the first step to knowing whether you need one and what to expect from them.",
+    "sections": [
+      {
+        "heading": "The core responsibilities",
+        "content": "In most businesses, a CDO is responsible for the digital strategy (what the company is trying to achieve digitally and why), the technology roadmap (how the business gets there), digital operations (how digital systems run day-to-day across the business), and the digital team (the people building and running those systems). In practice, the balance between these shifts significantly depending on whether the company is in build mode, scale mode, or transformation mode.",
+        "bullets": [
+          "Setting and owning the digital strategy — not just executing someone else's vision",
+          "Making technology decisions that balance commercial priorities with technical quality",
+          "Building and leading a digital team that can operate without being dependent on the CDO",
+          "Representing digital at board and exec level — translating technology into business terms"
+        ]
+      },
+      {
+        "heading": "How it differs from a CTO",
+        "content": "The clearest distinction is orientation: a CTO is primarily outward-facing (product, technology infrastructure, what gets built) while a CDO is primarily inward-facing (internal digital systems, operations, digital transformation). In practice these roles overlap considerably, especially in smaller companies where one person often covers both. The CDO role becomes more distinct at scale, when internal digital operations become complex enough to warrant dedicated leadership.",
+        "bullets": []
+      }
+    ],
+    "closing": "The most useful CDOs are operators, not advisers — they have accountability for outcomes, not just recommendations. If the role is purely strategic without operational responsibility, it's likely to have limited impact.",
+    "related_posts": [
+      {"slug": "fractional-leader", "title": "What a fractional leader actually does", "category": "Leadership"},
+      {"slug": "chief-ai-officer", "title": "Do you need a Chief AI Officer?", "category": "Leadership"},
+      {"slug": "digital-transformation-failures", "title": "Why digital transformations fail", "category": "Digital Strategy"}
+    ]
+  },
+  {
+    "date": "2026-05-12",
+    "slug": "how-to-build-an-ai-business-case",
+    "question": "How do I build an AI business case?",
+    "meta_description": "Building an AI business case that gets approved means speaking the board's language — outcomes, risks, and ROI rather than technology. Here's the structure that works.",
+    "category": "AI & Technology",
+    "intro": "Most AI business cases fail not because the idea is wrong, but because they're written for technologists rather than decision-makers. A board or exec team approving an AI investment needs to understand the business outcome, the cost, the risk, and the timeline — not the technical architecture.",
+    "sections": [
+      {
+        "heading": "Start with the business problem",
+        "content": "The strongest AI business cases start from a specific, measurable business problem rather than from a technology. 'We want to implement AI' is not a business case. 'We spend 40 hours per week on manual scheduling and it causes 15% of our customer service failures' is the start of one. Define the problem in business terms first, then explain why AI is the right solution — and why now.",
+        "bullets": []
+      },
+      {
+        "heading": "The elements a board needs to see",
+        "content": "A credible AI business case for board approval needs to include: the problem and its current cost to the business; the proposed solution at a level non-technical stakeholders can evaluate; the expected ROI with realistic assumptions; the implementation costs (technology, team, time, and change management); and the risks with mitigations. Boards are increasingly sceptical of AI ROI projections — build yours conservatively and explain your assumptions.",
+        "bullets": [
+          "What problem does this solve and what is its current cost?",
+          "What specifically will the AI do — and what will it not do?",
+          "What is the realistic ROI and over what timeframe?",
+          "What are the implementation costs, including people and change management?",
+          "What are the risks and how will they be managed?"
+        ]
+      },
+      {
+        "heading": "Common mistakes",
+        "content": "The most common mistakes are overstating the ROI with optimistic assumptions, underestimating the time and cost of implementation (especially data preparation and change management), and presenting the case as purely positive with no honest discussion of risk. Boards trust business cases more when the presenter has clearly thought through what could go wrong.",
+        "bullets": []
+      }
+    ],
+    "closing": "The best AI business cases are written by people who understand both the technology and the business — and who are honest about the difference between potential value and certain value.",
+    "related_posts": [
+      {"slug": "ai-business-case", "title": "Building an AI business case", "category": "AI & Technology"},
+      {"slug": "ai-roi", "title": "How to measure AI ROI", "category": "AI & Technology"},
+      {"slug": "why-ai-projects-fail", "title": "Why most AI projects fail", "category": "AI & Technology"}
+    ]
+  },
+  {
+    "date": "2026-05-19",
+    "slug": "what-is-ai-governance",
+    "question": "What is AI governance?",
+    "meta_description": "AI governance is the set of policies, processes, and oversight mechanisms that determine how AI is used within an organisation. Here's what it means in practice — and why boards need to take it seriously.",
+    "category": "Board & Advisory",
+    "intro": "AI governance refers to the policies, processes, and oversight mechanisms that determine how AI systems are developed, deployed, and monitored within an organisation. It covers accountability (who is responsible for AI decisions), transparency (how those decisions are made), risk management (what could go wrong and how it's prevented), and compliance (how the organisation meets legal and ethical obligations).",
+    "sections": [
+      {
+        "heading": "Why it matters more now",
+        "content": "As AI moves from experimental to operational — from pilots to systems that make real decisions at scale — the governance question becomes unavoidable. A customer service chatbot that goes wrong affects a handful of interactions. An AI system embedded in hiring, lending, or medical decisions can cause harm at scale before the problem is identified. The EU AI Act has codified this into regulation, and boards are increasingly expected to demonstrate that AI is being governed responsibly.",
+        "bullets": []
+      },
+      {
+        "heading": "What good AI governance looks like",
+        "content": "Effective AI governance is not a compliance checklist — it's an operating model. It includes clarity about who owns each AI system and is accountable for its outcomes; a process for evaluating new AI tools before deployment; ongoing monitoring of AI systems in production; clear escalation paths when something goes wrong; and a policy that employees understand and actually follow.",
+        "bullets": [
+          "Clear ownership and accountability for each AI system",
+          "A documented process for evaluating and approving new AI tools",
+          "Ongoing monitoring with defined metrics and review triggers",
+          "An AI policy that covers both internal use and customer-facing applications",
+          "Board-level reporting on AI risk as part of standard risk management"
+        ]
+      }
+    ],
+    "closing": "Governance without enforcement is just documentation. The organisations that get AI governance right make it a live process rather than a set of policies that sit on a shelf.",
+    "related_posts": [
+      {"slug": "boards-evaluating-ai-risk", "title": "How boards should evaluate AI risk", "category": "Board & Advisory"},
+      {"slug": "shadow-ai-boards", "title": "Shadow AI and board oversight", "category": "Board & Advisory"},
+      {"slug": "ai-ready-board", "title": "Building an AI-ready board", "category": "Board & Advisory"}
+    ]
+  },
+  {
+    "date": "2026-05-26",
+    "slug": "how-to-write-a-digital-strategy",
+    "question": "How do I write a digital strategy?",
+    "meta_description": "A digital strategy is not a technology plan — it's a set of choices about how digital will help the business achieve its objectives. Here's how to write one that actually gets used.",
+    "category": "Digital Strategy",
+    "intro": "A digital strategy is a set of choices about how digital capabilities — technology, data, and digital operations — will help the business achieve its commercial objectives. The most common mistake is treating it as a technology plan. A digital strategy should be readable by any senior leader in the business, not just the technology team.",
+    "sections": [
+      {
+        "heading": "What a digital strategy should contain",
+        "content": "The core of a good digital strategy is a clear link between business priorities and digital investments. It should articulate where the business is today digitally (honest assessment, not aspirational), where it needs to be and why (tied to commercial strategy), what investments and changes are required to get there, and how progress will be measured. It should be specific enough to guide decisions and short enough to be remembered.",
+        "bullets": [
+          "Where the business is today — capability, systems, team, gaps",
+          "Where it needs to be and why — tied directly to business objectives",
+          "What it will take to get there — investments, team changes, sequencing",
+          "How you will know it's working — specific metrics and milestones"
+        ]
+      },
+      {
+        "heading": "What makes most digital strategies fail",
+        "content": "Most digital strategies fail in execution rather than conception. The most common reasons: the strategy is too abstract to guide daily decisions; it wasn't built with the people who need to implement it; there's no clear owner or accountability for delivery; and it's treated as a document rather than a living plan. A digital strategy that isn't reviewed quarterly is probably already out of date.",
+        "bullets": []
+      }
+    ],
+    "closing": "The best digital strategies are not the most comprehensive ones — they're the ones with the clearest choices and the most honest assessment of what it will take to deliver them.",
+    "related_posts": [
+      {"slug": "what-is-a-digital-strategy", "title": "What is a digital strategy?", "category": "Digital Strategy"},
+      {"slug": "digital-transformation-failures", "title": "Why digital transformations fail", "category": "Digital Strategy"},
+      {"slug": "strategy-decks", "title": "Why strategy decks fail", "category": "Digital Strategy"}
+    ]
+  },
+  {
+    "date": "2026-06-02",
+    "slug": "digitisation-vs-digitalisation-explained",
+    "question": "What's the difference between digitisation and digitalisation?",
+    "meta_description": "Digitisation is converting analogue to digital. Digitalisation is using digital to change how work gets done. The distinction matters more than most organisations realise.",
+    "category": "Digital Strategy",
+    "intro": "Digitisation and digitalisation are often used interchangeably but they describe fundamentally different things. The distinction matters because confusing them leads businesses to invest in one when they need the other — and then wonder why nothing changes.",
+    "sections": [
+      {
+        "heading": "Digitisation",
+        "content": "Digitisation is the conversion of analogue information and processes into a digital format. Scanning paper invoices, moving from a paper rota to a spreadsheet, or entering customer records into a database — these are all digitisation. The process or information is now in digital form, but the underlying way of working hasn't changed. It's a necessary foundation but not sufficient to generate significant business value on its own.",
+        "bullets": []
+      },
+      {
+        "heading": "Digitalisation",
+        "content": "Digitalisation is using digital technology to change how work actually gets done — typically to improve speed, quality, cost, or scale. Moving from a spreadsheet rota to a system that automatically schedules based on forecasted demand is digitalisation. Building a customer portal that reduces inbound calls by giving customers self-service access is digitalisation. The process itself has changed, not just the format it's recorded in.",
+        "bullets": [
+          "Digitisation: converting existing processes to digital format",
+          "Digitalisation: using digital to change or improve the processes themselves",
+          "Digital transformation: changing the business model using digital capabilities"
+        ]
+      },
+      {
+        "heading": "Why the distinction matters",
+        "content": "Organisations that think they're digitalising when they're only digitising often underinvest in the change management and process redesign that digitalisation requires. Replacing paper forms with digital forms without redesigning the underlying process is digitisation — and delivers far less value than the investment suggests. The question to ask is always: has the way work gets done actually changed, or just the format it's recorded in?",
+        "bullets": []
+      }
+    ],
+    "closing": "Most digital transformation programmes stall at digitisation because the harder work of changing processes and ways of working requires more than technology investment.",
+    "related_posts": [
+      {"slug": "digitisation-vs-digitalisation", "title": "Digitisation vs digitalisation — a practical guide", "category": "Digital Strategy"},
+      {"slug": "digital-transformation-failures", "title": "Why digital transformations fail", "category": "Digital Strategy"},
+      {"slug": "automate-wrong-things", "title": "When companies automate the wrong things", "category": "Digital Strategy"}
+    ]
+  },
+  {
+    "date": "2026-06-09",
+    "slug": "how-boards-evaluate-ai-risk",
+    "question": "How should boards evaluate AI risk?",
+    "meta_description": "Boards are expected to govern AI without the frameworks to do it. Here's a practical approach to evaluating AI risk at board level — without needing to be technical.",
+    "category": "Board & Advisory",
+    "intro": "Boards are increasingly expected to govern AI as part of their broader risk oversight responsibilities — but most boards don't yet have clear frameworks for doing this. Evaluating AI risk at board level doesn't require technical expertise. It requires asking the right questions and understanding what good answers look like.",
+    "sections": [
+      {
+        "heading": "The questions every board should be asking",
+        "content": "Start with inventory and accountability: what AI systems are we using, who owns each one, and who is accountable when something goes wrong? Then move to risk: what decisions is AI making or influencing, and what is the impact if those decisions are wrong? Then to governance: do we have a policy, is it followed, and are we monitoring for problems? Most boards who ask these questions in sequence discover that the answers are less clear than they expected.",
+        "bullets": [
+          "What AI systems are currently in use — including tools employees use independently?",
+          "Who is accountable for each AI system and its outputs?",
+          "What are the highest-risk AI applications and what are the consequences of failure?",
+          "Do we have a policy, and do employees know what it covers?",
+          "How would we know if an AI system was causing harm?"
+        ]
+      },
+      {
+        "heading": "Red flags in management's answers",
+        "content": "Boards should be concerned when management can't enumerate the AI systems in use (shadow AI is a significant governance gap), when accountability for AI outcomes is unclear, when the AI policy is generic rather than tied to specific use cases, or when there is no monitoring in place for AI systems that are already in production. These are not signs that AI is being misused — they're signs that it's being used without sufficient governance.",
+        "bullets": []
+      }
+    ],
+    "closing": "The board's role is not to approve or disapprove every AI implementation — it's to ensure that management has the right frameworks in place to make those decisions responsibly and to report back with appropriate transparency.",
+    "related_posts": [
+      {"slug": "boards-evaluating-ai-risk", "title": "How boards should evaluate AI risk", "category": "Board & Advisory"},
+      {"slug": "shadow-ai-boards", "title": "Shadow AI and board oversight", "category": "Board & Advisory"},
+      {"slug": "ai-ready-board", "title": "Building an AI-ready board", "category": "Board & Advisory"}
+    ]
+  },
+  {
+    "date": "2026-06-16",
+    "slug": "how-to-hire-head-of-ai",
+    "question": "How do I hire a Head of AI?",
+    "meta_description": "Most companies hiring for AI leadership are asking the wrong questions. Here's what the role actually requires — and how to find someone who can do it inside a real business.",
+    "category": "Leadership",
+    "intro": "Hiring a Head of AI is one of the most consequential and most misunderstood hiring decisions a business currently faces. The role is often defined around technical credentials — PhDs, model training experience, research backgrounds — when the most critical requirements are usually about implementation, change management, and business acumen.",
+    "sections": [
+      {
+        "heading": "What the role actually needs to do",
+        "content": "In most businesses, a Head of AI is not building foundation models — they're identifying where AI can create value, selecting and implementing the right tools, working with teams to change how they operate, and building the governance structures that keep AI use responsible. The skills required are closer to a general manager than a research scientist: business judgment, stakeholder management, the ability to translate between technical and commercial teams, and experience making things work in practice rather than in a lab.",
+        "bullets": []
+      },
+      {
+        "heading": "The wrong signals to hire on",
+        "content": "Technical credentials are necessary but not sufficient. The red flags to watch for: candidates who can't explain AI concepts in plain language to a non-technical audience; candidates whose only AI experience is in research or large tech companies (very different context from a scale-up); and candidates who focus on what AI can do rather than on how to make it work inside your specific organisation. The best candidates will ask hard questions about your data, your team's readiness, and your actual business objectives.",
+        "bullets": [
+          "Prioritise implementation experience over research credentials",
+          "Look for someone who has worked in businesses at a comparable scale to yours",
+          "Test for business judgment, not just technical knowledge",
+          "Assess their ability to work with non-technical teams — this is most of the job"
+        ]
+      }
+    ],
+    "closing": "The Head of AI role is evolving fast. Hire for the problems you have now and the context of your organisation — not for the role as it exists at Google or OpenAI.",
+    "related_posts": [
+      {"slug": "hiring-head-of-ai", "title": "How to hire your first Head of AI", "category": "Leadership"},
+      {"slug": "chief-ai-officer", "title": "Do you need a Chief AI Officer?", "category": "Leadership"},
+      {"slug": "ai-business-case", "title": "Building an AI business case", "category": "AI & Technology"}
+    ]
+  },
+  {
+    "date": "2026-06-23",
+    "slug": "when-to-build-vs-buy",
+    "question": "When should I build vs buy technology?",
+    "meta_description": "The build vs buy decision is never just technical — it's strategic. Here's how to frame the decision and avoid the most expensive mistakes on both sides.",
+    "category": "Digital Strategy",
+    "intro": "The build vs buy decision is one of the most consequential technology choices a business makes — and one of the most frequently made on the wrong basis. Most businesses default to one approach without clearly thinking through the trade-offs.",
+    "sections": [
+      {
+        "heading": "The real question isn't build or buy",
+        "content": "The real question is: where does this capability sit in relation to your competitive advantage? If a capability is genuinely differentiating — if it creates value that your competitors can't replicate by buying the same tool — building it yourself is usually worth the investment. If the capability is table stakes (you need it to operate, but it's not where you compete), buying a proven solution almost always makes more sense. Most businesses over-invest in building things that don't differentiate them.",
+        "bullets": [
+          "Build when: the capability is genuinely differentiating and gives you a competitive edge",
+          "Buy when: the capability is needed to operate but doesn't create competitive advantage",
+          "Build when: your specific requirements are so unusual that no off-the-shelf solution fits",
+          "Buy when: the market has mature solutions that will continue to evolve with vendor investment"
+        ]
+      },
+      {
+        "heading": "The hidden costs of building",
+        "content": "The upfront cost of building is rarely the full cost. Custom software requires ongoing maintenance, needs to evolve as the business changes, creates dependency on the team that built it, and distracts engineering capacity from other priorities. Many businesses that chose to build eventually discover they've created a legacy system they can't afford to replace and can't afford to maintain.",
+        "bullets": []
+      }
+    ],
+    "closing": "The best default for most growing businesses is to buy aggressively and build only where you have clear evidence that no available solution can serve the need. Your competitive advantage almost never comes from the tools you use — it comes from how you use them.",
+    "related_posts": [
+      {"slug": "build-vs-buy", "title": "When to build vs buy in a digital business", "category": "Digital Strategy"},
+      {"slug": "tech-debt-cost", "title": "The real cost of tech debt", "category": "Digital Strategy"},
+      {"slug": "ops-stack", "title": "Building the right ops stack", "category": "Digital Strategy"}
+    ]
+  },
+  {
+    "date": "2026-06-30",
+    "slug": "what-is-tech-debt",
+    "question": "What is tech debt and why does it matter?",
+    "meta_description": "Tech debt is the accumulated cost of shortcut decisions in software development. Here's what it actually means for a growing business — and why it's a leadership problem, not just a developer problem.",
+    "category": "Digital Strategy",
+    "intro": "Tech debt refers to the accumulated cost of shortcut decisions made during software development — code written quickly to meet a deadline, systems integrated without proper architecture, features built on top of foundations that weren't designed to support them. Like financial debt, it accrues interest: the longer it's left, the more expensive it becomes.",
+    "sections": [
+      {
+        "heading": "Why it matters to leadership, not just developers",
+        "content": "Tech debt is not a developer problem — it's a business problem. It manifests as slower product development (everything takes longer because the codebase is harder to work in), higher costs (maintaining complex systems costs more than maintaining clean ones), increased operational risk (fragile systems break more often and are harder to fix), and difficulty attracting and retaining good technical talent. When leadership hears 'we need to slow down to fix the foundations', tech debt is usually the reason.",
+        "bullets": [
+          "Every new feature takes longer and costs more than it should",
+          "Bug rates are higher and incidents are harder to resolve",
+          "The technical team is increasingly defensive rather than innovative",
+          "It becomes harder to adopt new technology because of legacy constraints"
+        ]
+      },
+      {
+        "heading": "How to manage it",
+        "content": "Tech debt is inevitable in fast-moving businesses — the goal is not to eliminate it but to manage it consciously. That means making deliberate trade-offs (choosing speed now with a clear plan to refactor later), allocating regular capacity for technical improvement rather than treating it as optional, and making the cost of tech debt visible to leadership and the board so decisions are made with full information.",
+        "bullets": []
+      }
+    ],
+    "closing": "The most expensive tech debt is the kind leadership doesn't know they have. Making it visible is the first step to managing it responsibly.",
+    "related_posts": [
+      {"slug": "tech-debt-cost", "title": "The real cost of tech debt in a growing business", "category": "Digital Strategy"},
+      {"slug": "build-vs-buy", "title": "When to build vs buy", "category": "Digital Strategy"},
+      {"slug": "digital-transformation-failures", "title": "Why digital transformations fail", "category": "Digital Strategy"}
+    ]
+  },
+  {
+    "date": "2026-07-07",
+    "slug": "how-to-measure-digital-transformation",
+    "question": "How do I measure digital transformation?",
+    "meta_description": "Digital transformation is notoriously hard to measure. Here's a practical framework for tracking progress that reflects real business change — not just technology activity.",
+    "category": "Digital Strategy",
+    "intro": "Digital transformation is one of the hardest things to measure well. The instinct is often to count inputs — money spent, systems implemented, training hours completed — rather than the outcomes those inputs are supposed to generate. Input metrics tell you what you've done, not whether it's working.",
+    "sections": [
+      {
+        "heading": "Measure outcomes, not activity",
+        "content": "The most useful metrics for digital transformation are business outcomes that digital investment is supposed to improve: operational efficiency (cost per transaction, time to serve, error rates), revenue impact (digital revenue share, conversion rates, customer lifetime value), and customer experience (satisfaction scores, retention, self-service rates). These connect digital investment to the things that actually matter to a board or investor.",
+        "bullets": [
+          "Operational efficiency: cost per transaction, processing time, error rate",
+          "Revenue impact: digital revenue %, new customer acquisition cost, upsell rates",
+          "Customer experience: self-service adoption, satisfaction scores, retention",
+          "Team capability: digital skill levels, process automation rates"
+        ]
+      },
+      {
+        "heading": "The lagging indicator problem",
+        "content": "Business outcomes often lag the work that drives them by months or years — you won't see the full revenue impact of a new digital channel in the quarter you launch it. This creates a reporting problem: boards need to know whether the transformation is on track before the outcomes are visible. The answer is to combine lagging outcome metrics with leading indicators: milestones achieved, adoption rates, and process compliance metrics that predict future outcomes.",
+        "bullets": []
+      }
+    ],
+    "closing": "Good measurement of digital transformation starts with honest agreement about what success looks like — defined in business terms, not technology terms — before the investment is made.",
+    "related_posts": [
+      {"slug": "kpis-vs-metrics", "title": "KPIs vs metrics — what's the difference?", "category": "Digital Strategy"},
+      {"slug": "digital-transformation-failures", "title": "Why digital transformations fail", "category": "Digital Strategy"},
+      {"slug": "okrs-without-bureaucracy", "title": "OKRs without the bureaucracy", "category": "Digital Strategy"}
+    ]
+  },
+  {
+    "date": "2026-07-14",
+    "slug": "what-is-a-product-roadmap",
+    "question": "What is a product roadmap — and why do most of them fail?",
+    "meta_description": "A product roadmap is a plan for what a product team will build and when. Most of them fail to reflect reality. Here's what a good one looks like and why the approach matters.",
+    "category": "Digital Strategy",
+    "intro": "A product roadmap is a plan that describes what a product team intends to build, in what order, and roughly when. In theory it aligns the team, sets expectations with stakeholders, and reflects the product strategy. In practice, most product roadmaps are more fiction than plan — and the gap between the two is where most product development problems originate.",
+    "sections": [
+      {
+        "heading": "What a roadmap should do",
+        "content": "A good product roadmap does three things: it communicates priorities (what matters most and why), it creates alignment (everyone understands the plan and the trade-offs behind it), and it guides decisions (when something new comes up, the roadmap helps decide where it fits or what it displaces). It is not a commitment to specific features by specific dates — that kind of roadmap becomes a political document rather than a strategic one.",
+        "bullets": []
+      },
+      {
+        "heading": "Why most roadmaps fail",
+        "content": "Most product roadmaps fail because they're built under conditions that make them obsolete quickly: customer needs change, technical discoveries shift priorities, business strategy evolves. When a roadmap can't absorb these changes without falling apart, teams start treating it as a fiction they maintain for stakeholders while doing something different in practice. The better approach is a roadmap structured by outcomes rather than features — describing what the product needs to achieve rather than what it needs to contain.",
+        "bullets": [
+          "Features are wrong unit of planning — outcomes are more resilient to change",
+          "Quarterly roadmaps age better than 12-month feature lists",
+          "Stakeholder pressure for certainty creates false precision",
+          "Roadmaps with no trade-off decisions baked in are usually avoiding something"
+        ]
+      }
+    ],
+    "closing": "A roadmap that everyone believes is worth the complexity of building one. A roadmap that nobody trusts is worse than no roadmap at all.",
+    "related_posts": [
+      {"slug": "product-roadmap-fiction", "title": "Why most product roadmaps are fiction", "category": "Digital Strategy"},
+      {"slug": "roadmap-vs-plan", "title": "Roadmap vs plan — what's the difference?", "category": "Digital Strategy"},
+      {"slug": "product-brief", "title": "How to write a product brief", "category": "Digital Strategy"}
+    ]
+  },
+  {
+    "date": "2026-07-21",
+    "slug": "why-do-ai-projects-fail",
+    "question": "Why do most AI projects fail?",
+    "meta_description": "Most AI projects don't fail because the technology doesn't work. They fail because of decisions made before a line of code is written. Here's the pattern.",
+    "category": "AI & Technology",
+    "intro": "The failure rate for AI projects is striking given the level of investment. Most analyses put it at over 80% — meaning more than four in five AI initiatives fail to deliver production value. The consistent finding is that the technology is rarely the primary cause. The failures are almost always organisational.",
+    "sections": [
+      {
+        "heading": "The most common failure patterns",
+        "content": "Starting with the technology rather than the business problem: teams choose a model or tool first and look for a use case to apply it to, rather than identifying a specific business problem and then evaluating whether AI is the right solution. Poor data readiness: most organisations significantly underestimate the time and cost of preparing data to a quality where AI can work reliably with it. Underestimating change management: AI changes how people work, and the implementation plan often fails to account for the adoption challenge.",
+        "bullets": [
+          "Technology-first thinking rather than problem-first thinking",
+          "Data that isn't clean, complete, or in the right structure",
+          "No clear owner for outcomes — only for the technical delivery",
+          "Underestimating the adoption challenge with the people who need to use it",
+          "Piloting indefinitely without a plan to move to production"
+        ]
+      },
+      {
+        "heading": "What the successful ones do differently",
+        "content": "The AI projects that succeed typically start with a specific, measurable problem; have a clear owner who is accountable for the business outcome (not just the technical delivery); invest early and heavily in data quality; and treat the change management and adoption challenge as equally important as the technical implementation. They also define what success looks like before the project starts — not during it.",
+        "bullets": []
+      }
+    ],
+    "closing": "The question worth asking before any AI project is not 'what AI should we build?' — it's 'what specific business problem do we need to solve, and is AI the most effective way to solve it?'",
+    "related_posts": [
+      {"slug": "why-ai-projects-fail", "title": "Why most AI projects fail in companies", "category": "AI & Technology"},
+      {"slug": "adoption-not-capability", "title": "The AI problem is adoption, not capability", "category": "AI & Technology"},
+      {"slug": "ai-business-case", "title": "Building an AI business case", "category": "AI & Technology"}
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "slug": "what-does-an-advisory-board-do",
+    "question": "What does an advisory board actually do?",
+    "meta_description": "Advisory boards are often a list of names on a deck. Here's what they should actually do, when they create value, and how to structure one that works.",
+    "category": "Board & Advisory",
+    "intro": "Advisory boards are one of the most misused governance structures in early-stage and growth businesses. At their best they provide genuine strategic input, specific expertise, and access. At their worst they're a list of impressive names that generates no value and creates obligations on both sides.",
+    "sections": [
+      {
+        "heading": "What advisory boards should do",
+        "content": "An effective advisory board provides access to expertise the founding team doesn't have, perspective on strategic decisions that benefits from outside experience, networks and introductions the business couldn't easily access otherwise, and a sounding board for significant decisions before they go to the main board. The most valuable advisors are actively involved — they take calls, make introductions, review documents, and are genuinely engaged in the success of the business. The least valuable are names on a slide who haven't spoken to the founder in six months.",
+        "bullets": []
+      },
+      {
+        "heading": "When they create real value",
+        "content": "Advisory boards work best when the advisors are recruited against specific needs rather than prestigious names; when the terms of engagement are clear (time commitment, scope, compensation); when the founder actively uses them rather than waiting for scheduled calls; and when advisors are refreshed as the business's needs change. The single biggest driver of advisory board failure is mismatched expectations — the founder expects active involvement, the advisor treats it as a light commitment.",
+        "bullets": [
+          "Recruit for specific expertise gaps, not just credibility",
+          "Be explicit about time commitment and what active looks like",
+          "Compensate fairly — equity, cash, or a hybrid — based on the expected contribution",
+          "Review the advisory board annually and make changes when the needs evolve"
+        ]
+      }
+    ],
+    "closing": "A well-structured advisory board of three engaged experts will outperform a prestigious board of ten names who rarely engage. Quality of engagement is almost always more valuable than quality of credentials.",
+    "related_posts": [
+      {"slug": "board-advisor-vs-non-executive-director", "title": "Board advisor vs non-executive director", "category": "Board & Advisory"},
+      {"slug": "how-to-land-first-board-advisor-role", "title": "How to land your first board advisor role", "category": "Board & Advisory"},
+      {"slug": "first-90-days-ned", "title": "The first 90 days as a NED", "category": "Board & Advisory"}
+    ]
+  },
+  {
+    "date": "2026-08-04",
+    "slug": "how-to-get-board-buyin-for-technology",
+    "question": "How do I get board buy-in for a technology investment?",
+    "meta_description": "Most technology investment cases fail at board level not because the idea is wrong, but because they're presented the wrong way. Here's how to get the approval you need.",
+    "category": "Board & Advisory",
+    "intro": "Technology investment cases fail at board level far more often than they should — not because the underlying decision is wrong, but because they're written for technologists rather than for the board members approving them. Translating a technology case into language that lands with a non-technical board is a specific skill that most technical leaders underestimate.",
+    "sections": [
+      {
+        "heading": "Lead with the business problem",
+        "content": "The most common mistake is leading with the solution — the technology, the vendor, the architecture — rather than the problem it solves. A board's primary question is not 'is this good technology?' — it's 'what business problem does this solve, how significant is that problem, and is this the right solution?' Start there, and let the technology answer flow from it.",
+        "bullets": []
+      },
+      {
+        "heading": "What boards need to see",
+        "content": "A board considering a technology investment needs a clear view of: the business problem and its current cost (quantified wherever possible); the proposed solution in terms they can evaluate without technical expertise; the total cost of investment including implementation, change management, and ongoing running costs; the expected return and over what timeframe; the risks and how they will be managed; and who will be accountable for delivery and outcomes.",
+        "bullets": [
+          "The business problem — not the technology solution — is the starting point",
+          "Total cost of ownership, not just licence or development cost",
+          "Conservative ROI with clear assumptions the board can stress-test",
+          "A credible implementation plan with named accountabilities",
+          "The risks, honestly presented, with genuine mitigations"
+        ]
+      }
+    ],
+    "closing": "Boards trust investment cases more when the presenter has clearly thought through what could go wrong. Hiding the risks rarely works — and when it does, it creates problems when something goes wrong in delivery.",
+    "related_posts": [
+      {"slug": "ai-business-case", "title": "Building an AI business case", "category": "AI & Technology"},
+      {"slug": "boards-evaluating-ai-risk", "title": "How boards evaluate AI risk", "category": "Board & Advisory"},
+      {"slug": "board-meeting", "title": "How to run a board meeting", "category": "Board & Advisory"}
+    ]
+  },
+  {
+    "date": "2026-08-11",
+    "slug": "what-is-agentic-ai",
+    "question": "What is agentic AI?",
+    "meta_description": "Agentic AI refers to AI systems that can take actions, make decisions, and complete multi-step tasks autonomously rather than just responding to prompts. Here's what it means in practice.",
+    "category": "AI & Technology",
+    "intro": "Agentic AI describes AI systems that can take sequences of actions, make decisions across multiple steps, and complete complex tasks with minimal human intervention — rather than simply responding to individual prompts. It represents a significant shift in how AI is used inside businesses, and brings both greater potential and greater risk than conventional AI tools.",
+    "sections": [
+      {
+        "heading": "How it differs from conventional AI tools",
+        "content": "Most AI tools in current business use — writing assistants, image generators, customer service chatbots — respond to a single input and produce a single output. Agentic AI systems can plan, execute sequences of actions, use other tools and systems, monitor results, and adjust their approach based on what happens. An agentic AI system given the goal of 'book the best available flight within budget and add it to the calendar' can handle the entire process rather than requiring a human to execute each step.",
+        "bullets": []
+      },
+      {
+        "heading": "What it means for businesses",
+        "content": "For businesses, agentic AI opens up a much larger category of automation — not just individual tasks but entire workflows. The value is potentially significant; so is the governance challenge. When an AI system can take actions autonomously, the questions of accountability (who is responsible when something goes wrong?), oversight (how do humans maintain control?), and risk (what actions should the system never be allowed to take?) become much more important.",
+        "bullets": [
+          "The opportunity: automating complex, multi-step workflows rather than just individual tasks",
+          "The risk: autonomous action without sufficient human oversight",
+          "The governance question: who is accountable for decisions made by an AI agent?",
+          "The practical reality: most businesses are still in early stages of understanding agentic AI"
+        ]
+      }
+    ],
+    "closing": "Agentic AI is not yet mainstream in business operations, but the direction is clear. Understanding the concept now allows business leaders to evaluate vendor claims more critically and prepare governance frameworks before they become urgent.",
+    "related_posts": [
+      {"slug": "agentic-ai-business-leaders", "title": "Agentic AI for business leaders", "category": "AI & Technology"},
+      {"slug": "why-ai-projects-fail", "title": "Why most AI projects fail", "category": "AI & Technology"},
+      {"slug": "adoption-not-capability", "title": "The AI problem is adoption, not capability", "category": "AI & Technology"}
+    ]
+  },
+  {
+    "date": "2026-08-18",
+    "slug": "how-to-choose-an-ai-vendor",
+    "question": "How do I choose the right AI vendor?",
+    "meta_description": "Choosing the wrong AI vendor is expensive and hard to reverse. Here's a structured approach to evaluating AI tools and vendors before you commit.",
+    "category": "AI & Technology",
+    "intro": "The AI vendor market is noisy, fast-moving, and full of vendors making similar claims. Choosing the wrong one is expensive — not just in licence costs but in implementation time, switching costs, and the opportunity cost of not having the right tool for however long it takes to notice the mistake. A structured evaluation process is worth the upfront investment.",
+    "sections": [
+      {
+        "heading": "What to evaluate before shortlisting",
+        "content": "Before you evaluate specific vendors, be clear about what problem you're solving and what a good outcome looks like. This sounds obvious but most vendor evaluations start with the vendor's framing of the problem rather than the buyer's. Once you have clarity on the problem, evaluate vendors on: fit with your specific use case (not their headline capability), integration with your existing systems, data handling and security practices, the realistic implementation timeline and cost, and their track record with similar businesses.",
+        "bullets": [
+          "Define the use case precisely before evaluating vendors against it",
+          "Assess integration requirements — can it connect to your existing systems?",
+          "Scrutinise data handling: where does your data go and who can access it?",
+          "Ask for references from businesses at a similar scale and in a similar sector",
+          "Understand the true total cost — implementation, training, and ongoing support"
+        ]
+      },
+      {
+        "heading": "Red flags to watch for",
+        "content": "Vendors who can't give you a concrete answer about how their product has been used successfully in your specific context should be treated with caution. Vague ROI claims without supporting evidence, difficulty getting clear answers about data security, and pressure to sign before you've completed your evaluation are all warning signs. The AI vendor market has more noise than signal right now — healthy scepticism is appropriate.",
+        "bullets": []
+      }
+    ],
+    "closing": "The best AI vendor is rarely the one with the most impressive demo — it's the one that can demonstrably solve your specific problem, with your data, for a cost that makes the investment worthwhile.",
+    "related_posts": [
+      {"slug": "build-vs-buy", "title": "When to build vs buy", "category": "Digital Strategy"},
+      {"slug": "ai-business-case", "title": "Building an AI business case", "category": "AI & Technology"},
+      {"slug": "why-ai-projects-fail", "title": "Why most AI projects fail", "category": "AI & Technology"}
+    ]
+  },
+  {
+    "date": "2026-08-25",
+    "slug": "what-is-the-eu-ai-act",
+    "question": "What is the EU AI Act and does it affect my business?",
+    "meta_description": "The EU AI Act is the world's first comprehensive AI regulation. Here's what it covers, which businesses are affected, and what you need to do about it.",
+    "category": "AI & Technology",
+    "intro": "The EU AI Act is the European Union's comprehensive framework for regulating AI systems. Passed in 2024 and coming into effect progressively through 2025 and 2026, it applies to any organisation that develops, deploys, or uses AI systems within the EU — including businesses based outside the EU that serve EU customers or operate EU systems.",
+    "sections": [
+      {
+        "heading": "How it classifies AI risk",
+        "content": "The Act classifies AI systems into four risk categories: unacceptable risk (banned outright — for example, real-time remote biometric surveillance in public spaces), high risk (subject to strict requirements — including AI used in hiring, credit assessment, medical devices, and critical infrastructure), limited risk (transparency obligations apply — such as chatbots that must disclose they are AI), and minimal risk (no specific requirements, covering most general-purpose AI tools). Most business AI use falls into the limited or minimal risk categories, but high-risk applications carry significant compliance obligations.",
+        "bullets": []
+      },
+      {
+        "heading": "What businesses need to do",
+        "content": "The starting point for most businesses is an inventory: what AI systems are you using, what are they used for, and which risk category do they fall into? For limited-risk applications (chatbots, AI-generated content), you need transparency measures — users must know they're interacting with AI. For high-risk applications, the requirements are more substantial: human oversight, documentation, conformity assessments. Even if your current AI use is minimal risk, building the inventory and governance process now is a worthwhile investment before the regulation is fully in force.",
+        "bullets": [
+          "Build an inventory of all AI systems in use and their purpose",
+          "Classify each use case by risk level under the Act",
+          "Implement transparency measures for limited-risk applications",
+          "If you have high-risk applications, seek specialist legal advice",
+          "Establish a governance process for evaluating new AI tools against the Act"
+        ]
+      }
+    ],
+    "closing": "The EU AI Act is not a reason to stop using AI — it's a reason to use it with appropriate governance. Most businesses that are already thinking carefully about AI governance will find compliance more straightforward than they expect.",
+    "related_posts": [
+      {"slug": "boards-evaluating-ai-risk", "title": "How boards evaluate AI risk", "category": "Board & Advisory"},
+      {"slug": "shadow-ai-boards", "title": "Shadow AI and board oversight", "category": "Board & Advisory"},
+      {"slug": "ai-ready-board", "title": "Building an AI-ready board", "category": "Board & Advisory"}
+    ]
+  },
+  {
+    "date": "2026-09-01",
+    "slug": "what-is-a-non-executive-director",
+    "question": "What is a non-executive director (NED)?",
+    "meta_description": "A non-executive director sits on a company's board without an executive management role. Here's what the role involves, what good NEDs do, and how they create value.",
+    "category": "Board & Advisory",
+    "intro": "A non-executive director (NED) is a member of a company's board of directors who does not hold an executive management role within the business. Unlike executive directors, NEDs are not responsible for day-to-day operations. Their primary roles are oversight, governance, and providing independent perspective on strategy and significant decisions.",
+    "sections": [
+      {
+        "heading": "What NEDs are responsible for",
+        "content": "Non-executive directors are responsible for scrutinising the performance of executive management against agreed goals, satisfying themselves that the information they receive is sufficient to make good governance decisions, contributing to the development of the company's strategy, and ensuring the company meets its legal and regulatory obligations. They bring independence — they are not incentivised to approve executive decisions in the way that employed executives might be.",
+        "bullets": [
+          "Oversight of executive management performance against agreed objectives",
+          "Constructive challenge of strategy and major decisions",
+          "Governance — ensuring the company operates within legal and ethical boundaries",
+          "Specific expertise — contributing domain knowledge the board otherwise lacks"
+        ]
+      },
+      {
+        "heading": "What good NEDs actually do",
+        "content": "The best NEDs are active rather than passive — they read papers carefully, ask difficult questions, and don't defer to the chairman or CEO without independent thought. They maintain genuine independence even when it creates friction. They invest time in understanding the business beyond board meetings. And they know when to escalate and when to trust management. The least effective NEDs are those who treat the role as a credential rather than a responsibility.",
+        "bullets": []
+      }
+    ],
+    "closing": "The value of a NED is proportional to the independence and quality of their judgment. A board full of NEDs who always agree with the executives is a governance risk, not an asset.",
+    "related_posts": [
+      {"slug": "what-is-a-non-executive-director", "title": "What is a non-executive director?", "category": "Board & Advisory"},
+      {"slug": "board-advisor-vs-non-executive-director", "title": "Board advisor vs NED — what's the difference?", "category": "Board & Advisory"},
+      {"slug": "first-90-days-ned", "title": "The first 90 days as a NED", "category": "Board & Advisory"}
+    ]
+  },
+  {
+    "date": "2026-09-08",
+    "slug": "how-to-write-an-ai-policy",
+    "question": "How do I write an AI policy for my organisation?",
+    "meta_description": "A practical guide to writing an AI policy that employees will actually use — covering what to include, what to avoid, and how to keep it current as AI tools evolve.",
+    "category": "AI & Technology",
+    "intro": "An AI policy sets out how employees are expected to use AI tools within the organisation — what's permitted, what requires approval, what's prohibited, and how to handle sensitive situations. The challenge is writing one that is specific enough to be useful but flexible enough to remain relevant as the AI landscape evolves rapidly.",
+    "sections": [
+      {
+        "heading": "What a good AI policy covers",
+        "content": "A useful AI policy should address: permitted uses (what employees can use AI for without specific approval), prohibited uses (what is not allowed — typically anything involving sensitive personal data, confidential client information, or regulated outputs), approved tools (a list of vetted AI tools and any conditions on their use), data handling (what data can and cannot be inputted into AI systems), disclosure (when to disclose to clients or customers that AI was used), and escalation (who to ask when unsure).",
+        "bullets": [
+          "Permitted uses — what employees can do without additional approval",
+          "Prohibited uses — explicit list with the reason behind each restriction",
+          "Approved tools — vetted list with any conditions or limitations",
+          "Data handling rules — what can and cannot be shared with AI systems",
+          "Disclosure obligations — internal and external",
+          "Escalation path — who to contact when unsure"
+        ]
+      },
+      {
+        "heading": "Common mistakes",
+        "content": "The most common mistake is writing a policy that is either so restrictive it's ignored (employees work around it with personal accounts) or so general it provides no actual guidance. The second is not reviewing it. AI tools and capabilities are changing monthly — a policy written in 2024 may already be outdated. Build in a review cadence and assign someone to own it.",
+        "bullets": []
+      }
+    ],
+    "closing": "The most effective AI policies are written collaboratively with the people who will use them — not issued top-down. An employee who helped write the policy is more likely to follow it than one who received it in an email.",
+    "related_posts": [
+      {"slug": "shadow-ai-boards", "title": "Shadow AI and what boards need to know", "category": "Board & Advisory"},
+      {"slug": "boards-evaluating-ai-risk", "title": "How boards evaluate AI risk", "category": "Board & Advisory"},
+      {"slug": "ai-fluency-for-leaders", "title": "AI fluency for business leaders", "category": "AI & Technology"}
+    ]
+  },
+  {
+    "date": "2026-09-15",
+    "slug": "what-is-product-market-fit",
+    "question": "What is product-market fit and how do you measure it?",
+    "meta_description": "Product-market fit is when your product meets a real need in a way that creates genuine demand. Here's what it actually means — and the signals that tell you whether you have it.",
+    "category": "Digital Strategy",
+    "intro": "Product-market fit describes the condition where a product meets a genuine, significant market need in a way that creates organic demand and retention. The term has become ubiquitous in startup discourse, but its meaning is often vague. In practice, you know you have product-market fit when you see it in the data — and when you lack it, the data is equally clear.",
+    "sections": [
+      {
+        "heading": "What it actually looks like",
+        "content": "The clearest signal of product-market fit is retention: users who come back without being pushed to. If you stop marketing and users continue to use the product, tell others about it, and resist switching when alternatives exist, you have the early signs of fit. The inverse is equally diagnostic — high acquisition costs, low retention, and growth that only continues while you're actively pushing it are signs that fit hasn't been achieved yet.",
+        "bullets": [
+          "Retention: users come back without prompting",
+          "Word of mouth: users tell others unprompted",
+          "Demand: you're struggling to keep up rather than struggling to acquire",
+          "Stickiness: users resist switching even when alternatives exist"
+        ]
+      },
+      {
+        "heading": "How to measure it",
+        "content": "There is no single metric for product-market fit — it's assessed through a combination of retention curves (do they flatten or continue to drop?), Net Promoter Score (would they recommend?), the 'very disappointed' survey (would you be very disappointed if this product ceased to exist?), and qualitative signals from the most engaged users. The most useful exercise is often identifying the characteristics of your best users and understanding what value they're extracting that others aren't.",
+        "bullets": []
+      }
+    ],
+    "closing": "Product-market fit is not a switch that flips — it's a spectrum, and most products have it with some segments and not others. The job is to understand with whom you have fit and why, before scaling.",
+    "related_posts": [
+      {"slug": "measuring-product-market-fit", "title": "How to measure product-market fit", "category": "Digital Strategy"},
+      {"slug": "product-roadmap-fiction", "title": "Why most product roadmaps are fiction", "category": "Digital Strategy"},
+      {"slug": "kpis-vs-metrics", "title": "KPIs vs metrics", "category": "Digital Strategy"}
+    ]
+  },
+  {
+    "date": "2026-09-22",
+    "slug": "what-is-a-data-strategy",
+    "question": "What is a data strategy?",
+    "meta_description": "A data strategy defines how an organisation collects, manages, and uses data to achieve its objectives. Here's what a good one looks like — and why it matters more than ever in an AI-first world.",
+    "category": "Digital Strategy",
+    "intro": "A data strategy is a set of decisions about how an organisation will collect, store, manage, and use data to achieve its business objectives. It's not a technology plan — it's a business plan for data. And as AI becomes a more significant part of how businesses operate, having a coherent data strategy has shifted from a nice-to-have to a prerequisite for AI investment.",
+    "sections": [
+      {
+        "heading": "What a data strategy should address",
+        "content": "A useful data strategy covers four areas: what data the business collects and why (data inventory and purpose); how that data is stored, protected, and governed (data management); how data is used to generate insights and decisions (data use); and who is responsible for data quality and governance (data ownership). The most common gap is data governance — many businesses collect data without clear ownership or quality standards, which creates problems at scale.",
+        "bullets": [
+          "What data do we collect, and is it the right data for our objectives?",
+          "How is data stored, protected, and accessed?",
+          "Who is responsible for data quality and governance?",
+          "How is data used to make better decisions?",
+          "Is our data ready to support the AI use cases we're planning?"
+        ]
+      },
+      {
+        "heading": "Why it matters for AI",
+        "content": "AI systems are only as good as the data they're trained on or working with. Most AI project failures trace back to data problems: data that doesn't exist, data that exists but is too low quality to use, or data that exists in formats that AI systems can't easily work with. A data strategy that gets these foundations right is not glamorous, but it's the work that determines whether AI investment will pay off.",
+        "bullets": []
+      }
+    ],
+    "closing": "The businesses that will get the most from AI over the next five years are not necessarily the ones with the most sophisticated models — they're the ones with the cleanest, most accessible, best-governed data.",
+    "related_posts": [
+      {"slug": "data-strategy-founders", "title": "Data strategy for non-technical founders", "category": "Digital Strategy"},
+      {"slug": "data-governance", "title": "Data governance for growing businesses", "category": "Digital Strategy"},
+      {"slug": "why-ai-projects-fail", "title": "Why most AI projects fail", "category": "AI & Technology"}
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "slug": "how-to-run-a-board-meeting",
+    "question": "How do I run an effective board meeting?",
+    "meta_description": "Most board meetings are poorly structured and generate more heat than light. Here's how to run one that produces good decisions, clear accountability, and useful debate.",
+    "category": "Board & Advisory",
+    "intro": "Board meetings are expensive — they consume significant time from the company's most experienced people. Run well, they produce better decisions, clearer accountability, and useful challenge to management. Run poorly, they produce long presentations, superficial debate, and decisions that have already been made elsewhere.",
+    "sections": [
+      {
+        "heading": "The conditions for a good board meeting",
+        "content": "A good board meeting starts before the meeting begins. Board papers should go out at least five days in advance and be genuinely readable — not a data dump. The agenda should be built around decisions and discussion, not presentations. The chair's job is to ensure that every item generates productive debate and that the board's time is spent where it's most valuable, not on operational updates that could be provided in writing.",
+        "bullets": [
+          "Papers distributed at least five days in advance — not two days",
+          "Agenda structured around decisions and discussion, not presentations",
+          "Executive presentations should be short — board time is for debate, not briefing",
+          "Clear action items with owners and due dates before the meeting closes",
+          "Closed session between NEDs (without executives) as a standing agenda item"
+        ]
+      },
+      {
+        "heading": "Common failure modes",
+        "content": "The most common problems are presentations that consume most of the available time with no space for discussion; board papers that bury the key issues in operational detail; agendas that treat every item as equally important; and a culture where challenge is seen as disloyalty rather than governance. The chair is responsible for all of these — and most board problems are ultimately chair problems.",
+        "bullets": []
+      }
+    ],
+    "closing": "The best test of a board meeting is whether participants leave with clarity about what was decided, who is accountable for what, and what the most important open questions are. If they don't, the meeting design needs work.",
+    "related_posts": [
+      {"slug": "board-meeting", "title": "How to run an effective board meeting", "category": "Board & Advisory"},
+      {"slug": "first-90-days-ned", "title": "The first 90 days as a NED", "category": "Board & Advisory"},
+      {"slug": "boards-evaluating-ai-risk", "title": "How boards evaluate AI risk", "category": "Board & Advisory"}
+    ]
+  },
+  {
+    "date": "2026-10-06",
+    "slug": "what-is-shadow-ai",
+    "question": "What is shadow AI?",
+    "meta_description": "Shadow AI refers to employees using AI tools without organisational approval or oversight. Here's why it's a governance risk — and what boards and leadership teams need to do about it.",
+    "category": "Board & Advisory",
+    "intro": "Shadow AI refers to the use of AI tools within an organisation without formal approval, oversight, or visibility from leadership. Just as shadow IT described employees using personal cloud storage or messaging apps for work, shadow AI describes employees using ChatGPT, AI writing tools, or other AI applications with company data — outside any organisational governance framework.",
+    "sections": [
+      {
+        "heading": "Why it's a governance risk",
+        "content": "The risk is not primarily that employees are using AI — most organisations actively want to increase AI adoption. The risk is that they're doing it without the organisation knowing: without data governance (what company data is being shared with external AI systems?), without quality controls (are AI outputs being used without appropriate human review?), and without accountability (who is responsible if something goes wrong?). In regulated industries or businesses handling sensitive client data, the exposure can be significant.",
+        "bullets": [
+          "Data governance: company or client data shared with third-party AI systems",
+          "Quality risk: AI outputs used without appropriate human review",
+          "Compliance risk: AI use that violates regulatory obligations",
+          "Reputational risk: AI-generated content shared externally without disclosure"
+        ]
+      },
+      {
+        "heading": "What to do about it",
+        "content": "The response to shadow AI is not to ban AI use — that drives the problem further underground. The more effective approach is to acknowledge that employees are already using AI, create a clear and practical AI policy that covers common use cases, provide approved tools that are better than the unofficial alternatives, and build a culture where employees escalate uncertainty rather than assume it's fine. Boards should be asking management for a shadow AI assessment as part of standard AI governance oversight.",
+        "bullets": []
+      }
+    ],
+    "closing": "Shadow AI is not a sign that employees are being reckless — it's usually a sign that they're trying to do their jobs and the organisation hasn't given them a sanctioned way to use tools that are genuinely useful.",
+    "related_posts": [
+      {"slug": "shadow-ai-boards", "title": "Shadow AI — what boards need to know", "category": "Board & Advisory"},
+      {"slug": "boards-evaluating-ai-risk", "title": "How boards evaluate AI risk", "category": "Board & Advisory"},
+      {"slug": "ai-ready-board", "title": "Building an AI-ready board", "category": "Board & Advisory"}
+    ]
+  }
+]

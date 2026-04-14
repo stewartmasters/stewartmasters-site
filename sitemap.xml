@@ -33,6 +33,50 @@
     <priority>0.6</priority>
   </url>
 
+  <!-- Speaking pages -->
+  <url>
+    <loc>https://stewartmasters.me/speaking.html</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stewartmasters.me/speaking/ai-adoption.html</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stewartmasters.me/speaking/digital-transformation.html</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stewartmasters.me/speaking/ai-governance-boards.html</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stewartmasters.me/speaking/digital-operations.html</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- FAQ index -->
+  <url>
+    <loc>https://stewartmasters.me/faq/</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- FAQ pages (auto-populated by publish_faq.py) -->
+<!-- FAQ_URLS_START -->
+<!-- FAQ_URLS_END -->
+
   <!-- Published blog posts -->
   <url>
     <loc>https://stewartmasters.me/blog/boards-evaluating-ai-risk.html</loc>

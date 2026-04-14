@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Building Digital Operations at Scale — Speaking — Stewart Masters</title>
+  <meta name="description" content="Stewart Masters speaks on scaling digital operations across multiple markets — ops stack decisions, digital team structure, managing tech debt, and what actually works at scale.">
+  <link rel="canonical" href="https://stewartmasters.me/speaking/digital-operations.html">
+
+  <meta property="og:title" content="Building Digital Operations at Scale — Stewart Masters">
+  <meta property="og:description" content="Stewart Masters speaks on scaling digital operations across multiple markets — ops stack decisions, digital team structure, managing tech debt, and what actually works at scale.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://stewartmasters.me/speaking/digital-operations.html">
+  <meta property="og:site_name" content="Stewart Masters">
+
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Building Digital Operations at Scale \u2014 Speaking \u2014 Stewart Masters",
+  "description": "Stewart Masters speaks on scaling digital operations across multiple markets \u2014 ops stack decisions, digital team structure, managing tech debt, and what actually works at scale.",
+  "url": "https://stewartmasters.me/speaking/digital-operations.html",
+  "author": {
+    "@type": "Person",
+    "name": "Stewart Masters",
+    "url": "https://stewartmasters.me"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://stewartmasters.me"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Speaking",
+      "item": "https://stewartmasters.me/speaking.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Building Digital Operations at Scale",
+      "item": "https://stewartmasters.me/speaking/digital-operations.html"
+    }
+  ]
+}
+  </script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T3GCWLRLH7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {'analytics_storage': 'denied'});
+    gtag('js', new Date());
+    gtag('config', 'G-T3GCWLRLH7');
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html, body { overflow-x: hidden; }
+    html { scroll-behavior: smooth; }
+    body {
+      background-color: #0D0D0D;
+      color: #ffffff;
+      font-family: 'Inter', sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    ::-webkit-scrollbar { width: 5px; }
+    ::-webkit-scrollbar-track { background: #0D0D0D; }
+    ::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: #00D4FF; }
+
+    .font-heading { font-family: 'Space Grotesk', sans-serif; }
+    .max-container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      backdrop-filter: blur(24px);
+      background: rgba(13, 13, 13, 0.85);
+      border-bottom: 1px solid #1c1c1c;
+    }
+    .nav-link { font-size: 14px; color: #aaa; text-decoration: none; transition: color 0.2s; }
+    .nav-link:hover { color: #ffffff; }
+
+    .btn-primary {
+      display: inline-block;
+      background: #00D4FF; color: #0D0D0D;
+      font-family: 'Space Grotesk', sans-serif; font-weight: 600;
+      padding: 14px 36px; border-radius: 4px;
+      text-decoration: none; font-size: 15px;
+      transition: background 0.2s;
+    }
+    .btn-primary:hover { background: #ffffff; }
+
+    .gradient-text {
+      background: linear-gradient(135deg, #00D4FF, #ffffff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    #mobile-menu { display: none; }
+    #mobile-menu.open { display: flex; }
+  </style>
+  <link rel="alternate" type="application/rss+xml" title="Stewart Masters" href="https://stewartmasters.me/feed.xml">
+</head>
+<body class="min-h-screen">
+
+<!-- NAV -->
+<nav>
+  <div class="max-container py-4 flex items-center justify-between">
+    <a href="/" class="font-heading font-semibold text-white text-lg tracking-tight">Stewart Masters</a>
+    <div class="hidden md:flex items-center gap-8">
+      <a href="/#about" class="nav-link">About</a>
+      <a href="/#services" class="nav-link">Where I Help</a>
+      <a href="/blog/" class="nav-link">Thinking</a>
+      <a href="/contact.html" class="nav-link">Contact</a>
+    </div>
+    <div class="flex items-center gap-3">
+      <a href="mailto:hello@stewartmasters.me" class="btn-primary hidden md:inline-block" style="padding: 10px 22px; font-size: 14px;">Get in touch</a>
+      <button id="hamburger" class="md:hidden text-gray-400 p-2" onclick="toggleMenu()">
+        <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h16M3 12h16M3 18h16"/></svg>
+      </button>
+    </div>
+  </div>
+  <div id="mobile-menu" class="flex-col gap-1 pb-4 px-6 border-t" style="border-color: #1a1a1a;">
+    <a href="/#about" class="nav-link py-3 block" onclick="closeMenu()">About</a>
+    <a href="/#services" class="nav-link py-3 block" onclick="closeMenu()">Where I Help</a>
+    <a href="/blog/" class="nav-link py-3 block">Thinking</a>
+    <a href="/contact.html" class="nav-link py-3 block" onclick="closeMenu()">Contact</a>
+    <a href="mailto:hello@stewartmasters.me" class="btn-primary mt-3 text-center block" onclick="closeMenu()">Get in touch</a>
+  </div>
+</nav>
+
+
+<!-- HEADER -->
+<header class="pt-40 pb-16 px-6">
+  <div class="max-container" style="max-width:760px;">
+    <nav style="font-size:12px;color:#333;margin-bottom:24px;">
+      <a href="/" style="color:#444;text-decoration:none;">Home</a>
+      <span style="margin:0 8px;">·</span>
+      <a href="/speaking.html" style="color:#444;text-decoration:none;">Speaking</a>
+      <span style="margin:0 8px;">·</span>
+      <span style="color:#555;">Building Digital Operations at Scale</span>
+    </nav>
+
+    <span style="font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:#00D4FF;display:block;margin-bottom:16px;">Operations</span>
+
+    <h1 class="font-heading text-4xl md:text-5xl font-bold leading-tight mb-6">
+      Building Digital Operations at Scale
+    </h1>
+
+    <p style="color:#B0B0B0;font-size:18px;line-height:1.7;max-width:600px;">
+      Building a digital system that works in one location is one challenge. Making it work consistently across multiple markets, with different teams and different levels of digital maturity, is a different problem entirely. This talk covers what operators learn the hard way.
+    </p>
+  </div>
+</header>
+
+
+<!-- WHAT I COVER -->
+<section class="py-16 px-6" style="border-top: 1px solid #1a1a1a;">
+  <div class="max-container" style="max-width:760px;">
+    <h2 class="font-heading text-2xl font-bold mb-8" data-aos="fade-up">What I cover</h2>
+    <ul style="list-style:none;padding:0;margin:0;" data-aos="fade-up">
+      <li style="color:#aaa;font-size:16px;line-height:1.8;padding-left:24px;position:relative;margin-bottom:12px;"><span style="position:absolute;left:0;color:#00D4FF;font-weight:700;">→</span>How to design a digital operations stack that actually scales — not just works locally</li>
+          <li style="color:#aaa;font-size:16px;line-height:1.8;padding-left:24px;position:relative;margin-bottom:12px;"><span style="position:absolute;left:0;color:#00D4FF;font-weight:700;">→</span>The team structure decisions that determine whether digital becomes embedded or stays marginal</li>
+          <li style="color:#aaa;font-size:16px;line-height:1.8;padding-left:24px;position:relative;margin-bottom:12px;"><span style="position:absolute;left:0;color:#00D4FF;font-weight:700;">→</span>How to manage tech debt before it becomes a constraint on growth</li>
+          <li style="color:#aaa;font-size:16px;line-height:1.8;padding-left:24px;position:relative;margin-bottom:12px;"><span style="position:absolute;left:0;color:#00D4FF;font-weight:700;">→</span>What cross-market digital consistency looks like and how to maintain it without stifling local teams</li>
+          <li style="color:#aaa;font-size:16px;line-height:1.8;padding-left:24px;position:relative;margin-bottom:12px;"><span style="position:absolute;left:0;color:#00D4FF;font-weight:700;">→</span>The metrics that actually matter when you're scaling digital operations</li>
+    </ul>
+  </div>
+</section>
+
+
+<!-- FORMATS -->
+<section class="py-16 px-6" style="border-top: 1px solid #1a1a1a;">
+  <div class="max-container" style="max-width:760px;">
+    <h2 class="font-heading text-2xl font-bold mb-6" data-aos="fade-up">Available formats</h2>
+    <div data-aos="fade-up">
+      <span style="display:inline-block;background:#111;border:1px solid #1e1e1e;border-radius:20px;padding:8px 18px;font-size:13px;color:#aaa;margin:4px;">Keynote (45 min)</span>
+        <span style="display:inline-block;background:#111;border:1px solid #1e1e1e;border-radius:20px;padding:8px 18px;font-size:13px;color:#aaa;margin:4px;">Executive workshop (half-day)</span>
+        <span style="display:inline-block;background:#111;border:1px solid #1e1e1e;border-radius:20px;padding:8px 18px;font-size:13px;color:#aaa;margin:4px;">Leadership team session (90 min)</span>
+        <span style="display:inline-block;background:#111;border:1px solid #1e1e1e;border-radius:20px;padding:8px 18px;font-size:13px;color:#aaa;margin:4px;">Conference panel</span>
+    </div>
+  </div>
+</section>
+
+
+<!-- AUDIENCES -->
+<section class="py-16 px-6" style="border-top: 1px solid #1a1a1a;">
+  <div class="max-container" style="max-width:760px;">
+    <h2 class="font-heading text-2xl font-bold mb-6" data-aos="fade-up">Who this is for</h2>
+    <ul style="list-style:none;padding:0;margin:0;" data-aos="fade-up">
+      <li style="color:#888;font-size:15px;line-height:1.8;padding-left:16px;position:relative;"><span style="position:absolute;left:0;color:#00D4FF;">·</span>Operations and digital leaders</li>
+          <li style="color:#888;font-size:15px;line-height:1.8;padding-left:16px;position:relative;"><span style="position:absolute;left:0;color:#00D4FF;">·</span>Multi-site business operators</li>
+          <li style="color:#888;font-size:15px;line-height:1.8;padding-left:16px;position:relative;"><span style="position:absolute;left:0;color:#00D4FF;">·</span>Founders scaling into new markets</li>
+          <li style="color:#888;font-size:15px;line-height:1.8;padding-left:16px;position:relative;"><span style="position:absolute;left:0;color:#00D4FF;">·</span>Hospitality, retail, and consumer brand conferences</li>
+    </ul>
+  </div>
+</section>
+
+
+<!-- RELATED READING -->
+<section class="py-16 px-6" style="border-top: 1px solid #1a1a1a;">
+  <div class="max-container" style="max-width:760px;">
+    <h2 class="font-heading text-2xl font-bold mb-6" data-aos="fade-up">Related reading</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;" data-aos="fade-up">
+      <a href="/blog/ops-stack.html" style="background:#0f0f0f;border:1px solid #1a1a1a;border-radius:8px;padding:24px;text-decoration:none;display:block;transition:border-color 0.2s;" onmouseover="this.style.borderColor='#2a2a2a'" onmouseout="this.style.borderColor='#1a1a1a'">
+        <span style="font-size:10px;color:#00D4FF;letter-spacing:2px;text-transform:uppercase;display:block;margin-bottom:8px;">Digital Strategy</span>
+        <span class="font-heading font-semibold text-white" style="font-size:15px;line-height:1.4;display:block;">Building the Right Ops Stack</span>
+      </a>
+      <a href="/blog/tech-debt-cost.html" style="background:#0f0f0f;border:1px solid #1a1a1a;border-radius:8px;padding:24px;text-decoration:none;display:block;transition:border-color 0.2s;" onmouseover="this.style.borderColor='#2a2a2a'" onmouseout="this.style.borderColor='#1a1a1a'">
+        <span style="font-size:10px;color:#00D4FF;letter-spacing:2px;text-transform:uppercase;display:block;margin-bottom:8px;">Digital Strategy</span>
+        <span class="font-heading font-semibold text-white" style="font-size:15px;line-height:1.4;display:block;">The Real Cost of Tech Debt</span>
+      </a>
+      <a href="/blog/digital-first-operations.html" style="background:#0f0f0f;border:1px solid #1a1a1a;border-radius:8px;padding:24px;text-decoration:none;display:block;transition:border-color 0.2s;" onmouseover="this.style.borderColor='#2a2a2a'" onmouseout="this.style.borderColor='#1a1a1a'">
+        <span style="font-size:10px;color:#00D4FF;letter-spacing:2px;text-transform:uppercase;display:block;margin-bottom:8px;">Digital Strategy</span>
+        <span class="font-heading font-semibold text-white" style="font-size:15px;line-height:1.4;display:block;">Building Digital-First Operations</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- CTA -->
+<section class="py-16 px-6" style="border-top: 1px solid #1a1a1a;">
+  <div class="max-container" style="max-width:760px;">
+    <div data-aos="fade-up" style="background:#111;border:1px solid #1e1e1e;border-radius:12px;padding:40px;">
+      <h2 class="font-heading text-2xl font-bold mb-3">Interested in this topic?</h2>
+      <p style="color:#B0B0B0;font-size:15px;line-height:1.7;margin-bottom:28px;">
+        Get in touch with the event format, audience size, and any specific angles you'd like covered. I'll come back to you if there's a fit.
+      </p>
+      <a href="mailto:hello@stewartmasters.me" class="btn-primary" style="padding:12px 28px;font-size:14px;">hello@stewartmasters.me →</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer class="py-10 px-6" style="border-top: 1px solid #141414;">
+  <div class="max-container flex flex-col md:flex-row items-center justify-between gap-4">
+    <span class="font-heading font-semibold" style="color: #888;">Stewart Masters</span>
+    <div class="flex gap-6 flex-wrap justify-center" style="font-size: 13px;">
+      <a href="/#about" class="nav-link">About</a>
+      <a href="/#services" class="nav-link">Where I Help</a>
+      <a href="/blog/" class="nav-link">Thinking</a>
+      <a href="/ai-adoption-guide.html" class="nav-link">AI Guide</a>
+      <a href="/glossary.html" class="nav-link">Glossary</a>
+      <a href="/speaking.html" class="nav-link">Speaking</a>
+      <a href="/contact.html" class="nav-link">Contact</a>
+    </div>
+    <a href="https://www.linkedin.com/in/stewartmasters/" target="_blank" rel="noopener" class="nav-link" style="font-size: 13px;">LinkedIn →</a>
+  </div>
+  <div class="max-container mt-10 text-center" style="font-size: 11px; color: #888; letter-spacing: 2px; padding-top: 1.5rem;">BARCELONA · LONDON · MADRID</div>
+</footer>
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({ duration: 650, once: true, offset: 50, easing: 'ease-out' });
+  function toggleMenu() { document.getElementById('mobile-menu').classList.toggle('open'); }
+  function closeMenu() { document.getElementById('mobile-menu').classList.remove('open'); }
+</script>
+<script src="/cookie-consent.js"></script>
+</body>
+</html>

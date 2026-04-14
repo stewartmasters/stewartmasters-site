@@ -37,11 +37,14 @@ jobs:
       - name: Run publish script
         run: python publish.py
 
+      - name: Run FAQ publish script
+        run: python publish_faq.py
+
       - name: Commit and push if changed
         run: |
           git config user.name "Scheduled Publish"
           git config user.email "action@github.com"
-          git add index.html blog/index.html blog/drafts/ blog/*.html feed.xml styles.css
+          git add index.html blog/index.html blog/drafts/ blog/*.html feed.xml styles.css faq/index.html faq/*.html sitemap.xml
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
