@@ -75,6 +75,12 @@
 
   <!-- FAQ pages (auto-populated by publish_faq.py) -->
 <!-- FAQ_URLS_START -->
+  <url>
+    <loc>https://stewartmasters.me/faq/what-is-a-fractional-cdo.html</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 <!-- FAQ_URLS_END -->
 
   <!-- Published blog posts -->
