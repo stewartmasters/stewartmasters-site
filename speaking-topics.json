@@ -42,24 +42,24 @@
     ]
   },
   {
-    "slug": "ai-governance-boards",
-    "title": "AI Governance for Boards and NEDs",
-    "meta_description": "Stewart Masters speaks on AI governance for boards and non-executive directors — practical frameworks for oversight, risk, and the questions every board should be asking.",
-    "category": "Board & Governance",
-    "intro": "Boards are increasingly responsible for AI governance without the frameworks to do it effectively. This session is designed specifically for board members and NEDs — focused on oversight, risk, and accountability rather than technical detail.",
+    "slug": "ai-pilot-to-production",
+    "title": "From AI Pilot to Production",
+    "meta_description": "Stewart Masters speaks on moving AI from pilot to production — why most AI experiments never scale, what the gap actually consists of, and what operators do differently to make AI work at scale.",
+    "category": "AI & Technology",
+    "intro": "Most organisations can run an AI pilot. Far fewer can take one into production. The gap between a successful experiment and an AI system that actually changes how the business operates is where most AI investment quietly disappears — and the reasons are almost always predictable.",
     "takeaways": [
-      "What AI governance actually means at board level — and what it doesn't",
-      "The specific AI risks that boards are responsible for overseeing",
-      "How to evaluate whether management's AI strategy is credible",
-      "The questions every board member should be asking — and red flags in the answers",
-      "What good AI governance looks like in practice, with examples from different sectors"
+      "Why the pilot-to-production gap exists and why it catches so many organisations off-guard",
+      "The data, infrastructure, and process decisions that determine whether a pilot can scale",
+      "How to design pilots from the start with production in mind — not as an afterthought",
+      "The organisational and change management work that technology alone can't do",
+      "What a credible path from experiment to operational AI actually looks like"
     ],
-    "formats": ["Boardroom session (90 min)", "NED education session (half-day)", "Keynote (45 min)", "Panel discussion"],
-    "audiences": ["Boards and non-executive directors", "Chairs and governance committees", "Investors and audit committees", "Governance and risk conferences"],
+    "formats": ["Keynote (30–60 min)", "Executive workshop (half-day)", "Conference panel", "Leadership team session (90 min)"],
+    "audiences": ["C-suite and technology leadership", "Founders and operators running AI programmes", "Digital and product teams", "AI, technology, and digital transformation conferences"],
     "related_posts": [
-      {"slug": "boards-evaluating-ai-risk", "title": "How Boards Should Evaluate AI Risk", "category": "Board & Advisory"},
-      {"slug": "shadow-ai-boards", "title": "Shadow AI and Board Oversight", "category": "Board & Advisory"},
-      {"slug": "ai-ready-board", "title": "Building an AI-Ready Board", "category": "Board & Advisory"}
+      {"slug": "why-ai-projects-fail", "title": "Why Most AI Projects Fail", "category": "AI & Technology"},
+      {"slug": "adoption-not-capability", "title": "The AI Problem Is Adoption, Not Capability", "category": "AI & Technology"},
+      {"slug": "ai-business-case", "title": "Building an AI Business Case", "category": "AI & Technology"}
     ]
   },
   {
