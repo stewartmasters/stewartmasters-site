@@ -1,23 +1,23 @@
 [
   {
-    "slug": "ai-adoption",
-    "title": "AI Adoption for Leadership Teams",
-    "meta_description": "Stewart Masters speaks on AI adoption for leadership teams — practical implementation, avoiding the most expensive mistakes, and what actually works inside a real business.",
-    "category": "AI & Technology",
-    "intro": "Most leadership teams know they need to move on AI. Fewer know where to start, what to prioritise, or how to avoid the most common and expensive mistakes. This talk draws directly from the experience of building and running AI programmes inside fast-moving businesses.",
+    "slug": "what-operators-know",
+    "title": "What Operators Know That Strategists Don't",
+    "meta_description": "Stewart Masters speaks on the gap between strategy and execution — what experienced operators understand about how businesses actually work, and what leadership teams need to know about making things happen.",
+    "category": "Leadership",
+    "intro": "Strategy is easy. Execution is where most plans meet reality and lose. After 20 years of building and running digital operations inside fast-moving businesses, the gap between a well-crafted strategy and an organisation that can actually deliver it is the problem I find myself solving most often.",
     "takeaways": [
-      "Why most AI projects stall before they deliver value — and the predictable pattern behind it",
-      "How to assess organisational readiness before committing to an AI programme",
-      "The difference between AI as a productivity tool and AI as a structural change to how the business operates",
-      "How to build an AI business case that a board will actually approve",
-      "What the first 90 days of a real AI implementation should look like"
+      "Why most strategy fails in execution — and the specific decisions that cause it",
+      "How operators think about problems differently from strategists, and why it matters",
+      "The signals that tell you whether an organisation can execute, before it tries",
+      "What leadership teams consistently underestimate about the distance between decision and delivery",
+      "How to close the strategy-execution gap without losing the strategic ambition"
     ],
-    "formats": ["Keynote (30–60 min)", "Executive workshop (half-day)", "Boardroom session (90 min)", "Conference panel"],
-    "audiences": ["C-suite and leadership teams", "Boards and non-executive directors", "Founders and operators", "Technology and digital conferences"],
+    "formats": ["Keynote (30–60 min)", "Executive workshop (half-day)", "MBA and business school session", "Conference panel"],
+    "audiences": ["Senior leadership teams and C-suite", "Founders and scale-up operators", "MBA and executive education programmes", "Leadership, strategy, and operations conferences"],
     "related_posts": [
-      {"slug": "why-ai-projects-fail", "title": "Why Most AI Projects Fail", "category": "AI & Technology"},
-      {"slug": "ai-business-case", "title": "Building an AI Business Case", "category": "AI & Technology"},
-      {"slug": "adoption-not-capability", "title": "The AI Problem Is Adoption, Not Capability", "category": "AI & Technology"}
+      {"slug": "strategy-decks", "title": "Why Strategy Decks Fail", "category": "Digital Strategy"},
+      {"slug": "digital-transformation-failures", "title": "Why Digital Transformations Fail", "category": "Digital Strategy"},
+      {"slug": "automate-wrong-things", "title": "When Companies Automate the Wrong Things", "category": "Digital Strategy"}
     ]
   },
   {
