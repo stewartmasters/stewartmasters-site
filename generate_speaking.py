@@ -113,14 +113,29 @@ def generate_page(topic):
 
     schema = {
         "@context": "https://schema.org",
-        "@type": "WebPage",
-        "name": f"{title} — Speaking — Stewart Masters",
+        "@type": "Service",
+        "serviceType": "Speaking Engagement",
+        "name": title,
         "description": meta_desc,
         "url": url,
-        "author": {
+        "provider": {
             "@type": "Person",
             "name": "Stewart Masters",
-            "url": "https://stewartmasters.me"
+            "url": "https://stewartmasters.me",
+            "jobTitle": "Chief Digital Officer and Board Advisor"
+        },
+        "areaServed": "Worldwide",
+        "audience": {
+            "@type": "Audience",
+            "audienceType": ", ".join(audiences)
+        },
+        "offers": {
+            "@type": "Offer",
+            "availability": "https://schema.org/InStock",
+            "seller": {
+                "@type": "Person",
+                "name": "Stewart Masters"
+            }
         }
     }
 
