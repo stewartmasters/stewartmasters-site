@@ -1,3 +1,29 @@
+
+# Force .html URLs to redirect to clean URLs (Netlify pretty URLs = canonical)
+[[redirects]]
+  from = "/*.html"
+  to = "/:splat"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/blog/*.html"
+  to = "/blog/:splat"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/speaking/*.html"
+  to = "/speaking/:splat"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/faq/*.html"
+  to = "/faq/:splat"
+  status = 301
+  force = false
+
 [build]
   command = "npm ci && npm run build:css"
   publish = "."

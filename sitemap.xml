@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://stewartmasters.me/ponente.html</loc>
+    <loc>https://stewartmasters.me/ponente</loc>
     <lastmod>2026-04-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -22,19 +22,19 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/ai-adoption-guide.html</loc>
+    <loc>https://stewartmasters.me/ai-adoption-guide</loc>
     <lastmod>2026-03-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/glossary.html</loc>
+    <loc>https://stewartmasters.me/glossary</loc>
     <lastmod>2026-03-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/contact.html</loc>
+    <loc>https://stewartmasters.me/contact</loc>
     <lastmod>2026-03-25</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
@@ -42,31 +42,31 @@
 
   <!-- Speaking pages -->
   <url>
-    <loc>https://stewartmasters.me/speaking.html</loc>
+    <loc>https://stewartmasters.me/speaking</loc>
     <lastmod>2026-04-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/speaking/what-operators-know.html</loc>
+    <loc>https://stewartmasters.me/speaking/what-operators-know</loc>
     <lastmod>2026-04-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/speaking/digital-transformation.html</loc>
+    <loc>https://stewartmasters.me/speaking/digital-transformation</loc>
     <lastmod>2026-04-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/speaking/ai-pilot-to-production.html</loc>
+    <loc>https://stewartmasters.me/speaking/ai-pilot-to-production</loc>
     <lastmod>2026-04-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/speaking/digital-operations.html</loc>
+    <loc>https://stewartmasters.me/speaking/digital-operations</loc>
     <lastmod>2026-04-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -83,7 +83,7 @@
   <!-- FAQ pages (auto-populated by publish_faq.py) -->
 <!-- FAQ_URLS_START -->
   <url>
-    <loc>https://stewartmasters.me/faq/what-is-a-fractional-cdo.html</loc>
+    <loc>https://stewartmasters.me/faq/what-is-a-fractional-cdo</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -92,266 +92,266 @@
 
   <!-- Published blog posts -->
   <url>
-    <loc>https://stewartmasters.me/blog/boards-evaluating-ai-risk.html</loc>
+    <loc>https://stewartmasters.me/blog/boards-evaluating-ai-risk</loc>
     <lastmod>2026-03-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/build-vs-buy.html</loc>
+    <loc>https://stewartmasters.me/blog/build-vs-buy</loc>
     <lastmod>2026-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/measuring-product-market-fit.html</loc>
+    <loc>https://stewartmasters.me/blog/measuring-product-market-fit</loc>
     <lastmod>2026-03-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/why-ai-projects-fail.html</loc>
+    <loc>https://stewartmasters.me/blog/why-ai-projects-fail</loc>
     <lastmod>2026-03-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/salary-spending-blind-spot.html</loc>
+    <loc>https://stewartmasters.me/blog/salary-spending-blind-spot</loc>
     <lastmod>2026-03-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/agentic-ai-business-leaders.html</loc>
+    <loc>https://stewartmasters.me/blog/agentic-ai-business-leaders</loc>
     <lastmod>2026-01-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/ai-business-case.html</loc>
+    <loc>https://stewartmasters.me/blog/ai-business-case</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/ai-fluency-for-leaders.html</loc>
+    <loc>https://stewartmasters.me/blog/ai-fluency-for-leaders</loc>
     <lastmod>2025-12-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/ai-ready-board.html</loc>
+    <loc>https://stewartmasters.me/blog/ai-ready-board</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/ai-roi.html</loc>
+    <loc>https://stewartmasters.me/blog/ai-roi</loc>
     <lastmod>2026-01-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/automate-wrong-things.html</loc>
+    <loc>https://stewartmasters.me/blog/automate-wrong-things</loc>
     <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/board-advisor-vs-non-executive-director.html</loc>
+    <loc>https://stewartmasters.me/blog/board-advisor-vs-non-executive-director</loc>
     <lastmod>2025-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/board-meeting.html</loc>
+    <loc>https://stewartmasters.me/blog/board-meeting</loc>
     <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/chief-ai-officer.html</loc>
+    <loc>https://stewartmasters.me/blog/chief-ai-officer</loc>
     <lastmod>2026-03-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/cto-cmo-language.html</loc>
+    <loc>https://stewartmasters.me/blog/cto-cmo-language</loc>
     <lastmod>2026-01-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/data-governance.html</loc>
+    <loc>https://stewartmasters.me/blog/data-governance</loc>
     <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/data-strategy-founders.html</loc>
+    <loc>https://stewartmasters.me/blog/data-strategy-founders</loc>
     <lastmod>2026-03-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/digital-first-operations.html</loc>
+    <loc>https://stewartmasters.me/blog/digital-first-operations</loc>
     <lastmod>2026-02-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/digital-transformation-failures.html</loc>
+    <loc>https://stewartmasters.me/blog/digital-transformation-failures</loc>
     <lastmod>2026-01-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/digitisation-vs-digitalisation.html</loc>
+    <loc>https://stewartmasters.me/blog/digitisation-vs-digitalisation</loc>
     <lastmod>2026-01-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/first-90-days-ned.html</loc>
+    <loc>https://stewartmasters.me/blog/first-90-days-ned</loc>
     <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/fractional-leader.html</loc>
+    <loc>https://stewartmasters.me/blog/fractional-leader</loc>
     <lastmod>2025-12-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/hiring-head-of-ai.html</loc>
+    <loc>https://stewartmasters.me/blog/hiring-head-of-ai</loc>
     <lastmod>2026-03-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/hiring-product-manager.html</loc>
+    <loc>https://stewartmasters.me/blog/hiring-product-manager</loc>
     <lastmod>2026-02-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/how-to-land-first-board-advisor-role.html</loc>
+    <loc>https://stewartmasters.me/blog/how-to-land-first-board-advisor-role</loc>
     <lastmod>2025-12-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/kpis-vs-metrics.html</loc>
+    <loc>https://stewartmasters.me/blog/kpis-vs-metrics</loc>
     <lastmod>2026-02-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/okrs-without-bureaucracy.html</loc>
+    <loc>https://stewartmasters.me/blog/okrs-without-bureaucracy</loc>
     <lastmod>2026-03-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/ops-stack.html</loc>
+    <loc>https://stewartmasters.me/blog/ops-stack</loc>
     <lastmod>2026-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/product-brief.html</loc>
+    <loc>https://stewartmasters.me/blog/product-brief</loc>
     <lastmod>2026-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/product-roadmap-fiction.html</loc>
+    <loc>https://stewartmasters.me/blog/product-roadmap-fiction</loc>
     <lastmod>2026-03-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/roadmap-vs-plan.html</loc>
+    <loc>https://stewartmasters.me/blog/roadmap-vs-plan</loc>
     <lastmod>2026-02-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/shadow-ai-boards.html</loc>
+    <loc>https://stewartmasters.me/blog/shadow-ai-boards</loc>
     <lastmod>2026-01-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/strategy-decks.html</loc>
+    <loc>https://stewartmasters.me/blog/strategy-decks</loc>
     <lastmod>2026-01-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/tech-debt-cost.html</loc>
+    <loc>https://stewartmasters.me/blog/tech-debt-cost</loc>
     <lastmod>2026-03-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/technology-handover.html</loc>
+    <loc>https://stewartmasters.me/blog/technology-handover</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/what-is-a-digital-strategy.html</loc>
+    <loc>https://stewartmasters.me/blog/what-is-a-digital-strategy</loc>
     <lastmod>2025-12-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/what-is-a-non-executive-director.html</loc>
+    <loc>https://stewartmasters.me/blog/what-is-a-non-executive-director</loc>
     <lastmod>2025-12-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://stewartmasters.me/blog/adoption-not-capability.html</loc>
+    <loc>https://stewartmasters.me/blog/adoption-not-capability</loc>
     <lastmod>2026-04-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/ai-needs-data-strategy.html</loc>
+    <loc>https://stewartmasters.me/blog/ai-needs-data-strategy</loc>
     <lastmod>2026-03-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/digital-transformation-budget.html</loc>
+    <loc>https://stewartmasters.me/blog/digital-transformation-budget</loc>
     <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/evaluating-a-cto.html</loc>
+    <loc>https://stewartmasters.me/blog/evaluating-a-cto</loc>
     <lastmod>2026-03-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/founder-stepping-back-product.html</loc>
+    <loc>https://stewartmasters.me/blog/founder-stepping-back-product</loc>
     <lastmod>2026-04-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/ned-understanding-technology.html</loc>
+    <loc>https://stewartmasters.me/blog/ned-understanding-technology</loc>
     <lastmod>2026-03-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stewartmasters.me/blog/when-advisory-boards-work.html</loc>
+    <loc>https://stewartmasters.me/blog/when-advisory-boards-work</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
