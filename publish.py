@@ -169,7 +169,7 @@ def generate_feed():
 
     items = ""
     for p in posts:
-        url = f"https://stewartmasters.me/blog/{p['slug']}.html"
+        url = f"https://stewartmasters.me/blog/{p['slug']}"
         items += f"""
   <item>
     <title>{escape_xml(p['title'])}</title>
