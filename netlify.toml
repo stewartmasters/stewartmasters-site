@@ -1,34 +1,9 @@
 
-# Force .html URLs to redirect to clean URLs (Netlify pretty URLs = canonical)
-[[redirects]]
-  from = "/*.html"
-  to = "/:splat"
-  status = 301
-  force = false
-
-[[redirects]]
-  from = "/blog/*.html"
-  to = "/blog/:splat"
-  status = 301
-  force = false
-
-[[redirects]]
-  from = "/speaking/*.html"
-  to = "/speaking/:splat"
-  status = 301
-  force = false
-
-[[redirects]]
-  from = "/faq/*.html"
-  to = "/faq/:splat"
-  status = 301
-  force = false
-
 [build]
   command = "npm ci && npm run build:css"
   publish = "."
 
-# Canonical URL redirects — prevent duplicate indexing
+# Specific canonicals first — must precede wildcard *.html rules
 [[redirects]]
   from = "/index.html"
   to = "/"
@@ -41,11 +16,36 @@
   status = 301
   force = true
 
-# Block public access to draft posts
+# Block public access to draft posts (before /blog/*.html wildcard)
 [[redirects]]
   from = "/blog/drafts/*"
   to = "/404.html"
   status = 404
+  force = true
+
+# Force .html → clean URL for all sections (force=true so existing files also redirect)
+[[redirects]]
+  from = "/blog/*.html"
+  to = "/blog/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/speaking/*.html"
+  to = "/speaking/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/faq/*.html"
+  to = "/faq/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/*.html"
+  to = "/:splat"
+  status = 301
   force = true
 
 # Security headers for all pages
