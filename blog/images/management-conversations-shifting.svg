@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#080d0d"/>
+      <stop offset="100%" style="stop-color:#0a0d10"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- THEN column -->
+  <rect x="60" y="140" width="490" height="380" rx="6" fill="#100a0a" stroke="#2a1818" stroke-width="1"/>
+  <text x="305" y="168" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#803030" text-anchor="middle" letter-spacing="3">THEN</text>
+  <text x="305" y="188" font-family="monospace" font-size="9" fill="#3a2020" text-anchor="middle">The coordination layer</text>
+
+  <rect x="80" y="205" width="460" height="34" rx="3" fill="#150d0d" stroke="#2a1818" stroke-width="1"/>
+  <text x="310" y="227" font-family="monospace" font-size="10" fill="#703030" text-anchor="middle">Status updates · Alignment meetings</text>
+
+  <rect x="80" y="247" width="460" height="34" rx="3" fill="#150d0d" stroke="#2a1818" stroke-width="1"/>
+  <text x="310" y="269" font-family="monospace" font-size="10" fill="#703030" text-anchor="middle">Information sharing · Progress tracking</text>
+
+  <rect x="80" y="289" width="460" height="34" rx="3" fill="#150d0d" stroke="#2a1818" stroke-width="1"/>
+  <text x="310" y="311" font-family="monospace" font-size="10" fill="#703030" text-anchor="middle">Keeping projects moving between teams</text>
+
+  <rect x="80" y="331" width="460" height="34" rx="3" fill="#150d0d" stroke="#2a1818" stroke-width="1"/>
+  <text x="310" y="353" font-family="monospace" font-size="10" fill="#703030" text-anchor="middle">Reducing friction · Bridging incomplete context</text>
+
+  <rect x="80" y="385" width="460" height="60" rx="3" fill="#0d0808" stroke="#1e1010" stroke-width="1"/>
+  <text x="310" y="407" font-family="'Space Grotesk', sans-serif" font-size="9" fill="#4a2020" text-anchor="middle" letter-spacing="1">WHY IT EXISTED</text>
+  <text x="310" y="424" font-family="monospace" font-size="9" fill="#3a1818" text-anchor="middle">Work was fragmented. Information lived in different</text>
+  <text x="310" y="439" font-family="monospace" font-size="9" fill="#3a1818" text-anchor="middle">systems. Someone had to carry the context.</text>
+
+  <text x="305" y="500" font-family="monospace" font-size="9" fill="#2a1a1a" text-anchor="middle">→ AI is handling more of this now</text>
+
+  <!-- Divider arrow -->
+  <text x="600" y="325" font-family="'Space Grotesk', sans-serif" font-size="28" fill="#00D4FF" text-anchor="middle" opacity="0.4">→</text>
+  <text x="600" y="355" font-family="monospace" font-size="8" fill="#1a3a40" text-anchor="middle">SHIFTING</text>
+
+  <!-- NOW column -->
+  <rect x="650" y="140" width="490" height="380" rx="6" fill="#080d10" stroke="#00D4FF" stroke-width="1" opacity="0.35"/>
+  <text x="895" y="168" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#00D4FF" text-anchor="middle" letter-spacing="3" opacity="0.9">NOW</text>
+  <text x="895" y="188" font-family="monospace" font-size="9" fill="#1a3040" text-anchor="middle">The judgment layer</text>
+
+  <rect x="670" y="205" width="460" height="34" rx="3" fill="#0a1218" stroke="#0d2530" stroke-width="1"/>
+  <text x="900" y="227" font-family="monospace" font-size="10" fill="#1a7090" text-anchor="middle">Prioritisation under pressure</text>
+
+  <rect x="670" y="247" width="460" height="34" rx="3" fill="#0a1218" stroke="#0d2530" stroke-width="1"/>
+  <text x="900" y="269" font-family="monospace" font-size="10" fill="#1a7090" text-anchor="middle">Unblocking real decisions · Clarifying trade-offs</text>
+
+  <rect x="670" y="289" width="460" height="34" rx="3" fill="#0a1218" stroke="#0d2530" stroke-width="1"/>
+  <text x="900" y="311" font-family="monospace" font-size="10" fill="#1a7090" text-anchor="middle">Context in the moment · Thought partnership</text>
+
+  <rect x="670" y="331" width="460" height="34" rx="3" fill="#0a1218" stroke="#0d2530" stroke-width="1"/>
+  <text x="900" y="353" font-family="monospace" font-size="10" fill="#1a7090" text-anchor="middle">Maintaining focus when environments get noisy</text>
+
+  <rect x="670" y="385" width="460" height="60" rx="3" fill="#080f14" stroke="#0d2030" stroke-width="1"/>
+  <text x="900" y="407" font-family="'Space Grotesk', sans-serif" font-size="9" fill="#00D4FF" text-anchor="middle" letter-spacing="1" opacity="0.6">WHAT THIS REQUIRES</text>
+  <text x="900" y="424" font-family="monospace" font-size="9" fill="#1a4050" text-anchor="middle">Not intelligence. Judgment. Knowing what matters,</text>
+  <text x="900" y="439" font-family="monospace" font-size="9" fill="#1a4050" text-anchor="middle">when to move, and when to slow down.</text>
+
+  <text x="895" y="500" font-family="monospace" font-size="9" fill="#0d3040" text-anchor="middle">→ more human, not less</text>
+
+  <!-- Title -->
+  <text x="600" y="88" font-family="'Space Grotesk', sans-serif" font-size="16" fill="#EAEAEA" text-anchor="middle" opacity="0.6">What management looks like when the admin goes away</text>
+  <text x="600" y="108" font-family="monospace" font-size="9" fill="#2a3a40" text-anchor="middle">stewartmasters.me</text>
+</svg>

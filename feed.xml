@@ -6,12 +6,19 @@
     <description>Operator perspectives on AI adoption, digital operations, and product execution inside real businesses.</description>
     <language>en</language>
     <atom:link href="https://stewartmasters.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 10 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://stewartmasters.me/favicon-32x32.png</url>
       <title>Stewart Masters</title>
       <link>https://stewartmasters.me</link>
     </image>
+  <item>
+    <title>What management looks like when the admin goes away, Stewart Masters</title>
+    <link>https://stewartmasters.me/blog/management-conversations-shifting</link>
+    <description>Something is changing inside management conversations. The coordination layer is shrinking. What's left is more human, not less.</description>
+    <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/management-conversations-shifting</guid>
+  </item>
   <item>
     <title>The AI Problem Is Adoption, Not Capability, Stewart Masters</title>
     <link>https://stewartmasters.me/blog/adoption-not-capability</link>
@@ -20,7 +27,7 @@
     <guid isPermaLink="true">https://stewartmasters.me/blog/adoption-not-capability</guid>
   </item>
   <item>
-    <title>What Investors Actually Look for in a Digital Business</title>
+    <title>What Investors Actually Look for in a Digital Business, Stewart Masters</title>
     <link>https://stewartmasters.me/blog/what-investors-look-for-digital</link>
     <description>Digital capability signals a lot more than technology. Here's what sophisticated investors are actually evaluating when they look under the hood.</description>
     <pubDate>Sun, 05 Apr 2026 00:00:00 +0000</pubDate>
