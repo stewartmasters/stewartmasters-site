@@ -6,12 +6,19 @@
     <description>Operator perspectives on AI adoption, digital operations, and product execution inside real businesses.</description>
     <language>en</language>
     <atom:link href="https://stewartmasters.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 08 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 May 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://stewartmasters.me/favicon-32x32.png</url>
       <title>Stewart Masters</title>
       <link>https://stewartmasters.me</link>
     </image>
+  <item>
+    <title>Building a Product Team That Actually Ships</title>
+    <link>https://stewartmasters.me/blog/product-team-that-ships</link>
+    <description>Most product teams are busy but not productive. Here's what separates teams that ship valuable things consistently from teams that just look like they're doing product.</description>
+    <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/product-team-that-ships</guid>
+  </item>
   <item>
     <title>What management looks like when the admin goes away, Stewart Masters</title>
     <link>https://stewartmasters.me/blog/management-conversations-shifting</link>
