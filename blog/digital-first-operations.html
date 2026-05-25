@@ -102,6 +102,9 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('consent', 'default', {'analytics_storage': 'denied'});
+    if (typeof localStorage !== 'undefined' && localStorage.getItem('cookie_consent') === 'accepted') {
+      gtag('consent', 'update', {'analytics_storage': 'granted'});
+    }
     gtag('js', new Date());
     gtag('config', 'G-T3GCWLRLH7');
   </script>
@@ -110,11 +113,11 @@
 <body>
 <nav>
   <div class="max-container py-4 flex items-center justify-between">
-    <a href="../index.html" class="font-heading font-semibold text-white text-lg tracking-tight">Stewart Masters</a>
+    <a href="../index" class="font-heading font-semibold text-white text-lg tracking-tight">Stewart Masters</a>
     <div class="hidden md:flex items-center gap-8">
       <a href="../index.html#about" class="nav-link">About</a>
       <a href="../index.html#services" class="nav-link">Where I Help</a>
-      <a href="index.html" class="nav-link" style="color:#fff;">Thinking</a>
+      <a href="index" class="nav-link" style="color:#fff;">Thinking</a>
     </div>
     <a href="../index.html#contact" class="btn-primary">Work With Me</a>
   </div>
@@ -123,8 +126,8 @@
 <header class="pt-40 pb-12 px-6">
   <div class="prose">
     <nav style="font-size:12px;color:#333;margin-bottom:24px;">
-      <a href="../index.html" style="color:#444;text-decoration:none;">Home</a><span style="margin:0 8px;">·</span>
-      <a href="index.html" style="color:#444;text-decoration:none;">Thinking</a><span class="bc-divider" style="margin:0 8px;">·</span>
+      <a href="../index" style="color:#444;text-decoration:none;">Home</a><span style="margin:0 8px;">·</span>
+      <a href="index" style="color:#444;text-decoration:none;">Thinking</a><span class="bc-divider" style="margin:0 8px;">·</span>
       <span class="bc-current" style="color:#555;">What digital-first operations actually means</span>
     </nav>
     <span class="post-tag">Operations</span>
@@ -210,12 +213,12 @@
   <div class="prose pt-12">
     <h3 class="font-heading text-xl font-semibold text-white mb-6">More from the blog</h3>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-      <a href="ops-stack.html" class="related-card">
+      <a href="ops-stack" class="related-card">
         <span style="font-size:10px;letter-spacing:2px;text-transform:uppercase;color:#00D4FF;">Operations</span>
         <h4 class="font-heading font-semibold text-white mt-2 mb-1 text-base leading-snug">The ops stack every digital business needs — and most don't have</h4>
         <span style="font-size:13px;color:#555;">March 30, 2026 · 6 min read</span>
       </a>
-      <a href="automate-wrong-things.html" class="related-card">
+      <a href="automate-wrong-things" class="related-card">
         <span style="font-size:10px;letter-spacing:2px;text-transform:uppercase;color:#00D4FF;">AI &amp; Technology</span>
         <h4 class="font-heading font-semibold text-white mt-2 mb-1 text-base leading-snug">Why most companies automate the wrong things first</h4>
         <span style="font-size:13px;color:#555;">April 4, 2026 · 6 min read</span>
@@ -230,7 +233,7 @@
   <div class="max-container">
     <h2 class="font-heading text-xl font-bold text-white mb-8">Related posts</h2>
     <div class="grid md:grid-cols-3 gap-5">
-      <a href="technology-handover.html" class="blog-card">
+      <a href="technology-handover" class="blog-card">
         <div style="height:140px;overflow:hidden;border-bottom:1px solid #1e1e1e;">
           <img src="images/technology-handover.svg" alt="Why technology projects fail at handover — and how to fix it" style="width:100%;height:100%;object-fit:cover;">
         </div>
@@ -243,7 +246,7 @@
           </div>
         </div>
       </a>
-      <a href="ops-stack.html" class="blog-card">
+      <a href="ops-stack" class="blog-card">
         <div style="height:140px;overflow:hidden;border-bottom:1px solid #1e1e1e;">
           <img src="images/ops-stack.svg" alt="The ops stack every digital business needs — and most don't have" style="width:100%;height:100%;object-fit:cover;">
         </div>
@@ -256,7 +259,7 @@
           </div>
         </div>
       </a>
-      <a href="what-is-a-digital-strategy.html" class="blog-card">
+      <a href="what-is-a-digital-strategy" class="blog-card">
         <div style="height:140px;overflow:hidden;border-bottom:1px solid #1e1e1e;">
           <img src="images/what-is-a-digital-strategy.svg" alt="What is a digital strategy, and why most companies don't actually have one" style="width:100%;height:100%;object-fit:cover;">
         </div>
@@ -294,11 +297,11 @@
 </section>
 <footer class="py-10 px-6" style="border-top:1px solid #141414;">
   <div class="max-container flex flex-col md:flex-row items-center justify-between gap-4">
-    <a href="../index.html" class="font-heading font-semibold" style="color:#555;">Stewart Masters</a>
+    <a href="../index" class="font-heading font-semibold" style="color:#555;">Stewart Masters</a>
     <div class="flex gap-6" style="font-size:13px;">
       <a href="../index.html#about" class="nav-link">About</a>
-      <a href="index.html" class="nav-link">Thinking</a>
-      <a href="/speaking.html" class="nav-link">Speaking</a>
+      <a href="index" class="nav-link">Thinking</a>
+      <a href="/speaking" class="nav-link">Speaking</a>
       <a href="../index.html#contact" class="nav-link">Contact</a>
     </div>
     <a href="https://www.linkedin.com/in/stewartmasters/" target="_blank" rel="noopener" class="nav-link" style="font-size:13px;">LinkedIn →</a>

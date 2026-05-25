@@ -106,6 +106,9 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('consent', 'default', {'analytics_storage': 'denied'});
+    if (typeof localStorage !== 'undefined' && localStorage.getItem('cookie_consent') === 'accepted') {
+      gtag('consent', 'update', {'analytics_storage': 'granted'});
+    }
     gtag('js', new Date());
     gtag('config', 'G-T3GCWLRLH7');
   </script>
@@ -116,11 +119,11 @@
 
 <nav>
   <div class="max-container py-4 flex items-center justify-between">
-    <a href="../index.html" class="font-heading font-semibold text-white text-lg tracking-tight">Stewart Masters</a>
+    <a href="../index" class="font-heading font-semibold text-white text-lg tracking-tight">Stewart Masters</a>
     <div class="hidden md:flex items-center gap-8">
       <a href="../index.html#about" class="nav-link">About</a>
       <a href="../index.html#services" class="nav-link">Where I Help</a>
-      <a href="index.html" class="nav-link" style="color: #fff;">Thinking</a>
+      <a href="index" class="nav-link" style="color: #fff;">Thinking</a>
       <a href="../index.html#speaking" class="nav-link">Speaking</a>
     </div>
     <a href="../index.html#contact" class="btn-primary">Work With Me</a>
@@ -131,9 +134,9 @@
 <header class="pt-40 pb-12 px-6">
   <div class="prose">
     <nav style="font-size: 12px; color: #333; margin-bottom: 24px;">
-      <a href="../index.html" style="color: #444; text-decoration: none;">Home</a>
+      <a href="../index" style="color: #444; text-decoration: none;">Home</a>
       <span style="margin: 0 8px;">·</span>
-      <a href="index.html" style="color: #444; text-decoration: none;">Thinking</a>
+      <a href="index" style="color: #444; text-decoration: none;">Thinking</a>
       <span style="margin: 0 8px;">·</span>
       <span style="color: #555;">What is AI fluency for leaders</span>
     </nav>
@@ -170,7 +173,7 @@
   <div class="prose">
 
     <p>
-      There's a conversation happening in <a href="/blog/boards-evaluating-ai-risk.html">board</a>rooms and leadership teams that goes something like this: "We need to be doing more with AI." Everyone nods. Then someone asks what specifically. And the room goes quiet. This gap, between the pressure to act on AI and the ability to make good decisions about it, is what AI fluency is designed to close. It's a skill that is rapidly separating leaders who can navigate the next decade from those who are going to get left behind while looking busy.
+      There's a conversation happening in <a href="/blog/boards-evaluating-ai-risk">board</a>rooms and leadership teams that goes something like this: "We need to be doing more with AI." Everyone nods. Then someone asks what specifically. And the room goes quiet. This gap, between the pressure to act on AI and the ability to make good decisions about it, is what AI fluency is designed to close. It's a skill that is rapidly separating leaders who can navigate the next decade from those who are going to get left behind while looking busy.
     </p>
 
     <h2>AI fluency is not technical literacy</h2>
@@ -273,17 +276,17 @@
   <div class="prose">
     <h2 class="font-heading text-2xl font-bold mb-6" style="margin-top: 0;">More to read</h2>
     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
-      <a href="what-is-a-digital-strategy.html" class="related-card">
+      <a href="what-is-a-digital-strategy" class="related-card">
         <span style="font-size: 10px; color: #00D4FF; letter-spacing: 2px; text-transform: uppercase; display: block; margin-bottom: 8px;">Digital Strategy</span>
         <span class="font-heading font-semibold text-white" style="font-size: 15px; line-height: 1.4; display: block;">What is a digital strategy — and why most companies don't actually have one</span>
       </a>
-      <a href="how-to-land-first-board-advisor-role.html" class="related-card">
+      <a href="how-to-land-first-board-advisor-role" class="related-card">
         <span style="font-size: 10px; color: #00D4FF; letter-spacing: 2px; text-transform: uppercase; display: block; margin-bottom: 8px;">Board &amp; Advisory</span>
         <span class="font-heading font-semibold text-white" style="font-size: 15px; line-height: 1.4; display: block;">How to land your first board advisor role</span>
       </a>
     </div>
     <div style="text-align: center; margin-top: 24px;">
-      <a href="index.html" style="color: #444; font-size: 14px; text-decoration: none;">← All posts</a>
+      <a href="index" style="color: #444; font-size: 14px; text-decoration: none;">← All posts</a>
     </div>
   </div>
 </section>
@@ -315,8 +318,8 @@
     <div class="flex gap-6" style="font-size: 13px;">
       <a href="../index.html#about" class="nav-link">About</a>
       <a href="../index.html#services" class="nav-link">Where I Help</a>
-      <a href="index.html" class="nav-link">Thinking</a>
-      <a href="/speaking.html" class="nav-link">Speaking</a>
+      <a href="index" class="nav-link">Thinking</a>
+      <a href="/speaking" class="nav-link">Speaking</a>
       <a href="../index.html#contact" class="nav-link">Contact</a>
     </div>
     <a href="https://www.linkedin.com/in/stewartmasters/" target="_blank" rel="noopener" class="nav-link" style="font-size: 13px;">LinkedIn →</a>

@@ -69,6 +69,9 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('consent', 'default', {'analytics_storage': 'denied'});
+    if (typeof localStorage !== 'undefined' && localStorage.getItem('cookie_consent') === 'accepted') {
+      gtag('consent', 'update', {'analytics_storage': 'granted'});
+    }
     gtag('js', new Date());
     gtag('config', 'G-T3GCWLRLH7');
   </script>
@@ -131,9 +134,9 @@
       <a href="/#about" class="nav-link">About</a>
       <a href="/#services" class="nav-link">Where I Help</a>
       <a href="/blog/" class="nav-link">Thinking</a>
-      <a href="/contact.html" class="nav-link">Contact</a>
+      <a href="/contact" class="nav-link">Contact</a>
     </div>
-    <a href="/contact.html" class="btn-primary">Get in touch</a>
+    <a href="/contact" class="btn-primary">Get in touch</a>
   </div>
 </nav>
 
@@ -190,7 +193,7 @@
     <p style="color: #777; font-size: 15px;">
       <strong style="color: #888;">Want to talk through any of this?</strong><br>
       The most important question before engaging a fractional CDO is whether the scope is clear. A fixed-term engagement with defined outcomes is far more likely to deliver value than an open-ended retainer without a mandate.<br><br>
-      <a href="/contact.html" style="color: #00D4FF; text-decoration: underline; text-decoration-color: #00D4FF44;">Get in touch →</a>
+      <a href="/contact" style="color: #00D4FF; text-decoration: underline; text-decoration-color: #00D4FF44;">Get in touch →</a>
     </p>
 
   </div>
@@ -219,15 +222,15 @@
   <div class="prose">
     <h2 class="font-heading text-2xl font-bold mb-6" style="margin-top: 0;">Related reading</h2>
     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
-      <a href="/blog/fractional-leader.html" style="background:#121212;border:1px solid #1e1e1e;border-radius:8px;padding:24px;text-decoration:none;display:block;transition:border-color 0.3s;" onmouseover="this.style.borderColor='#2a2a2a'" onmouseout="this.style.borderColor='#1e1e1e'">
+      <a href="/blog/fractional-leader" style="background:#121212;border:1px solid #1e1e1e;border-radius:8px;padding:24px;text-decoration:none;display:block;transition:border-color 0.3s;" onmouseover="this.style.borderColor='#2a2a2a'" onmouseout="this.style.borderColor='#1e1e1e'">
         <span style="font-size:10px;color:#00D4FF;letter-spacing:2px;text-transform:uppercase;display:block;margin-bottom:8px;">Leadership</span>
         <span class="font-heading" style="font-weight:600;color:#fff;font-size:15px;line-height:1.4;display:block;">What a fractional leader actually does</span>
       </a>
-      <a href="/blog/chief-ai-officer.html" style="background:#121212;border:1px solid #1e1e1e;border-radius:8px;padding:24px;text-decoration:none;display:block;transition:border-color 0.3s;" onmouseover="this.style.borderColor='#2a2a2a'" onmouseout="this.style.borderColor='#1e1e1e'">
+      <a href="/blog/chief-ai-officer" style="background:#121212;border:1px solid #1e1e1e;border-radius:8px;padding:24px;text-decoration:none;display:block;transition:border-color 0.3s;" onmouseover="this.style.borderColor='#2a2a2a'" onmouseout="this.style.borderColor='#1e1e1e'">
         <span style="font-size:10px;color:#00D4FF;letter-spacing:2px;text-transform:uppercase;display:block;margin-bottom:8px;">Leadership</span>
         <span class="font-heading" style="font-weight:600;color:#fff;font-size:15px;line-height:1.4;display:block;">Do you need a Chief AI Officer?</span>
       </a>
-      <a href="/blog/digital-transformation-failures.html" style="background:#121212;border:1px solid #1e1e1e;border-radius:8px;padding:24px;text-decoration:none;display:block;transition:border-color 0.3s;" onmouseover="this.style.borderColor='#2a2a2a'" onmouseout="this.style.borderColor='#1e1e1e'">
+      <a href="/blog/digital-transformation-failures" style="background:#121212;border:1px solid #1e1e1e;border-radius:8px;padding:24px;text-decoration:none;display:block;transition:border-color 0.3s;" onmouseover="this.style.borderColor='#2a2a2a'" onmouseout="this.style.borderColor='#1e1e1e'">
         <span style="font-size:10px;color:#00D4FF;letter-spacing:2px;text-transform:uppercase;display:block;margin-bottom:8px;">Digital Strategy</span>
         <span class="font-heading" style="font-weight:600;color:#fff;font-size:15px;line-height:1.4;display:block;">Why digital transformations fail</span>
       </a>
@@ -248,7 +251,7 @@
       <a href="/#services" class="nav-link">Where I Help</a>
       <a href="/blog/" class="nav-link">Thinking</a>
       <a href="/faq/" class="nav-link" style="color:#fff;">FAQ</a>
-      <a href="/contact.html" class="nav-link">Contact</a>
+      <a href="/contact" class="nav-link">Contact</a>
     </div>
     <a href="https://www.linkedin.com/in/stewartmasters/" target="_blank" rel="noopener" class="nav-link" style="font-size: 13px;">LinkedIn →</a>
   </div>

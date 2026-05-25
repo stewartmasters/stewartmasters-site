@@ -102,6 +102,9 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('consent', 'default', {'analytics_storage': 'denied'});
+    if (typeof localStorage !== 'undefined' && localStorage.getItem('cookie_consent') === 'accepted') {
+      gtag('consent', 'update', {'analytics_storage': 'granted'});
+    }
     gtag('js', new Date());
     gtag('config', 'G-T3GCWLRLH7');
   </script>
@@ -110,11 +113,11 @@
 <body>
 <nav>
   <div class="max-container py-4 flex items-center justify-between">
-    <a href="../index.html" class="font-heading font-semibold text-white text-lg tracking-tight">Stewart Masters</a>
+    <a href="../index" class="font-heading font-semibold text-white text-lg tracking-tight">Stewart Masters</a>
     <div class="hidden md:flex items-center gap-8">
       <a href="../index.html#about" class="nav-link">About</a>
       <a href="../index.html#services" class="nav-link">Where I Help</a>
-      <a href="index.html" class="nav-link" style="color:#fff;">Thinking</a>
+      <a href="index" class="nav-link" style="color:#fff;">Thinking</a>
       <a href="../index.html#speaking" class="nav-link">Speaking</a>
     </div>
     <a href="../index.html#contact" class="btn-primary">Work With Me</a>
@@ -124,8 +127,8 @@
 <header class="pt-40 pb-12 px-6">
   <div class="prose">
     <nav style="font-size:12px;color:#333;margin-bottom:24px;">
-      <a href="../index.html" style="color:#444;text-decoration:none;">Home</a><span style="margin:0 8px;">·</span>
-      <a href="index.html" style="color:#444;text-decoration:none;">Thinking</a><span class="bc-divider" style="margin:0 8px;">·</span>
+      <a href="../index" style="color:#444;text-decoration:none;">Home</a><span style="margin:0 8px;">·</span>
+      <a href="index" style="color:#444;text-decoration:none;">Thinking</a><span class="bc-divider" style="margin:0 8px;">·</span>
       <span class="bc-current" style="color:#555;">Digital transformation failures</span>
     </nav>
     <span class="post-tag">Leadership</span>
@@ -156,7 +159,7 @@
     <blockquote><p>"The technology was fine. The failure was that no one was accountable for the gap between what it could do and how the business actually worked."</p></blockquote>
 
     <h2>Failure 2: The strategy that lived in the deck</h2>
-    <p>A professional services firm hired a leading consultancy to develop a <a href="/blog/what-is-a-digital-strategy.html">digital strategy</a>. The output was thorough: a 120-slide presentation, a detailed roadmap, a prioritised initiative list, and a compelling narrative about the firm's digital future. The board approved it. The CEO presented it to the partners' meeting. It was well received.</p>
+    <p>A professional services firm hired a leading consultancy to develop a <a href="/blog/what-is-a-digital-strategy">digital strategy</a>. The output was thorough: a 120-slide presentation, a detailed roadmap, a prioritised initiative list, and a compelling narrative about the firm's digital future. The board approved it. The CEO presented it to the partners' meeting. It was well received.</p>
     <p>Eighteen months later, almost nothing had changed. The strategy had been developed largely by the consulting team, with inputs from a handful of senior leaders. It reflected what a consulting firm understood about digital strategy, filtered through what a few senior partners were willing to say in interviews. It did not reflect how the firm actually won business, why partners behaved the way they did, or what the real blockers to change were at operational level.</p>
     <p>When implementation began, the resistance was immediate and effective. Partners who hadn't been genuinely involved in the strategy's development had no ownership of its conclusions. Initiatives that required partners to change how they managed client relationships, the most valuable change available, stalled at first contact with the partnership structure.</p>
     <p><strong>What a different outcome required:</strong> The strategy needed to be built with the people who would implement it, not presented to them. Not a consultation exercise, but genuine co-creation with the people whose behaviour needed to change. Slower to develop, significantly more durable to execute.</p>
@@ -193,16 +196,16 @@
   <div class="prose">
     <h2 class="font-heading text-2xl font-bold mb-6" style="margin-top:0;">More to read</h2>
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
-      <a href="digitisation-vs-digitalisation.html" class="related-card">
+      <a href="digitisation-vs-digitalisation" class="related-card">
         <span style="font-size:10px;color:#00D4FF;letter-spacing:2px;text-transform:uppercase;display:block;margin-bottom:8px;">Digital Strategy</span>
         <span class="font-heading font-semibold text-white" style="font-size:15px;line-height:1.4;display:block;">Digitisation vs digitalisation vs digital transformation: the difference actually matters</span>
       </a>
-      <a href="what-is-a-digital-strategy.html" class="related-card">
+      <a href="what-is-a-digital-strategy" class="related-card">
         <span style="font-size:10px;color:#00D4FF;letter-spacing:2px;text-transform:uppercase;display:block;margin-bottom:8px;">Digital Strategy</span>
         <span class="font-heading font-semibold text-white" style="font-size:15px;line-height:1.4;display:block;">What is a digital strategy — and why most companies don't actually have one</span>
       </a>
     </div>
-    <div style="text-align:center;margin-top:24px;"><a href="index.html" style="color:#444;font-size:14px;text-decoration:none;">← All posts</a></div>
+    <div style="text-align:center;margin-top:24px;"><a href="index" style="color:#444;font-size:14px;text-decoration:none;">← All posts</a></div>
   </div>
 </section>
 
@@ -232,8 +235,8 @@
     <div class="flex gap-6" style="font-size:13px;">
       <a href="../index.html#about" class="nav-link">About</a>
       <a href="../index.html#services" class="nav-link">Where I Help</a>
-      <a href="index.html" class="nav-link">Thinking</a>
-      <a href="/speaking.html" class="nav-link">Speaking</a>
+      <a href="index" class="nav-link">Thinking</a>
+      <a href="/speaking" class="nav-link">Speaking</a>
       <a href="../index.html#contact" class="nav-link">Contact</a>
     </div>
     <a href="https://www.linkedin.com/in/stewartmasters/" target="_blank" rel="noopener" class="nav-link" style="font-size:13px;">LinkedIn →</a>

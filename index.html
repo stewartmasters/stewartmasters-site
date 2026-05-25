@@ -8,7 +8,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Stewart Masters">
-  <title>Stewart Masters — AI & Digital Operations</title>
+  <title>Stewart Masters — AI &amp; Digital Operations</title>
   <meta name="description" content="Operator perspectives on AI adoption, digital operations, and product execution. 20 years building inside real businesses.">
 
   <meta property="og:title" content="Stewart Masters | AI, Digital Operations &amp; Product Leadership">
@@ -231,6 +231,9 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('consent', 'default', {'analytics_storage': 'denied'});
+    if (typeof localStorage !== 'undefined' && localStorage.getItem('cookie_consent') === 'accepted') {
+      gtag('consent', 'update', {'analytics_storage': 'granted'});
+    }
     gtag('js', new Date());
     gtag('config', 'G-T3GCWLRLH7');
   </script>
@@ -246,11 +249,11 @@
     <div class="hidden md:flex items-center gap-8">
       <a href="#about" class="nav-link">About</a>
       <a href="#services" class="nav-link">Where I Help</a>
-      <a href="blog/index.html" class="nav-link">Thinking</a>
-      <a href="/contact.html" class="nav-link">Contact</a>
+      <a href="blog/index" class="nav-link">Thinking</a>
+      <a href="/contact" class="nav-link">Contact</a>
     </div>
     <div class="flex items-center gap-3">
-      <a href="/contact.html" class="btn-primary hidden md:inline-block" style="padding: 10px 22px; font-size: 14px;">Get in touch</a>
+      <a href="/contact" class="btn-primary hidden md:inline-block" style="padding: 10px 22px; font-size: 14px;">Get in touch</a>
       <button id="hamburger" class="md:hidden text-gray-400 p-2" onclick="toggleMenu()">
         <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h16M3 12h16M3 18h16"/></svg>
       </button>
@@ -259,9 +262,9 @@
   <div id="mobile-menu" class="flex-col gap-1 pb-4 px-6 border-t" style="border-color: #1a1a1a;">
     <a href="#about" class="nav-link py-3 block" onclick="closeMenu()">About</a>
     <a href="#services" class="nav-link py-3 block" onclick="closeMenu()">Where I Help</a>
-    <a href="blog/index.html" class="nav-link py-3 block">Thinking</a>
-    <a href="/contact.html" class="nav-link py-3 block" onclick="closeMenu()">Contact</a>
-    <a href="/contact.html" class="btn-primary mt-3 text-center block" onclick="closeMenu()">Get in touch</a>
+    <a href="blog/index" class="nav-link py-3 block">Thinking</a>
+    <a href="/contact" class="nav-link py-3 block" onclick="closeMenu()">Contact</a>
+    <a href="/contact" class="btn-primary mt-3 text-center block" onclick="closeMenu()">Get in touch</a>
   </div>
 </nav>
 
@@ -292,7 +295,7 @@
           <p style="color: #B0B0B0; font-size: 17px; line-height: 1.7; margin-bottom: 28px;">
             I work inside the organisation. Where decisions actually get made.
           </p>
-          <p style="color: #888; font-size: 14px; letter-spacing: 1px; margin-bottom: 40px; text-transform: uppercase; font-family: 'Space Grotesk', sans-serif;">Based in Barcelona · Operating globally</p>
+          <p style="color: #888; font-size: 14px; letter-spacing: 1px; margin-bottom: 40px; text-transform: uppercase; font-family: 'Space Grotesk', sans-serif;">Based in Barcelona &middot; Operating globally</p>
         </div>
 
         <div class="flex flex-wrap gap-4" data-aos="fade-up" data-aos-delay="160">
@@ -313,56 +316,56 @@
     <p class="text-center mb-12" style="font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: #EAEAEA;">Trusted by teams at</p>
     <div class="logo-grid">
 
-      <!-- Honest Greens — opaque dark bg, naturally works -->
+      <!-- Honest Greens -->
       <div class="logo-item">
         <img loading="lazy" src="logo-honest-greens.png" alt="Honest Greens"
              onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
         <span class="logo-fallback" style="display:none;">Honest Greens</span>
       </div>
 
-      <!-- Resy — transparent bg, black wordmark → invert to white -->
+      <!-- Resy -->
       <div class="logo-item">
         <img loading="lazy" src="logo-resy.webp" alt="Resy" class="logo-to-white"
              onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
         <span class="logo-fallback" style="display:none;">Resy</span>
       </div>
 
-      <!-- ClassPass — SVG transparent bg, dark paths → invert to white -->
+      <!-- ClassPass -->
       <div class="logo-item">
         <img loading="lazy" src="logo-classpass.svg" alt="ClassPass" class="logo-to-white"
              onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
         <span class="logo-fallback" style="display:none;">ClassPass</span>
       </div>
 
-      <!-- Enzo Ventures — transparent bg, light script → invert to white -->
+      <!-- Enzo Ventures -->
       <div class="logo-item">
         <img loading="lazy" src="logo-enzo-ventures.png" alt="Enzo Ventures" class="logo-to-white"
              onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
         <span class="logo-fallback" style="display:none;">Enzo Ventures</span>
       </div>
 
-      <!-- Esade — transparent bg, dark text → invert to white -->
+      <!-- Esade -->
       <div class="logo-item">
         <img loading="lazy" src="logo-esade.png" alt="Esade" class="logo-to-white"
              onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
         <span class="logo-fallback" style="display:none;">Esade</span>
       </div>
 
-      <!-- IE Business School — transparent bg, dark content → invert to white -->
+      <!-- IE Business School -->
       <div class="logo-item">
         <img loading="lazy" src="logo-ie-business-school.png" alt="IE Business School" class="logo-to-white"
              onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
         <span class="logo-fallback" style="display:none;">IE Business School</span>
       </div>
 
-      <!-- Techstars — white bg, dark text → invert+greyscale → white on near-black -->
+      <!-- Techstars -->
       <div class="logo-item">
         <img loading="lazy" src="logo-techstars.png" alt="Techstars" class="logo-invert"
              onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
         <span class="logo-fallback" style="display:none;">Techstars</span>
       </div>
 
-      <!-- Startupbootcamp — white bg, coloured text → invert+greyscale → white on near-black -->
+      <!-- Startupbootcamp -->
       <div class="logo-item">
         <img loading="lazy" src="logo-startupbootcamp.png" alt="Startupbootcamp" class="logo-invert"
              onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
@@ -371,7 +374,7 @@
 
     </div>
     <div class="text-center mt-10 pt-6" style="font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: #777; border-top: 1px solid #1e1e1e;">
-      Hospitality &amp; Restaurants &nbsp;·&nbsp; Consumer Tech &nbsp;·&nbsp; B2B &amp; SaaS &nbsp;·&nbsp; Early-stage &amp; Growth
+      Hospitality &amp; Restaurants &nbsp;&middot;&nbsp; Consumer Tech &nbsp;&middot;&nbsp; B2B &amp; SaaS &nbsp;&middot;&nbsp; Early-stage &amp; Growth
     </div>
   </div>
 </section>
@@ -445,20 +448,20 @@
           I turn AI from an idea into something teams actually use, embedded in product, operations, and decision-making. Not a proof of concept. Not a chatbot. Systems that change how the business runs.
         </p>
         <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;">
-          <span style="color: #00D4FF; font-size: 13px; font-weight: 500;">AI Integration · Product Strategy · Workflow Automation</span>
-          <a href="blog/agentic-ai-business-leaders.html" style="color:#777;font-size:12px;text-decoration:none;" onmouseover="this.style.color='#00D4FF'" onmouseout="this.style.color='#777'">Related reading →</a>
+          <span style="color: #00D4FF; font-size: 13px; font-weight: 500;">AI Integration &middot; Product Strategy &middot; Workflow Automation</span>
+          <a href="blog/agentic-ai-business-leaders" style="color:#777;font-size:12px;text-decoration:none;" onmouseover="this.style.color='#00D4FF'" onmouseout="this.style.color='#777'">Related reading &rarr;</a>
         </div>
       </div>
 
       <div class="service-card" data-aos="fade-up" data-aos-delay="80">
         <div class="service-number">02</div>
-        <h3 class="font-heading text-xl font-semibold mb-3">0→1 Product Builds</h3>
+        <h3 class="font-heading text-xl font-semibold mb-3">0&rarr;1 Product Builds</h3>
         <p style="color: #B0B0B0; font-size: 15px; line-height: 1.75; margin-bottom: 20px;">
           I take products from zero to live. Fast enough to matter, stable enough to scale. I've done this enough times to know where teams lose momentum and how to avoid it.
         </p>
         <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;">
-          <span style="color: #00D4FF; font-size: 13px; font-weight: 500;">Product Development · MVP · Technical Direction</span>
-          <a href="blog/product-brief.html" style="color:#777;font-size:12px;text-decoration:none;" onmouseover="this.style.color='#00D4FF'" onmouseout="this.style.color='#777'">Related reading →</a>
+          <span style="color: #00D4FF; font-size: 13px; font-weight: 500;">Product Development &middot; MVP &middot; Technical Direction</span>
+          <a href="blog/product-brief" style="color:#777;font-size:12px;text-decoration:none;" onmouseover="this.style.color='#00D4FF'" onmouseout="this.style.color='#777'">Related reading &rarr;</a>
         </div>
       </div>
 
@@ -469,8 +472,8 @@
           I build the operational layer that keeps a digital business running. Not just launching. Tooling, processes, data flows, integrations. The infrastructure that stops breaking when you scale.
         </p>
         <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;">
-          <span style="color: #00D4FF; font-size: 13px; font-weight: 500;">Ops Systems · Data Infrastructure · Multi-market</span>
-          <a href="blog/digital-first-operations.html" style="color:#777;font-size:12px;text-decoration:none;" onmouseover="this.style.color='#00D4FF'" onmouseout="this.style.color='#777'">Related reading →</a>
+          <span style="color: #00D4FF; font-size: 13px; font-weight: 500;">Ops Systems &middot; Data Infrastructure &middot; Multi-market</span>
+          <a href="blog/digital-first-operations" style="color:#777;font-size:12px;text-decoration:none;" onmouseover="this.style.color='#00D4FF'" onmouseout="this.style.color='#777'">Related reading &rarr;</a>
         </div>
       </div>
 
@@ -481,8 +484,8 @@
           I help leadership teams make better decisions under pressure. With context, not theory. As a board advisor or sounding board for founders navigating inflection points.
         </p>
         <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;">
-          <span style="color: #00D4FF; font-size: 13px; font-weight: 500;">Advisory · Board · Exec Coaching</span>
-          <a href="blog/board-advisor-vs-non-executive-director.html" style="color:#777;font-size:12px;text-decoration:none;" onmouseover="this.style.color='#00D4FF'" onmouseout="this.style.color='#777'">Related reading →</a>
+          <span style="color: #00D4FF; font-size: 13px; font-weight: 500;">Advisory &middot; Board &middot; Exec Coaching</span>
+          <a href="blog/board-advisor-vs-non-executive-director" style="color:#777;font-size:12px;text-decoration:none;" onmouseover="this.style.color='#00D4FF'" onmouseout="this.style.color='#777'">Related reading &rarr;</a>
         </div>
       </div>
 
@@ -515,9 +518,9 @@
         <div class="mt-8 p-6 rounded-lg" style="border: 1px solid #1e1e1e; background: #111;">
           <p style="color: #B0B0B0; font-size: 14px; line-height: 1.7; margin-bottom: 12px;">What I focus on:</p>
           <ul style="color: #EAEAEA; font-size: 15px; line-height: 2; list-style: none; padding: 0;">
-            <li style="display:flex;gap:10px;"><span style="color:#00D4FF;">→</span> Connecting AI to the decisions that matter</li>
-            <li style="display:flex;gap:10px;"><span style="color:#00D4FF;">→</span> Building for adoption, not just capability</li>
-            <li style="display:flex;gap:10px;"><span style="color:#00D4FF;">→</span> Measuring outcomes, not activity</li>
+            <li style="display:flex;gap:10px;"><span style="color:#00D4FF;">&rarr;</span> Connecting AI to the decisions that matter</li>
+            <li style="display:flex;gap:10px;"><span style="color:#00D4FF;">&rarr;</span> Building for adoption, not just capability</li>
+            <li style="display:flex;gap:10px;"><span style="color:#00D4FF;">&rarr;</span> Measuring outcomes, not activity</li>
           </ul>
         </div>
       </div>
@@ -546,9 +549,9 @@
           Built and scaled digital systems across international markets inside fast-growing businesses. The challenge wasn't launching. It was making systems usable, reliable, and adopted daily across teams.
         </p>
         <ul style="color: #B0B0B0; font-size: 14px; line-height: 1.9; list-style: none; padding: 0;">
-          <li style="display:flex;gap:8px;"><span style="color:#00D4FF; flex-shrink:0;">→</span> Simplified operational workflows</li>
-          <li style="display:flex;gap:8px;"><span style="color:#00D4FF; flex-shrink:0;">→</span> Built tools teams actually use</li>
-          <li style="display:flex;gap:8px;"><span style="color:#00D4FF; flex-shrink:0;">→</span> Integrated AI where it improves decisions</li>
+          <li style="display:flex;gap:8px;"><span style="color:#00D4FF; flex-shrink:0;">&rarr;</span> Simplified operational workflows</li>
+          <li style="display:flex;gap:8px;"><span style="color:#00D4FF; flex-shrink:0;">&rarr;</span> Built tools teams actually use</li>
+          <li style="display:flex;gap:8px;"><span style="color:#00D4FF; flex-shrink:0;">&rarr;</span> Integrated AI where it improves decisions</li>
         </ul>
         <p style="color: #777; font-size: 13px; margin-top: 16px; padding-top: 16px; border-top: 1px solid #1e1e1e;">Systems teams rely on daily. Not experiments, not decks.</p>
       </div>
@@ -559,9 +562,9 @@
           Taken multiple products from concept to live in environments where speed matters and resources are constrained. Each one built to be maintainable, not just launchable.
         </p>
         <ul style="color: #B0B0B0; font-size: 14px; line-height: 1.9; list-style: none; padding: 0;">
-          <li style="display:flex;gap:8px;"><span style="color:#00D4FF; flex-shrink:0;">→</span> Defined what to build and why</li>
-          <li style="display:flex;gap:8px;"><span style="color:#00D4FF; flex-shrink:0;">→</span> Led technical and product direction</li>
-          <li style="display:flex;gap:8px;"><span style="color:#00D4FF; flex-shrink:0;">→</span> Shipped and iterated under real constraints</li>
+          <li style="display:flex;gap:8px;"><span style="color:#00D4FF; flex-shrink:0;">&rarr;</span> Defined what to build and why</li>
+          <li style="display:flex;gap:8px;"><span style="color:#00D4FF; flex-shrink:0;">&rarr;</span> Led technical and product direction</li>
+          <li style="display:flex;gap:8px;"><span style="color:#00D4FF; flex-shrink:0;">&rarr;</span> Shipped and iterated under real constraints</li>
         </ul>
         <p style="color: #777; font-size: 13px; margin-top: 16px; padding-top: 16px; border-top: 1px solid #1e1e1e;">Speed comes from clarity. Knowing what not to build is half the work.</p>
       </div>
@@ -572,9 +575,9 @@
           Worked alongside founders and exec teams at moments of real pressure: funding rounds, market expansion, leadership transitions, strategic pivots.
         </p>
         <ul style="color: #B0B0B0; font-size: 14px; line-height: 1.9; list-style: none; padding: 0;">
-          <li style="display:flex;gap:8px;"><span style="color:#00D4FF; flex-shrink:0;">→</span> Outside perspective without losing context</li>
-          <li style="display:flex;gap:8px;"><span style="color:#00D4FF; flex-shrink:0;">→</span> Challenged assumptions before they got expensive</li>
-          <li style="display:flex;gap:8px;"><span style="color:#00D4FF; flex-shrink:0;">→</span> Focused on the decision, not the deck</li>
+          <li style="display:flex;gap:8px;"><span style="color:#00D4FF; flex-shrink:0;">&rarr;</span> Outside perspective without losing context</li>
+          <li style="display:flex;gap:8px;"><span style="color:#00D4FF; flex-shrink:0;">&rarr;</span> Challenged assumptions before they got expensive</li>
+          <li style="display:flex;gap:8px;"><span style="color:#00D4FF; flex-shrink:0;">&rarr;</span> Focused on the decision, not the deck</li>
         </ul>
         <p style="color: #777; font-size: 13px; margin-top: 16px; padding-top: 16px; border-top: 1px solid #1e1e1e;">Most companies don't have a strategy problem. They have a decision problem.</p>
       </div>
@@ -624,44 +627,44 @@
 
     <div class="grid md:grid-cols-3 gap-5">
 <!-- HOMEPAGE_POSTS_START -->
-      <a href="blog/operators-vs-strategists.html" class="blog-card" data-aos="fade-up" data-aos-delay="0">
+      <a href="blog/ai-governance-board.html" class="blog-card" data-aos="fade-up" data-aos-delay="0">
         <div class="blog-thumb" style="background:none;padding:0;">
-          <img src="blog/images/operators-vs-strategists.svg" alt="" style="width:100%;height:100%;object-fit:cover;">
-        </div>
-        <div class="p-6">
-          <span class="blog-tag">Leadership</span>
-          <h3 class="font-heading text-base font-semibold mt-3 mb-2 leading-snug text-white">How great operators think differently from great strategists</h3>
-          <p style="color: #B0B0B0; font-size: 13px; line-height: 1.7;">Strategy and execution require different orientations. The best leaders can do both, but most organisations don’t understand the distinction.</p>
-          <div class="flex items-center justify-between mt-5">
-            <span style="font-size: 12px; color: #777;">5 May 2026 · 6 min read</span>
-            <span class="blog-arrow">→</span>
-          </div>
-        </div>
-      </a>
-      <a href="blog/board-cybersecurity-incident.html" class="blog-card" data-aos="fade-up" data-aos-delay="80">
-        <div class="blog-thumb" style="background:none;padding:0;">
-          <img src="blog/images/board-cybersecurity-incident.svg" alt="" style="width:100%;height:100%;object-fit:cover;">
+          <img src="blog/images/ai-governance-board.svg" alt="" style="width:100%;height:100%;object-fit:cover;">
         </div>
         <div class="p-6">
           <span class="blog-tag">Board & Advisory</span>
-          <h3 class="font-heading text-base font-semibold mt-3 mb-2 leading-snug text-white">The board’s role in a cybersecurity incident</h3>
-          <p style="color: #B0B0B0; font-size: 13px; line-height: 1.7;">A cybersecurity incident is a board-level event. Most boards aren’t ready. Here’s what governance looks like before, during, and after.</p>
+          <h3 class="font-heading text-base font-semibold mt-3 mb-2 leading-snug text-white">AI governance — what boards need to get right</h3>
+          <p style="color: #B0B0B0; font-size: 13px; line-height: 1.7;">AI governance is becoming a board responsibility. Most boards aren’t ready for it. Here’s what good governance actually looks like in practice.</p>
           <div class="flex items-center justify-between mt-5">
-            <span style="font-size: 12px; color: #777;">30 Apr 2026 · 6 min read</span>
+            <span style="font-size: 12px; color: #777;">21 May 2026 · 6 min read</span>
             <span class="blog-arrow">→</span>
           </div>
         </div>
       </a>
-      <a href="blog/scaling-culture-markets.html" class="blog-card" data-aos="fade-up" data-aos-delay="160">
+      <a href="blog/customer-feedback-wrong-signal.html" class="blog-card" data-aos="fade-up" data-aos-delay="80">
         <div class="blog-thumb" style="background:none;padding:0;">
-          <img src="blog/images/scaling-culture-markets.svg" alt="" style="width:100%;height:100%;object-fit:cover;">
+          <img src="blog/images/customer-feedback-wrong-signal.svg" alt="" style="width:100%;height:100%;object-fit:cover;">
+        </div>
+        <div class="p-6">
+          <span class="blog-tag">Digital Strategy</span>
+          <h3 class="font-heading text-base font-semibold mt-3 mb-2 leading-snug text-white">Why customer feedback is often the wrong signal</h3>
+          <p style="color: #B0B0B0; font-size: 13px; line-height: 1.7;">Customer feedback is essential — but it’s also one of the easiest inputs to misread. Here’s when to listen, when to discount, and what to look for instead.</p>
+          <div class="flex items-center justify-between mt-5">
+            <span style="font-size: 12px; color: #777;">19 May 2026 · 6 min read</span>
+            <span class="blog-arrow">→</span>
+          </div>
+        </div>
+      </a>
+      <a href="blog/digital-hiring-mistakes.html" class="blog-card" data-aos="fade-up" data-aos-delay="160">
+        <div class="blog-thumb" style="background:none;padding:0;">
+          <img src="blog/images/digital-hiring-mistakes.svg" alt="" style="width:100%;height:100%;object-fit:cover;">
         </div>
         <div class="p-6">
           <span class="blog-tag">Leadership</span>
-          <h3 class="font-heading text-base font-semibold mt-3 mb-2 leading-snug text-white">How to scale culture across multiple markets</h3>
-          <p style="color: #B0B0B0; font-size: 13px; line-height: 1.7;">Culture doesn’t scale automatically. What works in one market can break in another. Here’s how to maintain coherence without imposing uniformity.</p>
+          <h3 class="font-heading text-base font-semibold mt-3 mb-2 leading-snug text-white">The most common mistakes in digital hiring</h3>
+          <p style="color: #B0B0B0; font-size: 13px; line-height: 1.7;">Digital roles are hard to hire for if you don’t know what you’re actually buying. Here are the mistakes that cost companies the most.</p>
           <div class="flex items-center justify-between mt-5">
-            <span style="font-size: 12px; color: #777;">28 Apr 2026 · 6 min read</span>
+            <span style="font-size: 12px; color: #777;">14 May 2026 · 6 min read</span>
             <span class="blog-arrow">→</span>
           </div>
         </div>
@@ -670,7 +673,7 @@
     </div>
 
     <div class="text-center mt-8 md:hidden">
-      <a href="blog/index.html" class="btn-outline text-sm">All Posts →</a>
+      <a href="blog/index" class="btn-outline text-sm">All Posts &rarr;</a>
     </div>
 
   </div>
@@ -692,7 +695,7 @@
           style="flex:1;min-width:220px;background:#1a1a1a;border:1px solid #2a2a2a;border-radius:4px;padding:13px 18px;color:#fff;font-size:15px;font-family:'Inter',sans-serif;outline:none;">
         <button type="submit"
           style="background:#00D4FF;color:#0D0D0D;font-family:'Space Grotesk',sans-serif;font-weight:600;padding:13px 28px;border-radius:4px;border:none;cursor:pointer;font-size:15px;white-space:nowrap;">
-          Subscribe →
+          Subscribe &rarr;
         </button>
       </form>
       <p style="color:#666;font-size:12px;margin-top:16px;">No spam. Unsubscribe anytime.</p>
@@ -712,20 +715,20 @@
 
       <div class="testimonial-card" data-aos="fade-up" data-aos-delay="0">
         <p style="color: #EAEAEA; font-size: 15px; line-height: 1.75; font-style: italic; margin-bottom: 24px;">
-          "Stewart cuts through noise and brings immediate clarity to complex problems. He doesn't just advise — he drives momentum."
+          &ldquo;Stewart cuts through noise and brings immediate clarity to complex problems. He doesn't just advise &mdash; he drives momentum.&rdquo;
         </p>
         <div class="flex items-center gap-3">
           <div style="width:40px; height:40px; border-radius:50%; background:#1a1a1a; border:1px solid #2a2a2a; display:flex; align-items:center; justify-content:center; font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:13px; color:#666;">ML</div>
           <div>
             <div class="font-heading font-medium text-sm text-white">Minka Monica Li</div>
-            <div style="font-size: 12px; color: #777;">Commercial Strategy &amp; Operations · ex-ClassPass</div>
+            <div style="font-size: 12px; color: #777;">Commercial Strategy &amp; Operations &middot; ex-ClassPass</div>
           </div>
         </div>
       </div>
 
       <div class="testimonial-card" data-aos="fade-up" data-aos-delay="80">
         <p style="color: #EAEAEA; font-size: 15px; line-height: 1.75; font-style: italic; margin-bottom: 24px;">
-          "No-nonsense, high-energy, and always pushing for better solutions. Stewart challenges assumptions and gets things moving."
+          &ldquo;No-nonsense, high-energy, and always pushing for better solutions. Stewart challenges assumptions and gets things moving.&rdquo;
         </p>
         <div class="flex items-center gap-3">
           <div style="width:40px; height:40px; border-radius:50%; background:#1a1a1a; border:1px solid #2a2a2a; display:flex; align-items:center; justify-content:center; font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:13px; color:#666;">JM</div>
@@ -738,7 +741,7 @@
 
       <div class="testimonial-card" data-aos="fade-up" data-aos-delay="160">
         <p style="color: #EAEAEA; font-size: 15px; line-height: 1.75; font-style: italic; margin-bottom: 24px;">
-          "Stewart has a rare ability to combine long-term strategic thinking with practical, day-to-day decision making. He helped me level up fast."
+          &ldquo;Stewart has a rare ability to combine long-term strategic thinking with practical, day-to-day decision making. He helped me level up fast.&rdquo;
         </p>
         <div class="flex items-center gap-3">
           <div style="width:40px; height:40px; border-radius:50%; background:#1a1a1a; border:1px solid #2a2a2a; display:flex; align-items:center; justify-content:center; font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:13px; color:#666;">DB</div>
@@ -755,26 +758,26 @@
 
       <div class="testimonial-card" data-aos="fade-up" data-aos-delay="0">
         <p style="color: #EAEAEA; font-size: 15px; line-height: 1.75; font-style: italic; margin-bottom: 24px;">
-          "His understanding of customers and product is sharp. He helped us define strategy, communication, and what actually mattered."
+          &ldquo;His understanding of customers and product is sharp. He helped us define strategy, communication, and what actually mattered.&rdquo;
         </p>
         <div class="flex items-center gap-3">
           <div style="width:40px; height:40px; border-radius:50%; background:#1a1a1a; border:1px solid #2a2a2a; display:flex; align-items:center; justify-content:center; font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:13px; color:#666;">BC</div>
           <div>
             <div class="font-heading font-medium text-sm text-white">Blai Carandell Saladich</div>
-            <div style="font-size: 12px; color: #777;">CEO · NOBA</div>
+            <div style="font-size: 12px; color: #777;">CEO &middot; NOBA</div>
           </div>
         </div>
       </div>
 
       <div class="testimonial-card" data-aos="fade-up" data-aos-delay="80">
         <p style="color: #EAEAEA; font-size: 15px; line-height: 1.75; font-style: italic; margin-bottom: 24px;">
-          "He raises the standard of everyone around him. Calm, direct, and focused on getting to the right outcome."
+          &ldquo;He raises the standard of everyone around him. Calm, direct, and focused on getting to the right outcome.&rdquo;
         </p>
         <div class="flex items-center gap-3">
           <div style="width:40px; height:40px; border-radius:50%; background:#1a1a1a; border:1px solid #2a2a2a; display:flex; align-items:center; justify-content:center; font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:13px; color:#666;">AV</div>
           <div>
             <div class="font-heading font-medium text-sm text-white">Aleix Ventayol</div>
-            <div style="font-size: 12px; color: #777;">CEO · Bugfender</div>
+            <div style="font-size: 12px; color: #777;">CEO &middot; Bugfender</div>
           </div>
         </div>
       </div>
@@ -803,11 +806,11 @@
         <div style="background:#121212; border:1px solid #1e1e1e; border-radius:8px; padding:32px;">
           <div style="color:#00D4FF; font-size:12px; font-weight:500; letter-spacing:2px; text-transform:uppercase; margin-bottom:20px;">Areas of experience</div>
           <ul style="color:#EAEAEA; font-size:15px; line-height:2.1; list-style:none; padding:0;">
-            <li style="display:flex;gap:10px;"><span style="color:#00D4FF; flex-shrink:0;">→</span> AI and digital operations built and run inside real businesses</li>
-            <li style="display:flex;gap:10px;"><span style="color:#00D4FF; flex-shrink:0;">→</span> Products taken from zero to live, with all the decisions that go with it</li>
-            <li style="display:flex;gap:10px;"><span style="color:#00D4FF; flex-shrink:0;">→</span> Advisory to founders and exec teams at inflection points</li>
-            <li style="display:flex;gap:10px;"><span style="color:#00D4FF; flex-shrink:0;">→</span> Board-level input where the context is right</li>
-            <li style="display:flex;gap:10px;"><span style="color:#00D4FF; flex-shrink:0;">→</span> Multi-market digital systems that need to scale without breaking</li>
+            <li style="display:flex;gap:10px;"><span style="color:#00D4FF; flex-shrink:0;">&rarr;</span> AI and digital operations built and run inside real businesses</li>
+            <li style="display:flex;gap:10px;"><span style="color:#00D4FF; flex-shrink:0;">&rarr;</span> Products taken from zero to live, with all the decisions that go with it</li>
+            <li style="display:flex;gap:10px;"><span style="color:#00D4FF; flex-shrink:0;">&rarr;</span> Advisory to founders and exec teams at inflection points</li>
+            <li style="display:flex;gap:10px;"><span style="color:#00D4FF; flex-shrink:0;">&rarr;</span> Board-level input where the context is right</li>
+            <li style="display:flex;gap:10px;"><span style="color:#00D4FF; flex-shrink:0;">&rarr;</span> Multi-market digital systems that need to scale without breaking</li>
           </ul>
         </div>
       </div>
@@ -831,7 +834,7 @@
         feel free to reach out.
       </p>
       <a href="mailto:hello@stewartmasters.me" class="btn-primary" style="font-size: 16px; padding: 16px 40px;">
-        hello@stewartmasters.me →
+        hello@stewartmasters.me &rarr;
       </a>
     </div>
   </div>
@@ -845,15 +848,15 @@
     <div class="flex gap-6 flex-wrap justify-center" style="font-size: 13px;">
       <a href="#about" class="nav-link">About</a>
       <a href="#services" class="nav-link">Where I Help</a>
-      <a href="blog/index.html" class="nav-link">Thinking</a>
-      <a href="ai-adoption-guide.html" class="nav-link">AI Guide</a>
-      <a href="glossary.html" class="nav-link">Glossary</a>
-      <a href="/speaking.html" class="nav-link">Speaking</a>
-      <a href="/contact.html" class="nav-link">Contact</a>
+      <a href="blog/index" class="nav-link">Thinking</a>
+      <a href="ai-adoption-guide" class="nav-link">AI Guide</a>
+      <a href="glossary" class="nav-link">Glossary</a>
+      <a href="/speaking" class="nav-link">Speaking</a>
+      <a href="/contact" class="nav-link">Contact</a>
     </div>
-    <a href="https://www.linkedin.com/in/stewartmasters/" target="_blank" rel="noopener" class="nav-link" style="font-size: 13px;">LinkedIn →</a>
+    <a href="https://www.linkedin.com/in/stewartmasters/" target="_blank" rel="noopener" class="nav-link" style="font-size: 13px;">LinkedIn &rarr;</a>
   </div>
-  <div class="max-container mt-10 text-center" style="font-size: 11px; color: #888; letter-spacing: 2px; padding-top: 1.5rem;">BARCELONA · LONDON · MADRID</div>
+  <div class="max-container mt-10 text-center" style="font-size: 11px; color: #888; letter-spacing: 2px; padding-top: 1.5rem;">BARCELONA &middot; LONDON &middot; MADRID</div>
 </footer>
 
 

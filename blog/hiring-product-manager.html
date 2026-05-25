@@ -102,6 +102,9 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('consent', 'default', {'analytics_storage': 'denied'});
+    if (typeof localStorage !== 'undefined' && localStorage.getItem('cookie_consent') === 'accepted') {
+      gtag('consent', 'update', {'analytics_storage': 'granted'});
+    }
     gtag('js', new Date());
     gtag('config', 'G-T3GCWLRLH7');
   </script>
@@ -110,11 +113,11 @@
 <body>
 <nav>
   <div class="max-container py-4 flex items-center justify-between">
-    <a href="../index.html" class="font-heading font-semibold text-white text-lg tracking-tight">Stewart Masters</a>
+    <a href="../index" class="font-heading font-semibold text-white text-lg tracking-tight">Stewart Masters</a>
     <div class="hidden md:flex items-center gap-8">
       <a href="../index.html#about" class="nav-link">About</a>
       <a href="../index.html#services" class="nav-link">Where I Help</a>
-      <a href="index.html" class="nav-link" style="color:#fff;">Thinking</a>
+      <a href="index" class="nav-link" style="color:#fff;">Thinking</a>
     </div>
     <a href="../index.html#contact" class="btn-primary">Work With Me</a>
   </div>
@@ -123,8 +126,8 @@
 <header class="pt-40 pb-12 px-6">
   <div class="prose">
     <nav style="font-size:12px;color:#333;margin-bottom:24px;">
-      <a href="../index.html" style="color:#444;text-decoration:none;">Home</a><span style="margin:0 8px;">·</span>
-      <a href="index.html" style="color:#444;text-decoration:none;">Thinking</a><span class="bc-divider" style="margin:0 8px;">·</span>
+      <a href="../index" style="color:#444;text-decoration:none;">Home</a><span style="margin:0 8px;">·</span>
+      <a href="index" style="color:#444;text-decoration:none;">Thinking</a><span class="bc-divider" style="margin:0 8px;">·</span>
       <span class="bc-current" style="color:#555;">How to hire a product manager who actually builds</span>
     </nav>
     <span class="post-tag">Product</span>
@@ -173,7 +176,7 @@
 
     <h2>What to look for in the CV before you meet them</h2>
 
-    <p>The CV signal is simpler than most people think. Look for specific outcomes, not responsibilities. "Launched X, resulting in Y% improvement in Z" is a builder's CV line. "Responsible for <a href="/blog/roadmap-vs-plan.html">product roadmap</a> across three product areas" is a presenter's.</p>
+    <p>The CV signal is simpler than most people think. Look for specific outcomes, not responsibilities. "Launched X, resulting in Y% improvement in Z" is a builder's CV line. "Responsible for <a href="/blog/roadmap-vs-plan">product roadmap</a> across three product areas" is a presenter's.</p>
 
     <p>Look for tenure that suggests they actually shipped something. A PM who moved every 14 months probably never got a product to a state where they had to live with the consequences. The builders tend to stay until the thing is done, or until they've clearly understood why it didn't work.</p>
 
@@ -183,7 +186,7 @@
 
     <p>Not every PM role is the same. A PM building 0-to-1 products in an ambiguous problem space needs a different profile from a PM optimising and scaling a product that already works. The 0-to-1 PM needs high tolerance for uncertainty, a strong point of view about the user, and the confidence to say "we need to change direction." The scaling PM needs rigour, strong stakeholder management, and the ability to get things done through a larger organisation without formal authority.</p>
 
-    <p>Confusing these two profiles is one of the most common hiring mistakes in <a href="/blog/product-brief.html">product team</a>s. The brilliant 0-to-1 PM is sometimes terrible at scale. The rigorous scaling PM sometimes can't deal with the ambiguity of early-stage work. Both are valuable. Be honest about which you actually need before you start.</p>
+    <p>Confusing these two profiles is one of the most common hiring mistakes in <a href="/blog/product-brief">product team</a>s. The brilliant 0-to-1 PM is sometimes terrible at scale. The rigorous scaling PM sometimes can't deal with the ambiguity of early-stage work. Both are valuable. Be honest about which you actually need before you start.</p>
 
   </div>
 </article>
@@ -207,12 +210,12 @@
   <div class="prose pt-12">
     <h3 class="font-heading text-xl font-semibold text-white mb-6">More from the blog</h3>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-      <a href="product-brief.html" class="related-card">
+      <a href="product-brief" class="related-card">
         <span style="font-size:10px;letter-spacing:2px;text-transform:uppercase;color:#00D4FF;">Product</span>
         <h4 class="font-heading font-semibold text-white mt-2 mb-1 text-base leading-snug">What makes a great product brief — and why most teams skip it</h4>
         <span style="font-size:13px;color:#555;">March 29, 2026 · 6 min read</span>
       </a>
-      <a href="roadmap-vs-plan.html" class="related-card">
+      <a href="roadmap-vs-plan" class="related-card">
         <span style="font-size:10px;letter-spacing:2px;text-transform:uppercase;color:#00D4FF;">Product</span>
         <h4 class="font-heading font-semibold text-white mt-2 mb-1 text-base leading-snug">The difference between a roadmap and a plan</h4>
         <span style="font-size:13px;color:#555;">April 3, 2026 · 5 min read</span>
@@ -227,7 +230,7 @@
   <div class="max-container">
     <h2 class="font-heading text-xl font-bold text-white mb-8">Related posts</h2>
     <div class="grid md:grid-cols-3 gap-5">
-      <a href="roadmap-vs-plan.html" class="blog-card">
+      <a href="roadmap-vs-plan" class="blog-card">
         <div style="height:140px;overflow:hidden;border-bottom:1px solid #1e1e1e;">
           <img src="images/roadmap-vs-plan.svg" alt="The difference between a roadmap and a plan" style="width:100%;height:100%;object-fit:cover;">
         </div>
@@ -240,7 +243,7 @@
           </div>
         </div>
       </a>
-      <a href="product-brief.html" class="blog-card">
+      <a href="product-brief" class="blog-card">
         <div style="height:140px;overflow:hidden;border-bottom:1px solid #1e1e1e;">
           <img src="images/product-brief.svg" alt="What makes a great product brief — and why most teams skip it" style="width:100%;height:100%;object-fit:cover;">
         </div>
@@ -253,7 +256,7 @@
           </div>
         </div>
       </a>
-      <a href="what-is-a-digital-strategy.html" class="blog-card">
+      <a href="what-is-a-digital-strategy" class="blog-card">
         <div style="height:140px;overflow:hidden;border-bottom:1px solid #1e1e1e;">
           <img src="images/what-is-a-digital-strategy.svg" alt="What is a digital strategy, and why most companies don't actually have one" style="width:100%;height:100%;object-fit:cover;">
         </div>
@@ -291,11 +294,11 @@
 </section>
 <footer class="py-10 px-6" style="border-top:1px solid #141414;">
   <div class="max-container flex flex-col md:flex-row items-center justify-between gap-4">
-    <a href="../index.html" class="font-heading font-semibold" style="color:#555;">Stewart Masters</a>
+    <a href="../index" class="font-heading font-semibold" style="color:#555;">Stewart Masters</a>
     <div class="flex gap-6" style="font-size:13px;">
       <a href="../index.html#about" class="nav-link">About</a>
-      <a href="index.html" class="nav-link">Thinking</a>
-      <a href="/speaking.html" class="nav-link">Speaking</a>
+      <a href="index" class="nav-link">Thinking</a>
+      <a href="/speaking" class="nav-link">Speaking</a>
       <a href="../index.html#contact" class="nav-link">Contact</a>
     </div>
     <a href="https://www.linkedin.com/in/stewartmasters/" target="_blank" rel="noopener" class="nav-link" style="font-size:13px;">LinkedIn →</a>
