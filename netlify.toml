@@ -16,6 +16,24 @@
   status = 301
   force = true
 
+[[redirects]]
+  from = "/blog/index"
+  to = "/blog/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/ai-governance-board.html"
+  to = "/blog/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/why-digital-strategies-fail.html"
+  to = "/blog/"
+  status = 301
+  force = true
+
 # Block public access to draft posts (before /blog/*.html wildcard)
 [[redirects]]
   from = "/blog/drafts/*"
