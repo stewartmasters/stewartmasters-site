@@ -5,6 +5,12 @@
 
 # Specific canonicals first — must precede wildcard *.html rules
 [[redirects]]
+  from = "/index"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/index.html"
   to = "/"
   status = 301
