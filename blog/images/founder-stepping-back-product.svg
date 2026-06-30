@@ -36,15 +36,15 @@
   <line x1="420" y1="327" x2="420" y2="345" stroke="#4a2020" stroke-width="1" stroke-dasharray="3,3"/>
 
   <!-- Stage 3: Transition -->
-  <circle cx="650" cy="315" r="14" fill="#0a2030" stroke="#14B8A6" stroke-width="1.5" opacity="0.7"/>
-  <rect x="560" y="188" width="180" height="100" rx="4" fill="#0a1820" stroke="#14B8A6" stroke-width="1" opacity="0.5"/>
-  <text x="650" y="208" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#14B8A6" text-anchor="middle" letter-spacing="1" opacity="0.7">TRANSITION</text>
-  <text x="650" y="228" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#14B8A6" text-anchor="middle" opacity="0.8">Hire CPO/VP Prod</text>
+  <circle cx="650" cy="315" r="14" fill="#0a2030" stroke="#C8A45C" stroke-width="1.5" opacity="0.7"/>
+  <rect x="560" y="188" width="180" height="100" rx="4" fill="#0a1820" stroke="#C8A45C" stroke-width="1" opacity="0.5"/>
+  <text x="650" y="208" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#C8A45C" text-anchor="middle" letter-spacing="1" opacity="0.7">TRANSITION</text>
+  <text x="650" y="228" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#C8A45C" text-anchor="middle" opacity="0.8">Hire CPO/VP Prod</text>
   <text x="650" y="248" font-family="monospace" font-size="9" fill="#1a4a60" text-anchor="middle">Define authority</text>
   <text x="650" y="262" font-family="monospace" font-size="9" fill="#1a4a60" text-anchor="middle">explicitly in writing</text>
   <text x="650" y="276" font-family="monospace" font-size="9" fill="#1a4060" text-anchor="middle">Let decisions happen</text>
-  <text x="650" y="350" font-family="monospace" font-size="9" fill="#14B8A6" text-anchor="middle" opacity="0.5">Do this now</text>
-  <line x1="650" y1="329" x2="650" y2="345" stroke="#14B8A6" stroke-width="1" stroke-dasharray="3,3" opacity="0.4"/>
+  <text x="650" y="350" font-family="monospace" font-size="9" fill="#C8A45C" text-anchor="middle" opacity="0.5">Do this now</text>
+  <line x1="650" y1="329" x2="650" y2="345" stroke="#C8A45C" stroke-width="1" stroke-dasharray="3,3" opacity="0.4"/>
 
   <!-- Stage 4: CEO mode -->
   <circle cx="900" cy="315" r="12" fill="#0a1a10" stroke="#1a5020" stroke-width="1.5"/>
@@ -67,9 +67,9 @@
   <text x="600" y="497" font-family="'Space Grotesk', sans-serif" font-size="13" fill="#aaa" text-anchor="middle">Founders delay the transition until the bottleneck becomes a crisis — then rush it</text>
 
   <!-- Title -->
-  <text x="600" y="80" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#14B8A6" opacity="0.6" letter-spacing="4" text-anchor="middle">LEADERSHIP</text>
+  <text x="600" y="80" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#C8A45C" opacity="0.6" letter-spacing="4" text-anchor="middle">LEADERSHIP</text>
   <text x="600" y="116" font-family="'Space Grotesk', sans-serif" font-size="26" font-weight="700" fill="#fff" opacity="0.9" text-anchor="middle">Stepping Back from Product</text>
 
   <!-- Glow at transition point -->
-  <ellipse cx="650" cy="315" rx="80" ry="50" fill="#14B8A6" opacity="0.02"/>
+  <ellipse cx="650" cy="315" rx="80" ry="50" fill="#C8A45C" opacity="0.02"/>
 </svg>

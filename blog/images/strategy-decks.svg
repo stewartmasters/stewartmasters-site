@@ -39,13 +39,13 @@
   <polygon points="660,315 648,308 648,322" fill="#333"/>
 
   <!-- Single good page on right — clean, glowing -->
-  <rect x="690" y="175" width="320" height="260" rx="6" fill="#0a100a" stroke="#14B8A6" stroke-opacity="0.5" stroke-width="1.5"/>
+  <rect x="690" y="175" width="320" height="260" rx="6" fill="#0a100a" stroke="#C8A45C" stroke-opacity="0.5" stroke-width="1.5"/>
   <!-- Shadow box behind -->
-  <rect x="695" y="180" width="320" height="260" rx="6" fill="none" stroke="#14B8A6" stroke-opacity="0.08" stroke-width="8"/>
+  <rect x="695" y="180" width="320" height="260" rx="6" fill="none" stroke="#C8A45C" stroke-opacity="0.08" stroke-width="8"/>
   <!-- Good content — minimal -->
-  <text x="710" y="212" font-family="sans-serif" font-size="10" fill="#14B8A6" fill-opacity="0.5" letter-spacing="2">THE ONE DECISION</text>
-  <rect x="710" y="222" width="180" height="7" rx="2" fill="#14B8A6" fill-opacity="0.2"/>
-  <rect x="710" y="235" width="240" height="7" rx="2" fill="#14B8A6" fill-opacity="0.15"/>
+  <text x="710" y="212" font-family="sans-serif" font-size="10" fill="#C8A45C" fill-opacity="0.5" letter-spacing="2">THE ONE DECISION</text>
+  <rect x="710" y="222" width="180" height="7" rx="2" fill="#C8A45C" fill-opacity="0.2"/>
+  <rect x="710" y="235" width="240" height="7" rx="2" fill="#C8A45C" fill-opacity="0.15"/>
   <line x1="710" y1="260" x2="990" y2="260" stroke="#1e2e1e" stroke-width="1"/>
   <text x="710" y="280" font-family="sans-serif" font-size="10" fill="#445" letter-spacing="2">WHAT WE'RE NOT DOING</text>
   <rect x="710" y="290" width="160" height="6" rx="2" fill="#334" fill-opacity="0.4"/>
@@ -54,8 +54,8 @@
   <rect x="710" y="345" width="200" height="6" rx="2" fill="#334" fill-opacity="0.4"/>
   <rect x="710" y="358" width="140" height="6" rx="2" fill="#334" fill-opacity="0.3"/>
   <line x1="710" y1="385" x2="990" y2="385" stroke="#1e2e1e" stroke-width="1"/>
-  <text x="850" y="415" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#14B8A6" fill-opacity="0.35" letter-spacing="2">1 PAGE</text>
-  <text x="850" y="460" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#14B8A6" fill-opacity="0.5" letter-spacing="1">✓</text>
+  <text x="850" y="415" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#C8A45C" fill-opacity="0.35" letter-spacing="2">1 PAGE</text>
+  <text x="850" y="460" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#C8A45C" fill-opacity="0.5" letter-spacing="1">✓</text>
 
-  <text x="600" y="565" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#14B8A6" fill-opacity="0.2" letter-spacing="5">STRATEGY THAT WORKS</text>
+  <text x="600" y="565" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#C8A45C" fill-opacity="0.2" letter-spacing="5">STRATEGY THAT WORKS</text>
 </svg>

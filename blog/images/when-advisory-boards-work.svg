@@ -31,8 +31,8 @@
   <text x="300" y="473" font-family="monospace" font-size="10" fill="#2a0f0f" text-anchor="middle">Result: Logo on deck, zero value delivered</text>
 
   <!-- Right: Working advisory board -->
-  <rect x="660" y="160" width="480" height="360" rx="6" fill="#0a1a10" stroke="#14B8A6" stroke-width="1" opacity="0.5"/>
-  <text x="900" y="188" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#14B8A6" letter-spacing="3" text-anchor="middle" opacity="0.7">ADVISORY BOARD THAT WORKS</text>
+  <rect x="660" y="160" width="480" height="360" rx="6" fill="#0a1a10" stroke="#C8A45C" stroke-width="1" opacity="0.5"/>
+  <text x="900" y="188" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#C8A45C" letter-spacing="3" text-anchor="middle" opacity="0.7">ADVISORY BOARD THAT WORKS</text>
 
   <rect x="690" y="210" width="420" height="44" rx="3" fill="#0d1f14" stroke="#1a3a20" stroke-width="1"/>
   <text x="900" y="228" font-family="monospace" font-size="10" fill="#2a7030" text-anchor="middle">Specific expertise in context</text>
@@ -57,8 +57,8 @@
   <line x1="600" y1="160" x2="600" y2="520" stroke="#1a1a1a" stroke-width="1" stroke-dasharray="5,5"/>
 
   <!-- Title -->
-  <text x="600" y="80" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#14B8A6" opacity="0.6" letter-spacing="4" text-anchor="middle">BOARD &amp; ADVISORY</text>
+  <text x="600" y="80" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#C8A45C" opacity="0.6" letter-spacing="4" text-anchor="middle">BOARD &amp; ADVISORY</text>
   <text x="600" y="116" font-family="'Space Grotesk', sans-serif" font-size="28" font-weight="700" fill="#fff" opacity="0.9" text-anchor="middle">When Advisory Boards Work</text>
 
-  <ellipse cx="900" cy="340" rx="200" ry="160" fill="#14B8A6" opacity="0.01"/>
+  <ellipse cx="900" cy="340" rx="200" ry="160" fill="#C8A45C" opacity="0.01"/>
 </svg>

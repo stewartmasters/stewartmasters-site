@@ -8,39 +8,39 @@
   <rect width="1200" height="630" fill="url(#bg)"/>
 
   <!-- Title -->
-  <text x="600" y="55" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#14B8A6" opacity="0.6" letter-spacing="4" text-anchor="middle">AI &amp; TECHNOLOGY</text>
+  <text x="600" y="55" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#C8A45C" opacity="0.6" letter-spacing="4" text-anchor="middle">AI &amp; TECHNOLOGY</text>
   <text x="600" y="88" font-family="'Space Grotesk', sans-serif" font-size="26" font-weight="700" fill="#fff" opacity="0.9" text-anchor="middle">AI in Restaurants: What Actually Works</text>
 
   <!-- Column headers -->
-  <text x="300" y="130" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#14B8A6" text-anchor="middle" letter-spacing="2" opacity="0.8">DELIVERING REAL VALUE</text>
+  <text x="300" y="130" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#C8A45C" text-anchor="middle" letter-spacing="2" opacity="0.8">DELIVERING REAL VALUE</text>
   <text x="900" y="130" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#903030" text-anchor="middle" letter-spacing="2" opacity="0.8">HYPE EXCEEDS REALITY</text>
-  <line x1="80" y1="138" x2="550" y2="138" stroke="#14B8A6" stroke-width="0.5" opacity="0.3"/>
+  <line x1="80" y1="138" x2="550" y2="138" stroke="#C8A45C" stroke-width="0.5" opacity="0.3"/>
   <line x1="650" y1="138" x2="1120" y2="138" stroke="#903030" stroke-width="0.5" opacity="0.3"/>
   <line x1="600" y1="138" x2="600" y2="510" stroke="#1a1a1a" stroke-width="1"/>
   <text x="600" y="330" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="700" fill="#1a2a3a" text-anchor="middle">VS</text>
 
   <!-- Left: what works -->
-  <rect x="80" y="148" width="490" height="345" rx="8" fill="#0a1820" stroke="#14B8A6" stroke-width="1" opacity="0.4"/>
+  <rect x="80" y="148" width="490" height="345" rx="8" fill="#0a1820" stroke="#C8A45C" stroke-width="1" opacity="0.4"/>
 
-  <text x="120" y="178" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#14B8A6" opacity="0.7" letter-spacing="1">Demand forecasting &amp; labour scheduling</text>
+  <text x="120" y="178" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#C8A45C" opacity="0.7" letter-spacing="1">Demand forecasting &amp; labour scheduling</text>
   <text x="325" y="196" font-family="monospace" font-size="8" fill="#2a7090" text-anchor="middle">Combines POS data, weather, events, seasonality</text>
   <text x="325" y="212" font-family="monospace" font-size="8" fill="#1a5070" text-anchor="middle">Genuine labour cost reduction — measurable ROI</text>
   <line x1="100" y1="226" x2="550" y2="226" stroke="#1a3040" stroke-width="0.5" stroke-dasharray="3,3"/>
 
-  <text x="120" y="248" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#14B8A6" opacity="0.65" letter-spacing="1">Menu engineering &amp; pricing analysis</text>
+  <text x="120" y="248" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#C8A45C" opacity="0.65" letter-spacing="1">Menu engineering &amp; pricing analysis</text>
   <text x="325" y="266" font-family="monospace" font-size="8" fill="#2a7090" text-anchor="middle">Identifies what drives profitability, not just volume</text>
   <text x="325" y="282" font-family="monospace" font-size="8" fill="#1a5070" text-anchor="middle">Dynamic pricing in delivery channels — real results</text>
   <line x1="100" y1="296" x2="550" y2="296" stroke="#1a3040" stroke-width="0.5" stroke-dasharray="3,3"/>
 
-  <text x="120" y="318" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#14B8A6" opacity="0.6" letter-spacing="1">Food cost &amp; waste reduction</text>
+  <text x="120" y="318" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#C8A45C" opacity="0.6" letter-spacing="1">Food cost &amp; waste reduction</text>
   <text x="325" y="336" font-family="monospace" font-size="8" fill="#2a7090" text-anchor="middle">Forecasts inventory needs from bookings + history</text>
   <text x="325" y="352" font-family="monospace" font-size="8" fill="#1a5070" text-anchor="middle">Direct, measurable cost impact — high-leverage problem</text>
   <line x1="100" y1="366" x2="550" y2="366" stroke="#1a3040" stroke-width="0.5" stroke-dasharray="3,3"/>
 
-  <text x="120" y="388" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#14B8A6" opacity="0.55" letter-spacing="1">Review &amp; feedback analysis</text>
+  <text x="120" y="388" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#C8A45C" opacity="0.55" letter-spacing="1">Review &amp; feedback analysis</text>
   <text x="325" y="406" font-family="monospace" font-size="8" fill="#2a7090" text-anchor="middle">Patterns across thousands of reviews — by location, daypart</text>
   <text x="325" y="422" font-family="monospace" font-size="8" fill="#1a5070" text-anchor="middle">Accessible to mid-sized groups at low cost</text>
-  <rect x="155" y="468" width="340" height="5" rx="2" fill="#14B8A6" opacity="0.1"/>
+  <rect x="155" y="468" width="340" height="5" rx="2" fill="#C8A45C" opacity="0.1"/>
 
   <!-- Right: what's hype -->
   <rect x="630" y="148" width="490" height="345" rx="8" fill="#0a1020" stroke="#903030" stroke-width="1" opacity="0.35"/>

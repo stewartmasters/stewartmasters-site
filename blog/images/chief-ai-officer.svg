@@ -42,13 +42,13 @@
   <text x="800" y="290" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#2a2a2a" letter-spacing="1">Operations</text>
 
   <!-- CAIO — highlighted new box -->
-  <line x1="1000" y1="220" x2="1000" y2="250" stroke="#14B8A6" stroke-opacity="0.3" stroke-width="1"/>
-  <rect x="910" y="250" width="180" height="55" rx="4" fill="#081418" stroke="#14B8A6" stroke-opacity="0.4" stroke-width="1.5"/>
-  <text x="1000" y="272" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#14B8A6" fill-opacity="0.7" letter-spacing="2">CAIO</text>
-  <text x="1000" y="290" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#14B8A6" fill-opacity="0.35" letter-spacing="1">Chief AI Officer</text>
+  <line x1="1000" y1="220" x2="1000" y2="250" stroke="#C8A45C" stroke-opacity="0.3" stroke-width="1"/>
+  <rect x="910" y="250" width="180" height="55" rx="4" fill="#081418" stroke="#C8A45C" stroke-opacity="0.4" stroke-width="1.5"/>
+  <text x="1000" y="272" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#C8A45C" fill-opacity="0.7" letter-spacing="2">CAIO</text>
+  <text x="1000" y="290" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#C8A45C" fill-opacity="0.35" letter-spacing="1">Chief AI Officer</text>
 
   <!-- Question mark next to CAIO -->
-  <text x="1105" y="283" font-family="sans-serif" font-size="22" fill="#14B8A6" fill-opacity="0.25">?</text>
+  <text x="1105" y="283" font-family="sans-serif" font-size="22" fill="#C8A45C" fill-opacity="0.25">?</text>
 
   <!-- Below: considerations -->
   <text x="600" y="390" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#333" letter-spacing="2">WHEN DOES THIS ROLE MAKE SENSE?</text>
@@ -65,5 +65,5 @@
   <text x="905" y="436" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#3a3a3a">Governance requires</text>
   <text x="905" y="450" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#3a3a3a">a single owner</text>
 
-  <text x="600" y="575" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#14B8A6" fill-opacity="0.2" letter-spacing="5">CHIEF AI OFFICER</text>
+  <text x="600" y="575" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#C8A45C" fill-opacity="0.2" letter-spacing="5">CHIEF AI OFFICER</text>
 </svg>

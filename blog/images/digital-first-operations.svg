@@ -41,31 +41,31 @@
   <line x1="600" y1="140" x2="600" y2="500" stroke="#1a1a1a" stroke-width="1" stroke-dasharray="4 6"/>
 
   <!-- Digital-first ops — right: parallel, fast, automated -->
-  <text x="650" y="165" font-family="sans-serif" font-size="10" fill="#14B8A6" fill-opacity="0.5" letter-spacing="3">DIGITAL-FIRST</text>
+  <text x="650" y="165" font-family="sans-serif" font-size="10" fill="#C8A45C" fill-opacity="0.5" letter-spacing="3">DIGITAL-FIRST</text>
 
   <!-- Central hub -->
-  <circle cx="870" cy="300" r="50" fill="#0a100a" stroke="#14B8A6" stroke-opacity="0.4" stroke-width="1.5"/>
-  <text x="870" y="296" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#14B8A6" fill-opacity="0.6" letter-spacing="1">AUTO</text>
-  <text x="870" y="312" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#14B8A6" fill-opacity="0.4" letter-spacing="1">ROUTE</text>
+  <circle cx="870" cy="300" r="50" fill="#0a100a" stroke="#C8A45C" stroke-opacity="0.4" stroke-width="1.5"/>
+  <text x="870" y="296" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#C8A45C" fill-opacity="0.6" letter-spacing="1">AUTO</text>
+  <text x="870" y="312" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#C8A45C" fill-opacity="0.4" letter-spacing="1">ROUTE</text>
 
   <!-- Spokes — simultaneous -->
-  <line x1="820" y1="260" x2="720" y2="200" stroke="#14B8A6" stroke-opacity="0.2" stroke-width="1"/>
-  <rect x="660" y="175" width="60" height="30" rx="3" fill="#0a100a" stroke="#14B8A6" stroke-opacity="0.25" stroke-width="1"/>
+  <line x1="820" y1="260" x2="720" y2="200" stroke="#C8A45C" stroke-opacity="0.2" stroke-width="1"/>
+  <rect x="660" y="175" width="60" height="30" rx="3" fill="#0a100a" stroke="#C8A45C" stroke-opacity="0.25" stroke-width="1"/>
   <text x="690" y="194" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#445" letter-spacing="1">NOTIFY</text>
 
-  <line x1="920" y1="260" x2="1010" y2="200" stroke="#14B8A6" stroke-opacity="0.2" stroke-width="1"/>
-  <rect x="1010" y="175" width="60" height="30" rx="3" fill="#0a100a" stroke="#14B8A6" stroke-opacity="0.25" stroke-width="1"/>
+  <line x1="920" y1="260" x2="1010" y2="200" stroke="#C8A45C" stroke-opacity="0.2" stroke-width="1"/>
+  <rect x="1010" y="175" width="60" height="30" rx="3" fill="#0a100a" stroke="#C8A45C" stroke-opacity="0.25" stroke-width="1"/>
   <text x="1040" y="194" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#445" letter-spacing="1">LOG</text>
 
-  <line x1="820" y1="340" x2="720" y2="400" stroke="#14B8A6" stroke-opacity="0.2" stroke-width="1"/>
-  <rect x="660" y="385" width="60" height="30" rx="3" fill="#0a100a" stroke="#14B8A6" stroke-opacity="0.25" stroke-width="1"/>
+  <line x1="820" y1="340" x2="720" y2="400" stroke="#C8A45C" stroke-opacity="0.2" stroke-width="1"/>
+  <rect x="660" y="385" width="60" height="30" rx="3" fill="#0a100a" stroke="#C8A45C" stroke-opacity="0.25" stroke-width="1"/>
   <text x="690" y="404" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#445" letter-spacing="1">ASSIGN</text>
 
-  <line x1="920" y1="340" x2="1010" y2="400" stroke="#14B8A6" stroke-opacity="0.2" stroke-width="1"/>
-  <rect x="1010" y="385" width="60" height="30" rx="3" fill="#0a100a" stroke="#14B8A6" stroke-opacity="0.25" stroke-width="1"/>
+  <line x1="920" y1="340" x2="1010" y2="400" stroke="#C8A45C" stroke-opacity="0.2" stroke-width="1"/>
+  <rect x="1010" y="385" width="60" height="30" rx="3" fill="#0a100a" stroke="#C8A45C" stroke-opacity="0.25" stroke-width="1"/>
   <text x="1040" y="404" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#445" letter-spacing="1">ALERT</text>
 
-  <text x="870" y="472" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#14B8A6" fill-opacity="0.4" letter-spacing="2">4 MIN TO RESOLVE</text>
+  <text x="870" y="472" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#C8A45C" fill-opacity="0.4" letter-spacing="2">4 MIN TO RESOLVE</text>
 
-  <text x="600" y="565" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#14B8A6" fill-opacity="0.2" letter-spacing="5">DIGITAL-FIRST OPERATIONS</text>
+  <text x="600" y="565" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#C8A45C" fill-opacity="0.2" letter-spacing="5">DIGITAL-FIRST OPERATIONS</text>
 </svg>

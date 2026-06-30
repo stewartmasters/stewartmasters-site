@@ -33,34 +33,34 @@
   <polygon points="540,315 528,308 528,322" fill="#222"/>
 
   <!-- The builder — right side, glowing card -->
-  <rect x="590" y="155" width="460" height="290" rx="8" fill="#0a0e0a" stroke="#14B8A6" stroke-opacity="0.4" stroke-width="1.5"/>
-  <rect x="595" y="160" width="460" height="290" rx="8" fill="none" stroke="#14B8A6" stroke-opacity="0.06" stroke-width="10"/>
+  <rect x="590" y="155" width="460" height="290" rx="8" fill="#0a0e0a" stroke="#C8A45C" stroke-opacity="0.4" stroke-width="1.5"/>
+  <rect x="595" y="160" width="460" height="290" rx="8" fill="none" stroke="#C8A45C" stroke-opacity="0.06" stroke-width="10"/>
 
-  <text x="615" y="195" font-family="sans-serif" font-size="10" fill="#14B8A6" fill-opacity="0.5" letter-spacing="2">THE BUILDER</text>
-  <rect x="615" y="208" width="200" height="7" rx="2" fill="#14B8A6" fill-opacity="0.18"/>
-  <rect x="615" y="221" width="160" height="7" rx="2" fill="#14B8A6" fill-opacity="0.12"/>
+  <text x="615" y="195" font-family="sans-serif" font-size="10" fill="#C8A45C" fill-opacity="0.5" letter-spacing="2">THE BUILDER</text>
+  <rect x="615" y="208" width="200" height="7" rx="2" fill="#C8A45C" fill-opacity="0.18"/>
+  <rect x="615" y="221" width="160" height="7" rx="2" fill="#C8A45C" fill-opacity="0.12"/>
 
   <!-- Shipped product indicators -->
   <line x1="615" y1="250" x2="1030" y2="250" stroke="#1e2e1e" stroke-width="1"/>
   <text x="615" y="272" font-family="sans-serif" font-size="10" fill="#556" letter-spacing="2">SHIPPED</text>
-  <rect x="700" y="262" width="40" height="18" rx="3" fill="#14B8A6" fill-opacity="0.15" stroke="#14B8A6" stroke-opacity="0.3" stroke-width="1"/>
-  <text x="709" y="274" font-family="sans-serif" font-size="8" fill="#14B8A6" fill-opacity="0.7">v1.0</text>
-  <rect x="750" y="262" width="40" height="18" rx="3" fill="#14B8A6" fill-opacity="0.15" stroke="#14B8A6" stroke-opacity="0.3" stroke-width="1"/>
-  <text x="759" y="274" font-family="sans-serif" font-size="8" fill="#14B8A6" fill-opacity="0.7">v2.3</text>
-  <rect x="800" y="262" width="40" height="18" rx="3" fill="#14B8A6" fill-opacity="0.15" stroke="#14B8A6" stroke-opacity="0.3" stroke-width="1"/>
-  <text x="809" y="274" font-family="sans-serif" font-size="8" fill="#14B8A6" fill-opacity="0.7">v4.1</text>
+  <rect x="700" y="262" width="40" height="18" rx="3" fill="#C8A45C" fill-opacity="0.15" stroke="#C8A45C" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="709" y="274" font-family="sans-serif" font-size="8" fill="#C8A45C" fill-opacity="0.7">v1.0</text>
+  <rect x="750" y="262" width="40" height="18" rx="3" fill="#C8A45C" fill-opacity="0.15" stroke="#C8A45C" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="759" y="274" font-family="sans-serif" font-size="8" fill="#C8A45C" fill-opacity="0.7">v2.3</text>
+  <rect x="800" y="262" width="40" height="18" rx="3" fill="#C8A45C" fill-opacity="0.15" stroke="#C8A45C" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="809" y="274" font-family="sans-serif" font-size="8" fill="#C8A45C" fill-opacity="0.7">v4.1</text>
 
   <line x1="615" y1="298" x2="1030" y2="298" stroke="#1e2e1e" stroke-width="1"/>
   <text x="615" y="320" font-family="sans-serif" font-size="10" fill="#556" letter-spacing="2">DECISIONS MADE</text>
   <rect x="780" y="310" width="120" height="18" rx="3" fill="#334" fill-opacity="0.4"/>
-  <rect x="780" y="310" width="72" height="18" rx="3" fill="#14B8A6" fill-opacity="0.2"/>
+  <rect x="780" y="310" width="72" height="18" rx="3" fill="#C8A45C" fill-opacity="0.2"/>
 
   <line x1="615" y1="346" x2="1030" y2="346" stroke="#1e2e1e" stroke-width="1"/>
   <text x="615" y="368" font-family="sans-serif" font-size="10" fill="#556" letter-spacing="2">CAN EXPLAIN THE WHY</text>
-  <text x="980" y="368" font-family="sans-serif" font-size="10" fill="#14B8A6" fill-opacity="0.5">✓</text>
+  <text x="980" y="368" font-family="sans-serif" font-size="10" fill="#C8A45C" fill-opacity="0.5">✓</text>
 
   <line x1="615" y1="394" x2="1030" y2="394" stroke="#1e2e1e" stroke-width="1"/>
-  <text x="850" y="430" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#14B8A6" fill-opacity="0.35" letter-spacing="2">HIRE THIS ONE</text>
+  <text x="850" y="430" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#C8A45C" fill-opacity="0.35" letter-spacing="2">HIRE THIS ONE</text>
 
-  <text x="600" y="565" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#14B8A6" fill-opacity="0.2" letter-spacing="5">HOW TO HIRE A PM WHO BUILDS</text>
+  <text x="600" y="565" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#C8A45C" fill-opacity="0.2" letter-spacing="5">HOW TO HIRE A PM WHO BUILDS</text>
 </svg>

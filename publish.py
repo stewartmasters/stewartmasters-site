@@ -57,7 +57,7 @@ def featured_html(entry):
       </div>
       <div class="p-10 flex flex-col justify-between">
         <div>
-          <span style="font-size: 10px; font-weight: 500; letter-spacing: 2px; text-transform: uppercase; color: #14B8A6; display: block; margin-bottom: 14px;">Latest · {category}</span>
+          <span style="font-size: 10px; font-weight: 500; letter-spacing: 2px; text-transform: uppercase; color: #C8A45C; display: block; margin-bottom: 14px;">Latest · {category}</span>
           <h2 class="font-heading text-2xl md:text-3xl font-bold leading-snug mb-4">
             {title}
           </h2>

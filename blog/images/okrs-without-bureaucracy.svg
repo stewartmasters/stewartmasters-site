@@ -10,29 +10,29 @@
   <!-- Concentric target circles — large bullseye -->
   <circle cx="600" cy="315" r="230" fill="none" stroke="#141414" stroke-width="1.5"/>
   <circle cx="600" cy="315" r="185" fill="none" stroke="#161616" stroke-width="1"/>
-  <circle cx="600" cy="315" r="140" fill="none" stroke="#14B8A6" stroke-opacity="0.08" stroke-width="1.5"/>
-  <circle cx="600" cy="315" r="95" fill="none" stroke="#14B8A6" stroke-opacity="0.15" stroke-width="2"/>
-  <circle cx="600" cy="315" r="50" fill="#14B8A6" fill-opacity="0.05" stroke="#14B8A6" stroke-opacity="0.3" stroke-width="2"/>
+  <circle cx="600" cy="315" r="140" fill="none" stroke="#C8A45C" stroke-opacity="0.08" stroke-width="1.5"/>
+  <circle cx="600" cy="315" r="95" fill="none" stroke="#C8A45C" stroke-opacity="0.15" stroke-width="2"/>
+  <circle cx="600" cy="315" r="50" fill="#C8A45C" fill-opacity="0.05" stroke="#C8A45C" stroke-opacity="0.3" stroke-width="2"/>
 
   <!-- Center: O label -->
-  <text x="600" y="310" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="16" fill="#14B8A6" fill-opacity="0.6" font-weight="700">O</text>
-  <text x="600" y="328" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#14B8A6" fill-opacity="0.35" letter-spacing="2">OBJECTIVE</text>
+  <text x="600" y="310" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="16" fill="#C8A45C" fill-opacity="0.6" font-weight="700">O</text>
+  <text x="600" y="328" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#C8A45C" fill-opacity="0.35" letter-spacing="2">OBJECTIVE</text>
 
   <!-- KR labels on the rings -->
   <!-- KR1 — top right of inner ring -->
-  <text x="680" y="230" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#14B8A6" fill-opacity="0.45">KR1</text>
-  <line x1="668" y1="235" x2="638" y2="268" stroke="#14B8A6" stroke-opacity="0.15" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="680" y="230" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#C8A45C" fill-opacity="0.45">KR1</text>
+  <line x1="668" y1="235" x2="638" y2="268" stroke="#C8A45C" stroke-opacity="0.15" stroke-width="1" stroke-dasharray="3,3"/>
   <text x="680" y="246" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#334" letter-spacing="1">Measurable</text>
   <text x="680" y="258" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#2a2a2a" letter-spacing="1">Time-bound</text>
 
   <!-- KR2 — bottom right -->
-  <text x="700" y="400" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#14B8A6" fill-opacity="0.35">KR2</text>
-  <line x1="683" y1="393" x2="648" y2="362" stroke="#14B8A6" stroke-opacity="0.12" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="700" y="400" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#C8A45C" fill-opacity="0.35">KR2</text>
+  <line x1="683" y1="393" x2="648" y2="362" stroke="#C8A45C" stroke-opacity="0.12" stroke-width="1" stroke-dasharray="3,3"/>
   <text x="700" y="416" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#2a2a2a" letter-spacing="1">Owner assigned</text>
 
   <!-- KR3 — left -->
-  <text x="475" y="350" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#14B8A6" fill-opacity="0.3">KR3</text>
-  <line x1="510" y1="348" x2="550" y2="330" stroke="#14B8A6" stroke-opacity="0.1" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="475" y="350" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#C8A45C" fill-opacity="0.3">KR3</text>
+  <line x1="510" y1="348" x2="550" y2="330" stroke="#C8A45C" stroke-opacity="0.1" stroke-width="1" stroke-dasharray="3,3"/>
   <text x="450" y="366" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#222" letter-spacing="1">Weekly check-in</text>
 
   <!-- Simplicity indicator — 3 items only -->
@@ -66,5 +66,5 @@
   <rect x="888" y="458" width="120" height="3" rx="1" fill="#0f0f0f"/>
   <text x="1000" y="495" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#2a2a2a" letter-spacing="1">OKR #47 of 52...</text>
 
-  <text x="600" y="575" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#14B8A6" fill-opacity="0.2" letter-spacing="5">OKRs WITHOUT BUREAUCRACY</text>
+  <text x="600" y="575" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#C8A45C" fill-opacity="0.2" letter-spacing="5">OKRs WITHOUT BUREAUCRACY</text>
 </svg>

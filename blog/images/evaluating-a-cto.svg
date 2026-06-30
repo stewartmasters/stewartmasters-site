@@ -41,8 +41,8 @@
   <text x="270" y="465" font-family="monospace" font-size="9" fill="#1a2a40" text-anchor="middle">accumulates debt</text>
 
   <!-- Operator — highlighted as often needed -->
-  <circle cx="600" cy="200" r="52" fill="#0a1a20" stroke="#14B8A6" stroke-width="1.5" opacity="0.8"/>
-  <text x="600" y="195" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#14B8A6" text-anchor="middle" opacity="0.8">Operator</text>
+  <circle cx="600" cy="200" r="52" fill="#0a1a20" stroke="#C8A45C" stroke-width="1.5" opacity="0.8"/>
+  <text x="600" y="195" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" fill="#C8A45C" text-anchor="middle" opacity="0.8">Operator</text>
   <text x="600" y="212" font-family="monospace" font-size="9" fill="#1a4a60" text-anchor="middle">Scales reliably</text>
   <text x="600" y="225" font-family="monospace" font-size="9" fill="#1a4a60" text-anchor="middle">needed at growth</text>
 
@@ -57,16 +57,16 @@
   <text x="1010" y="178" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#555" letter-spacing="2" text-anchor="middle">STAGE FIT</text>
 
   <rect x="895" y="196" width="230" height="44" rx="3" fill="#0a1a10" stroke="#1a3020" stroke-width="1"/>
-  <text x="895" y="214" font-family="monospace" font-size="9" fill="#14B8A6" opacity="0.5">  SEED</text>
+  <text x="895" y="214" font-family="monospace" font-size="9" fill="#C8A45C" opacity="0.5">  SEED</text>
   <text x="895" y="230" font-family="monospace" font-size="9" fill="#1a5030">  Architect or Builder CTO</text>
 
   <rect x="895" y="256" width="230" height="44" rx="3" fill="#0a1418" stroke="#1a2030" stroke-width="1"/>
-  <text x="895" y="274" font-family="monospace" font-size="9" fill="#14B8A6" opacity="0.5">  SERIES A</text>
+  <text x="895" y="274" font-family="monospace" font-size="9" fill="#C8A45C" opacity="0.5">  SERIES A</text>
   <text x="895" y="290" font-family="monospace" font-size="9" fill="#1a4050">  Transition to Operator needed</text>
 
-  <rect x="895" y="316" width="230" height="44" rx="3" fill="#0a1a10" stroke="#14B8A6" stroke-width="1" opacity="0.4"/>
-  <text x="895" y="334" font-family="monospace" font-size="9" fill="#14B8A6" opacity="0.7">  SERIES B+</text>
-  <text x="895" y="350" font-family="monospace" font-size="9" fill="#14B8A6" opacity="0.5">  Operator CTO essential</text>
+  <rect x="895" y="316" width="230" height="44" rx="3" fill="#0a1a10" stroke="#C8A45C" stroke-width="1" opacity="0.4"/>
+  <text x="895" y="334" font-family="monospace" font-size="9" fill="#C8A45C" opacity="0.7">  SERIES B+</text>
+  <text x="895" y="350" font-family="monospace" font-size="9" fill="#C8A45C" opacity="0.5">  Operator CTO essential</text>
 
   <rect x="895" y="376" width="230" height="44" rx="3" fill="#0d0d10" stroke="#1a1a20" stroke-width="1"/>
   <text x="895" y="394" font-family="monospace" font-size="9" fill="#333">  SCALE</text>
@@ -76,9 +76,9 @@
   <text x="1010" y="468" font-family="monospace" font-size="9" fill="#1a2030" text-anchor="middle">when builder becomes needed operator</text>
 
   <!-- Title -->
-  <text x="600" y="80" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#14B8A6" opacity="0.6" letter-spacing="4" text-anchor="middle">LEADERSHIP</text>
+  <text x="600" y="80" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#C8A45C" opacity="0.6" letter-spacing="4" text-anchor="middle">LEADERSHIP</text>
   <text x="600" y="116" font-family="'Space Grotesk', sans-serif" font-size="28" font-weight="700" fill="#fff" opacity="0.9" text-anchor="middle">How to Evaluate a CTO</text>
 
   <!-- Ambient glow -->
-  <ellipse cx="600" cy="200" rx="70" ry="70" fill="#14B8A6" opacity="0.03"/>
+  <ellipse cx="600" cy="200" rx="70" ry="70" fill="#C8A45C" opacity="0.03"/>
 </svg>
