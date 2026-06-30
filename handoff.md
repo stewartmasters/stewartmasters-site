@@ -42,7 +42,7 @@
 ## Last Session Summary (2026-06-30)
 
 - New profile photo across hero + all 30 blog avatars + JSON-LD (optimized JPEG ~100KB; `.png` kept as fallback)
-- Rebranded accent: electric cyan `#00D4FF` → deep teal **`#14B8A6`** site-wide (all pages, blog thumbnail SVGs, OG image, Tailwind token, cookie banner, and the 3 Python generators so future content matches)
+- Rebranded accent: electric cyan `#00D4FF` → champagne/gold **`#C8A45C`** site-wide (all pages, blog thumbnail SVGs, OG image, Tailwind token, cookie banner, and the 3 Python generators so future content matches)
 - Cookie banner restyled to brand palette (was off-brand indigo `#1a1a2e` / blue `#4f8ef7`)
 - UX/a11y: mobile hero portrait added (phones previously showed no photo), `:focus-visible` rings, `prefers-reduced-motion`
 - handoff.md now committed to the repo (was previously untracked/local-only)
