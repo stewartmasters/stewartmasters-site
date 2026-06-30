@@ -76,9 +76,9 @@
     },
     "image": {
         "@type": "ImageObject",
-        "url": "https://stewartmasters.me/stewart-masters.png",
-        "width": 400,
-        "height": 400
+        "url": "https://stewartmasters.me/stewart-masters.jpg",
+        "width": 800,
+        "height": 800
     }
 }
   </script>
@@ -223,6 +223,24 @@
     #mobile-menu.open { display: flex; }
 
     @media (max-width: 768px) { .stat-number { font-size: 2.5rem; } }
+
+    /* Keyboard accessibility: visible focus ring on interactive elements */
+    a:focus-visible, button:focus-visible, input:focus-visible {
+      outline: 2px solid #00D4FF;
+      outline-offset: 3px;
+      border-radius: 3px;
+    }
+
+    /* Respect users who prefer reduced motion */
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+      [data-aos] { opacity: 1 !important; transform: none !important; }
+    }
   </style>
 
   <!-- Google tag (gtag.js) -->
@@ -278,11 +296,15 @@
 
       <div class="hidden md:flex justify-end order-last" data-aos="fade-left">
         <div style="width:360px; height:440px; border-radius:12px; overflow:hidden; border:1px solid #222;">
-          <img src="stewart-masters.png" alt="Stewart Masters" style="width:100%; height:100%; object-fit:cover; object-position:center top;">
+          <img src="stewart-masters.jpg" alt="Stewart Masters" style="width:100%; height:100%; object-fit:cover; object-position:center top;">
         </div>
       </div>
 
       <div class="max-w-2xl">
+        <div class="md:hidden mb-8" data-aos="fade-up">
+          <img src="stewart-masters.jpg" alt="Stewart Masters" width="84" height="84" loading="eager"
+               style="width:84px; height:84px; border-radius:50%; object-fit:cover; object-position:center top; border:1px solid #222;">
+        </div>
         <h1 class="font-heading text-5xl md:text-6xl font-bold leading-[1.05] tracking-tight mb-8" data-aos="fade-up">
           I build and run AI-powered digital systems inside real businesses.
         </h1>
