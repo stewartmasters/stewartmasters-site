@@ -56,8 +56,8 @@
   var declineBtn = document.getElementById('cookie-decline');
 
   acceptBtn.addEventListener('mouseenter', function () {
-    acceptBtn.style.background = '#ffffff';
-    acceptBtn.style.boxShadow = '0 0 24px rgba(200,164,92,0.25)';
+    acceptBtn.style.background = '#D9B45A';
+    acceptBtn.style.boxShadow = '0 0 24px rgba(217, 180, 90, 0.45)';
   });
   acceptBtn.addEventListener('mouseleave', function () {
     acceptBtn.style.background = '#C8A45C';
