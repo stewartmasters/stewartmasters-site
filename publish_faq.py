@@ -50,7 +50,7 @@ def related_cards_html(related_posts):
     cards = []
     for post in related_posts:
         cards.append(f"""      <a href="/blog/{post['slug']}.html" style="background:#121212;border:1px solid #1e1e1e;border-radius:8px;padding:24px;text-decoration:none;display:block;transition:border-color 0.3s;" onmouseover="this.style.borderColor='#2a2a2a'" onmouseout="this.style.borderColor='#1e1e1e'">
-        <span style="font-size:10px;color:#00D4FF;letter-spacing:2px;text-transform:uppercase;display:block;margin-bottom:8px;">{post['category']}</span>
+        <span style="font-size:10px;color:#14B8A6;letter-spacing:2px;text-transform:uppercase;display:block;margin-bottom:8px;">{post['category']}</span>
         <span class="font-heading" style="font-weight:600;color:#fff;font-size:15px;line-height:1.4;display:block;">{post['title']}</span>
       </a>""")
     return "\n".join(cards)
@@ -64,7 +64,7 @@ def faq_grid_card_html(entry):
     intro_short = entry["intro"][:120].rstrip() + "…" if len(entry["intro"]) > 120 else entry["intro"]
 
     return f"""      <a href="/faq/{slug}.html" class="faq-card" data-aos="fade-up">
-        <span style="font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:#00D4FF;display:block;margin-bottom:10px;">{category}</span>
+        <span style="font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:#14B8A6;display:block;margin-bottom:10px;">{category}</span>
         <h3 class="font-heading font-semibold text-white mb-3" style="font-size:16px;line-height:1.4;">{question}</h3>
         <p style="color:#777;font-size:13px;line-height:1.7;margin-bottom:16px;">{intro_short}</p>
         <span style="font-size:12px;color:#555;">{date_display}</span>
@@ -164,7 +164,7 @@ def generate_faq_page(entry):
     ::-webkit-scrollbar {{ width: 5px; }}
     ::-webkit-scrollbar-track {{ background: #0D0D0D; }}
     ::-webkit-scrollbar-thumb {{ background: #2a2a2a; border-radius: 3px; }}
-    ::-webkit-scrollbar-thumb:hover {{ background: #00D4FF; }}
+    ::-webkit-scrollbar-thumb:hover {{ background: #14B8A6; }}
 
     .font-heading {{ font-family: 'Space Grotesk', sans-serif; }}
     .max-container {{ max-width: 1200px; margin: 0 auto; padding: 0 24px; }}
@@ -179,7 +179,7 @@ def generate_faq_page(entry):
     .nav-link {{ font-size: 14px; color: #aaa; text-decoration: none; transition: color 0.2s; }}
     .nav-link:hover {{ color: #ffffff; }}
     .btn-primary {{
-      display: inline-block; background: #00D4FF; color: #0D0D0D;
+      display: inline-block; background: #14B8A6; color: #0D0D0D;
       font-family: 'Space Grotesk', sans-serif; font-weight: 600;
       padding: 10px 22px; border-radius: 4px; text-decoration: none; font-size: 14px;
     }}
@@ -188,8 +188,8 @@ def generate_faq_page(entry):
     .post-tag {{
       display: inline-block;
       font-size: 10px; font-weight: 500; letter-spacing: 2px;
-      text-transform: uppercase; color: #00D4FF;
-      border: 1px solid #00D4FF33; padding: 5px 12px; border-radius: 20px;
+      text-transform: uppercase; color: #14B8A6;
+      border: 1px solid #14B8A633; padding: 5px 12px; border-radius: 20px;
     }}
   </style>
   <link rel="alternate" type="application/rss+xml" title="Stewart Masters" href="https://stewartmasters.me/feed.xml">
@@ -253,7 +253,7 @@ def generate_faq_page(entry):
     <p style="color: #777; font-size: 15px;">
       <strong style="color: #888;">Want to talk through any of this?</strong><br>
       {closing}<br><br>
-      <a href="/contact.html" style="color: #00D4FF; text-decoration: underline; text-decoration-color: #00D4FF44;">Get in touch →</a>
+      <a href="/contact.html" style="color: #14B8A6; text-decoration: underline; text-decoration-color: #14B8A644;">Get in touch →</a>
     </p>
 
   </div>
@@ -269,7 +269,7 @@ def generate_faq_page(entry):
         <div class="font-heading font-semibold mb-1">Stewart Masters</div>
         <p style="color:#555;font-size:14px;line-height:1.6;margin:0;">
           Strategic advisor to founders and operators. Chief Digital Officer at Honest Greens. Guest lecturer at IE Business School and ESADE. Based in Barcelona.
-          <a href="https://www.linkedin.com/in/stewartmasters/" style="color:#00D4FF;text-decoration:none;">Connect on LinkedIn →</a>
+          <a href="https://www.linkedin.com/in/stewartmasters/" style="color:#14B8A6;text-decoration:none;">Connect on LinkedIn →</a>
         </p>
       </div>
     </div>

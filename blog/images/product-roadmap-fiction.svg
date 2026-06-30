@@ -98,9 +98,9 @@
   <text x="780" y="474" font-family="monospace" font-size="10" fill="#122410" opacity="0.5">→ Dates = false certainty</text>
 
   <!-- Title -->
-  <text x="600" y="78" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#00D4FF" opacity="0.6" letter-spacing="4" text-anchor="middle">DIGITAL STRATEGY</text>
+  <text x="600" y="78" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#14B8A6" opacity="0.6" letter-spacing="4" text-anchor="middle">DIGITAL STRATEGY</text>
   <text x="600" y="114" font-family="'Space Grotesk', sans-serif" font-size="26" font-weight="700" fill="#fff" opacity="0.9" text-anchor="middle">Why Most Product Roadmaps Are Fiction</text>
 
   <ellipse cx="340" cy="300" rx="300" ry="200" fill="#ff8800" opacity="0.01"/>
-  <ellipse cx="900" cy="300" rx="250" ry="180" fill="#00D4FF" opacity="0.01"/>
+  <ellipse cx="900" cy="300" rx="250" ry="180" fill="#14B8A6" opacity="0.01"/>
 </svg>

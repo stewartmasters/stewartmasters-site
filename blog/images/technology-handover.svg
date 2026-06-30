@@ -14,19 +14,19 @@
 
   <!-- LEFT BLOCK: Development -->
   <rect x="100" y="220" width="360" height="200" rx="6" fill="#0c0e10" stroke="#1e2030" stroke-width="1.5"/>
-  <text x="280" y="250" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#00D4FF" fill-opacity="0.4" letter-spacing="3">DEVELOPMENT</text>
+  <text x="280" y="250" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#14B8A6" fill-opacity="0.4" letter-spacing="3">DEVELOPMENT</text>
   <!-- Code lines -->
-  <rect x="130" y="268" width="80" height="4" rx="2" fill="#00D4FF" fill-opacity="0.15"/>
+  <rect x="130" y="268" width="80" height="4" rx="2" fill="#14B8A6" fill-opacity="0.15"/>
   <rect x="220" y="268" width="120" height="4" rx="2" fill="#333"/>
   <rect x="130" y="282" width="50" height="4" rx="2" fill="#333"/>
-  <rect x="190" y="282" width="140" height="4" rx="2" fill="#00D4FF" fill-opacity="0.1"/>
+  <rect x="190" y="282" width="140" height="4" rx="2" fill="#14B8A6" fill-opacity="0.1"/>
   <rect x="130" y="296" width="160" height="4" rx="2" fill="#333"/>
-  <rect x="130" y="320" width="100" height="4" rx="2" fill="#00D4FF" fill-opacity="0.12"/>
+  <rect x="130" y="320" width="100" height="4" rx="2" fill="#14B8A6" fill-opacity="0.12"/>
   <rect x="240" y="320" width="80" height="4" rx="2" fill="#2a2a2a"/>
   <rect x="130" y="334" width="140" height="4" rx="2" fill="#2a2a2a"/>
   <!-- Tick: tests passing -->
-  <text x="280" y="390" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#00D4FF" fill-opacity="0.3" letter-spacing="1">✓ Tests passing</text>
-  <text x="280" y="406" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#00D4FF" fill-opacity="0.2" letter-spacing="1">✓ Code reviewed</text>
+  <text x="280" y="390" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#14B8A6" fill-opacity="0.3" letter-spacing="1">✓ Tests passing</text>
+  <text x="280" y="406" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#14B8A6" fill-opacity="0.2" letter-spacing="1">✓ Code reviewed</text>
 
   <!-- GAP ZONE in the middle -->
   <rect x="460" y="255" width="280" height="130" rx="0" fill="none" stroke="#ff8800" stroke-opacity="0.15" stroke-width="1" stroke-dasharray="5,5"/>

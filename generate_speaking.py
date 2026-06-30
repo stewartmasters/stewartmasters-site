@@ -71,7 +71,7 @@ def related_cards_html(related_posts):
     cards = []
     for post in related_posts:
         cards.append(f"""      <a href="/blog/{post['slug']}.html" style="background:#0f0f0f;border:1px solid #1a1a1a;border-radius:8px;padding:24px;text-decoration:none;display:block;transition:border-color 0.2s;" onmouseover="this.style.borderColor='#2a2a2a'" onmouseout="this.style.borderColor='#1a1a1a'">
-        <span style="font-size:10px;color:#00D4FF;letter-spacing:2px;text-transform:uppercase;display:block;margin-bottom:8px;">{post['category']}</span>
+        <span style="font-size:10px;color:#14B8A6;letter-spacing:2px;text-transform:uppercase;display:block;margin-bottom:8px;">{post['category']}</span>
         <span class="font-heading font-semibold text-white" style="font-size:15px;line-height:1.4;display:block;">{post['title']}</span>
       </a>""")
     return "\n".join(cards)
@@ -87,14 +87,14 @@ def format_pills_html(formats):
 def audience_items_html(audiences):
     items = []
     for aud in audiences:
-        items.append(f'<li style="color:#888;font-size:15px;line-height:1.8;padding-left:16px;position:relative;"><span style="position:absolute;left:0;color:#00D4FF;">·</span>{aud}</li>')
+        items.append(f'<li style="color:#888;font-size:15px;line-height:1.8;padding-left:16px;position:relative;"><span style="position:absolute;left:0;color:#14B8A6;">·</span>{aud}</li>')
     return "\n          ".join(items)
 
 
 def takeaway_items_html(takeaways):
     items = []
     for item in takeaways:
-        items.append(f'<li style="color:#aaa;font-size:16px;line-height:1.8;padding-left:24px;position:relative;margin-bottom:12px;"><span style="position:absolute;left:0;color:#00D4FF;font-weight:700;">→</span>{item}</li>')
+        items.append(f'<li style="color:#aaa;font-size:16px;line-height:1.8;padding-left:24px;position:relative;margin-bottom:12px;"><span style="position:absolute;left:0;color:#14B8A6;font-weight:700;">→</span>{item}</li>')
     return "\n          ".join(items)
 
 
@@ -196,7 +196,7 @@ def generate_page(topic):
     ::-webkit-scrollbar {{ width: 5px; }}
     ::-webkit-scrollbar-track {{ background: #0D0D0D; }}
     ::-webkit-scrollbar-thumb {{ background: #2a2a2a; border-radius: 3px; }}
-    ::-webkit-scrollbar-thumb:hover {{ background: #00D4FF; }}
+    ::-webkit-scrollbar-thumb:hover {{ background: #14B8A6; }}
 
     .font-heading {{ font-family: 'Space Grotesk', sans-serif; }}
     .max-container {{ max-width: 1200px; margin: 0 auto; padding: 0 24px; }}
@@ -212,7 +212,7 @@ def generate_page(topic):
 
     .btn-primary {{
       display: inline-block;
-      background: #00D4FF; color: #0D0D0D;
+      background: #14B8A6; color: #0D0D0D;
       font-family: 'Space Grotesk', sans-serif; font-weight: 600;
       padding: 14px 36px; border-radius: 4px;
       text-decoration: none; font-size: 15px;
@@ -221,7 +221,7 @@ def generate_page(topic):
     .btn-primary:hover {{ background: #ffffff; }}
 
     .gradient-text {{
-      background: linear-gradient(135deg, #00D4FF, #ffffff);
+      background: linear-gradient(135deg, #14B8A6, #ffffff);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
@@ -248,7 +248,7 @@ def generate_page(topic):
       <span style="color:#555;">{title}</span>
     </nav>
 
-    <span style="font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:#00D4FF;display:block;margin-bottom:16px;">{category}</span>
+    <span style="font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:#14B8A6;display:block;margin-bottom:16px;">{category}</span>
 
     <h1 class="font-heading text-4xl md:text-5xl font-bold leading-tight mb-6">
       {title}

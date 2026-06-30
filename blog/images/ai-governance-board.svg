@@ -9,9 +9,9 @@
 
   <!-- Four pillars -->
   <!-- Pillar 1: Accountability -->
-  <rect x="60" y="175" width="240" height="310" rx="6" fill="#0a1520" stroke="#00D4FF" stroke-width="1" opacity="0.5"/>
-  <text x="180" y="205" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" text-anchor="middle" letter-spacing="2" opacity="0.8">ACCOUNTABILITY</text>
-  <line x1="80" y1="218" x2="280" y2="218" stroke="#00D4FF" stroke-width="0.5" opacity="0.3"/>
+  <rect x="60" y="175" width="240" height="310" rx="6" fill="#0a1520" stroke="#14B8A6" stroke-width="1" opacity="0.5"/>
+  <text x="180" y="205" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#14B8A6" text-anchor="middle" letter-spacing="2" opacity="0.8">ACCOUNTABILITY</text>
+  <line x1="80" y1="218" x2="280" y2="218" stroke="#14B8A6" stroke-width="0.5" opacity="0.3"/>
   <text x="180" y="245" font-family="monospace" font-size="9" fill="#2a7090" text-anchor="middle">Named person</text>
   <text x="180" y="263" font-family="monospace" font-size="9" fill="#1a5070" text-anchor="middle">for every deployment</text>
   <text x="180" y="290" font-family="monospace" font-size="8" fill="#1a4060" text-anchor="middle">Not the vendor</text>
@@ -21,7 +21,7 @@
   <text x="180" y="371" font-family="monospace" font-size="8" fill="#1a3050" text-anchor="middle">the board</text>
   <text x="180" y="410" font-family="monospace" font-size="8" fill="#1a2a40" text-anchor="middle">Can decide to take</text>
   <text x="180" y="426" font-family="monospace" font-size="8" fill="#1a2a40" text-anchor="middle">the system offline</text>
-  <rect x="100" y="460" width="160" height="6" rx="3" fill="#00D4FF" opacity="0.15"/>
+  <rect x="100" y="460" width="160" height="6" rx="3" fill="#14B8A6" opacity="0.15"/>
 
   <!-- Pillar 2: Transparency -->
   <rect x="320" y="175" width="240" height="310" rx="6" fill="#0a1820" stroke="#1a3040" stroke-width="1"/>
@@ -70,8 +70,8 @@
   <text x="600" y="531" font-family="'Space Grotesk', sans-serif" font-size="13" fill="#aaa" text-anchor="middle">AI governance is a leadership problem — not a technology problem</text>
 
   <!-- Title -->
-  <text x="600" y="72" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#00D4FF" opacity="0.6" letter-spacing="4" text-anchor="middle">BOARD &amp; ADVISORY</text>
+  <text x="600" y="72" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#14B8A6" opacity="0.6" letter-spacing="4" text-anchor="middle">BOARD &amp; ADVISORY</text>
   <text x="600" y="108" font-family="'Space Grotesk', sans-serif" font-size="26" font-weight="700" fill="#fff" opacity="0.9" text-anchor="middle">AI Governance — What Good Board Oversight Looks Like</text>
 
-  <ellipse cx="600" cy="340" rx="300" ry="160" fill="#00D4FF" opacity="0.01"/>
+  <ellipse cx="600" cy="340" rx="300" ry="160" fill="#14B8A6" opacity="0.01"/>
 </svg>

@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        accent: "#00D4FF",
+        accent: "#14B8A6",
       },
       fontFamily: {
         heading: ['"Space Grotesk"', "sans-serif"],

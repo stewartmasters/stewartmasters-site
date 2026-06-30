@@ -8,7 +8,7 @@
   <rect width="1200" height="630" fill="url(#bg)"/>
 
   <!-- Title -->
-  <text x="600" y="55" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#00D4FF" opacity="0.6" letter-spacing="4" text-anchor="middle">AI &amp; TECHNOLOGY</text>
+  <text x="600" y="55" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#14B8A6" opacity="0.6" letter-spacing="4" text-anchor="middle">AI &amp; TECHNOLOGY</text>
   <text x="600" y="88" font-family="'Space Grotesk', sans-serif" font-size="26" font-weight="700" fill="#fff" opacity="0.9" text-anchor="middle">Why Most AI Projects Fail in Companies</text>
 
   <!-- Row 1 -->

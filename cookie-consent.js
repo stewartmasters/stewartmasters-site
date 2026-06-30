@@ -46,7 +46,7 @@
     '<span style="max-width:680px">This site uses analytics cookies to understand how visitors engage with the content. No personal data is sold or shared.</span>',
     '<div style="display:flex;gap:10px;flex-shrink:0">',
     '  <button id="cookie-decline" style="background:transparent;border:1px solid #2c2c2c;color:#aaa;padding:8px 18px;border-radius:4px;cursor:pointer;font-size:13px;font-family:\'Space Grotesk\',sans-serif;font-weight:500;transition:border-color 0.2s,color 0.2s">Decline</button>',
-    '  <button id="cookie-accept" style="background:#00D4FF;border:none;color:#0D0D0D;padding:8px 18px;border-radius:4px;cursor:pointer;font-size:13px;font-family:\'Space Grotesk\',sans-serif;font-weight:600;transition:background 0.2s,box-shadow 0.2s">Accept</button>',
+    '  <button id="cookie-accept" style="background:#14B8A6;border:none;color:#0D0D0D;padding:8px 18px;border-radius:4px;cursor:pointer;font-size:13px;font-family:\'Space Grotesk\',sans-serif;font-weight:600;transition:background 0.2s,box-shadow 0.2s">Accept</button>',
     '</div>'
   ].join('');
 
@@ -57,15 +57,15 @@
 
   acceptBtn.addEventListener('mouseenter', function () {
     acceptBtn.style.background = '#ffffff';
-    acceptBtn.style.boxShadow = '0 0 24px rgba(0,212,255,0.25)';
+    acceptBtn.style.boxShadow = '0 0 24px rgba(20,184,166,0.25)';
   });
   acceptBtn.addEventListener('mouseleave', function () {
-    acceptBtn.style.background = '#00D4FF';
+    acceptBtn.style.background = '#14B8A6';
     acceptBtn.style.boxShadow = 'none';
   });
   declineBtn.addEventListener('mouseenter', function () {
-    declineBtn.style.borderColor = '#00D4FF';
-    declineBtn.style.color = '#00D4FF';
+    declineBtn.style.borderColor = '#14B8A6';
+    declineBtn.style.color = '#14B8A6';
   });
   declineBtn.addEventListener('mouseleave', function () {
     declineBtn.style.borderColor = '#2c2c2c';

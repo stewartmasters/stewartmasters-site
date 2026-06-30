@@ -8,14 +8,14 @@
   <rect width="1200" height="630" fill="url(#bg)"/>
 
   <!-- Title -->
-  <text x="600" y="55" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#00D4FF" opacity="0.6" letter-spacing="4" text-anchor="middle">AI &amp; TECHNOLOGY</text>
+  <text x="600" y="55" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#14B8A6" opacity="0.6" letter-spacing="4" text-anchor="middle">AI &amp; TECHNOLOGY</text>
   <text x="600" y="88" font-family="'Space Grotesk', sans-serif" font-size="25" font-weight="700" fill="#fff" opacity="0.9" text-anchor="middle">How to Introduce AI Into a Team That Doesn't Want It</text>
 
   <!-- Column headers -->
   <text x="300" y="132" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#903030" text-anchor="middle" letter-spacing="2" opacity="0.8">WHAT DOESN'T WORK</text>
-  <text x="900" y="132" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" text-anchor="middle" letter-spacing="2" opacity="0.8">WHAT ACTUALLY WORKS</text>
+  <text x="900" y="132" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#14B8A6" text-anchor="middle" letter-spacing="2" opacity="0.8">WHAT ACTUALLY WORKS</text>
   <line x1="80" y1="140" x2="550" y2="140" stroke="#903030" stroke-width="0.5" opacity="0.3"/>
-  <line x1="650" y1="140" x2="1120" y2="140" stroke="#00D4FF" stroke-width="0.5" opacity="0.3"/>
+  <line x1="650" y1="140" x2="1120" y2="140" stroke="#14B8A6" stroke-width="0.5" opacity="0.3"/>
   <line x1="600" y1="140" x2="600" y2="500" stroke="#1a1a1a" stroke-width="1"/>
   <text x="600" y="325" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="700" fill="#1a2a3a" text-anchor="middle">VS</text>
 
@@ -37,7 +37,7 @@
   <rect x="155" y="460" width="340" height="5" rx="2" fill="#903030" opacity="0.2"/>
 
   <!-- Right panel: What works -->
-  <rect x="630" y="150" width="490" height="330" rx="8" fill="#0a1820" stroke="#00D4FF" stroke-width="1" opacity="0.4"/>
+  <rect x="630" y="150" width="490" height="330" rx="8" fill="#0a1820" stroke="#14B8A6" stroke-width="1" opacity="0.4"/>
   <text x="875" y="185" font-family="monospace" font-size="9" fill="#2a7090" text-anchor="middle">Start with a named problem, not the tool itself</text>
   <line x1="650" y1="200" x2="1100" y2="200" stroke="#1a3040" stroke-width="0.5" stroke-dasharray="3,3"/>
   <text x="875" y="225" font-family="monospace" font-size="9" fill="#1a5070" text-anchor="middle">Involve sceptics in testing — they find what matters</text>
@@ -51,7 +51,7 @@
   <text x="875" y="385" font-family="monospace" font-size="9" fill="#1a3545" text-anchor="middle">Create space to learn — protected time, not overtime</text>
   <line x1="650" y1="400" x2="1100" y2="400" stroke="#1a3040" stroke-width="0.5" stroke-dasharray="3,3"/>
   <text x="875" y="425" font-family="monospace" font-size="9" fill="#1a3240" text-anchor="middle">Treat resistance as information worth understanding</text>
-  <rect x="705" y="460" width="340" height="5" rx="2" fill="#00D4FF" opacity="0.12"/>
+  <rect x="705" y="460" width="340" height="5" rx="2" fill="#14B8A6" opacity="0.12"/>
 
   <!-- Bottom bar -->
   <rect x="80" y="500" width="1040" height="36" rx="4" fill="#0a0f0a" stroke="#1a2a1a" stroke-width="1"/>

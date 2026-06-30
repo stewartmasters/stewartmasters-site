@@ -8,14 +8,14 @@
   <rect width="1200" height="630" fill="url(#bg)"/>
 
   <!-- Title -->
-  <text x="600" y="55" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#00D4FF" opacity="0.6" letter-spacing="4" text-anchor="middle">DIGITAL STRATEGY</text>
+  <text x="600" y="55" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#14B8A6" opacity="0.6" letter-spacing="4" text-anchor="middle">DIGITAL STRATEGY</text>
   <text x="600" y="88" font-family="'Space Grotesk', sans-serif" font-size="26" font-weight="700" fill="#fff" opacity="0.9" text-anchor="middle">Why Most Digital Strategies Fail in Execution</text>
 
   <!-- Two columns -->
   <text x="300" y="128" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#903030" text-anchor="middle" letter-spacing="2" opacity="0.8">WHERE STRATEGIES BREAK DOWN</text>
-  <text x="900" y="128" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" text-anchor="middle" letter-spacing="2" opacity="0.8">WHAT GOOD EXECUTION REQUIRES</text>
+  <text x="900" y="128" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#14B8A6" text-anchor="middle" letter-spacing="2" opacity="0.8">WHAT GOOD EXECUTION REQUIRES</text>
   <line x1="80" y1="136" x2="550" y2="136" stroke="#903030" stroke-width="0.5" opacity="0.3"/>
-  <line x1="650" y1="136" x2="1120" y2="136" stroke="#00D4FF" stroke-width="0.5" opacity="0.3"/>
+  <line x1="650" y1="136" x2="1120" y2="136" stroke="#14B8A6" stroke-width="0.5" opacity="0.3"/>
   <line x1="600" y1="136" x2="600" y2="520" stroke="#1a1a1a" stroke-width="1"/>
 
   <!-- Left: failure modes -->
@@ -46,31 +46,31 @@
   <rect x="155" y="476" width="340" height="5" rx="2" fill="#903030" opacity="0.12"/>
 
   <!-- Right: what good looks like -->
-  <rect x="630" y="146" width="490" height="355" rx="8" fill="#0a1820" stroke="#00D4FF" stroke-width="1" opacity="0.4"/>
+  <rect x="630" y="146" width="490" height="355" rx="8" fill="#0a1820" stroke="#14B8A6" stroke-width="1" opacity="0.4"/>
 
-  <text x="670" y="175" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" opacity="0.7">Involve executors in building the strategy</text>
+  <text x="670" y="175" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#14B8A6" opacity="0.7">Involve executors in building the strategy</text>
   <text x="875" y="193" font-family="monospace" font-size="8" fill="#2a7090" text-anchor="middle">Operational reality shapes strategy · people own what they helped build</text>
   <line x1="650" y1="206" x2="1100" y2="206" stroke="#1a3040" stroke-width="0.5" stroke-dasharray="3,3"/>
 
-  <text x="670" y="228" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" opacity="0.65">Clear sequencing with dependencies mapped</text>
+  <text x="670" y="228" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#14B8A6" opacity="0.65">Clear sequencing with dependencies mapped</text>
   <text x="875" y="246" font-family="monospace" font-size="8" fill="#1a5070" text-anchor="middle">What enables what · natural validation points · path from here to there</text>
   <line x1="650" y1="259" x2="1100" y2="259" stroke="#1a3040" stroke-width="0.5" stroke-dasharray="3,3"/>
 
-  <text x="670" y="281" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" opacity="0.6">Named individuals with real authority</text>
+  <text x="670" y="281" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#14B8A6" opacity="0.6">Named individuals with real authority</text>
   <text x="875" y="299" font-family="monospace" font-size="8" fill="#1a4060" text-anchor="middle">Person · resources · decision rights · measurable success criteria</text>
   <line x1="650" y1="312" x2="1100" y2="312" stroke="#1a3040" stroke-width="0.5" stroke-dasharray="3,3"/>
 
-  <text x="670" y="334" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" opacity="0.55">Strategy and budget built together</text>
+  <text x="670" y="334" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#14B8A6" opacity="0.55">Strategy and budget built together</text>
   <text x="875" y="352" font-family="monospace" font-size="8" fill="#1a3a50" text-anchor="middle">Honest connection between ambition and funding · scope that budget can support</text>
   <line x1="650" y1="365" x2="1100" y2="365" stroke="#1a3040" stroke-width="0.5" stroke-dasharray="3,3"/>
 
-  <text x="670" y="387" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" opacity="0.5">Regular cadence to update the strategy</text>
+  <text x="670" y="387" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#14B8A6" opacity="0.5">Regular cadence to update the strategy</text>
   <text x="875" y="405" font-family="monospace" font-size="8" fill="#1a3040" text-anchor="middle">Best hypothesis · tested against evidence · revised when warranted</text>
   <line x1="650" y1="418" x2="1100" y2="418" stroke="#1a3040" stroke-width="0.5" stroke-dasharray="3,3"/>
 
-  <text x="670" y="440" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" opacity="0.45">Specific measurable success criteria</text>
+  <text x="670" y="440" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#14B8A6" opacity="0.45">Specific measurable success criteria</text>
   <text x="875" y="458" font-family="monospace" font-size="8" fill="#1a2a38" text-anchor="middle">Outcomes not activities · baselines captured · course correction built in</text>
-  <rect x="705" y="476" width="380" height="5" rx="2" fill="#00D4FF" opacity="0.08"/>
+  <rect x="705" y="476" width="380" height="5" rx="2" fill="#14B8A6" opacity="0.08"/>
 
   <!-- Bottom bar -->
   <rect x="80" y="520" width="1040" height="36" rx="4" fill="#0a0f0a" stroke="#1a2a1a" stroke-width="1"/>

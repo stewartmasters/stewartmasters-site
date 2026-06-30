@@ -31,16 +31,16 @@
     <text x="670" y="294" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#445">POSITIONING</text>
 
     <!-- Step 5 — top, glowing -->
-    <rect x="760" y="180" width="120" height="310" fill="#0a140a" stroke="#00D4FF" stroke-opacity="0.35" stroke-width="1.5"/>
-    <text x="820" y="206" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" fill-opacity="0.6" letter-spacing="1">05</text>
-    <text x="820" y="224" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" fill-opacity="0.6">FIRST ROLE</text>
+    <rect x="760" y="180" width="120" height="310" fill="#0a140a" stroke="#14B8A6" stroke-opacity="0.35" stroke-width="1.5"/>
+    <text x="820" y="206" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#14B8A6" fill-opacity="0.6" letter-spacing="1">05</text>
+    <text x="820" y="224" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#14B8A6" fill-opacity="0.6">FIRST ROLE</text>
   </g>
 
   <!-- Arrow on top of step 5 -->
-  <polygon points="820,155 808,175 832,175" fill="#00D4FF" fill-opacity="0.5"/>
+  <polygon points="820,155 808,175 832,175" fill="#14B8A6" fill-opacity="0.5"/>
 
   <!-- Rising line connecting step tops -->
-  <path d="M 160 430 L 280 430 L 280 370 L 460 370 L 460 310 L 610 310 L 610 250 L 760 250 L 760 180" fill="none" stroke="#00D4FF" stroke-opacity="0.2" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <path d="M 160 430 L 280 430 L 280 370 L 460 370 L 460 310 L 610 310 L 610 250 L 760 250 L 760 180" fill="none" stroke="#14B8A6" stroke-opacity="0.2" stroke-width="1.5" stroke-dasharray="5 4"/>
 
   <!-- Bar chart value marks on side -->
   <g stroke="#1e1e1e" stroke-width="1">
@@ -58,7 +58,7 @@
   <text x="130" y="374" text-anchor="end" font-family="monospace" font-size="9" fill="#333">2</text>
   <text x="130" y="314" text-anchor="end" font-family="monospace" font-size="9" fill="#333">3</text>
   <text x="130" y="254" text-anchor="end" font-family="monospace" font-size="9" fill="#333">4</text>
-  <text x="130" y="184" text-anchor="end" font-family="monospace" font-size="9" fill="#00D4FF" fill-opacity="0.4">5</text>
+  <text x="130" y="184" text-anchor="end" font-family="monospace" font-size="9" fill="#14B8A6" fill-opacity="0.4">5</text>
 
-  <text x="600" y="565" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="12" fill="#00D4FF" fill-opacity="0.22" letter-spacing="5">BOARD ADVISOR PATHWAY</text>
+  <text x="600" y="565" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="12" fill="#14B8A6" fill-opacity="0.22" letter-spacing="5">BOARD ADVISOR PATHWAY</text>
 </svg>

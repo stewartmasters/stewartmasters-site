@@ -8,9 +8,9 @@
   <rect width="1200" height="630" fill="url(#bg)"/>
 
   <!-- Capability level (high, right side) -->
-  <text x="1060" y="200" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" text-anchor="middle" letter-spacing="2" opacity="0.7">AI CAPABILITY</text>
-  <circle cx="1060" cy="240" r="40" fill="#0a1a20" stroke="#00D4FF" stroke-width="1.5" opacity="0.6"/>
-  <text x="1060" y="245" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#00D4FF" text-anchor="middle" opacity="0.8">HIGH</text>
+  <text x="1060" y="200" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#14B8A6" text-anchor="middle" letter-spacing="2" opacity="0.7">AI CAPABILITY</text>
+  <circle cx="1060" cy="240" r="40" fill="#0a1a20" stroke="#14B8A6" stroke-width="1.5" opacity="0.6"/>
+  <text x="1060" y="245" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#14B8A6" text-anchor="middle" opacity="0.8">HIGH</text>
   <text x="1060" y="300" font-family="monospace" font-size="8" fill="#1a5070" text-anchor="middle">Tools exist</text>
   <text x="1060" y="316" font-family="monospace" font-size="8" fill="#1a4060" text-anchor="middle">APIs accessible</text>
   <text x="1060" y="332" font-family="monospace" font-size="8" fill="#1a3050" text-anchor="middle">Cost dropping</text>
@@ -63,7 +63,7 @@
 
   <!-- Solutions row -->
   <line x1="240" y1="300" x2="960" y2="300" stroke="#1a2a1a" stroke-width="0.5"/>
-  <text x="600" y="325" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#00D4FF" text-anchor="middle" letter-spacing="2" opacity="0.6">WHAT WORKS</text>
+  <text x="600" y="325" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#14B8A6" text-anchor="middle" letter-spacing="2" opacity="0.6">WHAT WORKS</text>
 
   <rect x="240" y="338" width="700" height="100" rx="4" fill="#0a1812" stroke="#1a3020" stroke-width="1"/>
   <text x="590" y="362" font-family="monospace" font-size="9" fill="#2a6030" text-anchor="middle">Shift from deployment → embedding · Redesign workflows with AI as default</text>
@@ -72,6 +72,6 @@
   <text x="590" y="425" font-family="monospace" font-size="9" fill="#1a3020" text-anchor="middle">Leaders visibly using AI in their own work — the most powerful signal</text>
 
   <!-- Title -->
-  <text x="600" y="72" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#00D4FF" opacity="0.6" letter-spacing="4" text-anchor="middle">AI &amp; TECHNOLOGY</text>
+  <text x="600" y="72" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#14B8A6" opacity="0.6" letter-spacing="4" text-anchor="middle">AI &amp; TECHNOLOGY</text>
   <text x="600" y="108" font-family="'Space Grotesk', sans-serif" font-size="28" font-weight="700" fill="#fff" opacity="0.9" text-anchor="middle">The AI Problem Is Adoption, Not Capability</text>
 </svg>

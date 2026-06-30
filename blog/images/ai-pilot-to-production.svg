@@ -8,23 +8,23 @@
   <rect width="1200" height="630" fill="url(#bg)"/>
 
   <!-- Title -->
-  <text x="600" y="55" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#00D4FF" opacity="0.6" letter-spacing="4" text-anchor="middle">AI &amp; TECHNOLOGY</text>
+  <text x="600" y="55" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#14B8A6" opacity="0.6" letter-spacing="4" text-anchor="middle">AI &amp; TECHNOLOGY</text>
   <text x="600" y="88" font-family="'Space Grotesk', sans-serif" font-size="26" font-weight="700" fill="#fff" opacity="0.9" text-anchor="middle">From Pilot to Production: Why AI Projects Stall</text>
 
   <!-- Three-stage flow -->
   <!-- Stage 1: Pilot (left) -->
-  <rect x="60" y="115" width="300" height="370" rx="8" fill="#0a1820" stroke="#00D4FF" stroke-width="1.5" opacity="0.7"/>
-  <text x="210" y="148" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700" fill="#00D4FF" text-anchor="middle" opacity="0.9">PILOT</text>
+  <rect x="60" y="115" width="300" height="370" rx="8" fill="#0a1820" stroke="#14B8A6" stroke-width="1.5" opacity="0.7"/>
+  <text x="210" y="148" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700" fill="#14B8A6" text-anchor="middle" opacity="0.9">PILOT</text>
   <text x="210" y="170" font-family="monospace" font-size="8" fill="#2a7090" text-anchor="middle">Self-selected team — enthusiastic</text>
   <text x="210" y="186" font-family="monospace" font-size="8" fill="#2a6080" text-anchor="middle">Constrained scope — clean data</text>
   <text x="210" y="202" font-family="monospace" font-size="8" fill="#1a5070" text-anchor="middle">Close monitoring — fast fixes</text>
   <text x="210" y="218" font-family="monospace" font-size="8" fill="#1a4060" text-anchor="middle">Visible senior sponsorship</text>
   <text x="210" y="234" font-family="monospace" font-size="8" fill="#1a3850" text-anchor="middle">Named champion — high motivation</text>
   <line x1="80" y1="250" x2="340" y2="250" stroke="#1a3040" stroke-width="0.5" stroke-dasharray="3,3"/>
-  <text x="210" y="274" font-family="monospace" font-size="8" fill="#00D4FF" text-anchor="middle" opacity="0.6">✓ Results look promising</text>
-  <text x="210" y="292" font-family="monospace" font-size="8" fill="#00D4FF" text-anchor="middle" opacity="0.5">✓ Stakeholders enthusiastic</text>
-  <text x="210" y="310" font-family="monospace" font-size="8" fill="#00D4FF" text-anchor="middle" opacity="0.4">✓ Decision to scale up made</text>
-  <rect x="80" y="462" width="260" height="5" rx="2" fill="#00D4FF" opacity="0.2"/>
+  <text x="210" y="274" font-family="monospace" font-size="8" fill="#14B8A6" text-anchor="middle" opacity="0.6">✓ Results look promising</text>
+  <text x="210" y="292" font-family="monospace" font-size="8" fill="#14B8A6" text-anchor="middle" opacity="0.5">✓ Stakeholders enthusiastic</text>
+  <text x="210" y="310" font-family="monospace" font-size="8" fill="#14B8A6" text-anchor="middle" opacity="0.4">✓ Decision to scale up made</text>
+  <rect x="80" y="462" width="260" height="5" rx="2" fill="#14B8A6" opacity="0.2"/>
 
   <!-- Gap arrow -->
   <line x1="380" y1="300" x2="470" y2="300" stroke="#903030" stroke-width="1.5" opacity="0.6"/>
@@ -51,14 +51,14 @@
   <rect x="520" y="462" width="160" height="5" rx="2" fill="#903030" opacity="0.15"/>
 
   <!-- Second arrow -->
-  <line x1="720" y1="300" x2="810" y2="300" stroke="#00D4FF" stroke-width="1.5" opacity="0.4"/>
-  <polygon points="810,293 830,300 810,307" fill="#00D4FF" opacity="0.4"/>
-  <text x="775" y="290" font-family="'Space Grotesk', sans-serif" font-size="9" fill="#00D4FF" text-anchor="middle" opacity="0.5">PLAN FOR IT</text>
+  <line x1="720" y1="300" x2="810" y2="300" stroke="#14B8A6" stroke-width="1.5" opacity="0.4"/>
+  <polygon points="810,293 830,300 810,307" fill="#14B8A6" opacity="0.4"/>
+  <text x="775" y="290" font-family="'Space Grotesk', sans-serif" font-size="9" fill="#14B8A6" text-anchor="middle" opacity="0.5">PLAN FOR IT</text>
 
   <!-- Stage 3: Production (right) -->
-  <rect x="840" y="115" width="300" height="370" rx="8" fill="#0a1820" stroke="#00D4FF" stroke-width="1" opacity="0.35"/>
-  <text x="990" y="148" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700" fill="#00D4FF" text-anchor="middle" opacity="0.65">PRODUCTION</text>
-  <text x="990" y="172" font-family="'Space Grotesk', sans-serif" font-size="9" fill="#00D4FF" text-anchor="middle" opacity="0.5">Transition plan covers:</text>
+  <rect x="840" y="115" width="300" height="370" rx="8" fill="#0a1820" stroke="#14B8A6" stroke-width="1" opacity="0.35"/>
+  <text x="990" y="148" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700" fill="#14B8A6" text-anchor="middle" opacity="0.65">PRODUCTION</text>
+  <text x="990" y="172" font-family="'Space Grotesk', sans-serif" font-size="9" fill="#14B8A6" text-anchor="middle" opacity="0.5">Transition plan covers:</text>
   <text x="990" y="196" font-family="monospace" font-size="8" fill="#1a6070" text-anchor="middle">→ Production data integration</text>
   <text x="990" y="214" font-family="monospace" font-size="8" fill="#1a5565" text-anchor="middle">→ Named ownership + accountability</text>
   <text x="990" y="232" font-family="monospace" font-size="8" fill="#1a4a58" text-anchor="middle">→ Support model before go-live</text>
@@ -69,7 +69,7 @@
   <text x="990" y="324" font-family="monospace" font-size="8" fill="#1a4060" text-anchor="middle">Ask before scaling:</text>
   <text x="990" y="342" font-family="monospace" font-size="8" fill="#1a3850" text-anchor="middle">Do the conditions for success</text>
   <text x="990" y="360" font-family="monospace" font-size="8" fill="#1a3040" text-anchor="middle">exist more broadly?</text>
-  <rect x="860" y="462" width="260" height="5" rx="2" fill="#00D4FF" opacity="0.08"/>
+  <rect x="860" y="462" width="260" height="5" rx="2" fill="#14B8A6" opacity="0.08"/>
 
   <!-- Bottom bar -->
   <rect x="60" y="508" width="1080" height="36" rx="4" fill="#0a0f0a" stroke="#1a2a1a" stroke-width="1"/>
