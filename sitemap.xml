@@ -83,6 +83,12 @@
   <!-- FAQ pages (auto-populated by publish_faq.py) -->
 <!-- FAQ_URLS_START -->
   <url>
+    <loc>https://stewartmasters.me/faq/what-is-tech-debt.html</loc>
+    <lastmod>2026-06-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://stewartmasters.me/faq/how-to-build-an-ai-business-case.html</loc>
     <lastmod>2026-05-12</lastmod>
     <changefreq>monthly</changefreq>

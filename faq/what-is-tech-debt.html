@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What is tech debt and why does it matter? — Stewart Masters</title>
+  <meta name="description" content="Tech debt is the accumulated cost of shortcut decisions in software development. Here's what it actually means for a growing business — and why it's a leadership problem, not just a developer problem.">
+  <link rel="canonical" href="https://stewartmasters.me/faq/what-is-tech-debt.html">
+
+  <meta property="og:title" content="What is tech debt and why does it matter? — Stewart Masters">
+  <meta property="og:description" content="Tech debt is the accumulated cost of shortcut decisions in software development. Here's what it actually means for a growing business — and why it's a leadership problem, not just a developer problem.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://stewartmasters.me/faq/what-is-tech-debt.html">
+  <meta property="og:site_name" content="Stewart Masters">
+
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is tech debt and why does it matter?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tech debt refers to the accumulated cost of shortcut decisions made during software development \u2014 code written quickly to meet a deadline, systems integrated without proper architecture, features built on top of foundations that weren't designed to support them. Like financial debt, it accrues interest: the longer it's left, the more expensive it becomes. Tech debt is not a developer problem \u2014 it's a business problem. It manifests as slower product development (everything takes longer because the codebase is harder to work in), higher costs (maintaining complex systems costs more than maintaining clean ones), increased operational risk (fragile systems break more often and are harder to fix), and difficulty attracting and retaining good technical talent. When leadership hears 'we need to slow down to fix the foundations', tech debt is usually the reason. Tech debt is inevitable in fast-moving businesses \u2014 the goal is not to eliminate it but to manage it consciously. That means making deliberate trade-offs (choosing speed now with a clear plan to refactor later), allocating regular capacity for technical improvement rather than treating it as optional, and making the cost of tech debt visible to leadership and the board so decisions are made with full information. The most expensive tech debt is the kind leadership doesn't know they have. Making it visible is the first step to managing it responsibly."
+      }
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://stewartmasters.me"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "FAQ",
+      "item": "https://stewartmasters.me/faq/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "What is tech debt and why does it matter?",
+      "item": "https://stewartmasters.me/faq/what-is-tech-debt.html"
+    }
+  ]
+}
+  </script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T3GCWLRLH7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {'analytics_storage': 'denied'});
+    gtag('js', new Date());
+    gtag('config', 'G-T3GCWLRLH7');
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      background-color: #0D0D0D;
+      color: #ffffff;
+      font-family: 'Inter', sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    ::-webkit-scrollbar { width: 5px; }
+    ::-webkit-scrollbar-track { background: #0D0D0D; }
+    ::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: #00D4FF; }
+
+    .font-heading { font-family: 'Space Grotesk', sans-serif; }
+    .max-container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    .prose { max-width: 720px; margin: 0 auto; }
+
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      backdrop-filter: blur(24px);
+      background: rgba(13, 13, 13, 0.85);
+      border-bottom: 1px solid #1c1c1c;
+    }
+    .nav-link { font-size: 14px; color: #aaa; text-decoration: none; transition: color 0.2s; }
+    .nav-link:hover { color: #ffffff; }
+    .btn-primary {
+      display: inline-block; background: #00D4FF; color: #0D0D0D;
+      font-family: 'Space Grotesk', sans-serif; font-weight: 600;
+      padding: 10px 22px; border-radius: 4px; text-decoration: none; font-size: 14px;
+    }
+    .btn-primary:hover { background: #ffffff; }
+
+    .post-tag {
+      display: inline-block;
+      font-size: 10px; font-weight: 500; letter-spacing: 2px;
+      text-transform: uppercase; color: #00D4FF;
+      border: 1px solid #00D4FF33; padding: 5px 12px; border-radius: 20px;
+    }
+  </style>
+  <link rel="alternate" type="application/rss+xml" title="Stewart Masters" href="https://stewartmasters.me/feed.xml">
+</head>
+
+<body>
+
+<!-- Nav -->
+<nav>
+  <div class="max-container py-4 flex items-center justify-between">
+    <a href="/" class="font-heading font-semibold text-white text-lg tracking-tight">Stewart Masters</a>
+    <div class="hidden md:flex items-center gap-8">
+      <a href="/#about" class="nav-link">About</a>
+      <a href="/#services" class="nav-link">Where I Help</a>
+      <a href="/blog/" class="nav-link">Thinking</a>
+      <a href="/contact.html" class="nav-link">Contact</a>
+    </div>
+    <a href="/contact.html" class="btn-primary">Get in touch</a>
+  </div>
+</nav>
+
+
+<!-- Article header -->
+<header class="pt-40 pb-12 px-6">
+  <div class="prose">
+    <nav style="font-size: 12px; color: #333; margin-bottom: 24px;">
+      <a href="/" style="color: #444; text-decoration: none;">Home</a>
+      <span style="margin: 0 8px;">·</span>
+      <a href="/faq/" style="color: #444; text-decoration: none;">FAQ</a>
+      <span style="margin: 0 8px;">·</span>
+      <span style="color: #555;">Digital Strategy</span>
+    </nav>
+
+    <span class="post-tag">Digital Strategy</span>
+
+    <h1 class="font-heading text-4xl md:text-5xl font-bold leading-tight mt-5 mb-6">
+      What is tech debt and why does it matter?
+    </h1>
+
+    <div style="display: flex; align-items: center; gap: 16px; font-size: 13px; color: #444; padding-bottom: 24px; border-bottom: 1px solid #1e1e1e;">
+      <span>Stewart Masters</span>
+      <span>·</span>
+      <span>30 Jun 2026</span>
+    </div>
+  </div>
+</header>
+
+
+<!-- Article body -->
+<article class="px-6 pb-20">
+  <div class="prose">
+
+    <p style="color:#aaa;font-size:17px;line-height:1.85;margin-bottom:1.5rem;">
+      Tech debt refers to the accumulated cost of shortcut decisions made during software development — code written quickly to meet a deadline, systems integrated without proper architecture, features built on top of foundations that weren't designed to support them. Like financial debt, it accrues interest: the longer it's left, the more expensive it becomes.
+    </p>
+
+    <h2 class="font-heading" style="font-size:1.5rem;font-weight:700;color:#fff;margin-top:2.5rem;margin-bottom:1rem;line-height:1.25;">Why it matters to leadership, not just developers</h2>
+    <p style="color:#aaa;font-size:17px;line-height:1.85;margin-bottom:1.5rem;">Tech debt is not a developer problem — it's a business problem. It manifests as slower product development (everything takes longer because the codebase is harder to work in), higher costs (maintaining complex systems costs more than maintaining clean ones), increased operational risk (fragile systems break more often and are harder to fix), and difficulty attracting and retaining good technical talent. When leadership hears 'we need to slow down to fix the foundations', tech debt is usually the reason.</p>
+    <ul style="color:#aaa;font-size:17px;line-height:1.85;padding-left:1.5rem;margin-bottom:1.5rem;">
+      <li style="margin-bottom:0.5rem;">Every new feature takes longer and costs more than it should</li>
+      <li style="margin-bottom:0.5rem;">Bug rates are higher and incidents are harder to resolve</li>
+      <li style="margin-bottom:0.5rem;">The technical team is increasingly defensive rather than innovative</li>
+      <li style="margin-bottom:0.5rem;">It becomes harder to adopt new technology because of legacy constraints</li>
+    </ul>
+    <h2 class="font-heading" style="font-size:1.5rem;font-weight:700;color:#fff;margin-top:2.5rem;margin-bottom:1rem;line-height:1.25;">How to manage it</h2>
+    <p style="color:#aaa;font-size:17px;line-height:1.85;margin-bottom:1.5rem;">Tech debt is inevitable in fast-moving businesses — the goal is not to eliminate it but to manage it consciously. That means making deliberate trade-offs (choosing speed now with a clear plan to refactor later), allocating regular capacity for technical improvement rather than treating it as optional, and making the cost of tech debt visible to leadership and the board so decisions are made with full information.</p>
+
+    <hr style="border:none;border-top:1px solid #1e1e1e;margin:3rem 0;">
+
+    <p style="color: #777; font-size: 15px;">
+      <strong style="color: #888;">Want to talk through any of this?</strong><br>
+      The most expensive tech debt is the kind leadership doesn't know they have. Making it visible is the first step to managing it responsibly.<br><br>
+      <a href="/contact.html" style="color: #00D4FF; text-decoration: underline; text-decoration-color: #00D4FF44;">Get in touch →</a>
+    </p>
+
+  </div>
+</article>
+
+
+<!-- Author box -->
+<section class="px-6 pb-20">
+  <div class="prose">
+    <div style="background:#121212;border:1px solid #1e1e1e;border-radius:10px;padding:28px;display:flex;gap:20px;align-items:flex-start;">
+      <div style="width:56px;height:56px;border-radius:50%;background:#1e1e1e;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:11px;color:#333;">SM</div>
+      <div>
+        <div class="font-heading font-semibold mb-1">Stewart Masters</div>
+        <p style="color:#555;font-size:14px;line-height:1.6;margin:0;">
+          Strategic advisor to founders and operators. Chief Digital Officer at Honest Greens. Guest lecturer at IE Business School and ESADE. Based in Barcelona.
+          <a href="https://www.linkedin.com/in/stewartmasters/" style="color:#00D4FF;text-decoration:none;">Connect on LinkedIn →</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Related posts -->
+<section class="px-6 pb-24" style="border-top: 1px solid #1a1a1a; padding-top: 48px;">
+  <div class="prose">
+    <h2 class="font-heading text-2xl font-bold mb-6" style="margin-top: 0;">Related reading</h2>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+      <a href="/blog/tech-debt-cost.html" style="background:#121212;border:1px solid #1e1e1e;border-radius:8px;padding:24px;text-decoration:none;display:block;transition:border-color 0.3s;" onmouseover="this.style.borderColor='#2a2a2a'" onmouseout="this.style.borderColor='#1e1e1e'">
+        <span style="font-size:10px;color:#00D4FF;letter-spacing:2px;text-transform:uppercase;display:block;margin-bottom:8px;">Digital Strategy</span>
+        <span class="font-heading" style="font-weight:600;color:#fff;font-size:15px;line-height:1.4;display:block;">The real cost of tech debt in a growing business</span>
+      </a>
+      <a href="/blog/build-vs-buy.html" style="background:#121212;border:1px solid #1e1e1e;border-radius:8px;padding:24px;text-decoration:none;display:block;transition:border-color 0.3s;" onmouseover="this.style.borderColor='#2a2a2a'" onmouseout="this.style.borderColor='#1e1e1e'">
+        <span style="font-size:10px;color:#00D4FF;letter-spacing:2px;text-transform:uppercase;display:block;margin-bottom:8px;">Digital Strategy</span>
+        <span class="font-heading" style="font-weight:600;color:#fff;font-size:15px;line-height:1.4;display:block;">When to build vs buy</span>
+      </a>
+      <a href="/blog/digital-transformation-failures.html" style="background:#121212;border:1px solid #1e1e1e;border-radius:8px;padding:24px;text-decoration:none;display:block;transition:border-color 0.3s;" onmouseover="this.style.borderColor='#2a2a2a'" onmouseout="this.style.borderColor='#1e1e1e'">
+        <span style="font-size:10px;color:#00D4FF;letter-spacing:2px;text-transform:uppercase;display:block;margin-bottom:8px;">Digital Strategy</span>
+        <span class="font-heading" style="font-weight:600;color:#fff;font-size:15px;line-height:1.4;display:block;">Why digital transformations fail</span>
+      </a>
+    </div>
+    <div style="text-align: center; margin-top: 24px;">
+      <a href="/faq/" style="color: #444; font-size: 14px; text-decoration: none;">← All questions</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="py-10 px-6" style="border-top: 1px solid #141414;">
+  <div class="max-container flex flex-col md:flex-row items-center justify-between gap-4">
+    <span class="font-heading font-semibold" style="color: #888;">Stewart Masters</span>
+    <div class="flex gap-6" style="font-size: 13px;">
+      <a href="/#about" class="nav-link">About</a>
+      <a href="/#services" class="nav-link">Where I Help</a>
+      <a href="/blog/" class="nav-link">Thinking</a>
+      <a href="/faq/" class="nav-link" style="color:#fff;">FAQ</a>
+      <a href="/contact.html" class="nav-link">Contact</a>
+    </div>
+    <a href="https://www.linkedin.com/in/stewartmasters/" target="_blank" rel="noopener" class="nav-link" style="font-size: 13px;">LinkedIn →</a>
+  </div>
+  <div class="max-container mt-10 text-center" style="font-size: 11px; color: #888; letter-spacing: 2px; padding-top: 1.5rem;">BARCELONA · LONDON · MADRID</div>
+</footer>
+
+<script src="/cookie-consent.js"></script>
+</body>
+</html>
