@@ -86,7 +86,7 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "How to Actually Implement AI in Operations",
-    "description": "There's a wide gap between exploring AI and having it run in your operations. Here's what that gap consists of — and how to close it.",
+    "description": "There's a wide gap between exploring AI and having it run in your operations. Here's what that gap consists of, and how to close it.",
     "author": { "@type": "Person", "name": "Stewart Masters", "url": "https://stewartmasters.me" },
     "publisher": { "@type": "Person", "name": "Stewart Masters", "url": "https://stewartmasters.me" },
     "datePublished": "2026-04-22",
@@ -150,31 +150,31 @@
     <div class="prose-container">
       <div class="prose">
 
-        <p>There's a significant gap between the conversation most organisations are having about AI — "how do we use it?" — and what it actually takes to have AI running in production operations. The gap is not primarily technical. It's organisational, and it's predictable. Understanding what it consists of is the first step to closing it.</p>
+        <p>There's a significant gap between the conversation most organisations are having about AI — "how do we use it?", and what it actually takes to have AI running in production operations. The gap is not primarily technical. It's organisational, and it's predictable. Understanding what it consists of is the first step to closing it.</p>
 
         <h2>Start with problem selection, not tool selection</h2>
         <p>The right starting point is identifying operational problems that are genuinely worth solving with AI, as opposed to better processes, traditional automation, or simply more disciplined human execution. Not every operational problem is an AI problem, and applying AI to the wrong problems wastes significant time and money while producing nothing useful.</p>
         <p>Good candidates for AI in operations share certain characteristics: they involve repetitive decisions using variable inputs, they have enough historical data to learn from, the cost of a wrong decision is manageable, and the volume of decisions is high enough that automation produces real efficiency gains. Bad candidates are usually edge cases, novel situations, or decisions where the context is too complex or sensitive to encode.</p>
 
         <h2>Get honest about data state before you commit</h2>
-        <p>AI in operations is built on operational data. Before committing time and budget to any implementation, you need an honest assessment of whether that data is accessible, clean, consistently formatted, and sufficiently labelled. In most organisations this assessment will reveal problems. Some are fixable quickly; some are multi-year programmes. Knowing which is which before you start is essential — not optional.</p>
-        <p>The organisations that move fastest on AI in operations are typically those that have invested in data infrastructure for other reasons — analytics, reporting, operational dashboards — and have cleaner, more accessible data as a result. If that infrastructure doesn't exist, building it is usually a prerequisite, not a parallel track.</p>
+        <p>AI in operations is built on operational data. Before committing time and budget to any implementation, you need an honest assessment of whether that data is accessible, clean, consistently formatted, and sufficiently labelled. In most organisations this assessment will reveal problems. Some are fixable quickly; some are multi-year programmes. Knowing which is which before you start is essential, not optional.</p>
+        <p>The organisations that move fastest on AI in operations are typically those that have invested in data infrastructure for other reasons, analytics, reporting, operational dashboards, and have cleaner, more accessible data as a result. If that infrastructure doesn't exist, building it is usually a prerequisite, not a parallel track.</p>
 
         <h2>Build vs buy in an AI context</h2>
         <p>Most operational AI use cases don't require custom model development. The choice is usually between configuring an existing vendor solution, fine-tuning a foundation model on your operational data, or using AI APIs to build a custom application. The right choice depends on the specificity of your use case, your data privacy requirements, the degree to which you need the system to reflect your specific operational context, and the cost of maintaining a custom system over time.</p>
         <p>A common mistake is defaulting to custom development because it feels more "strategic." Custom development creates more control but also more maintenance burden, more dependency on technical capability, and more risk that the system falls behind as the underlying technology evolves. Start with what's available, and build custom only when there's a specific reason to.</p>
 
         <h2>Integration architecture matters more than the model</h2>
-        <p>AI that sits outside the systems people actually use has limited operational impact. The most common failure in AI implementation is building something that works in isolation but doesn't connect to the workflows where decisions are actually made. A demand forecasting model that runs in a notebook and requires someone to extract and apply its output manually is not an operational AI system — it's a decision support tool with high friction.</p>
+        <p>AI that sits outside the systems people actually use has limited operational impact. The most common failure in AI implementation is building something that works in isolation but doesn't connect to the workflows where decisions are actually made. A demand forecasting model that runs in a notebook and requires someone to extract and apply its output manually is not an operational AI system, it's a decision support tool with high friction.</p>
         <p>Think about integration from the start: where will the output appear, how will it be actioned, what systems need to send data to the model, and what needs to happen when the model is wrong or uncertain? These are product design questions as much as technical ones.</p>
 
         <h2>The humans in the loop matter most</h2>
-        <p>The change management work — getting the people who will use the system to understand it, trust it, and integrate it into how they actually work — is typically underestimated and underfunded relative to the technical build. This is the most consistent pattern in AI implementations that fail at the deployment stage.</p>
-        <p>Operational staff need to understand what the system does and doesn't do, what it's optimised for, where it will be wrong, and how to handle the cases where it can't help. Training is part of this. Involvement in the design and testing phase is more important — people who have been part of building something are far more likely to trust and use it than those who have had it presented to them as a finished product.</p>
+        <p>The change management work, getting the people who will use the system to understand it, trust it, and integrate it into how they actually work, is typically underestimated and underfunded relative to the technical build. This is the most consistent pattern in AI implementations that fail at the deployment stage.</p>
+        <p>Operational staff need to understand what the system does and doesn't do, what it's optimised for, where it will be wrong, and how to handle the cases where it can't help. Training is part of this. Involvement in the design and testing phase is more important, people who have been part of building something are far more likely to trust and use it than those who have had it presented to them as a finished product.</p>
 
         <h2>Define the measurement before you launch</h2>
-        <p>What does this system need to do to be considered successful? Define it before launch: the baseline metric, the target, the measurement method, and the timeframe. Six months after deployment, you should be able to say clearly whether the implementation has delivered — not construct a retrospective case around whatever the numbers happen to show.</p>
-        <p>This discipline also forces clarity about what you're actually optimising for. "More efficient operations" is not a measurement. Reduction in time-to-decision for a specific process, or improvement in forecast accuracy, or reduction in manual exceptions handled — these are measurements. Organisations that define them upfront tend to deliver on them.</p>
+        <p>What does this system need to do to be considered successful? Define it before launch: the baseline metric, the target, the measurement method, and the timeframe. Six months after deployment, you should be able to say clearly whether the implementation has delivered, not construct a retrospective case around whatever the numbers happen to show.</p>
+        <p>This discipline also forces clarity about what you're actually optimising for. "More efficient operations" is not a measurement. Reduction in time-to-decision for a specific process, or improvement in forecast accuracy, or reduction in manual exceptions handled, these are measurements. Organisations that define them upfront tend to deliver on them.</p>
 
       </div>
 
