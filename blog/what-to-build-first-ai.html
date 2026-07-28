@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>What to Build First When Adding AI to Your Product — Stewart Masters</title>
+  <title>What to Build First When Adding AI to Your Product, Stewart Masters</title>
   <meta name="description" content="The first AI feature you add to a product shapes the expectations, the architecture, and the team's understanding of what AI is for. Choose carefully.">
   <meta property="og:title" content="What to Build First When Adding AI to Your Product">
   <meta property="og:description" content="The first AI feature you add to a product shapes the expectations, the architecture, and the team's understanding of what AI is for. Choose carefully.">
@@ -158,35 +158,35 @@
     </p>
 
     <p>
-      <strong>High in signal value.</strong> You want a feature that generates clear, measurable feedback — not just usage metrics, but signals about quality. Did the AI output help users accomplish what they were trying to do? Where did it fall short? A feature that produces this kind of signal is enormously more valuable than one that generates engagement without insight.
+      <strong>High in signal value.</strong> You want a feature that generates clear, measurable feedback, not just usage metrics, but signals about quality. Did the AI output help users accomplish what they were trying to do? Where did it fall short? A feature that produces this kind of signal is enormously more valuable than one that generates engagement without insight.
     </p>
 
     <p>
-      <strong>Low in cost of failure.</strong> The first AI feature will not be perfect. AI systems fail in ways that software systems don't — they produce plausible-sounding wrong answers, they behave differently on edge cases than on typical cases, and their failure modes aren't always predictable from the design. Choosing a feature where these failures are recoverable — where the user notices, nothing bad happens, and they try again — is safer than choosing one where errors carry real consequences.
+      <strong>Low in cost of failure.</strong> The first AI feature will not be perfect. AI systems fail in ways that software systems don't, they produce plausible-sounding wrong answers, they behave differently on edge cases than on typical cases, and their failure modes aren't always predictable from the design. Choosing a feature where these failures are recoverable, where the user notices, nothing bad happens, and they try again, is safer than choosing one where errors carry real consequences.
     </p>
 
     <p>
-      <strong>Connected to a real user problem.</strong> The pressure to add AI features because competitors are adding them produces features that demonstrate AI without solving anything. These are easy to build and easy to dismiss. A feature that addresses a specific, well-documented user friction — one that users have been asking for, or one that existing data shows is causing drop-off — is the kind that changes user behaviour and generates the feedback that improves the system.
+      <strong>Connected to a real user problem.</strong> The pressure to add AI features because competitors are adding them produces features that demonstrate AI without solving anything. These are easy to build and easy to dismiss. A feature that addresses a specific, well-documented user friction, one that users have been asking for, or one that existing data shows is causing drop-off, is the kind that changes user behaviour and generates the feedback that improves the system.
     </p>
 
     <h2>Common first features that work</h2>
 
     <p>
-      <strong>Intelligent summarisation.</strong> Taking content that users already produce or consume within the product and summarising it — meeting notes, support tickets, documents, conversation threads — is a well-contained AI application with clear user value and recoverable failure modes. If the summary is wrong, users notice and can refer to the original. The output is visible, comparable, and improvable.
+      <strong>Intelligent summarisation.</strong> Taking content that users already produce or consume within the product and summarising it, meeting notes, support tickets, documents, conversation threads, is a well-contained AI application with clear user value and recoverable failure modes. If the summary is wrong, users notice and can refer to the original. The output is visible, comparable, and improvable.
     </p>
 
     <p>
-      <strong>Smart search and retrieval.</strong> Replacing keyword search with semantic search — where users can describe what they're looking for rather than guessing the exact terms — delivers immediate, demonstrable value in almost any product with a content corpus. It's architecturally clean, the success metric (did the user find what they needed?) is clear, and it creates a foundation for more sophisticated retrieval later.
+      <strong>Smart search and retrieval.</strong> Replacing keyword search with semantic search, where users can describe what they're looking for rather than guessing the exact terms, delivers immediate, demonstrable value in almost any product with a content corpus. It's architecturally clean, the success metric (did the user find what they needed?) is clear, and it creates a foundation for more sophisticated retrieval later.
     </p>
 
     <p>
-      <strong>First-draft generation.</strong> Giving users a structured starting point — a draft email, a template response, a suggested description — in contexts where they already need to produce text. This reduces the blank-page problem and speeds up a task users already do. The output is immediately revisable, so failures are low-stakes and obvious.
+      <strong>First-draft generation.</strong> Giving users a structured starting point, a draft email, a template response, a suggested description in contexts where they already need to produce text. This reduces the blank-page problem and speeds up a task users already do. The output is immediately revisable, so failures are low-stakes and obvious.
     </p>
 
     <h2>Common first features that don't work</h2>
 
     <p>
-      <strong>The chatbot.</strong> Chatbots feel like a natural first AI feature because they're highly visible and easy to demonstrate. They're also among the hardest to get right. A chatbot that disappoints users sets a negative expectation that's hard to recover from. And the failure modes — confident wrong answers, inability to handle edge cases, frustrating loops — are highly visible. Save the chatbot for when you have the infrastructure and the data quality to do it well.
+      <strong>The chatbot.</strong> Chatbots feel like a natural first AI feature because they're highly visible and easy to demonstrate. They're also among the hardest to get right. A chatbot that disappoints users sets a negative expectation that's hard to recover from. And the failure modes, confident wrong answers, inability to handle edge cases, frustrating loops, are highly visible. Save the chatbot for when you have the infrastructure and the data quality to do it well.
     </p>
 
     <p>
@@ -194,17 +194,17 @@
     </p>
 
     <p>
-      <strong>Prediction without clear action.</strong> AI that produces predictions users don't know how to act on — a churn score, a complexity rating, a risk level — without also providing the action pathway creates the impression of intelligence without the value of intelligence. Connect the prediction to something actionable before shipping it.
+      <strong>Prediction without clear action.</strong> AI that produces predictions users don't know how to act on, a churn score, a complexity rating, a risk level without also providing the action pathway creates the impression of intelligence without the value of intelligence. Connect the prediction to something actionable before shipping it.
     </p>
 
     <h2>The architectural question</h2>
 
     <p>
-      The first AI feature also makes decisions that are hard to undo. Which model provider? What data flows into the context? How do outputs get stored and evaluated? How does the feedback loop work? These aren't implementation details — they're foundations.
+      The first AI feature also makes decisions that are hard to undo. Which model provider? What data flows into the context? How do outputs get stored and evaluated? How does the feedback loop work? These aren't implementation details, they're foundations.
     </p>
 
     <p>
-      Build the first feature with the architecture in mind, not just the feature. The abstractions you put in place now — around model calls, output handling, logging, and evaluation — will either make the second and third features easier or harder to build. Take the time to get the plumbing right.
+      Build the first feature with the architecture in mind, not just the feature. The abstractions you put in place now, around model calls, output handling, logging, and evaluation, will either make the second and third features easier or harder to build. Take the time to get the plumbing right.
     </p>
 
     <p>

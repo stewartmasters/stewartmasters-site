@@ -20,9 +20,16 @@
     <guid isPermaLink="true">https://stewartmasters.me/blog/management-conversations-shifting</guid>
   </item>
   <item>
-    <title>From Pilot to Production: Why AI Projects Stall</title>
+    <title>What to Build First When Adding AI to Your Product</title>
+    <link>https://stewartmasters.me/blog/what-to-build-first-ai</link>
+    <description>The first AI feature you add to a product shapes the expectations, the architecture, and the team's understanding of what AI is for. Choose carefully.</description>
+    <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/what-to-build-first-ai</guid>
+  </item>
+  <item>
+    <title>From Pilot to Production: Why AI Projects Stall, Stewart Masters</title>
     <link>https://stewartmasters.me/blog/ai-pilot-to-production</link>
-    <description>Most organisations can run an AI pilot. Far fewer can take one into production. The gap is predictable — and fixable.</description>
+    <description>Most organisations can run an AI pilot. Far fewer can take one into production. The gap is predictable, and fixable.</description>
     <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
     <guid isPermaLink="true">https://stewartmasters.me/blog/ai-pilot-to-production</guid>
   </item>
