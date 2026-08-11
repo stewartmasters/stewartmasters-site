@@ -6,12 +6,19 @@
     <description>Operator perspectives on AI adoption, digital operations, and product execution inside real businesses.</description>
     <language>en</language>
     <atom:link href="https://stewartmasters.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 08 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://stewartmasters.me/favicon-32x32.png</url>
       <title>Stewart Masters</title>
       <link>https://stewartmasters.me</link>
     </image>
+  <item>
+    <title>What the EU AI Act Means for Your Business | Stewart Masters</title>
+    <link>https://stewartmasters.me/blog/eu-ai-act-business-leaders</link>
+    <description>The EU AI Act is now in force. Here's what business leaders need to understand about risk tiers, compliance timelines, and the steps to take now.</description>
+    <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/eu-ai-act-business-leaders</guid>
+  </item>
   <item>
     <title>What management looks like when the admin goes away, Stewart Masters</title>
     <link>https://stewartmasters.me/blog/management-conversations-shifting</link>
@@ -20,9 +27,9 @@
     <guid isPermaLink="true">https://stewartmasters.me/blog/management-conversations-shifting</guid>
   </item>
   <item>
-    <title>How to Evaluate and Select an AI Vendor</title>
+    <title>How to Evaluate and Select an AI Vendor, Stewart Masters</title>
     <link>https://stewartmasters.me/blog/ai-vendor-selection</link>
-    <description>Choosing the wrong AI vendor is expensive and hard to reverse. A structured approach to evaluating AI tools and vendors — before you sign the contract.</description>
+    <description>Choosing the wrong AI vendor is expensive and hard to reverse. A structured approach to evaluating AI tools and vendors before you sign the contract.</description>
     <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
     <guid isPermaLink="true">https://stewartmasters.me/blog/ai-vendor-selection</guid>
   </item>
