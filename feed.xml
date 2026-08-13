@@ -6,12 +6,19 @@
     <description>Operator perspectives on AI adoption, digital operations, and product execution inside real businesses.</description>
     <language>en</language>
     <atom:link href="https://stewartmasters.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 11 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://stewartmasters.me/favicon-32x32.png</url>
       <title>Stewart Masters</title>
       <link>https://stewartmasters.me</link>
     </image>
+  <item>
+    <title>How to Get Board Buy-In for a Technology Investment | Stewart Masters</title>
+    <link>https://stewartmasters.me/blog/board-buyin-technology</link>
+    <description>Technology proposals fail at board level when they lead with technology. Here's how to build a compelling case that speaks to what boards actually care about.</description>
+    <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/board-buyin-technology</guid>
+  </item>
   <item>
     <title>What the EU AI Act Means for Your Business | Stewart Masters</title>
     <link>https://stewartmasters.me/blog/eu-ai-act-business-leaders</link>
