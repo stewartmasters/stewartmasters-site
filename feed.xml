@@ -6,12 +6,19 @@
     <description>Operator perspectives on AI adoption, digital operations, and product execution inside real businesses.</description>
     <language>en</language>
     <atom:link href="https://stewartmasters.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 18 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://stewartmasters.me/favicon-32x32.png</url>
       <title>Stewart Masters</title>
       <link>https://stewartmasters.me</link>
     </image>
+  <item>
+    <title>AI in Multi-Site Operations: Where It Actually Helps | Stewart Masters</title>
+    <link>https://stewartmasters.me/blog/ai-multi-site-operations</link>
+    <description>AI promises a lot for businesses running across multiple sites. Here's where it genuinely delivers — and where it is still more hype than help.</description>
+    <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/ai-multi-site-operations</guid>
+  </item>
   <item>
     <title>Building a Digital Team from Scratch | Stewart Masters</title>
     <link>https://stewartmasters.me/blog/building-digital-team</link>
