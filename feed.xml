@@ -6,12 +6,19 @@
     <description>Operator perspectives on AI adoption, digital operations, and product execution inside real businesses.</description>
     <language>en</language>
     <atom:link href="https://stewartmasters.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://stewartmasters.me/favicon-32x32.png</url>
       <title>Stewart Masters</title>
       <link>https://stewartmasters.me</link>
     </image>
+  <item>
+    <title>AI Adoption for SMEs: A Practical Starting Point | Stewart Masters</title>
+    <link>https://stewartmasters.me/blog/ai-adoption-smes</link>
+    <description>You don't need a data science team or a six-figure budget to start using AI effectively. A grounded guide for SME leaders who want to begin in the right place.</description>
+    <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://stewartmasters.me/blog/ai-adoption-smes</guid>
+  </item>
   <item>
     <title>How to Write a Board Report on Technology | Stewart Masters</title>
     <link>https://stewartmasters.me/blog/board-report-technology</link>
