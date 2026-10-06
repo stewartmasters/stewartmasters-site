@@ -83,6 +83,12 @@
   <!-- FAQ pages (auto-populated by publish_faq.py) -->
 <!-- FAQ_URLS_START -->
   <url>
+    <loc>https://stewartmasters.me/faq/what-is-shadow-ai.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://stewartmasters.me/faq/how-to-run-a-board-meeting.html</loc>
     <lastmod>2026-09-29</lastmod>
     <changefreq>monthly</changefreq>
